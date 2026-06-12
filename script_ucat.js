@@ -7,7 +7,7 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 async function saveUserToSupabase(student) {
   if (SUPABASE_URL === 'YOUR_SUPABASE_URL') return;
   try {
-    await fetch(`${SUPABASE_URL}/rest/v1/sat_topic_user`, {
+    await fetch(`${SUPABASE_URL}/rest/v1/Ucat_diagnosis`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -31,7 +31,7 @@ async function saveUserToSupabase(student) {
 async function saveToSupabase(result) {
   if (SUPABASE_URL === 'YOUR_SUPABASE_URL') return { ok: false, msg: 'Supabase not configured' };
   try {
-    const resp = await fetch(`${SUPABASE_URL}/rest/v1/sat_topic_report`, {
+    const resp = await fetch(`${SUPABASE_URL}/rest/v1/Ucat_diagnosis`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
