@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduQuest – UCAT Diagnostic Test</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --accent: #7c3aed;
+    --accent2: #a855f7;
+    --bg: #0f0a1e;
+    --surface: #1a1030;
+    --surface2: #231848;
+    --border: rgba(124,58,237,0.2);
+    --text: #f1f0f5;
+    --muted: #8b83a3;
+    --green: #10b981;
+    --font: 'IBM Plex Sans', sans-serif;
+    --head: 'Syne', sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font); min-height: 100vh; }
+
+  /* HEADER */
+  .hdr {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(15,10,30,0.95); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; padding: 0 28px; height: 58px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-family: var(--head); font-weight: 700; font-size: 1.1rem; }
+  .brand-pill { background: rgba(124,58,237,0.18); color: var(--accent2); border: 1px solid rgba(124,58,237,0.3); border-radius: 20px; padding: 2px 12px; font-size: 0.72rem; font-family: var(--font); font-weight: 500; }
+
+  /* HERO */
+  .hero { max-width: 680px; margin: 0 auto; padding: 64px 24px 80px; text-align: center; }
+  .hero-badge { display: inline-block; background: rgba(124,58,237,0.12); border: 1px solid rgba(124,58,237,0.25); color: var(--accent2); border-radius: 20px; padding: 5px 16px; font-size: 0.78rem; margin-bottom: 20px; letter-spacing: 0.04em; }
+  .hero h1 { font-family: var(--head); font-size: clamp(2.2rem,5vw,3.4rem); font-weight: 800; line-height: 1.1; margin-bottom: 18px; }
+  .hero h1 span { background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .hero p { color: var(--muted); font-size: 1.02rem; line-height: 1.7; max-width: 520px; margin: 0 auto 40px; }
+
+  /* CARD */
+  .card-wrap { display: flex; justify-content: center; }
+  .exam-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px 28px;
+    width: 100%; max-width: 380px;
+    display: flex; flex-direction: column; align-items: center;
+    text-align: center; gap: 8px;
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 8px 40px rgba(124,58,237,0.08);
+  }
+  .exam-card:hover {
+    border-color: var(--accent2);
+    transform: translateY(-4px);
+    box-shadow: 0 16px 60px rgba(124,58,237,0.2);
+  }
+  .card-icon { font-size: 2.8rem; margin-bottom: 4px; }
+  .card-label { font-size: 0.7rem; color: var(--accent2); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; }
+  .card-title { font-family: var(--head); font-size: 1.5rem; font-weight: 800; margin: 4px 0; }
+  .card-sub { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+  .tag { display: inline-block; background: rgba(16,185,129,0.1); color: var(--green); border: 1px solid rgba(16,185,129,0.2); border-radius: 20px; padding: 3px 12px; font-size: 0.7rem; font-weight: 600; margin: 8px 0; }
+
+  /* Subtest pills */
+  .subtests { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 10px 0; }
+  .sub-pill { background: rgba(124,58,237,0.1); border: 1px solid rgba(124,58,237,0.2); color: var(--accent2); border-radius: 20px; padding: 3px 10px; font-size: 0.68rem; }
+
+  .card-btn {
+    display: block; width: 100%; margin-top: 10px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff; text-decoration: none;
+    padding: 13px 20px; border-radius: 10px;
+    font-weight: 600; font-size: 0.92rem;
+    transition: opacity 0.2s, transform 0.2s;
+  }
+  .card-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+
+  footer { text-align: center; padding: 32px; color: var(--muted); font-size: 0.78rem; border-top: 1px solid var(--border); margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="brand">
+    <span>🏥</span><span>EduQuest</span>
+    <span class="brand-pill">UCAT Diagnostic</span>
+  </div>
+</header>
+
+<main class="hero">
+  <div class="hero-badge">✦ Free UCAT Diagnostic Test</div>
+  <h1>UCAT<br><span>Diagnostic Test</span></h1>
+  <p>Find out exactly where you stand before your UCAT preparation. 28 authentic-style questions across all 5 subtests — timed, scored, and instantly reported.</p>
+
+  <div class="card-wrap">
+    <div class="exam-card">
+      <div class="card-icon">🏥</div>
+      <div class="card-label">Diagnostic Test</div>
+      <div class="card-title">UCAT Full Spectrum</div>
+      <div class="card-sub">28 Questions · 45 Minutes · All Subtests</div>
+      <div class="subtests">
+        <span class="sub-pill">📖 Verbal Reasoning</span>
+        <span class="sub-pill">🧩 Decision Making</span>
+        <span class="sub-pill">🔢 Quantitative Reasoning</span>
+        <span class="sub-pill">🔷 Abstract Reasoning</span>
+        <span class="sub-pill">⚖️ Situational Judgement</span>
+      </div>
+      <span class="tag">✓ Available Now</span>
+      <a href="./test_ucat.html" class="card-btn">▶ &nbsp;Start Diagnostic →</a>
+    </div>
+  </div>
+</main>
+
+<footer>© EduQuest · UCAT Diagnostic Test · Free for all students</footer>
+</body>
+</html>
