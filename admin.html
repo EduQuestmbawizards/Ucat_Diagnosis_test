@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduQuest UCAT Admin</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
+
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      background: #0d0d14;
+      color: #fff;
+      min-height: 100vh
+    }
+
+    .hdr {
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06)
+    }
+
+    .brand {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700
+    }
+
+    .logout {
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 6px 14px;
+      border-radius: 6px
+    }
+
+    .logout:hover {
+      border-color: #1a56db;
+      color: #fff
+    }
+
+    /* Login */
+    .login-wrap {
+      max-width: 380px;
+      margin: 100px auto;
+      padding: 20px
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 36px 28px
+    }
+
+    h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      text-align: center
+    }
+
+    .field {
+      margin-bottom: 14px
+    }
+
+    .field label {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      margin-bottom: 6px
+    }
+
+    .field input {
+      width: 100%;
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      padding: 11px 14px;
+      font-family: inherit;
+      font-size: 0.95rem;
+      outline: none;
+      background: rgba(255, 255, 255, 0.03);
+      color: #fff
+    }
+
+    .field input:focus {
+      border-color: #1a56db
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      background: linear-gradient(135deg, #1a56db, #1e429f);
+      color: #fff;
+      margin-top: 6px
+    }
+
+    .btn:hover {
+      transform: translateY(-1px)
+    }
+
+    #loginMsg {
+      text-align: center;
+      font-size: 0.85rem;
+      margin-top: 10px;
+      color: #f87171;
+      min-height: 18px
+    }
+
+    /* Dashboard */
+    .wrap {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px
+    }
+
+    .stats {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 20px;
+      flex-wrap: wrap
+    }
+
+    .stat {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 16px 22px;
+      flex: 1;
+      min-width: 120px
+    }
+
+    .stat .num {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #60a5fa
+    }
+
+    .stat .lbl {
+      font-size: 0.75rem;
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      margin-top: 2px
+    }
+
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px
+    }
+
+    .tab {
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: rgba(255, 255, 255, 0.6)
+    }
+
+    .tab.active {
+      background: rgba(26, 86, 219, 0.2);
+      border-color: #1a56db;
+      color: #fff
+    }
+
+    .search {
+      width: 100%;
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      background: rgba(255, 255, 255, 0.03);
+      color: #fff;
+      margin-bottom: 16px
+    }
+
+    .search:focus {
+      border-color: #1a56db
+    }
+
+    .user-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap
+    }
+
+    .user-info {
+      flex: 1;
+      min-width: 200px
+    }
+
+    .user-info .email {
+      font-weight: 600;
+      font-size: 0.95rem
+    }
+
+    .user-info .meta {
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.45);
+      margin-top: 3px
+    }
+
+    .badge {
+      font-size: 0.72rem;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 6px
+    }
+
+    .badge.granted {
+      background: rgba(5, 150, 105, 0.15);
+      color: #6ee7b7;
+      border: 1px solid rgba(5, 150, 105, 0.3)
+    }
+
+    .badge.pending {
+      background: rgba(217, 119, 6, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(217, 119, 6, 0.3)
+    }
+
+    .actions {
+      display: flex;
+      gap: 8px
+    }
+
+    .btn-sm {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none
+    }
+
+    .btn-approve {
+      background: #059669;
+      color: #fff
+    }
+
+    .btn-approve:hover {
+      background: #047857
+    }
+
+    .btn-revoke {
+      background: rgba(220, 38, 38, 0.15);
+      color: #f87171;
+      border: 1px solid rgba(220, 38, 38, 0.3)
+    }
+
+    .btn-revoke:hover {
+      background: rgba(220, 38, 38, 0.25)
+    }
+
+    .org-input {
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      background: rgba(255, 255, 255, 0.03);
+      color: #fff;
+      font-family: inherit;
+      width: 120px
+    }
+
+    .empty {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.4);
+      padding: 40px;
+      font-size: 0.9rem
+    }
+
+    .loading {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.4);
+      padding: 40px
+    }
+
+    /* ── Reports Tab Styles ──────────────── */
+    .reports-section { display: none }
+    .reports-section.active { display: block }
+    .users-section.active { display: block }
+
+    .report-search {
+      width: 100%;
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      background: rgba(255, 255, 255, 0.03);
+      color: #fff;
+      margin-bottom: 16px
+    }
+
+    .report-search:focus { border-color: #7c3aed }
+
+    .student-report-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: border-color 0.2s
+    }
+
+    .student-report-card:hover { border-color: rgba(124, 58, 237, 0.3) }
+
+    .src-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px;
+      cursor: pointer;
+      gap: 14px;
+      flex-wrap: wrap
+    }
+
+    .src-header:hover { background: rgba(255, 255, 255, 0.02) }
+
+    .src-info { flex: 1; min-width: 200px }
+    .src-email { font-weight: 600; font-size: 0.95rem }
+    .src-meta { font-size: 0.78rem; color: rgba(255, 255, 255, 0.4); margin-top: 3px }
+
+    .src-stats {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap
+    }
+
+    .src-stat {
+      text-align: center;
+      min-width: 55px
+    }
+
+    .src-stat .ss-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: #a78bfa
+    }
+
+    .src-stat .ss-lbl {
+      font-size: 0.68rem;
+      color: rgba(255, 255, 255, 0.35);
+      text-transform: uppercase;
+      letter-spacing: .04em
+    }
+
+    .src-toggle {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.3);
+      transition: transform 0.3s
+    }
+
+    .src-toggle.open { transform: rotate(180deg) }
+
+    .src-body {
+      display: none;
+      padding: 0 20px 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06)
+    }
+
+    .src-body.open { display: block }
+
+    .src-test-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      font-size: 0.85rem;
+      gap: 10px;
+      flex-wrap: wrap
+    }
+
+    .src-test-row:last-child { border-bottom: none }
+
+    .str-topic { font-weight: 600; min-width: 140px }
+    .str-date { color: rgba(255, 255, 255, 0.4); font-size: 0.78rem }
+
+    .str-scores {
+      display: flex;
+      gap: 12px;
+      align-items: center
+    }
+
+    .str-scores span { font-size: 0.82rem }
+
+    .admin-score-pill {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 600
+    }
+
+    .admin-score-pill.high { background: rgba(5,150,105,0.15); color: #6ee7b7; border: 1px solid rgba(5,150,105,0.3) }
+    .admin-score-pill.mid { background: rgba(217,119,6,0.15); color: #fbbf24; border: 1px solid rgba(217,119,6,0.3) }
+    .admin-score-pill.low { background: rgba(220,38,38,0.15); color: #f87171; border: 1px solid rgba(220,38,38,0.3) }
+
+    .btn-combine-admin {
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      background: linear-gradient(135deg, #7c3aed, #5b21b6);
+      color: #fff;
+      margin-top: 10px;
+      transition: all 0.2s
+    }
+
+    .btn-combine-admin:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(124, 58, 237, 0.3)
+    }
+
+    .admin-combined {
+      margin-top: 16px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(124, 58, 237, 0.2);
+      border-radius: 12px;
+      animation: fadeIn 0.3s ease
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px) }
+      to { opacity: 1; transform: translateY(0) }
+    }
+
+    .admin-combined h4 {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 12px
+    }
+
+    .ac-stats {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 14px
+    }
+
+    .ac-stat {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 8px;
+      padding: 10px 14px;
+      text-align: center;
+      min-width: 70px
+    }
+
+    .ac-stat .acn {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800
+    }
+
+    .ac-stat .acl {
+      font-size: 0.65rem;
+      color: rgba(255, 255, 255, 0.35);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-top: 2px
+    }
+
+    .admin-chart-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 12px
+    }
+
+    .admin-chart-box {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      padding: 14px
+    }
+
+    .admin-chart-box h5 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 10px
+    }
+
+    .report-empty {
+      text-align: center;
+      padding: 40px;
+      color: rgba(255, 255, 255, 0.35)
+    }
+
+    .report-stat-row {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 20px;
+      flex-wrap: wrap
+    }
+
+    .rstat {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 16px 22px;
+      flex: 1;
+      min-width: 120px
+    }
+
+    .rstat .rnum {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #a78bfa
+    }
+
+    .rstat .rlbl {
+      font-size: 0.75rem;
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      margin-top: 2px
+    }
+
+    @media (max-width: 768px) {
+      .admin-chart-grid { grid-template-columns: 1fr }
+      .src-stats { gap: 10px }
+    }
+
+    /* ── Modal (Individual Test Detail) ────── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(6px);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 20px
+    }
+
+    .modal-overlay.open {
+      display: flex
+    }
+
+    .modal-box {
+      background: #13131e;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 28px;
+      max-width: 700px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      animation: fadeSlide 0.3s ease
+    }
+
+    .modal-box::-webkit-scrollbar { width: 6px }
+    .modal-box::-webkit-scrollbar-track { background: transparent }
+    .modal-box::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px }
+
+    .modal-hdr {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px
+    }
+
+    .modal-hdr h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700
+    }
+
+    .modal-close {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s
+    }
+
+    .modal-close:hover {
+      background: rgba(220, 38, 38, 0.2);
+      border-color: rgba(220, 38, 38, 0.4)
+    }
+
+    .modal-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 20px
+    }
+
+    .modal-stat {
+      text-align: center;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.06)
+    }
+
+    .modal-stat .ms-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 800
+    }
+
+    .modal-stat .ms-lbl {
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.4);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-top: 2px
+    }
+
+    .modal-chart-wrap {
+      margin-bottom: 20px;
+      max-width: 260px;
+      margin-left: auto;
+      margin-right: auto
+    }
+
+    .q-review-hdr {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08)
+    }
+
+    .q-item {
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      font-size: 0.84rem
+    }
+
+    .q-item .q-id {
+      font-weight: 600;
+      margin-right: 6px
+    }
+
+    .q-item .q-status {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      margin-left: 6px
+    }
+
+    .q-status.correct { background: rgba(5,150,105,0.15); color: #6ee7b7 }
+    .q-status.wrong { background: rgba(220,38,38,0.15); color: #f87171 }
+    .q-status.unattempted { background: rgba(217,119,6,0.15); color: #fbbf24 }
+
+    .q-detail {
+      margin-top: 4px;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.5)
+    }
+
+    .q-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+    .q-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .q-card-text {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 12px;
+      white-space: pre-wrap;
+      text-align: left;
+    }
+    .q-image-container {
+      text-align: center;
+      margin-bottom: 14px;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 8px;
+      padding: 10px;
+      border: 1px dashed rgba(255, 255, 255, 0.1);
+    }
+    .q-image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .q-card-opts {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .q-card-opt {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+      text-align: left;
+    }
+    .q-card-opt-letter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      font-weight: 600;
+      font-size: 0.75rem;
+      flex-shrink: 0;
+    }
+    .q-card-opt.correct {
+      border-color: #059669;
+      background: rgba(5, 150, 105, 0.1);
+      color: #6ee7b7;
+    }
+    .q-card-opt.correct .q-card-opt-letter {
+      background: #059669;
+      color: #fff;
+    }
+    .q-card-opt.wrong-chosen {
+      border-color: #dc2626;
+      background: rgba(220, 38, 38, 0.1);
+      color: #f87171;
+    }
+    .q-card-opt.wrong-chosen .q-card-opt-letter {
+      background: #dc2626;
+      color: #fff;
+    }
+    .q-card-exp {
+      background: rgba(124, 58, 237, 0.05);
+      border-left: 3px solid #7c3aed;
+      padding: 10px 14px;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.8rem;
+      color: #c084fc;
+      line-height: 1.4;
+      text-align: left;
+    }
+    .loading-spinner {
+      text-align: center;
+      padding: 40px 20px;
+      color: rgba(255, 255, 255, 0.4)
+    }
+    .loading-spinner::after {
+      content: '';
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      border: 3px solid rgba(124, 58, 237, 0.2);
+      border-top-color: #7c3aed;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-top: 12px
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg) }
+    }
+    @keyframes fadeSlide {
+      from { opacity: 0; transform: translateY(16px) }
+      to { opacity: 1; transform: translateY(0) }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- LOGIN SCREEN -->
+  <div id="loginScreen">
+    <header class="hdr">
+      <div class="brand">🏥 EduQuest Admin</div>
+      <div></div>
+    </header>
+    <div class="login-wrap">
+      <div class="card">
+        <h2>Admin Login</h2>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" id="adminEmail" placeholder="admin@email.com">
+        </div>
+        <div class="field">
+          <label>Password</label>
+          <input type="password" id="adminPassword" placeholder="••••••••">
+        </div>
+        <button class="btn" onclick="adminLogin()">Login</button>
+        <p id="loginMsg"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DASHBOARD -->
+  <div id="dashboard" style="display:none">
+    <header class="hdr">
+      <div class="brand">🏥 EduQuest Admin</div>
+      <button class="logout" onclick="adminLogout()">Logout</button>
+    </header>
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat">
+          <div class="num" id="statTotal">–</div>
+          <div class="lbl">Total Users</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="statSatApproved">–</div>
+          <div class="lbl">SAT Approved</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="statSatPending">–</div>
+          <div class="lbl">SAT Pending</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="statTopicApproved">–</div>
+          <div class="lbl">Topic Approved</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="statTopicPending">–</div>
+          <div class="lbl">Topic Pending</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="statActApproved">–</div>
+          <div class="lbl">ACT Approved</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="statActPending">–</div>
+          <div class="lbl">ACT Pending</div>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <div class="tab active" data-filter="pending" onclick="setFilter('pending')">Pending</div>
+        <div class="tab" data-filter="approved" onclick="setFilter('approved')">Approved</div>
+        <div class="tab" data-filter="all" onclick="setFilter('all')">All</div>
+        <div class="tab" data-filter="reports" onclick="setFilter('reports')">📊 Reports</div>
+      </div>
+
+      <!-- Users Section -->
+      <div id="usersSection" class="users-section active">
+        <input type="text" class="search" id="searchBox" placeholder="Search by email..." oninput="renderList()">
+        <div id="userList">
+          <div class="loading">Loading...</div>
+        </div>
+      </div>
+
+      <!-- Reports Section -->
+      <div id="reportsSection" class="reports-section">
+        <div class="report-stat-row" id="reportOverviewStats"></div>
+        <input type="text" class="report-search" id="reportSearchBox" placeholder="Search student by email..." oninput="renderReportsList()">
+        <div id="reportsList">
+          <div class="loading">Loading reports...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Individual Test Detail Modal ────── -->
+  <div class="modal-overlay" id="testModal">
+    <div class="modal-box" id="modalContent">
+      <!-- Filled dynamically -->
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase.js"></script>
+  <script>
+    const ADMIN_EMAIL = 'rupali.eduquest@gmail.com'; // <-- yahan apna admin email daalo
+
+    const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
+
+    let allProfiles = [];
+    let currentFilter = 'pending';
+    const LETTERS = ['A', 'B', 'C', 'D'];
+    let modalChart = null;
+
+    // ── Topic to Question file mapping ─────
+    const TOPIC_QUESTIONS_MAP = {
+      'Reading Comprehension': { q: './questions.js', dir: '.' },
+      'Vocabulary in Context': { q: './topic2/questions2.js', dir: './topic2' },
+      'Grammar & Usage': { q: './topic-3/questions.js', dir: './topic-3' },
+      'Sentence Completion': { q: './topic4/questions.js', dir: './topic4' },
+      'Rhetorical Skills': { q: './topic5/questions.js', dir: './topic5' },
+      'Critical Thinking & Data': { q: './test_6/questions.js', dir: './test_6' },
+      'Paired Passages': { q: './topic_7/questions.js', dir: './topic_7' },
+      'Research Notes Questions': { q: './topic_8/questions.js', dir: './topic_8' },
+      'Numbers & Operations': { q: './topic_9/questions.js', dir: './topic_9' },
+      'Linear Algebra': { q: './topic_10/questions.js', dir: './topic_10' },
+      'Functions & Graphs': { q: './topic_11/questions.js', dir: './topic_11' },
+      'Quadratics & Polynomials': { q: './topic_12/questions.js', dir: './topic_12' },
+      'Geometry': { q: './topic_13/questions.js', dir: './topic_13' },
+      'Trigonometry': { q: './topic_14/questions.js', dir: './topic_14' },
+      'Statistics & Probability': { q: './topic_15/questions.js', dir: './topic_15' },
+      'Advanced Math': { q: './topic_16/questions.js', dir: './topic_16' },
+      'Words in Context': { q: './wic/questions_wic.js', dir: './wic' },
+      'Text Structure and Purpose': { q: './text_structure_purpose/questions_sp.js', dir: './text_structure_purpose' },
+      'Central Ideas and Details': { q: './Central_Ideas_and_Details/questions_cid.js', dir: './Central_Ideas_and_Details' },
+      'Command of Evidence: Textual': { q: './coe_textual/questions_coe_textual.js', dir: './coe_textual' },
+      'Inferences': { q: './inferences/questions.js', dir: './inferences' },
+      'UCAT Diagnostic': { q: './questions.js', dir: '.' }
+    };
+
+    const loadedQuestionsCache = {};
+    const loadedImagesCache = {};
+
+    function getTopicMapping(topicName) {
+      if (!topicName) return null;
+      const clean = topicName.trim().toLowerCase();
+      const key = Object.keys(TOPIC_QUESTIONS_MAP).find(k => k.trim().toLowerCase() === clean);
+      return key ? { key, ...TOPIC_QUESTIONS_MAP[key] } : null;
+    }
+
+    function loadQuestionsForTopic(topicName) {
+      if (loadedQuestionsCache[topicName]) {
+        return Promise.resolve(loadedQuestionsCache[topicName]);
+      }
+      return new Promise((resolve) => {
+        const mapping = TOPIC_QUESTIONS_MAP[topicName];
+        const path = mapping ? mapping.q : null;
+        if (!path) {
+          resolve(null);
+          return;
+        }
+
+        const loadViaIframe = () => {
+          try {
+            const iframe = document.createElement('iframe');
+            iframe.style.display = 'none';
+            document.body.appendChild(iframe);
+            const doc = iframe.contentDocument || iframe.contentWindow.document;
+            const script = doc.createElement('script');
+            script.src = path;
+            script.onload = () => {
+              try {
+                const qs = iframe.contentWindow.QUESTIONS;
+                if (qs && Array.isArray(qs)) {
+                  loadedQuestionsCache[topicName] = qs;
+                  resolve(qs);
+                } else {
+                  resolve(null);
+                }
+              } catch(e) {
+                resolve(null);
+              }
+              document.body.removeChild(iframe);
+            };
+            script.onerror = () => {
+              resolve(null);
+              document.body.removeChild(iframe);
+            };
+            doc.head.appendChild(script);
+          } catch(e) {
+            resolve(null);
+          }
+        };
+
+        fetch(path)
+          .then(res => {
+            if (!res.ok) throw new Error("Failed to load");
+            return res.text();
+          })
+          .then(text => {
+            let code = text.replace(/(const|let|var)\s+QUESTIONS\s*=/, "var local_qs =");
+            code += "\n; if (typeof local_qs !== 'undefined') { local_qs } else if (typeof QUESTIONS !== 'undefined') { QUESTIONS } else { null };";
+            try {
+              const fn = new Function(code);
+              const result = fn();
+              if (result && Array.isArray(result)) {
+                loadedQuestionsCache[topicName] = result;
+                resolve(result);
+              } else {
+                throw new Error("Eval did not yield array");
+              }
+            } catch(e) {
+              console.warn("Function execution failed, trying iframe loading", e);
+              loadViaIframe();
+            }
+          })
+          .catch(err => {
+            console.warn("Fetch failed, trying iframe loading", err);
+            loadViaIframe();
+          });
+      });
+    }
+
+    function loadImageMappingForTopic(topicName, dir) {
+      if (loadedImagesCache[topicName]) {
+        return Promise.resolve(loadedImagesCache[topicName]);
+      }
+      return new Promise((resolve) => {
+        if (dir === '.' || !dir) {
+          resolve({});
+          return;
+        }
+        const path = dir + '/images.js';
+
+        const loadViaIframe = () => {
+          try {
+            const iframe = document.createElement('iframe');
+            iframe.style.display = 'none';
+            document.body.appendChild(iframe);
+            const doc = iframe.contentDocument || iframe.contentWindow.document;
+            const script = doc.createElement('script');
+            script.src = path;
+            script.onload = () => {
+              try {
+                const imgs = iframe.contentWindow.QUESTION_IMAGES;
+                loadedImagesCache[topicName] = imgs || {};
+                resolve(imgs || {});
+              } catch(e) {
+                resolve({});
+              }
+              document.body.removeChild(iframe);
+            };
+            script.onerror = () => {
+              resolve({});
+              document.body.removeChild(iframe);
+            };
+            doc.head.appendChild(script);
+          } catch(e) {
+            resolve({});
+          }
+        };
+
+        fetch(path)
+          .then(res => {
+            if (!res.ok) throw new Error("No images.js");
+            return res.text();
+          })
+          .then(text => {
+            let code = text.replace(/(const|let|var)\s+QUESTION_IMAGES\s*=/, "var local_imgs =");
+            code += "\n; if (typeof local_imgs !== 'undefined') { local_imgs } else if (typeof QUESTION_IMAGES !== 'undefined') { QUESTION_IMAGES } else { {} };";
+            const fn = new Function(code);
+            const result = fn();
+            loadedImagesCache[topicName] = result || {};
+            resolve(result || {});
+          })
+          .catch(() => {
+            loadViaIframe();
+          });
+      });
+    }
+
+    function closeModal() {
+      document.getElementById('testModal').classList.remove('open');
+    }
+
+    // Close modal on overlay click
+    document.addEventListener('DOMContentLoaded', () => {
+      const modal = document.getElementById('testModal');
+      if (modal) {
+        modal.addEventListener('click', function(e) {
+          if (e.target === this) closeModal();
+        });
+      }
+    });
+
+    // ── Check session on load ──────────────────────
+    (async function init() {
+      const { data: { session } } = await supabaseClient.auth.getSession();
+      if (session && session.user.email === ADMIN_EMAIL) {
+        showDashboard();
+      } else {
+        showLogin();
+      }
+    })();
+
+    function showLogin() {
+      document.getElementById('loginScreen').style.display = 'block';
+      document.getElementById('dashboard').style.display = 'none';
+    }
+
+    function showDashboard() {
+      document.getElementById('loginScreen').style.display = 'none';
+      document.getElementById('dashboard').style.display = 'block';
+      loadProfiles();
+    }
+
+    // ── Login ───────────────────────────────────────
+    async function adminLogin() {
+      const email = document.getElementById('adminEmail').value.trim();
+      const password = document.getElementById('adminPassword').value;
+      const msg = document.getElementById('loginMsg');
+
+      if (email.toLowerCase() !== ADMIN_EMAIL.toLowerCase()) {
+        msg.textContent = 'This account is not authorized as admin.';
+        return;
+      }
+
+      const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
+      if (error) {
+        msg.textContent = error.message;
+        return;
+      }
+      showDashboard();
+    }
+
+    async function adminLogout() {
+      await supabaseClient.auth.signOut();
+      showLogin();
+    }
+
+    // ── Load profiles ────────────────────────────────
+    async function loadProfiles() {
+      const { data, error } = await supabaseClient
+        .from('profiles')
+        .select('*')
+        .order('created_at', { ascending: false });
+
+      if (error) {
+        document.getElementById('userList').innerHTML = `<div class="empty">Error loading data: ${error.message}</div>`;
+        return;
+      }
+
+      allProfiles = data || [];
+      updateStats();
+      renderList();
+    }
+
+    function updateStats() {
+      const total = allProfiles.length;
+      const satApproved = allProfiles.filter(p => p.has_access).length;
+      const topicApproved = allProfiles.filter(p => p.has_topic_reading_access || p.has_topic_math_access || p.has_topic_class_test_access).length;
+      const actApproved = allProfiles.filter(p => p.has_act_access).length;
+
+      document.getElementById('statTotal').textContent = total;
+      document.getElementById('statSatApproved').textContent = satApproved;
+      document.getElementById('statSatPending').textContent = total - satApproved;
+      document.getElementById('statTopicApproved').textContent = topicApproved;
+      document.getElementById('statTopicPending').textContent = total - topicApproved;
+      document.getElementById('statActApproved').textContent = actApproved;
+      document.getElementById('statActPending').textContent = total - actApproved;
+    }
+
+    // ── Filter tabs ───────────────────────────────────
+    function setFilter(filter) {
+      currentFilter = filter;
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelector(`.tab[data-filter="${filter}"]`).classList.add('active');
+
+      const usersSection = document.getElementById('usersSection');
+      const reportsSection = document.getElementById('reportsSection');
+
+      if (filter === 'reports') {
+        usersSection.style.display = 'none';
+        reportsSection.classList.add('active');
+        reportsSection.style.display = 'block';
+        loadReportsData();
+      } else {
+        usersSection.style.display = 'block';
+        reportsSection.classList.remove('active');
+        reportsSection.style.display = 'none';
+        renderList();
+      }
+    }
+
+    // ── Render list ───────────────────────────────────
+    function renderList() {
+      const search = document.getElementById('searchBox').value.trim().toLowerCase();
+      let list = allProfiles;
+
+      if (currentFilter === 'pending') {
+        // Pending approval on EITHER SAT or Topic tests
+        list = list.filter(p => !p.has_access || (!p.has_topic_reading_access && !p.has_topic_math_access && !p.has_topic_class_test_access));
+      } else if (currentFilter === 'approved') {
+        // Approved for BOTH
+        list = list.filter(p => p.has_access && (p.has_topic_reading_access || p.has_topic_math_access || p.has_topic_class_test_access));
+      }
+
+      if (search) list = list.filter(p => (p.email || '').toLowerCase().includes(search));
+
+      const container = document.getElementById('userList');
+      if (list.length === 0) {
+        container.innerHTML = `<div class="empty">No users found.</div>`;
+        return;
+      }
+
+      container.innerHTML = list.map(p => `
+    <div class="user-card">
+      <div class="user-info">
+        <div class="email">${p.email || '(no email)'}</div>
+        <div class="meta">Signed up: ${p.created_at ? new Date(p.created_at).toLocaleString() : '–'}</div>
+        <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+          <span class="badge ${p.has_access ? 'granted' : 'pending'}">SAT: ${p.has_access ? '✓' : '⏳'}</span>
+          <span class="badge ${p.has_topic_reading_access ? 'granted' : 'pending'}">Topic R&W: ${p.has_topic_reading_access ? '✓' : '⏳'}</span>
+          <span class="badge ${p.has_topic_math_access ? 'granted' : 'pending'}">Math: ${p.has_topic_math_access ? '✓' : '⏳'}</span>
+          <span class="badge ${p.has_topic_class_test_access ? 'granted' : 'pending'}">R&W Class Test: ${p.has_topic_class_test_access ? '✓' : '⏳'}</span>
+          <span class="badge ${p.has_act_access ? 'granted' : 'pending'}">ACT: ${p.has_act_access ? '✓' : '⏳'}</span>
+        </div>
+        <div style="margin-top: 10px;">
+          <input type="text" class="org-input" placeholder="Organization" value="${p.organization || ''}"
+            onchange="updateOrg('${p.id}', this.value)">
+        </div>
+      </div>
+      <div class="actions" style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
+          <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6); min-width: 95px; text-align: right;">SAT Test:</span>
+          ${p.has_access
+            ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'sat', false)">Revoke</button>`
+            : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'sat', true)">Approve</button>`
+          }
+        </div>
+        <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
+          <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6); min-width: 95px; text-align: right;">Topic R&W:</span>
+          ${p.has_topic_reading_access
+            ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'topic_rw', false)">Revoke</button>`
+            : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'topic_rw', true)">Approve</button>`
+          }
+        </div>
+        <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
+          <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6); min-width: 95px; text-align: right;">Topic Math:</span>
+          ${p.has_topic_math_access
+            ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'topic_math', false)">Revoke</button>`
+            : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'topic_math', true)">Approve</button>`
+          }
+        </div>
+        <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
+          <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6); min-width: 95px; text-align: right;">R&W Class Test:</span>
+          ${p.has_topic_class_test_access
+            ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'topic_class_test', false)">Revoke</button>`
+            : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'topic_class_test', true)">Approve</button>`
+          }
+        </div>
+        <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
+          <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6); min-width: 95px; text-align: right;">ACT Test:</span>
+          ${p.has_act_access
+            ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'act', false)">Revoke</button>`
+            : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'act', true)">Approve</button>`
+          }
+        </div>
+      </div>
+    </div>
+  `).join('');
+    }
+
+    // ── Approve / Revoke ────────────────────────────
+    async function setAccess(userId, type, value) {
+      const updatePayload = {};
+      if (type === 'sat') {
+        updatePayload.has_access = value;
+      } else if (type === 'topic_rw') {
+        updatePayload.has_topic_reading_access = value;
+      } else if (type === 'topic_math') {
+        updatePayload.has_topic_math_access = value;
+      } else if (type === 'topic_class_test') {
+        updatePayload.has_topic_class_test_access = value;
+      } else if (type === 'act') {
+        updatePayload.has_act_access = value;
+      }
+
+      const { error } = await supabaseClient
+        .from('profiles')
+        .update(updatePayload)
+        .eq('id', userId);
+
+      if (error) {
+        alert('Update failed: ' + error.message);
+        return;
+      }
+
+      const p = allProfiles.find(x => x.id === userId);
+      if (p) {
+        if (type === 'sat') p.has_access = value;
+        else if (type === 'topic_rw') p.has_topic_reading_access = value;
+        else if (type === 'topic_math') p.has_topic_math_access = value;
+        else if (type === 'topic_class_test') p.has_topic_class_test_access = value;
+        else if (type === 'act') p.has_act_access = value;
+      }
+      updateStats();
+      if (currentFilter === 'reports') {
+        renderReportsList();
+      } else {
+        renderList();
+      }
+    }
+
+    // ── Update organization ──────────────────────────
+    async function updateOrg(userId, value) {
+      const { error } = await supabaseClient
+        .from('profiles')
+        .update({ organization: value })
+        .eq('id', userId);
+
+      if (error) {
+        alert('Update failed: ' + error.message);
+        return;
+      }
+
+      const p = allProfiles.find(x => x.id === userId);
+      if (p) p.organization = value;
+    }
+
+    // ══════════════════════════════════════════════
+    // ── REPORTS TAB LOGIC ─────────────────────────
+    // ══════════════════════════════════════════════
+    let allReports = [];
+    let groupedReports = {};
+    let adminCharts = {};
+
+    async function loadReportsData() {
+      const { data: ucatData, error: ucatError } = await supabaseClient
+        .from('Ucat_diagnosis')
+        .select('*')
+        .order('submit_time', { ascending: false });
+
+      if (ucatError) {
+        console.warn("UCAT reports fetch error:", ucatError);
+      }
+
+      const { data: satData, error: satError } = await supabaseClient
+        .from('sat_topic_report')
+        .select('*')
+        .order('submit_time', { ascending: false });
+
+      if (satError) {
+        console.warn("SAT reports fetch error:", satError);
+      }
+
+      const { data: actData, error: actError } = await supabaseClient
+        .from('act_results')
+        .select('*')
+        .order('submitted_at', { ascending: false });
+
+      if (actError) {
+        console.warn("ACT reports fetch error:", actError);
+      }
+
+      const mappedActData = (actData || []).map(r => {
+        const detailsObj = r.student_answers || [];
+        const mappedDetails = detailsObj.map(a => {
+           const mapOpt = o => o === 'A' ? 0 : o === 'B' ? 1 : o === 'C' ? 2 : o === 'D' ? 3 : null;
+           return {
+               id: a.question_id,
+               status: a.status,
+               chosen: mapOpt(a.chosen_option),
+               answer: mapOpt(a.correct_option),
+               text: 'Section: ' + (a.section || 'Unknown') + '\\nTopic: ' + (a.topic || 'Unknown'),
+               options: ['Option A', 'Option B', 'Option C', 'Option D']
+           };
+        });
+
+        return {
+          email: r.student_email,
+          name: r.student_name,
+          topic: r.exam_name || 'ACT Test',
+          scaled: r.composite_score || 0,
+          pct: r.percentage || 0,
+          correct: r.correct || 0,
+          wrong: r.wrong || 0,
+          unattempted: r.skipped || 0,
+          total: r.total || 0,
+          submit_time: r.submitted_at,
+          details_json: JSON.stringify(mappedDetails)
+        };
+      });
+
+      // Filter out registration-only rows without submit_time for UCAT
+      const validUcat = (ucatData || []).filter(r => r.submit_time);
+
+      allReports = [...validUcat, ...(satData || []), ...mappedActData];
+      allReports.sort((a, b) => new Date(b.submit_time || 0) - new Date(a.submit_time || 0));
+
+      // Group by email
+      groupedReports = {};
+      allReports.forEach(r => {
+        const email = (r.email || 'unknown').toLowerCase();
+        if (!groupedReports[email]) groupedReports[email] = [];
+        groupedReports[email].push(r);
+      });
+
+      renderReportOverviewStats();
+      renderReportsList();
+    }
+
+    function renderReportOverviewStats() {
+      const totalReports = allReports.length;
+      const uniqueStudents = Object.keys(groupedReports).length;
+      const avgScore = totalReports > 0
+        ? Math.round(allReports.reduce((s, r) => s + (r.pct || 0), 0) / totalReports)
+        : 0;
+      const totalQs = allReports.reduce((s, r) => s + (r.total || 0), 0);
+
+      document.getElementById('reportOverviewStats').innerHTML = `
+        <div class="rstat"><div class="rnum">${uniqueStudents}</div><div class="rlbl">Students</div></div>
+        <div class="rstat"><div class="rnum">${totalReports}</div><div class="rlbl">Total Tests</div></div>
+        <div class="rstat"><div class="rnum">${avgScore}%</div><div class="rlbl">Avg Score</div></div>
+        <div class="rstat"><div class="rnum">${totalQs}</div><div class="rlbl">Total Qs</div></div>
+      `;
+    }
+
+    function renderReportsList() {
+      const search = (document.getElementById('reportSearchBox').value || '').trim().toLowerCase();
+      let emails = Object.keys(groupedReports);
+
+      if (search) emails = emails.filter(e => e.includes(search));
+
+      if (emails.length === 0) {
+        document.getElementById('reportsList').innerHTML = `<div class="report-empty">No student reports found.</div>`;
+        return;
+      }
+
+      document.getElementById('reportsList').innerHTML = emails.map(email => {
+        const tests = groupedReports[email];
+        const totalTests = tests.length;
+        const avgPct = Math.round(tests.reduce((s, t) => s + (t.pct || 0), 0) / totalTests);
+        const avgScaled = Math.round(tests.reduce((s, t) => s + (t.scaled || 0), 0) / totalTests);
+        const safeEmail = email.replace(/[^a-zA-Z0-9]/g, '_');
+        
+        // Find profile to check access
+        const p = allProfiles.find(x => x.email && x.email.toLowerCase() === email);
+
+        return `
+        <div class="student-report-card" id="src-${safeEmail}">
+          <div class="src-header" onclick="toggleStudentReport('${safeEmail}')">
+            <div class="src-info">
+              <div class="src-email">${email}</div>
+              <div class="src-meta">${tests[0].name || '–'}</div>
+            </div>
+            <div class="src-stats">
+              <div class="src-stat"><div class="ss-num">${totalTests}</div><div class="ss-lbl">Tests</div></div>
+              <div class="src-stat"><div class="ss-num">${avgPct}%</div><div class="ss-lbl">Avg</div></div>
+              <div class="src-stat"><div class="ss-num">${avgScaled}</div><div class="ss-lbl">Scaled</div></div>
+            </div>
+            <div class="src-toggle" id="toggle-${safeEmail}">▼</div>
+          </div>
+          <div class="src-body" id="body-${safeEmail}">
+            ${p ? `
+            <div style="margin-bottom: 16px; padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+              <div style="font-size: 0.85rem; font-weight: 600; color: rgba(255,255,255,0.7);">Manage Access:</div>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6);">SAT Test:</span>
+                ${p.has_access
+                  ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'sat', false)">Revoke</button>`
+                  : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'sat', true)">Approve</button>`
+                }
+              </div>
+              <div style="display: flex; align-items: center; gap: 8px; margin-top: 6px;">
+                <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6);">Topic R&W:</span>
+                ${p.has_topic_reading_access
+                  ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'topic_rw', false)">Revoke</button>`
+                  : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'topic_rw', true)">Approve</button>`
+                }
+              </div>
+              <div style="display: flex; align-items: center; gap: 8px; margin-top: 6px;">
+                <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6);">Topic Math:</span>
+                ${p.has_topic_math_access
+                  ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'topic_math', false)">Revoke</button>`
+                  : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'topic_math', true)">Approve</button>`
+                }
+              </div>
+              <div style="display: flex; align-items: center; gap: 8px; margin-top: 6px;">
+                <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6);">R&W Class Test:</span>
+                ${p.has_topic_class_test_access
+                  ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'topic_class_test', false)">Revoke</button>`
+                  : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'topic_class_test', true)">Approve</button>`
+                }
+              </div>
+              <div style="display: flex; align-items: center; gap: 8px; margin-top: 6px;">
+                <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6);">ACT Test:</span>
+                ${p.has_act_access
+                  ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'act', false)">Revoke</button>`
+                  : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'act', true)">Approve</button>`
+                }
+              </div>
+            </div>
+            ` : ''}
+            
+            ${tests.map((t, testIdx) => {
+              const p_score = t.pct || 0;
+              const pillClass = p_score >= 70 ? 'high' : p_score >= 50 ? 'mid' : 'low';
+              const date = t.submit_time ? new Date(t.submit_time).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }) : '–';
+              return `
+              <div class="src-test-row" style="cursor: pointer;" onclick="openAdminTestDetail('${email}', ${testIdx})">
+                <div class="str-topic">${t.topic || 'Unknown'}</div>
+                <div class="str-date">${date}</div>
+                <div class="str-scores">
+                  <span style="color:#6ee7b7">✓${t.correct||0}</span>
+                  <span style="color:#f87171">✗${t.wrong||0}</span>
+                  <span style="color:#fbbf24">⏭${t.unattempted||0}</span>
+                  <span class="admin-score-pill ${pillClass}">${p_score}%</span>
+                </div>
+              </div>`;
+            }).join('')}
+            <button class="btn-combine-admin" onclick="generateAdminCombined('${safeEmail}', '${email}')">📊 Generate Combined Report</button>
+            <div id="admin-combined-${safeEmail}"></div>
+          </div>
+        </div>`;
+      }).join('');
+    }
+
+    function toggleStudentReport(safeEmail) {
+      const body = document.getElementById(`body-${safeEmail}`);
+      const toggle = document.getElementById(`toggle-${safeEmail}`);
+      body.classList.toggle('open');
+      toggle.classList.toggle('open');
+    }
+
+    async function openAdminTestDetail(email, testIdx) {
+      const tests = groupedReports[email.toLowerCase()];
+      if (!tests || !tests[testIdx]) return;
+      const t = tests[testIdx];
+      const pct = t.pct || 0;
+      const scoreColor = pct >= 70 ? '#6ee7b7' : pct >= 50 ? '#fbbf24' : '#f87171';
+      let details = [];
+      try { details = JSON.parse(t.details_json || '[]'); } catch(e) {}
+
+      const modal = document.getElementById('modalContent');
+      // Show loading inside modal while questions are fetched
+      modal.innerHTML = `
+        <div class="modal-hdr">
+          <h3>${t.topic || 'Test Detail'}</h3>
+          <button class="modal-close" onclick="closeModal()">✕</button>
+        </div>
+        <div class="loading-spinner">Loading question details...</div>
+      `;
+      document.getElementById('testModal').classList.add('open');
+
+      const topicMapping = getTopicMapping(t.topic);
+      const matchedTopicKey = topicMapping ? topicMapping.key : t.topic;
+      const dir = topicMapping ? topicMapping.dir : '.';
+      const qs = await loadQuestionsForTopic(matchedTopicKey);
+      const imgMapping = await loadImageMappingForTopic(matchedTopicKey, dir);
+
+      // Merge questions metadata
+      if (qs && details.length > 0) {
+        details = details.map(d => {
+          const matchedQ = qs.find(q => String(q.id) === String(d.id));
+          if (matchedQ) {
+            return {
+              ...d,
+              text: matchedQ.text,
+              options: matchedQ.options,
+              explanation: matchedQ.explanation || '',
+              useImage: matchedQ.useImage,
+              imageKey: matchedQ.imageKey
+            };
+          }
+          return d;
+        });
+      }
+
+      modal.innerHTML = `
+        <div class="modal-hdr">
+          <h3>${t.topic || 'Test Detail'}</h3>
+          <button class="modal-close" onclick="closeModal()">✕</button>
+        </div>
+        <div style="text-align:center;margin-bottom:8px">
+          <div style="font-size:0.95rem;font-weight:600;color:rgba(255,255,255,0.6);margin-bottom:4px">Student: ${email}</div>
+          <div style="font-family:'Syne';font-size:2.2rem;font-weight:800;color:${scoreColor}">${t.scaled || '–'}</div>
+          <div style="font-size:0.82rem;color:rgba(255,255,255,0.4)">Scaled Score · ${t.submit_time ? new Date(t.submit_time).toLocaleString() : '–'}</div>
+        </div>
+        <div class="modal-stats">
+          <div class="modal-stat"><div class="ms-num" style="color:#6ee7b7">${t.correct || 0}</div><div class="ms-lbl">Correct</div></div>
+          <div class="modal-stat"><div class="ms-num" style="color:#f87171">${t.wrong || 0}</div><div class="ms-lbl">Wrong</div></div>
+          <div class="modal-stat"><div class="ms-num" style="color:#fbbf24">${t.unattempted || 0}</div><div class="ms-lbl">Skipped</div></div>
+          <div class="modal-stat"><div class="ms-num" style="color:#93c5fd">${pct}%</div><div class="ms-lbl">Score</div></div>
+        </div>
+        <div class="modal-chart-wrap"><canvas id="modalPie" height="200"></canvas></div>
+        ${details.length > 0 ? `
+          <div class="q-review-hdr">📋 Question Review (${details.length} questions)</div>
+          <div class="q-review-list">
+          ${details.map((d, i) => {
+            const hasText = !!d.text;
+            const statusClass = d.status === 'correct' ? 'correct' : d.status === 'wrong' ? 'wrong' : 'unattempted';
+            const statusText = d.status === 'correct' ? '✅ Correct' : d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped';
+            
+            // Build image source if used
+            let imgSrc = '';
+            if (d.useImage && d.imageKey && imgMapping[d.imageKey]) {
+              const val = imgMapping[d.imageKey];
+              imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (dir + '/' + val);
+            }
+
+            return `
+              <div class="q-card">
+                <div class="q-card-header">
+                  <span style="font-weight: 700; font-size: 0.95rem;">Question ${d.id || (i+1)}</span>
+                  <span class="q-status ${statusClass}">${statusText}</span>
+                </div>
+                
+                ${hasText ? `<div class="q-card-text">${d.text}</div>` : `<div class="q-card-text" style="opacity:0.6;">Question text not available for this topic.</div>`}
+                
+                ${imgSrc ? `<div class="q-image-container"><img src="${imgSrc}" alt="Question Image" /></div>` : ''}
+
+                ${hasText && d.options ? `
+                  <div class="q-card-opts">
+                    ${d.options.map((optText, optIdx) => {
+                      let optClass = '';
+                      if (optIdx === d.answer) {
+                        optClass = 'correct';
+                      }
+                      if (d.status === 'wrong' && optIdx === d.chosen) {
+                        optClass = 'wrong-chosen';
+                      }
+                      
+                      let badgeIcon = '';
+                      if (optIdx === d.answer) {
+                        badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Correct</span>';
+                      } else if (d.status === 'wrong' && optIdx === d.chosen) {
+                        badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#ef4444;">✗ Student Choice</span>';
+                      } else if (d.status === 'correct' && optIdx === d.chosen) {
+                        badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Student Choice</span>';
+                      }
+
+                      return `
+                        <div class="q-card-opt ${optClass}">
+                          <div class="q-card-opt-letter">${LETTERS[optIdx]}</div>
+                          <div class="q-card-opt-text">${optText}</div>
+                          ${badgeIcon}
+                        </div>
+                      `;
+                    }).join('')}
+                  </div>
+                ` : `
+                  <div class="q-detail" style="margin-top:8px;">
+                    ${d.status === 'wrong' ? `Student answer: <strong>${LETTERS[d.chosen] || '–'}</strong> · Correct: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                    ${d.status === 'unattempted' ? `Correct answer: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                  </div>
+                `}
+
+                ${d.explanation ? `
+                  <div class="q-card-exp">
+                    <strong>💡 Explanation:</strong> ${d.explanation}
+                  </div>
+                ` : ''}
+              </div>
+            `;
+          }).join('')}
+          </div>
+        ` : '<p style="color:rgba(255,255,255,0.3);text-align:center;padding:20px">No question details available</p>'}
+      `;
+
+      // Draw pie chart
+      if (modalChart) modalChart.destroy();
+      modalChart = new Chart(document.getElementById('modalPie'), {
+        type: 'doughnut',
+        data: {
+          labels: ['Correct', 'Wrong', 'Skipped'],
+          datasets: [{
+            data: [t.correct || 0, t.wrong || 0, t.unattempted || 0],
+            backgroundColor: ['#059669', '#dc2626', '#d97706'],
+            borderWidth: 0,
+            hoverOffset: 4
+          }]
+        },
+        options: {
+          plugins: { legend: { position: 'bottom', labels: { color: 'rgba(255,255,255,0.6)', font: { family: 'IBM Plex Sans' } } } },
+          cutout: '65%'
+        }
+      });
+    }
+
+    async function generateAdminCombined(safeEmail, email) {
+      const tests = groupedReports[email];
+      if (!tests || tests.length === 0) return;
+
+      const container = document.getElementById(`admin-combined-${safeEmail}`);
+      container.innerHTML = `
+        <div class="admin-combined" style="text-align:center;padding:20px;">
+          <div class="loading-spinner">Generating combined report & loading questions...</div>
+        </div>
+      `;
+
+      // Gather unique topics in the selected tests and load their questions/images
+      const uniqueTopics = [...new Set(tests.map(t => t.topic).filter(Boolean))];
+      const topicsData = {};
+      for (const topic of uniqueTopics) {
+        const topicMapping = getTopicMapping(topic);
+        const matchedTopicKey = topicMapping ? topicMapping.key : topic;
+        const dir = topicMapping ? topicMapping.dir : '.';
+        const qs = await loadQuestionsForTopic(matchedTopicKey);
+        const imgMapping = await loadImageMappingForTopic(matchedTopicKey, dir);
+        topicsData[topic] = { qs, imgMapping, dir };
+      }
+
+      const totCorrect = tests.reduce((s, t) => s + (t.correct || 0), 0);
+      const totWrong = tests.reduce((s, t) => s + (t.wrong || 0), 0);
+      const totSkipped = tests.reduce((s, t) => s + (t.unattempted || 0), 0);
+      const totQs = tests.reduce((s, t) => s + (t.total || 0), 0);
+      const avgPct = totQs > 0 ? Math.round(totCorrect / totQs * 100) : 0;
+      const overallGrade = avgPct >= 90 ? 'A+' : avgPct >= 80 ? 'A' : avgPct >= 70 ? 'B' : avgPct >= 60 ? 'C' : 'D';
+
+      // Topic-wise
+      const topicMap = {};
+      tests.forEach(t => {
+        const name = t.topic || 'Unknown';
+        if (!topicMap[name]) topicMap[name] = { correct: 0, wrong: 0, skipped: 0, total: 0, count: 0 };
+        topicMap[name].correct += (t.correct || 0);
+        topicMap[name].wrong += (t.wrong || 0);
+        topicMap[name].skipped += (t.unattempted || 0);
+        topicMap[name].total += (t.total || 0);
+        topicMap[name].count++;
+      });
+
+      const topics = Object.keys(topicMap);
+      const topicPcts = topics.map(k => topicMap[k].total > 0 ? Math.round(topicMap[k].correct / topicMap[k].total * 100) : 0);
+      const barColors = topicPcts.map(p => p >= 70 ? '#059669' : p >= 50 ? '#d97706' : '#dc2626');
+
+      const pieId = `ac-pie-${safeEmail}`;
+      const barId = `ac-bar-${safeEmail}`;
+
+      // Merge all question details
+      let allDetails = [];
+      tests.forEach((t, testIndex) => {
+        try {
+          let details = JSON.parse(t.details_json || '[]');
+          if (details.length > 0) {
+            const topicData = topicsData[t.topic];
+            if (topicData && topicData.qs) {
+              details = details.map(d => {
+                const matchedQ = topicData.qs.find(q => String(q.id) === String(d.id));
+                if (matchedQ) {
+                  return {
+                    ...d,
+                    text: matchedQ.text,
+                    options: matchedQ.options,
+                    explanation: matchedQ.explanation || '',
+                    useImage: matchedQ.useImage,
+                    imageKey: matchedQ.imageKey
+                  };
+                }
+                return d;
+              });
+            }
+            allDetails.push({ 
+              testName: t.topic || `Test ${testIndex+1}`, 
+              details,
+              dir: topicData ? topicData.dir : '.',
+              imgMapping: topicData ? topicData.imgMapping : {}
+            });
+          }
+        } catch(e) {
+          console.error("Failed to parse details for test", t, e);
+        }
+      });
+
+      container.innerHTML = `
+        <div class="admin-combined" id="adminCombinedCard-${safeEmail}">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px;">
+            <h4 style="margin-bottom:0;">📊 Combined Report – ${email}</h4>
+            <button class="btn-sm" style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); color:#fff; cursor:pointer;" onclick="downloadAdminCombinedPDF('${safeEmail}', '${email}')">📄 Download PDF</button>
+          </div>
+          <div class="ac-stats">
+            <div class="ac-stat"><div class="acn" style="color:#6ee7b7">${totCorrect}</div><div class="acl">Correct</div></div>
+            <div class="ac-stat"><div class="acn" style="color:#f87171">${totWrong}</div><div class="acl">Wrong</div></div>
+            <div class="ac-stat"><div class="acn" style="color:#fbbf24">${totSkipped}</div><div class="acl">Skipped</div></div>
+            <div class="ac-stat"><div class="acn" style="color:#93c5fd">${totQs}</div><div class="acl">Total</div></div>
+            <div class="ac-stat"><div class="acn" style="color:#a78bfa">${avgPct}%</div><div class="acl">Score</div></div>
+            <div class="ac-stat"><div class="acn" style="color:#a78bfa">${overallGrade}</div><div class="acl">Grade</div></div>
+          </div>
+          <div class="admin-chart-grid">
+            <div class="admin-chart-box"><h5>Score Breakdown</h5><canvas id="${pieId}" height="180"></canvas></div>
+            <div class="admin-chart-box"><h5>Topic Performance</h5><canvas id="${barId}" height="180"></canvas></div>
+          </div>
+
+          ${allDetails.length > 0 ? `
+          <div style="margin-top:20px; text-align:left;">
+            <h5 style="color:rgba(255,255,255,0.8); margin-bottom:12px; font-weight:700;">📋 Detailed Question Review</h5>
+            ${allDetails.map(td => `
+              <div style="margin-top:20px;margin-bottom:10px;font-family:'Syne',sans-serif;font-weight:700;color:#93c5fd;border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:6px;font-size:0.95rem;text-align:left;">
+                ${td.testName}
+              </div>
+              <div>
+              ${td.details.map((d, i) => {
+                const hasText = !!d.text;
+                const statusClass = d.status === 'correct' ? 'correct' : d.status === 'wrong' ? 'wrong' : 'unattempted';
+                const statusText = d.status === 'correct' ? '✅ Correct' : d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped';
+                
+                let imgSrc = '';
+                if (d.useImage && d.imageKey && td.imgMapping[d.imageKey]) {
+                  const val = td.imgMapping[d.imageKey];
+                  imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (td.dir + '/' + val);
+                }
+
+                return `
+                  <div class="q-card" style="margin-bottom:12px; padding:12px;">
+                    <div class="q-card-header">
+                      <span style="font-weight: 700; font-size: 0.9rem;">Question ${d.id || (i+1)}</span>
+                      <span class="q-status ${statusClass}" style="padding:1px 6px; font-size:0.65rem;">${statusText}</span>
+                    </div>
+                    
+                    ${hasText ? `<div class="q-card-text" style="font-size:0.85rem; margin-bottom:8px;">${d.text}</div>` : `<div class="q-card-text" style="opacity:0.6; font-size:0.85rem; margin-bottom:8px;">Question text not available.</div>`}
+                    
+                    ${imgSrc ? `<div class="q-image-container" style="margin-bottom:8px; padding:6px;"><img src="${imgSrc}" style="border-radius:4px;" /></div>` : ''}
+
+                    ${hasText && d.options ? `
+                      <div class="q-card-opts" style="gap:6px; margin-bottom:8px;">
+                        ${d.options.map((optText, optIdx) => {
+                          let optClass = '';
+                          if (optIdx === d.answer) {
+                            optClass = 'correct';
+                          }
+                          if (d.status === 'wrong' && optIdx === d.chosen) {
+                            optClass = 'wrong-chosen';
+                          }
+                          
+                          let badgeIcon = '';
+                          if (optIdx === d.answer) {
+                            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981; font-size:0.75rem;">✓ Correct</span>';
+                          } else if (d.status === 'wrong' && optIdx === d.chosen) {
+                            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#ef4444; font-size:0.75rem;">✗ Student Choice</span>';
+                          } else if (d.status === 'correct' && optIdx === d.chosen) {
+                            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981; font-size:0.75rem;">✓ Student Choice</span>';
+                          }
+
+                          return `
+                            <div class="q-card-opt ${optClass}" style="padding:6px 10px; font-size:0.8rem;">
+                              <div class="q-card-opt-letter" style="width:20px; height:20px; font-size:0.7rem;">${LETTERS[optIdx]}</div>
+                              <div class="q-card-opt-text">${optText}</div>
+                              ${badgeIcon}
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : `
+                      <div class="q-detail" style="margin-top:6px; font-size:0.78rem;">
+                        ${d.status === 'wrong' ? `Student answer: <strong>${LETTERS[d.chosen] || '–'}</strong> · Correct: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                        ${d.status === 'unattempted' ? `Correct answer: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                      </div>
+                    `}
+
+                    ${d.explanation ? `
+                      <div class="q-card-exp" style="padding:6px 10px; font-size:0.75rem;">
+                        <strong>💡 Explanation:</strong> ${d.explanation}
+                      </div>
+                    ` : ''}
+                  </div>
+                `;
+              }).join('')}
+              </div>
+            `).join('')}
+          </div>` : ''}
+        </div>
+      `;
+
+      // Destroy old charts for this student
+      if (adminCharts[pieId]) adminCharts[pieId].destroy();
+      if (adminCharts[barId]) adminCharts[barId].destroy();
+
+      adminCharts[pieId] = new Chart(document.getElementById(pieId), {
+        type: 'doughnut',
+        data: {
+          labels: ['Correct', 'Wrong', 'Skipped'],
+          datasets: [{ data: [totCorrect, totWrong, totSkipped], backgroundColor: ['#059669', '#dc2626', '#d97706'], borderWidth: 0 }]
+        },
+        options: {
+          plugins: { legend: { position: 'bottom', labels: { color: 'rgba(255,255,255,0.5)', font: { family: 'IBM Plex Sans', size: 10 } } } },
+          cutout: '60%'
+        }
+      });
+
+      adminCharts[barId] = new Chart(document.getElementById(barId), {
+        type: 'bar',
+        data: {
+          labels: topics.map(t => t.length > 14 ? t.substring(0, 12) + '…' : t),
+          datasets: [{
+            label: 'Score %',
+            data: topicPcts,
+            backgroundColor: barColors.map(c => c + '33'),
+            borderColor: barColors,
+            borderWidth: 2,
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: topics.length > 3 ? 'y' : 'x',
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { max: 100, ticks: { color: 'rgba(255,255,255,0.3)', font: { size: 9 } }, grid: { color: 'rgba(255,255,255,0.04)' } },
+            y: { ticks: { color: 'rgba(255,255,255,0.4)', font: { size: 9 } }, grid: { color: 'rgba(255,255,255,0.04)' } }
+          }
+        }
+      });
+    }
+
+    function downloadAdminCombinedPDF(safeEmail, email) {
+      const element = document.getElementById(`adminCombinedCard-${safeEmail}`);
+      const buttons = element.querySelectorAll('button');
+      buttons.forEach(b => b.style.display = 'none');
+
+      html2pdf().set({
+        margin: [10, 10, 10, 10],
+        filename: `EduQuest_Combined_Report_${email}_${new Date().toISOString().slice(0, 10)}.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true, backgroundColor: '#0d0d14' },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      }).from(element).save().then(() => {
+        buttons.forEach(b => b.style.display = '');
+      }).catch(err => {
+        console.error('PDF generation failed', err);
+        buttons.forEach(b => b.style.display = '');
+      });
+    }
+  </script>
+</body>
+
+</html>

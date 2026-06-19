@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login – EduQuest UCAT Portal</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background: #0d0d14;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 36px 32px;
+            max-width: 420px;
+            width: 100%
+        }
+
+        h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.6rem;
+            margin-bottom: 6px;
+            text-align: center
+        }
+
+        .sub {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.85rem;
+            margin-bottom: 24px
+        }
+
+        /* Role toggle */
+        .role-toggle {
+            display: flex;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            padding: 4px;
+            margin-bottom: 18px
+        }
+
+        .role-btn {
+            flex: 1;
+            text-align: center;
+            padding: 9px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.5);
+            transition: all .15s;
+            user-select: none
+        }
+
+        .role-btn.active {
+            background: rgba(26, 86, 219, 0.25);
+            color: #fff
+        }
+
+        /* Mode tabs (login/signup) */
+        .mode-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 22px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08)
+        }
+
+        .mode-tab {
+            flex: 1;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.4);
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all .15s;
+            user-select: none
+        }
+
+        .mode-tab.active {
+            color: #fff;
+            border-bottom-color: #1a56db
+        }
+
+        .field {
+            margin-bottom: 16px
+        }
+
+        .field label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.5);
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            margin-bottom: 6px
+        }
+
+        .field input {
+            width: 100%;
+            border: 1.5px solid rgba(255, 255, 255, 0.12);
+            border-radius: 8px;
+            padding: 11px 14px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            outline: none;
+            background: rgba(255, 255, 255, 0.03);
+            color: #fff
+        }
+
+        .field input:focus {
+            border-color: #1a56db
+        }
+
+        .hint {
+            font-size: 0.76rem;
+            color: rgba(255, 255, 255, 0.35);
+            margin-top: 6px;
+            line-height: 1.5
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            margin-top: 6px;
+            transition: all .15s
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #1a56db, #1e429f);
+            color: #fff
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px)
+        }
+
+        .btn-primary.admin {
+            background: linear-gradient(135deg, #7c3aed, #5b21b6)
+        }
+
+        #msg {
+            text-align: center;
+            font-size: 0.85rem;
+            margin-top: 14px;
+            min-height: 20px
+        }
+
+        #msg.error {
+            color: #f87171
+        }
+
+        #msg.success {
+            color: #34d399
+        }
+
+        .form-section {
+            display: none
+        }
+
+        .form-section.active {
+            display: block
+        }
+
+        .password-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .password-wrapper input {
+            padding-right: 44px !important;
+        }
+
+        .eye-toggle {
+            position: absolute;
+            right: 12px;
+            background: none;
+            border: none;
+            color: rgba(255, 255, 255, 0.4);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px;
+            font-size: 1.1rem;
+            transition: color 0.15s;
+            user-select: none;
+            outline: none;
+        }
+
+        .eye-toggle:hover {
+            color: #fff;
+        }
+
+        .eye-toggle svg {
+            display: block;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h2>Welcome</h2>
+        <p class="sub">Login or create an account to continue</p>
+
+        <!-- ROLE TOGGLE -->
+        <div class="role-toggle">
+            <div class="role-btn active" id="roleStudent" onclick="setRole('student')">🎓 Student</div>
+            <div class="role-btn" id="roleAdmin" onclick="setRole('admin')">🛠 Admin</div>
+        </div>
+
+        <!-- MODE TABS -->
+        <div class="mode-tabs">
+            <div class="mode-tab active" id="tabLogin" onclick="setMode('login')">Login</div>
+            <div class="mode-tab" id="tabSignup" onclick="setMode('signup')">Sign Up</div>
+        </div>
+
+        <!-- STUDENT LOGIN -->
+        <div class="form-section active" id="studentLogin">
+            <div class="field">
+                <label>Email</label>
+                <input type="email" id="stuLoginEmail" placeholder="you@example.com">
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="stuLoginPassword" placeholder="••••••••">
+                    <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('stuLoginPassword', this)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    </button>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="studentLogin()">Login as Student</button>
+        </div>
+
+        <!-- STUDENT SIGNUP -->
+        <div class="form-section" id="studentSignup">
+            <div class="field">
+                <label>Email</label>
+                <input type="email" id="stuSignupEmail" placeholder="you@example.com">
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="stuSignupPassword" placeholder="At least 6 characters">
+                    <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('stuSignupPassword', this)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    </button>
+                </div>
+                <p class="hint">After signup, an admin will need to approve your account before you can access locked exams.</p>
+            </div>
+            <button class="btn btn-primary" onclick="studentSignup()">Create Student Account</button>
+        </div>
+
+        <!-- ADMIN LOGIN -->
+        <div class="form-section" id="adminLogin">
+            <div class="field">
+                <label>Admin Email</label>
+                <input type="email" id="adminLoginEmail" placeholder="admin@email.com">
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="adminLoginPassword" placeholder="••••••••">
+                    <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('adminLoginPassword', this)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    </button>
+                </div>
+            </div>
+            <button class="btn btn-primary admin" onclick="adminLogin()">Login as Admin</button>
+        </div>
+
+        <!-- ADMIN SIGNUP -->
+        <div class="form-section" id="adminSignup">
+            <div class="field">
+                <label>Admin Email</label>
+                <input type="email" id="adminSignupEmail" placeholder="admin@email.com">
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="adminSignupPassword" placeholder="At least 6 characters">
+                    <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('adminSignupPassword', this)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="field">
+                <label>Admin Access Code</label>
+                <div class="password-wrapper">
+                    <input type="password" id="adminAccessCode" placeholder="Secret access code">
+                    <button type="button" class="eye-toggle" onclick="togglePasswordVisibility('adminAccessCode', this)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    </button>
+                </div>
+                <p class="hint">Only people with the correct access code can create an admin account.</p>
+            </div>
+            <button class="btn btn-primary admin" onclick="adminSignup()">Create Admin Account</button>
+        </div>
+
+        <p id="msg"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase.js"></script>
+    <script src="email.js"></script>
+    <script>
+        const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
+
+        // Change this to your own secret code before deploying
+        const ADMIN_ACCESS_CODE = 'Lovelypanda';
+
+        let currentRole = 'student';
+        let currentMode = 'login';
+
+        function togglePasswordVisibility(inputId, buttonEl) {
+            const input = document.getElementById(inputId);
+            if (input.type === 'password') {
+                input.type = 'text';
+                buttonEl.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>`;
+            } else {
+                input.type = 'password';
+                buttonEl.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>`;
+            }
+        }
+
+        function getRedirect() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('redirect') || 'index.html';
+        }
+
+        function showMsg(text, type) {
+            const m = document.getElementById('msg');
+            m.textContent = text;
+            m.className = type;
+        }
+
+        // ── Role / Mode switching ──────────────────────
+        function setRole(role) {
+            currentRole = role;
+            document.getElementById('roleStudent').classList.toggle('active', role === 'student');
+            document.getElementById('roleAdmin').classList.toggle('active', role === 'admin');
+            updateView();
+        }
+
+        function setMode(mode) {
+            currentMode = mode;
+            document.getElementById('tabLogin').classList.toggle('active', mode === 'login');
+            document.getElementById('tabSignup').classList.toggle('active', mode === 'signup');
+            updateView();
+        }
+
+        function updateView() {
+            document.getElementById('studentLogin').classList.remove('active');
+            document.getElementById('studentSignup').classList.remove('active');
+            document.getElementById('adminLogin').classList.remove('active');
+            document.getElementById('adminSignup').classList.remove('active');
+            showMsg('', '');
+
+            const id = (currentRole === 'student' ? 'student' : 'admin') + (currentMode === 'login' ? 'Login' : 'Signup');
+            document.getElementById(id).classList.add('active');
+        }
+
+        // ── Student Login ───────────────────────────────
+        async function studentLogin() {
+            const email = document.getElementById('stuLoginEmail').value.trim();
+            const password = document.getElementById('stuLoginPassword').value;
+            if (!email || !password) { showMsg('Please fill all fields.', 'error'); return; }
+
+            const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
+            if (error) { showMsg(error.message, 'error'); return; }
+
+            // Ensure profile exists in profiles table
+            if (data && data.user) {
+                try {
+                    const { data: profile } = await supabaseClient
+                        .from('profiles')
+                        .select('id')
+                        .eq('id', data.user.id)
+                        .maybeSingle();
+                    
+                    if (!profile) {
+                        await supabaseClient.from('profiles').insert({
+                            id: data.user.id,
+                            email: data.user.email.toLowerCase(),
+                            has_access: false,
+                            has_topic_access: false,
+                            created_at: new Date().toISOString()
+                        });
+                    }
+                } catch (e) {
+                    console.error("Failed to check/create student profile:", e);
+                }
+            }
+
+            showMsg('Login successful! Redirecting...', 'success');
+            setTimeout(() => window.location.href = getRedirect(), 600);
+        }
+
+        // ── Student Signup ──────────────────────────────
+        async function studentSignup() {
+            const email = document.getElementById('stuSignupEmail').value.trim();
+            const password = document.getElementById('stuSignupPassword').value;
+            if (!email || !password) { showMsg('Please fill all fields.', 'error'); return; }
+            if (password.length < 6) { showMsg('Password must be at least 6 characters.', 'error'); return; }
+
+            const { data, error } = await supabaseClient.auth.signUp({ email, password });
+            if (error) { showMsg(error.message, 'error'); return; }
+
+            // Create client-side profile entry in profiles
+            if (data && data.user) {
+                try {
+                    await supabaseClient.from('profiles').insert({
+                        id: data.user.id,
+                        email: email.toLowerCase(),
+                        has_access: false,
+                        has_topic_access: false,
+                        created_at: new Date().toISOString()
+                    });
+                } catch (e) {
+                    console.error("Failed to insert client-side student profile:", e);
+                }
+            }
+
+            showMsg('Account created! You can now login. Note: access must be approved by admin.', 'success');
+            
+            if (typeof sendSignupNotification === 'function') {
+                sendSignupNotification(email);
+            }
+        }
+
+        // ── Admin Login ──────────────────────────────────
+        async function adminLogin() {
+            const email = document.getElementById('adminLoginEmail').value.trim();
+            const password = document.getElementById('adminLoginPassword').value;
+            if (!email || !password) { showMsg('Please fill all fields.', 'error'); return; }
+
+            const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
+            if (error) { showMsg(error.message, 'error'); return; }
+
+            // Ensure profile exists in profiles table for admin
+            if (data && data.user) {
+                try {
+                    const { data: profile } = await supabaseClient
+                        .from('profiles')
+                        .select('id')
+                        .eq('id', data.user.id)
+                        .maybeSingle();
+                    
+                    if (!profile) {
+                        await supabaseClient.from('profiles').insert({
+                            id: data.user.id,
+                            email: data.user.email.toLowerCase(),
+                            has_access: true,
+                            has_topic_access: true,
+                            created_at: new Date().toISOString()
+                        });
+                    }
+                } catch (e) {
+                    console.error("Failed to check/create admin profile:", e);
+                }
+            }
+
+            showMsg('Admin login successful! Redirecting...', 'success');
+            setTimeout(() => window.location.href = 'admin.html', 600);
+        }
+
+        // ── Admin Signup ─────────────────────────────────
+        async function adminSignup() {
+            const email = document.getElementById('adminSignupEmail').value.trim();
+            const password = document.getElementById('adminSignupPassword').value;
+            const code = document.getElementById('adminAccessCode').value.trim();
+
+            if (!email || !password || !code) { showMsg('Please fill all fields.', 'error'); return; }
+            if (password.length < 6) { showMsg('Password must be at least 6 characters.', 'error'); return; }
+            if (code !== ADMIN_ACCESS_CODE) { showMsg('Invalid admin access code.', 'error'); return; }
+
+            const { data, error } = await supabaseClient.auth.signUp({ email, password });
+            if (error) { showMsg(error.message, 'error'); return; }
+
+            // Ensure profile is created for admin in profiles
+            if (data && data.user) {
+                try {
+                    await supabaseClient.from('profiles').insert({
+                        id: data.user.id,
+                        email: email.toLowerCase(),
+                        has_access: true,
+                        has_topic_access: true,
+                        created_at: new Date().toISOString()
+                    });
+                } catch (e) {
+                    console.error("Failed to insert admin profile:", e);
+                }
+            }
+
+            showMsg('Admin account created! You can now login as admin. Make sure this email matches ADMIN_EMAIL in admin.html.', 'success');
+        }
+    </script>
+</body>
+
+</html>

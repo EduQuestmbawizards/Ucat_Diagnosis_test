@@ -245,56 +245,8 @@
   </div>
 </header>
 
-<!-- PAGE 1: REGISTRATION -->
-<div class="page active" id="pageReg">
-  <div class="reg-wrap">
-    <div class="reg-card">
-      <div class="reg-top animate-fade-in" style="background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);">
-        <span class="icon">🏥</span>
-        <h2>UCAT Diagnostic Test</h2>
-        <p>15 Questions &nbsp;·&nbsp; 45 Minutes &nbsp;·&nbsp; Full Spectrum</p>
-      </div>
-      <div class="stat-strip">
-        <div class="s"><div class="val">15</div><div class="lbl">Questions</div></div>
-        <div class="s"><div class="val">45</div><div class="lbl">Minutes</div></div>
-        <div class="s"><div class="val">3</div><div class="lbl">Subtests</div></div>
-        <div class="s"><div class="val">UCAT</div><div class="lbl">Format</div></div>
-      </div>
-      <div class="reg-body">
-        <div class="field">
-          <label>Full Name *</label>
-          <input type="text" id="regName" placeholder="Enter your full name" autocomplete="name">
-        </div>
-        <div class="field">
-          <label>Email Address *</label>
-          <input type="email" id="regEmail" placeholder="Enter your email" autocomplete="email">
-        </div>
-        <div class="field">
-          <label>Phone Number</label>
-          <div class="phone-row">
-            <select id="regCC">
-              <option value="+91" selected>🇮🇳 +91 (India)</option>
-              <option value="+1">🇺🇸 +1 (United States)</option>
-              <option value="+44">🇬🇧 +44 (United Kingdom)</option>
-              <option value="+61">🇦🇺 +61 (Australia)</option>
-              <option value="+971">🇦🇪 +971 (UAE)</option>
-              <option value="+65">🇸🇬 +65 (Singapore)</option>
-              <option value="+92">🇵🇰 +92 (Pakistan)</option>
-              <option value="+880">🇧🇩 +880 (Bangladesh)</option>
-              <option value="+977">🇳🇵 +977 (Nepal)</option>
-              <option value="+94">🇱🇰 +94 (Sri Lanka)</option>
-            </select>
-            <input type="tel" id="regPhone" placeholder="Phone number">
-          </div>
-        </div>
-        <button class="btn btn-primary" onclick="startTest()">▶ &nbsp;Start Test</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- PAGE 2: TEST -->
-<div class="page" id="pageTest">
+<div class="page active" id="pageTest">
   <div class="test-wrap">
     <main>
       <div class="mod-banner">
@@ -373,6 +325,8 @@
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
 <script src="script_ucat.js"></script>
 </body>
 </html>

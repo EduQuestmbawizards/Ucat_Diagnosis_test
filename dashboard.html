@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Dashboard – EduQuest UCAT</title>
+  <meta name="description" content="View your UCAT diagnostic test history, individual results, and combined performance reports.">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      background: #0d0d14;
+      color: #fff;
+      min-height: 100vh
+    }
+
+    /* ── Header ────────────────────────────── */
+    .hdr {
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      position: sticky;
+      top: 0;
+      background: rgba(13, 13, 20, 0.95);
+      backdrop-filter: blur(12px);
+      z-index: 100
+    }
+
+    .brand {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px
+    }
+
+    .brand-pill {
+      background: linear-gradient(135deg, #7c3aed, #5b21b6);
+      border-radius: 6px;
+      padding: 3px 10px;
+      font-size: 0.72rem;
+      letter-spacing: .08em;
+      text-transform: uppercase
+    }
+
+    .hdr-right {
+      display: flex;
+      align-items: center;
+      gap: 12px
+    }
+
+    .hdr-email {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.82rem
+    }
+
+    .hdr-link {
+      color: #60a5fa;
+      text-decoration: none;
+      font-size: 0.85rem;
+      padding: 5px 12px;
+      border: 1px solid rgba(96, 165, 250, 0.3);
+      border-radius: 6px;
+      transition: all 0.2s
+    }
+
+    .hdr-link:hover {
+      background: rgba(96, 165, 250, 0.1);
+      border-color: #60a5fa
+    }
+
+    .logout-btn {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: rgba(255, 255, 255, 0.5);
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: all 0.2s
+    }
+
+    .logout-btn:hover {
+      border-color: #dc2626;
+      color: #f87171
+    }
+
+    /* ── Main Wrapper ──────────────────────── */
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 20px 60px
+    }
+
+    .page-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 6px
+    }
+
+    .page-sub {
+      color: rgba(255, 255, 255, 0.4);
+      font-size: 0.88rem;
+      margin-bottom: 28px
+    }
+
+    /* ── Stats Row ─────────────────────────── */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 14px;
+      margin-bottom: 32px
+    }
+
+    .stat-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.3s, transform 0.2s
+    }
+
+    .stat-card:hover {
+      border-color: rgba(124, 58, 237, 0.4);
+      transform: translateY(-2px)
+    }
+
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #7c3aed, #a78bfa);
+      opacity: 0.7
+    }
+
+    .stat-card .num {
+      font-family: 'Syne', sans-serif;
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #a78bfa, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text
+    }
+
+    .stat-card .lbl {
+      font-size: 0.74rem;
+      color: rgba(255, 255, 255, 0.45);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      margin-top: 4px
+    }
+
+    /* ── Section Headers ───────────────────── */
+    .section-hdr {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 12px
+    }
+
+    .section-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700
+    }
+
+    /* ── Test History Table ─────────────────── */
+    .history-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      margin-bottom: 32px
+    }
+
+    .history-table {
+      width: 100%;
+      border-collapse: collapse
+    }
+
+    .history-table thead th {
+      text-align: left;
+      padding: 14px 16px;
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.4);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.02);
+      white-space: nowrap
+    }
+
+    .history-table tbody tr {
+      cursor: pointer;
+      transition: background 0.15s
+    }
+
+    .history-table tbody tr:hover {
+      background: rgba(124, 58, 237, 0.08)
+    }
+
+    .history-table td {
+      padding: 14px 16px;
+      font-size: 0.88rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      white-space: nowrap
+    }
+
+    .history-table .topic-cell {
+      font-weight: 600;
+      white-space: normal;
+      min-width: 140px
+    }
+
+    .score-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 0.78rem;
+      font-weight: 600
+    }
+
+    .score-pill.high { background: rgba(5, 150, 105, 0.15); color: #6ee7b7; border: 1px solid rgba(5, 150, 105, 0.3) }
+    .score-pill.mid { background: rgba(217, 119, 6, 0.15); color: #fbbf24; border: 1px solid rgba(217, 119, 6, 0.3) }
+    .score-pill.low { background: rgba(220, 38, 38, 0.15); color: #f87171; border: 1px solid rgba(220, 38, 38, 0.3) }
+
+    .grade-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      font-family: 'Syne', sans-serif
+    }
+
+    .grade-badge.a { background: rgba(5, 150, 105, 0.2); color: #6ee7b7 }
+    .grade-badge.b { background: rgba(96, 165, 250, 0.2); color: #93c5fd }
+    .grade-badge.c { background: rgba(217, 119, 6, 0.2); color: #fbbf24 }
+    .grade-badge.d { background: rgba(220, 38, 38, 0.2); color: #f87171 }
+
+    .check-col { width: 40px; text-align: center }
+    .check-col input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      accent-color: #7c3aed;
+      cursor: pointer
+    }
+
+    /* ── Combined Report Controls ──────────── */
+    .combine-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap
+    }
+
+    .btn {
+      padding: 9px 18px;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #7c3aed, #5b21b6);
+      color: #fff
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(124, 58, 237, 0.35)
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none
+    }
+
+    .btn-outline {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: rgba(255, 255, 255, 0.7)
+    }
+
+    .btn-outline:hover {
+      border-color: #7c3aed;
+      color: #fff
+    }
+
+    .btn-green {
+      background: linear-gradient(135deg, #059669, #047857);
+      color: #fff
+    }
+
+    .btn-green:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(5, 150, 105, 0.35)
+    }
+
+    .selected-count {
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.45)
+    }
+
+    /* ── Combined Report Card ──────────────── */
+    .combined-report {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(124, 58, 237, 0.3);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 32px;
+      animation: fadeSlide 0.4s ease
+    }
+
+    @keyframes fadeSlide {
+      from { opacity: 0; transform: translateY(16px) }
+      to { opacity: 1; transform: translateY(0) }
+    }
+
+    .combined-report .report-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 4px
+    }
+
+    .combined-report .report-sub {
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.4);
+      margin-bottom: 20px
+    }
+
+    .combined-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px
+    }
+
+    .cstat {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      padding: 14px;
+      text-align: center
+    }
+
+    .cstat .cn {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 800
+    }
+
+    .cstat .cn.green { color: #6ee7b7 }
+    .cstat .cn.red { color: #f87171 }
+    .cstat .cn.amber { color: #fbbf24 }
+    .cstat .cn.blue { color: #93c5fd }
+    .cstat .cn.purple { color: #a78bfa }
+
+    .cstat .cl {
+      font-size: 0.72rem;
+      color: rgba(255, 255, 255, 0.4);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      margin-top: 3px
+    }
+
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 24px
+    }
+
+    .chart-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 20px
+    }
+
+    .chart-box h4 {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: rgba(255, 255, 255, 0.8)
+    }
+
+    /* ── Topic Breakdown Table ─────────────── */
+    .topic-breakdown {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px
+    }
+
+    .topic-breakdown th {
+      text-align: left;
+      padding: 10px 12px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.4);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06)
+    }
+
+    .topic-breakdown td {
+      padding: 10px 12px;
+      font-size: 0.84rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03)
+    }
+
+    .perf-bar {
+      height: 6px;
+      border-radius: 3px;
+      background: rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+      min-width: 80px
+    }
+
+    .perf-bar-fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.6s ease
+    }
+
+    /* ── Modal (Individual Test Detail) ────── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(6px);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 20px
+    }
+
+    .modal-overlay.open {
+      display: flex
+    }
+
+    .modal-box {
+      background: #13131e;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 28px;
+      max-width: 700px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      animation: fadeSlide 0.3s ease
+    }
+
+    .modal-box::-webkit-scrollbar { width: 6px }
+    .modal-box::-webkit-scrollbar-track { background: transparent }
+    .modal-box::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px }
+
+    .modal-hdr {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px
+    }
+
+    .modal-hdr h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700
+    }
+
+    .modal-close {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s
+    }
+
+    .modal-close:hover {
+      background: rgba(220, 38, 38, 0.2);
+      border-color: rgba(220, 38, 38, 0.4)
+    }
+
+    .modal-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 20px
+    }
+
+    .modal-stat {
+      text-align: center;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.06)
+    }
+
+    .modal-stat .ms-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 800
+    }
+
+    .modal-stat .ms-lbl {
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.4);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-top: 2px
+    }
+
+    .modal-chart-wrap {
+      margin-bottom: 20px;
+      max-width: 260px;
+      margin-left: auto;
+      margin-right: auto
+    }
+
+    .q-review-hdr {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08)
+    }
+
+    .q-item {
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      font-size: 0.84rem
+    }
+
+    .q-item .q-id {
+      font-weight: 600;
+      margin-right: 6px
+    }
+
+    .q-item .q-status {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      margin-left: 6px
+    }
+
+    .q-status.correct { background: rgba(5,150,105,0.15); color: #6ee7b7 }
+    .q-status.wrong { background: rgba(220,38,38,0.15); color: #f87171 }
+    .q-status.unattempted { background: rgba(217,119,6,0.15); color: #fbbf24 }
+
+    .q-detail {
+      margin-top: 4px;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.5)
+    }
+
+    .q-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+    .q-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .q-card-text {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 12px;
+      white-space: pre-wrap;
+      text-align: left;
+    }
+    .q-image-container {
+      text-align: center;
+      margin-bottom: 14px;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 8px;
+      padding: 10px;
+      border: 1px dashed rgba(255, 255, 255, 0.1);
+    }
+    .q-image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .q-card-opts {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .q-card-opt {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+      text-align: left;
+    }
+    .q-card-opt-letter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      font-weight: 600;
+      font-size: 0.75rem;
+      flex-shrink: 0;
+    }
+    .q-card-opt.correct {
+      border-color: #059669;
+      background: rgba(5, 150, 105, 0.1);
+      color: #6ee7b7;
+    }
+    .q-card-opt.correct .q-card-opt-letter {
+      background: #059669;
+      color: #fff;
+    }
+    .q-card-opt.wrong-chosen {
+      border-color: #dc2626;
+      background: rgba(220, 38, 38, 0.1);
+      color: #f87171;
+    }
+    .q-card-opt.wrong-chosen .q-card-opt-letter {
+      background: #dc2626;
+      color: #fff;
+    }
+    .q-card-exp {
+      background: rgba(124, 58, 237, 0.05);
+      border-left: 3px solid #7c3aed;
+      padding: 10px 14px;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.8rem;
+      color: #c084fc;
+      line-height: 1.4;
+      text-align: left;
+    }
+
+    /* ── Empty / Loading ───────────────────── */
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: rgba(255, 255, 255, 0.35)
+    }
+
+    .empty-state .empty-icon {
+      font-size: 3rem;
+      margin-bottom: 12px
+    }
+
+    .empty-state h3 {
+      font-family: 'Syne', sans-serif;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 8px
+    }
+
+    .loading-spinner {
+      text-align: center;
+      padding: 60px;
+      color: rgba(255, 255, 255, 0.4)
+    }
+
+    .loading-spinner::after {
+      content: '';
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      border: 3px solid rgba(124, 58, 237, 0.2);
+      border-top-color: #7c3aed;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-top: 12px
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg) }
+    }
+
+    /* ── Responsive ────────────────────────── */
+    @media (max-width: 768px) {
+      .charts-grid { grid-template-columns: 1fr }
+      .modal-stats { grid-template-columns: repeat(2, 1fr) }
+      .history-table { font-size: 0.8rem }
+      .history-table td, .history-table th { padding: 10px 10px }
+      .hdr { padding: 0 14px }
+      .page-title { font-size: 1.4rem }
+      .wrap { padding: 20px 14px 40px }
+      .stat-card .num { font-size: 1.5rem }
+      .history-card { overflow-x: auto }
+    }
+
+    @media (max-width: 480px) {
+      .stats-row { grid-template-columns: repeat(2, 1fr) }
+      .hdr-email { display: none }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── Header ──────────────────────────── -->
+  <header class="hdr">
+    <div class="brand">
+      <span>🏥</span><span>EduQuest</span>
+      <span class="brand-pill">Dashboard</span>
+    </div>
+    <div class="hdr-right">
+      <span class="hdr-email" id="userEmail"></span>
+      <a href="index.html" class="hdr-link">🏠 Home</a>
+      <button class="logout-btn" id="logoutBtn">Logout</button>
+    </div>
+  </header>
+
+  <!-- ── Main Content ────────────────────── -->
+  <div class="wrap" id="mainContent" style="display:none">
+    <h1 class="page-title">📊 My Dashboard</h1>
+    <p class="page-sub" id="welcomeMsg">Your test performance at a glance</p>
+
+    <!-- Overview Stats -->
+    <div class="stats-row" id="overviewStats">
+      <div class="stat-card">
+        <div class="num" id="statTests">–</div>
+        <div class="lbl">Tests Taken</div>
+      </div>
+      <div class="stat-card">
+        <div class="num" id="statAvg">–</div>
+        <div class="lbl">Avg Score %</div>
+      </div>
+      <div class="stat-card">
+        <div class="num" id="statBest">–</div>
+        <div class="lbl">Best Score</div>
+      </div>
+      <div class="stat-card">
+        <div class="num" id="statQs">–</div>
+        <div class="lbl">Total Questions</div>
+      </div>
+    </div>
+
+    <!-- Test History Section -->
+    <div class="section-hdr">
+      <h2 class="section-title">📝 Test History</h2>
+      <div class="combine-bar">
+        <span class="selected-count" id="selCount">0 selected</span>
+        <button class="btn btn-outline" id="selectAllBtn" onclick="toggleSelectAll()">Select All</button>
+        <button class="btn btn-primary" id="combineBtn" disabled onclick="generateCombinedReport()">📊 Combined Report</button>
+      </div>
+    </div>
+
+    <div class="history-card">
+      <div id="historyContent">
+        <div class="loading-spinner">Loading your tests...</div>
+      </div>
+    </div>
+
+    <!-- Combined Report (generated dynamically) -->
+    <div id="combinedReportArea"></div>
+  </div>
+
+  <!-- ── Individual Test Detail Modal ────── -->
+  <div class="modal-overlay" id="testModal">
+    <div class="modal-box" id="modalContent">
+      <!-- Filled dynamically -->
+    </div>
+  </div>
+
+  <!-- ── Scripts ─────────────────────────── -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase.js"></script>
+  <script>
+    const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
+    const LETTERS = ['A', 'B', 'C', 'D'];
+    let allTests = [];
+    let selectedIds = new Set();
+    let currentSession = null;
+    let modalChart = null;
+
+    // ── Topic to Question file mapping ─────
+    const TOPIC_QUESTIONS_MAP = {
+      'Reading Comprehension': { q: './questions.js', dir: '.' },
+      'Vocabulary in Context': { q: './topic2/questions2.js', dir: './topic2' },
+      'Grammar & Usage': { q: './topic-3/questions.js', dir: './topic-3' },
+      'Sentence Completion': { q: './topic4/questions.js', dir: './topic4' },
+      'Rhetorical Skills': { q: './topic5/questions.js', dir: './topic5' },
+      'Critical Thinking & Data': { q: './test_6/questions.js', dir: './test_6' },
+      'Paired Passages': { q: './topic_7/questions.js', dir: './topic_7' },
+      'Research Notes Questions': { q: './topic_8/questions.js', dir: './topic_8' },
+      'Numbers & Operations': { q: './topic_9/questions.js', dir: './topic_9' },
+      'Linear Algebra': { q: './topic_10/questions.js', dir: './topic_10' },
+      'Functions & Graphs': { q: './topic_11/questions.js', dir: './topic_11' },
+      'Quadratics & Polynomials': { q: './topic_12/questions.js', dir: './topic_12' },
+      'Geometry': { q: './topic_13/questions.js', dir: './topic_13' },
+      'Trigonometry': { q: './topic_14/questions.js', dir: './topic_14' },
+      'Statistics & Probability': { q: './topic_15/questions.js', dir: './topic_15' },
+      'Advanced Math': { q: './topic_16/questions.js', dir: './topic_16' },
+      'Words in Context': { q: './wic/questions_wic.js', dir: './wic' },
+      'Text Structure and Purpose': { q: './text_structure_purpose/questions_sp.js', dir: './text_structure_purpose' },
+      'Central Ideas and Details': { q: './Central_Ideas_and_Details/questions_cid.js', dir: './Central_Ideas_and_Details' },
+      'Command of Evidence: Textual': { q: './coe_textual/questions_coe_textual.js', dir: './coe_textual' },
+      'Inferences': { q: './inferences/questions.js', dir: './inferences' },
+      'UCAT Diagnostic': { q: './questions.js', dir: '.' }
+    };
+
+    const loadedQuestionsCache = {};
+    const loadedImagesCache = {};
+
+    function getTopicMapping(topicName) {
+      if (!topicName) return null;
+      const clean = topicName.trim().toLowerCase();
+      const key = Object.keys(TOPIC_QUESTIONS_MAP).find(k => k.trim().toLowerCase() === clean);
+      return key ? { key, ...TOPIC_QUESTIONS_MAP[key] } : null;
+    }
+
+    function loadQuestionsForTopic(topicName) {
+      if (loadedQuestionsCache[topicName]) {
+        return Promise.resolve(loadedQuestionsCache[topicName]);
+      }
+      return new Promise((resolve) => {
+        const mapping = TOPIC_QUESTIONS_MAP[topicName];
+        const path = mapping ? mapping.q : null;
+        if (!path) {
+          resolve(null);
+          return;
+        }
+
+        const loadViaIframe = () => {
+          try {
+            const iframe = document.createElement('iframe');
+            iframe.style.display = 'none';
+            document.body.appendChild(iframe);
+            const doc = iframe.contentDocument || iframe.contentWindow.document;
+            const script = doc.createElement('script');
+            script.src = path;
+            script.onload = () => {
+              try {
+                const qs = iframe.contentWindow.QUESTIONS;
+                if (qs && Array.isArray(qs)) {
+                  loadedQuestionsCache[topicName] = qs;
+                  resolve(qs);
+                } else {
+                  resolve(null);
+                }
+              } catch(e) {
+                resolve(null);
+              }
+              document.body.removeChild(iframe);
+            };
+            script.onerror = () => {
+              resolve(null);
+              document.body.removeChild(iframe);
+            };
+            doc.head.appendChild(script);
+          } catch(e) {
+            resolve(null);
+          }
+        };
+
+        fetch(path)
+          .then(res => {
+            if (!res.ok) throw new Error("Failed to load");
+            return res.text();
+          })
+          .then(text => {
+            let code = text.replace(/(const|let|var)\s+QUESTIONS\s*=/, "var local_qs =");
+            code += "\n; if (typeof local_qs !== 'undefined') { local_qs } else if (typeof QUESTIONS !== 'undefined') { QUESTIONS } else { null };";
+            try {
+              const fn = new Function(code);
+              const result = fn();
+              if (result && Array.isArray(result)) {
+                loadedQuestionsCache[topicName] = result;
+                resolve(result);
+              } else {
+                throw new Error("Eval did not yield array");
+              }
+            } catch(e) {
+              console.warn("Function execution failed, trying iframe loading", e);
+              loadViaIframe();
+            }
+          })
+          .catch(err => {
+            console.warn("Fetch failed, trying iframe loading", err);
+            loadViaIframe();
+          });
+      });
+    }
+
+    function loadImageMappingForTopic(topicName, dir) {
+      if (loadedImagesCache[topicName]) {
+        return Promise.resolve(loadedImagesCache[topicName]);
+      }
+      return new Promise((resolve) => {
+        if (dir === '.' || !dir) {
+          resolve({});
+          return;
+        }
+        const path = dir + '/images.js';
+
+        const loadViaIframe = () => {
+          try {
+            const iframe = document.createElement('iframe');
+            iframe.style.display = 'none';
+            document.body.appendChild(iframe);
+            const doc = iframe.contentDocument || iframe.contentWindow.document;
+            const script = doc.createElement('script');
+            script.src = path;
+            script.onload = () => {
+              try {
+                const imgs = iframe.contentWindow.QUESTION_IMAGES;
+                loadedImagesCache[topicName] = imgs || {};
+                resolve(imgs || {});
+              } catch(e) {
+                resolve({});
+              }
+              document.body.removeChild(iframe);
+            };
+            script.onerror = () => {
+              resolve({});
+              document.body.removeChild(iframe);
+            };
+            doc.head.appendChild(script);
+          } catch(e) {
+            resolve({});
+          }
+        };
+
+        fetch(path)
+          .then(res => {
+            if (!res.ok) throw new Error("No images.js");
+            return res.text();
+          })
+          .then(text => {
+            let code = text.replace(/(const|let|var)\s+QUESTION_IMAGES\s*=/, "var local_imgs =");
+            code += "\n; if (typeof local_imgs !== 'undefined') { local_imgs } else if (typeof QUESTION_IMAGES !== 'undefined') { QUESTION_IMAGES } else { {} };";
+            const fn = new Function(code);
+            const result = fn();
+            loadedImagesCache[topicName] = result || {};
+            resolve(result || {});
+          })
+          .catch(() => {
+            loadViaIframe();
+          });
+      });
+    }
+
+    // ── Auth Guard ──────────────────────────
+    (async function init() {
+      const { data: { session } } = await supabaseClient.auth.getSession();
+      if (!session) {
+        window.location.href = 'login.html?redirect=' + encodeURIComponent(window.location.href);
+        return;
+      }
+      currentSession = session;
+      document.getElementById('userEmail').textContent = session.user.email;
+      document.getElementById('mainContent').style.display = 'block';
+
+      document.getElementById('logoutBtn').onclick = async () => {
+        await supabaseClient.auth.signOut();
+        window.location.href = 'login.html';
+      };
+
+      await loadTests();
+    })();
+
+    // ── Load Tests ──────────────────────────
+    async function loadTests() {
+      const { data: ucatData, error: ucatError } = await supabaseClient
+        .from('Ucat_diagnosis')
+        .select('*')
+        .eq('email', currentSession.user.email)
+        .order('submit_time', { ascending: false });
+
+      if (ucatError) {
+        console.warn("UCAT reports fetch error:", ucatError);
+      }
+
+      const { data: satData, error: satError } = await supabaseClient
+        .from('sat_topic_report')
+        .select('*')
+        .eq('email', currentSession.user.email)
+        .order('submit_time', { ascending: false });
+
+      if (satError) {
+        console.warn("SAT reports fetch error:", satError);
+      }
+
+      const { data: actData, error: actError } = await supabaseClient
+        .from('act_results')
+        .select('*')
+        .eq('student_email', currentSession.user.email)
+        .order('submitted_at', { ascending: false });
+
+      if (actError) {
+        console.warn("ACT reports fetch error:", actError);
+      }
+
+      const mappedActData = (actData || []).map(r => {
+        const detailsObj = r.student_answers || [];
+        const mappedDetails = detailsObj.map(a => {
+           const mapOpt = o => o === 'A' ? 0 : o === 'B' ? 1 : o === 'C' ? 2 : o === 'D' ? 3 : null;
+           return {
+               id: a.question_id,
+               status: a.status,
+               chosen: mapOpt(a.chosen_option),
+               answer: mapOpt(a.correct_option),
+               text: 'Section: ' + (a.section || 'Unknown') + '\\nTopic: ' + (a.topic || 'Unknown'),
+               options: ['Option A', 'Option B', 'Option C', 'Option D']
+           };
+        });
+
+        return {
+          email: r.student_email,
+          name: r.student_name,
+          topic: r.exam_name || 'ACT Test',
+          scaled: r.composite_score || 0,
+          pct: r.percentage || 0,
+          correct: r.correct || 0,
+          wrong: r.wrong || 0,
+          unattempted: r.skipped || 0,
+          total: r.total || 0,
+          grade: r.grade || 'D',
+          submit_time: r.submitted_at,
+          details_json: JSON.stringify(mappedDetails)
+        };
+      });
+
+      // Filter out rows that are just user registration (no submit_time) if they exist
+      const validUcat = (ucatData || []).filter(t => t.submit_time);
+
+      allTests = [...validUcat, ...(satData || []), ...mappedActData];
+      allTests.sort((a, b) => new Date(b.submit_time || 0) - new Date(a.submit_time || 0));
+
+      updateOverviewStats();
+      renderHistory();
+      
+      // Auto-select all if user has taken 2 or more tests
+      if (allTests.length >= 2) {
+        toggleSelectAll(true);
+      }
+    }
+
+    // ── Overview Stats ──────────────────────
+    function updateOverviewStats() {
+      const n = allTests.length;
+      document.getElementById('statTests').textContent = n;
+
+      if (n === 0) {
+        document.getElementById('statAvg').textContent = '–';
+        document.getElementById('statBest').textContent = '–';
+        document.getElementById('statQs').textContent = '0';
+        return;
+      }
+
+      const avgPct = Math.round(allTests.reduce((s, t) => s + (t.pct || 0), 0) / n);
+      const bestScaled = Math.max(...allTests.map(t => t.scaled || 0));
+      const totalQs = allTests.reduce((s, t) => s + (t.total || 0), 0);
+
+      document.getElementById('statAvg').textContent = avgPct + '%';
+      document.getElementById('statBest').textContent = bestScaled;
+      document.getElementById('statQs').textContent = totalQs;
+    }
+
+    // ── Render Test History Table ────────────
+    function renderHistory() {
+      if (allTests.length === 0) {
+        document.getElementById('historyContent').innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">📋</div>
+            <h3>No tests taken yet</h3>
+            <p>Go to <a href="index.html" style="color:#60a5fa">Topic Tests</a> and take your first test!</p>
+          </div>`;
+        return;
+      }
+
+      let html = `<table class="history-table">
+        <thead><tr>
+          <th class="check-col"><input type="checkbox" id="headerCheck" onchange="toggleSelectAll(this.checked)"></th>
+          <th>#</th>
+          <th>Topic</th>
+          <th>Date</th>
+          <th>Correct</th>
+          <th>Wrong</th>
+          <th>Skipped</th>
+          <th>Score</th>
+          <th>Grade</th>
+          <th>Scaled</th>
+        </tr></thead><tbody>`;
+
+      allTests.forEach((t, i) => {
+        const pct = t.pct || 0;
+        const pillClass = pct >= 70 ? 'high' : pct >= 50 ? 'mid' : 'low';
+        const gradeClass = (t.grade || 'D')[0].toLowerCase();
+        const date = t.submit_time ? new Date(t.submit_time).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }) : '–';
+        const time = t.submit_time ? new Date(t.submit_time).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }) : '';
+
+        html += `<tr onclick="openTestDetail(${i})" id="row-${i}">
+          <td class="check-col" onclick="event.stopPropagation()">
+            <input type="checkbox" data-idx="${i}" onchange="toggleSelect(${i}, this.checked)">
+          </td>
+          <td style="color:rgba(255,255,255,0.3)">${i + 1}</td>
+          <td class="topic-cell">${t.topic || 'Unknown Topic'}</td>
+          <td><div>${date}</div><div style="font-size:0.72rem;color:rgba(255,255,255,0.3)">${time}</div></td>
+          <td style="color:#6ee7b7">${t.correct || 0}</td>
+          <td style="color:#f87171">${t.wrong || 0}</td>
+          <td style="color:#fbbf24">${t.unattempted || 0}</td>
+          <td><span class="score-pill ${pillClass}">${pct}%</span></td>
+          <td><span class="grade-badge ${gradeClass}">${t.grade || '–'}</span></td>
+          <td style="font-weight:600;color:#93c5fd">${t.scaled || '–'}</td>
+        </tr>`;
+      });
+
+      html += '</tbody></table>';
+      document.getElementById('historyContent').innerHTML = html;
+    }
+
+    // ── Selection Logic ─────────────────────
+    function toggleSelect(idx, checked) {
+      if (checked) selectedIds.add(idx);
+      else selectedIds.delete(idx);
+      updateSelectionUI();
+    }
+
+    function toggleSelectAll(forceState) {
+      const checkboxes = document.querySelectorAll('.history-table tbody input[type="checkbox"]');
+      const shouldCheck = forceState !== undefined ? forceState : selectedIds.size < allTests.length;
+      checkboxes.forEach(cb => {
+        cb.checked = shouldCheck;
+        const idx = parseInt(cb.dataset.idx);
+        if (shouldCheck) selectedIds.add(idx);
+        else selectedIds.delete(idx);
+      });
+      const headerCb = document.getElementById('headerCheck');
+      if (headerCb) headerCb.checked = shouldCheck;
+      updateSelectionUI();
+    }
+
+    function updateSelectionUI() {
+      const count = selectedIds.size;
+      document.getElementById('selCount').textContent = count + ' selected';
+      document.getElementById('combineBtn').disabled = count < 1;
+      document.getElementById('selectAllBtn').textContent =
+        selectedIds.size === allTests.length ? 'Deselect All' : 'Select All';
+    }
+
+    // ── Individual Test Detail Modal ────────
+    async function openTestDetail(idx) {
+      const t = allTests[idx];
+      const pct = t.pct || 0;
+      const scoreColor = pct >= 70 ? '#6ee7b7' : pct >= 50 ? '#fbbf24' : '#f87171';
+      let details = [];
+      try { details = JSON.parse(t.details_json || '[]'); } catch(e) {}
+
+      const modal = document.getElementById('modalContent');
+      // Show loading inside modal while questions are fetched
+      modal.innerHTML = `
+        <div class="modal-hdr">
+          <h3>${t.topic || 'Test Detail'}</h3>
+          <button class="modal-close" onclick="closeModal()">✕</button>
+        </div>
+        <div class="loading-spinner">Loading question details...</div>
+      `;
+      document.getElementById('testModal').classList.add('open');
+
+      const topicMapping = getTopicMapping(t.topic);
+      const matchedTopicKey = topicMapping ? topicMapping.key : t.topic;
+      const dir = topicMapping ? topicMapping.dir : '.';
+      const qs = await loadQuestionsForTopic(matchedTopicKey);
+      const imgMapping = await loadImageMappingForTopic(matchedTopicKey, dir);
+
+      // Merge questions metadata
+      if (qs && details.length > 0) {
+        details = details.map(d => {
+          const matchedQ = qs.find(q => String(q.id) === String(d.id));
+          if (matchedQ) {
+            return {
+              ...d,
+              text: matchedQ.text,
+              options: matchedQ.options,
+              explanation: matchedQ.explanation || '',
+              useImage: matchedQ.useImage,
+              imageKey: matchedQ.imageKey
+            };
+          }
+          return d;
+        });
+      }
+
+      modal.innerHTML = `
+        <div class="modal-hdr">
+          <h3>${t.topic || 'Test Detail'}</h3>
+          <button class="modal-close" onclick="closeModal()">✕</button>
+        </div>
+        <div style="text-align:center;margin-bottom:4px">
+          <div style="font-family:'Syne';font-size:2.2rem;font-weight:800;color:${scoreColor}">${t.scaled || '–'}</div>
+          <div style="font-size:0.82rem;color:rgba(255,255,255,0.4)">Scaled Score · ${t.submit_time ? new Date(t.submit_time).toLocaleString() : '–'}</div>
+        </div>
+        <div class="modal-stats">
+          <div class="modal-stat"><div class="ms-num" style="color:#6ee7b7">${t.correct || 0}</div><div class="ms-lbl">Correct</div></div>
+          <div class="modal-stat"><div class="ms-num" style="color:#f87171">${t.wrong || 0}</div><div class="ms-lbl">Wrong</div></div>
+          <div class="modal-stat"><div class="ms-num" style="color:#fbbf24">${t.unattempted || 0}</div><div class="ms-lbl">Skipped</div></div>
+          <div class="modal-stat"><div class="ms-num" style="color:#93c5fd">${pct}%</div><div class="ms-lbl">Score</div></div>
+        </div>
+        <div class="modal-chart-wrap"><canvas id="modalPie" height="200"></canvas></div>
+        ${details.length > 0 ? `
+          <div class="q-review-hdr">📋 Question Review (${details.length} questions)</div>
+          <div class="q-review-list">
+          ${details.map((d, i) => {
+            const hasText = !!d.text;
+            const statusClass = d.status === 'correct' ? 'correct' : d.status === 'wrong' ? 'wrong' : 'unattempted';
+            const statusText = d.status === 'correct' ? '✅ Correct' : d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped';
+            
+            // Build image source if used
+            let imgSrc = '';
+            if (d.useImage && d.imageKey && imgMapping[d.imageKey]) {
+              const val = imgMapping[d.imageKey];
+              imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (dir + '/' + val);
+            }
+
+            return `
+              <div class="q-card">
+                <div class="q-card-header">
+                  <span style="font-weight: 700; font-size: 0.95rem;">Question ${d.id || (i+1)}</span>
+                  <span class="q-status ${statusClass}">${statusText}</span>
+                </div>
+                
+                ${hasText ? `<div class="q-card-text">${d.text}</div>` : `<div class="q-card-text" style="opacity:0.6;">Question text not available for this topic.</div>`}
+                
+                ${imgSrc ? `<div class="q-image-container"><img src="${imgSrc}" alt="Question Image" /></div>` : ''}
+
+                ${hasText && d.options ? `
+                  <div class="q-card-opts">
+                    ${d.options.map((optText, optIdx) => {
+                      let optClass = '';
+                      // Mark correct option
+                      if (optIdx === d.answer) {
+                        optClass = 'correct';
+                      }
+                      // Mark chosen if incorrect
+                      if (d.status === 'wrong' && optIdx === d.chosen) {
+                        optClass = 'wrong-chosen';
+                      }
+                      
+                      let badgeIcon = '';
+                      if (optIdx === d.answer) {
+                        badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Correct</span>';
+                      } else if (d.status === 'wrong' && optIdx === d.chosen) {
+                        badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#ef4444;">✗ Your Choice</span>';
+                      } else if (d.status === 'correct' && optIdx === d.chosen) {
+                        badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Your Choice</span>';
+                      }
+
+                      return `
+                        <div class="q-card-opt ${optClass}">
+                          <div class="q-card-opt-letter">${LETTERS[optIdx]}</div>
+                          <div class="q-card-opt-text">${optText}</div>
+                          ${badgeIcon}
+                        </div>
+                      `;
+                    }).join('')}
+                  </div>
+                ` : `
+                  <div class="q-detail" style="margin-top:8px;">
+                    ${d.status === 'wrong' ? `Your answer: <strong>${LETTERS[d.chosen] || '–'}</strong> · Correct: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                    ${d.status === 'unattempted' ? `Correct answer: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                  </div>
+                `}
+
+                ${d.explanation ? `
+                  <div class="q-card-exp">
+                    <strong>💡 Explanation:</strong> ${d.explanation}
+                  </div>
+                ` : ''}
+              </div>
+            `;
+          }).join('')}
+          </div>
+        ` : '<p style="color:rgba(255,255,255,0.3);text-align:center;padding:20px">No question details available</p>'}
+      `;
+
+      // Draw pie chart
+      if (modalChart) modalChart.destroy();
+      modalChart = new Chart(document.getElementById('modalPie'), {
+        type: 'doughnut',
+        data: {
+          labels: ['Correct', 'Wrong', 'Skipped'],
+          datasets: [{
+            data: [t.correct || 0, t.wrong || 0, t.unattempted || 0],
+            backgroundColor: ['#059669', '#dc2626', '#d97706'],
+            borderWidth: 0,
+            hoverOffset: 4
+          }]
+        },
+        options: {
+          plugins: { legend: { position: 'bottom', labels: { color: 'rgba(255,255,255,0.6)', font: { family: 'IBM Plex Sans' } } } },
+          cutout: '65%'
+        }
+      });
+    }
+
+    function closeModal() {
+      document.getElementById('testModal').classList.remove('open');
+    }
+
+    // Close modal on overlay click
+    document.getElementById('testModal').addEventListener('click', function(e) {
+      if (e.target === this) closeModal();
+    });
+
+    // ── Combined Report ─────────────────────
+    let combinedPie = null, combinedBar = null;
+
+    async function generateCombinedReport() {
+      const tests = Array.from(selectedIds).map(i => allTests[i]);
+      if (tests.length === 0) return;
+
+      const area = document.getElementById('combinedReportArea');
+      area.innerHTML = `
+        <div class="combined-report" style="text-align:center;padding:40px;">
+          <div class="loading-spinner">Generating combined report & loading questions...</div>
+        </div>
+      `;
+      area.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      // Gather unique topics in the selected tests and load their questions/images
+      const uniqueTopics = [...new Set(tests.map(t => t.topic).filter(Boolean))];
+      const topicsData = {};
+      for (const topic of uniqueTopics) {
+        const topicMapping = getTopicMapping(topic);
+        const matchedTopicKey = topicMapping ? topicMapping.key : topic;
+        const dir = topicMapping ? topicMapping.dir : '.';
+        const qs = await loadQuestionsForTopic(matchedTopicKey);
+        const imgMapping = await loadImageMappingForTopic(matchedTopicKey, dir);
+        topicsData[topic] = { qs, imgMapping, dir };
+      }
+
+      const totCorrect = tests.reduce((s, t) => s + (t.correct || 0), 0);
+      const totWrong = tests.reduce((s, t) => s + (t.wrong || 0), 0);
+      const totSkipped = tests.reduce((s, t) => s + (t.unattempted || 0), 0);
+      const totQs = tests.reduce((s, t) => s + (t.total || 0), 0);
+      const avgPct = totQs > 0 ? Math.round(totCorrect / totQs * 100) : 0;
+      const avgScaled = Math.round(tests.reduce((s, t) => s + (t.scaled || 0), 0) / tests.length);
+      const overallGrade = avgPct >= 90 ? 'A+' : avgPct >= 80 ? 'A' : avgPct >= 70 ? 'B' : avgPct >= 60 ? 'C' : 'D';
+
+      // Topic-wise breakdown
+      const topicMap = {};
+      tests.forEach(t => {
+        const name = t.topic || 'Unknown';
+        if (!topicMap[name]) topicMap[name] = { correct: 0, wrong: 0, skipped: 0, total: 0, count: 0 };
+        topicMap[name].correct += (t.correct || 0);
+        topicMap[name].wrong += (t.wrong || 0);
+        topicMap[name].skipped += (t.unattempted || 0);
+        topicMap[name].total += (t.total || 0);
+        topicMap[name].count++;
+      });
+
+      const topics = Object.keys(topicMap);
+      const topicPcts = topics.map(k => topicMap[k].total > 0 ? Math.round(topicMap[k].correct / topicMap[k].total * 100) : 0);
+      const barColors = topicPcts.map(p => p >= 70 ? '#059669' : p >= 50 ? '#d97706' : '#dc2626');
+
+      // Strengths & Weaknesses
+      const sorted = topics.map((t, i) => ({ topic: t, pct: topicPcts[i] })).sort((a, b) => b.pct - a.pct);
+      const strengths = sorted.filter(s => s.pct >= 70).slice(0, 3);
+      const weaknesses = sorted.filter(s => s.pct < 70).sort((a, b) => a.pct - b.pct).slice(0, 3);
+
+      // Combine all question details with full questions
+      let allDetails = [];
+      tests.forEach((t, testIndex) => {
+        try {
+          let details = JSON.parse(t.details_json || '[]');
+          if (details.length > 0) {
+            const topicData = topicsData[t.topic];
+            if (topicData && topicData.qs) {
+              details = details.map(d => {
+                const matchedQ = topicData.qs.find(q => String(q.id) === String(d.id));
+                if (matchedQ) {
+                  return {
+                    ...d,
+                    text: matchedQ.text,
+                    options: matchedQ.options,
+                    explanation: matchedQ.explanation || '',
+                    useImage: matchedQ.useImage,
+                    imageKey: matchedQ.imageKey
+                  };
+                }
+                return d;
+              });
+            }
+            allDetails.push({ 
+              testName: t.topic || `Test ${testIndex+1}`, 
+              details,
+              dir: topicData ? topicData.dir : '.',
+              imgMapping: topicData ? topicData.imgMapping : {}
+            });
+          }
+        } catch(e) {
+          console.error("Failed to parse details for test", t, e);
+        }
+      });
+
+      area.innerHTML = `
+        <div class="combined-report" id="combinedReportCard">
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:16px">
+            <div>
+              <div class="report-title">📊 Combined Report</div>
+              <div class="report-sub">${tests.length} test(s) selected · Generated ${new Date().toLocaleString()}</div>
+            </div>
+            <div style="display:flex;gap:8px">
+              <button class="btn btn-green" onclick="downloadCombinedPDF()">📄 Download PDF</button>
+              <button class="btn btn-outline" onclick="closeCombinedReport()">✕ Close</button>
+            </div>
+          </div>
+
+          <div class="combined-stats">
+            <div class="cstat"><div class="cn green">${totCorrect}</div><div class="cl">Total Correct</div></div>
+            <div class="cstat"><div class="cn red">${totWrong}</div><div class="cl">Total Wrong</div></div>
+            <div class="cstat"><div class="cn amber">${totSkipped}</div><div class="cl">Total Skipped</div></div>
+            <div class="cstat"><div class="cn blue">${totQs}</div><div class="cl">Total Questions</div></div>
+            <div class="cstat"><div class="cn purple">${avgPct}%</div><div class="cl">Overall Score</div></div>
+            <div class="cstat"><div class="cn purple">${overallGrade}</div><div class="cl">Grade</div></div>
+          </div>
+
+          <div class="charts-grid">
+            <div class="chart-box">
+              <h4>📊 Overall Breakdown</h4>
+              <canvas id="combinedPie" height="220"></canvas>
+            </div>
+            <div class="chart-box">
+              <h4>📈 Topic-wise Performance</h4>
+              <canvas id="combinedBar" height="220"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-box" style="margin-bottom:20px">
+            <h4>📋 Topic-wise Breakdown</h4>
+            <table class="topic-breakdown">
+              <thead><tr><th>Topic</th><th>Tests</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Score</th><th>Performance</th></tr></thead>
+              <tbody>${topics.map((t, i) => {
+                const d = topicMap[t];
+                const p = topicPcts[i];
+                const color = p >= 70 ? '#059669' : p >= 50 ? '#d97706' : '#dc2626';
+                return `<tr>
+                  <td style="font-weight:600">${t}</td>
+                  <td>${d.count}</td>
+                  <td style="color:#6ee7b7">${d.correct}</td>
+                  <td style="color:#f87171">${d.wrong}</td>
+                  <td style="color:#fbbf24">${d.skipped}</td>
+                  <td><span class="score-pill ${p>=70?'high':p>=50?'mid':'low'}">${p}%</span></td>
+                  <td><div class="perf-bar"><div class="perf-bar-fill" style="width:${p}%;background:${color}"></div></div></td>
+                </tr>`;
+              }).join('')}</tbody>
+            </table>
+          </div>
+
+          ${strengths.length > 0 || weaknesses.length > 0 ? `
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+            ${strengths.length > 0 ? `
+            <div class="chart-box">
+              <h4>💪 Strengths</h4>
+              ${strengths.map(s => `<div style="padding:6px 0;font-size:0.85rem">
+                <span style="color:#6ee7b7;font-weight:600">${s.pct}%</span>
+                <span style="margin-left:8px">${s.topic}</span>
+              </div>`).join('')}
+            </div>` : ''}
+            ${weaknesses.length > 0 ? `
+            <div class="chart-box">
+              <h4>🎯 Areas to Improve</h4>
+              ${weaknesses.map(s => `<div style="padding:6px 0;font-size:0.85rem">
+                <span style="color:#f87171;font-weight:600">${s.pct}%</span>
+                <span style="margin-left:8px">${s.topic}</span>
+              </div>`).join('')}
+            </div>` : ''}
+          </div>` : ''}
+
+          ${allDetails.length > 0 ? `
+          <div class="chart-box" style="margin-top:20px; text-align:left;">
+            <h4>📋 Detailed Question Review</h4>
+            ${allDetails.map(td => `
+              <div style="margin-top:24px;margin-bottom:12px;font-family:'Syne',sans-serif;font-weight:700;color:#93c5fd;border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:8px;font-size:1.1rem;text-align:left;">
+                ${td.testName}
+              </div>
+              <div>
+              ${td.details.map((d, i) => {
+                const hasText = !!d.text;
+                const statusClass = d.status === 'correct' ? 'correct' : d.status === 'wrong' ? 'wrong' : 'unattempted';
+                const statusText = d.status === 'correct' ? '✅ Correct' : d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped';
+                
+                // Build image source if used
+                let imgSrc = '';
+                if (d.useImage && d.imageKey && td.imgMapping[d.imageKey]) {
+                  const val = td.imgMapping[d.imageKey];
+                  imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (td.dir + '/' + val);
+                }
+
+                return `
+                  <div class="q-card">
+                    <div class="q-card-header">
+                      <span style="font-weight: 700; font-size: 0.95rem;">Question ${d.id || (i+1)}</span>
+                      <span class="q-status ${statusClass}">${statusText}</span>
+                    </div>
+                    
+                    ${hasText ? `<div class="q-card-text">${d.text}</div>` : `<div class="q-card-text" style="opacity:0.6;">Question text not available for this topic.</div>`}
+                    
+                    ${imgSrc ? `<div class="q-image-container"><img src="${imgSrc}" alt="Question Image" /></div>` : ''}
+
+                    ${hasText && d.options ? `
+                      <div class="q-card-opts">
+                        ${d.options.map((optText, optIdx) => {
+                          let optClass = '';
+                          if (optIdx === d.answer) {
+                            optClass = 'correct';
+                          }
+                          if (d.status === 'wrong' && optIdx === d.chosen) {
+                            optClass = 'wrong-chosen';
+                          }
+                          
+                          let badgeIcon = '';
+                          if (optIdx === d.answer) {
+                            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Correct</span>';
+                          } else if (d.status === 'wrong' && optIdx === d.chosen) {
+                            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#ef4444;">✗ Your Choice</span>';
+                          } else if (d.status === 'correct' && optIdx === d.chosen) {
+                            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Your Choice</span>';
+                          }
+
+                          return `
+                            <div class="q-card-opt ${optClass}">
+                              <div class="q-card-opt-letter">${LETTERS[optIdx]}</div>
+                              <div class="q-card-opt-text">${optText}</div>
+                              ${badgeIcon}
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : `
+                      <div class="q-detail" style="margin-top:8px;">
+                        ${d.status === 'wrong' ? `Your answer: <strong>${LETTERS[d.chosen] || '–'}</strong> · Correct: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                        ${d.status === 'unattempted' ? `Correct answer: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                      </div>
+                    `}
+
+                    ${d.explanation ? `
+                      <div class="q-card-exp">
+                        <strong>💡 Explanation:</strong> ${d.explanation}
+                      </div>
+                    ` : ''}
+                  </div>
+                `;
+              }).join('')}
+              </div>
+            `).join('')}
+          </div>` : ''}
+        </div>
+      `;
+
+      // Scroll to combined report
+      area.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      // Draw charts
+      if (combinedPie) combinedPie.destroy();
+      combinedPie = new Chart(document.getElementById('combinedPie'), {
+        type: 'doughnut',
+        data: {
+          labels: ['Correct', 'Wrong', 'Skipped'],
+          datasets: [{
+            data: [totCorrect, totWrong, totSkipped],
+            backgroundColor: ['#059669', '#dc2626', '#d97706'],
+            borderWidth: 0,
+            hoverOffset: 6
+          }]
+        },
+        options: {
+          plugins: { legend: { position: 'bottom', labels: { color: 'rgba(255,255,255,0.6)', font: { family: 'IBM Plex Sans' } } } },
+          cutout: '65%'
+        }
+      });
+
+      if (combinedBar) combinedBar.destroy();
+      combinedBar = new Chart(document.getElementById('combinedBar'), {
+        type: 'bar',
+        data: {
+          labels: topics.map(t => t.length > 18 ? t.substring(0, 16) + '…' : t),
+          datasets: [{
+            label: 'Score %',
+            data: topicPcts,
+            backgroundColor: barColors.map(c => c + '33'),
+            borderColor: barColors,
+            borderWidth: 2,
+            borderRadius: 6
+          }]
+        },
+        options: {
+          indexAxis: topics.length > 4 ? 'y' : 'x',
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { max: 100, ticks: { color: 'rgba(255,255,255,0.4)', font: { family: 'IBM Plex Sans', size: 10 } }, grid: { color: 'rgba(255,255,255,0.04)' } },
+            y: { ticks: { color: 'rgba(255,255,255,0.5)', font: { family: 'IBM Plex Sans', size: 10 } }, grid: { color: 'rgba(255,255,255,0.04)' } }
+          }
+        }
+      });
+    }
+
+    function closeCombinedReport() {
+      document.getElementById('combinedReportArea').innerHTML = '';
+    }
+
+    function downloadCombinedPDF() {
+      const element = document.getElementById('combinedReportCard');
+      const buttons = element.querySelectorAll('.btn');
+      buttons.forEach(b => b.style.display = 'none');
+
+      html2pdf().set({
+        margin: [10, 10, 10, 10],
+        filename: `EduQuest_Combined_Report_${new Date().toISOString().slice(0, 10)}.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true, backgroundColor: '#13131e' },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      }).from(element).save().then(() => {
+        buttons.forEach(b => b.style.display = '');
+      }).catch(err => {
+        console.error('PDF generation failed', err);
+        buttons.forEach(b => b.style.display = '');
+      });
+    }
+  </script>
+</body>
+
+</html>

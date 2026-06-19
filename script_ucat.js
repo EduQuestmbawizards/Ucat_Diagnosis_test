@@ -1,70 +1,31 @@
 // ══════════════════════════════════════════════
-// SUPABASE CONFIG
+// INITIALIZATION (Open for everyone)
 // ══════════════════════════════════════════════
-const SUPABASE_URL = 'https://dyvvhmuegtzooijrtwyd.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5dnZobXVlZ3R6b29panJ0d3lkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkwOTk5MTEsImV4cCI6MjA5NDY3NTkxMX0.pksVza66eu3WlM1_r_IGARkjd19BwUvbKntoUIwPhRY';
 
-async function saveUserToSupabase(student) {
-  if (SUPABASE_URL === 'YOUR_SUPABASE_URL') return;
-  try {
-    await fetch(`${SUPABASE_URL}/rest/v1/Ucat_diagnosis`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'apikey': SUPABASE_KEY,
-        'Authorization': `Bearer ${SUPABASE_KEY}`,
-        'Prefer': 'return=minimal'
-      },
-      body: JSON.stringify({
-        name: student.name,
-        email: student.email,
-        phone: student.phone,
-        topic: 'UCAT Diagnostic',
-        created_at: new Date().toISOString()
-      })
-    });
-  } catch(e) {
-    console.error('Failed to save user', e);
+document.addEventListener('DOMContentLoaded', async () => {
+  if (window.supabase) {
+    const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
+    const { data: { session } } = await supabaseClient.auth.getSession();
+    
+    if (session) {
+      // Logged-in user — use their email as student info
+      student = { 
+        name: session.user.email.split('@')[0], 
+        email: session.user.email, 
+        phone: '' 
+      };
+    } else {
+      // Guest user — still allowed to take the test
+      student = { name: 'Guest', email: 'guest@example.com', phone: '' };
+    }
+    
+    initTest();
+  } else {
+    // Fallback if supabase not loaded
+    student = { name: 'Guest', email: 'guest@example.com', phone: '' };
+    initTest();
   }
-}
-
-async function saveToSupabase(result) {
-  if (SUPABASE_URL === 'YOUR_SUPABASE_URL') return { ok: false, msg: 'Supabase not configured' };
-  try {
-    const resp = await fetch(`${SUPABASE_URL}/rest/v1/Ucat_diagnosis`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'apikey': SUPABASE_KEY,
-        'Authorization': `Bearer ${SUPABASE_KEY}`,
-        'Prefer': 'return=minimal'
-      },
-      body: JSON.stringify({
-        name:         result.student.name,
-        email:        result.student.email,
-        phone:        result.student.phone || '',
-        topic:        'UCAT Diagnostic',
-        topic_number: 0,
-        correct:      result.correct,
-        wrong:        result.wrong,
-        unattempted:  result.unattempted,
-        total:        result.total,
-        pct:          result.pct,
-        grade:        result.grade,
-        scaled:       result.scaled,
-        submit_time:  result.submitTime,
-        answers_json: JSON.stringify(result.answers),
-        details_json: JSON.stringify(result.details.map(d => ({
-          id: d.id, status: d.status,
-          chosen: d.chosen, answer: d.answer
-        })))
-      })
-    });
-    return { ok: resp.ok, status: resp.status };
-  } catch(e) {
-    return { ok: false, msg: e.message };
-  }
-}
+});
 
 // ══════════════════════════════════════════════
 // APP STATE
@@ -83,29 +44,8 @@ function showPage(id) {
   $(id).classList.add('active');
 }
 
-// ── Registration ─────────────────────────────
-function startTest() {
-  const name     = $('regName').value.trim();
-  const email    = $('regEmail').value.trim();
-  const phoneVal = ($('regPhone').value || '').trim();
-  const phone    = phoneVal ? ($('regCC').value + ' ' + phoneVal).trim() : '';
-
-  if (!name || name.length < 2) {
-    customAlert('Please enter a valid full name (at least 2 characters).');
-    $('regName').focus(); return;
-  }
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!email || !emailRegex.test(email)) {
-    customAlert('Please enter a valid email address.');
-    $('regEmail').focus(); return;
-  }
-  if (phoneVal && !/^\d{7,15}$/.test(phoneVal.replace(/[- ]/g, ''))) {
-    customAlert('Please enter a valid phone number (7-15 digits).');
-    $('regPhone').focus(); return;
-  }
-
-  student = { name, email, phone };
-  saveUserToSupabase(student);
+// ── Initialization ─────────────────────────────
+function initTest() {
   showPage('pageTest');
   buildPalette();
   renderQ();
@@ -260,7 +200,7 @@ async function doSubmit() {
 
   const result = {
     student, correct, wrong, unattempted, total, pct, grade, scaled,
-    topicStats,
+    topicStats, examName: 'UCAT Diagnostic', topicNumber: 0,
     details, answers, submitTime: new Date().toISOString()
   };
 
