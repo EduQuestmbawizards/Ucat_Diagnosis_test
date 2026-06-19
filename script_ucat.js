@@ -231,10 +231,36 @@ async function doSubmit() {
   const total  = QUESTIONS.length;
   const pct    = Math.round(correct/total*100);
   const grade  = pct>=90?'A+':pct>=80?'A':pct>=70?'B':pct>=60?'C':'D';
-  const scaled = Math.round(300 + (correct/total)*600);
+
+  // Calculate scaled scores for the 3 subtests
+  const subtests = ['Verbal Reasoning', 'Decision Making', 'Quantitative Reasoning'];
+  const topicStats = {};
+  subtests.forEach(topic => {
+    topicStats[topic] = { correct: 0, total: 0, scaled: 300 };
+  });
+
+  details.forEach(d => {
+    const topic = d.topic;
+    if (topicStats[topic]) {
+      topicStats[topic].total++;
+      if (d.status === 'correct') {
+        topicStats[topic].correct++;
+      }
+    }
+  });
+
+  let scaled = 0;
+  subtests.forEach(topic => {
+    const stats = topicStats[topic];
+    if (stats.total > 0) {
+      stats.scaled = 300 + Math.round((stats.correct / stats.total) * 600);
+    }
+    scaled += stats.scaled;
+  });
 
   const result = {
     student, correct, wrong, unattempted, total, pct, grade, scaled,
+    topicStats,
     details, answers, submitTime: new Date().toISOString()
   };
 
@@ -293,10 +319,34 @@ function renderResults(result, saveRes) {
     });
   }
 
+  // Subtests stats grouping
+  const subtests = ['Verbal Reasoning', 'Decision Making', 'Quantitative Reasoning'];
+  const topicStats = result.topicStats || {};
+  if (!result.topicStats) {
+    subtests.forEach(topic => {
+      topicStats[topic] = { correct: 0, total: 0, scaled: 300 };
+    });
+    details.forEach(d => {
+      const topic = d.topic;
+      if (topicStats[topic]) {
+        topicStats[topic].total++;
+        if (d.status === 'correct') {
+          topicStats[topic].correct++;
+        }
+      }
+    });
+    subtests.forEach(topic => {
+      const stats = topicStats[topic];
+      if (stats.total > 0) {
+        stats.scaled = 300 + Math.round((stats.correct / stats.total) * 600);
+      }
+    });
+  }
+
   wrap.innerHTML = `
     <div class="res-hero">
       <div style="font-size:0.8rem;opacity:.55;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px">UCAT Diagnostic Test</div>
-      <div class="sat-score" style="color:${scoreColor}">${scaled}</div>
+      <div class="sat-score" style="color:${scoreColor}">${scaled} <span style="font-size:2rem; font-family:var(--font); color:var(--muted); font-weight:normal;">/ 2700</span></div>
       <div class="score-line">Scaled Score · ${correct} / ${total} correct (${pct}%) · Grade: ${grade}</div>
       <div class="score-sub">${student.name} &nbsp;·&nbsp; ${new Date(result.submitTime).toLocaleString()}</div>
       ${savedBadge}
@@ -307,6 +357,33 @@ function renderResults(result, saveRes) {
       <div class="stat-card w"><div class="num">${wrong}</div><div class="lbl">Wrong</div></div>
       <div class="stat-card s"><div class="num">${unattempted}</div><div class="lbl">Skipped</div></div>
       <div class="stat-card"><div class="num">${pct}%</div><div class="lbl">Score</div></div>
+    </div>
+
+    <!-- Subtest Scaled Score Breakdown Card -->
+    <div class="chart-card" style="margin-bottom:20px;">
+      <h3 style="font-size:0.82rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin-bottom:16px;">🧩 Subtest Scaled Scores (300-900 range each)</h3>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:16px;">
+        ${subtests.map(topic => {
+          const stats = topicStats[topic];
+          const barWidth = Math.round(((stats.scaled - 300) / 600) * 100);
+          let subtestIcon = '📖';
+          if (topic === 'Decision Making') subtestIcon = '🧩';
+          else if (topic === 'Quantitative Reasoning') subtestIcon = '🔢';
+          
+          return `
+            <div style="background:var(--surface2); border:1px solid var(--border); border-radius:10px; padding:16px; display:flex; flex-direction:column; gap:8px;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <span style="font-weight:600; font-size:0.9rem; color:var(--text);">${subtestIcon} ${topic}</span>
+                <span style="font-size:0.75rem; color:var(--muted);">${stats.correct}/${stats.total} Correct</span>
+              </div>
+              <div style="font-family:var(--head); font-size:1.8rem; font-weight:800; color:var(--accent2); margin:4px 0;">${stats.scaled} <span style="font-size:0.8rem; font-family:var(--font); color:var(--muted); font-weight:normal;">/ 900</span></div>
+              <div style="height:6px; background:var(--surface); border-radius:99px; overflow:hidden;">
+                <div style="height:100%; width:${barWidth}%; background:linear-gradient(90deg, var(--accent), var(--accent2)); border-radius:99px;"></div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
     </div>
 
     <div class="charts-row">
@@ -335,36 +412,32 @@ function renderResults(result, saveRes) {
     options:{ plugins:{ legend:{ position:'bottom', labels:{ font:{ family:'IBM Plex Sans' }, color:'#8b83a3' } } }, cutout:'68%' }
   });
 
-  // Bar chart by subtest
-  const topicGroups = {};
-  details.forEach(d => {
-    if (!topicGroups[d.topic]) topicGroups[d.topic] = { correct: 0, total: 0 };
-    topicGroups[d.topic].total++;
-    if (d.status === 'correct') topicGroups[d.topic].correct++;
+  // Bar chart by subtest (showing scaled score)
+  const bands = subtests.map(topic => {
+    const stats = topicStats[topic];
+    return {
+      label: topic.length > 16 ? topic.substring(0,16)+'…' : topic,
+      score: stats.scaled,
+      total: 900
+    };
   });
-  const bands = Object.entries(topicGroups).map(([label, data]) => ({
-    label: label.length > 16 ? label.substring(0,16)+'…' : label,
-    score: data.correct,
-    total: data.total || 1
-  }));
   const bScores = bands.map(b => b.score);
-  const bTotals = bands.map(b => b.total);
-  const maxTotal = Math.max(...bTotals, 8);
-  const bColors = bands.map((b, i) => {
-    const p = bScores[i] / bTotals[i];
+  const bColors = subtests.map(topic => {
+    const stats = topicStats[topic];
+    const p = stats.total > 0 ? stats.correct / stats.total : 0;
     return p >= 0.7 ? '#10b981' : p >= 0.4 ? '#f59e0b' : '#ef4444';
   });
 
   new Chart($('barChart'), {
     type:'bar',
     data:{ labels: bands.map(b=>b.label),
-      datasets:[{ label:'Correct', data: bScores,
+      datasets:[{ label:'Scaled Score', data: bScores,
         backgroundColor: bColors.map(c=>c+'33'), borderColor: bColors,
         borderWidth:2, borderRadius:6 }] },
     options:{
       plugins:{ legend:{display:false} },
       scales:{
-        y:{ max: maxTotal, ticks:{ stepSize:1, font:{family:'IBM Plex Mono'}, color:'#8b83a3' }, grid:{color:'rgba(124,58,237,0.1)'} },
+        y:{ min: 300, max: 900, ticks:{ stepSize:100, font:{family:'IBM Plex Mono'}, color:'#8b83a3' }, grid:{color:'rgba(124,58,237,0.1)'} },
         x:{ ticks:{ font:{family:'IBM Plex Sans', size:9}, color:'#8b83a3' }, grid:{display:false} }
       }
     }
