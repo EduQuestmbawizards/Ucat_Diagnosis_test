@@ -74,7 +74,7 @@
 
     /* HERO */
     .hero {
-      max-width: 680px;
+      max-width: 1400px;
       margin: 0 auto;
       padding: 64px 24px 80px;
       text-align: center;
@@ -117,10 +117,24 @@
 
     /* CARD */
     .card-wrap {
-      display: flex;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       gap: 24px;
-      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 1024px) {
+      .card-wrap {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .card-wrap {
+        grid-template-columns: 1fr;
+        max-width: 420px;
+      }
     }
 
     .exam-card {
@@ -129,7 +143,6 @@
       border-radius: 20px;
       padding: 32px 28px;
       width: 100%;
-      max-width: 380px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -235,7 +248,8 @@
 
   <header class="hdr">
     <div class="brand">
-      <span>🏥</span><span><a href="https://eduquest.org.in/eduQuest/" style="color:inherit; text-decoration:none;">EduQuest</a></span>
+      <span>🏥</span><span><a href="https://eduquest.org.in/eduQuest/"
+          style="color:inherit; text-decoration:none;">EduQuest</a></span>
       <span class="brand-pill">UCAT Diagnostic</span>
     </div>
     <div id="auth-section" style="font-family: sans-serif; font-size: 0.9rem;">
