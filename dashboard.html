@@ -854,7 +854,10 @@
       'Central Ideas and Details': { q: './Central_Ideas_and_Details/questions_cid.js', dir: './Central_Ideas_and_Details' },
       'Command of Evidence: Textual': { q: './coe_textual/questions_coe_textual.js', dir: './coe_textual' },
       'Inferences': { q: './inferences/questions.js', dir: './inferences' },
-      'UCAT Diagnostic': { q: './questions.js', dir: '.' }
+      'UCAT Diagnostic': { q: './questions.js', dir: '.' },
+      'Verbal Reasoning Mock Test': { q: './test_2/question_2.js', dir: './test_2' },
+      'Decision Making Mock Test': { q: './test_3/question_3.js', dir: './test_3' },
+      'Quantitative Reasoning Mock Test': { q: './test_4/question_4.js', dir: './test_4' }
     };
 
     const loadedQuestionsCache = {};
@@ -1227,9 +1230,13 @@
         details = details.map(d => {
           const matchedQ = qs.find(q => String(q.id) === String(d.id));
           if (matchedQ) {
+            let processedText = matchedQ.text || '';
+            if (processedText && dir && dir !== '.') {
+              processedText = processedText.replace(/img src=["']images\//g, `img src="${dir}/images/`);
+            }
             return {
               ...d,
-              text: matchedQ.text,
+              text: processedText,
               options: matchedQ.options,
               explanation: matchedQ.explanation || '',
               useImage: matchedQ.useImage,
@@ -1428,9 +1435,13 @@
               details = details.map(d => {
                 const matchedQ = topicData.qs.find(q => String(q.id) === String(d.id));
                 if (matchedQ) {
+                  let processedText = matchedQ.text || '';
+                  if (processedText && topicData.dir && topicData.dir !== '.') {
+                    processedText = processedText.replace(/img src=["']images\//g, `img src="${topicData.dir}/images/`);
+                  }
                   return {
                     ...d,
-                    text: matchedQ.text,
+                    text: processedText,
                     options: matchedQ.options,
                     explanation: matchedQ.explanation || '',
                     useImage: matchedQ.useImage,
