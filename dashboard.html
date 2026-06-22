@@ -857,7 +857,17 @@
       'UCAT Diagnostic': { q: './questions.js', dir: '.' },
       'Verbal Reasoning Mock Test': { q: './test_2/question_2.js', dir: './test_2' },
       'Decision Making Mock Test': { q: './test_3/question_3.js', dir: './test_3' },
-      'Quantitative Reasoning Mock Test': { q: './test_4/question_4.js', dir: './test_4' }
+      'Quantitative Reasoning Mock Test': { q: './test_4/question_4.js', dir: './test_4' },
+      'Situational Judgement Mock Test': { q: './test_5/question_5.js', dir: './test_5' },
+      'UCAT Full Mock Test (No AR)': { q: './test_6/question_6.js', dir: './test_6' },
+      'UCAT Verbal Reasoning Mock 2': { q: './test_7/question_7.js', dir: './test_7' },
+      'UCAT Decision Making Mock 2': { q: './test_8/question_8.js', dir: './test_8' },
+      'UCAT Quantitative Reasoning Mock 2 Test': { q: './test_9/question_9.js', dir: './test_9' },
+      'UCAT Situational Judgement Mock 2 Test': { q: './test_10/question_10.js', dir: './test_10' },
+      'UCAT Verbal Reasoning Mock 3 Test': { q: './test_11/question_11.js', dir: './test_11' },
+      'UCAT Quantitative Reasoning Mock 3 Test': { q: './test_12/question_12.js', dir: './test_12' },
+      'UCAT Decision Analysis Mock': { q: './test_13/question_13.js', dir: './test_13' },
+      'UCAT Situational Judgement Mock 3 Test': { q: './test_14/question_14.js', dir: './test_14' }
     };
 
     const loadedQuestionsCache = {};
@@ -866,6 +876,21 @@
     function getTopicMapping(topicName) {
       if (!topicName) return null;
       const clean = topicName.trim().toLowerCase();
+      
+      // Handle dynamic test parts
+      if (clean.startsWith('verbal reasoning - part ')) {
+        return { key: topicName, q: './test_vr_parts/master_questions.js', dir: './test_vr_parts' };
+      }
+      if (clean.startsWith('decision making - part ')) {
+        return { key: topicName, q: './test_dm_parts/master_questions.js', dir: './test_dm_parts' };
+      }
+      if (clean.startsWith('quantitative reasoning - part ')) {
+        return { key: topicName, q: './test_qr_parts/master_questions.js', dir: './test_qr_parts' };
+      }
+      if (clean.startsWith('situational judgement - part ')) {
+        return { key: topicName, q: './test_sj_parts/master_questions.js', dir: './test_sj_parts' };
+      }
+
       const key = Object.keys(TOPIC_QUESTIONS_MAP).find(k => k.trim().toLowerCase() === clean);
       return key ? { key, ...TOPIC_QUESTIONS_MAP[key] } : null;
     }
@@ -875,7 +900,7 @@
         return Promise.resolve(loadedQuestionsCache[topicName]);
       }
       return new Promise((resolve) => {
-        const mapping = TOPIC_QUESTIONS_MAP[topicName];
+        const mapping = getTopicMapping(topicName);
         const path = mapping ? mapping.q : null;
         if (!path) {
           resolve(null);
@@ -1232,7 +1257,7 @@
           if (matchedQ) {
             let processedText = matchedQ.text || '';
             if (processedText && dir && dir !== '.') {
-              processedText = processedText.replace(/img src=["']images\//g, `img src="${dir}/images/`);
+              processedText = processedText.replace(/img src=["'](images?)\//g, (m, g) => `img src="${dir}/${g}/`);
             }
             return {
               ...d,
@@ -1437,7 +1462,7 @@
                 if (matchedQ) {
                   let processedText = matchedQ.text || '';
                   if (processedText && topicData.dir && topicData.dir !== '.') {
-                    processedText = processedText.replace(/img src=["']images\//g, `img src="${topicData.dir}/images/`);
+                    processedText = processedText.replace(/img src=["'](images?)\//g, (m, g) => `img src="${topicData.dir}/${g}/`);
                   }
                   return {
                     ...d,

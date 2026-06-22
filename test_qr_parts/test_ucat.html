@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quantitative Reasoning Part Test – EduQuest UCAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+  window.CATEGORY_CONFIG = {
+    name: 'Quantitative Reasoning',
+    topic: 'Quantitative Reasoning',
+    icon: '🔢',
+    topicNumber: 2
+  };
+</script>
+<script src="master_questions.js"></script>
+<style>
+  :root {
+    --accent: #7c3aed;
+    --accent2: #a855f7;
+    --bg: #0f0a1e;
+    --surface: #1a1030;
+    --surface2: #231848;
+    --border: rgba(124,58,237,0.2);
+    --text: #f1f0f5;
+    --muted: #8b83a3;
+    --green: #10b981;
+    --red: #ef4444;
+    --amber: #f59e0b;
+    --font: 'IBM Plex Sans', sans-serif;
+    --mono: 'IBM Plex Mono', monospace;
+    --head: 'Syne', sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 15px; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font); min-height: 100vh; }
+
+  /* SAVING OVERLAY */
+  .saving-overlay {
+    position: fixed; inset: 0; background: rgba(15,10,30,0.92);
+    z-index: 9999; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 16px;
+    opacity: 0; pointer-events: none; transition: opacity 0.3s;
+  }
+  .saving-overlay.show { opacity: 1; pointer-events: all; }
+  .spin {
+    width: 44px; height: 44px; border: 3px solid var(--border);
+    border-top-color: var(--accent); border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* HEADER */
+  .hdr {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(15,10,30,0.95); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 24px; height: 56px;
+  }
+  .hdr-brand { display: flex; align-items: center; gap: 10px; font-family: var(--head); font-weight: 700; font-size: 1.05rem; }
+  .hdr-pill { background: rgba(124,58,237,0.18); color: var(--accent2); border: 1px solid rgba(124,58,237,0.3); border-radius: 20px; padding: 2px 10px; font-size: 0.72rem; font-family: var(--font); font-weight: 500; }
+  .hdr-module { color: var(--muted); font-size: 0.82rem; font-family: var(--font); font-weight: 400; }
+  .timer { display: none; align-items: center; gap: 6px; font-family: var(--mono); font-size: 1rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 6px 14px; }
+  .timer.warn { border-color: var(--red); color: var(--red); animation: pulse 1s infinite; }
+  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.6; } }
+
+  /* PAGES */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* BUTTONS */
+  .btn { width: 100%; padding: 13px 20px; border-radius: 10px; border: none; cursor: pointer; font-family: var(--font); font-size: 0.92rem; font-weight: 600; transition: all 0.2s; }
+  .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; }
+  .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+  .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+  .btn-outline:hover { border-color: var(--accent2); }
+  .btn-danger { background: rgba(239,68,68,0.15); border: 1px solid rgba(239,68,68,0.3); color: var(--red); width: 100%; padding: 11px; border-radius: 10px; cursor: pointer; font-family: var(--font); font-weight: 600; transition: all 0.2s; }
+  .btn-danger:hover { background: rgba(239,68,68,0.25); }
+
+  /* TEST PAGE */
+  .test-wrap { display: grid; grid-template-columns: 1fr 280px; gap: 20px; max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+  @media(max-width:768px) { .test-wrap { grid-template-columns: 1fr; } }
+  .mod-banner { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px 20px; margin-bottom: 18px; display: flex; justify-content: space-between; align-items: center; }
+  .mod-name { font-family: var(--head); font-weight: 700; font-size: 1rem; }
+  .mod-info { font-size: 0.78rem; color: var(--muted); margin-top: 3px; }
+
+  /* PASSAGE BOX */
+  .passage-box {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+  }
+  .passage-header {
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 12px;
+  }
+  .passage-label {
+    font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--accent2); font-weight: 700; font-family: var(--mono);
+  }
+  .passage-subject {
+    font-size: 0.7rem; color: var(--muted); margin-left: auto;
+    font-family: var(--mono);
+  }
+  .passage-text {
+    font-size: 0.88rem; line-height: 1.75; color: rgba(241,240,245,0.85);
+    white-space: pre-line;
+    max-height: 260px; overflow-y: auto;
+    padding-right: 4px;
+  }
+  .passage-text::-webkit-scrollbar { width: 4px; }
+  .passage-text::-webkit-scrollbar-track { background: transparent; }
+  .passage-text::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+
+  .q-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 28px; }
+  .q-meta { display: flex; gap: 8px; margin-bottom: 16px; }
+  .q-badge { background: var(--accent); color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 0.72rem; font-weight: 700; font-family: var(--mono); }
+  .q-topic-tag { background: rgba(124,58,237,0.15); color: var(--accent2); border: 1px solid rgba(124,58,237,0.25); border-radius: 6px; padding: 3px 10px; font-size: 0.72rem; }
+  .q-text { font-size: 0.97rem; line-height: 1.7; color: var(--text); margin-bottom: 22px; white-space: pre-line; }
+  .opts { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+  .opt { display: flex; align-items: flex-start; gap: 12px; padding: 13px 16px; background: var(--surface2); border: 1.5px solid var(--border); border-radius: 10px; cursor: pointer; transition: all 0.18s; }
+  .opt:hover { border-color: var(--accent2); background: rgba(124,58,237,0.08); }
+  .opt.selected { border-color: var(--accent); background: rgba(124,58,237,0.15); }
+  .opt-letter { width: 26px; height: 26px; min-width: 26px; border-radius: 6px; background: rgba(124,58,237,0.2); color: var(--accent2); display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 0.78rem; font-weight: 700; }
+  .opt.selected .opt-letter { background: var(--accent); color: #fff; }
+  .opt-text { font-size: 0.9rem; line-height: 1.55; padding-top: 2px; }
+  .q-nav { display: flex; justify-content: space-between; gap: 12px; }
+  .q-nav .btn { width: auto; padding: 10px 22px; }
+
+  /* SIDEBAR */
+  .sidebar { display: flex; flex-direction: column; gap: 16px; }
+  .palette-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+  .palette-card h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 14px; }
+  .pal-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; margin-bottom: 14px; }
+  .pb { width: 100%; aspect-ratio: 1; border-radius: 6px; background: var(--surface2); border: 1px solid var(--border); color: var(--muted); font-size: 0.65rem; font-family: var(--mono); cursor: pointer; transition: all 0.15s; }
+  .pb.done { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .pb.cur { outline: 2px solid var(--accent2); outline-offset: 1px; }
+  .legend { display: flex; gap: 14px; margin-bottom: 14px; }
+  .leg { display: flex; align-items: center; gap: 5px; font-size: 0.72rem; color: var(--muted); }
+  .leg-dot { width: 10px; height: 10px; border-radius: 3px; }
+  .prog-bg { height: 6px; background: var(--surface2); border-radius: 99px; overflow: hidden; }
+  .prog-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); border-radius: 99px; transition: width 0.4s; }
+  .prog-lbl { font-size: 0.72rem; color: var(--muted); margin-top: 6px; text-align: right; font-family: var(--mono); }
+
+  /* MODALS */
+  .modal-bg { position: fixed; inset: 0; background: rgba(15,10,30,0.85); z-index: 500; display: none; align-items: center; justify-content: center; }
+  .modal-bg.open { display: flex; }
+  .modal { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 28px; max-width: 400px; width: 90%; }
+  .modal h3 { font-family: var(--head); font-size: 1.1rem; margin-bottom: 10px; }
+  .modal p { color: var(--muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 22px; }
+  .modal-btns { display: flex; gap: 10px; justify-content: flex-end; }
+  .modal-btns .btn { width: auto; padding: 9px 20px; }
+
+  /* RESULTS */
+  .res-wrap { max-width: 860px; margin: 0 auto; padding: 28px 16px; }
+  .res-hero { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 36px; text-align: center; margin-bottom: 20px; }
+  .sat-score { font-family: var(--head); font-size: 4.5rem; font-weight: 800; line-height: 1; margin-bottom: 8px; }
+  .score-line { font-size: 1rem; color: var(--muted); margin-bottom: 4px; }
+  .score-sub { font-size: 0.82rem; color: var(--muted); }
+  .saved-badge { display: inline-block; margin-top: 14px; padding: 6px 16px; border-radius: 20px; font-size: 0.78rem; background: rgba(16,185,129,0.1); color: var(--green); border: 1px solid rgba(16,185,129,0.25); }
+  .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
+  .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px; text-align: center; }
+  .stat-card .num { font-family: var(--head); font-size: 2rem; font-weight: 800; }
+  .stat-card .lbl { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 3px; }
+  .stat-card.c .num { color: var(--green); }
+  .stat-card.w .num { color: var(--red); }
+  .stat-card.s .num { color: var(--amber); }
+  .charts-row { display: grid; grid-template-columns: 1fr 1.5fr; gap: 16px; margin-bottom: 20px; }
+  @media(max-width:600px) { .charts-row,.stats-row { grid-template-columns: 1fr 1fr; } }
+  .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
+  .chart-card h3 { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 16px; }
+
+  /* REVIEW with passage */
+  .inc-review { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 22px; margin-bottom: 20px; }
+  .inc-review h3 { font-size: 0.95rem; color: var(--red); border-bottom: 1px solid var(--border); padding-bottom: 12px; margin-bottom: 16px; }
+  .review-passage-block {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+  }
+  .review-passage-label {
+    font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--accent2); font-family: var(--mono); font-weight: 700; margin-bottom: 8px;
+  }
+  .review-passage-text {
+    font-size: 0.8rem; line-height: 1.65; color: rgba(241,240,245,0.75);
+    max-height: 150px; overflow-y: auto; white-space: pre-line;
+  }
+  .inc-q { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
+  .inc-q:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .inc-q-text { font-size: 0.88rem; color: var(--text); margin-bottom: 8px; line-height: 1.55; }
+  .inc-row { display: flex; gap: 8px; align-items: flex-start; font-size: 0.82rem; margin-bottom: 5px; }
+  .inc-row.wrong { color: var(--red); }
+  .inc-row.right { color: var(--green); }
+  .inc-row .label { font-weight: 600; min-width: 110px; }
+  .res-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 20px; }
+  .res-actions .btn { width: auto; }
+
+  .animate-fade-in { animation: fadeIn 0.5s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+
+<!-- SAVING OVERLAY -->
+<div class="saving-overlay" id="savingOverlay">
+  <div class="spin"></div>
+  <p id="savingMsg">Saving your result...</p>
+</div>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="hdr-brand">
+    <span>🔢</span>
+    <span>EduQuest</span>
+    <span class="hdr-pill">Quantitative Reasoning</span>
+    <span class="hdr-module" id="partInfo">Part Test</span>
+  </div>
+  <div class="timer" id="timerBox">
+    <span>⏱</span>
+    <span id="timerDisplay">10:00</span>
+  </div>
+</header>
+
+<!-- PAGE: TEST -->
+<div class="page active" id="pageTest">
+  <div class="test-wrap">
+    <main>
+      <div class="mod-banner">
+        <div>
+          <div class="mod-name">🔢 Quantitative Reasoning Part Test</div>
+          <div class="mod-info" id="sectionLabel">Quantitative Reasoning</div>
+        </div>
+        <div style="font-size:0.8rem;color:var(--muted)" id="modProgress">Q 1 of 20</div>
+      </div>
+
+      <!-- PASSAGE (shown conditionally) -->
+      <div class="passage-box" id="passageBox" style="display:none">
+        <div class="passage-header">
+          <span class="passage-label" id="passageLabel">Passage 1</span>
+          <span class="passage-subject" id="passageSubject">Verbal Reasoning</span>
+        </div>
+        <div class="passage-text" id="passageText"></div>
+      </div>
+
+      <div class="q-card">
+        <div class="q-meta">
+          <span class="q-badge" id="qBadge">Q 1</span>
+          <span class="q-topic-tag" id="qTopic">Quantitative Reasoning</span>
+        </div>
+        <div class="q-text" id="qText">Loading question...</div>
+        <div class="opts" id="qOpts"></div>
+        <div class="q-nav">
+          <button class="btn btn-outline" id="btnPrev" onclick="prevQ()" style="visibility:hidden">← Previous</button>
+          <button class="btn btn-primary" id="btnNext" onclick="nextQ()">Next →</button>
+        </div>
+      </div>
+    </main>
+    <aside class="sidebar">
+      <div class="palette-card">
+        <h3>Question Navigator</h3>
+        <div class="pal-grid" id="palette"></div>
+        <div class="legend">
+          <div class="leg"><div class="leg-dot" style="background:var(--accent)"></div>Answered</div>
+          <div class="leg"><div class="leg-dot" style="background:var(--surface);border:1px solid var(--border)"></div>Not answered</div>
+        </div>
+        <div>
+          <div class="prog-bg"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
+          <div class="prog-lbl" id="progLbl">0 / 20 answered</div>
+        </div>
+      </div>
+      <button class="btn btn-danger" onclick="confirmSubmit()">🏁 Submit Test</button>
+    </aside>
+  </div>
+</div>
+
+<!-- PAGE: RESULTS -->
+<div class="page" id="pageResult">
+  <div class="res-wrap" id="resWrap"></div>
+</div>
+
+<!-- SUBMIT MODAL -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal">
+    <h3>Submit Test?</h3>
+    <p id="modalMsg">Are you sure you want to submit?</p>
+    <div class="modal-btns">
+      <button class="btn btn-outline" onclick="closeModal()">Cancel</button>
+      <button class="btn btn-danger" style="width:auto" onclick="doSubmit()">Submit</button>
+    </div>
+  </div>
+</div>
+
+<!-- ALERT MODAL -->
+<div class="modal-bg" id="alertBg">
+  <div class="modal">
+    <h3>EduQuest UCAT Test</h3>
+    <p id="alertMsg"></p>
+    <div class="modal-btns">
+      <button class="btn btn-primary" style="width:auto" onclick="document.getElementById('alertBg').classList.remove('open')">OK</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../supabase.js"></script>
+<script src="../parts_script.js"></script>
+</body>
+</html>
