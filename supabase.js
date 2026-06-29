@@ -15,7 +15,7 @@ async function saveRegistration(studentData, examName) {
         name: studentData.name,
         email: studentData.email,
         phone: studentData.phone,
-        topic: examName || 'SAT Topic Test',
+        topic: examName || 'UCAT Practice Test',
         created_at: new Date().toISOString()
     };
 
@@ -404,3 +404,99 @@ if (document.readyState === 'loading') {
 } else {
   populateCountryDropdown();
 }
+
+const regStyles = document.createElement('style');
+regStyles.textContent = `
+  .reg-wrap { min-height: calc(100vh - 56px); display: flex; align-items: center; justify-content: center; padding: 32px 16px; }
+  .reg-card { background: #1a1030; border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; width: 100%; max-width: 520px; overflow: hidden; box-shadow: 0 24px 80px rgba(124,58,237,0.15); color: #fff; }
+  .reg-top { padding: 36px 32px 28px; text-align: center; }
+  .reg-top .icon { font-size: 2.8rem; display: block; margin-bottom: 12px; }
+  .reg-top h2 { font-family: 'Syne', sans-serif; font-size: 1.8rem; font-weight: 800; margin-bottom: 6px; }
+  .reg-top p { color: rgba(255,255,255,0.75); font-size: 0.9rem; }
+  .stat-strip { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid rgba(255,255,255,0.1); }
+  .stat-strip .s { padding: 14px 8px; text-align: center; border-right: 1px solid rgba(255,255,255,0.1); }
+  .stat-strip .s:last-child { border-right: none; }
+  .stat-strip .val { font-family: 'IBM Plex Mono', monospace; font-size: 1rem; font-weight: 500; color: #fff; }
+  .stat-strip .lbl { font-size: 0.65rem; color: rgba(255,255,255,0.5); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.06em; }
+  .reg-body { padding: 28px 32px 32px; }
+  .field { margin-bottom: 18px; text-align: left; }
+  .field label { display: block; font-size: 0.78rem; color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 7px; }
+  .field input, .field select { width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); border-radius: 10px; padding: 11px 14px; color: #fff; font-size: 0.92rem; outline: none; transition: border-color 0.2s; box-sizing: border-box; }
+  .field input:focus, .field select:focus { border-color: #a855f7; }
+  .field input::placeholder { color: rgba(255,255,255,0.3); }
+  .phone-row { display: grid; grid-template-columns: 140px 1fr; gap: 8px; }
+  .phone-row select { padding: 11px 10px; }
+`;
+if (document.head) document.head.appendChild(regStyles);
+
+// ── Global Start Test Helper ──────────────────
+window.startTest = async function() {
+  const nameInput = document.getElementById('regName');
+  const emailInput = document.getElementById('regEmail');
+  const phoneInput = document.getElementById('regPhone');
+  const ccInput = document.getElementById('regCC');
+
+  if (!nameInput || !emailInput) {
+    if (typeof initTest === 'function') initTest();
+    else if (typeof showPage === 'function') showPage('pageTest');
+    return;
+  }
+
+  const name = nameInput.value.trim();
+  const email = emailInput.value.trim();
+  const phoneVal = (phoneInput?.value || '').trim();
+  const cc = ccInput?.value || '';
+  const phone = phoneVal ? (cc + ' ' + phoneVal).trim() : '';
+
+  if (!name || name.length < 2) { 
+    if (typeof customAlert === 'function') customAlert('Please enter a valid full name (at least 2 characters).'); 
+    else alert('Please enter a valid full name (at least 2 characters).');
+    nameInput.focus(); 
+    return; 
+  }
+  
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!email || !emailRegex.test(email)) { 
+    if (typeof customAlert === 'function') customAlert('Please enter a valid email address.'); 
+    else alert('Please enter a valid email address.');
+    emailInput.focus(); 
+    return; 
+  }
+
+  if (phoneVal && !/^\d{7,15}$/.test(phoneVal.replace(/[- ]/g, ''))) {
+    if (typeof customAlert === 'function') customAlert('Please enter a valid phone number (7-15 digits).');
+    else alert('Please enter a valid phone number (7-15 digits).');
+    phoneInput?.focus();
+    return;
+  }
+
+  if (typeof student !== 'undefined') {
+    student.name = name;
+    student.email = email;
+    student.phone = phone;
+  } else {
+    window.student = { name, email, phone };
+  }
+
+  let topicName = 'UCAT Practice Test';
+  if (typeof window.EXAM_NAME !== 'undefined' && window.EXAM_NAME) {
+    topicName = window.EXAM_NAME;
+  } else if (typeof EXAM_NAME !== 'undefined' && EXAM_NAME) {
+    topicName = EXAM_NAME;
+  } else if (document.querySelector('.reg-top h2')) {
+    topicName = document.querySelector('.reg-top h2').textContent.trim();
+  } else if (document.querySelector('.mod-name')) {
+    topicName = document.querySelector('.mod-name').textContent.replace(/^[^\w]+/g, '').trim();
+  } else if (document.title) {
+    topicName = document.title.replace(' – EduQuest UCAT', '').trim();
+  }
+  if (typeof saveRegistration === 'function') {
+    saveRegistration(window.student || student, topicName);
+  }
+
+  if (typeof initTest === 'function') {
+    initTest();
+  } else if (typeof showPage === 'function') {
+    showPage('pageTest');
+  }
+};

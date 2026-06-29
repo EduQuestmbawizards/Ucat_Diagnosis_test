@@ -1,3 +1,4 @@
+window.EXAM_NAME = 'Situational Judgement Mock Test';
 // ══════════════════════════════════════════════
 // INITIALIZATION (Open for everyone)
 // ══════════════════════════════════════════════
@@ -13,13 +14,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         email: session.user.email,
         phone: ''
       };
+      if ($('regEmail')) $('regEmail').value = session.user.email;
+      if ($('regName')) $('regName').value = session.user.email.split('@')[0];
     } else {
       student = { name: 'Guest', email: 'guest@example.com', phone: '' };
     }
-
-    initTest();
   } else {
     student = { name: 'Guest', email: 'guest@example.com', phone: '' };
+  }
+
+  if ($('pageReg')) {
+    showPage('pageReg');
+  } else {
     initTest();
   }
 });

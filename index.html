@@ -493,20 +493,59 @@
       const { data: { session } } = await supabaseClient.auth.getSession();
 
       const authSection = document.getElementById('auth-section');
+      const allBtns = document.querySelectorAll('.card-btn');
+      const unlockedHrefs = ['./test_ucat.html'];
 
       if (!session) {
         authSection.innerHTML = `<a href="login.html?redirect=index.html" style="color:#60a5fa; text-decoration:none; border:1px solid #60a5fa; padding:5px 12px; border-radius:4px;">Log In</a>`;
-      } else {
-        authSection.innerHTML = `
+        allBtns.forEach(btn => {
+          const href = btn.getAttribute('href') || '';
+          if (!unlockedHrefs.includes(href)) {
+            btn.textContent = 'Log in to Access 🔒';
+            btn.style.background = 'rgba(255,255,255,0.1)';
+            btn.style.color = '#fff';
+            btn.onclick = (e) => { e.preventDefault(); window.location.href = 'login.html?redirect=index.html'; };
+          }
+        });
+        return;
+      }
+
+      authSection.innerHTML = `
         <a href="dashboard.html" style="color:#a78bfa; text-decoration:none; border:1px solid rgba(167,139,250,0.3); padding:5px 12px; border-radius:4px; margin-right:8px; transition:all 0.2s;">📊 Dashboard</a>
         <span style="color:rgba(255,255,255,0.7); margin-right:10px;">${session.user.email}</span>
         <button onclick="logout()" style="background:none; border:1px solid rgba(255,255,255,0.2); color:#fff; padding:4px 10px; border-radius:4px; cursor:pointer;">Logout</button>`;
 
-        window.logout = async () => {
-          await supabaseClient.auth.signOut();
-          window.location.reload();
-        };
-      }
+      window.logout = async () => {
+        await supabaseClient.auth.signOut();
+        window.location.reload();
+      };
+
+      const { data: profile } = await supabaseClient.from('profiles').select('*').eq('id', session.user.id).single();
+      const isAdmin = session.user.email === 'rupali.eduquest@gmail.com';
+      const hasAccess = isAdmin || (profile && (profile.has_ucat_access || profile.has_access));
+
+      allBtns.forEach(btn => {
+        const href = btn.getAttribute('href') || '';
+        if (!unlockedHrefs.includes(href)) {
+          if (!hasAccess) {
+            btn.textContent = 'Request Access 🔒';
+            btn.style.background = '#d97706';
+            btn.style.color = '#fff';
+            btn.onclick = async (e) => {
+              e.preventDefault();
+              btn.textContent = 'Sending Request...';
+              try {
+                await supabaseClient.from('profiles').update({ ucat_access_requested: true }).eq('id', session.user.id);
+              } catch (err) { console.error('DB Update failed:', err); }
+              btn.textContent = 'Request Sent ✅';
+              btn.style.background = '#059669';
+              setTimeout(() => {
+                alert('Your request for UCAT access has been sent to the admin. Please wait for approval.');
+              }, 100);
+            };
+          }
+        }
+      });
     })();
   </script>
 </body>

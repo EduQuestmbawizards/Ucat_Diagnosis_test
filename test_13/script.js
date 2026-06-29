@@ -1,3 +1,4 @@
+window.EXAM_NAME = 'UCAT Decision Analysis Mock';
 // ══════════════════════════════════════════════
 // INITIALIZATION (Open for everyone)
 // ══════════════════════════════════════════════
@@ -6,23 +7,25 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (window.supabase) {
     const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
     const { data: { session } } = await supabaseClient.auth.getSession();
-    
+
     if (session) {
-      // Logged-in user — use their email as student info
-      student = { 
-        name: session.user.email.split('@')[0], 
-        email: session.user.email, 
-        phone: '' 
+      student = {
+        name: session.user.email.split('@')[0],
+        email: session.user.email,
+        phone: ''
       };
+      if ($('regEmail')) $('regEmail').value = session.user.email;
+      if ($('regName')) $('regName').value = session.user.email.split('@')[0];
     } else {
-      // Guest user — still allowed to take the test
       student = { name: 'Guest', email: 'guest@example.com', phone: '' };
     }
-    
-    initTest();
   } else {
-    // Fallback if supabase not loaded
     student = { name: 'Guest', email: 'guest@example.com', phone: '' };
+  }
+
+  if ($('pageReg')) {
+    showPage('pageReg');
+  } else {
     initTest();
   }
 });

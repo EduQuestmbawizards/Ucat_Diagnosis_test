@@ -23,10 +23,10 @@
 
     const { data: { session } } = await supabaseClient.auth.getSession();
 
-    // Determine correct relative paths based on whether we are in a subdirectory (like test_3)
+    // Determine correct relative paths based on whether we are in a subdirectory (like test_3 or test_vr_parts)
     let loginUrl = 'login.html';
     let indexUrl = 'index.html';
-    if (window.location.pathname.match(/\/(topic|test_6|wic|text_structure_purpose|cross_text_connections|Central_Ideas_and_Details|coe_textual|inferences)/i)) {
+    if (window.location.pathname.match(/\/(test_\w+|topic)/i)) {
         loginUrl = '../login.html';
         indexUrl = '../index.html';
     }
@@ -40,23 +40,13 @@
 
     const { data: profile, error } = await supabaseClient
         .from('profiles')
-        .select('has_topic_reading_access, has_topic_math_access, has_topic_class_test_access')
+        .select('*')
         .eq('id', session.user.id)
         .single();
 
-    const pathname = window.location.pathname.toLowerCase();
-    const isMath = pathname.match(/\/(topic_9|topic_10|topic_11|topic_12|topic_13|topic_14|topic_15|topic_16)\//i);
-    const isClassTest = pathname.match(/\/(wic|text_structure_purpose|cross_text_connections|central_ideas_and_details|coe_textual|inferences)\//i);
-    
     let hasAccess = false;
     if (profile) {
-        if (isMath) {
-            hasAccess = profile.has_topic_math_access;
-        } else if (isClassTest) {
-            hasAccess = profile.has_topic_class_test_access;
-        } else {
-            hasAccess = profile.has_topic_reading_access;
-        }
+        hasAccess = profile.has_ucat_access || profile.has_access;
     }
 
     if (!isAdmin && (error || !profile || !hasAccess)) {

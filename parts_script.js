@@ -28,6 +28,7 @@ const CATEGORY_TOPIC = window.CATEGORY_CONFIG ? window.CATEGORY_CONFIG.topic : '
 const CATEGORY_ICON = window.CATEGORY_CONFIG ? window.CATEGORY_CONFIG.icon : '📝';
 const TOPIC_NUMBER = window.CATEGORY_CONFIG ? window.CATEGORY_CONFIG.topicNumber : 0;
 const EXAM_NAME = `${CATEGORY_NAME} - Part ${PART_NUMBER}`;
+window.EXAM_NAME = EXAM_NAME;
 
 // ── Timer: 30 seconds per question ───────────
 const TIMER_SECONDS = PART_QUESTIONS.length * 30;
@@ -50,13 +51,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         email: session.user.email, 
         phone: '' 
       };
+      if ($('regEmail')) $('regEmail').value = session.user.email;
+      if ($('regName')) $('regName').value = session.user.email.split('@')[0];
     } else {
       student = { name: 'Guest', email: 'guest@example.com', phone: '' };
     }
-    
-    initTest();
   } else {
     student = { name: 'Guest', email: 'guest@example.com', phone: '' };
+  }
+  
+  if ($('pageReg')) {
+    showPage('pageReg');
+  } else {
     initTest();
   }
 });

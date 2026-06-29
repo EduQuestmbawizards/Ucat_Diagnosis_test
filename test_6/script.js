@@ -2,6 +2,7 @@
 // INITIALIZATION (Open for everyone)
 // ══════════════════════════════════════════════
 
+window.EXAM_NAME = 'UCAT Full Mock Test (No AR)';
 document.addEventListener('DOMContentLoaded', async () => {
   if (window.supabase) {
     const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
@@ -13,13 +14,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         email: session.user.email,
         phone: ''
       };
+      if ($('regEmail')) $('regEmail').value = session.user.email;
+      if ($('regName')) $('regName').value = session.user.email.split('@')[0];
     } else {
       student = { name: 'Guest', email: 'guest@example.com', phone: '' };
     }
-
-    initTest();
   } else {
     student = { name: 'Guest', email: 'guest@example.com', phone: '' };
+  }
+
+  if ($('pageReg')) {
+    showPage('pageReg');
+  } else {
     initTest();
   }
 });

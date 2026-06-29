@@ -895,6 +895,14 @@
           <div class="num" id="statActPending">–</div>
           <div class="lbl">ACT Pending</div>
         </div>
+        <div class="stat">
+          <div class="num" id="statUcatApproved">–</div>
+          <div class="lbl">UCAT Approved</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="statUcatPending">–</div>
+          <div class="lbl">UCAT Pending</div>
+        </div>
       </div>
 
       <div class="tabs">
@@ -1218,6 +1226,7 @@
       const satApproved = allProfiles.filter(p => p.has_access).length;
       const topicApproved = allProfiles.filter(p => p.has_topic_reading_access || p.has_topic_math_access || p.has_topic_class_test_access).length;
       const actApproved = allProfiles.filter(p => p.has_act_access).length;
+      const ucatApproved = allProfiles.filter(p => p.has_ucat_access || p.has_access).length;
 
       document.getElementById('statTotal').textContent = total;
       document.getElementById('statSatApproved').textContent = satApproved;
@@ -1226,6 +1235,8 @@
       document.getElementById('statTopicPending').textContent = total - topicApproved;
       document.getElementById('statActApproved').textContent = actApproved;
       document.getElementById('statActPending').textContent = total - actApproved;
+      if (document.getElementById('statUcatApproved')) document.getElementById('statUcatApproved').textContent = ucatApproved;
+      if (document.getElementById('statUcatPending')) document.getElementById('statUcatPending').textContent = total - ucatApproved;
     }
 
     // ── Filter tabs ───────────────────────────────────
@@ -1256,11 +1267,9 @@
       let list = allProfiles;
 
       if (currentFilter === 'pending') {
-        // Pending approval on EITHER SAT or Topic tests
-        list = list.filter(p => !p.has_access || (!p.has_topic_reading_access && !p.has_topic_math_access && !p.has_topic_class_test_access));
+        list = list.filter(p => !p.has_access || !p.has_ucat_access || (!p.has_topic_reading_access && !p.has_topic_math_access && !p.has_topic_class_test_access));
       } else if (currentFilter === 'approved') {
-        // Approved for BOTH
-        list = list.filter(p => p.has_access && (p.has_topic_reading_access || p.has_topic_math_access || p.has_topic_class_test_access));
+        list = list.filter(p => p.has_access || p.has_ucat_access || p.has_topic_reading_access || p.has_topic_math_access || p.has_topic_class_test_access);
       }
 
       if (search) list = list.filter(p => (p.email || '').toLowerCase().includes(search));
@@ -1282,6 +1291,7 @@
           <span class="badge ${p.has_topic_math_access ? 'granted' : 'pending'}">Math: ${p.has_topic_math_access ? '✓' : '⏳'}</span>
           <span class="badge ${p.has_topic_class_test_access ? 'granted' : 'pending'}">R&W Class Test: ${p.has_topic_class_test_access ? '✓' : '⏳'}</span>
           <span class="badge ${p.has_act_access ? 'granted' : 'pending'}">ACT: ${p.has_act_access ? '✓' : '⏳'}</span>
+          <span class="badge ${(p.has_ucat_access || p.has_access) ? 'granted' : 'pending'}">UCAT: ${(p.has_ucat_access || p.has_access) ? '✓' : '⏳'}</span>
         </div>
         <div style="margin-top: 10px;">
           <input type="text" class="org-input" placeholder="Organization" value="${p.organization || ''}"
@@ -1324,6 +1334,13 @@
             : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'act', true)">Approve</button>`
           }
         </div>
+        <div style="display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
+          <span style="font-size: 0.8rem; color: rgba(255,255,255,0.6); min-width: 95px; text-align: right;">UCAT Test:</span>
+          ${(p.has_ucat_access || p.has_access)
+            ? `<button class="btn-sm btn-revoke" onclick="setAccess('${p.id}', 'ucat', false)">Revoke</button>`
+            : `<button class="btn-sm btn-approve" onclick="setAccess('${p.id}', 'ucat', true)">Approve</button>`
+          }
+        </div>
       </div>
     </div>
   `).join('');
@@ -1342,12 +1359,25 @@
         updatePayload.has_topic_class_test_access = value;
       } else if (type === 'act') {
         updatePayload.has_act_access = value;
+      } else if (type === 'ucat') {
+        updatePayload.has_ucat_access = value;
       }
 
-      const { error } = await supabaseClient
+      let { error } = await supabaseClient
         .from('profiles')
         .update(updatePayload)
         .eq('id', userId);
+
+      if (error && type === 'ucat') {
+        // Fallback if has_ucat_access column is not present in PostgreSQL schema
+        const fallbackPayload = { has_access: value };
+        const res = await supabaseClient.from('profiles').update(fallbackPayload).eq('id', userId);
+        error = res.error;
+        if (!error) {
+          const p = allProfiles.find(x => x.id === userId);
+          if (p) p.has_access = value;
+        }
+      }
 
       if (error) {
         alert('Update failed: ' + error.message);
@@ -1361,6 +1391,7 @@
         else if (type === 'topic_math') p.has_topic_math_access = value;
         else if (type === 'topic_class_test') p.has_topic_class_test_access = value;
         else if (type === 'act') p.has_act_access = value;
+        else if (type === 'ucat') p.has_ucat_access = value;
       }
       updateStats();
       if (currentFilter === 'reports') {
