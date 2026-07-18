@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EduQuest – UCAT Practice Test</title>
+  <title>EduQuest – UCAT Practice Library</title>
   <link
     href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
     rel="stylesheet">
@@ -115,6 +115,77 @@
       margin: 0 auto 40px;
     }
 
+    /* ═══ TAB NAVIGATION ═══ */
+    .tab-nav-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .tab-nav {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(20, 14, 40, 0.95);
+      border: 1px solid rgba(124, 58, 237, 0.18);
+      border-radius: 50px;
+      padding: 5px 6px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .tab-btn {
+      position: relative;
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      font-family: var(--font);
+      font-size: 0.85rem;
+      font-weight: 500;
+      padding: 10px 20px;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      white-space: nowrap;
+      letter-spacing: 0.01em;
+    }
+
+    .tab-btn:hover:not(.active) {
+      color: var(--text);
+      background: rgba(124, 58, 237, 0.08);
+    }
+
+    .tab-btn.active {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff;
+      font-weight: 600;
+      box-shadow: 0 4px 20px rgba(124, 58, 237, 0.4);
+    }
+
+    /* Tab count badge */
+    .tab-count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.15);
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 1px 7px;
+      border-radius: 10px;
+      margin-left: 6px;
+      min-width: 20px;
+    }
+
+    .tab-btn.active .tab-count {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    /* ═══ TAB CONTENT ═══ */
+    .tab-content-area {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
     /* CARD */
     .card-wrap {
       display: grid;
@@ -132,15 +203,40 @@
 
     @media (max-width: 768px) {
       .card-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 800px;
+      }
+      .tab-nav {
+        border-radius: 20px;
+        padding: 6px;
+        gap: 3px;
+      }
+      .tab-btn {
+        font-size: 0.75rem;
+        padding: 8px 12px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card-wrap {
         grid-template-columns: 1fr;
         max-width: 420px;
+      }
+      .tab-nav {
+        flex-direction: column;
+        border-radius: 16px;
+        width: 100%;
+      }
+      .tab-btn {
+        width: 100%;
+        text-align: center;
       }
     }
 
     .exam-card {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 20px;
+      border-radius: 24px;
       padding: 32px 28px;
       width: 100%;
       display: flex;
@@ -148,14 +244,15 @@
       align-items: center;
       text-align: center;
       gap: 8px;
-      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+      transition: border-color 0.25s ease, transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s ease;
       box-shadow: 0 8px 40px rgba(124, 58, 237, 0.08);
+      position: relative;
     }
 
     .exam-card:hover {
-      border-color: var(--accent2);
-      transform: translateY(-4px);
-      box-shadow: 0 16px 60px rgba(124, 58, 237, 0.2);
+      border-color: rgba(168, 85, 247, 0.6);
+      transform: translateY(-6px) scale(1.02);
+      box-shadow: 0 16px 60px rgba(124, 58, 237, 0.3), 0 0 20px rgba(168, 85, 247, 0.25);
     }
 
     .card-icon {
@@ -217,7 +314,7 @@
     .card-btn {
       display: block;
       width: 100%;
-      margin-top: 10px;
+      margin-top: auto;
       background: linear-gradient(135deg, var(--accent), var(--accent2));
       color: #fff;
       text-decoration: none;
@@ -233,6 +330,18 @@
       transform: translateY(-1px);
     }
 
+    /* Tab Switch Animation */
+    .animate-tab-fade {
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 250ms ease-out, transform 250ms ease-out;
+    }
+
+    .animate-tab-fade.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
     footer {
       text-align: center;
       padding: 32px;
@@ -240,14 +349,6 @@
       font-size: 0.78rem;
       border-top: 1px solid var(--border);
       margin-top: 40px;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    .animate-fade-in {
-      animation: fadeIn 0.3s ease-out forwards;
     }
   </style>
 </head>
@@ -266,108 +367,24 @@
   </header>
 
   <main class="hero">
-    <div class="hero-badge">✦ Free UCAT Practice Test</div>
-    <h1>UCAT<br><span>Practice Test</span></h1>
-    <p>Find out exactly where you stand before your UCAT preparation. 15 authentic-style questions across 3 subtests
-      — timed, scored, and instantly reported</p>
-    <div class="card-wrap">
-      <!-- Practice Test -->
-      <div class="exam-card">
-        <div class="card-icon">🏥</div>
-        <div class="card-label">Practice Test</div>
-        <div class="card-title">UCAT Full Spectrum</div>
-        <div class="card-sub">15 Questions · 45 Minutes · 3 Subtests</div>
-        <div class="subtests">
-          <span class="sub-pill">📖 Verbal Reasoning</span>
-          <span class="sub-pill">🧩 Decision Making</span>
-          <span class="sub-pill">🔢 Quantitative Reasoning</span>
-        </div>
-        <span class="tag">✓ Available Now</span>
-        <a href="./test_ucat.html" class="card-btn">▶ &nbsp;Start Practice →</a>
-      </div>
+    <div class="hero-badge">✦ UCAT Practice Library</div>
+    <h1>UCAT<br><span>Practice Mocks</span></h1>
+    <p>Select a subtest below to view and complete our available practice modules — timed, scored, and instantly logged.</p>
 
-      <!-- Verbal Reasoning Folder Card -->
-      <div class="exam-card folder-card" id="vrFolderCard" style="border: 2px dashed rgba(124, 58, 237, 0.4); background: rgba(124, 58, 237, 0.03);">
-        <div class="card-icon" style="transition: transform 0.3s; font-size: 3rem;" id="vrFolderIcon">📁</div>
-        <div class="card-label">Category Folder</div>
-        <div class="card-title">Verbal Reasoning Mocks</div>
-        <div class="card-sub">338 Questions split into 17 bite-sized parts (20 Qs each)</div>
-        <span class="tag" style="background: rgba(167, 139, 250, 0.15); color: var(--accent2); border: 1px solid rgba(167,139,250,0.35);">17 Parts inside</span>
-        <button class="card-btn" onclick="toggleVRFolder()" id="vrFolderBtn" style="background: linear-gradient(135deg, var(--accent2), #8b5cf6);">📂 Open Folder</button>
-      </div>
+    <!-- ═══ TAB NAVIGATION BAR ═══ -->
+    <div class="tab-nav-wrapper">
+      <nav class="tab-nav" id="tabNav">
+        <button class="tab-btn active" onclick="switchTab('vr')" data-tab="vr">📖 Verbal Reasoning</button>
+        <button class="tab-btn" onclick="switchTab('dm')" data-tab="dm">🧩 Decision Making</button>
+        <button class="tab-btn" onclick="switchTab('qr')" data-tab="qr">🔢 Quantitative Reasoning</button>
+        <button class="tab-btn" onclick="switchTab('sj')" data-tab="sj">⚖️ Situational Judgement</button>
+      </nav>
+    </div>
 
-      <!-- Collapsible VR Folder Content -->
-      <div id="vrFolderContent" style="display: none; width: 100%; margin-top: 10px;">
-        <div class="card-wrap" id="vrCardsContainer" style="padding: 20px; background: rgba(124, 58, 237, 0.05); border: 1px dashed rgba(124, 58, 237, 0.25); border-radius: 20px; gap: 20px;">
-          <!-- Dynamically generated by JS -->
-        </div>
-      </div>
-
-      <!-- Decision Making Folder Card -->
-      <div class="exam-card folder-card" id="dmFolderCard" style="border: 2px dashed rgba(124, 58, 237, 0.4); background: rgba(124, 58, 237, 0.03);">
-        <div class="card-icon" style="transition: transform 0.3s; font-size: 3rem;" id="dmFolderIcon">📁</div>
-        <div class="card-label">Category Folder</div>
-        <div class="card-title">Decision Making Mocks</div>
-        <div class="card-sub">207 Questions split into 11 bite-sized parts (20 Qs each)</div>
-        <span class="tag" style="background: rgba(167, 139, 250, 0.15); color: var(--accent2); border: 1px solid rgba(167,139,250,0.35);">11 Parts inside</span>
-        <button class="card-btn" onclick="toggleDMFolder()" id="dmFolderBtn" style="background: linear-gradient(135deg, var(--accent2), #8b5cf6);">📂 Open Folder</button>
-      </div>
-
-      <!-- Collapsible DM Folder Content -->
-      <div id="dmFolderContent" style="display: none; width: 100%; margin-top: 10px;">
-        <div class="card-wrap" id="dmCardsContainer" style="padding: 20px; background: rgba(124, 58, 237, 0.05); border: 1px dashed rgba(124, 58, 237, 0.25); border-radius: 20px; gap: 20px;">
-          <!-- Dynamically generated by JS -->
-        </div>
-      </div>
-
-      <!-- Quantitative Reasoning Folder Card -->
-      <div class="exam-card folder-card" id="qrFolderCard" style="border: 2px dashed rgba(124, 58, 237, 0.4); background: rgba(124, 58, 237, 0.03);">
-        <div class="card-icon" style="transition: transform 0.3s; font-size: 3rem;" id="qrFolderIcon">📁</div>
-        <div class="card-label">Category Folder</div>
-        <div class="card-title">Quantitative Reasoning Mocks</div>
-        <div class="card-sub">372 Questions split into 19 bite-sized parts (20 Qs each)</div>
-        <span class="tag" style="background: rgba(167, 139, 250, 0.15); color: var(--accent2); border: 1px solid rgba(167,139,250,0.35);">19 Parts inside</span>
-        <button class="card-btn" onclick="toggleQRFolder()" id="qrFolderBtn" style="background: linear-gradient(135deg, var(--accent2), #8b5cf6);">📂 Open Folder</button>
-      </div>
-
-      <!-- Collapsible QR Folder Content -->
-      <div id="qrFolderContent" style="display: none; width: 100%; margin-top: 10px;">
-        <div class="card-wrap" id="qrCardsContainer" style="padding: 20px; background: rgba(124, 58, 237, 0.05); border: 1px dashed rgba(124, 58, 237, 0.25); border-radius: 20px; gap: 20px;">
-          <!-- Dynamically generated by JS -->
-        </div>
-      </div>
-
-      <!-- Situational Judgement Folder Card -->
-      <div class="exam-card folder-card" id="sjFolderCard" style="border: 2px dashed rgba(124, 58, 237, 0.4); background: rgba(124, 58, 237, 0.03);">
-        <div class="card-icon" style="transition: transform 0.3s; font-size: 3rem;" id="sjFolderIcon">📁</div>
-        <div class="card-label">Category Folder</div>
-        <div class="card-title">Situational Judgement Mocks</div>
-        <div class="card-sub">436 Questions split into 22 bite-sized parts (20 Qs each)</div>
-        <span class="tag" style="background: rgba(167, 139, 250, 0.15); color: var(--accent2); border: 1px solid rgba(167,139,250,0.35);">22 Parts inside</span>
-        <button class="card-btn" onclick="toggleSJFolder()" id="sjFolderBtn" style="background: linear-gradient(135deg, var(--accent2), #8b5cf6);">📂 Open Folder</button>
-      </div>
-
-      <!-- Collapsible SJ Folder Content -->
-      <div id="sjFolderContent" style="display: none; width: 100%; margin-top: 10px;">
-        <div class="card-wrap" id="sjCardsContainer" style="padding: 20px; background: rgba(124, 58, 237, 0.05); border: 1px dashed rgba(124, 58, 237, 0.25); border-radius: 20px; gap: 20px;">
-          <!-- Dynamically generated by JS -->
-        </div>
-      </div>
-
-      <!-- UCAT Full Mock (No AR) -->
-      <div class="exam-card">
-        <div class="card-icon">🧠</div>
-        <div class="card-label">Mock Test</div>
-        <div class="card-title">UCAT Full Mock (No AR)</div>
-        <div class="card-sub">211 Questions · 102 Minutes · 4 Subtests</div>
-        <div class="subtests">
-          <span class="sub-pill">📖 Verbal Reasoning</span>
-          <span class="sub-pill">🧩 Decision Making</span>
-          <span class="sub-pill">🔢 Quantitative Reasoning</span>
-          <span class="sub-pill">⚖️ Situational Judgement</span>
-        </div>
-        <span class="tag">✓ Available Now</span>
-        <a href="./test_6/test_ucat.html" class="card-btn">▶ &nbsp;Start Mock Test →</a>
+    <!-- ═══ TAB CONTENT AREA ═══ -->
+    <div class="tab-content-area">
+      <div id="cardGrid" class="card-wrap animate-tab-fade">
+        <!-- Dynamically rendered via JS -->
       </div>
     </div>
   </main>
@@ -378,156 +395,87 @@
   <script src="supabase.js"></script>
   <script src="email.js"></script>
   <script>
-    // Toggle folder UI logic
-    function toggleVRFolder() {
-      const content = document.getElementById('vrFolderContent');
-      const btn = document.getElementById('vrFolderBtn');
-      const icon = document.getElementById('vrFolderIcon');
-      if (content.style.display === 'none') {
-        content.style.display = 'block';
-        content.classList.add('animate-fade-in');
-        btn.innerHTML = '📁 Close Folder';
-        icon.style.transform = 'scale(1.1) rotate(5deg)';
-      } else {
-        content.style.display = 'none';
-        btn.innerHTML = '📂 Open Folder';
-        icon.style.transform = 'none';
-      }
-    }
+    // ── DATASET & REUSABLE COMPONENTS ──
+    const tests = [];
 
-    function toggleDMFolder() {
-      const content = document.getElementById('dmFolderContent');
-      const btn = document.getElementById('dmFolderBtn');
-      const icon = document.getElementById('dmFolderIcon');
-      if (content.style.display === 'none') {
-        content.style.display = 'block';
-        content.classList.add('animate-fade-in');
-        btn.innerHTML = '📁 Close Folder';
-        icon.style.transform = 'scale(1.1) rotate(5deg)';
-      } else {
-        content.style.display = 'none';
-        btn.innerHTML = '📂 Open Folder';
-        icon.style.transform = 'none';
-      }
-    }
-
-    function toggleQRFolder() {
-      const content = document.getElementById('qrFolderContent');
-      const btn = document.getElementById('qrFolderBtn');
-      const icon = document.getElementById('qrFolderIcon');
-      if (content.style.display === 'none') {
-        content.style.display = 'block';
-        content.classList.add('animate-fade-in');
-        btn.innerHTML = '📁 Close Folder';
-        icon.style.transform = 'scale(1.1) rotate(5deg)';
-      } else {
-        content.style.display = 'none';
-        btn.innerHTML = '📂 Open Folder';
-        icon.style.transform = 'none';
-      }
-    }
-
-    function toggleSJFolder() {
-      const content = document.getElementById('sjFolderContent');
-      const btn = document.getElementById('sjFolderBtn');
-      const icon = document.getElementById('sjFolderIcon');
-      if (content.style.display === 'none') {
-        content.style.display = 'block';
-        content.classList.add('animate-fade-in');
-        btn.innerHTML = '📁 Close Folder';
-        icon.style.transform = 'scale(1.1) rotate(5deg)';
-      } else {
-        content.style.display = 'none';
-        btn.innerHTML = '📂 Open Folder';
-        icon.style.transform = 'none';
-      }
-    }
-
-    // ── Dynamic Part Cards Generator ─────────────
-    function renderPartCards(containerId, config) {
-      const container = document.getElementById(containerId);
-      if (!container) return;
-      
-      const totalParts = Math.ceil(config.totalQuestions / 20);
-      let html = '';
-      
+    // Helper to generate part cards programmatically
+    function addPartTests(type, name, icon, dir, totalQuestions) {
+      const totalParts = Math.ceil(totalQuestions / 20);
       for (let i = 1; i <= totalParts; i++) {
         const isLast = (i === totalParts);
-        const qCount = isLast ? (config.totalQuestions % 20 || 20) : 20;
+        const qCount = isLast ? (totalQuestions % 20 || 20) : 20;
         const minutes = Math.ceil(qCount * 30 / 60); // 30 sec per question
-        
-        html += `
-          <div class="exam-card" style="box-shadow: none; border-color: rgba(124, 58, 237, 0.15); max-width: 340px;">
-            <div class="card-icon">${config.icon}</div>
-            <div class="card-label">Part ${i} of ${totalParts}</div>
-            <div class="card-title">${config.name} - Part ${i}</div>
-            <div class="card-sub">${qCount} Questions · ${minutes} Min</div>
-            <div class="subtests">
-              <span class="sub-pill">${config.icon} ${config.name}</span>
-            </div>
-            <span class="tag">✓ Available Now</span>
-            <a href="./${config.dir}/test_ucat.html?part=${i}" class="card-btn">▶ &nbsp;Start Part ${i} →</a>
-          </div>`;
+
+        tests.push({
+          type: type,
+          icon: icon,
+          badge: `PART ${i} OF ${totalParts}`,
+          title: `${name} – Part ${i}`,
+          questions: qCount,
+          duration: minutes,
+          subtests: 1,
+          subjects: [name],
+          buttonText: `Start Part ${i}`,
+          link: `./${dir}/test_ucat.html?part=${i}`
+        });
       }
-      
-      container.innerHTML = html;
     }
 
-    // Generate all part cards on page load
-    renderPartCards('vrCardsContainer', {
-      name: 'Verbal Reasoning', icon: '📖', dir: 'test_vr_parts', totalQuestions: 338
-    });
-    renderPartCards('dmCardsContainer', {
-      name: 'Decision Making', icon: '🧩', dir: 'test_dm_parts', totalQuestions: 207
-    });
-    renderPartCards('qrCardsContainer', {
-      name: 'Quantitative Reasoning', icon: '🔢', dir: 'test_qr_parts', totalQuestions: 372
-    });
-    renderPartCards('sjCardsContainer', {
-      name: 'Situational Judgement', icon: '⚖️', dir: 'test_sj_parts', totalQuestions: 436
-    });
+    // Load topic parts into tests list
+    addPartTests('vr', 'Verbal Reasoning', '📖', 'test_vr_parts', 338);
+    addPartTests('dm', 'Decision Making', '🧩', 'test_dm_parts', 207);
+    addPartTests('qr', 'Quantitative Reasoning', '🔢', 'test_qr_parts', 372);
+    addPartTests('sj', 'Situational Judgement', '⚖️', 'test_sj_parts', 436);
 
-    (async function initAuth() {
-      if (!window.supabase) return;
-      const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
-      const { data: { session } } = await supabaseClient.auth.getSession();
+    // Reusable TestCard template
+    function TestCard(props) {
+      const subtestsText = props.subtests > 1 ? ` • ${props.subtests} Subtests` : ' • 1 Subtest';
+      const subjectsHtml = props.subjects.map(subject => `<span class="sub-pill">${subject}</span>`).join('');
+      
+      return `
+        <div class="exam-card">
+          <div class="card-icon">${props.icon}</div>
+          <div class="card-label">${props.badge}</div>
+          <div class="card-title">${props.title}</div>
+          <div class="card-sub">${props.questions} Questions • ${props.duration} Minutes${subtestsText}</div>
+          <div class="subtests">
+            ${subjectsHtml}
+          </div>
+          <span class="tag">✓ Available Now</span>
+          <a href="${props.link}" class="card-btn">${props.buttonText} →</a>
+        </div>
+      `;
+    }
 
-      const authSection = document.getElementById('auth-section');
+    // Global session access state
+    let userSession = null;
+    let hasAccess = false;
+
+    // Apply remote access checking rules to dynamically rendered cards
+    function applyAccessControl() {
       const allBtns = document.querySelectorAll('.card-btn');
       const unlockedHrefs = ['./test_ucat.html'];
 
-      if (!session) {
-        authSection.innerHTML = `<a href="login.html?redirect=index.html" style="color:#60a5fa; text-decoration:none; border:1px solid #60a5fa; padding:5px 12px; border-radius:4px;">Log In</a>`;
+      if (!userSession) {
         allBtns.forEach(btn => {
           const href = btn.getAttribute('href') || '';
           if (!unlockedHrefs.includes(href)) {
             btn.textContent = 'Log in to Access 🔒';
             btn.style.background = 'rgba(255,255,255,0.1)';
             btn.style.color = '#fff';
-            btn.onclick = (e) => { e.preventDefault(); window.location.href = 'login.html?redirect=index.html'; };
+            btn.onclick = (e) => {
+              e.preventDefault();
+              window.location.href = 'login.html?redirect=index.html';
+            };
           }
         });
         return;
       }
 
-      authSection.innerHTML = `
-        <a href="dashboard.html" style="color:#a78bfa; text-decoration:none; border:1px solid rgba(167,139,250,0.3); padding:5px 12px; border-radius:4px; margin-right:8px; transition:all 0.2s;">📊 Dashboard</a>
-        <span style="color:rgba(255,255,255,0.7); margin-right:10px;">${session.user.email}</span>
-        <button onclick="logout()" style="background:none; border:1px solid rgba(255,255,255,0.2); color:#fff; padding:4px 10px; border-radius:4px; cursor:pointer;">Logout</button>`;
-
-      window.logout = async () => {
-        await supabaseClient.auth.signOut();
-        window.location.reload();
-      };
-
-      const { data: profile } = await supabaseClient.from('profiles').select('*').eq('id', session.user.id).single();
-      const isAdmin = session.user.email === 'rupali.eduquest@gmail.com';
-      const hasAccess = isAdmin || (profile && (profile.has_ucat_access || profile.has_access));
-
-      allBtns.forEach(btn => {
-        const href = btn.getAttribute('href') || '';
-        if (!unlockedHrefs.includes(href)) {
-          if (!hasAccess) {
+      if (!hasAccess) {
+        allBtns.forEach(btn => {
+          const href = btn.getAttribute('href') || '';
+          if (!unlockedHrefs.includes(href)) {
             btn.textContent = 'Request Access 🔒';
             btn.style.background = '#d97706';
             btn.style.color = '#fff';
@@ -535,8 +483,11 @@
               e.preventDefault();
               btn.textContent = 'Sending Request...';
               try {
-                await supabaseClient.from('profiles').update({ ucat_access_requested: true }).eq('id', session.user.id);
-              } catch (err) { console.error('DB Update failed:', err); }
+                const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
+                await supabaseClient.from('profiles').update({ ucat_access_requested: true }).eq('id', userSession.user.id);
+              } catch (err) {
+                console.error('DB Update failed:', err);
+              }
               btn.textContent = 'Request Sent ✅';
               btn.style.background = '#059669';
               setTimeout(() => {
@@ -544,9 +495,78 @@
               }, 100);
             };
           }
-        }
+        });
+      }
+    }
+
+    // ── TAB SWITCHING LOGIC WITH ANIMATION ──
+    function switchTab(tabName) {
+      // Toggle active states on tab buttons
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-tab') === tabName);
       });
+
+      const grid = document.getElementById('cardGrid');
+      if (!grid) return;
+
+      // Fade out
+      grid.classList.remove('active');
+
+      // Update contents and fade in using requestAnimationFrame to ensure smooth transition
+      requestAnimationFrame(() => {
+        const filtered = tests.filter(test => test.type === tabName);
+        grid.innerHTML = filtered.map(test => TestCard(test)).join('');
+        
+        // Apply access checks to the newly rendered cards
+        applyAccessControl();
+
+        requestAnimationFrame(() => {
+          grid.classList.add('active');
+        });
+      });
+    }
+
+    // ── INITIALIZE PAGE ──
+    document.addEventListener('DOMContentLoaded', () => {
+      // Default active tab
+      switchTab('vr');
+    });
+
+    // ── AUTHENTICATION ──
+    (async function initAuth() {
+      if (!window.supabase) return;
+      const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
+      const { data: { session } } = await supabaseClient.auth.getSession();
+
+      const authSection = document.getElementById('auth-section');
+      userSession = session;
+
+      if (!session) {
+        authSection.innerHTML = `<a href="login.html?redirect=index.html" style="color:#60a5fa; text-decoration:none; border:1px solid #60a5fa; padding:5px 12px; border-radius:4px;">Log In</a>`;
+      } else {
+        authSection.innerHTML = `
+        <a href="dashboard.html" style="color:#a78bfa; text-decoration:none; border:1px solid rgba(167,139,250,0.3); padding:5px 12px; border-radius:4px; margin-right:8px; transition:all 0.2s;">📊 Dashboard</a>
+        <span style="color:rgba(255,255,255,0.7); margin-right:10px;">${session.user.email}</span>
+        <button onclick="logout()" style="background:none; border:1px solid rgba(255,255,255,0.2); color:#fff; padding:4px 10px; border-radius:4px; cursor:pointer;">Logout</button>`;
+
+        window.logout = async () => {
+          await supabaseClient.auth.signOut();
+          window.location.reload();
+        };
+
+        try {
+          const { data: profile } = await supabaseClient.from('profiles').select('*').eq('id', session.user.id).single();
+          const isAdmin = session.user.email === 'rupali.eduquest@gmail.com';
+          hasAccess = isAdmin || (profile && (profile.has_ucat_access || profile.has_access));
+        } catch (err) {
+          console.error('Error fetching profile access:', err);
+        }
+      }
+
+      // Initial access control check for first render
+      applyAccessControl();
     })();
   </script>
 </body>
+
 </html>
