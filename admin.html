@@ -214,6 +214,31 @@
       border-color: #1a56db
     }
 
+    @media print {
+      .hdr, .sidebar, .sub-hdr, .filters, .btn, .btn-sm, .modal-close {
+        display: none !important;
+      }
+      body {
+        background: #0d0d14 !important;
+        color: #fff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .modal-overlay.open {
+        position: relative !important;
+        background: none !important;
+        padding: 0 !important;
+        display: block !important;
+      }
+      .modal-box {
+        max-height: none !important;
+        overflow: visible !important;
+        border: none !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+    }
+
     .user-card {
       background: rgba(255, 255, 255, 0.04);
       border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1666,7 +1691,10 @@
       modal.innerHTML = `
         <div class="modal-hdr">
           <h3>${t.topic || 'Test Detail'}</h3>
-          <button class="modal-close" onclick="closeModal()">✕</button>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <button class="btn-sm btn-approve" style="padding:5px 12px;font-size:0.8rem;cursor:pointer;" onclick="printReport()">🖨️ Print Report</button>
+            <button class="modal-close" onclick="closeModal()">✕</button>
+          </div>
         </div>
         <div style="text-align:center;margin-bottom:8px">
           <div style="font-size:0.95rem;font-weight:600;color:rgba(255,255,255,0.6);margin-bottom:4px">Student: ${email}</div>
