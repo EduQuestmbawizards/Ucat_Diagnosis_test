@@ -374,7 +374,8 @@
     <!-- ═══ TAB NAVIGATION BAR ═══ -->
     <div class="tab-nav-wrapper">
       <nav class="tab-nav" id="tabNav">
-        <button class="tab-btn active" onclick="switchTab('vr')" data-tab="vr">📖 Verbal Reasoning</button>
+        <button class="tab-btn active" onclick="switchTab('full')" data-tab="full">🏆 UCAT Full Mock</button>
+        <button class="tab-btn" onclick="switchTab('vr')" data-tab="vr">📖 Verbal Reasoning</button>
         <button class="tab-btn" onclick="switchTab('dm')" data-tab="dm">🧩 Decision Making</button>
         <button class="tab-btn" onclick="switchTab('qr')" data-tab="qr">🔢 Quantitative Reasoning</button>
         <button class="tab-btn" onclick="switchTab('sj')" data-tab="sj">⚖️ Situational Judgement</button>
@@ -392,11 +393,31 @@
   <footer>© EduQuest · UCAT Practice Test · Free for all students</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="env.js"></script>
   <script src="supabase.js"></script>
   <script src="email.js"></script>
   <script>
     // ── DATASET & REUSABLE COMPONENTS ──
     const tests = [];
+
+    // Add 7 Full Mock Tests (103 Mins, 184 Questions)
+    function addFullMockTests() {
+      for (let i = 1; i <= 7; i++) {
+        tests.push({
+          type: 'full',
+          icon: '🏆',
+          badge: `FULL MOCK EXAM ${i}`,
+          title: `UCAT Full Mock Test ${i}`,
+          questions: 184,
+          duration: 103,
+          subtests: 4,
+          subjects: ['VR (44q)', 'DM (35q)', 'QR (36q)', 'SJT (69q)'],
+          buttonText: `Start Full Mock ${i}`,
+          link: `./test_full_mock.html?mock=${i}`
+        });
+      }
+    }
+    addFullMockTests();
 
     // Helper to generate part cards programmatically
     function addPartTests(type, name, icon, dir, totalQuestions) {
@@ -442,7 +463,7 @@
             ${subjectsHtml}
           </div>
           <span class="tag">✓ Available Now</span>
-          <a href="${props.link}" class="card-btn">${props.buttonText} →</a>
+          <a href="${props.link}" class="card-btn" data-original-href="${props.link}" data-original-text="${props.buttonText}">${props.buttonText} →</a>
         </div>
       `;
     }
@@ -456,47 +477,50 @@
       const allBtns = document.querySelectorAll('.card-btn');
       const unlockedHrefs = ['./test_ucat.html'];
 
-      if (!userSession) {
-        allBtns.forEach(btn => {
-          const href = btn.getAttribute('href') || '';
-          if (!unlockedHrefs.includes(href)) {
-            btn.textContent = 'Log in to Access 🔒';
-            btn.style.background = 'rgba(255,255,255,0.1)';
-            btn.style.color = '#fff';
-            btn.onclick = (e) => {
-              e.preventDefault();
-              window.location.href = 'login.html?redirect=index.html';
-            };
-          }
-        });
-        return;
-      }
+      allBtns.forEach(btn => {
+        const origHref = btn.getAttribute('data-original-href') || btn.getAttribute('href') || '';
+        const origText = btn.getAttribute('data-original-text') || btn.textContent.replace(' →', '') || '';
 
-      if (!hasAccess) {
-        allBtns.forEach(btn => {
-          const href = btn.getAttribute('href') || '';
-          if (!unlockedHrefs.includes(href)) {
-            btn.textContent = 'Request Access 🔒';
-            btn.style.background = '#d97706';
-            btn.style.color = '#fff';
-            btn.onclick = async (e) => {
-              e.preventDefault();
-              btn.textContent = 'Sending Request...';
-              try {
-                const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
-                await supabaseClient.from('profiles').update({ ucat_access_requested: true }).eq('id', userSession.user.id);
-              } catch (err) {
-                console.error('DB Update failed:', err);
-              }
-              btn.textContent = 'Request Sent ✅';
-              btn.style.background = '#059669';
-              setTimeout(() => {
-                alert('Your request for UCAT access has been sent to the admin. Please wait for approval.');
-              }, 100);
-            };
-          }
-        });
-      }
+        if (unlockedHrefs.includes(origHref)) return;
+
+        if (!userSession) {
+          btn.textContent = 'Log in to Access 🔒';
+          btn.style.background = 'rgba(255,255,255,0.1)';
+          btn.style.color = '#fff';
+          btn.removeAttribute('href');
+          btn.onclick = (e) => {
+            e.preventDefault();
+            window.location.href = 'login.html?redirect=index.html';
+          };
+        } else if (!hasAccess) {
+          btn.textContent = 'Request Access 🔒';
+          btn.style.background = '#d97706';
+          btn.style.color = '#fff';
+          btn.removeAttribute('href');
+          btn.onclick = async (e) => {
+            e.preventDefault();
+            btn.textContent = 'Sending Request...';
+            try {
+              const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
+              await supabaseClient.from('profiles').update({ ucat_access_requested: true }).eq('id', userSession.user.id);
+            } catch (err) {
+              console.error('DB Update failed:', err);
+            }
+            btn.textContent = 'Request Sent ✅';
+            btn.style.background = '#059669';
+            setTimeout(() => {
+              alert('Your request for UCAT access has been sent to the admin. Please wait for approval.');
+            }, 100);
+          };
+        } else {
+          // User HAS ACCESS: Unlock button!
+          btn.textContent = `${origText} →`;
+          btn.style.background = '';
+          btn.style.color = '';
+          btn.setAttribute('href', origHref);
+          btn.onclick = null;
+        }
+      });
     }
 
     // ── TAB SWITCHING LOGIC WITH ANIMATION ──
@@ -529,7 +553,7 @@
     // ── INITIALIZE PAGE ──
     document.addEventListener('DOMContentLoaded', () => {
       // Default active tab
-      switchTab('vr');
+      switchTab('full');
     });
 
     // ── AUTHENTICATION ──

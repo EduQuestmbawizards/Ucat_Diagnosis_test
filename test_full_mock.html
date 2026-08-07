@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UCAT Full Mock Test – EduQuest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <!-- Chart.js & html2pdf.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <!-- MathJax for LaTeX support -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <!-- Environment & Supabase Config -->
+  <script src="env.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase.js"></script>
+  <script src="access-check.js"></script>
+  <!-- Full Mock Data -->
+  <script src="full_mock_data.js"></script>
+
+  <style>
+    :root {
+      --accent: #7c3aed;
+      --accent2: #a855f7;
+      --bg: #0f0a1e;
+      --surface: #1a1030;
+      --surface2: #231848;
+      --border: rgba(124, 58, 237, 0.2);
+      --text: #f1f0f5;
+      --muted: #8b83a3;
+      --green: #10b981;
+      --red: #ef4444;
+      --amber: #f59e0b;
+      --font: 'IBM Plex Sans', sans-serif;
+      --mono: 'IBM Plex Mono', monospace;
+      --head: 'Syne', sans-serif;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      min-height: 100vh;
+    }
+
+    /* HEADER */
+    .hdr {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(15, 10, 30, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      height: 56px;
+    }
+
+    .hdr-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--head);
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+
+    .hdr-pill {
+      background: rgba(124, 58, 237, 0.18);
+      color: var(--accent2);
+      border: 1px solid rgba(124, 58, 237, 0.3);
+      border-radius: 20px;
+      padding: 2px 10px;
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+
+    .hdr-module {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .timer {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--mono);
+      font-size: 1rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 6px 14px;
+    }
+
+    .timer.warn {
+      border-color: var(--red);
+      color: var(--red);
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.6;
+      }
+    }
+
+    /* SECTION TABS */
+    .sec-tabs {
+      display: flex;
+      background: rgba(26, 16, 48, 0.8);
+      border-bottom: 1px solid var(--border);
+      padding: 6px 20px;
+      gap: 10px;
+      overflow-x: auto;
+    }
+
+    .sec-tab {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--muted);
+      border: 1px solid transparent;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+
+    .sec-tab.active {
+      background: var(--surface2);
+      color: var(--accent2);
+      border-color: var(--accent);
+    }
+
+    .sec-tab.completed {
+      color: var(--green);
+    }
+
+    /* PAGES */
+    .page {
+      display: none;
+    }
+
+    .page.active {
+      display: block;
+    }
+
+    /* REGISTRATION */
+    .reg-wrap {
+      min-height: calc(100vh - 56px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+
+    .reg-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      width: 100%;
+      max-width: 540px;
+      overflow: hidden;
+      box-shadow: 0 24px 80px rgba(124, 58, 237, 0.15);
+    }
+
+    .reg-top {
+      padding: 32px 32px 24px;
+      text-align: center;
+    }
+
+    .reg-top h2 {
+      font-family: var(--head);
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .stat-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .stat-strip .s {
+      padding: 12px 6px;
+      text-align: center;
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .stat-strip .s:last-child {
+      border-right: none;
+    }
+
+    .stat-strip .val {
+      font-family: var(--mono);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .stat-strip .lbl {
+      font-size: 0.62rem;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    .reg-body {
+      padding: 24px 32px 32px;
+    }
+
+    .field {
+      margin-bottom: 16px;
+    }
+
+    .field label {
+      display: block;
+      font-size: 0.76rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .field input,
+    .field select {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px;
+      color: var(--text);
+      font-size: 0.9rem;
+      outline: none;
+    }
+
+    .phone-row {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 8px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.92rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      opacity: 0.9;
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    /* TEST CONTAINER */
+    .test-wrap {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px 16px;
+    }
+
+    @media(max-width:850px) {
+      .test-wrap {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .q-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      min-height: 480px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .passage-box {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 20px;
+      font-size: 0.92rem;
+      line-height: 1.6;
+      max-height: 240px;
+      overflow-y: auto;
+    }
+
+    .q-text {
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .opt-btn {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      text-align: left;
+      color: var(--text);
+      font-size: 0.92rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: all 0.2s;
+    }
+
+    .opt-btn:hover {
+      border-color: var(--accent2);
+    }
+
+    .opt-btn.selected {
+      background: rgba(124, 58, 237, 0.2);
+      border-color: var(--accent2);
+      font-weight: 600;
+    }
+
+    .opt-key {
+      background: rgba(255, 255, 255, 0.1);
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.78rem;
+    }
+
+    .nav-bar {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    /* SIDEBAR */
+    .sidebar {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      height: fit-content;
+    }
+
+    .q-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+      margin: 16px 0;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+
+    .grid-num {
+      height: 36px;
+      border-radius: 8px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .grid-num.active {
+      border-color: var(--accent2);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .grid-num.answered {
+      background: rgba(16, 185, 129, 0.2);
+      border-color: var(--green);
+      color: var(--green);
+    }
+
+    /* REPORT PAGE */
+    .report-wrap {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .report-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+    }
+
+    .score-banner {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin: 24px 0;
+    }
+
+    .score-box {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .score-box .val {
+      font-family: var(--head);
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--accent2);
+    }
+
+    .score-box .lbl {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 4px;
+      text-transform: uppercase;
+    }
+
+    .act-btns {
+      display: flex;
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    @media print {
+
+      .hdr,
+      .act-btns,
+      .sec-tabs {
+        display: none !important;
+      }
+
+      body {
+        background: #fff;
+        color: #000;
+      }
+
+      .report-card {
+        border: none;
+        box-shadow: none;
+        color: #000;
+        background: #fff;
+      }
+
+      .score-box {
+        border: 1px solid #ccc;
+        background: #f9f9f9;
+        color: #000;
+      }
+
+      .score-box .val {
+        color: #6b21a8;
+      }
+    }
+    /* DETAILED REVIEW STYLES */
+    .review-wrap { margin-top: 32px; text-align: left; }
+    .review-title { font-family: var(--head); font-size: 1.4rem; font-weight: 800; margin-bottom: 20px; color: var(--accent2); border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+    .q-card-rev { background: var(--surface2); border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin-bottom: 16px; font-size: 0.92rem; }
+    .q-rev-header { display: flex; justify-content: space-between; align-items: center; font-weight: 700; margin-bottom: 12px; font-size: 0.95rem; }
+    .q-rev-status { padding: 3px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; }
+    .q-rev-status.correct { background: rgba(16, 185, 129, 0.2); color: var(--green); }
+    .q-rev-status.wrong { background: rgba(239, 68, 68, 0.2); color: var(--red); }
+    .q-rev-status.unattempted { background: rgba(245, 158, 11, 0.2); color: var(--amber); }
+    .q-rev-text { font-weight: 600; margin-bottom: 14px; line-height: 1.5; }
+    .q-rev-opts { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+    .q-rev-opt { padding: 10px 14px; border-radius: 8px; background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .q-rev-opt.correct { background: rgba(16, 185, 129, 0.15); border-color: var(--green); color: #6ee7b7; font-weight: 600; }
+    .q-rev-opt.wrong-chosen { background: rgba(239, 68, 68, 0.15); border-color: var(--red); color: #f87171; font-weight: 600; }
+    .q-rev-exp { background: rgba(124, 58, 237, 0.1); border: 1px solid rgba(124, 58, 237, 0.25); border-radius: 8px; padding: 12px 14px; font-size: 0.88rem; line-height: 1.5; color: rgba(255, 255, 255, 0.9); }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="hdr">
+    <div class="hdr-brand">
+      <span>🏥</span><span>EduQuest</span>
+      <span class="hdr-pill">UCAT Full Mock</span>
+    </div>
+    <div class="hdr-module" id="testTitleHdr">UCAT Full Mock Exam</div>
+    <div class="timer" id="timerBox">
+      <span>⏱️</span><span id="timerText">--:--</span>
+    </div>
+  </header>
+
+  <!-- SECTION NAVIGATION TABS -->
+  <div class="sec-tabs" id="secTabs" style="display:none;">
+    <div class="sec-tab active" id="tab_vr">1. Verbal Reasoning (21m)</div>
+    <div class="sec-tab" id="tab_dm">2. Decision Making (31m)</div>
+    <div class="sec-tab" id="tab_qr">3. Quantitative Reasoning (25m)</div>
+    <div class="sec-tab" id="tab_sjt">4. Situational Judgement (26m)</div>
+  </div>
+
+  <!-- REGISTRATION PAGE -->
+  <div id="pageReg" class="page active">
+    <div class="reg-wrap">
+      <div class="reg-card">
+        <div class="reg-top">
+          <span style="font-size:3rem;">🏆</span>
+          <h2 id="regMockTitle">UCAT Full Mock Test</h2>
+          <p>Full 103-minute timed examination (184 Questions)</p>
+        </div>
+        <div class="stat-strip">
+          <div class="s">
+            <div class="val">44 Qs</div>
+            <div class="lbl">Verbal</div>
+          </div>
+          <div class="s">
+            <div class="val">35 Qs</div>
+            <div class="lbl">Decision</div>
+          </div>
+          <div class="s">
+            <div class="val">36 Qs</div>
+            <div class="lbl">Quant</div>
+          </div>
+          <div class="s">
+            <div class="val">69 Qs</div>
+            <div class="lbl">SJT</div>
+          </div>
+        </div>
+        <div class="reg-body">
+          <div class="field">
+            <label>Full Name</label>
+            <input type="text" id="regName" placeholder="Enter your full name">
+          </div>
+          <div class="field">
+            <label>Email Address</label>
+            <input type="email" id="regEmail" placeholder="Enter your email">
+          </div>
+          <div class="field">
+            <label>Phone Number (Optional)</label>
+            <div class="phone-row">
+              <select id="regCC"></select>
+              <input type="text" id="regPhone" placeholder="Phone number">
+            </div>
+          </div>
+          <button class="btn btn-primary" onclick="startFullMock()">Start Full Mock Exam 🚀</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEST PAGE -->
+  <div id="pageTest" class="page">
+    <div class="test-wrap">
+      <div class="q-card">
+        <div id="passageBox" class="passage-box" style="display:none;"></div>
+        <div style="color:var(--accent2); font-size:0.8rem; font-weight:600; text-transform:uppercase; margin-bottom:8px;"
+          id="qSectionLbl">VERBAL REASONING</div>
+        <div class="q-text" id="qText">Question content...</div>
+        <div class="options-grid" id="optionsGrid"></div>
+
+        <div class="nav-bar">
+          <button class="btn btn-outline" style="width:auto;" onclick="prevQ()">← Previous</button>
+          <button class="btn btn-outline" style="width:auto;" onclick="nextQ()">Next →</button>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div style="font-weight:700; margin-bottom:8px;" id="sidebarSecTitle">Section Questions</div>
+        <div class="q-grid" id="qGrid"></div>
+        <button class="btn btn-primary" style="margin-top:16px;" onclick="submitCurrentSection()">Submit Section
+          ➔</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- REPORT PAGE -->
+  <div id="pageReport" class="page">
+    <div class="report-wrap" id="reportContent">
+      <div class="report-card">
+        <div style="text-align:center; margin-bottom:20px;">
+          <span style="font-size:3rem;">🎓</span>
+          <h2 style="font-family:var(--head); font-size:2rem; font-weight:800;" id="repMockTitle">UCAT Full Mock Result
+          </h2>
+          <p style="color:var(--muted); font-size:0.9rem;" id="repStudentInfo">Student Performance Report</p>
+        </div>
+
+        <div class="score-banner">
+          <div class="score-box">
+            <div class="val" id="repVR">600</div>
+            <div class="lbl">Verbal Reasoning</div>
+          </div>
+          <div class="score-box">
+            <div class="val" id="repDM">600</div>
+            <div class="lbl">Decision Making</div>
+          </div>
+          <div class="score-box">
+            <div class="val" id="repQR">600</div>
+            <div class="lbl">Quant Reasoning</div>
+          </div>
+          <div class="score-box">
+            <div class="val" id="repSJT">Band 2</div>
+            <div class="lbl">Situational Judgement</div>
+          </div>
+        </div>
+
+        <div
+          style="background:var(--surface2); border:1px solid var(--border); border-radius:14px; padding:20px; text-align:center; margin-bottom:24px;">
+          <div style="font-size:0.8rem; color:var(--muted); text-transform:uppercase;">Total Scaled Cognitive Score
+          </div>
+          <div style="font-family:var(--head); font-size:2.8rem; font-weight:800; color:var(--accent2);"
+            id="repTotalScore">1800 / 2700</div>
+        </div>
+
+        <!-- DETAILED QUESTION REVIEW CONTAINER -->
+        <div class="review-wrap">
+          <div class="review-title">📋 Complete Question Review & Solutions</div>
+          <div id="repDetailedReview"></div>
+        </div>
+
+        <div class="act-btns">
+          <button class="btn btn-primary" onclick="printReport()">🖨️ Print Report</button>
+          <button class="btn btn-outline" onclick="window.location.href='dashboard.html'">📊 Go to Dashboard</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Get mock ID from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const mockId = parseInt(urlParams.get('mock')) || 1;
+    const currentMock = window.FULL_MOCKS ? window.FULL_MOCKS[mockId] : null;
+
+    let studentData = { name: '', email: '', phone: '' };
+    const sectionOrder = ['vr', 'dm', 'qr', 'sjt'];
+    let currentSecIndex = 0;
+    let currentQIndex = 0;
+    let userAnswers = { vr: {}, dm: {}, qr: {}, sjt: {} };
+    let timerInterval = null;
+    let timeRemaining = 0;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      if (currentMock) {
+        document.getElementById('regMockTitle').textContent = currentMock.title;
+        document.getElementById('testTitleHdr').textContent = currentMock.title;
+      }
+    });
+
+    function showPage(pageId) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById(pageId).classList.add('active');
+    }
+
+    function startFullMock() {
+      const name = document.getElementById('regName').value.trim();
+      const email = document.getElementById('regEmail').value.trim();
+      const phone = document.getElementById('regPhone').value.trim();
+
+      if (!name || !email) {
+        alert('Please fill in your name and email address.');
+        return;
+      }
+
+      studentData = { name, email, phone };
+      if (typeof saveRegistration === 'function') {
+        saveRegistration(studentData, currentMock ? currentMock.title : 'UCAT Full Mock Test');
+      }
+
+      showPage('pageTest');
+      document.getElementById('secTabs').style.display = 'flex';
+      document.getElementById('timerBox').style.display = 'flex';
+
+      startSection(0);
+    }
+
+    function startSection(index) {
+      currentSecIndex = index;
+      currentQIndex = 0;
+      const secKey = sectionOrder[currentSecIndex];
+      const secData = currentMock.sections[secKey];
+
+      // Update tabs
+      sectionOrder.forEach((key, idx) => {
+        const tabEl = document.getElementById(`tab_${key}`);
+        if (idx === currentSecIndex) {
+          tabEl.className = 'sec-tab active';
+        } else if (idx < currentSecIndex) {
+          tabEl.className = 'sec-tab completed';
+        } else {
+          tabEl.className = 'sec-tab';
+        }
+      });
+
+      // Start timer
+      clearInterval(timerInterval);
+      timeRemaining = secData.timeSeconds;
+      updateTimerDisplay();
+
+      timerInterval = setInterval(() => {
+        timeRemaining--;
+        updateTimerDisplay();
+        if (timeRemaining <= 0) {
+          clearInterval(timerInterval);
+          alert(`Time is up for ${secData.name}! Auto-submitting section.`);
+          submitCurrentSection();
+        }
+      }, 1000);
+
+      renderQuestion();
+      renderQGrid();
+    }
+
+    function updateTimerDisplay() {
+      const mins = Math.floor(timeRemaining / 60);
+      const secs = timeRemaining % 60;
+      document.getElementById('timerText').textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    }
+
+    function renderQuestion() {
+      const secKey = sectionOrder[currentSecIndex];
+      const secData = currentMock.sections[secKey];
+      const q = secData.questions[currentQIndex];
+
+      document.getElementById('qSectionLbl').textContent = `${secData.name} — Question ${currentQIndex + 1} of ${secData.qCount}`;
+      document.getElementById('qText').innerHTML = q.text;
+
+      const pBox = document.getElementById('passageBox');
+      if (q.passageText) {
+        pBox.style.display = 'block';
+        pBox.innerHTML = `<strong>${q.passageTitle}</strong><br><br>${q.passageText}`;
+      } else {
+        pBox.style.display = 'none';
+      }
+
+      const optionsGrid = document.getElementById('optionsGrid');
+      const selected = userAnswers[secKey][q.id];
+
+      optionsGrid.innerHTML = q.options.map((opt, i) => `
+        <div class="opt-btn ${selected === i ? 'selected' : ''}" onclick="selectOption(${i})">
+          <div class="opt-key">${String.fromCharCode(65 + i)}</div>
+          <div>${opt}</div>
+        </div>
+      `).join('');
+
+      // Trigger MathJax re-render if available
+      if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise();
+      }
+
+      renderQGrid();
+    }
+
+    function selectOption(optIndex) {
+      const secKey = sectionOrder[currentSecIndex];
+      const secData = currentMock.sections[secKey];
+      const q = secData.questions[currentQIndex];
+
+      userAnswers[secKey][q.id] = optIndex;
+      renderQuestion();
+    }
+
+    function prevQ() {
+      if (currentQIndex > 0) {
+        currentQIndex--;
+        renderQuestion();
+      }
+    }
+
+    function nextQ() {
+      const secKey = sectionOrder[currentSecIndex];
+      const secData = currentMock.sections[secKey];
+
+      if (currentQIndex < secData.qCount - 1) {
+        currentQIndex++;
+        renderQuestion();
+      }
+    }
+
+    function renderQGrid() {
+      const secKey = sectionOrder[currentSecIndex];
+      const secData = currentMock.sections[secKey];
+      const gridEl = document.getElementById('qGrid');
+
+      gridEl.innerHTML = secData.questions.map((q, i) => {
+        const isAns = userAnswers[secKey][q.id] !== undefined;
+        const isCur = i === currentQIndex;
+        return `<div class="grid-num ${isCur ? 'active' : ''} ${isAns ? 'answered' : ''}" onclick="jumpToQ(${i})">${i + 1}</div>`;
+      }).join('');
+    }
+
+    function jumpToQ(index) {
+      currentQIndex = index;
+      renderQuestion();
+    }
+
+    function submitCurrentSection() {
+      clearInterval(timerInterval);
+      if (currentSecIndex < sectionOrder.length - 1) {
+        startSection(currentSecIndex + 1);
+      } else {
+        finishFullMock();
+      }
+    }
+
+    async function finishFullMock() {
+      clearInterval(timerInterval);
+      document.getElementById('secTabs').style.display = 'none';
+      document.getElementById('timerBox').style.display = 'none';
+
+      // Score Calculation & Detailed Question Review Generation
+      let rawScores = { vr: 0, dm: 0, qr: 0, sjt: 0 };
+      const detailedReviewItems = [];
+
+      const LETTERS = ['A', 'B', 'C', 'D', 'E'];
+
+      sectionOrder.forEach(secKey => {
+        const secData = currentMock.sections[secKey];
+        secData.questions.forEach((q, idx) => {
+          const chosen = userAnswers[secKey][q.id];
+          const isCorrect = chosen === q.answer;
+          const isUnattempted = chosen === undefined || chosen === null;
+
+          if (isCorrect) {
+            rawScores[secKey]++;
+          }
+
+          const status = isCorrect ? 'correct' : (isUnattempted ? 'unattempted' : 'wrong');
+          const statusText = isCorrect ? '✅ Correct' : (isUnattempted ? '⏭ Skipped' : '❌ Wrong');
+
+          detailedReviewItems.push({
+            id: q.id,
+            section: secData.name,
+            sectionKey: secKey,
+            qNum: idx + 1,
+            text: q.text,
+            passageTitle: q.passageTitle || '',
+            passageText: q.passageText || '',
+            options: q.options || [],
+            chosen: chosen !== undefined ? chosen : -1,
+            answer: q.answer,
+            status: status,
+            statusText: statusText,
+            explanation: q.explanation || ''
+          });
+        });
+      });
+
+      // Scaled Scores (300 to 900)
+      const scaledVR = Math.round(300 + (rawScores.vr / 44) * 600);
+      const scaledDM = Math.round(300 + (rawScores.dm / 35) * 600);
+      const scaledQR = Math.round(300 + (rawScores.qr / 36) * 600);
+      const totalCog = scaledVR + scaledDM + scaledQR;
+
+      const sjtPct = rawScores.sjt / 69;
+      let sjtBand = 'Band 4';
+      if (sjtPct >= 0.75) sjtBand = 'Band 1';
+      else if (sjtPct >= 0.55) sjtBand = 'Band 2';
+      else if (sjtPct >= 0.35) sjtBand = 'Band 3';
+
+      document.getElementById('repMockTitle').textContent = currentMock.title;
+      document.getElementById('repStudentInfo').textContent = `${studentData.name} (${studentData.email})`;
+      document.getElementById('repVR').textContent = scaledVR;
+      document.getElementById('repDM').textContent = scaledDM;
+      document.getElementById('repQR').textContent = scaledQR;
+      document.getElementById('repSJT').textContent = sjtBand;
+      document.getElementById('repTotalScore').textContent = `${totalCog} / 2700`;
+
+      // Render Detailed Question Review HTML
+      const reviewContainer = document.getElementById('repDetailedReview');
+      if (reviewContainer) {
+        reviewContainer.innerHTML = detailedReviewItems.map((d) => `
+          <div class="q-card-rev">
+            <div class="q-rev-header">
+              <span>Question ${d.qNum} (${d.section})</span>
+              <span class="q-rev-status ${d.status}">${d.statusText}</span>
+            </div>
+
+            ${d.passageText ? `
+              <div class="passage-box" style="margin-bottom:12px; font-size:0.88rem;">
+                <strong>${d.passageTitle}</strong><br><br>${d.passageText}
+              </div>
+            ` : ''}
+
+            <div class="q-rev-text">${d.text}</div>
+
+            <div class="q-rev-opts">
+              ${d.options.map((optText, optIdx) => {
+                let optClass = '';
+                let badge = '';
+
+                if (optIdx === d.answer) {
+                  optClass = 'correct';
+                  badge = '<span style="color:#10b981; font-weight:bold;">✓ Correct Answer</span>';
+                }
+                if (d.status === 'wrong' && optIdx === d.chosen) {
+                  optClass = 'wrong-chosen';
+                  badge = '<span style="color:#ef4444; font-weight:bold;">✗ Your Choice</span>';
+                }
+                if (d.status === 'correct' && optIdx === d.chosen) {
+                  badge = '<span style="color:#10b981; font-weight:bold;">✓ Your Choice</span>';
+                }
+
+                return `
+                  <div class="q-rev-opt ${optClass}">
+                    <span><strong>${LETTERS[optIdx]}.</strong> ${optText}</span>
+                    ${badge}
+                  </div>
+                `;
+              }).join('')}
+            </div>
+
+            ${d.explanation ? `
+              <div class="q-rev-exp">
+                <strong>💡 Explanation:</strong> ${d.explanation}
+              </div>
+            ` : ''}
+          </div>
+        `).join('');
+      }
+
+      showPage('pageReport');
+
+      // Re-typeset MathJax formulas in report if present
+      if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise();
+      }
+
+      // Save to Supabase
+      if (!studentData || !studentData.email) {
+        const regEmail = document.getElementById('regEmail')?.value?.trim();
+        const regName = document.getElementById('regName')?.value?.trim();
+        studentData = {
+          name: studentData?.name || regName || 'Student',
+          email: studentData?.email || regEmail || '',
+          phone: studentData?.phone || ''
+        };
+      }
+
+      const totalCorrect = rawScores.vr + rawScores.dm + rawScores.qr + rawScores.sjt;
+      // Strip bulky text/passage/options from details to keep payload small
+      // (dashboard re-loads question text from question files)
+      const lightDetails = detailedReviewItems.map(d => ({
+        id: d.id,
+        section: d.section,
+        sectionKey: d.sectionKey,
+        qNum: d.qNum,
+        chosen: d.chosen,
+        answer: d.answer,
+        status: d.status
+      }));
+      const resultObj = {
+        student: studentData,
+        examName: currentMock ? currentMock.title : `UCAT Full Mock Test ${mockId}`,
+        topicNumber: mockId,
+        correct: totalCorrect,
+        wrong: 184 - totalCorrect,
+        unattempted: 0,
+        total: 184,
+        pct: Math.round((totalCorrect / 184) * 100),
+        grade: sjtBand,
+        scaled: totalCog,
+        submitTime: new Date().toISOString(),
+        answers: userAnswers,
+        details: lightDetails
+      };
+
+      if (typeof saveToSupabase === 'function') {
+        saveToSupabase(resultObj).then(r => {
+          if (r && r.ok) console.log('✅ Full mock saved to Supabase');
+          else console.warn('⚠️ Full mock save issue:', r);
+        }).catch(e => console.error('❌ Full mock save error:', e));
+      }
+    }
+
+    function downloadPDFReport() {
+      const element = document.getElementById('reportContent');
+      const opt = {
+        margin: 0.5,
+        filename: `${currentMock.title}_${studentData.name}.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(element).save();
+    }
+
+    function printReport() {
+      window.print();
+    }
+  </script>
+
+</body>
+
+</html>

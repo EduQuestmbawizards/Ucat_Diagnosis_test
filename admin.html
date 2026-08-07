@@ -10,6 +10,10 @@
     rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="env.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase.js"></script>
+  <script src="full_mock_data.js"></script>
   <style>
     * {
       box-sizing: border-box;
@@ -949,6 +953,8 @@
     let currentFilter = 'pending';
     const LETTERS = ['A', 'B', 'C', 'D'];
     let modalChart = null;
+    let allReports = [];
+    let groupedReports = {};
 
     // ── Topic to Question file mapping ─────
     const TOPIC_QUESTIONS_MAP = {
@@ -996,6 +1002,10 @@
       if (!topicName) return null;
       const clean = topicName.trim().toLowerCase();
       
+      if (clean.startsWith('ucat full mock test')) {
+        return { key: topicName, q: './full_mock_data.js', dir: '.' };
+      }
+      
       // Handle dynamic test parts
       if (clean.startsWith('verbal reasoning - part ')) {
         return { key: topicName, q: './test_vr_parts/master_questions.js', dir: './test_vr_parts' };
@@ -1019,6 +1029,26 @@
         return Promise.resolve(loadedQuestionsCache[topicName]);
       }
       return new Promise((resolve) => {
+        const clean = (topicName || '').trim().toLowerCase();
+        if (clean.startsWith('ucat full mock test')) {
+          const match = clean.match(/\d+/);
+          const mockId = match ? match[0] : '1';
+          if (window.FULL_MOCKS && window.FULL_MOCKS[mockId]) {
+            const mock = window.FULL_MOCKS[mockId];
+            const qs = [];
+            ['vr', 'dm', 'qr', 'sjt'].forEach(sec => {
+              if (mock.sections && mock.sections[sec] && mock.sections[sec].questions) {
+                mock.sections[sec].questions.forEach(q => {
+                  qs.push({ ...q, sectionName: mock.sections[sec].name });
+                });
+              }
+            });
+            loadedQuestionsCache[topicName] = qs;
+            resolve(qs);
+            return;
+          }
+        }
+
         const mapping = getTopicMapping(topicName);
         const path = mapping ? mapping.q : null;
         if (!path) {
@@ -1416,89 +1446,52 @@
       const p = allProfiles.find(x => x.id === userId);
       if (p) p.organization = value;
     }
-
-    // ══════════════════════════════════════════════
-    // ── REPORTS TAB LOGIC ─────────────────────────
-    // ══════════════════════════════════════════════
-    let allReports = [];
-    let groupedReports = {};
-    let adminCharts = {};
-
+    // ── REPORTS TAB LOGIC ──────────────────────
     async function loadReportsData() {
-      const { data: ucatData, error: ucatError } = await supabaseClient
-        .from('Ucat_diagnosis')
-        .select('*')
-        .order('submit_time', { ascending: false });
+      try {
+        // Fetch all UCAT diagnosis reports
+        const { data: ucatData, error: ucatError } = await supabaseClient
+          .from('Ucat_diagnosis')
+          .select('*')
+          .order('submit_time', { ascending: false });
 
-      if (ucatError) {
-        console.warn("UCAT reports fetch error:", ucatError);
-      }
+        if (ucatError) console.warn('UCAT reports fetch error:', ucatError);
 
-      const { data: satData, error: satError } = await supabaseClient
-        .from('sat_topic_report')
-        .select('*')
-        .order('submit_time', { ascending: false });
+        // Fetch legacy sat_topic_report records
+        const { data: satData, error: satError } = await supabaseClient
+          .from('sat_topic_report')
+          .select('*')
+          .order('submit_time', { ascending: false });
 
-      if (satError) {
-        console.warn("SAT reports fetch error:", satError);
-      }
+        if (satError) console.warn('Legacy reports fetch error:', satError);
 
-      const { data: actData, error: actError } = await supabaseClient
-        .from('act_results')
-        .select('*')
-        .order('submitted_at', { ascending: false });
+        // Filter out registration-only rows without submit_time for UCAT
+        const validUcat = (ucatData || []).filter(r => r.submit_time || r.pct !== undefined);
 
-      if (actError) {
-        console.warn("ACT reports fetch error:", actError);
-      }
+        // Re-label any legacy sat_topic_report records so topic labels display as UCAT tests
+        const mappedSatData = (satData || []).filter(t => t.submit_time || t.pct !== undefined).map(r => ({
+          ...r,
+          topic: (!r.topic || r.topic.includes('SAT')) ? 'UCAT Topic Test' : r.topic
+        }));
 
-      const mappedActData = (actData || []).map(r => {
-        const detailsObj = r.student_answers || [];
-        const mappedDetails = detailsObj.map(a => {
-           const mapOpt = o => o === 'A' ? 0 : o === 'B' ? 1 : o === 'C' ? 2 : o === 'D' ? 3 : null;
-           return {
-               id: a.question_id,
-               status: a.status,
-               chosen: mapOpt(a.chosen_option),
-               answer: mapOpt(a.correct_option),
-               text: 'Section: ' + (a.section || 'Unknown') + '\\nTopic: ' + (a.topic || 'Unknown'),
-               options: ['Option A', 'Option B', 'Option C', 'Option D']
-           };
+        allReports = [...validUcat, ...mappedSatData];
+        allReports.sort((a, b) => new Date(b.submit_time || 0) - new Date(a.submit_time || 0));
+
+        // Group by email
+        groupedReports = {};
+        allReports.forEach(r => {
+          const email = (r.email || 'unknown').toLowerCase();
+          if (!groupedReports[email]) groupedReports[email] = [];
+          groupedReports[email].push(r);
         });
 
-        return {
-          email: r.student_email,
-          name: r.student_name,
-          topic: r.exam_name || 'ACT Test',
-          scaled: r.composite_score || 0,
-          pct: r.percentage || 0,
-          correct: r.correct || 0,
-          wrong: r.wrong || 0,
-          unattempted: r.skipped || 0,
-          total: r.total || 0,
-          submit_time: r.submitted_at,
-          details_json: JSON.stringify(mappedDetails)
-        };
-      });
-
-      // Filter out registration-only rows without submit_time for UCAT
-      const validUcat = (ucatData || []).filter(r => r.submit_time);
-
-      allReports = [...validUcat, ...(satData || []), ...mappedActData];
-      allReports.sort((a, b) => new Date(b.submit_time || 0) - new Date(a.submit_time || 0));
-
-      // Group by email
-      groupedReports = {};
-      allReports.forEach(r => {
-        const email = (r.email || 'unknown').toLowerCase();
-        if (!groupedReports[email]) groupedReports[email] = [];
-        groupedReports[email].push(r);
-      });
-
-      renderReportOverviewStats();
-      renderReportsList();
+        renderReportOverviewStats();
+        renderReportsList();
+      } catch (err) {
+        console.error('loadReportsData error:', err);
+        document.getElementById('reportsList').innerHTML = '<div class="report-empty">Error loading reports. Check console.</div>';
+      }
     }
-
     function renderReportOverviewStats() {
       const totalReports = allReports.length;
       const uniqueStudents = Object.keys(groupedReports).length;
@@ -1873,7 +1866,7 @@
         <div class="admin-combined" id="adminCombinedCard-${safeEmail}">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px;">
             <h4 style="margin-bottom:0;">📊 Combined Report – ${email}</h4>
-            <button class="btn-sm" style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); color:#fff; cursor:pointer;" onclick="downloadAdminCombinedPDF('${safeEmail}', '${email}')">📄 Download PDF</button>
+            <button class="btn-sm" style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); color:#fff; cursor:pointer;" onclick="printReport()">🖨️ Print Report</button>
           </div>
           <div class="ac-stats">
             <div class="ac-stat"><div class="acn" style="color:#6ee7b7">${totCorrect}</div><div class="acl">Correct</div></div>
@@ -2025,6 +2018,10 @@
         console.error('PDF generation failed', err);
         buttons.forEach(b => b.style.display = '');
       });
+    }
+
+    function printReport() {
+      window.print();
     }
   </script>
 </body>

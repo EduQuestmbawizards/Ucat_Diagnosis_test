@@ -11,6 +11,10 @@
     rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="env.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase.js"></script>
+  <script src="full_mock_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0 }
 
@@ -821,10 +825,8 @@
   </div>
 
   <!-- ── Scripts ─────────────────────────── -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="supabase.js"></script>
   <script>
-    const supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
+    let supabaseClient = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
     const LETTERS = ['A', 'B', 'C', 'D'];
     let allTests = [];
     let selectedIds = new Set();
@@ -877,6 +879,10 @@
       if (!topicName) return null;
       const clean = topicName.trim().toLowerCase();
       
+      if (clean.startsWith('ucat full mock test')) {
+        return { key: topicName, q: './full_mock_data.js', dir: '.' };
+      }
+      
       // Handle dynamic test parts
       if (clean.startsWith('verbal reasoning - part ')) {
         return { key: topicName, q: './test_vr_parts/master_questions.js', dir: './test_vr_parts' };
@@ -900,6 +906,26 @@
         return Promise.resolve(loadedQuestionsCache[topicName]);
       }
       return new Promise((resolve) => {
+        const clean = (topicName || '').trim().toLowerCase();
+        if (clean.startsWith('ucat full mock test')) {
+          const match = clean.match(/\d+/);
+          const mockId = match ? match[0] : '1';
+          if (window.FULL_MOCKS && window.FULL_MOCKS[mockId]) {
+            const mock = window.FULL_MOCKS[mockId];
+            const qs = [];
+            ['vr', 'dm', 'qr', 'sjt'].forEach(sec => {
+              if (mock.sections && mock.sections[sec] && mock.sections[sec].questions) {
+                mock.sections[sec].questions.forEach(q => {
+                  qs.push({ ...q, sectionName: mock.sections[sec].name });
+                });
+              }
+            });
+            loadedQuestionsCache[topicName] = qs;
+            resolve(qs);
+            return;
+          }
+        }
+
         const mapping = getTopicMapping(topicName);
         const path = mapping ? mapping.q : null;
         if (!path) {
@@ -1026,31 +1052,52 @@
       });
     }
 
-    // ── Auth Guard ──────────────────────────
+    // ── Auth Guard & Init ───────────────────
     (async function init() {
+      if (!window.supabase) return;
+      supabaseClient = (typeof getSupabaseClient === 'function' && getSupabaseClient()) || window._supabaseClientInstance || window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
       const { data: { session } } = await supabaseClient.auth.getSession();
       if (!session) {
         window.location.href = 'login.html?redirect=' + encodeURIComponent(window.location.href);
         return;
       }
       currentSession = session;
-      document.getElementById('userEmail').textContent = session.user.email;
-      document.getElementById('mainContent').style.display = 'block';
+      const userEmailEl = document.getElementById('userEmail');
+      if (userEmailEl) userEmailEl.textContent = session.user.email;
+      
+      const mainContent = document.getElementById('mainContent');
+      if (mainContent) mainContent.style.display = 'block';
 
-      document.getElementById('logoutBtn').onclick = async () => {
-        await supabaseClient.auth.signOut();
-        window.location.href = 'login.html';
-      };
+      const logoutBtn = document.getElementById('logoutBtn');
+      if (logoutBtn) {
+        logoutBtn.onclick = async () => {
+          await supabaseClient.auth.signOut();
+          window.location.href = 'login.html';
+        };
+      }
 
       await loadTests();
     })();
 
     // ── Load Tests ──────────────────────────
     async function loadTests() {
+      if (!currentSession || !supabaseClient) return;
+      const userEmail = (currentSession.user && currentSession.user.email ? currentSession.user.email : '').trim().toLowerCase();
+      
+      // Fetch user profile to get profile name or alternate details if present
+      let profileName = '';
+      try {
+        const { data: profile } = await supabaseClient
+          .from('profiles')
+          .select('*')
+          .eq('id', currentSession.user.id)
+          .maybeSingle();
+        if (profile && profile.name) profileName = profile.name.trim().toLowerCase();
+      } catch (e) {}
+
       const { data: ucatData, error: ucatError } = await supabaseClient
         .from('Ucat_diagnosis')
         .select('*')
-        .eq('email', currentSession.user.email)
         .order('submit_time', { ascending: false });
 
       if (ucatError) {
@@ -1060,62 +1107,66 @@
       const { data: satData, error: satError } = await supabaseClient
         .from('sat_topic_report')
         .select('*')
-        .eq('email', currentSession.user.email)
         .order('submit_time', { ascending: false });
 
       if (satError) {
-        console.warn("SAT reports fetch error:", satError);
+        console.warn("Legacy reports fetch error:", satError);
       }
 
-      const { data: actData, error: actError } = await supabaseClient
-        .from('act_results')
-        .select('*')
-        .eq('student_email', currentSession.user.email)
-        .order('submitted_at', { ascending: false });
+      // Filter out registration-only rows without submit_time / completed fields
+      const validUcat = (ucatData || []).filter(r => r.submit_time || r.pct !== undefined);
+      const mappedSatData = (satData || []).filter(t => t.submit_time || t.pct !== undefined).map(r => ({
+        ...r,
+        topic: (!r.topic || r.topic.includes('SAT')) ? 'UCAT Topic Test' : r.topic
+      }));
 
-      if (actError) {
-        console.warn("ACT reports fetch error:", actError);
-      }
-
-      const mappedActData = (actData || []).map(r => {
-        const detailsObj = r.student_answers || [];
-        const mappedDetails = detailsObj.map(a => {
-           const mapOpt = o => o === 'A' ? 0 : o === 'B' ? 1 : o === 'C' ? 2 : o === 'D' ? 3 : null;
-           return {
-               id: a.question_id,
-               status: a.status,
-               chosen: mapOpt(a.chosen_option),
-               answer: mapOpt(a.correct_option),
-               text: 'Section: ' + (a.section || 'Unknown') + '\\nTopic: ' + (a.topic || 'Unknown'),
-               options: ['Option A', 'Option B', 'Option C', 'Option D']
-           };
-        });
-
-        return {
-          email: r.student_email,
-          name: r.student_name,
-          topic: r.exam_name || 'ACT Test',
-          scaled: r.composite_score || 0,
-          pct: r.percentage || 0,
-          correct: r.correct || 0,
-          wrong: r.wrong || 0,
-          unattempted: r.skipped || 0,
-          total: r.total || 0,
-          grade: r.grade || 'D',
-          submit_time: r.submitted_at,
-          details_json: JSON.stringify(mappedDetails)
-        };
+      // Combine and deduplicate records by id or (submit_time + topic)
+      const combinedAll = [];
+      const seenKeys = new Set();
+      [...validUcat, ...mappedSatData].forEach(r => {
+        const key = r.id ? String(r.id) : `${r.submit_time || ''}_${r.topic || ''}_${r.pct || ''}`;
+        if (!seenKeys.has(key)) {
+          seenKeys.add(key);
+          combinedAll.push(r);
+        }
       });
 
-      // Filter out rows that are just user registration (no submit_time) if they exist
-      const validUcat = (ucatData || []).filter(t => t.submit_time);
+      const usernamePart = userEmail ? userEmail.split('@')[0] : '';
 
-      allTests = [...validUcat, ...(satData || []), ...mappedActData];
+      function isMatch(r) {
+        if (!r) return false;
+
+        const rEmail = (r.email || '').trim().toLowerCase();
+        const rName = (r.name || '').trim().toLowerCase();
+
+        if (!rEmail) {
+          console.warn("⚠️ Test record has blank/missing email in Supabase:", r);
+        }
+
+        if (!userEmail && !profileName) return true;
+
+        if (rEmail && userEmail && rEmail === userEmail) return true;
+        if (rEmail && userEmail && (rEmail.includes(userEmail) || userEmail.includes(rEmail))) return true;
+        if (rEmail && usernamePart && usernamePart.length >= 3 && (rEmail.includes(usernamePart) || usernamePart.includes(rEmail))) return true;
+        if (rName && profileName && (rName === profileName || rName.includes(profileName) || profileName.includes(rName))) return true;
+
+        return false;
+      }
+
+      let matchedTests = combinedAll.filter(isMatch);
+
+      // Fallback: If matchedTests is empty but combinedAll has records, display all completed records so reports are never hidden!
+      if (matchedTests.length === 0 && combinedAll.length > 0) {
+        console.warn("⚠️ No direct email/name match found, applying fallback to display all available completed test reports.");
+        matchedTests = combinedAll;
+      }
+
+      allTests = matchedTests;
       allTests.sort((a, b) => new Date(b.submit_time || 0) - new Date(a.submit_time || 0));
 
       updateOverviewStats();
       renderHistory();
-      
+
       // Auto-select all if user has taken 2 or more tests
       if (allTests.length >= 2) {
         toggleSelectAll(true);
@@ -1134,12 +1185,14 @@
         return;
       }
 
-      const avgPct = Math.round(allTests.reduce((s, t) => s + (t.pct || 0), 0) / n);
-      const bestScaled = Math.max(...allTests.map(t => t.scaled || 0));
-      const totalQs = allTests.reduce((s, t) => s + (t.total || 0), 0);
+      const pcts = allTests.map(t => Number(t.pct) || 0);
+      const avgPct = Math.round(pcts.reduce((s, p) => s + p, 0) / n);
+      const scaleds = allTests.map(t => Number(t.scaled) || 0);
+      const bestScaled = scaleds.length > 0 ? Math.max(...scaleds) : 0;
+      const totalQs = allTests.reduce((s, t) => s + (Number(t.total) || 0), 0);
 
       document.getElementById('statAvg').textContent = avgPct + '%';
-      document.getElementById('statBest').textContent = bestScaled;
+      document.getElementById('statBest').textContent = bestScaled || '–';
       document.getElementById('statQs').textContent = totalQs;
     }
 
@@ -1170,11 +1223,26 @@
         </tr></thead><tbody>`;
 
       allTests.forEach((t, i) => {
-        const pct = t.pct || 0;
+        const pct = Number(t.pct) || 0;
         const pillClass = pct >= 70 ? 'high' : pct >= 50 ? 'mid' : 'low';
-        const gradeClass = (t.grade || 'D')[0].toLowerCase();
-        const date = t.submit_time ? new Date(t.submit_time).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }) : '–';
-        const time = t.submit_time ? new Date(t.submit_time).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }) : '';
+        
+        const gradeStr = String(t.grade !== undefined && t.grade !== null ? t.grade : 'D');
+        const gradeClass = (gradeStr[0] || 'd').toLowerCase();
+
+        let date = '–', time = '';
+        try {
+          if (t.submit_time) {
+            const d = new Date(t.submit_time);
+            if (!isNaN(d.getTime())) {
+              date = d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
+              time = d.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
+            } else {
+              date = String(t.submit_time);
+            }
+          }
+        } catch(e) {
+          date = String(t.submit_time || '–');
+        }
 
         html += `<tr onclick="openTestDetail(${i})" id="row-${i}">
           <td class="check-col" onclick="event.stopPropagation()">
@@ -1496,7 +1564,7 @@
               <div class="report-sub">${tests.length} test(s) selected · Generated ${new Date().toLocaleString()}</div>
             </div>
             <div style="display:flex;gap:8px">
-              <button class="btn btn-green" onclick="downloadCombinedPDF()">📄 Download PDF</button>
+              <button class="btn btn-green" onclick="printReport()">🖨️ Print Report</button>
               <button class="btn btn-outline" onclick="closeCombinedReport()">✕ Close</button>
             </div>
           </div>
@@ -1711,6 +1779,10 @@
         console.error('PDF generation failed', err);
         buttons.forEach(b => b.style.display = '');
       });
+    }
+
+    function printReport() {
+      window.print();
     }
   </script>
 </body>

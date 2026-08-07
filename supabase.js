@@ -1,119 +1,172 @@
 const SUPABASE_CONFIG = {
-    url: 'https://dyvvhmuegtzooijrtwyd.supabase.co', // e.g. https://xyzabc.supabase.co
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5dnZobXVlZ3R6b29panJ0d3lkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkwOTk5MTEsImV4cCI6MjA5NDY3NTkxMX0.pksVza66eu3WlM1_r_IGARkjd19BwUvbKntoUIwPhRY', // Settings > API > anon public key
+  url: (typeof window !== 'undefined' && window.ENV && window.ENV.SUPABASE_URL) ? window.ENV.SUPABASE_URL : 'https://dyvvhmuegtzooijrtwyd.supabase.co',
+  anonKey: (typeof window !== 'undefined' && window.ENV && window.ENV.SUPABASE_ANON_KEY) ? window.ENV.SUPABASE_ANON_KEY : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5dnZobXVlZ3R6b29panJ0d3lkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkwOTk5MTEsImV4cCI6MjA5NDY3NTkxMX0.pksVza66eu3WlM1_r_IGARkjd19BwUvbKntoUIwPhRY',
 };
+
+
+// ── Singleton Supabase Client ─────────────────
+function getSupabaseClient() {
+  if (!window._supabaseClientInstance && window.supabase && typeof window.supabase.createClient === 'function') {
+    window._supabaseClientInstance = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
+  }
+  return window._supabaseClientInstance;
+}
 
 // ── Save registration to Supabase ─────────────
 // Jab student form fill kare aur test start kare
 async function saveRegistration(studentData, examName) {
-    if (SUPABASE_CONFIG.url === 'YOUR_SUPABASE_URL') {
-        console.warn('⚠️ Supabase not configured yet.');
-        return;
+  if (SUPABASE_CONFIG.url === 'YOUR_SUPABASE_URL') {
+    console.warn('⚠️ Supabase not configured yet.');
+    return;
+  }
+
+  const row = {
+    name: (studentData.name || '').trim(),
+    email: (studentData.email || '').trim().toLowerCase(),
+    phone: (studentData.phone || '').trim(),
+    topic: examName || 'UCAT Practice Test',
+    created_at: new Date().toISOString()
+  };
+
+  try {
+    const res = await fetch(`${SUPABASE_CONFIG.url}/rest/v1/Ucat_diagnosis`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_CONFIG.anonKey,
+        'Authorization': `Bearer ${SUPABASE_CONFIG.anonKey}`,
+        'Prefer': 'return=minimal'
+      },
+      body: JSON.stringify(row)
+    });
+
+    if (res.ok || res.status === 201) {
+      console.log('✅ Registration saved to Supabase successfully');
+    } else {
+      const errText = await res.text();
+      console.error('❌ Supabase registration save failed:', res.status, errText);
     }
-
-    const row = {
-        name: studentData.name,
-        email: studentData.email,
-        phone: studentData.phone,
-        topic: examName || 'UCAT Practice Test',
-        created_at: new Date().toISOString()
-    };
-
-    try {
-        const res = await fetch(`${SUPABASE_CONFIG.url}/rest/v1/Ucat_diagnosis`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'apikey': SUPABASE_CONFIG.anonKey,
-                'Authorization': `Bearer ${SUPABASE_CONFIG.anonKey}`,
-                'Prefer': 'return=minimal'
-            },
-            body: JSON.stringify(row)
-        });
-
-        if (res.ok || res.status === 201) {
-            console.log('✅ Registration saved to Supabase successfully');
-        } else {
-            const errText = await res.text();
-            console.error('❌ Supabase registration save failed:', res.status, errText);
-        }
-    } catch (err) {
-        console.error('❌ Supabase registration network error:', err);
-    }
+  } catch (err) {
+    console.error('❌ Supabase registration network error:', err);
+  }
 }
 
 // ── Save result to Supabase ───────────────────
 // Jab student test submit kare aur report generate ho
 async function saveToSupabase(result) {
-    if (SUPABASE_CONFIG.url === 'YOUR_SUPABASE_URL') {
-        console.warn('⚠️ Supabase not configured yet.');
-        return { ok: false, msg: 'Supabase not configured' };
-    }
+  if (SUPABASE_CONFIG.url === 'YOUR_SUPABASE_URL') {
+    console.warn('⚠️ Supabase not configured yet.');
+    return { ok: false, msg: 'Supabase not configured' };
+  }
 
-    // Row to insert into sat_topic_report table
-    const row = {
-        name:         result.student.name,
-        email:        result.student.email,
-        phone:        result.student.phone || '',
-        topic:        result.examName || 'UCAT Diagnostic',
-        topic_number: result.topicNumber || 0,
-        correct:      result.correct,
-        wrong:        result.wrong,
-        unattempted:  result.unattempted,
-        total:        result.total,
-        pct:          result.pct,
-        grade:        result.grade,
-        scaled:       result.scaled,
-        submit_time:  result.submitTime,
-        answers_json: JSON.stringify(result.answers),
-        details_json: JSON.stringify((result.details || []).map(d => ({
-          id: d.id, status: d.status,
-          chosen: d.chosen, answer: d.answer
-        })))
+  let email = (result.student?.email || '').trim().toLowerCase();
+  let name = (result.student?.name || '').trim();
+
+  // If email or name is missing, try fallback from active Supabase session
+  const client = getSupabaseClient();
+  if ((!email || !name) && client) {
+    try {
+      const { data: { session } } = await client.auth.getSession();
+      if (session && session.user) {
+        if (!email && session.user.email) {
+          email = session.user.email.trim().toLowerCase();
+        }
+        if (!name && session.user.id) {
+          const { data: profile } = await client.from('profiles').select('name').eq('id', session.user.id).maybeSingle();
+          if (profile && profile.name) name = profile.name.trim();
+        }
+      }
+    } catch (e) {
+      console.warn("⚠️ Error getting session fallback for saveToSupabase:", e);
+    }
+  }
+
+  if (!email) {
+    console.warn("⚠️ Warning: Saving test result with blank email!", result);
+  }
+
+  const row = {
+    name: name,
+    email: email,
+    phone: (result.student?.phone || '').trim(),
+    topic: result.examName || 'UCAT Diagnostic',
+    topic_number: result.topicNumber || 0,
+    correct: result.correct,
+    wrong: result.wrong,
+    unattempted: result.unattempted,
+    total: result.total,
+    pct: result.pct,
+    grade: result.grade,
+    scaled: result.scaled,
+    submit_time: result.submitTime || new Date().toISOString(),
+    answers_json: JSON.stringify(result.answers || {}),
+    details_json: JSON.stringify((result.details || []).map(d => ({
+      id: d.id,
+      section: d.section || d.sectionName,
+      text: d.text,
+      passageTitle: d.passageTitle,
+      passageText: d.passageText,
+      options: d.options,
+      status: d.status,
+      chosen: d.chosen,
+      answer: d.answer,
+      explanation: d.explanation
+    })))
+  };
+
+  try {
+    const headers = {
+      'Content-Type': 'application/json',
+      'apikey': SUPABASE_CONFIG.anonKey,
+      'Authorization': `Bearer ${SUPABASE_CONFIG.anonKey}`,
+      'Prefer': 'return=minimal'
     };
 
-    try {
-        const res = await fetch(`${SUPABASE_CONFIG.url}/rest/v1/Ucat_diagnosis`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'apikey': SUPABASE_CONFIG.anonKey,
-                'Authorization': `Bearer ${SUPABASE_CONFIG.anonKey}`,
-                'Prefer': 'return=minimal'
-            },
-            body: JSON.stringify(row)
-        });
+    // Save to BOTH Ucat_diagnosis and sat_topic_report to ensure guaranteed availability
+    const p1 = fetch(`${SUPABASE_CONFIG.url}/rest/v1/Ucat_diagnosis`, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(row)
+    }).catch(err => console.warn("Ucat_diagnosis insert error:", err));
 
-        if (res.ok || res.status === 201) {
-            console.log('✅ Result saved to Supabase successfully');
-            return { ok: true, status: res.status };
-        } else {
-            const errText = await res.text();
-            console.error('❌ Supabase save failed:', res.status, errText);
-            return { ok: false, msg: errText };
-        }
-    } catch (err) {
-        console.error('❌ Supabase network error:', err);
-        return { ok: false, msg: err.message };
+    const p2 = fetch(`${SUPABASE_CONFIG.url}/rest/v1/sat_topic_report`, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(row)
+    }).catch(err => console.warn("sat_topic_report insert error:", err));
+
+    const [res1, res2] = await Promise.all([p1, p2]);
+
+    if ((res1 && (res1.ok || res1.status === 201)) || (res2 && (res2.ok || res2.status === 201))) {
+      console.log('✅ Result saved to Supabase successfully');
+      return { ok: true, status: 201 };
+    } else {
+      const errText = res1 ? await res1.text() : (res2 ? await res2.text() : 'Save failed');
+      console.error('❌ Supabase save failed:', errText);
+      return { ok: false, msg: errText };
     }
+  } catch (err) {
+    console.error('❌ Supabase network error:', err);
+    return { ok: false, msg: err.message };
+  }
 }
 
 // ── Auto-fill Email ───────────────────────────
 // Agar user logged in hai, toh email form me pre-fill kar do
 document.addEventListener('DOMContentLoaded', async () => {
-    if (window.supabase && typeof window.supabase.createClient === 'function') {
-        const client = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey);
-        const { data: { session } } = await client.auth.getSession();
-        if (session && session.user && session.user.email) {
-            const emailInput = document.getElementById('regEmail');
-            if (emailInput && !emailInput.value) {
-                emailInput.value = session.user.email;
-                emailInput.setAttribute('readonly', 'true');
-                emailInput.style.opacity = '0.7';
-                emailInput.style.cursor = 'not-allowed';
-            }
-        }
+  const client = getSupabaseClient();
+  if (client) {
+    const { data: { session } } = await client.auth.getSession();
+    if (session && session.user && session.user.email) {
+      const emailInput = document.getElementById('regEmail');
+      if (emailInput && !emailInput.value) {
+        emailInput.value = session.user.email;
+        emailInput.setAttribute('readonly', 'true');
+        emailInput.style.opacity = '0.7';
+        emailInput.style.cursor = 'not-allowed';
+      }
     }
+  }
 });
 
 
@@ -379,13 +432,13 @@ function populateCountryDropdown() {
   if (select) {
     const prevVal = select.value;
     select.innerHTML = '';
-    
+
     COUNTRIES.forEach(c => {
       const opt = document.createElement('option');
       opt.value = c.dial_code;
       const flag = countryCodeToFlag(c.code);
       opt.textContent = `${flag} ${c.dial_code} (${c.name})`;
-      
+
       // Default selected is India (+91)
       if (c.code === 'IN') {
         opt.selected = true;
@@ -430,7 +483,7 @@ regStyles.textContent = `
 if (document.head) document.head.appendChild(regStyles);
 
 // ── Global Start Test Helper ──────────────────
-window.startTest = async function() {
+window.startTest = async function () {
   const nameInput = document.getElementById('regName');
   const emailInput = document.getElementById('regEmail');
   const phoneInput = document.getElementById('regPhone');
@@ -448,19 +501,19 @@ window.startTest = async function() {
   const cc = ccInput?.value || '';
   const phone = phoneVal ? (cc + ' ' + phoneVal).trim() : '';
 
-  if (!name || name.length < 2) { 
-    if (typeof customAlert === 'function') customAlert('Please enter a valid full name (at least 2 characters).'); 
+  if (!name || name.length < 2) {
+    if (typeof customAlert === 'function') customAlert('Please enter a valid full name (at least 2 characters).');
     else alert('Please enter a valid full name (at least 2 characters).');
-    nameInput.focus(); 
-    return; 
+    nameInput.focus();
+    return;
   }
-  
+
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!email || !emailRegex.test(email)) { 
-    if (typeof customAlert === 'function') customAlert('Please enter a valid email address.'); 
+  if (!email || !emailRegex.test(email)) {
+    if (typeof customAlert === 'function') customAlert('Please enter a valid email address.');
     else alert('Please enter a valid email address.');
-    emailInput.focus(); 
-    return; 
+    emailInput.focus();
+    return;
   }
 
   if (phoneVal && !/^\d{7,15}$/.test(phoneVal.replace(/[- ]/g, ''))) {
