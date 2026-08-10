@@ -1956,25 +1956,22 @@
         } else {
           details = details.map((d, dIdx) => {
             const matchedQ = qs.find(q => String(q.id) === String(d.id)) || qs[dIdx];
-            if (matchedQ) {
-              let processedText = matchedQ.text || d.text || '';
-              if (processedText && dir && dir !== '.') {
-                processedText = processedText.replace(/img src=["'](images?)\//g, (m, g) => `img src="${dir}/${g}/`);
-              }
-              return {
-                ...d,
-                section: d.section || matchedQ.section || matchedQ.sectionName,
-                sectionName: d.sectionName || matchedQ.sectionName || matchedQ.section,
-                text: processedText,
-                passageTitle: d.passageTitle || matchedQ.passageTitle || '',
-                passageText: d.passageText || matchedQ.passageText || '',
-                options: (d.options && d.options.length) ? d.options : matchedQ.options,
-                explanation: d.explanation || matchedQ.explanation || '',
-                useImage: d.useImage !== undefined ? d.useImage : matchedQ.useImage,
-                imageKey: d.imageKey || matchedQ.imageKey
-              };
+            let processedText = d.text || (matchedQ ? matchedQ.text : '') || '';
+            if (processedText && dir && dir !== '.') {
+              processedText = processedText.replace(/img src=["'](images?)\//g, (m, g) => `img src="${dir}/${g}/`);
             }
-            return d;
+            return {
+              ...d,
+              section: d.section || (matchedQ ? (matchedQ.section || matchedQ.sectionName) : ''),
+              sectionName: d.sectionName || (matchedQ ? (matchedQ.sectionName || matchedQ.section) : ''),
+              text: processedText,
+              passageTitle: d.passageTitle || (matchedQ ? matchedQ.passageTitle : '') || '',
+              passageText: d.passageText || (matchedQ ? matchedQ.passageText : '') || '',
+              options: (d.options && d.options.length) ? d.options : (matchedQ ? matchedQ.options : []),
+              explanation: d.explanation || (matchedQ ? matchedQ.explanation : '') || '',
+              useImage: d.useImage !== undefined ? d.useImage : (matchedQ ? matchedQ.useImage : false),
+              imageKey: d.imageKey || (matchedQ ? matchedQ.imageKey : '')
+            };
           });
         }
       }
@@ -2396,21 +2393,22 @@
             if (topicData && topicData.qs) {
               details = details.map(d => {
                 const matchedQ = topicData.qs.find(q => String(q.id) === String(d.id));
-                if (matchedQ) {
-                  let processedText = matchedQ.text || '';
-                  if (processedText && topicData.dir && topicData.dir !== '.') {
-                    processedText = processedText.replace(/img src=["'](images?)\//g, (m, g) => `img src="${topicData.dir}/${g}/`);
-                  }
-                  return {
-                    ...d,
-                    text: processedText,
-                    options: matchedQ.options,
-                    explanation: matchedQ.explanation || '',
-                    useImage: matchedQ.useImage,
-                    imageKey: matchedQ.imageKey
-                  };
+                let processedText = d.text || (matchedQ ? matchedQ.text : '') || '';
+                if (processedText && topicData.dir && topicData.dir !== '.') {
+                  processedText = processedText.replace(/img src=["'](images?)\//g, (m, g) => `img src="${topicData.dir}/${g}/`);
                 }
-                return d;
+                return {
+                  ...d,
+                  section: d.section || (matchedQ ? (matchedQ.section || matchedQ.sectionName) : ''),
+                  sectionName: d.sectionName || (matchedQ ? (matchedQ.sectionName || matchedQ.section) : ''),
+                  text: processedText,
+                  passageTitle: d.passageTitle || (matchedQ ? matchedQ.passageTitle : '') || '',
+                  passageText: d.passageText || (matchedQ ? matchedQ.passageText : '') || '',
+                  options: (d.options && d.options.length) ? d.options : (matchedQ ? matchedQ.options : []),
+                  explanation: d.explanation || (matchedQ ? matchedQ.explanation : '') || '',
+                  useImage: d.useImage !== undefined ? d.useImage : (matchedQ ? matchedQ.useImage : false),
+                  imageKey: d.imageKey || (matchedQ ? matchedQ.imageKey : '')
+                };
               });
             }
             allDetails.push({

@@ -102,15 +102,20 @@ async function saveToSupabase(result) {
     answers_json: JSON.stringify(result.answers || {}),
     details_json: JSON.stringify((result.details || []).map(d => ({
       id: d.id,
-      section: d.section || d.sectionName,
-      text: d.text,
-      passageTitle: d.passageTitle,
-      passageText: d.passageText,
-      options: d.options,
-      status: d.status,
-      chosen: d.chosen,
-      answer: d.answer,
-      explanation: d.explanation
+      qNum: d.qNum || d.id,
+      section: d.section || d.sectionName || '',
+      sectionName: d.sectionName || d.section || '',
+      text: d.text || '',
+      passageTitle: d.passageTitle || '',
+      passageText: d.passageText || '',
+      options: d.options || [],
+      status: d.status || 'unattempted',
+      chosen: d.chosen !== undefined ? d.chosen : -1,
+      answer: d.answer !== undefined ? d.answer : -1,
+      explanation: d.explanation || '',
+      useImage: d.useImage || false,
+      imageKey: d.imageKey || '',
+      marks: d.marks !== undefined ? d.marks : 0
     })))
   };
 
