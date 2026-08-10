@@ -132,25 +132,25 @@
       band: 'Band 1',
       bandNum: 1,
       minPct: 75,
-      interpretation: 'Demonstrates an excellent level of judgement and understanding of medical ethics and professional behavior.'
+      interpretation: 'Those in Band 1 demonstrated an excellent level of performance, showing similar judgement in most cases to the panel of experts.'
     },
     {
       band: 'Band 2',
       bandNum: 2,
       minPct: 55,
-      interpretation: 'Demonstrates a good level of judgement, with strong ethical decision-making in most clinical scenarios.'
+      interpretation: 'Those in Band 2 demonstrated a good, solid level of performance, showing appropriate judgement frequently, with many responses matching model answers.'
     },
     {
       band: 'Band 3',
       bandNum: 3,
       minPct: 35,
-      interpretation: 'Demonstrates satisfactory understanding but requires improvement in nuanced ethical situations.'
+      interpretation: 'Those in Band 3 demonstrated a modest level of performance, with appropriate judgement shown for some questions and substantial differences from ideal responses for others.'
     },
     {
       band: 'Band 4',
       bandNum: 4,
       minPct: 0,
-      interpretation: 'Demonstrates low understanding of professionalism and appropriateness; substantial improvement needed.'
+      interpretation: 'The performance of those in Band 4 was low, with judgement tending to differ substantially from ideal responses in many cases.'
     }
   ];
 
@@ -804,6 +804,8 @@
         accuracy: rawResult.accuracy
       };
 
+      const scaledScore = primarySec === 'SJT' ? null : calculateSectionScaledScore(primarySec, rawResult.rawScore, rawResult.maxPossibleScore);
+
       report.sections[primarySec] = {
         sectionKey: primarySec,
         name: SECTION_META[primarySec]?.name || primarySec,
@@ -817,8 +819,14 @@
         rawScore: rawResult.rawScore,
         maxPossibleScore: rawResult.maxPossibleScore,
         accuracy: rawResult.accuracy,
-        scaledScore: null // Do NOT display fake 300-900 scaled score for small 20-question topic test
+        scaledScore: scaledScore
       };
+
+      if (primarySec !== 'SJT') {
+        report.cognitiveSectionKeys = [primarySec];
+        report.totalCognitiveScore = scaledScore;
+        report.maxCognitiveScore = 900;
+      }
 
       report.detailedReviewItems = rawResult.questions;
       validateReport(report);

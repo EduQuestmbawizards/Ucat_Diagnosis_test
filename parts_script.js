@@ -6,7 +6,7 @@
 // ── Get part number from URL ─────────────────
 const urlParams = new URLSearchParams(window.location.search);
 const PART_NUMBER = parseInt(urlParams.get('part')) || 1;
-const isAR = (window.CATEGORY_CONFIG && window.CATEGORY_CONFIG.topic === 'Abstract Reasoning') || window.location.pathname.includes('ar');
+const isAR = (window.CATEGORY_CONFIG && window.CATEGORY_CONFIG.topic === 'Abstract Reasoning') || window.location.pathname.includes('test_ar_parts');
 const CHUNK_SIZE = isAR ? 55 : 20;
 
 // ── Slice questions for this part ────────────
@@ -226,13 +226,15 @@ async function doSubmit() {
   let pct = ucatReport ? Math.round(ucatReport.overallStats.accuracy) : Math.round((correct / total) * 100);
   let grade = isSJT && ucatReport && ucatReport.sjtReport
     ? ucatReport.sjtReport.band
-    : (pct >= 90 ? 'A+' : pct >= 80 ? 'A' : pct >= 70 ? 'B' : pct >= 60 ? 'C' : 'D');
+    : (isSJT ? 'Band 4' : (pct >= 90 ? 'A+' : pct >= 80 ? 'A' : pct >= 70 ? 'B' : pct >= 60 ? 'C' : 'D'));
 
   const details = ucatReport ? ucatReport.detailedReviewItems : PART_QUESTIONS.map(q => {
     const chosen = answers[q.id];
     let status = (chosen === undefined ? 'unattempted' : (chosen === q.answer ? 'correct' : 'wrong'));
     return { ...q, chosen, status, marks: chosen === q.answer ? 1 : 0 };
   });
+
+  const scaledScore = isSJT ? null : (ucatReport && ucatReport.totalCognitiveScore ? ucatReport.totalCognitiveScore : (typeof UCATScoring !== 'undefined' ? UCATScoring.calculateSectionScaledScore(CATEGORY_TOPIC, rawScore, total) : Math.round(300 + (correct / total) * 600)));
 
   const result = {
     student,
@@ -244,7 +246,7 @@ async function doSubmit() {
     total,
     pct,
     grade,
-    scaled: isSJT ? null : rawScore,
+    scaled: scaledScore,
     examName: EXAM_NAME,
     topicNumber: TOPIC_NUMBER,
     categoryTopic: CATEGORY_TOPIC,
