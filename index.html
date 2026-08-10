@@ -403,7 +403,6 @@
         <button class="tab-btn" onclick="switchTab('vr')" data-tab="vr">📖 Verbal Reasoning</button>
         <button class="tab-btn" onclick="switchTab('dm')" data-tab="dm">🧩 Decision Making</button>
         <button class="tab-btn" onclick="switchTab('qr')" data-tab="qr">🔢 Quantitative Reasoning</button>
-        <button class="tab-btn" onclick="switchTab('ar')" data-tab="ar">📐 Abstract Reasoning</button>
         <button class="tab-btn" onclick="switchTab('sj')" data-tab="sj">⚖️ Situational Judgement</button>
       </nav>
     </div>
@@ -426,7 +425,7 @@
     // ── DATASET & REUSABLE COMPONENTS ──
     const tests = [];
 
-    // Add 7 Full Mock Tests (116 Mins, 239 Questions, 5 Subtests)
+    // Add 7 Full Mock Tests (111 Mins, 184 Questions, 4 Subtests)
     function addFullMockTests() {
       for (let i = 1; i <= 7; i++) {
         tests.push({
@@ -434,10 +433,10 @@
           icon: '🏆',
           badge: `FULL MOCK EXAM ${i}`,
           title: `UCAT Full Mock Test ${i}`,
-          questions: 239,
-          duration: 116,
-          subtests: 5,
-          subjects: ['VR (44q)', 'DM (35q)', 'QR (36q)', 'AR (55q)', 'SJT (69q)'],
+          questions: 184,
+          duration: 111,
+          subtests: 4,
+          subjects: ['VR (44q)', 'DM (35q)', 'QR (36q)', 'SJT (69q)'],
           buttonText: `Start Full Mock ${i}`,
           link: `./test_full_mock.html?mock=${i}`
         });
@@ -473,7 +472,8 @@
     addPartTests('vr', 'Verbal Reasoning', '📖', 'test_vr_parts', 338);
     addPartTests('dm', 'Decision Making', '🧩', 'test_dm_parts', 207);
     addPartTests('qr', 'Quantitative Reasoning', '🔢', 'test_qr_parts', 372);
-    addPartTests('ar', 'Abstract Reasoning', '📐', 'test_ar_parts', 385);
+    // AR practice tests retained as standalone resources (not part of Full Mock)
+    // addPartTests('ar', 'Abstract Reasoning', '📐', 'test_ar_parts', 385);
     addPartTests('sj', 'Situational Judgement', '⚖️', 'test_sj_parts', 436);
 
     // Reusable TestCard template

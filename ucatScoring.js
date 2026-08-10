@@ -12,7 +12,8 @@
   // =========================================================================
   // 1. SECTION DEFINITIONS & METADATA
   // =========================================================================
-  const COGNITIVE_SECTIONS = ['VR', 'DM', 'QR', 'AR'];
+  // AR removed from UCAT (2024+). Cognitive sections are now VR, DM, QR only (max 2700).
+  const COGNITIVE_SECTIONS = ['VR', 'DM', 'QR'];
   const SJT_SECTION = 'SJT';
 
   const SECTION_META = {
@@ -22,7 +23,7 @@
       shortName: 'VR',
       icon: '📖',
       defaultQuestions: 44,
-      defaultTimeMins: 21,
+      defaultTimeMins: 22,
       isCognitive: true,
       minScaled: 300,
       maxScaled: 900
@@ -33,7 +34,7 @@
       shortName: 'DM',
       icon: '🧩',
       defaultQuestions: 35,
-      defaultTimeMins: 31,
+      defaultTimeMins: 37,
       isCognitive: true,
       minScaled: 300,
       maxScaled: 900
@@ -44,21 +45,25 @@
       shortName: 'QR',
       icon: '🔢',
       defaultQuestions: 36,
-      defaultTimeMins: 25,
+      defaultTimeMins: 26,
       isCognitive: true,
       minScaled: 300,
       maxScaled: 900
     },
+    // AR has been removed from the active UCAT test structure.
+    // The AR entry below is retained ONLY for legacy result compatibility.
+    // It will NOT appear in any new test configuration.
     AR: {
       key: 'AR',
-      name: 'Abstract Reasoning',
+      name: 'Abstract Reasoning (Legacy)',
       shortName: 'AR',
       icon: '📐',
       defaultQuestions: 55,
       defaultTimeMins: 13,
-      isCognitive: true,
+      isCognitive: false,
       minScaled: 300,
-      maxScaled: 900
+      maxScaled: 900,
+      legacy: true
     },
     SJT: {
       key: 'SJT',
@@ -110,7 +115,7 @@
       900, 900, 900, 900, 900, 900, 900                 // 30-36
     ],
 
-    // AR (55 questions)
+    // AR_55 retained for legacy score display of old results only.
     AR_55: [
       300, 300, 300, 310, 320, 330, 340, 350, 360, 380, // 0-9
       390, 410, 420, 440, 450, 470, 480, 500, 520, 530, // 10-19
@@ -406,6 +411,7 @@
     else if (sec === 'DM' && maxMarks === 35) table = SCALING_TABLES.DM_35;
     else if (sec === 'DM' && maxMarks === 29) table = SCALING_TABLES.DM_29;
     else if (sec === 'QR' && maxMarks === 36) table = SCALING_TABLES.QR_36;
+    // AR_55 lookup kept for legacy result display only (not active in new tests)
     else if (sec === 'AR' && maxMarks === 55) table = SCALING_TABLES.AR_55;
 
     if (table && table[Math.round(raw)] !== undefined) {
@@ -601,7 +607,7 @@
       let totalCogScaled = 0;
       let countCognitiveSections = 0;
 
-      // Evaluate cognitive sections first (VR, DM, QR, AR)
+      // Evaluate cognitive sections: VR, DM, QR only (AR removed from active tests)
       COGNITIVE_SECTIONS.forEach(secKey => {
         if (activeSections[secKey]) {
           const { qList, secAnswers } = activeSections[secKey];
@@ -644,7 +650,7 @@
       });
 
       report.totalCognitiveScore = totalCogScaled;
-      // Standard full UCAT has 4 cognitive sections (max 3600), or 3 sections if AR is omitted (max 2700)
+      // UCAT has 3 cognitive sections (VR+DM+QR), max 2700. AR excluded.
       report.maxCognitiveScore = countCognitiveSections * 900;
 
       // Evaluate SJT separately (NEVER included in cognitive total or /900)

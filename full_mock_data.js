@@ -1,7 +1,7 @@
-// =============================================
+﻿// =============================================
 // UCAT Full Mock Dataset (Mocks 1 to 7)
 // Built from Official Master Question Banks
-// VR: 44 Qs, DM: 35 Qs, QR: 36 Qs, AR: 55 Qs, SJT: 69 Qs (239 Qs per Mock)
+// VR: 44 Qs, DM: 35 Qs, QR: 36 Qs, SJT: 69 Qs (184 Qs per Mock) | AR removed 2024+
 // 100% AUTHENTIC, UNIQUE & NON-REPEATING
 // =============================================
 
@@ -11,14 +11,14 @@
   "1": {
     "id": 1,
     "title": "UCAT Full Mock Test 1",
-    "totalTimeMins": 116,
-    "totalQuestions": 239,
+    "totalTimeMins": 111,
+    "totalQuestions": 184,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 21,
-        "timeSeconds": 1260,
+        "timeMins": 22,
+        "timeSeconds": 1320,
         "qCount": 44,
         "questions": [
           {
@@ -720,8 +720,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 31,
-        "timeSeconds": 1860,
+        "timeMins": 37,
+        "timeSeconds": 2220,
         "qCount": 35,
         "questions": [
           {
@@ -1158,8 +1158,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 25,
-        "timeSeconds": 1500,
+        "timeMins": 26,
+        "timeSeconds": 1560,
         "qCount": 36,
         "questions": [
           {
@@ -3354,14 +3354,14 @@
   "2": {
     "id": 2,
     "title": "UCAT Full Mock Test 2",
-    "totalTimeMins": 116,
-    "totalQuestions": 239,
+    "totalTimeMins": 111,
+    "totalQuestions": 184,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 21,
-        "timeSeconds": 1260,
+        "timeMins": 22,
+        "timeSeconds": 1320,
         "qCount": 44,
         "questions": [
           {
@@ -4029,8 +4029,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 31,
-        "timeSeconds": 1860,
+        "timeMins": 37,
+        "timeSeconds": 2220,
         "qCount": 35,
         "questions": [
           {
@@ -4488,8 +4488,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 25,
-        "timeSeconds": 1500,
+        "timeMins": 26,
+        "timeSeconds": 1560,
         "qCount": 36,
         "questions": [
           {
@@ -6653,14 +6653,14 @@
   "3": {
     "id": 3,
     "title": "UCAT Full Mock Test 3",
-    "totalTimeMins": 116,
-    "totalQuestions": 239,
+    "totalTimeMins": 111,
+    "totalQuestions": 184,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 21,
-        "timeSeconds": 1260,
+        "timeMins": 22,
+        "timeSeconds": 1320,
         "qCount": 44,
         "questions": [
           {
@@ -7328,8 +7328,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 31,
-        "timeSeconds": 1860,
+        "timeMins": 37,
+        "timeSeconds": 2220,
         "qCount": 35,
         "questions": [
           {
@@ -7793,8 +7793,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 25,
-        "timeSeconds": 1500,
+        "timeMins": 26,
+        "timeSeconds": 1560,
         "qCount": 36,
         "questions": [
           {
@@ -9993,14 +9993,14 @@
   "4": {
     "id": 4,
     "title": "UCAT Full Mock Test 4",
-    "totalTimeMins": 116,
-    "totalQuestions": 239,
+    "totalTimeMins": 111,
+    "totalQuestions": 184,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 21,
-        "timeSeconds": 1260,
+        "timeMins": 22,
+        "timeSeconds": 1320,
         "qCount": 44,
         "questions": [
           {
@@ -10692,8 +10692,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 31,
-        "timeSeconds": 1860,
+        "timeMins": 37,
+        "timeSeconds": 2220,
         "qCount": 35,
         "questions": [
           {
@@ -11152,8 +11152,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 25,
-        "timeSeconds": 1500,
+        "timeMins": 26,
+        "timeSeconds": 1560,
         "qCount": 36,
         "questions": [
           {
@@ -13352,14 +13352,14 @@
   "5": {
     "id": 5,
     "title": "UCAT Full Mock Test 5",
-    "totalTimeMins": 116,
-    "totalQuestions": 239,
+    "totalTimeMins": 111,
+    "totalQuestions": 184,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 21,
-        "timeSeconds": 1260,
+        "timeMins": 22,
+        "timeSeconds": 1320,
         "qCount": 44,
         "questions": [
           {
@@ -14054,8 +14054,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 31,
-        "timeSeconds": 1860,
+        "timeMins": 37,
+        "timeSeconds": 2220,
         "qCount": 35,
         "questions": [
           {
@@ -14506,8 +14506,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 25,
-        "timeSeconds": 1500,
+        "timeMins": 26,
+        "timeSeconds": 1560,
         "qCount": 36,
         "questions": [
           {
@@ -16677,14 +16677,14 @@
   "6": {
     "id": 6,
     "title": "UCAT Full Mock Test 6",
-    "totalTimeMins": 116,
-    "totalQuestions": 239,
+    "totalTimeMins": 111,
+    "totalQuestions": 184,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 21,
-        "timeSeconds": 1260,
+        "timeMins": 22,
+        "timeSeconds": 1320,
         "qCount": 44,
         "questions": [
           {
@@ -17381,8 +17381,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 31,
-        "timeSeconds": 1860,
+        "timeMins": 37,
+        "timeSeconds": 2220,
         "qCount": 35,
         "questions": [
           {
@@ -17873,8 +17873,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 25,
-        "timeSeconds": 1500,
+        "timeMins": 26,
+        "timeSeconds": 1560,
         "qCount": 36,
         "questions": [
           {
@@ -20038,14 +20038,14 @@
   "7": {
     "id": 7,
     "title": "UCAT Full Mock Test 7",
-    "totalTimeMins": 116,
-    "totalQuestions": 239,
+    "totalTimeMins": 111,
+    "totalQuestions": 184,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 21,
-        "timeSeconds": 1260,
+        "timeMins": 22,
+        "timeSeconds": 1320,
         "qCount": 44,
         "questions": [
           {
@@ -20736,8 +20736,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 31,
-        "timeSeconds": 1860,
+        "timeMins": 37,
+        "timeSeconds": 2220,
         "qCount": 35,
         "questions": [
           {
@@ -21200,8 +21200,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 25,
-        "timeSeconds": 1500,
+        "timeMins": 26,
+        "timeSeconds": 1560,
         "qCount": 36,
         "questions": [
           {

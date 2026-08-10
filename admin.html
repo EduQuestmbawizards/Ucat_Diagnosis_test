@@ -1983,32 +1983,34 @@
       const topicLower = (t.topic || '').toLowerCase();
       const isFullMock = topicLower.includes('full mock') || (details && details.some(d => {
         const sec = (d.section || d.sectionName || '').toUpperCase();
-        return sec.includes('DM') || sec.includes('QR') || sec.includes('SJT') || sec.includes('DECISION') || sec.includes('QUANT') || sec.includes('ABSTRACT') || sec.includes('AR');
+        return sec.includes('DM') || sec.includes('QR') || sec.includes('SJT') || sec.includes('DECISION') || sec.includes('QUANT');
       }));
 
       const studentName = t.name || email.split('@')[0];
 
       if (isFullMock) {
-        // Group details by section: VR, DM, QR, AR, SJT
+        // Group details by section: VR, DM, QR, SJT (AR kept for legacy historical results)
         const secGroups = { VR: [], DM: [], QR: [], AR: [], SJT: [] };
         details.forEach((d, idx) => {
           let rawSec = (d.section || d.sectionName || '').toUpperCase();
           if (rawSec.includes('VERBAL') || rawSec === 'VR') secGroups.VR.push(d);
           else if (rawSec.includes('DECISION') || rawSec === 'DM') secGroups.DM.push(d);
           else if (rawSec.includes('QUANT') || rawSec === 'QR') secGroups.QR.push(d);
+          // AR kept for LEGACY historical result display only — not active in new tests
           else if (rawSec.includes('ABSTRACT') || rawSec === 'AR') secGroups.AR.push(d);
           else if (rawSec.includes('SITUATIONAL') || rawSec.includes('JUDG') || rawSec === 'SJT') secGroups.SJT.push(d);
           else {
+            // Fallback for old unlabeled results
             if (idx < 44) secGroups.VR.push(d);
             else if (idx < 44 + 35) secGroups.DM.push(d);
             else if (idx < 44 + 35 + 36) secGroups.QR.push(d);
-            else if (details.length >= 239 && idx < 44 + 35 + 36 + 55) secGroups.AR.push(d);
+            else if (details.length >= 239 && idx < 44 + 35 + 36 + 55) secGroups.AR.push(d); // legacy
             else secGroups.SJT.push(d);
           }
         });
 
         function calcSecStats(qList, secKey) {
-          const total = qList.length || (secKey === 'VR' ? 44 : secKey === 'DM' ? 35 : secKey === 'QR' ? 36 : secKey === 'AR' ? 55 : 69);
+          const total = qList.length || (secKey === 'VR' ? 44 : secKey === 'DM' ? 35 : secKey === 'QR' ? 36 : secKey === 'AR' ? 55 : 69); // AR=55 kept for legacy
           let raw = 0;
           qList.forEach(q => {
             if (secKey === 'SJT') {
@@ -2031,6 +2033,7 @@
         const vrStats = calcSecStats(secGroups.VR, 'VR');
         const dmStats = calcSecStats(secGroups.DM, 'DM');
         const qrStats = calcSecStats(secGroups.QR, 'QR');
+        // arStats kept for legacy historical result display only
         const arStats = calcSecStats(secGroups.AR, 'AR');
 
         let sjtRaw = 0;
@@ -2048,7 +2051,10 @@
           sjtBandObj = { band: b, interpretation: '' };
         }
 
+        // hasAR = true only for LEGACY historical results that contain AR data
         const hasAR = secGroups.AR.length > 0;
+        // NEW tests: cognitive total = VR + DM + QR = max 2700
+        // LEGACY tests with AR: VR + DM + QR + AR = max 3600 (backward compat)
         const totalCog = vrStats.scaled + dmStats.scaled + qrStats.scaled + (hasAR ? arStats.scaled : 0);
         const maxCog = hasAR ? 3600 : 2700;
 
@@ -2069,28 +2075,31 @@
             </div>
           </div>
 
-          <!-- 5 Section Score Cards -->
+          <!-- Section Score Cards: VR / DM / QR (cognitive) + SJT (band) -->
+          <!-- AR card only shown for legacy historical results -->
           <div class="score-banner">
             <div class="score-box">
-              <div class="val">${vrStats.scaled}</div>
+              <div class="val">${vrStats.scaled} <span style="font-size:0.65rem;color:var(--muted);">/900</span></div>
               <div class="lbl">Verbal Reasoning</div>
               <div class="sub">Raw: ${vrStats.raw}/${vrStats.total} (${vrStats.pct}%)</div>
             </div>
             <div class="score-box">
-              <div class="val">${dmStats.scaled}</div>
+              <div class="val">${dmStats.scaled} <span style="font-size:0.65rem;color:var(--muted);">/900</span></div>
               <div class="lbl">Decision Making</div>
               <div class="sub">Raw: ${dmStats.raw}/${dmStats.total} (${dmStats.pct}%)</div>
             </div>
             <div class="score-box">
-              <div class="val">${qrStats.scaled}</div>
+              <div class="val">${qrStats.scaled} <span style="font-size:0.65rem;color:var(--muted);">/900</span></div>
               <div class="lbl">Quant Reasoning</div>
               <div class="sub">Raw: ${qrStats.raw}/${qrStats.total} (${qrStats.pct}%)</div>
             </div>
-            <div class="score-box" style="${hasAR ? '' : 'display:none;'}">
-              <div class="val">${arStats.scaled}</div>
-              <div class="lbl">Abstract Reasoning</div>
+            <!-- AR card: LEGACY ONLY — hidden for new tests -->
+            <div class="score-box" style="${hasAR ? 'opacity:0.7;' : 'display:none;'}">
+              <div class="val">${arStats.scaled} <span style="font-size:0.65rem;color:var(--muted);">/900</span></div>
+              <div class="lbl">Abstract Reasoning <span style="font-size:0.7rem;">(Legacy)</span></div>
               <div class="sub">Raw: ${arStats.raw}/${arStats.total} (${arStats.pct}%)</div>
             </div>
+            <!-- SJT: Band only, never /900, never in cognitive total -->
             <div class="score-box" style="border-color: rgba(168, 85, 247, 0.35);">
               <div class="val" style="color:#c084fc;">${sjtBandObj.band}</div>
               <div class="lbl">Situational Judgement</div>
@@ -2098,9 +2107,9 @@
             </div>
           </div>
 
-          <!-- Total Scaled Cognitive Score Banner -->
+          <!-- Total Cognitive Score Banner: VR+DM+QR only (max 2700 for new tests) -->
           <div class="total-score-banner">
-            <div class="lbl">TOTAL SCALED COGNITIVE SCORE (SUM OF SECTION SCALED SCORES)</div>
+            <div class="lbl">TOTAL COGNITIVE SCORE (VR + DM + QR${hasAR ? ' + AR (Legacy)' : ''}) — MAX ${maxCog}</div>
             <div class="val">${totalCog} / ${maxCog}</div>
             <div class="sjt-desc">
               <strong>${sjtBandObj.band}:</strong> ${sjtBandObj.interpretation}

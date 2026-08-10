@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Dashboard – EduQuest UCAT</title>
-  <meta name="description" content="View your UCAT diagnostic test history, individual results, and combined performance reports.">
+  <meta name="description"
+    content="View your UCAT diagnostic test history, individual results, and combined performance reports.">
   <link
     href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
     rel="stylesheet">
@@ -18,7 +19,11 @@
   <script src="ucatScoring.js"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0 }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
 
     body {
       font-family: 'IBM Plex Sans', sans-serif;
@@ -247,9 +252,23 @@
       font-weight: 600
     }
 
-    .score-pill.high { background: rgba(5, 150, 105, 0.15); color: #6ee7b7; border: 1px solid rgba(5, 150, 105, 0.3) }
-    .score-pill.mid { background: rgba(217, 119, 6, 0.15); color: #fbbf24; border: 1px solid rgba(217, 119, 6, 0.3) }
-    .score-pill.low { background: rgba(220, 38, 38, 0.15); color: #f87171; border: 1px solid rgba(220, 38, 38, 0.3) }
+    .score-pill.high {
+      background: rgba(5, 150, 105, 0.15);
+      color: #6ee7b7;
+      border: 1px solid rgba(5, 150, 105, 0.3)
+    }
+
+    .score-pill.mid {
+      background: rgba(217, 119, 6, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(217, 119, 6, 0.3)
+    }
+
+    .score-pill.low {
+      background: rgba(220, 38, 38, 0.15);
+      color: #f87171;
+      border: 1px solid rgba(220, 38, 38, 0.3)
+    }
 
     .grade-badge {
       display: inline-flex;
@@ -263,12 +282,31 @@
       font-family: 'Syne', sans-serif
     }
 
-    .grade-badge.a { background: rgba(5, 150, 105, 0.2); color: #6ee7b7 }
-    .grade-badge.b { background: rgba(96, 165, 250, 0.2); color: #93c5fd }
-    .grade-badge.c { background: rgba(217, 119, 6, 0.2); color: #fbbf24 }
-    .grade-badge.d { background: rgba(220, 38, 38, 0.2); color: #f87171 }
+    .grade-badge.a {
+      background: rgba(5, 150, 105, 0.2);
+      color: #6ee7b7
+    }
 
-    .check-col { width: 40px; text-align: center }
+    .grade-badge.b {
+      background: rgba(96, 165, 250, 0.2);
+      color: #93c5fd
+    }
+
+    .grade-badge.c {
+      background: rgba(217, 119, 6, 0.2);
+      color: #fbbf24
+    }
+
+    .grade-badge.d {
+      background: rgba(220, 38, 38, 0.2);
+      color: #f87171
+    }
+
+    .check-col {
+      width: 40px;
+      text-align: center
+    }
+
     .check-col input[type="checkbox"] {
       width: 16px;
       height: 16px;
@@ -352,8 +390,15 @@
     }
 
     @keyframes fadeSlide {
-      from { opacity: 0; transform: translateY(16px) }
-      to { opacity: 1; transform: translateY(0) }
+      from {
+        opacity: 0;
+        transform: translateY(16px)
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0)
+      }
     }
 
     .combined-report .report-title {
@@ -390,11 +435,25 @@
       font-weight: 800
     }
 
-    .cstat .cn.green { color: #6ee7b7 }
-    .cstat .cn.red { color: #f87171 }
-    .cstat .cn.amber { color: #fbbf24 }
-    .cstat .cn.blue { color: #93c5fd }
-    .cstat .cn.purple { color: #a78bfa }
+    .cstat .cn.green {
+      color: #6ee7b7
+    }
+
+    .cstat .cn.red {
+      color: #f87171
+    }
+
+    .cstat .cn.amber {
+      color: #fbbf24
+    }
+
+    .cstat .cn.blue {
+      color: #93c5fd
+    }
+
+    .cstat .cn.purple {
+      color: #a78bfa
+    }
 
     .cstat .cl {
       font-size: 0.72rem;
@@ -465,21 +524,30 @@
     }
 
     @media print {
-      .hdr, .combine-bar, .stats-row, .history-card, .btn, .modal-close {
+
+      .hdr,
+      .combine-bar,
+      .stats-row,
+      .history-card,
+      .btn,
+      .modal-close {
         display: none !important;
       }
+
       body {
         background: #0d0d14 !important;
         color: #fff !important;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
       }
+
       .modal-overlay.open {
         position: relative !important;
         background: none !important;
         padding: 0 !important;
         display: block !important;
       }
+
       .modal-box {
         max-height: none !important;
         overflow: visible !important;
@@ -518,9 +586,18 @@
       animation: fadeSlide 0.3s ease
     }
 
-    .modal-box::-webkit-scrollbar { width: 6px }
-    .modal-box::-webkit-scrollbar-track { background: transparent }
-    .modal-box::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px }
+    .modal-box::-webkit-scrollbar {
+      width: 6px
+    }
+
+    .modal-box::-webkit-scrollbar-track {
+      background: transparent
+    }
+
+    .modal-box::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 3px
+    }
 
     .modal-hdr {
       display: flex;
@@ -620,9 +697,20 @@
       margin-left: 6px
     }
 
-    .q-status.correct { background: rgba(5,150,105,0.15); color: #6ee7b7 }
-    .q-status.wrong { background: rgba(220,38,38,0.15); color: #f87171 }
-    .q-status.unattempted { background: rgba(217,119,6,0.15); color: #fbbf24 }
+    .q-status.correct {
+      background: rgba(5, 150, 105, 0.15);
+      color: #6ee7b7
+    }
+
+    .q-status.wrong {
+      background: rgba(220, 38, 38, 0.15);
+      color: #f87171
+    }
+
+    .q-status.unattempted {
+      background: rgba(217, 119, 6, 0.15);
+      color: #fbbf24
+    }
 
     .q-detail {
       margin-top: 4px;
@@ -638,12 +726,14 @@
       margin-bottom: 16px;
       text-align: left;
     }
+
     .q-card-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 10px;
     }
+
     .q-card-text {
       font-size: 0.9rem;
       line-height: 1.5;
@@ -652,6 +742,7 @@
       white-space: pre-wrap;
       text-align: left;
     }
+
     .q-image-container {
       text-align: center;
       margin-bottom: 14px;
@@ -660,17 +751,20 @@
       padding: 10px;
       border: 1px dashed rgba(255, 255, 255, 0.1);
     }
+
     .q-image-container img {
       max-width: 100%;
       height: auto;
       border-radius: 4px;
     }
+
     .q-card-opts {
       display: flex;
       flex-direction: column;
       gap: 8px;
       margin-bottom: 12px;
     }
+
     .q-card-opt {
       display: flex;
       align-items: center;
@@ -683,6 +777,7 @@
       transition: all 0.2s;
       text-align: left;
     }
+
     .q-card-opt-letter {
       display: flex;
       align-items: center;
@@ -695,24 +790,29 @@
       font-size: 0.75rem;
       flex-shrink: 0;
     }
+
     .q-card-opt.correct {
       border-color: #059669;
       background: rgba(5, 150, 105, 0.1);
       color: #6ee7b7;
     }
+
     .q-card-opt.correct .q-card-opt-letter {
       background: #059669;
       color: #fff;
     }
+
     .q-card-opt.wrong-chosen {
       border-color: #dc2626;
       background: rgba(220, 38, 38, 0.1);
       color: #f87171;
     }
+
     .q-card-opt.wrong-chosen .q-card-opt-letter {
       background: #dc2626;
       color: #fff;
     }
+
     .q-card-exp {
       background: rgba(124, 58, 237, 0.05);
       border-left: 3px solid #7c3aed;
@@ -724,7 +824,7 @@
       text-align: left;
     }
 
-    
+
     /* ── Full Mock & Section Score Cards ── */
     .score-banner {
       display: grid;
@@ -733,6 +833,7 @@
       margin: 18px 0;
       width: 100%;
     }
+
     .score-box {
       background: rgba(255, 255, 255, 0.04);
       border: 1px solid rgba(255, 255, 255, 0.08);
@@ -741,12 +842,14 @@
       text-align: center;
       min-width: 0;
     }
+
     .score-box .val {
       font-family: 'Syne', sans-serif;
       font-size: 1.55rem;
       font-weight: 800;
       color: #a78bfa;
     }
+
     .score-box .lbl {
       font-size: 0.7rem;
       color: rgba(255, 255, 255, 0.5);
@@ -754,11 +857,13 @@
       letter-spacing: 0.05em;
       margin-top: 4px;
     }
+
     .score-box .sub {
       font-size: 0.74rem;
       color: rgba(255, 255, 255, 0.4);
       margin-top: 2px;
     }
+
     .total-score-banner {
       background: rgba(124, 58, 237, 0.09);
       border: 1px solid rgba(124, 58, 237, 0.3);
@@ -767,12 +872,14 @@
       text-align: center;
       margin-bottom: 22px;
     }
+
     .total-score-banner .lbl {
       font-size: 0.76rem;
       color: rgba(255, 255, 255, 0.6);
       text-transform: uppercase;
       letter-spacing: 0.06em;
     }
+
     .total-score-banner .val {
       font-family: 'Syne', sans-serif;
       font-size: 2.6rem;
@@ -780,6 +887,7 @@
       color: #c084fc;
       margin: 4px 0;
     }
+
     .total-score-banner .sjt-desc {
       margin-top: 8px;
       font-size: 0.85rem;
@@ -789,6 +897,7 @@
       margin-right: auto;
       line-height: 1.5;
     }
+
     .passage-box {
       background: rgba(255, 255, 255, 0.03);
       border: 1px solid rgba(255, 255, 255, 0.08);
@@ -803,6 +912,7 @@
       color: rgba(255, 255, 255, 0.88);
       text-align: left;
     }
+
     .q-card-rev {
       background: rgba(255, 255, 255, 0.025);
       border: 1px solid rgba(255, 255, 255, 0.07);
@@ -812,6 +922,7 @@
       font-size: 0.92rem;
       text-align: left;
     }
+
     .q-rev-header {
       display: flex;
       justify-content: space-between;
@@ -822,6 +933,7 @@
       flex-wrap: wrap;
       gap: 8px;
     }
+
     .q-rev-status {
       padding: 3px 10px;
       border-radius: 20px;
@@ -830,21 +942,36 @@
       white-space: nowrap;
       flex-shrink: 0;
     }
-    .q-rev-status.correct { background: rgba(16, 185, 129, 0.2); color: #6ee7b7; }
-    .q-rev-status.wrong { background: rgba(239, 68, 68, 0.2); color: #f87171; }
-    .q-rev-status.unattempted { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
+
+    .q-rev-status.correct {
+      background: rgba(16, 185, 129, 0.2);
+      color: #6ee7b7;
+    }
+
+    .q-rev-status.wrong {
+      background: rgba(239, 68, 68, 0.2);
+      color: #f87171;
+    }
+
+    .q-rev-status.unattempted {
+      background: rgba(245, 158, 11, 0.2);
+      color: #fbbf24;
+    }
+
     .q-rev-text {
       font-weight: 600;
       margin-bottom: 14px;
       line-height: 1.5;
       color: rgba(255, 255, 255, 0.92);
     }
+
     .q-rev-opts {
       display: flex;
       flex-direction: column;
       gap: 8px;
       margin-bottom: 14px;
     }
+
     .q-rev-opt {
       padding: 10px 14px;
       border-radius: 8px;
@@ -856,8 +983,21 @@
       gap: 12px;
       font-size: 0.88rem;
     }
-    .q-rev-opt.correct { background: rgba(16, 185, 129, 0.14); border-color: #10b981; color: #6ee7b7; font-weight: 600; }
-    .q-rev-opt.wrong-chosen { background: rgba(239, 68, 68, 0.14); border-color: #ef4444; color: #f87171; font-weight: 600; }
+
+    .q-rev-opt.correct {
+      background: rgba(16, 185, 129, 0.14);
+      border-color: #10b981;
+      color: #6ee7b7;
+      font-weight: 600;
+    }
+
+    .q-rev-opt.wrong-chosen {
+      background: rgba(239, 68, 68, 0.14);
+      border-color: #ef4444;
+      color: #f87171;
+      font-weight: 600;
+    }
+
     .q-rev-exp {
       background: rgba(124, 58, 237, 0.1);
       border: 1px solid rgba(124, 58, 237, 0.25);
@@ -868,7 +1008,7 @@
       color: rgba(255, 255, 255, 0.9);
       margin-top: 10px;
     }
-  
+
     /* ── Empty / Loading ───────────────────── */
     .empty-state {
       text-align: center;
@@ -906,25 +1046,59 @@
     }
 
     @keyframes spin {
-      to { transform: rotate(360deg) }
+      to {
+        transform: rotate(360deg)
+      }
     }
 
     /* ── Responsive ────────────────────────── */
     @media (max-width: 768px) {
-      .charts-grid { grid-template-columns: 1fr }
-      .modal-stats { grid-template-columns: repeat(2, 1fr) }
-      .history-table { font-size: 0.8rem }
-      .history-table td, .history-table th { padding: 10px 10px }
-      .hdr { padding: 0 14px }
-      .page-title { font-size: 1.4rem }
-      .wrap { padding: 20px 14px 40px }
-      .stat-card .num { font-size: 1.5rem }
-      .history-card { overflow-x: auto }
+      .charts-grid {
+        grid-template-columns: 1fr
+      }
+
+      .modal-stats {
+        grid-template-columns: repeat(2, 1fr)
+      }
+
+      .history-table {
+        font-size: 0.8rem
+      }
+
+      .history-table td,
+      .history-table th {
+        padding: 10px 10px
+      }
+
+      .hdr {
+        padding: 0 14px
+      }
+
+      .page-title {
+        font-size: 1.4rem
+      }
+
+      .wrap {
+        padding: 20px 14px 40px
+      }
+
+      .stat-card .num {
+        font-size: 1.5rem
+      }
+
+      .history-card {
+        overflow-x: auto
+      }
     }
 
     @media (max-width: 480px) {
-      .stats-row { grid-template-columns: repeat(2, 1fr) }
-      .hdr-email { display: none }
+      .stats-row {
+        grid-template-columns: repeat(2, 1fr)
+      }
+
+      .hdr-email {
+        display: none
+      }
     }
   </style>
 </head>
@@ -975,7 +1149,8 @@
       <div class="combine-bar">
         <span class="selected-count" id="selCount">0 selected</span>
         <button class="btn btn-outline" id="selectAllBtn" onclick="toggleSelectAll()">Select All</button>
-        <button class="btn btn-primary" id="combineBtn" disabled onclick="generateCombinedReport()">📊 Combined Report</button>
+        <button class="btn btn-primary" id="combineBtn" disabled onclick="generateCombinedReport()">📊 Combined
+          Report</button>
       </div>
     </div>
 
@@ -1050,11 +1225,11 @@
     function getTopicMapping(topicName) {
       if (!topicName) return null;
       const clean = topicName.trim().toLowerCase();
-      
+
       if (clean.startsWith('ucat full mock test')) {
         return { key: topicName, q: './full_mock_data.js', dir: '.' };
       }
-      
+
       // Handle dynamic test parts
       if (clean.startsWith('verbal reasoning - part ')) {
         return { key: topicName, q: './test_vr_parts/master_questions.js', dir: './test_vr_parts' };
@@ -1122,7 +1297,7 @@
                 } else {
                   resolve(null);
                 }
-              } catch(e) {
+              } catch (e) {
                 resolve(null);
               }
               document.body.removeChild(iframe);
@@ -1132,7 +1307,7 @@
               document.body.removeChild(iframe);
             };
             doc.head.appendChild(script);
-          } catch(e) {
+          } catch (e) {
             resolve(null);
           }
         };
@@ -1154,7 +1329,7 @@
               } else {
                 throw new Error("Eval did not yield array");
               }
-            } catch(e) {
+            } catch (e) {
               console.warn("Function execution failed, trying iframe loading", e);
               loadViaIframe();
             }
@@ -1190,7 +1365,7 @@
                 const imgs = iframe.contentWindow.QUESTION_IMAGES;
                 loadedImagesCache[topicName] = imgs || {};
                 resolve(imgs || {});
-              } catch(e) {
+              } catch (e) {
                 resolve({});
               }
               document.body.removeChild(iframe);
@@ -1200,7 +1375,7 @@
               document.body.removeChild(iframe);
             };
             doc.head.appendChild(script);
-          } catch(e) {
+          } catch (e) {
             resolve({});
           }
         };
@@ -1236,7 +1411,7 @@
       currentSession = session;
       const userEmailEl = document.getElementById('userEmail');
       if (userEmailEl) userEmailEl.textContent = session.user.email;
-      
+
       const mainContent = document.getElementById('mainContent');
       if (mainContent) mainContent.style.display = 'block';
 
@@ -1251,12 +1426,20 @@
       await loadTests();
     })();
 
-    // ── Load Tests ──────────────────────────
+    // ── Load Tests (FIXED — mirrors admin's proven approach) ───────────────
+    // Root cause of "student dashboard shows nothing while admin shows everything":
+    // admin.html pulls the WHOLE table with select('*') and no filter, then just
+    // groups rows by email in JS. This dashboard used to filter with a DB-level
+    // .ilike('email', '%email%') BEFORE any JS ran — if that filter missed a row
+    // (case/space mismatch, or special ilike wildcard chars like % or _ inside an
+    // email), the row was gone before we ever got a chance to match it in JS.
+    // Fix: fetch everything (same as admin), then match in JS with a simple,
+    // predictable, exact (trimmed + lowercased) email comparison.
     async function loadTests() {
       if (!currentSession || !supabaseClient) return;
       const userEmail = (currentSession.user && currentSession.user.email ? currentSession.user.email : '').trim().toLowerCase();
-      
-      // Fetch user profile to get profile name or alternate details if present
+
+      // Fetch user profile to get profile name as a fallback matcher
       let profileName = '';
       try {
         const { data: profile } = await supabaseClient
@@ -1265,8 +1448,12 @@
           .eq('id', currentSession.user.id)
           .maybeSingle();
         if (profile && profile.name) profileName = profile.name.trim().toLowerCase();
-      } catch (e) {}
+      } catch (e) {
+        console.warn("Profile fetch failed:", e);
+      }
 
+      // Fetch ALL rows — no DB-level email filter (same approach as admin.html,
+      // which is proven to be able to read every student's data with this anon key).
       const { data: ucatData, error: ucatError } = await supabaseClient
         .from('Ucat_diagnosis')
         .select('*')
@@ -1285,6 +1472,10 @@
         console.warn("Legacy reports fetch error:", satError);
       }
 
+      console.log('🔍 DEBUG — logged-in session email:', userEmail);
+      console.log('🔍 DEBUG — total Ucat_diagnosis rows fetched:', (ucatData || []).length);
+      console.log('🔍 DEBUG — total sat_topic_report rows fetched:', (satData || []).length);
+
       // Filter out registration-only rows without submit_time / completed fields
       const validUcat = (ucatData || []).filter(r => r.submit_time || r.pct !== undefined);
       const mappedSatData = (satData || []).filter(t => t.submit_time || t.pct !== undefined).map(r => ({
@@ -1292,45 +1483,73 @@
         topic: (!r.topic || r.topic.includes('SAT')) ? 'UCAT Topic Test' : r.topic
       }));
 
-      // Combine and deduplicate records by id or (submit_time + topic)
+      // Combine records — use composite key (submit_time + topic + pct + email) so integer IDs from different tables do not collide
       const combinedAll = [];
       const seenKeys = new Set();
       [...validUcat, ...mappedSatData].forEach(r => {
-        const key = r.id ? String(r.id) : `${r.submit_time || ''}_${r.topic || ''}_${r.pct || ''}`;
+        const key = [
+          (r.email || '').trim().toLowerCase(),
+          r.submit_time || '',
+          (r.topic || '').trim().toLowerCase(),
+          r.correct ?? '',
+          r.wrong ?? '',
+          r.unattempted ?? '',
+          r.pct ?? ''
+        ].join('|');
         if (!seenKeys.has(key)) {
           seenKeys.add(key);
           combinedAll.push(r);
         }
       });
 
-      const usernamePart = userEmail ? userEmail.split('@')[0] : '';
-
       function isMatch(r) {
         if (!r) return false;
 
         const rEmail = (r.email || '').trim().toLowerCase();
         const rName = (r.name || '').trim().toLowerCase();
+        const uEmail = (userEmail || '').trim().toLowerCase();
+        const uPart = uEmail ? uEmail.split('@')[0] : '';
 
-        if (!rEmail) {
-          console.warn("⚠️ Test record has blank/missing email in Supabase:", r);
+        if (!uEmail && !profileName) return false;
+
+        // 1. Direct or substring email match
+        if (rEmail && uEmail) {
+          if (rEmail === uEmail || rEmail.includes(uEmail) || uEmail.includes(rEmail)) return true;
         }
 
-        if (!userEmail && !profileName) return true;
+        // 2. Username part match (e.g., 'fiona.gupta2009' in email)
+        if (rEmail && uPart && uPart.length >= 3) {
+          if (rEmail.includes(uPart) || uPart.includes(rEmail)) return true;
+        }
 
-        if (rEmail && userEmail && rEmail === userEmail) return true;
-        if (rEmail && userEmail && (rEmail.includes(userEmail) || userEmail.includes(rEmail))) return true;
-        if (rEmail && usernamePart && usernamePart.length >= 3 && (rEmail.includes(usernamePart) || usernamePart.includes(rEmail))) return true;
-        if (rName && profileName && (rName === profileName || rName.includes(profileName) || profileName.includes(rName))) return true;
+        // 3. Name match with profileName or username part
+        if (rName && profileName) {
+          if (rName === profileName || rName.includes(profileName) || profileName.includes(rName)) return true;
+        }
+        if (rName && uPart && uPart.length >= 3) {
+          if (rName.includes(uPart) || uPart.includes(rName)) return true;
+        }
 
         return false;
       }
 
       let matchedTests = combinedAll.filter(isMatch);
 
-      // Fallback: If matchedTests is empty but combinedAll has records, display all completed records so reports are never hidden!
+      console.log('🔍 DEBUG — matched tests for this student:', matchedTests.length);
+
+      // If nothing matched, help debug by surfacing any emails that look "close"
       if (matchedTests.length === 0 && combinedAll.length > 0) {
-        console.warn("⚠️ No direct email/name match found, applying fallback to display all available completed test reports.");
-        matchedTests = combinedAll;
+        const usernamePart = userEmail ? userEmail.split('@')[0] : '';
+        const closeMatches = combinedAll.filter(r => {
+          const rEmail = (r.email || '').trim().toLowerCase();
+          return rEmail && usernamePart && rEmail.includes(usernamePart);
+        });
+        if (closeMatches.length > 0) {
+          console.warn('⚠️ No exact match found, but these DB emails look similar to your login email — check for typos/case/space differences:',
+            [...new Set(closeMatches.map(r => r.email))]);
+        } else {
+          console.warn('⚠️ No matching or similar records found for this email at all in Ucat_diagnosis / sat_topic_report.');
+        }
       }
 
       allTests = matchedTests;
@@ -1397,7 +1616,7 @@
       allTests.forEach((t, i) => {
         const pct = Number(t.pct) || 0;
         const pillClass = pct >= 70 ? 'high' : pct >= 50 ? 'mid' : 'low';
-        
+
         const gradeStr = String(t.grade !== undefined && t.grade !== null ? t.grade : 'D');
         const gradeClass = (gradeStr[0] || 'd').toLowerCase();
 
@@ -1412,7 +1631,7 @@
               date = String(t.submit_time);
             }
           }
-        } catch(e) {
+        } catch (e) {
           date = String(t.submit_time || '–');
         }
 
@@ -1465,7 +1684,7 @@
         selectedIds.size === allTests.length ? 'Deselect All' : 'Select All';
     }
 
-        // ── Individual Test Detail Modal ────────
+    // ── Individual Test Detail Modal ────────
     async function openTestDetail(idx) {
       const t = allTests[idx];
       const LETTERS = ['A', 'B', 'C', 'D', 'E'];
@@ -1543,7 +1762,7 @@
       const studentEmail = t.email || (currentSession && currentSession.user && currentSession.user.email) || '';
 
       if (isFullMock) {
-        // Group details by section: VR, DM, QR, AR, SJT
+        // Group details by section: VR, DM, QR, SJT (AR kept for legacy historical results only)
         const secGroups = { VR: [], DM: [], QR: [], AR: [], SJT: [] };
         details.forEach((d, idx) => {
           let rawSec = (d.section || d.sectionName || '').toUpperCase();
@@ -1556,7 +1775,7 @@
             if (idx < 44) secGroups.VR.push(d);
             else if (idx < 44 + 35) secGroups.DM.push(d);
             else if (idx < 44 + 35 + 36) secGroups.QR.push(d);
-            else if (details.length >= 239 && idx < 44 + 35 + 36 + 55) secGroups.AR.push(d);
+            else if (details.length >= 239 && idx < 44 + 35 + 36 + 55) secGroups.AR.push(d); // legacy only
             else secGroups.SJT.push(d);
           }
         });
@@ -1625,7 +1844,7 @@
             </div>
           </div>
 
-          <!-- 5 Section Score Cards -->
+          <!-- Section Score Cards: VR/DM/QR (cognitive) + SJT (band). AR shown dimmed for legacy only -->
           <div class="score-banner">
             <div class="score-box">
               <div class="val">${vrStats.scaled}</div>
@@ -1656,7 +1875,7 @@
 
           <!-- Total Scaled Cognitive Score Banner -->
           <div class="total-score-banner">
-            <div class="lbl">TOTAL SCALED COGNITIVE SCORE (SUM OF SECTION SCALED SCORES)</div>
+            <div class="lbl">TOTAL COGNITIVE SCORE (VR + DM + QR${hasAR ? ' + AR (Legacy)' : ''}) â€” MAX ${maxCog}</div>
             <div class="val">${totalCog} / ${maxCog}</div>
             <div class="sjt-desc">
               <strong>${sjtBandObj.band}:</strong> ${sjtBandObj.interpretation}
@@ -1668,19 +1887,19 @@
             <div class="q-review-hdr" style="font-size:1.2rem;margin-bottom:16px;">📋 Complete Question Review & Solutions (${details.length} questions)</div>
             <div class="q-review-list">
               ${details.map((d, i) => {
-                const hasText = !!d.text;
-                const isPartial = d.status === 'partial';
-                const statusClass = d.status === 'correct' ? 'correct' : (isPartial ? 'unattempted' : (d.status === 'wrong' ? 'wrong' : 'unattempted'));
-                const statusText = d.status === 'correct' ? '✅ Correct' : (isPartial ? '🟡 Partial Choice (0.5 mark)' : (d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped'));
-                const secName = d.sectionName || d.section || '';
+          const hasText = !!d.text;
+          const isPartial = d.status === 'partial';
+          const statusClass = d.status === 'correct' ? 'correct' : (isPartial ? 'unattempted' : (d.status === 'wrong' ? 'wrong' : 'unattempted'));
+          const statusText = d.status === 'correct' ? '✅ Correct' : (isPartial ? '🟡 Partial Choice (0.5 mark)' : (d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped'));
+          const secName = d.sectionName || d.section || '';
 
-                let imgSrc = '';
-                if (d.useImage && d.imageKey && imgMapping[d.imageKey]) {
-                  const val = imgMapping[d.imageKey];
-                  imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (dir + '/' + val);
-                }
+          let imgSrc = '';
+          if (d.useImage && d.imageKey && imgMapping[d.imageKey]) {
+            const val = imgMapping[d.imageKey];
+            imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (dir + '/' + val);
+          }
 
-                return `
+          return `
                   <div class="q-card-rev">
                     <div class="q-rev-header">
                       <span>Question ${d.qNum || (i + 1)} ${secName ? `<span style="font-size:0.8rem;color:#a78bfa;font-weight:normal;margin-left:6px;">[${secName}]</span>` : ''}</span>
@@ -1700,32 +1919,32 @@
                     ${hasText && d.options && d.options.length ? `
                       <div class="q-rev-opts">
                         ${d.options.map((optText, optIdx) => {
-                          let optClass = '';
-                          let badge = '';
+            let optClass = '';
+            let badge = '';
 
-                          if (optIdx === d.answer) {
-                            optClass = 'correct';
-                            badge = '<span style="color:#10b981;font-weight:bold;">✓ Correct Answer</span>';
-                          }
-                          if (d.status === 'wrong' && optIdx === d.chosen) {
-                            optClass = 'wrong-chosen';
-                            badge = '<span style="color:#ef4444;font-weight:bold;">✗ Your Choice</span>';
-                          }
-                          if (isPartial && optIdx === d.chosen) {
-                            optClass = 'wrong-chosen';
-                            badge = '<span style="color:#f59e0b;font-weight:bold;">🟡 Partial Choice (0.5 mark)</span>';
-                          }
-                          if (d.status === 'correct' && optIdx === d.chosen) {
-                            badge = '<span style="color:#10b981;font-weight:bold;">✓ Your Choice</span>';
-                          }
+            if (optIdx === d.answer) {
+              optClass = 'correct';
+              badge = '<span style="color:#10b981;font-weight:bold;">✓ Correct Answer</span>';
+            }
+            if (d.status === 'wrong' && optIdx === d.chosen) {
+              optClass = 'wrong-chosen';
+              badge = '<span style="color:#ef4444;font-weight:bold;">✗ Your Choice</span>';
+            }
+            if (isPartial && optIdx === d.chosen) {
+              optClass = 'wrong-chosen';
+              badge = '<span style="color:#f59e0b;font-weight:bold;">🟡 Partial Choice (0.5 mark)</span>';
+            }
+            if (d.status === 'correct' && optIdx === d.chosen) {
+              badge = '<span style="color:#10b981;font-weight:bold;">✓ Your Choice</span>';
+            }
 
-                          return `
+            return `
                             <div class="q-rev-opt ${optClass}">
-                              <span style="flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;"><strong>${LETTERS[optIdx] || (optIdx+1)}.</strong> ${optText}</span>
+                              <span style="flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;"><strong>${LETTERS[optIdx] || (optIdx + 1)}.</strong> ${optText}</span>
                               ${badge ? `<span style="flex-shrink:0;white-space:nowrap;margin-left:8px;">${badge}</span>` : ''}
                             </div>
                           `;
-                        }).join('')}
+          }).join('')}
                       </div>
                     ` : `
                       <div class="q-detail" style="margin-top:8px;">
@@ -1741,7 +1960,7 @@
                     ` : ''}
                   </div>
                 `;
-              }).join('')}
+        }).join('')}
             </div>
           </div>
         `;
@@ -1784,18 +2003,18 @@
             <div class="q-review-hdr" style="font-size:1.15rem;margin-bottom:16px;">📋 Complete Question Review & Solutions (${details.length} questions)</div>
             <div class="q-review-list">
               ${details.map((d, i) => {
-                const hasText = !!d.text;
-                const isPartial = d.status === 'partial';
-                const statusClass = d.status === 'correct' ? 'correct' : (isPartial ? 'unattempted' : (d.status === 'wrong' ? 'wrong' : 'unattempted'));
-                const statusText = d.status === 'correct' ? '✅ Correct' : (isPartial ? '🟡 Partial Choice (0.5 mark)' : (d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped'));
+          const hasText = !!d.text;
+          const isPartial = d.status === 'partial';
+          const statusClass = d.status === 'correct' ? 'correct' : (isPartial ? 'unattempted' : (d.status === 'wrong' ? 'wrong' : 'unattempted'));
+          const statusText = d.status === 'correct' ? '✅ Correct' : (isPartial ? '🟡 Partial Choice (0.5 mark)' : (d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped'));
 
-                let imgSrc = '';
-                if (d.useImage && d.imageKey && imgMapping[d.imageKey]) {
-                  const val = imgMapping[d.imageKey];
-                  imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (dir + '/' + val);
-                }
+          let imgSrc = '';
+          if (d.useImage && d.imageKey && imgMapping[d.imageKey]) {
+            const val = imgMapping[d.imageKey];
+            imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (dir + '/' + val);
+          }
 
-                return `
+          return `
                   <div class="q-card-rev">
                     <div class="q-rev-header">
                       <span>Question ${d.qNum || d.id || (i + 1)}</span>
@@ -1815,32 +2034,32 @@
                     ${hasText && d.options && d.options.length ? `
                       <div class="q-rev-opts">
                         ${d.options.map((optText, optIdx) => {
-                          let optClass = '';
-                          let badge = '';
+            let optClass = '';
+            let badge = '';
 
-                          if (optIdx === d.answer) {
-                            optClass = 'correct';
-                            badge = '<span style="color:#10b981;font-weight:bold;">✓ Correct Answer</span>';
-                          }
-                          if (d.status === 'wrong' && optIdx === d.chosen) {
-                            optClass = 'wrong-chosen';
-                            badge = '<span style="color:#ef4444;font-weight:bold;">✗ Your Choice</span>';
-                          }
-                          if (isPartial && optIdx === d.chosen) {
-                            optClass = 'wrong-chosen';
-                            badge = '<span style="color:#f59e0b;font-weight:bold;">🟡 Partial Choice (0.5 mark)</span>';
-                          }
-                          if (d.status === 'correct' && optIdx === d.chosen) {
-                            badge = '<span style="color:#10b981;font-weight:bold;">✓ Your Choice</span>';
-                          }
+            if (optIdx === d.answer) {
+              optClass = 'correct';
+              badge = '<span style="color:#10b981;font-weight:bold;">✓ Correct Answer</span>';
+            }
+            if (d.status === 'wrong' && optIdx === d.chosen) {
+              optClass = 'wrong-chosen';
+              badge = '<span style="color:#ef4444;font-weight:bold;">✗ Your Choice</span>';
+            }
+            if (isPartial && optIdx === d.chosen) {
+              optClass = 'wrong-chosen';
+              badge = '<span style="color:#f59e0b;font-weight:bold;">🟡 Partial Choice (0.5 mark)</span>';
+            }
+            if (d.status === 'correct' && optIdx === d.chosen) {
+              badge = '<span style="color:#10b981;font-weight:bold;">✓ Your Choice</span>';
+            }
 
-                          return `
+            return `
                             <div class="q-rev-opt ${optClass}">
-                              <span style="flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;"><strong>${LETTERS[optIdx] || (optIdx+1)}.</strong> ${optText}</span>
+                              <span style="flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;"><strong>${LETTERS[optIdx] || (optIdx + 1)}.</strong> ${optText}</span>
                               ${badge ? `<span style="flex-shrink:0;white-space:nowrap;margin-left:8px;">${badge}</span>` : ''}
                             </div>
                           `;
-                        }).join('')}
+          }).join('')}
                       </div>
                     ` : `
                       <div class="q-detail" style="margin-top:8px;">
@@ -1856,7 +2075,7 @@
                     ` : ''}
                   </div>
                 `;
-              }).join('')}
+        }).join('')}
             </div>
           </div>
         `;
@@ -1969,14 +2188,14 @@
                 return d;
               });
             }
-            allDetails.push({ 
-              testName: t.topic || `Test ${testIndex+1}`, 
+            allDetails.push({
+              testName: t.topic || `Test ${testIndex + 1}`,
               details,
               dir: topicData ? topicData.dir : '.',
               imgMapping: topicData ? topicData.imgMapping : {}
             });
           }
-        } catch(e) {
+        } catch (e) {
           console.error("Failed to parse details for test", t, e);
         }
       });
@@ -2019,19 +2238,19 @@
             <table class="topic-breakdown">
               <thead><tr><th>Topic</th><th>Tests</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Score</th><th>Performance</th></tr></thead>
               <tbody>${topics.map((t, i) => {
-                const d = topicMap[t];
-                const p = topicPcts[i];
-                const color = p >= 70 ? '#059669' : p >= 50 ? '#d97706' : '#dc2626';
-                return `<tr>
+        const d = topicMap[t];
+        const p = topicPcts[i];
+        const color = p >= 70 ? '#059669' : p >= 50 ? '#d97706' : '#dc2626';
+        return `<tr>
                   <td style="font-weight:600">${t}</td>
                   <td>${d.count}</td>
                   <td style="color:#6ee7b7">${d.correct}</td>
                   <td style="color:#f87171">${d.wrong}</td>
                   <td style="color:#fbbf24">${d.skipped}</td>
-                  <td><span class="score-pill ${p>=70?'high':p>=50?'mid':'low'}">${p}%</span></td>
+                  <td><span class="score-pill ${p >= 70 ? 'high' : p >= 50 ? 'mid' : 'low'}">${p}%</span></td>
                   <td><div class="perf-bar"><div class="perf-bar-fill" style="width:${p}%;background:${color}"></div></div></td>
                 </tr>`;
-              }).join('')}</tbody>
+      }).join('')}</tbody>
             </table>
           </div>
 
@@ -2064,21 +2283,21 @@
               </div>
               <div>
               ${td.details.map((d, i) => {
-                const hasText = !!d.text;
-                const statusClass = d.status === 'correct' ? 'correct' : d.status === 'wrong' ? 'wrong' : 'unattempted';
-                const statusText = d.status === 'correct' ? '✅ Correct' : d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped';
-                
-                // Build image source if used
-                let imgSrc = '';
-                if (d.useImage && d.imageKey && td.imgMapping[d.imageKey]) {
-                  const val = td.imgMapping[d.imageKey];
-                  imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (td.dir + '/' + val);
-                }
+        const hasText = !!d.text;
+        const statusClass = d.status === 'correct' ? 'correct' : d.status === 'wrong' ? 'wrong' : 'unattempted';
+        const statusText = d.status === 'correct' ? '✅ Correct' : d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped';
 
-                return `
+        // Build image source if used
+        let imgSrc = '';
+        if (d.useImage && d.imageKey && td.imgMapping[d.imageKey]) {
+          const val = td.imgMapping[d.imageKey];
+          imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (td.dir + '/' + val);
+        }
+
+        return `
                   <div class="q-card">
                     <div class="q-card-header">
-                      <span style="font-weight: 700; font-size: 0.95rem;">Question ${d.id || (i+1)}</span>
+                      <span style="font-weight: 700; font-size: 0.95rem;">Question ${d.id || (i + 1)}</span>
                       <span class="q-status ${statusClass}">${statusText}</span>
                     </div>
                     
@@ -2089,31 +2308,31 @@
                     ${hasText && d.options ? `
                       <div class="q-card-opts">
                         ${d.options.map((optText, optIdx) => {
-                          let optClass = '';
-                          if (optIdx === d.answer) {
-                            optClass = 'correct';
-                          }
-                          if (d.status === 'wrong' && optIdx === d.chosen) {
-                            optClass = 'wrong-chosen';
-                          }
-                          
-                          let badgeIcon = '';
-                          if (optIdx === d.answer) {
-                            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Correct</span>';
-                          } else if (d.status === 'wrong' && optIdx === d.chosen) {
-                            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#ef4444;">✗ Your Choice</span>';
-                          } else if (d.status === 'correct' && optIdx === d.chosen) {
-                            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Your Choice</span>';
-                          }
+          let optClass = '';
+          if (optIdx === d.answer) {
+            optClass = 'correct';
+          }
+          if (d.status === 'wrong' && optIdx === d.chosen) {
+            optClass = 'wrong-chosen';
+          }
 
-                          return `
+          let badgeIcon = '';
+          if (optIdx === d.answer) {
+            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Correct</span>';
+          } else if (d.status === 'wrong' && optIdx === d.chosen) {
+            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#ef4444;">✗ Your Choice</span>';
+          } else if (d.status === 'correct' && optIdx === d.chosen) {
+            badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Your Choice</span>';
+          }
+
+          return `
                             <div class="q-card-opt ${optClass}">
                               <div class="q-card-opt-letter">${LETTERS[optIdx]}</div>
                               <div class="q-card-opt-text">${optText}</div>
                               ${badgeIcon}
                             </div>
                           `;
-                        }).join('')}
+        }).join('')}
                       </div>
                     ` : `
                       <div class="q-detail" style="margin-top:8px;">
@@ -2129,7 +2348,7 @@
                     ` : ''}
                   </div>
                 `;
-              }).join('')}
+      }).join('')}
               </div>
             `).join('')}
           </div>` : ''}

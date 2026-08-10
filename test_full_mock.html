@@ -700,11 +700,10 @@
 
   <!-- SECTION NAVIGATION TABS -->
   <div class="sec-tabs" id="secTabs" style="display:none;">
-    <div class="sec-tab active" id="tab_vr">1. Verbal Reasoning (21m)</div>
-    <div class="sec-tab" id="tab_dm">2. Decision Making (31m)</div>
-    <div class="sec-tab" id="tab_qr">3. Quantitative Reasoning (25m)</div>
-    <div class="sec-tab" id="tab_ar">4. Abstract Reasoning (13m)</div>
-    <div class="sec-tab" id="tab_sjt">5. Situational Judgement (26m)</div>
+    <div class="sec-tab active" id="tab_vr">1. Verbal Reasoning (22m)</div>
+    <div class="sec-tab" id="tab_dm">2. Decision Making (37m)</div>
+    <div class="sec-tab" id="tab_qr">3. Quantitative Reasoning (26m)</div>
+    <div class="sec-tab" id="tab_sjt">4. Situational Judgement (26m)</div>
   </div>
 
   <!-- REGISTRATION PAGE -->
@@ -714,9 +713,9 @@
         <div class="reg-top">
           <span style="font-size:3rem;">🏆</span>
           <h2 id="regMockTitle">UCAT Full Mock Test</h2>
-          <p>Full 116-minute timed examination (239 Questions · 5 Subtests)</p>
+          <p>Full 111-minute timed examination (184 Questions · 4 Subtests)</p>
         </div>
-        <div class="stat-strip" style="grid-template-columns: repeat(5, 1fr);">
+        <div class="stat-strip" style="grid-template-columns: repeat(4, 1fr);">
           <div class="s">
             <div class="val">44 Qs</div>
             <div class="lbl">Verbal</div>
@@ -728,10 +727,6 @@
           <div class="s">
             <div class="val">36 Qs</div>
             <div class="lbl">Quant</div>
-          </div>
-          <div class="s">
-            <div class="val">55 Qs</div>
-            <div class="lbl">Abstract</div>
           </div>
           <div class="s">
             <div class="val">69 Qs</div>
@@ -812,13 +807,8 @@
             <div class="lbl">Quant Reasoning</div>
             <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;" id="repQRRaw">Raw: –</div>
           </div>
-          <div class="score-box" id="repARBox">
-            <div class="val" id="repAR">600</div>
-            <div class="lbl">Abstract Reasoning</div>
-            <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;" id="repARRaw">Raw: –</div>
-          </div>
           <div class="score-box" style="border-color: rgba(168, 85, 247, 0.4);">
-            <div class="val" id="repSJT" style="color:var(--accent2);">Band 2</div>
+            <div class="val" id="repSJT" style="color:var(--accent2);">Band –</div>
             <div class="lbl">Situational Judgement</div>
             <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;" id="repSJTRaw">Raw: –</div>
           </div>
@@ -826,10 +816,10 @@
 
         <div
           style="background:var(--surface2); border:1px solid var(--border); border-radius:14px; padding:20px; text-align:center; margin-bottom:24px;">
-          <div style="font-size:0.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">Total Scaled Cognitive Score (Sum of Section Scaled Scores)
+          <div style="font-size:0.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">Total Cognitive Score (VR + DM + QR)
           </div>
           <div style="font-family:var(--head); font-size:2.8rem; font-weight:800; color:var(--accent2);"
-            id="repTotalScore">2400 / 3600</div>
+            id="repTotalScore">0 / 2700</div>
           <div id="repSJTInterpretation" style="margin-top:10px; font-size:0.85rem; color:rgba(255,255,255,0.85); max-width:650px; margin-left:auto; margin-right:auto;"></div>
         </div>
 
@@ -854,10 +844,10 @@
     const currentMock = window.FULL_MOCKS ? window.FULL_MOCKS[mockId] : null;
 
     let studentData = { name: '', email: '', phone: '' };
-    const sectionOrder = ['vr', 'dm', 'qr', 'ar', 'sjt'];
+    const sectionOrder = ['vr', 'dm', 'qr', 'sjt'];
     let currentSecIndex = 0;
     let currentQIndex = 0;
-    let userAnswers = { vr: {}, dm: {}, qr: {}, ar: {}, sjt: {} };
+    let userAnswers = { vr: {}, dm: {}, qr: {}, sjt: {} };
     let timerInterval = null;
     let timeRemaining = 0;
 
@@ -1062,15 +1052,8 @@
         const qrRawEl = document.getElementById('repQRRaw');
         if (qrRawEl) qrRawEl.textContent = `Raw: ${qrSec.rawScore}/${qrSec.maxPossibleScore} (${qrSec.accuracy}%)`;
       }
-      if (arSec) {
-        const arBox = document.getElementById('repARBox');
-        if (arBox) {
-          arBox.style.display = 'block';
-          document.getElementById('repAR').textContent = arSec.scaledScore;
-          const arRawEl = document.getElementById('repARRaw');
-          if (arRawEl) arRawEl.textContent = `Raw: ${arSec.rawScore}/${arSec.maxPossibleScore} (${arSec.accuracy}%)`;
-        }
-      }
+      // AR removed from new test structure. Handled for legacy only.
+      // if (arSec) { ... } - AR not expected in new mocks
       if (sjtSec) {
         document.getElementById('repSJT').textContent = sjtSec.band;
         const sjtRawEl = document.getElementById('repSJTRaw');
