@@ -28,6 +28,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="supabase.js"></script>
   <script src="access-check.js"></script>
+  <!-- Centralized UCAT Scoring Engine -->
+  <script src="ucatScoring.js"></script>
   <!-- Full Mock Data -->
   <script src="full_mock_data.js"></script>
 
@@ -55,6 +57,13 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    html,
+    body {
+      overflow-x: hidden;
+      max-width: 100vw;
+      width: 100%;
     }
 
     body {
@@ -435,8 +444,11 @@
     /* REPORT PAGE */
     .report-wrap {
       max-width: 900px;
+      width: 100%;
       margin: 30px auto;
       padding: 20px;
+      box-sizing: border-box;
+      overflow-x: hidden;
     }
 
     .report-card {
@@ -444,13 +456,18 @@
       border: 1px solid var(--border);
       border-radius: 20px;
       padding: 32px;
+      max-width: 100%;
+      box-sizing: border-box;
+      overflow-x: hidden;
     }
 
     .score-banner {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
       gap: 14px;
       margin: 24px 0;
+      max-width: 100%;
+      box-sizing: border-box;
     }
 
     .score-box {
@@ -459,6 +476,8 @@
       border-radius: 12px;
       padding: 16px;
       text-align: center;
+      box-sizing: border-box;
+      min-width: 0;
     }
 
     .score-box .val {
@@ -479,6 +498,7 @@
       display: flex;
       gap: 14px;
       margin-top: 24px;
+      flex-wrap: wrap;
     }
 
     @media print {
@@ -512,20 +532,155 @@
       }
     }
     /* DETAILED REVIEW STYLES */
-    .review-wrap { margin-top: 32px; text-align: left; }
-    .review-title { font-family: var(--head); font-size: 1.4rem; font-weight: 800; margin-bottom: 20px; color: var(--accent2); border-bottom: 1px solid var(--border); padding-bottom: 10px; }
-    .q-card-rev { background: var(--surface2); border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin-bottom: 16px; font-size: 0.92rem; }
-    .q-rev-header { display: flex; justify-content: space-between; align-items: center; font-weight: 700; margin-bottom: 12px; font-size: 0.95rem; }
-    .q-rev-status { padding: 3px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; }
+    .review-wrap {
+      margin-top: 32px;
+      text-align: left;
+      max-width: 100%;
+      box-sizing: border-box;
+      overflow-x: hidden;
+    }
+    .review-title {
+      font-family: var(--head);
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+      color: var(--accent2);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+      word-break: break-word;
+    }
+    .q-card-rev {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 16px;
+      font-size: 0.92rem;
+      max-width: 100%;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .q-rev-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 700;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .q-rev-status {
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
     .q-rev-status.correct { background: rgba(16, 185, 129, 0.2); color: var(--green); }
     .q-rev-status.wrong { background: rgba(239, 68, 68, 0.2); color: var(--red); }
     .q-rev-status.unattempted { background: rgba(245, 158, 11, 0.2); color: var(--amber); }
-    .q-rev-text { font-weight: 600; margin-bottom: 14px; line-height: 1.5; }
-    .q-rev-opts { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
-    .q-rev-opt { padding: 10px 14px; border-radius: 8px; background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .q-rev-text {
+      font-weight: 600;
+      margin-bottom: 14px;
+      line-height: 1.5;
+      max-width: 100%;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .q-rev-opts {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 14px;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+    .q-rev-opt {
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      max-width: 100%;
+      box-sizing: border-box;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .q-rev-opt > span:first-child {
+      flex: 1;
+      min-width: 0;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .q-rev-opt > span:last-child {
+      flex-shrink: 0;
+      white-space: nowrap;
+      margin-left: 8px;
+    }
     .q-rev-opt.correct { background: rgba(16, 185, 129, 0.15); border-color: var(--green); color: #6ee7b7; font-weight: 600; }
     .q-rev-opt.wrong-chosen { background: rgba(239, 68, 68, 0.15); border-color: var(--red); color: #f87171; font-weight: 600; }
-    .q-rev-exp { background: rgba(124, 58, 237, 0.1); border: 1px solid rgba(124, 58, 237, 0.25); border-radius: 8px; padding: 12px 14px; font-size: 0.88rem; line-height: 1.5; color: rgba(255, 255, 255, 0.9); }
+    .q-rev-exp {
+      background: rgba(124, 58, 237, 0.1);
+      border: 1px solid rgba(124, 58, 237, 0.25);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 0.88rem;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 100%;
+      box-sizing: border-box;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    mjx-container {
+      max-width: 100% !important;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+  
+    html, body {
+      overflow-x: hidden !important;
+      max-width: 100vw !important;
+      width: 100% !important;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box !important;
+    }
+    .res-wrap, .res-hero, .stats-row, .charts-row, .inc-review,
+    .report-wrap, .report-card, .review-wrap, .q-card-rev,
+    .inc-q, .inc-q-text, .passage-box, .review-passage-block,
+    .review-passage-text, .chart-card, .stat-card, .score-banner, .score-box {
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow-wrap: anywhere !important;
+      word-break: break-word !important;
+    }
+    .inc-row {
+      flex-wrap: wrap !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow-wrap: anywhere !important;
+      word-break: break-word !important;
+    }
+    .inc-row > span:last-child {
+      flex: 1 !important;
+      min-width: 0 !important;
+      overflow-wrap: anywhere !important;
+      word-break: break-word !important;
+    }
+    mjx-container {
+      max-width: 100% !important;
+      overflow-x: auto !important;
+      overflow-y: hidden !important;
+    }
+    
   </style>
 </head>
 
@@ -548,7 +703,8 @@
     <div class="sec-tab active" id="tab_vr">1. Verbal Reasoning (21m)</div>
     <div class="sec-tab" id="tab_dm">2. Decision Making (31m)</div>
     <div class="sec-tab" id="tab_qr">3. Quantitative Reasoning (25m)</div>
-    <div class="sec-tab" id="tab_sjt">4. Situational Judgement (26m)</div>
+    <div class="sec-tab" id="tab_ar">4. Abstract Reasoning (13m)</div>
+    <div class="sec-tab" id="tab_sjt">5. Situational Judgement (26m)</div>
   </div>
 
   <!-- REGISTRATION PAGE -->
@@ -558,9 +714,9 @@
         <div class="reg-top">
           <span style="font-size:3rem;">🏆</span>
           <h2 id="regMockTitle">UCAT Full Mock Test</h2>
-          <p>Full 103-minute timed examination (184 Questions)</p>
+          <p>Full 116-minute timed examination (239 Questions · 5 Subtests)</p>
         </div>
-        <div class="stat-strip">
+        <div class="stat-strip" style="grid-template-columns: repeat(5, 1fr);">
           <div class="s">
             <div class="val">44 Qs</div>
             <div class="lbl">Verbal</div>
@@ -572,6 +728,10 @@
           <div class="s">
             <div class="val">36 Qs</div>
             <div class="lbl">Quant</div>
+          </div>
+          <div class="s">
+            <div class="val">55 Qs</div>
+            <div class="lbl">Abstract</div>
           </div>
           <div class="s">
             <div class="val">69 Qs</div>
@@ -636,31 +796,41 @@
           <p style="color:var(--muted); font-size:0.9rem;" id="repStudentInfo">Student Performance Report</p>
         </div>
 
-        <div class="score-banner">
+        <div class="score-banner" id="repScoreBanner">
           <div class="score-box">
             <div class="val" id="repVR">600</div>
             <div class="lbl">Verbal Reasoning</div>
+            <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;" id="repVRRaw">Raw: –</div>
           </div>
           <div class="score-box">
             <div class="val" id="repDM">600</div>
             <div class="lbl">Decision Making</div>
+            <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;" id="repDMRaw">Raw: –</div>
           </div>
           <div class="score-box">
             <div class="val" id="repQR">600</div>
             <div class="lbl">Quant Reasoning</div>
+            <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;" id="repQRRaw">Raw: –</div>
           </div>
-          <div class="score-box">
-            <div class="val" id="repSJT">Band 2</div>
+          <div class="score-box" id="repARBox">
+            <div class="val" id="repAR">600</div>
+            <div class="lbl">Abstract Reasoning</div>
+            <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;" id="repARRaw">Raw: –</div>
+          </div>
+          <div class="score-box" style="border-color: rgba(168, 85, 247, 0.4);">
+            <div class="val" id="repSJT" style="color:var(--accent2);">Band 2</div>
             <div class="lbl">Situational Judgement</div>
+            <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;" id="repSJTRaw">Raw: –</div>
           </div>
         </div>
 
         <div
           style="background:var(--surface2); border:1px solid var(--border); border-radius:14px; padding:20px; text-align:center; margin-bottom:24px;">
-          <div style="font-size:0.8rem; color:var(--muted); text-transform:uppercase;">Total Scaled Cognitive Score
+          <div style="font-size:0.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">Total Scaled Cognitive Score (Sum of Section Scaled Scores)
           </div>
           <div style="font-family:var(--head); font-size:2.8rem; font-weight:800; color:var(--accent2);"
-            id="repTotalScore">1800 / 2700</div>
+            id="repTotalScore">2400 / 3600</div>
+          <div id="repSJTInterpretation" style="margin-top:10px; font-size:0.85rem; color:rgba(255,255,255,0.85); max-width:650px; margin-left:auto; margin-right:auto;"></div>
         </div>
 
         <!-- DETAILED QUESTION REVIEW CONTAINER -->
@@ -684,10 +854,10 @@
     const currentMock = window.FULL_MOCKS ? window.FULL_MOCKS[mockId] : null;
 
     let studentData = { name: '', email: '', phone: '' };
-    const sectionOrder = ['vr', 'dm', 'qr', 'sjt'];
+    const sectionOrder = ['vr', 'dm', 'qr', 'ar', 'sjt'];
     let currentSecIndex = 0;
     let currentQIndex = 0;
-    let userAnswers = { vr: {}, dm: {}, qr: {}, sjt: {} };
+    let userAnswers = { vr: {}, dm: {}, qr: {}, ar: {}, sjt: {} };
     let timerInterval = null;
     let timeRemaining = 0;
 
@@ -859,72 +1029,72 @@
       document.getElementById('secTabs').style.display = 'none';
       document.getElementById('timerBox').style.display = 'none';
 
-      // Score Calculation & Detailed Question Review Generation
-      let rawScores = { vr: 0, dm: 0, qr: 0, sjt: 0 };
-      const detailedReviewItems = [];
+      // Authoritative UCAT report generation via centralized scoring engine
+      const ucatReport = UCATScoring.generateUCATReport({
+        testType: 'FULL_MOCK',
+        examName: currentMock ? currentMock.title : `UCAT Full Mock Test ${mockId}`,
+        questions: currentMock ? currentMock.sections : {},
+        studentAnswers: userAnswers,
+        studentData: studentData
+      });
 
       const LETTERS = ['A', 'B', 'C', 'D', 'E'];
 
-      sectionOrder.forEach(secKey => {
-        const secData = currentMock.sections[secKey];
-        secData.questions.forEach((q, idx) => {
-          const chosen = userAnswers[secKey][q.id];
-          const isCorrect = chosen === q.answer;
-          const isUnattempted = chosen === undefined || chosen === null;
+      // Populate Section Scores
+      const vrSec = ucatReport.sections.VR;
+      const dmSec = ucatReport.sections.DM;
+      const qrSec = ucatReport.sections.QR;
+      const arSec = ucatReport.sections.AR;
+      const sjtSec = ucatReport.sections.SJT;
 
-          if (isCorrect) {
-            rawScores[secKey]++;
-          }
+      if (vrSec) {
+        document.getElementById('repVR').textContent = vrSec.scaledScore;
+        const vrRawEl = document.getElementById('repVRRaw');
+        if (vrRawEl) vrRawEl.textContent = `Raw: ${vrSec.rawScore}/${vrSec.maxPossibleScore} (${vrSec.accuracy}%)`;
+      }
+      if (dmSec) {
+        document.getElementById('repDM').textContent = dmSec.scaledScore;
+        const dmRawEl = document.getElementById('repDMRaw');
+        if (dmRawEl) dmRawEl.textContent = `Raw: ${dmSec.rawScore}/${dmSec.maxPossibleScore} (${dmSec.accuracy}%)`;
+      }
+      if (qrSec) {
+        document.getElementById('repQR').textContent = qrSec.scaledScore;
+        const qrRawEl = document.getElementById('repQRRaw');
+        if (qrRawEl) qrRawEl.textContent = `Raw: ${qrSec.rawScore}/${qrSec.maxPossibleScore} (${qrSec.accuracy}%)`;
+      }
+      if (arSec) {
+        const arBox = document.getElementById('repARBox');
+        if (arBox) {
+          arBox.style.display = 'block';
+          document.getElementById('repAR').textContent = arSec.scaledScore;
+          const arRawEl = document.getElementById('repARRaw');
+          if (arRawEl) arRawEl.textContent = `Raw: ${arSec.rawScore}/${arSec.maxPossibleScore} (${arSec.accuracy}%)`;
+        }
+      }
+      if (sjtSec) {
+        document.getElementById('repSJT').textContent = sjtSec.band;
+        const sjtRawEl = document.getElementById('repSJTRaw');
+        if (sjtRawEl) sjtRawEl.textContent = `Raw: ${sjtSec.rawScore}/${sjtSec.maxPossibleScore} (${sjtSec.accuracy}%)`;
+        const sjtInterpEl = document.getElementById('repSJTInterpretation');
+        if (sjtInterpEl) {
+          sjtInterpEl.innerHTML = `<strong>${sjtSec.band}:</strong> ${sjtSec.interpretation}`;
+        }
+      }
 
-          const status = isCorrect ? 'correct' : (isUnattempted ? 'unattempted' : 'wrong');
-          const statusText = isCorrect ? '✅ Correct' : (isUnattempted ? '⏭ Skipped' : '❌ Wrong');
+      document.getElementById('repMockTitle').textContent = ucatReport.examName;
+      document.getElementById('repStudentInfo').textContent = `${ucatReport.student.name} (${ucatReport.student.email})`;
+      document.getElementById('repTotalScore').textContent = `${ucatReport.totalCognitiveScore} / ${ucatReport.maxCognitiveScore}`;
 
-          detailedReviewItems.push({
-            id: q.id,
-            section: secData.name,
-            sectionKey: secKey,
-            qNum: idx + 1,
-            text: q.text,
-            passageTitle: q.passageTitle || '',
-            passageText: q.passageText || '',
-            options: q.options || [],
-            chosen: chosen !== undefined ? chosen : -1,
-            answer: q.answer,
-            status: status,
-            statusText: statusText,
-            explanation: q.explanation || ''
-          });
-        });
-      });
-
-      // Scaled Scores (300 to 900)
-      const scaledVR = Math.round(300 + (rawScores.vr / 44) * 600);
-      const scaledDM = Math.round(300 + (rawScores.dm / 35) * 600);
-      const scaledQR = Math.round(300 + (rawScores.qr / 36) * 600);
-      const totalCog = scaledVR + scaledDM + scaledQR;
-
-      const sjtPct = rawScores.sjt / 69;
-      let sjtBand = 'Band 4';
-      if (sjtPct >= 0.75) sjtBand = 'Band 1';
-      else if (sjtPct >= 0.55) sjtBand = 'Band 2';
-      else if (sjtPct >= 0.35) sjtBand = 'Band 3';
-
-      document.getElementById('repMockTitle').textContent = currentMock.title;
-      document.getElementById('repStudentInfo').textContent = `${studentData.name} (${studentData.email})`;
-      document.getElementById('repVR').textContent = scaledVR;
-      document.getElementById('repDM').textContent = scaledDM;
-      document.getElementById('repQR').textContent = scaledQR;
-      document.getElementById('repSJT').textContent = sjtBand;
-      document.getElementById('repTotalScore').textContent = `${totalCog} / 2700`;
-
-      // Render Detailed Question Review HTML
+      // Render Detailed Question Review HTML with partial credit and solutions
       const reviewContainer = document.getElementById('repDetailedReview');
       if (reviewContainer) {
-        reviewContainer.innerHTML = detailedReviewItems.map((d) => `
+        reviewContainer.innerHTML = ucatReport.detailedReviewItems.map((d) => {
+          let statusBadgeClass = d.status === 'correct' ? 'correct' : (d.status === 'partial' ? 'unattempted' : (d.status === 'unattempted' ? 'unattempted' : 'wrong'));
+          return `
           <div class="q-card-rev">
             <div class="q-rev-header">
-              <span>Question ${d.qNum} (${d.section})</span>
-              <span class="q-rev-status ${d.status}">${d.statusText}</span>
+              <span>Question ${d.qNum} (${d.sectionName || d.section})</span>
+              <span class="q-rev-status ${statusBadgeClass}">${d.statusText}</span>
             </div>
 
             ${d.passageText ? `
@@ -936,7 +1106,7 @@
             <div class="q-rev-text">${d.text}</div>
 
             <div class="q-rev-opts">
-              ${d.options.map((optText, optIdx) => {
+              ${(d.options || []).map((optText, optIdx) => {
                 let optClass = '';
                 let badge = '';
 
@@ -948,14 +1118,18 @@
                   optClass = 'wrong-chosen';
                   badge = '<span style="color:#ef4444; font-weight:bold;">✗ Your Choice</span>';
                 }
+                if (d.status === 'partial' && optIdx === d.chosen) {
+                  optClass = 'wrong-chosen';
+                  badge = '<span style="color:#f59e0b; font-weight:bold;">🟡 Partial Choice (0.5 mark)</span>';
+                }
                 if (d.status === 'correct' && optIdx === d.chosen) {
                   badge = '<span style="color:#10b981; font-weight:bold;">✓ Your Choice</span>';
                 }
 
                 return `
                   <div class="q-rev-opt ${optClass}">
-                    <span><strong>${LETTERS[optIdx]}.</strong> ${optText}</span>
-                    ${badge}
+                    <span style="flex:1; min-width:0; word-break:break-word; overflow-wrap:anywhere;"><strong>${LETTERS[optIdx] || (optIdx+1)}.</strong> ${optText}</span>
+                    ${badge ? `<span style="flex-shrink:0; white-space:nowrap; margin-left:8px;">${badge}</span>` : ''}
                   </div>
                 `;
               }).join('')}
@@ -967,7 +1141,8 @@
               </div>
             ` : ''}
           </div>
-        `).join('');
+        `;
+        }).join('');
       }
 
       showPage('pageReport');
@@ -988,32 +1163,45 @@
         };
       }
 
-      const totalCorrect = rawScores.vr + rawScores.dm + rawScores.qr + rawScores.sjt;
-      // Strip bulky text/passage/options from details to keep payload small
-      // (dashboard re-loads question text from question files)
-      const lightDetails = detailedReviewItems.map(d => ({
+      const fullDetails = ucatReport.detailedReviewItems.map(d => ({
         id: d.id,
         section: d.section,
-        sectionKey: d.sectionKey,
+        sectionName: d.sectionName,
         qNum: d.qNum,
+        text: d.text,
+        passageTitle: d.passageTitle,
+        passageText: d.passageText,
+        options: d.options,
         chosen: d.chosen,
         answer: d.answer,
-        status: d.status
+        marks: d.marks,
+        status: d.status,
+        explanation: d.explanation
       }));
+
+      const totalCorrectAttempts = ucatReport.overallStats.correct;
+      const totalQuestionsCount = ucatReport.overallStats.totalQuestions;
+
       const resultObj = {
         student: studentData,
         examName: currentMock ? currentMock.title : `UCAT Full Mock Test ${mockId}`,
         topicNumber: mockId,
-        correct: totalCorrect,
-        wrong: 184 - totalCorrect,
-        unattempted: 0,
-        total: 184,
-        pct: Math.round((totalCorrect / 184) * 100),
-        grade: sjtBand,
-        scaled: totalCog,
-        submitTime: new Date().toISOString(),
+        correct: totalCorrectAttempts,
+        wrong: ucatReport.overallStats.wrong,
+        unattempted: ucatReport.overallStats.unattempted,
+        total: totalQuestionsCount,
+        pct: Math.round(ucatReport.overallStats.accuracy),
+        grade: ucatReport.sjtReport ? ucatReport.sjtReport.band : '–',
+        scaled: ucatReport.totalCognitiveScore,
+        submitTime: ucatReport.submitTime,
         answers: userAnswers,
-        details: lightDetails
+        details: fullDetails,
+        ucatReport: {
+          sections: ucatReport.sections,
+          totalCognitiveScore: ucatReport.totalCognitiveScore,
+          maxCognitiveScore: ucatReport.maxCognitiveScore,
+          sjtBand: ucatReport.sjtReport ? ucatReport.sjtReport.band : null
+        }
       };
 
       if (typeof saveToSupabase === 'function') {

@@ -6,7 +6,8 @@
 // ── Get part number from URL ─────────────────
 const urlParams = new URLSearchParams(window.location.search);
 const PART_NUMBER = parseInt(urlParams.get('part')) || 1;
-const CHUNK_SIZE = 20;
+const isAR = (window.CATEGORY_CONFIG && window.CATEGORY_CONFIG.topic === 'Abstract Reasoning') || window.location.pathname.includes('ar');
+const CHUNK_SIZE = isAR ? 55 : 20;
 
 // ── Slice questions for this part ────────────
 const startIdx = (PART_NUMBER - 1) * CHUNK_SIZE;
@@ -30,8 +31,8 @@ const TOPIC_NUMBER = window.CATEGORY_CONFIG ? window.CATEGORY_CONFIG.topicNumber
 const EXAM_NAME = `${CATEGORY_NAME} - Part ${PART_NUMBER}`;
 window.EXAM_NAME = EXAM_NAME;
 
-// ── Timer: 30 seconds per question ───────────
-const TIMER_SECONDS = PART_QUESTIONS.length * 30;
+// ── Timer: 13 minutes (780s) for AR 55 Qs, or 30s per Q for others ───────────
+const TIMER_SECONDS = isAR ? 780 : (PART_QUESTIONS.length * 30);
 
 // ══════════════════════════════════════════════
 // INITIALIZATION (Open for everyone)
@@ -204,50 +205,56 @@ async function doSubmit() {
   $('savingOverlay').classList.add('show');
   $('savingMsg').textContent = 'Saving your result to database...';
 
-  let correct=0, wrong=0, unattempted=0;
-  const details = PART_QUESTIONS.map(q => {
+  // Authoritative scoring via UCATScoring
+  const isSJT = (CATEGORY_TOPIC === 'Situational Judgement');
+  const ucatReport = typeof UCATScoring !== 'undefined'
+    ? UCATScoring.generateUCATReport({
+        testType: 'TOPIC_TEST',
+        examName: EXAM_NAME,
+        questions: PART_QUESTIONS,
+        studentAnswers: answers,
+        studentData: student
+      })
+    : null;
+
+  let correct = ucatReport ? ucatReport.overallStats.correct : 0;
+  let wrong = ucatReport ? ucatReport.overallStats.wrong : 0;
+  let unattempted = ucatReport ? ucatReport.overallStats.unattempted : 0;
+  let partial = ucatReport ? (ucatReport.overallStats.partial || 0) : 0;
+  let rawScore = ucatReport ? ucatReport.overallStats.rawScore : 0;
+  let total = PART_QUESTIONS.length;
+  let pct = ucatReport ? Math.round(ucatReport.overallStats.accuracy) : Math.round((correct / total) * 100);
+  let grade = isSJT && ucatReport && ucatReport.sjtReport
+    ? ucatReport.sjtReport.band
+    : (pct >= 90 ? 'A+' : pct >= 80 ? 'A' : pct >= 70 ? 'B' : pct >= 60 ? 'C' : 'D');
+
+  const details = ucatReport ? ucatReport.detailedReviewItems : PART_QUESTIONS.map(q => {
     const chosen = answers[q.id];
-    let status;
-    if (chosen === undefined) { unattempted++; status='unattempted'; }
-    else if (chosen === q.answer) { correct++; status='correct'; }
-    else { wrong++; status='wrong'; }
-    return { ...q, chosen, status };
-  });
-
-  const total  = PART_QUESTIONS.length;
-  const pct    = Math.round(correct/total*100);
-  const grade  = pct>=90?'A+':pct>=80?'A':pct>=70?'B':pct>=60?'C':'D';
-
-  // Calculate scaled scores for the subtests
-  const subtests = [CATEGORY_TOPIC];
-  const topicStats = {};
-  subtests.forEach(topic => {
-    topicStats[topic] = { correct: 0, total: 0, scaled: 300 };
-  });
-
-  details.forEach(d => {
-    const topic = d.topic || CATEGORY_TOPIC;
-    if (topicStats[topic]) {
-      topicStats[topic].total++;
-      if (d.status === 'correct') {
-        topicStats[topic].correct++;
-      }
-    }
-  });
-
-  let scaled = 0;
-  subtests.forEach(topic => {
-    const stats = topicStats[topic];
-    if (stats.total > 0) {
-      stats.scaled = 300 + Math.round((stats.correct / stats.total) * 600);
-    }
-    scaled += stats.scaled;
+    let status = (chosen === undefined ? 'unattempted' : (chosen === q.answer ? 'correct' : 'wrong'));
+    return { ...q, chosen, status, marks: chosen === q.answer ? 1 : 0 };
   });
 
   const result = {
-    student, correct, wrong, unattempted, total, pct, grade, scaled,
-    topicStats, examName: EXAM_NAME, topicNumber: TOPIC_NUMBER,
-    details, answers, submitTime: new Date().toISOString()
+    student,
+    correct,
+    wrong,
+    unattempted,
+    partial,
+    rawScore,
+    total,
+    pct,
+    grade,
+    scaled: isSJT ? null : rawScore,
+    examName: EXAM_NAME,
+    topicNumber: TOPIC_NUMBER,
+    categoryTopic: CATEGORY_TOPIC,
+    isSJT: isSJT,
+    sjtBand: isSJT && ucatReport && ucatReport.sjtReport ? ucatReport.sjtReport.band : null,
+    sjtInterpretation: isSJT && ucatReport && ucatReport.sjtReport ? ucatReport.sjtReport.interpretation : null,
+    details,
+    answers,
+    submitTime: new Date().toISOString(),
+    ucatReport
   };
 
   const saveResult = await saveToSupabase(result);
@@ -260,9 +267,9 @@ async function doSubmit() {
 
 // ── Results ──────────────────────────────────
 function renderResults(result, saveRes) {
-  const { student, correct, wrong, unattempted, total, pct, grade, scaled, details } = result;
+  const { student, correct, wrong, unattempted, partial = 0, rawScore, total, pct, grade, details, isSJT, sjtBand, sjtInterpretation } = result;
   const wrap = $('resWrap');
-  const scoreColor = pct>=70?'#10b981':pct>=50?'#f59e0b':'#ef4444';
+  const scoreColor = pct >= 70 ? '#10b981' : pct >= 50 ? '#f59e0b' : '#ef4444';
   const savedBadge = saveRes && saveRes.ok
     ? `<div class="saved-badge">✅ Result saved to database</div>`
     : (SUPABASE_CONFIG.url !== 'YOUR_SUPABASE_URL'
@@ -287,9 +294,8 @@ function renderResults(result, saveRes) {
   // Build review HTML
   let reviewHTML = '';
   if (wrongDetails.length > 0) {
-    // Passage-based review blocks
     Object.entries(passageGroups).forEach(([pid, qs]) => {
-      const passage = PART_PASSAGES[pid] || PASSAGES[pid];
+      const passage = PART_PASSAGES[pid] || (typeof PASSAGES !== 'undefined' ? PASSAGES[pid] : null);
       if (passage) {
         reviewHTML += `
           <div class="review-passage-block">
@@ -303,21 +309,56 @@ function renderResults(result, saveRes) {
         qs.forEach(q => { reviewHTML += buildReviewQ(q); });
       }
     });
-    // Standalone wrong
     standaloneWrong.forEach(q => {
       reviewHTML += buildReviewQ(q);
     });
   }
 
-  // Subtests stats grouping
-  const subtests = [CATEGORY_TOPIC];
-  const topicStats = result.topicStats || {};
+  // Hero Display: SJT displays Band 1-4; Cognitive displays Raw Topic Score
+  let scoreMainHTML = '';
+  let subtestCardHTML = '';
+
+  if (isSJT) {
+    scoreMainHTML = `
+      <div class="sat-score" style="color:#a855f7">${sjtBand || grade}</div>
+      <div class="score-line">Situational Judgement · Raw Marks: ${rawScore !== undefined ? rawScore : correct} / ${total} (${pct}%)</div>
+      ${sjtInterpretation ? `<div style="font-size:0.85rem; color:rgba(255,255,255,0.85); margin-top:8px; max-width:600px; margin-left:auto; margin-right:auto;">${sjtInterpretation}</div>` : ''}
+    `;
+
+    subtestCardHTML = `
+      <div style="background:var(--surface2); border:1px solid var(--border); border-radius:10px; padding:16px; display:flex; flex-direction:column; gap:8px;">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span style="font-weight:600; font-size:0.9rem; color:var(--text);">${CATEGORY_ICON} Situational Judgement (Topic Part)</span>
+          <span style="font-size:0.75rem; color:var(--muted);">${rawScore !== undefined ? rawScore : correct}/${total} Raw Marks</span>
+        </div>
+        <div style="font-family:var(--head); font-size:1.8rem; font-weight:800; color:var(--accent2); margin:4px 0;">${sjtBand || grade}</div>
+        <div style="font-size:0.8rem; color:var(--muted);">Partial credit applied (1.0 exact, 0.5 adjacent)</div>
+      </div>
+    `;
+  } else {
+    scoreMainHTML = `
+      <div class="sat-score" style="color:${scoreColor}">${rawScore !== undefined ? rawScore : correct} <span style="font-size:2rem; font-family:var(--font); color:var(--muted); font-weight:normal;">/ ${total}</span></div>
+      <div class="score-line">Topic Test Raw Performance · ${correct} / ${total} correct (${pct}%) · Grade: ${grade}</div>
+    `;
+
+    subtestCardHTML = `
+      <div style="background:var(--surface2); border:1px solid var(--border); border-radius:10px; padding:16px; display:flex; flex-direction:column; gap:8px;">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span style="font-weight:600; font-size:0.9rem; color:var(--text);">${CATEGORY_ICON} ${CATEGORY_TOPIC}</span>
+          <span style="font-size:0.75rem; color:var(--muted);">${correct}/${total} Correct</span>
+        </div>
+        <div style="font-family:var(--head); font-size:1.8rem; font-weight:800; color:var(--accent2); margin:4px 0;">${pct}% <span style="font-size:0.8rem; font-family:var(--font); color:var(--muted); font-weight:normal;">Accuracy</span></div>
+        <div style="height:6px; background:var(--surface); border-radius:99px; overflow:hidden;">
+          <div style="height:100%; width:${pct}%; background:linear-gradient(90deg, var(--accent), var(--accent2)); border-radius:99px;"></div>
+        </div>
+      </div>
+    `;
+  }
 
   wrap.innerHTML = `
     <div class="res-hero">
       <div style="font-size:0.8rem;opacity:.55;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px">${EXAM_NAME}</div>
-      <div class="sat-score" style="color:${scoreColor}">${scaled} <span style="font-size:2rem; font-family:var(--font); color:var(--muted); font-weight:normal;">/ 900</span></div>
-      <div class="score-line">Scaled Score · ${correct} / ${total} correct (${pct}%) · Grade: ${grade}</div>
+      ${scoreMainHTML}
       <div class="score-sub">${student.name} &nbsp;·&nbsp; ${new Date(result.submitTime).toLocaleString()}</div>
       ${savedBadge}
     </div>
@@ -326,40 +367,25 @@ function renderResults(result, saveRes) {
       <div class="stat-card c"><div class="num">${correct}</div><div class="lbl">Correct</div></div>
       <div class="stat-card w"><div class="num">${wrong}</div><div class="lbl">Wrong</div></div>
       <div class="stat-card s"><div class="num">${unattempted}</div><div class="lbl">Skipped</div></div>
-      <div class="stat-card"><div class="num">${pct}%</div><div class="lbl">Score</div></div>
+      <div class="stat-card"><div class="num">${pct}%</div><div class="lbl">Accuracy</div></div>
     </div>
 
-    <!-- Subtest Scaled Score Breakdown Card -->
+    <!-- Topic Raw Performance Card -->
     <div class="chart-card" style="margin-bottom:20px;">
-      <h3 style="font-size:0.82rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin-bottom:16px;">🧩 Subtest Scaled Scores (300-900 range each)</h3>
-      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:16px;">
-        ${subtests.map(topic => {
-          const stats = topicStats[topic];
-          const barWidth = Math.round(((stats.scaled - 300) / 600) * 100);
-          return `
-            <div style="background:var(--surface2); border:1px solid var(--border); border-radius:10px; padding:16px; display:flex; flex-direction:column; gap:8px;">
-              <div style="display:flex; justify-content:space-between; align-items:center;">
-                <span style="font-weight:600; font-size:0.9rem; color:var(--text);">${CATEGORY_ICON} ${topic}</span>
-                <span style="font-size:0.75rem; color:var(--muted);">${stats.correct}/${stats.total} Correct</span>
-              </div>
-              <div style="font-family:var(--head); font-size:1.8rem; font-weight:800; color:var(--accent2); margin:4px 0;">${stats.scaled} <span style="font-size:0.8rem; font-family:var(--font); color:var(--muted); font-weight:normal;">/ 900</span></div>
-              <div style="height:6px; background:var(--surface); border-radius:99px; overflow:hidden;">
-                <div style="height:100%; width:${barWidth}%; background:linear-gradient(90deg, var(--accent), var(--accent2)); border-radius:99px;"></div>
-              </div>
-            </div>
-          `;
-        }).join('')}
+      <h3 style="font-size:0.82rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin-bottom:16px;">📋 Topic Test Performance</h3>
+      <div style="display:grid; grid-template-columns: 1fr; gap:16px;">
+        ${subtestCardHTML}
       </div>
     </div>
 
     <div class="charts-row">
-      <div class="chart-card"><h3>📊 Score Breakdown</h3><canvas id="pieChart" height="220"></canvas></div>
-      <div class="chart-card"><h3>📈 Subtest Performance</h3><canvas id="barChart" height="220"></canvas></div>
+      <div class="chart-card"><h3>📊 Question Breakdown</h3><canvas id="pieChart" height="220"></canvas></div>
+      <div class="chart-card"><h3>📈 Performance</h3><canvas id="barChart" height="220"></canvas></div>
     </div>
 
     ${wrongDetails.length > 0 ? `
     <div class="inc-review">
-      <h3>⚠️ Review: ${wrong} Wrong &nbsp;+&nbsp; ${unattempted} Skipped</h3>
+      <h3>⚠️ Review: ${wrong} Wrong &nbsp;+&nbsp; ${partial > 0 ? partial + ' Partial &nbsp;+&nbsp; ' : ''}${unattempted} Skipped</h3>
       ${reviewHTML}
     </div>` : `<div class="inc-review" style="text-align:center;padding:32px"><div style="font-size:3rem;margin-bottom:8px">🎉</div><h3 style="color:var(--green);border:none;padding:0">Perfect Score!</h3></div>`}
 
@@ -374,52 +400,45 @@ function renderResults(result, saveRes) {
   new Chart($('pieChart'), {
     type:'doughnut',
     data:{ labels:['Correct','Wrong','Skipped'],
-      datasets:[{ data:[correct,wrong,unattempted],
+      datasets:[{ data:[correct, wrong, unattempted],
         backgroundColor:['#10b981','#ef4444','#f59e0b'], borderWidth:0, hoverOffset:4 }] },
     options:{ plugins:{ legend:{ position:'bottom', labels:{ font:{ family:'IBM Plex Sans' }, color:'#8b83a3' } } }, cutout:'68%' }
   });
 
-  // Bar chart by subtest (showing scaled score)
-  const bands = subtests.map(topic => {
-    const stats = topicStats[topic];
-    return {
-      label: topic.length > 16 ? topic.substring(0,16)+'…' : topic,
-      score: stats.scaled,
-      total: 900
-    };
-  });
-  const bScores = bands.map(b => b.score);
-  const bColors = subtests.map(topic => {
-    const stats = topicStats[topic];
-    const p = stats.total > 0 ? stats.correct / stats.total : 0;
-    return p >= 0.7 ? '#10b981' : p >= 0.4 ? '#f59e0b' : '#ef4444';
-  });
-
+  // Bar chart
   new Chart($('barChart'), {
     type:'bar',
-    data:{ labels: bands.map(b=>b.label),
-      datasets:[{ label:'Scaled Score', data: bScores,
-        backgroundColor: bColors.map(c=>c+'33'), borderColor: bColors,
+    data:{ labels: ['Accuracy %'],
+      datasets:[{ label:'Accuracy %', data: [pct],
+        backgroundColor: [pct >= 70 ? '#10b98133' : pct >= 50 ? '#f59e0b33' : '#ef444433'],
+        borderColor: [pct >= 70 ? '#10b981' : pct >= 50 ? '#f59e0b' : '#ef4444'],
         borderWidth:2, borderRadius:6 }] },
     options:{
       plugins:{ legend:{display:false} },
       scales:{
-        y:{ min: 300, max: 900, ticks:{ stepSize:100, font:{family:'IBM Plex Mono'}, color:'#8b83a3' }, grid:{color:'rgba(124,58,237,0.1)'} },
-        x:{ ticks:{ font:{family:'IBM Plex Sans', size:9}, color:'#8b83a3' }, grid:{display:false} }
+        y:{ min: 0, max: 100, ticks:{ stepSize:20, font:{family:'IBM Plex Mono'}, color:'#8b83a3' }, grid:{color:'rgba(124,58,237,0.1)'} },
+        x:{ ticks:{ font:{family:'IBM Plex Sans', size:11}, color:'#8b83a3' }, grid:{display:false} }
       }
     }
   });
 }
 
 function buildReviewQ(q) {
+  let statusBadge = '';
+  if (q.status === 'wrong') {
+    statusBadge = `<div class="inc-row wrong"><span class="label">❌ Your answer:</span><span>(${LETTERS[q.chosen] || (q.chosen+1)}) ${(q.options && q.options[q.chosen]) || '–'}</span></div>`;
+  } else if (q.status === 'partial') {
+    statusBadge = `<div class="inc-row" style="color:var(--amber)"><span class="label">🟡 Partial Credit Choice:</span><span>(${LETTERS[q.chosen] || (q.chosen+1)}) ${(q.options && q.options[q.chosen]) || '–'} (0.5 mark)</span></div>`;
+  } else if (q.status === 'unattempted') {
+    statusBadge = `<div class="inc-row" style="color:var(--amber)"><span class="label">⏭ Skipped</span></div>`;
+  }
+
   return `
     <div class="inc-q">
-      <div class="inc-q-text">Q${q.id} <span style="color:var(--accent2);font-size:0.75rem">[${q.topic || CATEGORY_TOPIC}]</span><br>${q.text.substring(0,200)}${q.text.length>200?'…':''}</div>
-      ${q.status==='wrong'
-        ?`<div class="inc-row wrong"><span class="label">❌ Your answer:</span><span>(${LETTERS[q.chosen]}) ${q.options[q.chosen]}</span></div>`
-        :`<div class="inc-row" style="color:var(--amber)"><span class="label">⏭ Skipped</span></div>`}
-      <div class="inc-row right"><span class="label">✅ Correct:</span><span>(${LETTERS[q.answer]}) ${q.options[q.answer]}</span></div>
-      <div style="font-size:0.78rem;color:var(--muted);margin-top:6px;line-height:1.5;background:rgba(124,58,237,0.06);border-radius:8px;padding:8px 10px">${q.explanation}</div>
+      <div class="inc-q-text">Q${q.id || q.qNum} <span style="color:var(--accent2);font-size:0.75rem">[${q.topic || q.sectionName || CATEGORY_TOPIC}]</span><br>${(q.text || '').substring(0,250)}${(q.text || '').length > 250 ? '…' : ''}</div>
+      ${statusBadge}
+      <div class="inc-row right"><span class="label">✅ Correct:</span><span>(${LETTERS[q.answer] || (q.answer+1)}) ${(q.options && q.options[q.answer]) || '–'}</span></div>
+      ${q.explanation ? `<div style="font-size:0.78rem;color:var(--muted);margin-top:6px;line-height:1.5;background:rgba(124,58,237,0.06);border-radius:8px;padding:8px 10px">${q.explanation}</div>` : ''}
     </div>`;
 }
 

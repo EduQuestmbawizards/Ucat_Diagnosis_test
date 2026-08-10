@@ -15,6 +15,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="supabase.js"></script>
   <script src="full_mock_data.js"></script>
+  <script src="ucatScoring.js"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0 }
 
@@ -509,7 +511,7 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 20px;
       padding: 28px;
-      max-width: 700px;
+      max-width: 900px;
       width: 100%;
       max-height: 85vh;
       overflow-y: auto;
@@ -722,6 +724,151 @@
       text-align: left;
     }
 
+    
+    /* ── Full Mock & Section Score Cards ── */
+    .score-banner {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 12px;
+      margin: 18px 0;
+      width: 100%;
+    }
+    .score-box {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 14px 10px;
+      text-align: center;
+      min-width: 0;
+    }
+    .score-box .val {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.55rem;
+      font-weight: 800;
+      color: #a78bfa;
+    }
+    .score-box .lbl {
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 4px;
+    }
+    .score-box .sub {
+      font-size: 0.74rem;
+      color: rgba(255, 255, 255, 0.4);
+      margin-top: 2px;
+    }
+    .total-score-banner {
+      background: rgba(124, 58, 237, 0.09);
+      border: 1px solid rgba(124, 58, 237, 0.3);
+      border-radius: 14px;
+      padding: 18px 20px;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+    .total-score-banner .lbl {
+      font-size: 0.76rem;
+      color: rgba(255, 255, 255, 0.6);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .total-score-banner .val {
+      font-family: 'Syne', sans-serif;
+      font-size: 2.6rem;
+      font-weight: 800;
+      color: #c084fc;
+      margin: 4px 0;
+    }
+    .total-score-banner .sjt-desc {
+      margin-top: 8px;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.85);
+      max-width: 680px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+    }
+    .passage-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-left: 3px solid #a855f7;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+      font-size: 0.88rem;
+      line-height: 1.6;
+      max-height: 240px;
+      overflow-y: auto;
+      color: rgba(255, 255, 255, 0.88);
+      text-align: left;
+    }
+    .q-card-rev {
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+      font-size: 0.92rem;
+      text-align: left;
+    }
+    .q-rev-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 700;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .q-rev-status {
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .q-rev-status.correct { background: rgba(16, 185, 129, 0.2); color: #6ee7b7; }
+    .q-rev-status.wrong { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+    .q-rev-status.unattempted { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
+    .q-rev-text {
+      font-weight: 600;
+      margin-bottom: 14px;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.92);
+    }
+    .q-rev-opts {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .q-rev-opt {
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.88rem;
+    }
+    .q-rev-opt.correct { background: rgba(16, 185, 129, 0.14); border-color: #10b981; color: #6ee7b7; font-weight: 600; }
+    .q-rev-opt.wrong-chosen { background: rgba(239, 68, 68, 0.14); border-color: #ef4444; color: #f87171; font-weight: 600; }
+    .q-rev-exp {
+      background: rgba(124, 58, 237, 0.1);
+      border: 1px solid rgba(124, 58, 237, 0.25);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 0.88rem;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.9);
+      margin-top: 10px;
+    }
+  
     /* ── Empty / Loading ───────────────────── */
     .empty-state {
       text-align: center;
@@ -938,7 +1085,7 @@
           if (window.FULL_MOCKS && window.FULL_MOCKS[mockId]) {
             const mock = window.FULL_MOCKS[mockId];
             const qs = [];
-            ['vr', 'dm', 'qr', 'sjt'].forEach(sec => {
+            ['vr', 'dm', 'qr', 'ar', 'sjt'].forEach(sec => {
               if (mock.sections && mock.sections[sec] && mock.sections[sec].questions) {
                 mock.sections[sec].questions.forEach(q => {
                   qs.push({ ...q, sectionName: mock.sections[sec].name });
@@ -1318,16 +1465,14 @@
         selectedIds.size === allTests.length ? 'Deselect All' : 'Select All';
     }
 
-    // ── Individual Test Detail Modal ────────
+        // ── Individual Test Detail Modal ────────
     async function openTestDetail(idx) {
       const t = allTests[idx];
-      const pct = t.pct || 0;
-      const scoreColor = pct >= 70 ? '#6ee7b7' : pct >= 50 ? '#fbbf24' : '#f87171';
+      const LETTERS = ['A', 'B', 'C', 'D', 'E'];
       let details = [];
-      try { details = JSON.parse(t.details_json || '[]'); } catch(e) {}
+      try { details = JSON.parse(t.details_json || '[]'); } catch (e) { }
 
       const modal = document.getElementById('modalContent');
-      // Show loading inside modal while questions are fetched
       modal.innerHTML = `
         <div class="modal-hdr">
           <h3>${t.topic || 'Test Detail'}</h3>
@@ -1343,150 +1488,402 @@
       const qs = await loadQuestionsForTopic(matchedTopicKey);
       const imgMapping = await loadImageMappingForTopic(matchedTopicKey, dir);
 
-      // Merge questions metadata
-      if (qs && details.length > 0) {
-        details = details.map(d => {
-          const matchedQ = qs.find(q => String(q.id) === String(d.id));
-          if (matchedQ) {
-            let processedText = matchedQ.text || '';
-            if (processedText && dir && dir !== '.') {
-              processedText = processedText.replace(/img src=["'](images?)\//g, (m, g) => `img src="${dir}/${g}/`);
+      // Merge questions metadata if available
+      if (qs && qs.length > 0) {
+        if (details.length === 0) {
+          details = qs.map((q, qIdx) => ({
+            id: q.id !== undefined ? q.id : (qIdx + 1),
+            section: q.section || q.sectionName,
+            sectionName: q.sectionName || q.section,
+            text: q.text,
+            passageTitle: q.passageTitle,
+            passageText: q.passageText,
+            options: q.options,
+            status: 'unattempted',
+            chosen: -1,
+            answer: q.answer,
+            explanation: q.explanation || '',
+            useImage: q.useImage,
+            imageKey: q.imageKey
+          }));
+        } else {
+          details = details.map((d, dIdx) => {
+            const matchedQ = qs.find(q => String(q.id) === String(d.id)) || qs[dIdx];
+            if (matchedQ) {
+              let processedText = matchedQ.text || d.text || '';
+              if (processedText && dir && dir !== '.') {
+                processedText = processedText.replace(/img src=["'](images?)\//g, (m, g) => `img src="${dir}/${g}/`);
+              }
+              return {
+                ...d,
+                section: d.section || matchedQ.section || matchedQ.sectionName,
+                sectionName: d.sectionName || matchedQ.sectionName || matchedQ.section,
+                text: processedText,
+                passageTitle: d.passageTitle || matchedQ.passageTitle || '',
+                passageText: d.passageText || matchedQ.passageText || '',
+                options: (d.options && d.options.length) ? d.options : matchedQ.options,
+                explanation: d.explanation || matchedQ.explanation || '',
+                useImage: d.useImage !== undefined ? d.useImage : matchedQ.useImage,
+                imageKey: d.imageKey || matchedQ.imageKey
+              };
             }
-            return {
-              ...d,
-              text: processedText,
-              options: matchedQ.options,
-              explanation: matchedQ.explanation || '',
-              useImage: matchedQ.useImage,
-              imageKey: matchedQ.imageKey
-            };
-          }
-          return d;
-        });
+            return d;
+          });
+        }
       }
 
-      modal.innerHTML = `
-        <div class="modal-hdr">
-          <h3>${t.topic || 'Test Detail'}</h3>
-          <div style="display:flex;gap:8px;align-items:center;">
-            <button class="btn btn-green" style="padding:5px 12px;font-size:0.8rem;" onclick="printReport()">🖨️ Print Report</button>
-            <button class="modal-close" onclick="closeModal()">✕</button>
-          </div>
-        </div>
-        <div style="text-align:center;margin-bottom:4px">
-          <div style="font-family:'Syne';font-size:2.2rem;font-weight:800;color:${scoreColor}">${t.scaled || '–'}</div>
-          <div style="font-size:0.82rem;color:rgba(255,255,255,0.4)">Scaled Score · ${t.submit_time ? new Date(t.submit_time).toLocaleString() : '–'}</div>
-        </div>
-        <div class="modal-stats">
-          <div class="modal-stat"><div class="ms-num" style="color:#6ee7b7">${t.correct || 0}</div><div class="ms-lbl">Correct</div></div>
-          <div class="modal-stat"><div class="ms-num" style="color:#f87171">${t.wrong || 0}</div><div class="ms-lbl">Wrong</div></div>
-          <div class="modal-stat"><div class="ms-num" style="color:#fbbf24">${t.unattempted || 0}</div><div class="ms-lbl">Skipped</div></div>
-          <div class="modal-stat"><div class="ms-num" style="color:#93c5fd">${pct}%</div><div class="ms-lbl">Score</div></div>
-        </div>
-        <div class="modal-chart-wrap"><canvas id="modalPie" height="200"></canvas></div>
-        ${details.length > 0 ? `
-          <div class="q-review-hdr">📋 Question Review (${details.length} questions)</div>
-          <div class="q-review-list">
-          ${details.map((d, i) => {
-            const hasText = !!d.text;
-            const statusClass = d.status === 'correct' ? 'correct' : d.status === 'wrong' ? 'wrong' : 'unattempted';
-            const statusText = d.status === 'correct' ? '✅ Correct' : d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped';
-            
-            // Build image source if used
-            let imgSrc = '';
-            if (d.useImage && d.imageKey && imgMapping[d.imageKey]) {
-              const val = imgMapping[d.imageKey];
-              imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (dir + '/' + val);
+      // Check if test is a Full Mock Test
+      const topicLower = (t.topic || '').toLowerCase();
+      const isFullMock = topicLower.includes('full mock') || (details && details.some(d => {
+        const sec = (d.section || d.sectionName || '').toUpperCase();
+        return sec.includes('DM') || sec.includes('QR') || sec.includes('SJT') || sec.includes('DECISION') || sec.includes('QUANT');
+      }));
+
+      const studentName = t.name || (currentSession && currentSession.user && currentSession.user.user_metadata && currentSession.user.user_metadata.full_name) || 'Student';
+      const studentEmail = t.email || (currentSession && currentSession.user && currentSession.user.email) || '';
+
+      if (isFullMock) {
+        // Group details by section: VR, DM, QR, AR, SJT
+        const secGroups = { VR: [], DM: [], QR: [], AR: [], SJT: [] };
+        details.forEach((d, idx) => {
+          let rawSec = (d.section || d.sectionName || '').toUpperCase();
+          if (rawSec.includes('VERBAL') || rawSec === 'VR') secGroups.VR.push(d);
+          else if (rawSec.includes('DECISION') || rawSec === 'DM') secGroups.DM.push(d);
+          else if (rawSec.includes('QUANT') || rawSec === 'QR') secGroups.QR.push(d);
+          else if (rawSec.includes('ABSTRACT') || rawSec === 'AR') secGroups.AR.push(d);
+          else if (rawSec.includes('SITUATIONAL') || rawSec.includes('JUDG') || rawSec === 'SJT') secGroups.SJT.push(d);
+          else {
+            if (idx < 44) secGroups.VR.push(d);
+            else if (idx < 44 + 35) secGroups.DM.push(d);
+            else if (idx < 44 + 35 + 36) secGroups.QR.push(d);
+            else if (details.length >= 239 && idx < 44 + 35 + 36 + 55) secGroups.AR.push(d);
+            else secGroups.SJT.push(d);
+          }
+        });
+
+        // Compute scores for each section using UCATScoring
+        function calcSecStats(qList, secKey) {
+          const total = qList.length || (secKey === 'VR' ? 44 : secKey === 'DM' ? 35 : secKey === 'QR' ? 36 : secKey === 'AR' ? 55 : 69);
+          let raw = 0;
+          qList.forEach(q => {
+            if (secKey === 'SJT') {
+              if (q.status === 'correct') raw += 1.0;
+              else if (q.status === 'partial') raw += 0.5;
+            } else {
+              if (q.status === 'correct') raw += 1.0;
             }
-
-            return `
-              <div class="q-card">
-                <div class="q-card-header">
-                  <span style="font-weight: 700; font-size: 0.95rem;">Question ${d.id || (i+1)}</span>
-                  <span class="q-status ${statusClass}">${statusText}</span>
-                </div>
-                
-                ${hasText ? `<div class="q-card-text">${d.text}</div>` : `<div class="q-card-text" style="opacity:0.6;">Question text not available for this topic.</div>`}
-                
-                ${imgSrc ? `<div class="q-image-container"><img src="${imgSrc}" alt="Question Image" /></div>` : ''}
-
-                ${hasText && d.options ? `
-                  <div class="q-card-opts">
-                    ${d.options.map((optText, optIdx) => {
-                      let optClass = '';
-                      // Mark correct option
-                      if (optIdx === d.answer) {
-                        optClass = 'correct';
-                      }
-                      // Mark chosen if incorrect
-                      if (d.status === 'wrong' && optIdx === d.chosen) {
-                        optClass = 'wrong-chosen';
-                      }
-                      
-                      let badgeIcon = '';
-                      if (optIdx === d.answer) {
-                        badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Correct</span>';
-                      } else if (d.status === 'wrong' && optIdx === d.chosen) {
-                        badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#ef4444;">✗ Your Choice</span>';
-                      } else if (d.status === 'correct' && optIdx === d.chosen) {
-                        badgeIcon = ' <span style="margin-left:auto; font-weight:bold; color:#10b981;">✓ Your Choice</span>';
-                      }
-
-                      return `
-                        <div class="q-card-opt ${optClass}">
-                          <div class="q-card-opt-letter">${LETTERS[optIdx]}</div>
-                          <div class="q-card-opt-text">${optText}</div>
-                          ${badgeIcon}
-                        </div>
-                      `;
-                    }).join('')}
-                  </div>
-                ` : `
-                  <div class="q-detail" style="margin-top:8px;">
-                    ${d.status === 'wrong' ? `Your answer: <strong>${LETTERS[d.chosen] || '–'}</strong> · Correct: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
-                    ${d.status === 'unattempted' ? `Correct answer: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
-                  </div>
-                `}
-
-                ${d.explanation ? `
-                  <div class="q-card-exp">
-                    <strong>💡 Explanation:</strong> ${d.explanation}
-                  </div>
-                ` : ''}
-              </div>
-            `;
-          }).join('')}
-          </div>
-        ` : '<p style="color:rgba(255,255,255,0.3);text-align:center;padding:20px">No question details available</p>'}
-      `;
-
-      // Draw pie chart
-      if (modalChart) modalChart.destroy();
-      modalChart = new Chart(document.getElementById('modalPie'), {
-        type: 'doughnut',
-        data: {
-          labels: ['Correct', 'Wrong', 'Skipped'],
-          datasets: [{
-            data: [t.correct || 0, t.wrong || 0, t.unattempted || 0],
-            backgroundColor: ['#059669', '#dc2626', '#d97706'],
-            borderWidth: 0,
-            hoverOffset: 4
-          }]
-        },
-        options: {
-          plugins: { legend: { position: 'bottom', labels: { color: 'rgba(255,255,255,0.6)', font: { family: 'IBM Plex Sans' } } } },
-          cutout: '65%'
+          });
+          const pct = total > 0 ? Math.round((raw / total) * 100) : 0;
+          let scaled = 300;
+          if (typeof UCATScoring !== 'undefined') {
+            scaled = UCATScoring.calculateSectionScaledScore(secKey, raw, total);
+          } else {
+            scaled = Math.max(300, Math.min(900, Math.round(300 + (raw / total) * 600)));
+          }
+          return { total, raw, pct, scaled };
         }
-      });
+
+        const vrStats = calcSecStats(secGroups.VR, 'VR');
+        const dmStats = calcSecStats(secGroups.DM, 'DM');
+        const qrStats = calcSecStats(secGroups.QR, 'QR');
+        const arStats = calcSecStats(secGroups.AR, 'AR');
+
+        // SJT calculation
+        let sjtRaw = 0;
+        const sjtTotal = secGroups.SJT.length || 69;
+        secGroups.SJT.forEach(q => {
+          if (q.status === 'correct') sjtRaw += 1.0;
+          else if (q.status === 'partial') sjtRaw += 0.5;
+        });
+        const sjtPct = sjtTotal > 0 ? Math.round((sjtRaw / sjtTotal) * 100) : 0;
+        let sjtBandObj = { band: 'Band 4', interpretation: 'Demonstrates low understanding of professionalism and appropriateness; substantial improvement needed.' };
+        if (typeof UCATScoring !== 'undefined') {
+          sjtBandObj = UCATScoring.calculateSJTBand(sjtRaw, sjtTotal);
+        } else {
+          const b = sjtPct >= 75 ? 'Band 1' : sjtPct >= 55 ? 'Band 2' : sjtPct >= 35 ? 'Band 3' : 'Band 4';
+          sjtBandObj = { band: b, interpretation: '' };
+        }
+
+        const hasAR = secGroups.AR.length > 0;
+        const totalCog = vrStats.scaled + dmStats.scaled + qrStats.scaled + (hasAR ? arStats.scaled : 0);
+        const maxCog = hasAR ? 3600 : 2700;
+
+        modal.innerHTML = `
+          <div class="modal-hdr">
+            <div>
+              <div style="display:flex;align-items:center;gap:10px;">
+                <span style="font-size:1.8rem;">🎓</span>
+                <div>
+                  <h2 style="font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;">${t.topic || 'UCAT Full Mock Test'}</h2>
+                  <div style="font-size:0.85rem;color:rgba(255,255,255,0.5);">${studentName} (${studentEmail})</div>
+                </div>
+              </div>
+            </div>
+            <div style="display:flex;gap:8px;align-items:center;">
+              <button class="btn btn-green" style="padding:6px 14px;font-size:0.82rem;" onclick="printReport()">🖨️ Print Report</button>
+              <button class="modal-close" onclick="closeModal()">✕</button>
+            </div>
+          </div>
+
+          <!-- 5 Section Score Cards -->
+          <div class="score-banner">
+            <div class="score-box">
+              <div class="val">${vrStats.scaled}</div>
+              <div class="lbl">Verbal Reasoning</div>
+              <div class="sub">Raw: ${vrStats.raw}/${vrStats.total} (${vrStats.pct}%)</div>
+            </div>
+            <div class="score-box">
+              <div class="val">${dmStats.scaled}</div>
+              <div class="lbl">Decision Making</div>
+              <div class="sub">Raw: ${dmStats.raw}/${dmStats.total} (${dmStats.pct}%)</div>
+            </div>
+            <div class="score-box">
+              <div class="val">${qrStats.scaled}</div>
+              <div class="lbl">Quant Reasoning</div>
+              <div class="sub">Raw: ${qrStats.raw}/${qrStats.total} (${qrStats.pct}%)</div>
+            </div>
+            <div class="score-box" style="${hasAR ? '' : 'display:none;'}">
+              <div class="val">${arStats.scaled}</div>
+              <div class="lbl">Abstract Reasoning</div>
+              <div class="sub">Raw: ${arStats.raw}/${arStats.total} (${arStats.pct}%)</div>
+            </div>
+            <div class="score-box" style="border-color: rgba(168, 85, 247, 0.35);">
+              <div class="val" style="color:#c084fc;">${sjtBandObj.band}</div>
+              <div class="lbl">Situational Judgement</div>
+              <div class="sub">Raw: ${sjtRaw}/${sjtTotal} (${sjtPct}%)</div>
+            </div>
+          </div>
+
+          <!-- Total Scaled Cognitive Score Banner -->
+          <div class="total-score-banner">
+            <div class="lbl">TOTAL SCALED COGNITIVE SCORE (SUM OF SECTION SCALED SCORES)</div>
+            <div class="val">${totalCog} / ${maxCog}</div>
+            <div class="sjt-desc">
+              <strong>${sjtBandObj.band}:</strong> ${sjtBandObj.interpretation}
+            </div>
+          </div>
+
+          <!-- Complete Question Review & Solutions -->
+          <div class="review-wrap" style="margin-top:24px;">
+            <div class="q-review-hdr" style="font-size:1.2rem;margin-bottom:16px;">📋 Complete Question Review & Solutions (${details.length} questions)</div>
+            <div class="q-review-list">
+              ${details.map((d, i) => {
+                const hasText = !!d.text;
+                const isPartial = d.status === 'partial';
+                const statusClass = d.status === 'correct' ? 'correct' : (isPartial ? 'unattempted' : (d.status === 'wrong' ? 'wrong' : 'unattempted'));
+                const statusText = d.status === 'correct' ? '✅ Correct' : (isPartial ? '🟡 Partial Choice (0.5 mark)' : (d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped'));
+                const secName = d.sectionName || d.section || '';
+
+                let imgSrc = '';
+                if (d.useImage && d.imageKey && imgMapping[d.imageKey]) {
+                  const val = imgMapping[d.imageKey];
+                  imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (dir + '/' + val);
+                }
+
+                return `
+                  <div class="q-card-rev">
+                    <div class="q-rev-header">
+                      <span>Question ${d.qNum || (i + 1)} ${secName ? `<span style="font-size:0.8rem;color:#a78bfa;font-weight:normal;margin-left:6px;">[${secName}]</span>` : ''}</span>
+                      <span class="q-rev-status ${statusClass}">${statusText}</span>
+                    </div>
+
+                    ${d.passageText ? `
+                      <div class="passage-box">
+                        <strong>${d.passageTitle || 'Passage'}</strong><br><br>${d.passageText}
+                      </div>
+                    ` : ''}
+
+                    ${hasText ? `<div class="q-rev-text">${d.text}</div>` : `<div class="q-rev-text" style="opacity:0.6;">Question content</div>`}
+
+                    ${imgSrc ? `<div class="q-image-container"><img src="${imgSrc}" alt="Question Image" /></div>` : ''}
+
+                    ${hasText && d.options && d.options.length ? `
+                      <div class="q-rev-opts">
+                        ${d.options.map((optText, optIdx) => {
+                          let optClass = '';
+                          let badge = '';
+
+                          if (optIdx === d.answer) {
+                            optClass = 'correct';
+                            badge = '<span style="color:#10b981;font-weight:bold;">✓ Correct Answer</span>';
+                          }
+                          if (d.status === 'wrong' && optIdx === d.chosen) {
+                            optClass = 'wrong-chosen';
+                            badge = '<span style="color:#ef4444;font-weight:bold;">✗ Your Choice</span>';
+                          }
+                          if (isPartial && optIdx === d.chosen) {
+                            optClass = 'wrong-chosen';
+                            badge = '<span style="color:#f59e0b;font-weight:bold;">🟡 Partial Choice (0.5 mark)</span>';
+                          }
+                          if (d.status === 'correct' && optIdx === d.chosen) {
+                            badge = '<span style="color:#10b981;font-weight:bold;">✓ Your Choice</span>';
+                          }
+
+                          return `
+                            <div class="q-rev-opt ${optClass}">
+                              <span style="flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;"><strong>${LETTERS[optIdx] || (optIdx+1)}.</strong> ${optText}</span>
+                              ${badge ? `<span style="flex-shrink:0;white-space:nowrap;margin-left:8px;">${badge}</span>` : ''}
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : `
+                      <div class="q-detail" style="margin-top:8px;">
+                        ${d.status === 'wrong' ? `Your answer: <strong>${LETTERS[d.chosen] || '–'}</strong> · Correct: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                        ${d.status === 'unattempted' ? `Correct answer: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                      </div>
+                    `}
+
+                    ${d.explanation ? `
+                      <div class="q-rev-exp">
+                        <strong>💡 Explanation:</strong> ${d.explanation}
+                      </div>
+                    ` : ''}
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      } else {
+        // Single Section Test or Topic Test
+        const pct = Number(t.pct) || 0;
+        const scoreColor = pct >= 70 ? '#6ee7b7' : pct >= 50 ? '#fbbf24' : '#f87171';
+        const isSJT = topicLower.includes('situational') || topicLower.includes('sjt');
+
+        modal.innerHTML = `
+          <div class="modal-hdr">
+            <div>
+              <div style="display:flex;align-items:center;gap:10px;">
+                <span style="font-size:1.8rem;">🎓</span>
+                <div>
+                  <h2 style="font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:800;">${t.topic || 'Test Detail'}</h2>
+                  <div style="font-size:0.82rem;color:rgba(255,255,255,0.5);">${studentName} (${studentEmail})</div>
+                </div>
+              </div>
+            </div>
+            <div style="display:flex;gap:8px;align-items:center;">
+              <button class="btn btn-green" style="padding:6px 14px;font-size:0.82rem;" onclick="printReport()">🖨️ Print Report</button>
+              <button class="modal-close" onclick="closeModal()">✕</button>
+            </div>
+          </div>
+
+          <div style="text-align:center;margin:16px 0 20px;">
+            <div style="font-family:'Syne';font-size:2.6rem;font-weight:800;color:${isSJT ? '#c084fc' : scoreColor};">${isSJT ? (t.grade || 'Band 2') : (t.scaled || (pct + '%'))}</div>
+            <div style="font-size:0.82rem;color:rgba(255,255,255,0.4)">${isSJT ? 'Situational Judgement Band' : 'Scaled Score'} · ${t.submit_time ? new Date(t.submit_time).toLocaleString() : '–'}</div>
+          </div>
+
+          <div class="modal-stats">
+            <div class="modal-stat"><div class="ms-num" style="color:#6ee7b7">${t.correct || 0}</div><div class="ms-lbl">Correct</div></div>
+            <div class="modal-stat"><div class="ms-num" style="color:#f87171">${t.wrong || 0}</div><div class="ms-lbl">Wrong</div></div>
+            <div class="modal-stat"><div class="ms-num" style="color:#fbbf24">${t.unattempted || 0}</div><div class="ms-lbl">Skipped</div></div>
+            <div class="modal-stat"><div class="ms-num" style="color:#93c5fd">${pct}%</div><div class="ms-lbl">Score</div></div>
+          </div>
+
+          <div class="review-wrap" style="margin-top:24px;">
+            <div class="q-review-hdr" style="font-size:1.15rem;margin-bottom:16px;">📋 Complete Question Review & Solutions (${details.length} questions)</div>
+            <div class="q-review-list">
+              ${details.map((d, i) => {
+                const hasText = !!d.text;
+                const isPartial = d.status === 'partial';
+                const statusClass = d.status === 'correct' ? 'correct' : (isPartial ? 'unattempted' : (d.status === 'wrong' ? 'wrong' : 'unattempted'));
+                const statusText = d.status === 'correct' ? '✅ Correct' : (isPartial ? '🟡 Partial Choice (0.5 mark)' : (d.status === 'wrong' ? '❌ Wrong' : '⏭ Skipped'));
+
+                let imgSrc = '';
+                if (d.useImage && d.imageKey && imgMapping[d.imageKey]) {
+                  const val = imgMapping[d.imageKey];
+                  imgSrc = (val.startsWith('data:') || val.startsWith('http')) ? val : (dir + '/' + val);
+                }
+
+                return `
+                  <div class="q-card-rev">
+                    <div class="q-rev-header">
+                      <span>Question ${d.qNum || d.id || (i + 1)}</span>
+                      <span class="q-rev-status ${statusClass}">${statusText}</span>
+                    </div>
+
+                    ${d.passageText ? `
+                      <div class="passage-box">
+                        <strong>${d.passageTitle || 'Passage'}</strong><br><br>${d.passageText}
+                      </div>
+                    ` : ''}
+
+                    ${hasText ? `<div class="q-rev-text">${d.text}</div>` : `<div class="q-rev-text" style="opacity:0.6;">Question content</div>`}
+
+                    ${imgSrc ? `<div class="q-image-container"><img src="${imgSrc}" alt="Question Image" /></div>` : ''}
+
+                    ${hasText && d.options && d.options.length ? `
+                      <div class="q-rev-opts">
+                        ${d.options.map((optText, optIdx) => {
+                          let optClass = '';
+                          let badge = '';
+
+                          if (optIdx === d.answer) {
+                            optClass = 'correct';
+                            badge = '<span style="color:#10b981;font-weight:bold;">✓ Correct Answer</span>';
+                          }
+                          if (d.status === 'wrong' && optIdx === d.chosen) {
+                            optClass = 'wrong-chosen';
+                            badge = '<span style="color:#ef4444;font-weight:bold;">✗ Your Choice</span>';
+                          }
+                          if (isPartial && optIdx === d.chosen) {
+                            optClass = 'wrong-chosen';
+                            badge = '<span style="color:#f59e0b;font-weight:bold;">🟡 Partial Choice (0.5 mark)</span>';
+                          }
+                          if (d.status === 'correct' && optIdx === d.chosen) {
+                            badge = '<span style="color:#10b981;font-weight:bold;">✓ Your Choice</span>';
+                          }
+
+                          return `
+                            <div class="q-rev-opt ${optClass}">
+                              <span style="flex:1;min-width:0;word-break:break-word;overflow-wrap:anywhere;"><strong>${LETTERS[optIdx] || (optIdx+1)}.</strong> ${optText}</span>
+                              ${badge ? `<span style="flex-shrink:0;white-space:nowrap;margin-left:8px;">${badge}</span>` : ''}
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : `
+                      <div class="q-detail" style="margin-top:8px;">
+                        ${d.status === 'wrong' ? `Your answer: <strong>${LETTERS[d.chosen] || '–'}</strong> · Correct: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                        ${d.status === 'unattempted' ? `Correct answer: <strong>${LETTERS[d.answer] || '–'}</strong>` : ''}
+                      </div>
+                    `}
+
+                    ${d.explanation ? `
+                      <div class="q-rev-exp">
+                        <strong>💡 Explanation:</strong> ${d.explanation}
+                      </div>
+                    ` : ''}
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      // Trigger MathJax re-render for formulas
+      if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise();
+      }
     }
 
     function closeModal() {
-      document.getElementById('testModal').classList.remove('open');
+      const modal = document.getElementById('testModal');
+      if (modal) modal.classList.remove('open');
     }
 
-    // Close modal on overlay click
-    document.getElementById('testModal').addEventListener('click', function(e) {
-      if (e.target === this) closeModal();
+    // Close modal on overlay click or Escape key
+    document.addEventListener('DOMContentLoaded', () => {
+      const modal = document.getElementById('testModal');
+      if (modal) {
+        modal.addEventListener('click', function (e) {
+          if (e.target === this) closeModal();
+        });
+      }
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeModal();
+      });
     });
 
     // ── Combined Report ─────────────────────

@@ -161,50 +161,64 @@ async function doSubmit() {
   $('savingOverlay').classList.add('show');
   $('savingMsg').textContent = 'Saving your result to database...';
 
-  let correct=0, wrong=0, unattempted=0;
-  const details = QUESTIONS.map(q => {
+  // Authoritative scoring via UCATScoring
+  const ucatReport = typeof UCATScoring !== 'undefined'
+    ? UCATScoring.generateUCATReport({
+        testType: 'DIAGNOSTIC_TEST',
+        examName: window.EXAM_NAME || 'UCAT Diagnostic Test',
+        questions: QUESTIONS,
+        studentAnswers: answers,
+        studentData: student
+      })
+    : null;
+
+  let correct = ucatReport ? ucatReport.overallStats.correct : 0;
+  let wrong = ucatReport ? ucatReport.overallStats.wrong : 0;
+  let unattempted = ucatReport ? ucatReport.overallStats.unattempted : 0;
+  let rawScore = ucatReport ? ucatReport.overallStats.rawScore : 0;
+  let total = QUESTIONS.length;
+  let pct = ucatReport ? Math.round(ucatReport.overallStats.accuracy) : Math.round((correct / total) * 100);
+  let grade = pct >= 90 ? 'A+' : pct >= 80 ? 'A' : pct >= 70 ? 'B' : pct >= 60 ? 'C' : 'D';
+
+  const details = ucatReport ? ucatReport.detailedReviewItems : QUESTIONS.map(q => {
     const chosen = answers[q.id];
-    let status;
-    if (chosen === undefined) { unattempted++; status='unattempted'; }
-    else if (chosen === q.answer) { correct++; status='correct'; }
-    else { wrong++; status='wrong'; }
-    return { ...q, chosen, status };
+    let status = (chosen === undefined ? 'unattempted' : (chosen === q.answer ? 'correct' : 'wrong'));
+    return { ...q, chosen, status, marks: chosen === q.answer ? 1 : 0 };
   });
 
-  const total  = QUESTIONS.length;
-  const pct    = Math.round(correct/total*100);
-  const grade  = pct>=90?'A+':pct>=80?'A':pct>=70?'B':pct>=60?'C':'D';
-
-  // Calculate scaled scores for the 3 subtests
-  const subtests = ['Verbal Reasoning', 'Decision Making', 'Quantitative Reasoning'];
   const topicStats = {};
-  subtests.forEach(topic => {
-    topicStats[topic] = { correct: 0, total: 0, scaled: 300 };
+  ['Verbal Reasoning', 'Decision Making', 'Quantitative Reasoning'].forEach(topic => {
+    topicStats[topic] = { correct: 0, total: 0, accuracy: 0 };
   });
 
   details.forEach(d => {
-    const topic = d.topic;
-    if (topicStats[topic]) {
-      topicStats[topic].total++;
-      if (d.status === 'correct') {
-        topicStats[topic].correct++;
-      }
-    }
+    const topic = d.topic || (d.sectionName) || 'General';
+    if (!topicStats[topic]) topicStats[topic] = { correct: 0, total: 0, accuracy: 0 };
+    topicStats[topic].total++;
+    if (d.status === 'correct') topicStats[topic].correct++;
   });
 
-  let scaled = 0;
-  subtests.forEach(topic => {
-    const stats = topicStats[topic];
-    if (stats.total > 0) {
-      stats.scaled = 300 + Math.round((stats.correct / stats.total) * 600);
-    }
-    scaled += stats.scaled;
+  Object.keys(topicStats).forEach(topic => {
+    const st = topicStats[topic];
+    st.accuracy = st.total > 0 ? Math.round((st.correct / st.total) * 100) : 0;
   });
 
   const result = {
-    student, correct, wrong, unattempted, total, pct, grade, scaled,
-    topicStats, examName: 'UCAT Diagnostic', topicNumber: 0,
-    details, answers, submitTime: new Date().toISOString()
+    student,
+    correct,
+    wrong,
+    unattempted,
+    total,
+    pct,
+    grade,
+    scaled: rawScore,
+    topicStats,
+    examName: window.EXAM_NAME || 'UCAT Diagnostic',
+    topicNumber: 0,
+    details,
+    answers,
+    submitTime: new Date().toISOString(),
+    ucatReport
   };
 
   const saveResult = await saveToSupabase(result);
@@ -217,19 +231,18 @@ async function doSubmit() {
 
 // ── Results ──────────────────────────────────
 function renderResults(result, saveRes) {
-  const { student, correct, wrong, unattempted, total, pct, grade, scaled, details } = result;
+  const { student, correct, wrong, unattempted, total, pct, grade, details, topicStats = {} } = result;
   const wrap = $('resWrap');
-  const scoreColor = pct>=70?'#10b981':pct>=50?'#f59e0b':'#ef4444';
+  const scoreColor = pct >= 70 ? '#10b981' : pct >= 50 ? '#f59e0b' : '#ef4444';
   const savedBadge = saveRes && saveRes.ok
     ? `<div class="saved-badge">✅ Result saved to database</div>`
-    : (SUPABASE_URL !== 'YOUR_SUPABASE_URL'
+    : (SUPABASE_CONFIG && SUPABASE_CONFIG.url !== 'YOUR_SUPABASE_URL'
         ? `<div class="saved-badge" style="color:#ef4444;border-color:rgba(239,68,68,0.3);background:rgba(239,68,68,0.08)">⚠️ Save failed — check Supabase config</div>`
         : '');
 
   // Group wrong/skipped by passage for review
   const wrongDetails = details.filter(d => d.status !== 'correct');
 
-  // Group by passageId (or null for standalone)
   const passageGroups = {};
   const standaloneWrong = [];
   wrongDetails.forEach(d => {
@@ -241,56 +254,35 @@ function renderResults(result, saveRes) {
     }
   });
 
-  // Build review HTML
   let reviewHTML = '';
   if (wrongDetails.length > 0) {
-    // Passage-based review blocks
     Object.entries(passageGroups).forEach(([pid, qs]) => {
-      const passage = PASSAGES[pid];
-      reviewHTML += `
-        <div class="review-passage-block">
-          <div class="review-passage-label">📄 ${passage.title} · ${passage.subject}</div>
-          <div class="review-passage-text">${passage.text}</div>
-        </div>
-        ${qs.map(q => buildReviewQ(q)).join('')}
-        <div style="height:8px"></div>
-      `;
+      const passage = typeof PASSAGES !== 'undefined' ? PASSAGES[pid] : null;
+      if (passage) {
+        reviewHTML += `
+          <div class="review-passage-block">
+            <div class="review-passage-label">📄 ${passage.title} · ${passage.subject}</div>
+            <div class="review-passage-text">${passage.text}</div>
+          </div>
+          ${qs.map(q => buildReviewQ(q)).join('')}
+          <div style="height:8px"></div>
+        `;
+      } else {
+        qs.forEach(q => { reviewHTML += buildReviewQ(q); });
+      }
     });
-    // Standalone wrong
     standaloneWrong.forEach(q => {
       reviewHTML += buildReviewQ(q);
     });
   }
 
-  // Subtests stats grouping
-  const subtests = ['Verbal Reasoning', 'Decision Making', 'Quantitative Reasoning'];
-  const topicStats = result.topicStats || {};
-  if (!result.topicStats) {
-    subtests.forEach(topic => {
-      topicStats[topic] = { correct: 0, total: 0, scaled: 300 };
-    });
-    details.forEach(d => {
-      const topic = d.topic;
-      if (topicStats[topic]) {
-        topicStats[topic].total++;
-        if (d.status === 'correct') {
-          topicStats[topic].correct++;
-        }
-      }
-    });
-    subtests.forEach(topic => {
-      const stats = topicStats[topic];
-      if (stats.total > 0) {
-        stats.scaled = 300 + Math.round((stats.correct / stats.total) * 600);
-      }
-    });
-  }
+  const subtests = Object.keys(topicStats);
 
   wrap.innerHTML = `
     <div class="res-hero">
       <div style="font-size:0.8rem;opacity:.55;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px">UCAT Diagnostic Test</div>
-      <div class="sat-score" style="color:${scoreColor}">${scaled} <span style="font-size:2rem; font-family:var(--font); color:var(--muted); font-weight:normal;">/ 2700</span></div>
-      <div class="score-line">Scaled Score · ${correct} / ${total} correct (${pct}%) · Grade: ${grade}</div>
+      <div class="sat-score" style="color:${scoreColor}">${correct} <span style="font-size:2rem; font-family:var(--font); color:var(--muted); font-weight:normal;">/ ${total}</span></div>
+      <div class="score-line">Diagnostic Performance · ${correct} / ${total} correct (${pct}%) · Grade: ${grade}</div>
       <div class="score-sub">${student.name} &nbsp;·&nbsp; ${new Date(result.submitTime).toLocaleString()}</div>
       ${savedBadge}
     </div>
@@ -299,16 +291,15 @@ function renderResults(result, saveRes) {
       <div class="stat-card c"><div class="num">${correct}</div><div class="lbl">Correct</div></div>
       <div class="stat-card w"><div class="num">${wrong}</div><div class="lbl">Wrong</div></div>
       <div class="stat-card s"><div class="num">${unattempted}</div><div class="lbl">Skipped</div></div>
-      <div class="stat-card"><div class="num">${pct}%</div><div class="lbl">Score</div></div>
+      <div class="stat-card"><div class="num">${pct}%</div><div class="lbl">Accuracy</div></div>
     </div>
 
-    <!-- Subtest Scaled Score Breakdown Card -->
+    <!-- Subtest Performance Breakdown Card -->
     <div class="chart-card" style="margin-bottom:20px;">
-      <h3 style="font-size:0.82rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin-bottom:16px;">🧩 Subtest Scaled Scores (300-900 range each)</h3>
+      <h3 style="font-size:0.82rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin-bottom:16px;">🧩 Subtest Diagnostic Performance</h3>
       <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:16px;">
         ${subtests.map(topic => {
           const stats = topicStats[topic];
-          const barWidth = Math.round(((stats.scaled - 300) / 600) * 100);
           let subtestIcon = '📖';
           if (topic === 'Decision Making') subtestIcon = '🧩';
           else if (topic === 'Quantitative Reasoning') subtestIcon = '🔢';
@@ -319,9 +310,9 @@ function renderResults(result, saveRes) {
                 <span style="font-weight:600; font-size:0.9rem; color:var(--text);">${subtestIcon} ${topic}</span>
                 <span style="font-size:0.75rem; color:var(--muted);">${stats.correct}/${stats.total} Correct</span>
               </div>
-              <div style="font-family:var(--head); font-size:1.8rem; font-weight:800; color:var(--accent2); margin:4px 0;">${stats.scaled} <span style="font-size:0.8rem; font-family:var(--font); color:var(--muted); font-weight:normal;">/ 900</span></div>
+              <div style="font-family:var(--head); font-size:1.8rem; font-weight:800; color:var(--accent2); margin:4px 0;">${stats.accuracy}% <span style="font-size:0.8rem; font-family:var(--font); color:var(--muted); font-weight:normal;">Accuracy</span></div>
               <div style="height:6px; background:var(--surface); border-radius:99px; overflow:hidden;">
-                <div style="height:100%; width:${barWidth}%; background:linear-gradient(90deg, var(--accent), var(--accent2)); border-radius:99px;"></div>
+                <div style="height:100%; width:${stats.accuracy}%; background:linear-gradient(90deg, var(--accent), var(--accent2)); border-radius:99px;"></div>
               </div>
             </div>
           `;
@@ -330,7 +321,7 @@ function renderResults(result, saveRes) {
     </div>
 
     <div class="charts-row">
-      <div class="chart-card"><h3>📊 Score Breakdown</h3><canvas id="pieChart" height="220"></canvas></div>
+      <div class="chart-card"><h3>📊 Question Breakdown</h3><canvas id="pieChart" height="220"></canvas></div>
       <div class="chart-card"><h3>📈 Subtest Performance</h3><canvas id="barChart" height="220"></canvas></div>
     </div>
 
@@ -342,7 +333,7 @@ function renderResults(result, saveRes) {
 
     <div class="res-actions" id="resActions">
       <button class="btn btn-primary" style="width:auto" onclick="location.reload()">🔄 Retake Test</button>
-      <a href="../index.html" class="btn btn-outline" style="text-decoration:none">🏠 Home</a>
+      <a href="index.html" class="btn btn-outline" style="text-decoration:none">🏠 Home</a>
       <button class="btn btn-primary" style="width:auto" onclick="downloadPDF()" id="downloadPdfBtn">📄 Download PDF</button>
     </div>`;
 
@@ -350,38 +341,26 @@ function renderResults(result, saveRes) {
   new Chart($('pieChart'), {
     type:'doughnut',
     data:{ labels:['Correct','Wrong','Skipped'],
-      datasets:[{ data:[correct,wrong,unattempted],
+      datasets:[{ data:[correct, wrong, unattempted],
         backgroundColor:['#10b981','#ef4444','#f59e0b'], borderWidth:0, hoverOffset:4 }] },
     options:{ plugins:{ legend:{ position:'bottom', labels:{ font:{ family:'IBM Plex Sans' }, color:'#8b83a3' } } }, cutout:'68%' }
   });
 
-  // Bar chart by subtest (showing scaled score)
-  const bands = subtests.map(topic => {
-    const stats = topicStats[topic];
-    return {
-      label: topic.length > 16 ? topic.substring(0,16)+'…' : topic,
-      score: stats.scaled,
-      total: 900
-    };
-  });
-  const bScores = bands.map(b => b.score);
-  const bColors = subtests.map(topic => {
-    const stats = topicStats[topic];
-    const p = stats.total > 0 ? stats.correct / stats.total : 0;
-    return p >= 0.7 ? '#10b981' : p >= 0.4 ? '#f59e0b' : '#ef4444';
-  });
+  // Bar chart
+  const barScores = subtests.map(t => topicStats[t].accuracy);
+  const barColors = barScores.map(p => p >= 70 ? '#10b981' : p >= 50 ? '#f59e0b' : '#ef4444');
 
   new Chart($('barChart'), {
     type:'bar',
-    data:{ labels: bands.map(b=>b.label),
-      datasets:[{ label:'Scaled Score', data: bScores,
-        backgroundColor: bColors.map(c=>c+'33'), borderColor: bColors,
+    data:{ labels: subtests,
+      datasets:[{ label:'Accuracy %', data: barScores,
+        backgroundColor: barColors.map(c=>c+'33'), borderColor: barColors,
         borderWidth:2, borderRadius:6 }] },
     options:{
       plugins:{ legend:{display:false} },
       scales:{
-        y:{ min: 300, max: 900, ticks:{ stepSize:100, font:{family:'IBM Plex Mono'}, color:'#8b83a3' }, grid:{color:'rgba(124,58,237,0.1)'} },
-        x:{ ticks:{ font:{family:'IBM Plex Sans', size:9}, color:'#8b83a3' }, grid:{display:false} }
+        y:{ min: 0, max: 100, ticks:{ stepSize:20, font:{family:'IBM Plex Mono'}, color:'#8b83a3' }, grid:{color:'rgba(124,58,237,0.1)'} },
+        x:{ ticks:{ font:{family:'IBM Plex Sans', size:10}, color:'#8b83a3' }, grid:{display:false} }
       }
     }
   });
