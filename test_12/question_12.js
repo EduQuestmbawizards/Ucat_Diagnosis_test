@@ -534,7 +534,7 @@ const QUESTIONS = [
       "277",
       "280",
       "283",
-      "287\n\nMARKED FOR REVIEW. YOU MAY GO BACK TO QUESTIONS IN THIS SECTION ONLY."
+      "287"
     ],
     "answer": 1,
     "explanation": "In the example of a perfect game, scoring 300, the bowler would have earned 30 points in the 10th frame  - 10 with the initial strike, and 10 more with each of the 2 strikes on the bonus rolls. In this question, the  bowler scores 7, 3, 10 in the 10th frame, instead of 10, 10, 10. This is a difference of 30 - 20 = 10, so sub- tract 10 points from the overall score, to remove the 10th frame score: 300 - 10 = 290. However, a strike  means that you add the score from the following 2 rolls to the frame with the strike. The score in the 8th  frame includes the strike from the 9th frame and the first roll in the 10th frame; instead of 10, it should  only be 7, so subtract 3: 290 - 3 = 287. Similarly, the 9th frame score includes the first two strikes from the  10th frame, in the score for a perfect game; instead of 10, 10, the bowler in this question has 7, 3 - a net  difference of 10 points (20 - 10 = 10). Subtract a further 10: 287 - 10 = 277. Answer (B) is correct.",

@@ -1,6 +1,6 @@
 // Auto-generated master questions file for Quantitative Reasoning
 // Total: 372 questions from question_4.js, question_9.js, question_12.js
-// Generated: 2026-06-22T11:08:31.651Z
+// Generated: 2026-08-12T05:19:03.091Z
 
 const PASSAGES = {};
 
@@ -2482,7 +2482,7 @@ const QUESTIONS = [
       "25%",
       "33%",
       "50%",
-      "150%\n\n\nQuestions 134 – 135 require the following information: In 2015, the government of Aissur voted on a new energy bill. The bill seeks to reduce the rate of CO2 increase over the past 5 years by 50% over the next 5 years, and keep the increase at this level thereafter."
+      "150%"
     ],
     "answer": 2,
     "explanation": "Percentage increase = (new amount – old amount)/old amount x 100 = (3,000–2,000)/2,000 x 100 = 50%. Note that you are asked for the percentage INCREASE. (New amount/old amount) x100 = percentage CHANGE.",
@@ -2538,7 +2538,7 @@ const QUESTIONS = [
       "222",
       "333",
       "400",
-      "425 A 10% discount is offered for orders above 50 units, applying to the whole order. All other offers still apply."
+      "425"
     ],
     "answer": 2,
     "explanation": "£100 will clearly buy more than 100 sheets as all prices are under £1, therefore use the 100+ price: The price for double sided colour printing over 100 sheets is £0.25. £100/0.25 = 400 sheets",
@@ -4917,7 +4917,7 @@ const QUESTIONS = [
       "Travel",
       "Electricity",
       "Household purchases",
-      "TV subscription\n\n\nABSTRACT REASONING The Basics The abstract reasoning section of the UKCAT will test your ability to think beyond the information that is readily available to you in form of the information provided by the question. The idea behind this section of the paper is to test how well the candidate is able to respond to questions that may go beyond the scope of their knowledge or require them to apply their existing knowledge in an unusual way. This is thought to be helpful in determining how well a student will be able to interpret information such as scans, X-rays or other test results as a clinician. This section of the test examines pattern recognition and the logical approach to a series of symbols in order to match symbols to one group or another. There are a number of different question types, but all require one key skill – the ability to recognise patterns in a set of shapes In this section of the UKCAT, you have to answer 55 questions in only 13 minutes (with one additional minute to read instructions). Thus, it is mathematically the most time pressured section of the UKCAT. But in terms of timing, think of it in terms of the image sets. There are multiple questions per image set. Since the main investment in time is in figuring out the pattern, you have a greater proportion of the time to spend on the first question in each set. Then all subsequent questions in that set will be easy and quick to answer. By far the hardest task is deducing the rules – once you have them, matching the options to the correct set is straightforward. Therefore as a rule of thumb, if the image set has 5 questions on it you have about 60 seconds to work out the pattern. Then, match the options to the set they each belong in using the remaining time allocation. TIMINGS"
+      "TV subscription"
     ],
     "answer": 4,
     "explanation": "The smallest section of the pie chart is for ‘TV subscription’",
@@ -5456,7 +5456,7 @@ const QUESTIONS = [
       "277",
       "280",
       "283",
-      "287\n\nMARKED FOR REVIEW. YOU MAY GO BACK TO QUESTIONS IN THIS SECTION ONLY."
+      "287"
     ],
     "answer": 1,
     "explanation": "In the example of a perfect game, scoring 300, the bowler would have earned 30 points in the 10th frame  - 10 with the initial strike, and 10 more with each of the 2 strikes on the bonus rolls. In this question, the  bowler scores 7, 3, 10 in the 10th frame, instead of 10, 10, 10. This is a difference of 30 - 20 = 10, so sub- tract 10 points from the overall score, to remove the 10th frame score: 300 - 10 = 290. However, a strike  means that you add the score from the following 2 rolls to the frame with the strike. The score in the 8th  frame includes the strike from the 9th frame and the first roll in the 10th frame; instead of 10, it should  only be 7, so subtract 3: 290 - 3 = 287. Similarly, the 9th frame score includes the first two strikes from the  10th frame, in the score for a perfect game; instead of 10, 10, the bowler in this question has 7, 3 - a net  difference of 10 points (20 - 10 = 10). Subtract a further 10: 287 - 10 = 277. Answer (B) is correct.",

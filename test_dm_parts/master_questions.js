@@ -1,6 +1,6 @@
 // Auto-generated master questions file for Decision Making
 // Total: 207 questions from question_3.js, question_8.js, question_13.js
-// Generated: 2026-06-22T11:08:31.639Z
+// Generated: 2026-08-12T05:19:03.034Z
 
 const PASSAGES = {};
 
@@ -2483,7 +2483,7 @@ const QUESTIONS = [
       "K(F2), J16, K5, J(F4)",
       "K(F2), JA16, K5, F4",
       "F2, K16, K5, F4",
-      "F2, K16, K(5, F4)\n\n--- PAGE 283 ---\n\nOperators &  General Rules Specific Information  Basic Codes A  = big B  = negative C  = fast D  = up E  = beyond F  = opposite G = one H  = fix J  = grow K  = new   1 = star   2 = moon   3 = human   4 = them   5 = home   6 = ship   7 = journey   8 = burn   9 = stop 10 = head 11 = today 12 = air 13 = tank 14 = fuel 15 = cold 16 = plant 17 = waste"
+      "F2, K16, K(5, F4)"
     ],
     "answer": 0,
     "explanation": "The answers give the first part of the message, new planet, as either K(F2), new(opposite(moon)), or F2,  opposite(moon). Eliminate (D) and (E), which omit new. The remaining answers give the second part of  the message, with plants, as 16, plant, J16, grow(plant), or JA16, grow(big)(plant). Plant is not modified  in the message, so eliminate (B) and (C). The answer is (A).",
@@ -2558,7 +2558,7 @@ const QUESTIONS = [
       "We stopped the aliens from burning our ship.",
       "The broken laser on our ship allowed the aliens to escape.",
       "The aliens didn't stop our ship with the evil laser.",
-      "We didn't stop the alien ship because the laser failed.\n\n--- PAGE 284 ---\n\nAfter doing your preliminary research, you discover the code is in fact much more complex than you  originally thought. The additional codes and information complete the table as follows: Operators &  General Rules Specific Information  Basic Codes Complex Information  Additional Information Reactions/Outcomes  Emotions A   = big B   = negative C   = fast D   = up E   = beyond F   = opposite G  = one H   = fix J  = grow K   = new L  = give M  = special   1 = star   2 = moon   3 = human   4 = them   5 = home   6 = ship   7 = journey   8 = burn   9 = stop 10 = head 11 = today 12 = air 13 = tank 14 = fuel 15 = cold 16 = plant 17 = waste 18 = heart 19 = send 101 = launch 102 = time 103 = orange 104 = fight 105 = army 106 = money 107 = sail 108 = search 109 = scratch 110 = rock 111 = find 112 = learn 201 = panic 202 = love 203 = sorrow 204 = easy 205 = hopeful 206 = different 207 = worry"
+      "We didn't stop the alien ship because the laser failed."
     ],
     "answer": 3,
     "explanation": "The literal translation is them(opposite(home)), negative(stop), ship(opposite(them)), burn(negative). All  of the answers interpret the first part of the message as 'aliens', except for (E), which instead has the sin- gular form, alien; since the message has 'them', aliens must be plural. Eliminate (E). The second part of  the message combines negative and stop; eliminate (B), which omits negative, and (C), because 'allowed  to escape' is not a good interpretation of negative(stop). The remaining answers both give the third part  of the message as 'our ship'. (D) interprets the final part of the message as 'evil laser'; (A) interprets it as  'burned', which omits a representation of negative. Thus, the answer is (D).",
@@ -2603,7 +2603,7 @@ const QUESTIONS = [
       "Life in space is not easy.",
       "Life in space is hard.",
       "It's not easy to live in space.",
-      "It's hard to live your whole life in space.\n\n--- PAGE 285 ---\n\nOperators &  General Rules Specific Information  Basic Codes Complex Information  Additional Information Reactions/Outcomes  Emotions A = big B = negative C = fast D = up E = beyond F = opposite G = one H = fix J = grow K = new L = give M = special 1 = star 2 = moon 3 = human 4 = them 5 = home 6 = ship 7 = journey 8 = burn 9 = stop 10 = head 11 = today 12 = air 13 = tank 14 = fuel 15 = cold 16 = plant 17 = waste 18 = heart 19 = send 101 = launch 102 = time 103 = orange 104 = fight 105 = army 106 = money 107 = sail 108 = search 109 = scratch 110 = rock 111 = find 112 = learn 201 = panic 202 = love 203 = sorrow 204 = easy 205 = hopeful 206 = different 207 = worry"
+      "It's hard to live your whole life in space."
     ],
     "answer": 2,
     "explanation": "The literal translation is big(opposite(give)(air), grow, love, stop(opposite(give)(air))), beyond(moon),  opposite(easy). All of the answers interpret the first part of the message as 'life' or 'live', and the second  part of the message as 'in space'. The final part of the message is the opposite of easy. Eliminate (A), as  unusual is the opposite of common or normal, not of easy; also, eliminate (B) and (D), as 'not easy' would  need to be encoded as negative(easy), B204. The only difference between the remaining answers is that  (E) includes 'your' and 'whole', but there are no codes in the message corresponding to these concepts. (C)  includes only the elements in the message, and is a good logical fit for its meaning; thus, (C) is correct.",
@@ -2678,7 +2678,7 @@ const QUESTIONS = [
       "The space rock failed to launch.",
       "We don't launch rockets at home, but one time we did.",
       "Home is no place to launch a rocket, but one time we went sailing.",
-      "The comet fell to Earth.\n\n--- PAGE 286 ---\n\nOperators &  General Rules Specific Information  Basic Codes Complex Information  Additional Information Reactions/Outcomes  Emotions A = big B = negative C = fast D = up E = beyond F = opposite G = one H = fix J = grow K = new L = give M = special 1 = star 2 = moon 3 = human 4 = them 5 = home 6 = ship 7 = journey 8 = burn 9 = stop 10 = head 11 = today 12 = air 13 = tank 14 = fuel 15 = cold 16 = plant 17 = waste 18 = heart 19 = send 101 = launch 102 = time 103 = orange 104 = fight 105 = army 106 = money 107 = sail 108 = search 109 = scratch 110 = rock 111 = find 112 = learn 201 = panic 202 = love 203 = sorrow 204 = easy 205 = hopeful 206 = different 207 = worry"
+      "The comet fell to Earth."
     ],
     "answer": 4,
     "explanation": "The literal translation is big(rock)(sail(beyond(space), special(time)), negative(opposite(launch)),  home(opposite(moon)). The first part of the message is very long, so it might be faster to start with the  other parts of the message. The second part of the message is the opposite of launch, modified by negative.  (A) and (E) both give this as 'fell', which could have a negative meaning as well as being the opposite of  launching. Eliminate (B), (C) and (D), which omit opposite. (A) also includes down, which is the opposite  of up, which are codes in the table that have appeared in other messages but not in this one. Thus, (A)  cannot be correct; the answer is (E).",
@@ -2738,7 +2738,7 @@ const QUESTIONS = [
       "Countdown to launch can play on our nerves.",
       "We worry but don't panic when countdown begins.",
       "We worry but don't panic when they begin the countdown to launch.",
-      "Countdown is worrying, but don't panic while we launch.\n\n--- PAGE 287 ---"
+      "Countdown is worrying, but don't panic while we launch."
     ],
     "answer": 1,
     "explanation": "The literal translation is time(opposite(up)), launch, give(opposite(them)), grow(worry, negative(panic)).  All the answers interpret the first part of the message as 'countdown'. (C) omits launch, the second part of  the message, so it is incorrect. The third part of the message means something like 'give us'; eliminate (A),  which mistakenly uses the singular form, and also (D), which includes them rather than the opposite of  them. The final part of the message combines worry and negative panic into a single element. Eliminate  (E), which separates 'worry' and 'don't panic' into different parts of the message. The correct answer is (B).",

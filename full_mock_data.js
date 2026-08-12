@@ -1,7 +1,7 @@
-﻿// =============================================
+// =============================================
 // UCAT Full Mock Dataset (Mocks 1 to 7)
 // Built from Official Master Question Banks
-// VR: 44 Qs, DM: 35 Qs, QR: 36 Qs, SJT: 69 Qs (184 Qs per Mock) | AR removed 2024+
+// VR: 44 Qs, DM: 35 Qs, QR: 36 Qs, AR: 55 Qs, SJT: 69 Qs (239 Qs per Mock)
 // 100% AUTHENTIC, UNIQUE & NON-REPEATING
 // =============================================
 
@@ -11,14 +11,14 @@
   "1": {
     "id": 1,
     "title": "UCAT Full Mock Test 1",
-    "totalTimeMins": 111,
-    "totalQuestions": 184,
+    "totalTimeMins": 116,
+    "totalQuestions": 239,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 22,
-        "timeSeconds": 1320,
+        "timeMins": 21,
+        "timeSeconds": 1260,
         "qCount": 44,
         "questions": [
           {
@@ -189,8 +189,9 @@
             "text": "Which statement is true, according to the text?",
             "options": [
               "Skills learned in instrumental music transfer well to academic subjects.",
-              "Learning to sing will have a negative impact on a student’s academic grades.  \n\n  \n 56 C. Peter Gouzou asis believes that the more students engage with music, the less time \nthey have to spend on their academics and so the worse they perform in these \nsubjects.",
-              "School administrators should look to academic courses when their budgets need \ncutting down."
+              "Learning to sing will have a negative impact on a student’s academic grades.",
+              "Peter Gouzouasis believes that the more students engage with music, the less time they have to spend on their academics and so the worse they perform in these subjects.",
+              "School administrators should look to academic courses when their budgets need cutting down."
             ],
             "answer": 0,
             "explanation": "As you go down the list of statements, this one should \nimmediately be clear. There is no need to look at the others, as this can quickly be \nconfirmed by scanning the text. The correct section of text is: “The students who \nlearned to play a musical instrument in elementary and continued playing in high \nschool not only score significantly higher, but were about one  academic year ahead of \ntheir non -music peers with regard to their English, mathematics and science skills”",
@@ -392,7 +393,8 @@
             "text": "Which of the following is not given as an  example of a relative to modern African \nBush elephants:",
             "options": [
               "Hyrax",
-              "P. Antiquus  \n\n  \n 60 C. Loxodonta cyclotis",
+              "P. Antiquus",
+              "Loxodonta cyclotis",
               "Elephas Maximus"
             ],
             "answer": 2,
@@ -521,7 +523,7 @@
               "Isolating the suggested gene.",
               "Restricting the study to look at fewer families, making it easier and cheaper.",
               "Attempting to find a way to “switch off” this gene.",
-              "No more r esearch needed.  \n \n \n \n\n  \n 63"
+              "No more research needed."
             ],
             "answer": 0,
             "explanation": "This question is more logic -based. Having a reasonable \nunder standing of science would suggest that A is the correct answer. B and D are \nillogical. Although C would be a potential step in research, it is not the best “next step” \n\n  \n 72 as trying to switch off the gene could only be useful in a potentially long -term study \ncomparing the results in groups with and without this gene. This is far too complex \nand would not be expected from you in the UCAT. Therefore, it is not the logical next \nstep in research.",
@@ -565,8 +567,8 @@
             "text": "Older Americans were more likely to stockpile than younger Europeans.",
             "options": [
               "True",
-              "False  \n\n  \n 64 C. Can’t Tell",
-              "Option C"
+              "False",
+              "Can’t Tell"
             ],
             "answer": 0,
             "explanation": "– True. The text says that older people tended to stockpile \nmore than younger people and Americans tended to stockpile more than Europeans. \nIt would be logical  to suggest that older Americans may be more likely to stockpile \nthan younger Europeans.",
@@ -709,7 +711,7 @@
               "Young people are more likely to die of HIV than adult s.",
               "This issue is currently overlooked in most healthcare systems.",
               "There are other problems to target in older population groups.",
-              "35% of all HIV cases are found in youth.  \n\n  \n 67"
+              "35% of all HIV cases are found in youth."
             ],
             "answer": 1,
             "explanation": "D may also seem correc t, but looking closely at the section of \ntext which mentions the 35% would show you that this figure is actually referring to \ndisease as a whole rather than HIV, and so the correct answer is B.",
@@ -720,8 +722,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 37,
-        "timeSeconds": 2220,
+        "timeMins": 31,
+        "timeSeconds": 1860,
         "qCount": 35,
         "questions": [
           {
@@ -1158,8 +1160,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 26,
-        "timeSeconds": 1560,
+        "timeMins": 25,
+        "timeSeconds": 1500,
         "qCount": 36,
         "questions": [
           {
@@ -3354,14 +3356,14 @@
   "2": {
     "id": 2,
     "title": "UCAT Full Mock Test 2",
-    "totalTimeMins": 111,
-    "totalQuestions": 184,
+    "totalTimeMins": 116,
+    "totalQuestions": 239,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 22,
-        "timeSeconds": 1320,
+        "timeMins": 21,
+        "timeSeconds": 1260,
         "qCount": 44,
         "questions": [
           {
@@ -4029,8 +4031,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 37,
-        "timeSeconds": 2220,
+        "timeMins": 31,
+        "timeSeconds": 1860,
         "qCount": 35,
         "questions": [
           {
@@ -4488,8 +4490,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 26,
-        "timeSeconds": 1560,
+        "timeMins": 25,
+        "timeSeconds": 1500,
         "qCount": 36,
         "questions": [
           {
@@ -6653,14 +6655,14 @@
   "3": {
     "id": 3,
     "title": "UCAT Full Mock Test 3",
-    "totalTimeMins": 111,
-    "totalQuestions": 184,
+    "totalTimeMins": 116,
+    "totalQuestions": 239,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 22,
-        "timeSeconds": 1320,
+        "timeMins": 21,
+        "timeSeconds": 1260,
         "qCount": 44,
         "questions": [
           {
@@ -7328,8 +7330,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 37,
-        "timeSeconds": 2220,
+        "timeMins": 31,
+        "timeSeconds": 1860,
         "qCount": 35,
         "questions": [
           {
@@ -7793,8 +7795,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 26,
-        "timeSeconds": 1560,
+        "timeMins": 25,
+        "timeSeconds": 1500,
         "qCount": 36,
         "questions": [
           {
@@ -9993,14 +9995,14 @@
   "4": {
     "id": 4,
     "title": "UCAT Full Mock Test 4",
-    "totalTimeMins": 111,
-    "totalQuestions": 184,
+    "totalTimeMins": 116,
+    "totalQuestions": 239,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 22,
-        "timeSeconds": 1320,
+        "timeMins": 21,
+        "timeSeconds": 1260,
         "qCount": 44,
         "questions": [
           {
@@ -10692,8 +10694,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 37,
-        "timeSeconds": 2220,
+        "timeMins": 31,
+        "timeSeconds": 1860,
         "qCount": 35,
         "questions": [
           {
@@ -11152,8 +11154,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 26,
-        "timeSeconds": 1560,
+        "timeMins": 25,
+        "timeSeconds": 1500,
         "qCount": 36,
         "questions": [
           {
@@ -13352,14 +13354,14 @@
   "5": {
     "id": 5,
     "title": "UCAT Full Mock Test 5",
-    "totalTimeMins": 111,
-    "totalQuestions": 184,
+    "totalTimeMins": 116,
+    "totalQuestions": 239,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 22,
-        "timeSeconds": 1320,
+        "timeMins": 21,
+        "timeSeconds": 1260,
         "qCount": 44,
         "questions": [
           {
@@ -14054,8 +14056,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 37,
-        "timeSeconds": 2220,
+        "timeMins": 31,
+        "timeSeconds": 1860,
         "qCount": 35,
         "questions": [
           {
@@ -14506,8 +14508,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 26,
-        "timeSeconds": 1560,
+        "timeMins": 25,
+        "timeSeconds": 1500,
         "qCount": 36,
         "questions": [
           {
@@ -14837,7 +14839,7 @@
               "25%",
               "33%",
               "50%",
-              "150%\n\n\nQuestions 134 – 135 require the following information: In 2015, the government of Aissur voted on a new energy bill. The bill seeks to reduce the rate of CO2 increase over the past 5 years by 50% over the next 5 years, and keep the increase at this level thereafter."
+              "150%"
             ],
             "answer": 2,
             "explanation": "Percentage increase = (new amount – old amount)/old amount x 100 = (3,000–2,000)/2,000 x 100 = 50%. Note that you are asked for the percentage INCREASE. (New amount/old amount) x100 = percentage CHANGE.",
@@ -14889,7 +14891,7 @@
               "222",
               "333",
               "400",
-              "425 A 10% discount is offered for orders above 50 units, applying to the whole order. All other offers still apply."
+              "425"
             ],
             "answer": 2,
             "explanation": "£100 will clearly buy more than 100 sheets as all prices are under £1, therefore use the 100+ price: The price for double sided colour printing over 100 sheets is £0.25. £100/0.25 = 400 sheets",
@@ -16677,14 +16679,14 @@
   "6": {
     "id": 6,
     "title": "UCAT Full Mock Test 6",
-    "totalTimeMins": 111,
-    "totalQuestions": 184,
+    "totalTimeMins": 116,
+    "totalQuestions": 239,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 22,
-        "timeSeconds": 1320,
+        "timeMins": 21,
+        "timeSeconds": 1260,
         "qCount": 44,
         "questions": [
           {
@@ -17381,8 +17383,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 37,
-        "timeSeconds": 2220,
+        "timeMins": 31,
+        "timeSeconds": 1860,
         "qCount": 35,
         "questions": [
           {
@@ -17515,7 +17517,7 @@
               "K(F2), J16, K5, J(F4)",
               "K(F2), JA16, K5, F4",
               "F2, K16, K5, F4",
-              "F2, K16, K(5, F4)\n\n--- PAGE 283 ---\n\nOperators &  General Rules Specific Information  Basic Codes A  = big B  = negative C  = fast D  = up E  = beyond F  = opposite G = one H  = fix J  = grow K  = new   1 = star   2 = moon   3 = human   4 = them   5 = home   6 = ship   7 = journey   8 = burn   9 = stop 10 = head 11 = today 12 = air 13 = tank 14 = fuel 15 = cold 16 = plant 17 = waste"
+              "F2, K16, K(5, F4)"
             ],
             "answer": 0,
             "explanation": "The answers give the first part of the message, new planet, as either K(F2), new(opposite(moon)), or F2,  opposite(moon). Eliminate (D) and (E), which omit new. The remaining answers give the second part of  the message, with plants, as 16, plant, J16, grow(plant), or JA16, grow(big)(plant). Plant is not modified  in the message, so eliminate (B) and (C). The answer is (A).",
@@ -17585,7 +17587,7 @@
               "We stopped the aliens from burning our ship.",
               "The broken laser on our ship allowed the aliens to escape.",
               "The aliens didn't stop our ship with the evil laser.",
-              "We didn't stop the alien ship because the laser failed.\n\n--- PAGE 284 ---\n\nAfter doing your preliminary research, you discover the code is in fact much more complex than you  originally thought. The additional codes and information complete the table as follows: Operators &  General Rules Specific Information  Basic Codes Complex Information  Additional Information Reactions/Outcomes  Emotions A   = big B   = negative C   = fast D   = up E   = beyond F   = opposite G  = one H   = fix J  = grow K   = new L  = give M  = special   1 = star   2 = moon   3 = human   4 = them   5 = home   6 = ship   7 = journey   8 = burn   9 = stop 10 = head 11 = today 12 = air 13 = tank 14 = fuel 15 = cold 16 = plant 17 = waste 18 = heart 19 = send 101 = launch 102 = time 103 = orange 104 = fight 105 = army 106 = money 107 = sail 108 = search 109 = scratch 110 = rock 111 = find 112 = learn 201 = panic 202 = love 203 = sorrow 204 = easy 205 = hopeful 206 = different 207 = worry"
+              "We didn't stop the alien ship because the laser failed."
             ],
             "answer": 3,
             "explanation": "The literal translation is them(opposite(home)), negative(stop), ship(opposite(them)), burn(negative). All  of the answers interpret the first part of the message as 'aliens', except for (E), which instead has the sin- gular form, alien; since the message has 'them', aliens must be plural. Eliminate (E). The second part of  the message combines negative and stop; eliminate (B), which omits negative, and (C), because 'allowed  to escape' is not a good interpretation of negative(stop). The remaining answers both give the third part  of the message as 'our ship'. (D) interprets the final part of the message as 'evil laser'; (A) interprets it as  'burned', which omits a representation of negative. Thus, the answer is (D).",
@@ -17627,7 +17629,7 @@
               "Life in space is not easy.",
               "Life in space is hard.",
               "It's not easy to live in space.",
-              "It's hard to live your whole life in space.\n\n--- PAGE 285 ---\n\nOperators &  General Rules Specific Information  Basic Codes Complex Information  Additional Information Reactions/Outcomes  Emotions A = big B = negative C = fast D = up E = beyond F = opposite G = one H = fix J = grow K = new L = give M = special 1 = star 2 = moon 3 = human 4 = them 5 = home 6 = ship 7 = journey 8 = burn 9 = stop 10 = head 11 = today 12 = air 13 = tank 14 = fuel 15 = cold 16 = plant 17 = waste 18 = heart 19 = send 101 = launch 102 = time 103 = orange 104 = fight 105 = army 106 = money 107 = sail 108 = search 109 = scratch 110 = rock 111 = find 112 = learn 201 = panic 202 = love 203 = sorrow 204 = easy 205 = hopeful 206 = different 207 = worry"
+              "It's hard to live your whole life in space."
             ],
             "answer": 2,
             "explanation": "The literal translation is big(opposite(give)(air), grow, love, stop(opposite(give)(air))), beyond(moon),  opposite(easy). All of the answers interpret the first part of the message as 'life' or 'live', and the second  part of the message as 'in space'. The final part of the message is the opposite of easy. Eliminate (A), as  unusual is the opposite of common or normal, not of easy; also, eliminate (B) and (D), as 'not easy' would  need to be encoded as negative(easy), B204. The only difference between the remaining answers is that  (E) includes 'your' and 'whole', but there are no codes in the message corresponding to these concepts. (C)  includes only the elements in the message, and is a good logical fit for its meaning; thus, (C) is correct.",
@@ -17697,7 +17699,7 @@
               "The space rock failed to launch.",
               "We don't launch rockets at home, but one time we did.",
               "Home is no place to launch a rocket, but one time we went sailing.",
-              "The comet fell to Earth.\n\n--- PAGE 286 ---\n\nOperators &  General Rules Specific Information  Basic Codes Complex Information  Additional Information Reactions/Outcomes  Emotions A = big B = negative C = fast D = up E = beyond F = opposite G = one H = fix J = grow K = new L = give M = special 1 = star 2 = moon 3 = human 4 = them 5 = home 6 = ship 7 = journey 8 = burn 9 = stop 10 = head 11 = today 12 = air 13 = tank 14 = fuel 15 = cold 16 = plant 17 = waste 18 = heart 19 = send 101 = launch 102 = time 103 = orange 104 = fight 105 = army 106 = money 107 = sail 108 = search 109 = scratch 110 = rock 111 = find 112 = learn 201 = panic 202 = love 203 = sorrow 204 = easy 205 = hopeful 206 = different 207 = worry"
+              "The comet fell to Earth."
             ],
             "answer": 4,
             "explanation": "The literal translation is big(rock)(sail(beyond(space), special(time)), negative(opposite(launch)),  home(opposite(moon)). The first part of the message is very long, so it might be faster to start with the  other parts of the message. The second part of the message is the opposite of launch, modified by negative.  (A) and (E) both give this as 'fell', which could have a negative meaning as well as being the opposite of  launching. Eliminate (B), (C) and (D), which omit opposite. (A) also includes down, which is the opposite  of up, which are codes in the table that have appeared in other messages but not in this one. Thus, (A)  cannot be correct; the answer is (E).",
@@ -17753,7 +17755,7 @@
               "Countdown to launch can play on our nerves.",
               "We worry but don't panic when countdown begins.",
               "We worry but don't panic when they begin the countdown to launch.",
-              "Countdown is worrying, but don't panic while we launch.\n\n--- PAGE 287 ---"
+              "Countdown is worrying, but don't panic while we launch."
             ],
             "answer": 1,
             "explanation": "The literal translation is time(opposite(up)), launch, give(opposite(them)), grow(worry, negative(panic)).  All the answers interpret the first part of the message as 'countdown'. (C) omits launch, the second part of  the message, so it is incorrect. The third part of the message means something like 'give us'; eliminate (A),  which mistakenly uses the singular form, and also (D), which includes them rather than the opposite of  them. The final part of the message combines worry and negative panic into a single element. Eliminate  (E), which separates 'worry' and 'don't panic' into different parts of the message. The correct answer is (B).",
@@ -17873,8 +17875,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 26,
-        "timeSeconds": 1560,
+        "timeMins": 25,
+        "timeSeconds": 1500,
         "qCount": 36,
         "questions": [
           {
@@ -20038,14 +20040,14 @@
   "7": {
     "id": 7,
     "title": "UCAT Full Mock Test 7",
-    "totalTimeMins": 111,
-    "totalQuestions": 184,
+    "totalTimeMins": 116,
+    "totalQuestions": 239,
     "sections": {
       "vr": {
         "id": "vr",
         "name": "Verbal Reasoning",
-        "timeMins": 22,
-        "timeSeconds": 1320,
+        "timeMins": 21,
+        "timeSeconds": 1260,
         "qCount": 44,
         "questions": [
           {
@@ -20736,8 +20738,8 @@
       "dm": {
         "id": "dm",
         "name": "Decision Making",
-        "timeMins": 37,
-        "timeSeconds": 2220,
+        "timeMins": 31,
+        "timeSeconds": 1860,
         "qCount": 35,
         "questions": [
           {
@@ -21200,8 +21202,8 @@
       "qr": {
         "id": "qr",
         "name": "Quantitative Reasoning",
-        "timeMins": 26,
-        "timeSeconds": 1560,
+        "timeMins": 25,
+        "timeSeconds": 1500,
         "qCount": 36,
         "questions": [
           {

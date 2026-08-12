@@ -1,6 +1,6 @@
 // Auto-generated master questions file for Verbal Reasoning
 // Total: 338 questions from question_2.js, question_7.js, question_11.js
-// Generated: 2026-06-22T11:08:31.628Z
+// Generated: 2026-08-12T05:19:02.990Z
 
 const PASSAGES = {
   "test_2_P1": {
@@ -584,8 +584,9 @@ const QUESTIONS = [
     "text": "Which statement is true, according to the text?",
     "options": [
       "Skills learned in instrumental music transfer well to academic subjects.",
-      "Learning to sing will have a negative impact on a student’s academic grades.  \n\n  \n 56 C. Peter Gouzou asis believes that the more students engage with music, the less time \nthey have to spend on their academics and so the worse they perform in these \nsubjects.",
-      "School administrators should look to academic courses when their budgets need \ncutting down."
+      "Learning to sing will have a negative impact on a student’s academic grades.",
+      "Peter Gouzouasis believes that the more students engage with music, the less time they have to spend on their academics and so the worse they perform in these subjects.",
+      "School administrators should look to academic courses when their budgets need cutting down."
     ],
     "answer": 0,
     "explanation": "As you go down the list of statements, this one should \nimmediately be clear. There is no need to look at the others, as this can quickly be \nconfirmed by scanning the text. The correct section of text is: “The students who \nlearned to play a musical instrument in elementary and continued playing in high \nschool not only score significantly higher, but were about one  academic year ahead of \ntheir non -music peers with regard to their English, mathematics and science skills”",
@@ -761,7 +762,8 @@ const QUESTIONS = [
     "text": "Which of the following is not given as an  example of a relative to modern African \nBush elephants:",
     "options": [
       "Hyrax",
-      "P. Antiquus  \n\n  \n 60 C. Loxodonta cyclotis",
+      "P. Antiquus",
+      "Loxodonta cyclotis",
       "Elephas Maximus"
     ],
     "answer": 2,
@@ -874,7 +876,7 @@ const QUESTIONS = [
       "Isolating the suggested gene.",
       "Restricting the study to look at fewer families, making it easier and cheaper.",
       "Attempting to find a way to “switch off” this gene.",
-      "No more r esearch needed.  \n \n \n \n\n  \n 63"
+      "No more research needed."
     ],
     "answer": 0,
     "explanation": "This question is more logic -based. Having a reasonable \nunder standing of science would suggest that A is the correct answer. B and D are \nillogical. Although C would be a potential step in research, it is not the best “next step” \n\n  \n 72 as trying to switch off the gene could only be useful in a potentially long -term study \ncomparing the results in groups with and without this gene. This is far too complex \nand would not be expected from you in the UCAT. Therefore, it is not the logical next \nstep in research.",
@@ -912,7 +914,8 @@ const QUESTIONS = [
     "text": "Older Americans were more likely to stockpile than younger Europeans.",
     "options": [
       "True",
-      "False  \n\n  \n 64 C. Can’t Tell"
+      "False",
+      "Can’t Tell"
     ],
     "answer": 0,
     "explanation": "– True. The text says that older people tended to stockpile \nmore than younger people and Americans tended to stockpile more than Europeans. \nIt would be logical  to suggest that older Americans may be more likely to stockpile \nthan younger Europeans.",
@@ -1037,7 +1040,7 @@ const QUESTIONS = [
       "Young people are more likely to die of HIV than adult s.",
       "This issue is currently overlooked in most healthcare systems.",
       "There are other problems to target in older population groups.",
-      "35% of all HIV cases are found in youth.  \n\n  \n 67"
+      "35% of all HIV cases are found in youth."
     ],
     "answer": 1,
     "explanation": "D may also seem correc t, but looking closely at the section of \ntext which mentions the 35% would show you that this figure is actually referring to \ndisease as a whole rather than HIV, and so the correct answer is B.",
