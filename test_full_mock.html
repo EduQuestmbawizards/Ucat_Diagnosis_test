@@ -12,12 +12,16 @@
   <!-- Chart.js & html2pdf.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-  <!-- MathJax for LaTeX support -->
+  <!-- MathJax for LaTeX support (Safe for currency $ signs) -->
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       },
       svg: { fontCache: 'global' }
     };
@@ -306,14 +310,17 @@
     /* TEST CONTAINER */
     .test-wrap {
       display: grid;
-      grid-template-columns: 1fr 280px;
-      gap: 20px;
-      max-width: 1200px;
+      grid-template-columns: minmax(0, 1fr) 280px;
+      gap: 24px;
+      max-width: 1240px;
       margin: 0 auto;
       padding: 24px 16px;
+      align-items: start;
+      width: 100%;
+      box-sizing: border-box;
     }
 
-    @media(max-width:850px) {
+    @media(max-width:880px) {
       .test-wrap {
         grid-template-columns: 1fr;
       }
@@ -327,25 +334,61 @@
       min-height: 480px;
       display: flex;
       flex-direction: column;
+      min-width: 0;
+      max-width: 100%;
+      box-sizing: border-box;
     }
 
     .passage-box {
       background: var(--surface2);
       border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
       border-radius: 12px;
-      padding: 18px;
+      padding: 20px 22px;
       margin-bottom: 20px;
       font-size: 0.92rem;
-      line-height: 1.6;
-      max-height: 240px;
+      line-height: 1.65;
+      color: rgba(241, 240, 245, 0.92);
+      max-height: 400px;
       overflow-y: auto;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .passage-box strong.scenario-label {
+      color: var(--accent2);
+      text-transform: uppercase;
+      font-size: 0.76rem;
+      letter-spacing: 0.08em;
+      font-family: var(--mono);
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .passage-box img,
+    .q-card img,
+    .q-text img,
+    .q-card-rev img {
+      max-width: 100%;
+      max-height: 320px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 10px;
+      display: block;
+      margin: 14px auto;
+      background: #ffffff;
+      padding: 8px 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
     }
 
     .q-text {
       font-size: 1.05rem;
       font-weight: 600;
-      line-height: 1.5;
+      line-height: 1.55;
       margin-bottom: 20px;
+      color: var(--text);
+      word-break: break-word;
+      overflow-wrap: anywhere;
     }
 
     .options-grid {
@@ -405,6 +448,11 @@
       border-radius: 16px;
       padding: 20px;
       height: fit-content;
+      position: sticky;
+      top: 72px;
+      min-width: 0;
+      max-width: 100%;
+      box-sizing: border-box;
     }
 
     .q-grid {
@@ -700,10 +748,10 @@
 
   <!-- SECTION NAVIGATION TABS -->
   <div class="sec-tabs" id="secTabs" style="display:none;">
-    <div class="sec-tab active" id="tab_vr">1. Verbal Reasoning (22m)</div>
-    <div class="sec-tab" id="tab_dm">2. Decision Making (37m)</div>
-    <div class="sec-tab" id="tab_qr">3. Quantitative Reasoning (26m)</div>
-    <div class="sec-tab" id="tab_sjt">4. Situational Judgement (26m)</div>
+    <div class="sec-tab active" id="tab_vr" onclick="startSection(0)">1. Verbal Reasoning (22m)</div>
+    <div class="sec-tab" id="tab_dm" onclick="startSection(1)">2. Decision Making (37m)</div>
+    <div class="sec-tab" id="tab_qr" onclick="startSection(2)">3. Quantitative Reasoning (26m)</div>
+    <div class="sec-tab" id="tab_sjt" onclick="startSection(3)">4. Situational Judgement (26m)</div>
   </div>
 
   <!-- REGISTRATION PAGE -->
@@ -970,20 +1018,52 @@
       document.getElementById('timerText').textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
     }
 
+    function parseScenarioAndQuestion(rawText) {
+      if (!rawText || typeof rawText !== 'string') return { scenario: null, prompt: '' };
+
+      const sqRegex = /(?:<strong>\s*)?Scenario:?\s*(?:<\/strong>)?\s*(?:<br\s*\/?>|\n)*([\s\S]*?)(?:(?:<strong>\s*)?Question:?\s*(?:<\/strong>)?\s*(?:<br\s*\/?>|\n)*([\s\S]*))/i;
+      const match = rawText.match(sqRegex);
+
+      if (match && match[2] && match[2].trim().length > 0) {
+        return {
+          scenario: match[1].trim().replace(/^(?:<br\s*\/?>|\s)+|(?:<br\s*\/?>|\s)+$/gi, ''),
+          prompt: match[2].trim().replace(/^(?:<br\s*\/?>|\s)+|(?:<br\s*\/?>|\s)+$/gi, '')
+        };
+      }
+
+      return { scenario: null, prompt: rawText };
+    }
+
     function renderQuestion() {
       const secKey = sectionOrder[currentSecIndex];
       const secData = currentMock.sections[secKey];
       const q = secData.questions[currentQIndex];
 
       document.getElementById('qSectionLbl').textContent = `${secData.name} — Question ${currentQIndex + 1} of ${secData.qCount}`;
-      document.getElementById('qText').innerHTML = q.text;
 
       const pBox = document.getElementById('passageBox');
+      const qTextEl = document.getElementById('qText');
+
       if (q.passageText) {
         pBox.style.display = 'block';
-        pBox.innerHTML = `<strong>${q.passageTitle}</strong><br><br>${q.passageText}`;
+        pBox.innerHTML = `
+          <strong class="scenario-label">${q.passageTitle || 'Passage'}</strong>
+          <div style="margin-top:6px; font-weight:400; line-height:1.65; color:rgba(241,240,245,0.92);">${q.passageText}</div>
+        `;
+        qTextEl.innerHTML = q.text;
       } else {
-        pBox.style.display = 'none';
+        const parsed = parseScenarioAndQuestion(q.text);
+        if (parsed.scenario) {
+          pBox.style.display = 'block';
+          pBox.innerHTML = `
+            <strong class="scenario-label">Scenario & Stimulus Data</strong>
+            <div style="margin-top:6px; font-weight:400; line-height:1.65; color:rgba(241,240,245,0.92);">${parsed.scenario}</div>
+          `;
+          qTextEl.innerHTML = parsed.prompt;
+        } else {
+          pBox.style.display = 'none';
+          qTextEl.innerHTML = q.text;
+        }
       }
 
       const optionsGrid = document.getElementById('optionsGrid');
@@ -1115,6 +1195,20 @@
       if (reviewContainer) {
         reviewContainer.innerHTML = ucatReport.detailedReviewItems.map((d) => {
           let statusBadgeClass = d.status === 'correct' ? 'correct' : (d.status === 'partial' ? 'unattempted' : (d.status === 'unattempted' ? 'unattempted' : 'wrong'));
+          const parsedRev = parseScenarioAndQuestion(d.text);
+          const scenarioHtml = d.passageText ? `
+            <div class="passage-box" style="margin-bottom:14px; font-size:0.88rem;">
+              <strong class="scenario-label">${d.passageTitle || 'Passage'}</strong>
+              <div style="margin-top:6px; font-weight:400; line-height:1.65; color:rgba(241,240,245,0.92);">${d.passageText}</div>
+            </div>
+          ` : (parsedRev.scenario ? `
+            <div class="passage-box" style="margin-bottom:14px; font-size:0.88rem;">
+              <strong class="scenario-label">Scenario & Stimulus Data</strong>
+              <div style="margin-top:6px; font-weight:400; line-height:1.65; color:rgba(241,240,245,0.92);">${parsedRev.scenario}</div>
+            </div>
+          ` : '');
+          const promptHtml = parsedRev.scenario ? parsedRev.prompt : d.text;
+
           return `
           <div class="q-card-rev">
             <div class="q-rev-header">
@@ -1122,13 +1216,9 @@
               <span class="q-rev-status ${statusBadgeClass}">${d.statusText}</span>
             </div>
 
-            ${d.passageText ? `
-              <div class="passage-box" style="margin-bottom:12px; font-size:0.88rem;">
-                <strong>${d.passageTitle}</strong><br><br>${d.passageText}
-              </div>
-            ` : ''}
+            ${scenarioHtml}
 
-            <div class="q-rev-text">${d.text}</div>
+            <div class="q-rev-text">${promptHtml}</div>
 
             <div class="q-rev-opts">
               ${(d.options || []).map((optText, optIdx) => {
