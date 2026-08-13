@@ -96,7 +96,7 @@ const QUESTIONS = [
   {
     "id": 8,
     "passageId": null,
-    "text": "Choose the correct relation which represents the following fact: All frogs are amphibians, all toads are amphibians, and no frog is a toad. Some cells are reptiles, frogs or toads.<br><br><img src=\"../test_3/images/img_p132_q4.png\" style=\"max-width:100%;\"><br><img src=\"../test_3/images/img_p133_q4.png\" style=\"max-width:100%;\">",
+    "text": "Choose the correct relation which represents the following fact: All frogs are amphibians, all toads are amphibians, and no frog is a toad. Some cells are reptiles, frogs or toads.<br><br><img src=\"../test_3/images/img_p132_q4.png\" style=\"max-width:100%;\">",
     "options": [
       "A",
       "B",
@@ -638,7 +638,7 @@ const QUESTIONS = [
   {
     "id": 51,
     "passageId": null,
-    "text": "The diagram below shows the number of customers who purchased different products at a  \nstore.  \n  \n  \n\n<br><img src=\"../test_3/images/img_p143_1.png\" style=\"max-width:100%;\"><br>\n\n\n<br><img src=\"../test_3/images/img_p143_2.png\" style=\"max-width:100%;\"><br>\n\n  \n  \nBased on the diagram, how many customers bought exactly 2 items?",
+    "text": "The diagram below shows the number of customers who purchased different products at a store.<br><br><img src=\"../test_3/images/img_p143_1.png\" style=\"max-width:100%;\"><br><br>Based on the diagram, how many customers bought exactly 2 items?",
     "options": [
       "58",
       "70",
@@ -734,7 +734,7 @@ const QUESTIONS = [
       "15"
     ],
     "answer": 0,
-    "explanation": "The correct answer is A. It is easiest to draw a Venn diagram like the one below and to  \nprogressively  \nfill  \nit  \nout  \nwith  \nall  \nthe  \ninformation  \nthat  \nyou  \nare  \ngiven. \n\n[IMAGE: images/img_p153_1.png]\n\n  \n  \nWe can fill out the numbers above from the statements “ 8 will attend only movie night and  \nbook night ”, “ 10 will attend only book night and games night ”, “ 11 will attend only movie  \nnight and games night ” and “ 2 will attend only book night ”. Once we have filled these  \nnumbers in, we can use the statement “Of the 80 members,  29 will attend book night ,  36 will  \nattend games night ,  52 will attend movie night ” to fill the rest of the numbers in, as seen  \nbelow.  \n\n[IMAGE: images/img_p154_1.png]\n\n  \nOnce we have filled these in, we simply count-up all of the numbers and subtract them from  \n80, to find the number of people who did not attend any of the events.",
+    "explanation": "The correct answer is A. It is easiest to draw a Venn diagram like the one below and to progressively fill it out with all the information that you are given:<br><img src=\"../test_3/images/img_p153_1.png\" style=\"max-width:100%;\"><br>We can fill out the numbers above from the statements \"8 will attend only movie night and book night\", \"10 will attend only book night and games night\", \"11 will attend only movie night and games night\" and \"2 will attend only book night\". Once we have filled these numbers in, we can use the statement \"Of the 80 members, 29 will attend book night, 36 will attend games night, 52 will attend movie night\" to fill the rest of the numbers in, as seen below:<br><img src=\"../test_3/images/img_p154_1.png\" style=\"max-width:100%;\"><br>Once we have filled these in, we simply count-up all of the numbers and subtract them from 80 (80 - 70 = 10), to find the number of people who did not attend any of the events.",
     "topic": "Decision Making"
   },
   {
