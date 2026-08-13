@@ -8,6 +8,46 @@ const urlParams = new URLSearchParams(window.location.search);
 const PART_NUMBER = parseInt(urlParams.get('part')) || 1;
 const isAR = (window.CATEGORY_CONFIG && window.CATEGORY_CONFIG.topic === 'Abstract Reasoning') || window.location.pathname.includes('test_ar_parts');
 const CHUNK_SIZE = isAR ? 55 : 20;
+// ── Fix Image Paths for deployment consistency ────────────────
+function fixAllImagePaths(obj, dir) {
+  if (!obj) return obj;
+  let cleanDir = '';
+  if (dir) {
+    cleanDir = dir.replace(/^\.\//, '').replace(/\/$/, '');
+  }
+  function fixHTML(str) {
+    if (!str || typeof str !== 'string') return str;
+    const isSubfolder = window.location.pathname.includes('/test_') || window.location.pathname.includes('\\test_');
+    if (isSubfolder) {
+      return str.replace(/src=(['"])(test_[^'"]+)/g, 'src=$1../$2');
+    } else {
+      return str.replace(/src=(['"])\.\.\/(test_[^'"]+)/g, 'src=$1$2');
+    }
+  }
+  if (typeof obj === 'string') {
+    return fixHTML(obj);
+  }
+  if (Array.isArray(obj)) {
+    return obj.map(item => fixAllImagePaths(item, dir));
+  }
+  if (typeof obj === 'object') {
+    for (const key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        if (typeof obj[key] === 'string' && (key === 'text' || key === 'explanation' || key === 'passageText')) {
+          obj[key] = fixHTML(obj[key]);
+        } else if (key === 'options' && Array.isArray(obj[key])) {
+          obj[key] = obj[key].map(opt => typeof opt === 'string' ? fixHTML(opt) : opt);
+        } else if (typeof obj[key] === 'object') {
+          obj[key] = fixAllImagePaths(obj[key], dir);
+        }
+      }
+    }
+  }
+  return obj;
+}
+
+if (typeof QUESTIONS !== 'undefined') fixAllImagePaths(QUESTIONS);
+if (typeof PASSAGES !== 'undefined') fixAllImagePaths(PASSAGES);
 
 // ── Slice questions for this part ────────────
 const startIdx = (PART_NUMBER - 1) * CHUNK_SIZE;

@@ -1,6 +1,6 @@
 // Auto-generated master questions file for Quantitative Reasoning
 // Total: 372 questions from question_4.js, question_9.js, question_12.js
-// Generated: 2026-08-12T05:19:03.091Z
+// Generated: 2026-08-13T05:17:46.862Z
 
 const PASSAGES = {};
 
@@ -548,7 +548,7 @@ const QUESTIONS = [
   {
     "id": 37,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A shopper visits a certain supermarket. Without tax, the shopper spends $50 on food, $30 on clothes and nothing on imported items. She spends $88 in total. Which state is this supermarket in?",
+    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='../test_9/image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A shopper visits a certain supermarket. Without tax, the shopper spends $50 on food, $30 on clothes and nothing on imported items. She spends $88 in total. Which state is this supermarket in?",
     "options": [
       "Asteria",
       "Bolovia",
@@ -562,7 +562,7 @@ const QUESTIONS = [
   {
     "id": 38,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Someone runs a supplier in Bolovia, supplying supermarkets in each state in Ecumenia. Each year they supply each state with 250 items of clothing, which the supermarket sells for $40 (including tax), and the supplier gets all of this revenue, minus the tax paid. A competitor in Asteria goes out of business, and this supplier has the opportunity to buy the manufacturing plant for $20,000, and transfer to this state. If the supplier purchases the site, and moves to Asteria, how many years will it take to make back the cost of purchasing the site?",
+    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='../test_9/image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Someone runs a supplier in Bolovia, supplying supermarkets in each state in Ecumenia. Each year they supply each state with 250 items of clothing, which the supermarket sells for $40 (including tax), and the supplier gets all of this revenue, minus the tax paid. A competitor in Asteria goes out of business, and this supplier has the opportunity to buy the manufacturing plant for $20,000, and transfer to this state. If the supplier purchases the site, and moves to Asteria, how many years will it take to make back the cost of purchasing the site?",
     "options": [
       "5 years",
       "12 years",
@@ -576,7 +576,7 @@ const QUESTIONS = [
   {
     "id": 39,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John goes into a store and spends $100. Of this, $12 is tax. Which of the following is possible?",
+    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='../test_9/image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John goes into a store and spends $100. Of this, $12 is tax. Which of the following is possible?",
     "options": [
       "He shopped in Asteria and bought no imported goods.",
       "He shopped in Casova.",
@@ -590,7 +590,7 @@ const QUESTIONS = [
   {
     "id": 40,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sibella is on a road trip through Ecunemia, driving through different states. On the journey she buys $100 of the finest Asterian ham, $30 of the finest Bolovian caviar, a $10 case of Casovan orange juice and spends $100 on a Derivian dress (all of these prices without tax). Which of the following cannot have been the total amount Sibella spent, including tax?",
+    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='../test_9/image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sibella is on a road trip through Ecunemia, driving through different states. On the journey she buys $100 of the finest Asterian ham, $30 of the finest Bolovian caviar, a $10 case of Casovan orange juice and spends $100 on a Derivian dress (all of these prices without tax). Which of the following cannot have been the total amount Sibella spent, including tax?",
     "options": [
       "$256",
       "$264",
@@ -604,7 +604,7 @@ const QUESTIONS = [
   {
     "id": 41,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>As a probe drops through the ocean, the pressure it experiences increases. For every 10 metres the probe drops down, the pressure it experiences increases by 10,000 Pascals (Pa).<br><br><img src='image/set_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A particular probe can survive 200 pounds per square inch without incurring damage. Given that the conversion factor between these units is 7000 Pa = 1 pound per square inch and assuming that pressure at sea level is 0 Pascals, how deep can the probe drop into the ocean without incurring damage?",
+    "text": "<strong>Scenario:</strong><br>As a probe drops through the ocean, the pressure it experiences increases. For every 10 metres the probe drops down, the pressure it experiences increases by 10,000 Pascals (Pa).<br><br><img src='../test_9/image/set_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A particular probe can survive 200 pounds per square inch without incurring damage. Given that the conversion factor between these units is 7000 Pa = 1 pound per square inch and assuming that pressure at sea level is 0 Pascals, how deep can the probe drop into the ocean without incurring damage?",
     "options": [
       "14 m",
       "140 m",
@@ -618,7 +618,7 @@ const QUESTIONS = [
   {
     "id": 42,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>As a probe drops through the ocean, the pressure it experiences increases. For every 10 metres the probe drops down, the pressure it experiences increases by 10,000 Pascals (Pa).<br><br><img src='image/set_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A different probe is dropped into the ocean and falls downward. This probe can withstand 300,000 Pa of pressure without breaking. A model of the effect of the fluid states that the object’s depth in the fluid is d = ½√(t3), where d is depth in metres and t is time in seconds. How long will it take for this probe to break?",
+    "text": "<strong>Scenario:</strong><br>As a probe drops through the ocean, the pressure it experiences increases. For every 10 metres the probe drops down, the pressure it experiences increases by 10,000 Pascals (Pa).<br><br><img src='../test_9/image/set_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A different probe is dropped into the ocean and falls downward. This probe can withstand 300,000 Pa of pressure without breaking. A model of the effect of the fluid states that the object’s depth in the fluid is d = ½√(t3), where d is depth in metres and t is time in seconds. How long will it take for this probe to break?",
     "options": [
       "65 seconds",
       "71 seconds",
@@ -632,7 +632,7 @@ const QUESTIONS = [
   {
     "id": 43,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Over the course of treatment, John, an 80 kg male, takes 26.88 grams of the drug. Which disease was he prescribed the drug for?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Over the course of treatment, John, an 80 kg male, takes 26.88 grams of the drug. Which disease was he prescribed the drug for?",
     "options": [
       "Black Trump Virus",
       "Swamp Fever",
@@ -646,7 +646,7 @@ const QUESTIONS = [
   {
     "id": 44,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Carol is a 60 kg female who is prescribed the drug (precisely and at different times) three times in one year. Two of the cases are for Yellow Tick. In total she takes 40.32 grams of the drug. Which was the third disease she was prescribed the drug for?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Carol is a 60 kg female who is prescribed the drug (precisely and at different times) three times in one year. Two of the cases are for Yellow Tick. In total she takes 40.32 grams of the drug. Which was the third disease she was prescribed the drug for?",
     "options": [
       "Black Trump Virus",
       "Swamp Fever",
@@ -660,7 +660,7 @@ const QUESTIONS = [
   {
     "id": 45,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Clarence takes the drug twice in his life. Once he takes it for Swamp Fever at age 18, when he weighs 80 kg, and he takes it later in life at age 40 for Black Trump Virus, when he weighs 110 kg. What is the ratio of the amount he takes each time?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Clarence takes the drug twice in his life. Once he takes it for Swamp Fever at age 18, when he weighs 80 kg, and he takes it later in life at age 40 for Black Trump Virus, when he weighs 110 kg. What is the ratio of the amount he takes each time?",
     "options": [
       "1:23",
       "1:22",
@@ -674,7 +674,7 @@ const QUESTIONS = [
   {
     "id": 46,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Danny has liver disease. His system cannot cope with more than 15.5 grams of Cordrazine every 4 weeks. Danny has a medical condition usually treated with Cordrazine, but doctors have advised him to not complete a course of the treatment, as he would exceed the dose that his system is able to cope with. Which of the following statements is possible?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Danny has liver disease. His system cannot cope with more than 15.5 grams of Cordrazine every 4 weeks. Danny has a medical condition usually treated with Cordrazine, but doctors have advised him to not complete a course of the treatment, as he would exceed the dose that his system is able to cope with. Which of the following statements is possible?",
     "options": [
       "Danny suffers from Red Rage and weighs 75 kg.",
       "Danny suffers from Swamp Fever and weighs 100 kg.",
@@ -688,7 +688,7 @@ const QUESTIONS = [
   {
     "id": 47,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Eileen has kidney failure. Her system cannot cope with more than 10 grams of Cordrazine every 4 weeks. She suffers from Red Rage, but doctors have recommended she does not use Cordrazine to treat it, as this would exceed the 10 g dosage her system can cope with. Which of the following weights is the minimum that would support this recommendation?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Eileen has kidney failure. Her system cannot cope with more than 10 grams of Cordrazine every 4 weeks. She suffers from Red Rage, but doctors have recommended she does not use Cordrazine to treat it, as this would exceed the 10 g dosage her system can cope with. Which of the following weights is the minimum that would support this recommendation?",
     "options": [
       "40.34 kg",
       "42.53 kg",
@@ -702,7 +702,7 @@ const QUESTIONS = [
   {
     "id": 48,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which cake contains the highest proportion of flour?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which cake contains the highest proportion of flour?",
     "options": [
       "Sponge",
       "Madeira",
@@ -716,7 +716,7 @@ const QUESTIONS = [
   {
     "id": 49,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The cake recipes are scaled up for a large order. One cake weighs 2.6 kg and contains 625 g of flour. What variety of cake is it?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The cake recipes are scaled up for a large order. One cake weighs 2.6 kg and contains 625 g of flour. What variety of cake is it?",
     "options": [
       "Sponge",
       "Madeira",
@@ -730,7 +730,7 @@ const QUESTIONS = [
   {
     "id": 50,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Eliza is having a wedding and wants to produce a 4-tiered wedding cake. She wishes each tier to be of different size, and scaled such that that the bottom cake is 50% heavier than normal (e.g. the cake contains 50% more ingredients), the second cake is 25% heavier than normal, the third cake is 10% heavier than normal and the top cake is normal-sized, where each cake is of the same type. Which of the following is a possible weight of sugar for the cake (rounded to 2 s.f.)?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Eliza is having a wedding and wants to produce a 4-tiered wedding cake. She wishes each tier to be of different size, and scaled such that that the bottom cake is 50% heavier than normal (e.g. the cake contains 50% more ingredients), the second cake is 25% heavier than normal, the third cake is 10% heavier than normal and the top cake is normal-sized, where each cake is of the same type. Which of the following is a possible weight of sugar for the cake (rounded to 2 s.f.)?",
     "options": [
       "940 g",
       "970 g",
@@ -744,7 +744,7 @@ const QUESTIONS = [
   {
     "id": 51,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is known that flour costs £0.55 per 1.5 kg and sugar costs £0.70 per 1 kg. Which of the following is the closest to the cost ratio of flour to sugar in a Madeira cake?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is known that flour costs £0.55 per 1.5 kg and sugar costs £0.70 per 1 kg. Which of the following is the closest to the cost ratio of flour to sugar in a Madeira cake?",
     "options": [
       "1:2",
       "3:4",
@@ -758,7 +758,7 @@ const QUESTIONS = [
   {
     "id": 52,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Milk costs £0.44 per kilogram and flour costs £0.55 per 1.5 kg. What is the cost ratio of flour to milk in a chocolate cake?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Milk costs £0.44 per kilogram and flour costs £0.55 per 1.5 kg. What is the cost ratio of flour to milk in a chocolate cake?",
     "options": [
       "1:1",
       "2:3",
@@ -772,7 +772,7 @@ const QUESTIONS = [
   {
     "id": 53,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of people tested have the virus?",
+    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of people tested have the virus?",
     "options": [
       "45%",
       "54%",
@@ -786,7 +786,7 @@ const QUESTIONS = [
   {
     "id": 54,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A population of 231,768 is divided: 53% women, 47% men. Use the data in the table to estimate the number of people in the population that have the Kryptos virus. Assume that the infection rates in each gender will be the same as for the sample population in Test A. Which of the following is the number of people expected to be infected with Kryptos virus in this population?",
+    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A population of 231,768 is divided: 53% women, 47% men. Use the data in the table to estimate the number of people in the population that have the Kryptos virus. Assume that the infection rates in each gender will be the same as for the sample population in Test A. Which of the following is the number of people expected to be infected with Kryptos virus in this population?",
     "options": [
       "123,587",
       "123,589",
@@ -800,7 +800,7 @@ const QUESTIONS = [
   {
     "id": 55,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>3/9 of the men and 5/7 of the women testing positive for Kryptos in Test A have visited the city of Atlantis. Which of the following is the correct percentage of people in the test group testing positive for Kryptos who have NOT visited Atlantis?",
+    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>3/9 of the men and 5/7 of the women testing positive for Kryptos in Test A have visited the city of Atlantis. Which of the following is the correct percentage of people in the test group testing positive for Kryptos who have NOT visited Atlantis?",
     "options": [
       "40%",
       "44%",
@@ -814,7 +814,7 @@ const QUESTIONS = [
   {
     "id": 56,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is known that Test A is not always correct. Test B is a more accurate test. The 45 men who tested positive for the Kryptos virus using Test A were then re-tested with Test B - only 20 tested positive. Assuming the same proportion of men and women experienced false positive results with Test A, how many women in the test group do we expect to actually have the Kryptos virus?",
+    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is known that Test A is not always correct. Test B is a more accurate test. The 45 men who tested positive for the Kryptos virus using Test A were then re-tested with Test B - only 20 tested positive. Assuming the same proportion of men and women experienced false positive results with Test A, how many women in the test group do we expect to actually have the Kryptos virus?",
     "options": [
       "20",
       "28",
@@ -828,7 +828,7 @@ const QUESTIONS = [
   {
     "id": 57,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is decided the women who tested positive under test A should be retested using test B. This time 29 women test positive for the Kryptos Virus. Considering both the men and women tested, what percentage of people who tested positive in Test A also tested positive in Test B (to the nearest whole number)?",
+    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is decided the women who tested positive under test A should be retested using test B. This time 29 women test positive for the Kryptos Virus. Considering both the men and women tested, what percentage of people who tested positive in Test A also tested positive in Test B (to the nearest whole number)?",
     "options": [
       "40%",
       "45%",
@@ -842,7 +842,7 @@ const QUESTIONS = [
   {
     "id": 58,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A business has 3 manufacturing plants and 3 stores. Each plant can ship to each store, and the following table shows the flat rate cost, in pounds sterling (£), of the business sending a truck from the plant to the store.<br><br><img src='image/set_6.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Currently the businesses strategy is to send material from Plant A to store 2, from Plant B to store 3 and from Plant C to store 1. One truck is suﬃcient for a day’s delivery. What is the daily cost of this plan?",
+    "text": "<strong>Scenario:</strong><br>A business has 3 manufacturing plants and 3 stores. Each plant can ship to each store, and the following table shows the flat rate cost, in pounds sterling (£), of the business sending a truck from the plant to the store.<br><br><img src='../test_9/image/set_6.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Currently the businesses strategy is to send material from Plant A to store 2, from Plant B to store 3 and from Plant C to store 1. One truck is suﬃcient for a day’s delivery. What is the daily cost of this plan?",
     "options": [
       "£850",
       "£930",
@@ -856,7 +856,7 @@ const QUESTIONS = [
   {
     "id": 59,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A business has 3 manufacturing plants and 3 stores. Each plant can ship to each store, and the following table shows the flat rate cost, in pounds sterling (£), of the business sending a truck from the plant to the store.<br><br><img src='image/set_6.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The store wishes to optimize their shipping costs by sending material from Plant C to store 3, noticing that the delivery cost is lower. They then choose the two other options that save the most money. What percentage saving is achieved by this strategy relative to the strategy in the previous question (to the nearest whole number)?",
+    "text": "<strong>Scenario:</strong><br>A business has 3 manufacturing plants and 3 stores. Each plant can ship to each store, and the following table shows the flat rate cost, in pounds sterling (£), of the business sending a truck from the plant to the store.<br><br><img src='../test_9/image/set_6.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The store wishes to optimize their shipping costs by sending material from Plant C to store 3, noticing that the delivery cost is lower. They then choose the two other options that save the most money. What percentage saving is achieved by this strategy relative to the strategy in the previous question (to the nearest whole number)?",
     "options": [
       "18%",
       "20%",
@@ -870,7 +870,7 @@ const QUESTIONS = [
   {
     "id": 60,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The shop also ran an author’s visit event in the evening in which 106 people purchased the author’s book. These books are NOT counted in the above table. What proportion of the books sold on this particular day were sold at the author’s visit event (to the nearest whole number)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='../test_9/image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The shop also ran an author’s visit event in the evening in which 106 people purchased the author’s book. These books are NOT counted in the above table. What proportion of the books sold on this particular day were sold at the author’s visit event (to the nearest whole number)?",
     "options": [
       "13%",
       "17%",
@@ -884,7 +884,7 @@ const QUESTIONS = [
   {
     "id": 61,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Non-fiction books cost, on average, £10, and fiction books cost, on average, £6. What percentage of the shop’s revenue (excluding the author’s visit event) came from non-fiction books?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='../test_9/image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Non-fiction books cost, on average, £10, and fiction books cost, on average, £6. What percentage of the shop’s revenue (excluding the author’s visit event) came from non-fiction books?",
     "options": [
       "10%",
       "13%",
@@ -898,7 +898,7 @@ const QUESTIONS = [
   {
     "id": 62,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assume that the shop makes this number of sales of each type of book every day. One week, the shop adopts a new marketing strategy and markets non-fiction books more heavily. The result is that the number of non-fiction sales double during this week, but all of the other book sales stay in line with previous sales. How much does the shop earn this week?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='../test_9/image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assume that the shop makes this number of sales of each type of book every day. One week, the shop adopts a new marketing strategy and markets non-fiction books more heavily. The result is that the number of non-fiction sales double during this week, but all of the other book sales stay in line with previous sales. How much does the shop earn this week?",
     "options": [
       "£24,250",
       "£25,620",
@@ -912,7 +912,7 @@ const QUESTIONS = [
   {
     "id": 63,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The following week, the shop decides to market the horror books more heavily, resulting in the sales of horror books doubling, and the sales of non-fiction books returning to the normal level. How much does the shop’s income increase this week compared to the non-fiction marketing week? Sales of all other books can be assumed to be the same as un-marketed weeks.",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='../test_9/image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The following week, the shop decides to market the horror books more heavily, resulting in the sales of horror books doubling, and the sales of non-fiction books returning to the normal level. How much does the shop’s income increase this week compared to the non-fiction marketing week? Sales of all other books can be assumed to be the same as un-marketed weeks.",
     "options": [
       "1%",
       "2%",
@@ -926,7 +926,7 @@ const QUESTIONS = [
   {
     "id": 64,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A family goes on a tour of Italy in the High season. They are 2 adults and 2 children, aged 9 and 13. They spend two nights in each of Venice, Rome, Padua and Siena. They stay in 3 star hotels for the entire trip, and have two rooms (an adult room and a child room). How much tax do they pay for their trip?",
+    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A family goes on a tour of Italy in the High season. They are 2 adults and 2 children, aged 9 and 13. They spend two nights in each of Venice, Rome, Padua and Siena. They stay in 3 star hotels for the entire trip, and have two rooms (an adult room and a child room). How much tax do they pay for their trip?",
     "options": [
       "EUR 35",
       "EUR 56",
@@ -940,7 +940,7 @@ const QUESTIONS = [
   {
     "id": 65,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Claude is comparing cities. He can either spend 7 nights in Rome in a 4 star hotel, or 8 nights in Padua in a 5 star hotel. Which of the following is the ratio between the tax he pays in Rome and the tax he pays in Padua?",
+    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Claude is comparing cities. He can either spend 7 nights in Rome in a 4 star hotel, or 8 nights in Padua in a 5 star hotel. Which of the following is the ratio between the tax he pays in Rome and the tax he pays in Padua?",
     "options": [
       "8:3",
       "7:4",
@@ -954,7 +954,7 @@ const QUESTIONS = [
   {
     "id": 66,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Alice goes on a trip for 2 days to Venice in a 3 star hotel and for 3 days to Padua in a 4 star hotel. What is the percentage more tax she pays in Padua relative to Venice?",
+    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Alice goes on a trip for 2 days to Venice in a 3 star hotel and for 3 days to Padua in a 4 star hotel. What is the percentage more tax she pays in Padua relative to Venice?",
     "options": [
       "25%",
       "50%",
@@ -968,7 +968,7 @@ const QUESTIONS = [
   {
     "id": 67,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How long does Reuben have to stay in a 4 star hotel in Rome so that the tax would be less than or equal to the tax he incurs if staying the same length of time in a 4 star hotel in Padua?",
+    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How long does Reuben have to stay in a 4 star hotel in Rome so that the tax would be less than or equal to the tax he incurs if staying the same length of time in a 4 star hotel in Padua?",
     "options": [
       "10 days",
       "15 days",
@@ -982,7 +982,7 @@ const QUESTIONS = [
   {
     "id": 68,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assuming that the second bedroom walls are 60% of the length of the master bedroom, what is the area of the second bedroom?",
+    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='../test_9/image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assuming that the second bedroom walls are 60% of the length of the master bedroom, what is the area of the second bedroom?",
     "options": [
       "64 m2",
       "81 m2",
@@ -996,7 +996,7 @@ const QUESTIONS = [
   {
     "id": 69,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Suppose the kitchen has a floor area of 100 m2 and the bathroom has a floor area of 4 m2, and the second bedroom has the floor area calculated in the previous question. What percentage of the area of the house is taken up by the master bedroom?",
+    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='../test_9/image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Suppose the kitchen has a floor area of 100 m2 and the bathroom has a floor area of 4 m2, and the second bedroom has the floor area calculated in the previous question. What percentage of the area of the house is taken up by the master bedroom?",
     "options": [
       "30%",
       "35%",
@@ -1010,7 +1010,7 @@ const QUESTIONS = [
   {
     "id": 70,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>After building the house, Peter decides to add an extension to the sitting room, turning it into a combined lounge and dining room. He extends the room by increasing the length of the longer wall by 5 metres. The lounge is 3 metres high. How much extra wall (in m2) does Peter have to build, assuming that he is extending directly outwards and cannot move or re-use any wall?",
+    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='../test_9/image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>After building the house, Peter decides to add an extension to the sitting room, turning it into a combined lounge and dining room. He extends the room by increasing the length of the longer wall by 5 metres. The lounge is 3 metres high. How much extra wall (in m2) does Peter have to build, assuming that he is extending directly outwards and cannot move or re-use any wall?",
     "options": [
       "15m2",
       "30m2",
@@ -1024,7 +1024,7 @@ const QUESTIONS = [
   {
     "id": 71,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A larger extension is considered, and two builders offer Peter separate quotes. The first builder offers to build wall at a cost of £15 per m2, but there is also a flat fee of £200 just for starting the job. The second builder offers to build wall at a cost of £16 per m2 but with no flat fee at the start. If Peter builds 300 m2 of wall, what is the ratio of builder 1 cost to builder 2 cost (to 3 s.f.)",
+    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='../test_9/image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A larger extension is considered, and two builders offer Peter separate quotes. The first builder offers to build wall at a cost of £15 per m2, but there is also a flat fee of £200 just for starting the job. The second builder offers to build wall at a cost of £16 per m2 but with no flat fee at the start. If Peter builds 300 m2 of wall, what is the ratio of builder 1 cost to builder 2 cost (to 3 s.f.)",
     "options": [
       "1.00:1.00",
       "1.00:1.02",
@@ -1038,7 +1038,7 @@ const QUESTIONS = [
   {
     "id": 72,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John buys Plan B for one month and calls for 15 minutes and sends 207 SMSs. How much does he pay this month?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='../test_9/image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John buys Plan B for one month and calls for 15 minutes and sends 207 SMSs. How much does he pay this month?",
     "options": [
       "£5.00",
       "£6.60",
@@ -1053,7 +1053,7 @@ const QUESTIONS = [
   {
     "id": 73,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Robin buys Plan A, and makes no calls. How many SMSs can Robin send before Plan B would have been cheaper?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='../test_9/image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Robin buys Plan A, and makes no calls. How many SMSs can Robin send before Plan B would have been cheaper?",
     "options": [
       "6",
       "21",
@@ -1068,7 +1068,7 @@ const QUESTIONS = [
   {
     "id": 74,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Mary wants to call for 5 minutes and send 5 SMSs every day in September. Which plan should she choose for the lowest cost?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='../test_9/image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Mary wants to call for 5 minutes and send 5 SMSs every day in September. Which plan should she choose for the lowest cost?",
     "options": [
       "A",
       "B",
@@ -1083,7 +1083,7 @@ const QUESTIONS = [
   {
     "id": 75,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Evan buys Plan B but Chris buys Plan C. Which of these options is cheaper for Evan than Chris per month?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='../test_9/image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Evan buys Plan B but Chris buys Plan C. Which of these options is cheaper for Evan than Chris per month?",
     "options": [
       "They each call for 29 minutes and send no SMSs.",
       "They each call for 26 minutes and send 174 SMSs",
@@ -1098,7 +1098,7 @@ const QUESTIONS = [
   {
     "id": 76,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Rachel doesn’t send any SMSs and buys Plan C. What is the maximum percentage by which she can exceed her free call minutes allowance without Plan D being cheaper?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the service prices for competing mobile phone plans A-D. Any SMSs or call minutes beyond those free with the plan are charged individually at listed price.<br><br><img src='../test_9/image/set_10.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Rachel doesn’t send any SMSs and buys Plan C. What is the maximum percentage by which she can exceed her free call minutes allowance without Plan D being cheaper?",
     "options": [
       "5 %",
       "10 %",
@@ -1113,7 +1113,7 @@ const QUESTIONS = [
   {
     "id": 77,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many cups of ingredients are called for overall by the recipe (to 2 decimal places)?",
+    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many cups of ingredients are called for overall by the recipe (to 2 decimal places)?",
     "options": [
       "3.54",
       "3.66",
@@ -1128,7 +1128,7 @@ const QUESTIONS = [
   {
     "id": 78,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What weight ratio of milk to butter does the recipe call for (to 1 decimal place)?",
+    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What weight ratio of milk to butter does the recipe call for (to 1 decimal place)?",
     "options": [
       "2.3:1",
       "2.7:1",
@@ -1143,7 +1143,7 @@ const QUESTIONS = [
   {
     "id": 79,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Jane wants to use only a ½ cup measure for baking. What is the smallest number of cups of flour she would need for it to be possible to measure all required ingredients in ½ cups?",
+    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Jane wants to use only a ½ cup measure for baking. What is the smallest number of cups of flour she would need for it to be possible to measure all required ingredients in ½ cups?",
     "options": [
       "2",
       "10",
@@ -1158,7 +1158,7 @@ const QUESTIONS = [
   {
     "id": 80,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>To make pancakes, the amount of flour and milk are reversed. What is the average density of pancake batter, assuming that there are no interactions that change the densities of the individual ingredients when they are mixed?",
+    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>To make pancakes, the amount of flour and milk are reversed. What is the average density of pancake batter, assuming that there are no interactions that change the densities of the individual ingredients when they are mixed?",
     "options": [
       "930 grams/dm3",
       "970 grams/dm3",
@@ -1173,7 +1173,7 @@ const QUESTIONS = [
   {
     "id": 81,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Peter wanted to make 10 muﬃns weighing 100 grams each, how much butter would he need to 1 decimal place? Assume that the finished product weighs the same as the initial dough.",
+    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Peter wanted to make 10 muﬃns weighing 100 grams each, how much butter would he need to 1 decimal place? Assume that the finished product weighs the same as the initial dough.",
     "options": [
       "55.1 grams",
       "62.3 grams",
@@ -1188,7 +1188,7 @@ const QUESTIONS = [
   {
     "id": 82,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>When Peter’s ten 100 gram muﬃns are done, assuming no losses to cooking, what percentage of the weight will be made up by flour, to the nearest whole number?",
+    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>When Peter’s ten 100 gram muﬃns are done, assuming no losses to cooking, what percentage of the weight will be made up by flour, to the nearest whole number?",
     "options": [
       "35 %",
       "39 %",
@@ -1203,7 +1203,7 @@ const QUESTIONS = [
   {
     "id": 83,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assuming that the trends in this table can be reliably extrapolated, at which temperature would the crust volume formed in a year be expected to be 0 km3?",
+    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='../test_9/image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assuming that the trends in this table can be reliably extrapolated, at which temperature would the crust volume formed in a year be expected to be 0 km3?",
     "options": [
       "1,200 °C",
       "1,400 °C",
@@ -1218,7 +1218,7 @@ const QUESTIONS = [
   {
     "id": 84,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the temperature at Location A increased by 50%, what would be the spreading rate?",
+    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='../test_9/image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the temperature at Location A increased by 50%, what would be the spreading rate?",
     "options": [
       "25 mm/year",
       "50 mm/year",
@@ -1233,7 +1233,7 @@ const QUESTIONS = [
   {
     "id": 85,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What volume of crust is formed in a year at Location B?",
+    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='../test_9/image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What volume of crust is formed in a year at Location B?",
     "options": [
       "400 m3",
       "400 °C km3",
@@ -1248,7 +1248,7 @@ const QUESTIONS = [
   {
     "id": 86,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the spreading rates of Locations A and C were exchanged, what would be the ratio of crust volume formed at the two locations each year (to 1 decimal place)?",
+    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='../test_9/image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the spreading rates of Locations A and C were exchanged, what would be the ratio of crust volume formed at the two locations each year (to 1 decimal place)?",
     "options": [
       "1:1.0",
       "1:3.3",
@@ -1263,7 +1263,7 @@ const QUESTIONS = [
   {
     "id": 87,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the same crustal volume was produced in the same amount of time at 2 locations, E with temperature 1300 °C and F with temperature 1450 °C, how many percent faster/slower was the spreading rate at location E than F?",
+    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='../test_9/image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the same crustal volume was produced in the same amount of time at 2 locations, E with temperature 1300 °C and F with temperature 1450 °C, how many percent faster/slower was the spreading rate at location E than F?",
     "options": [
       "250 % faster",
       "25 % slower",
@@ -1278,7 +1278,7 @@ const QUESTIONS = [
   {
     "id": 88,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the temperature at Location D was decreased by 10%, what would be the crustal volume formed in 3 years?",
+    "text": "<strong>Scenario:</strong><br>New ocean crust is formed at spreading ridges. The area of the crust formed is dependent on temperature. The volume of crust formed in a given time interval depends on the crust cross sectional area and on the spreading rate (the rate at which newly formed crust moves away from the spreading ridge, an independent variable). The relationship between crust volume formed in a time interval, cross sectional area and spreading rate is: Crust volume per time = cross sectional area x spreading rate The table below gives the crustal cross sectional area, spreading rate and temperature at Locations A-D:<br><br><img src='../test_9/image/set_12.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the temperature at Location D was decreased by 10%, what would be the crustal volume formed in 3 years?",
     "options": [
       "2,000 m3",
       "2,000 °C km3",
@@ -1293,7 +1293,7 @@ const QUESTIONS = [
   {
     "id": 89,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the average percentage of participants who self-report vision improvements after receiving an inactive pill to the nearest percent?",
+    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='../test_9/image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the average percentage of participants who self-report vision improvements after receiving an inactive pill to the nearest percent?",
     "options": [
       "26 %",
       "31 %",
@@ -1308,7 +1308,7 @@ const QUESTIONS = [
   {
     "id": 90,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>By what ratio is visual accuracy in reading letters increased by the drug in diabetics with poor sight relative to healthy volunteers with poor sight (to 2 decimal places)?",
+    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='../test_9/image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>By what ratio is visual accuracy in reading letters increased by the drug in diabetics with poor sight relative to healthy volunteers with poor sight (to 2 decimal places)?",
     "options": [
       "1:0.78",
       "3.50:1",
@@ -1323,7 +1323,7 @@ const QUESTIONS = [
   {
     "id": 91,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If there are 10 women in Group A and their average accuracy was 45 % after receiving the drug, what was the average accuracy of the men in the group after receiving the drug?",
+    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='../test_9/image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If there are 10 women in Group A and their average accuracy was 45 % after receiving the drug, what was the average accuracy of the men in the group after receiving the drug?",
     "options": [
       "16 %",
       "27 %",
@@ -1338,7 +1338,7 @@ const QUESTIONS = [
   {
     "id": 92,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the general population has 100 000 diabetics with vision problems, how many of these people would be expected to self-report improvements in their vision because of the effects of the drug?",
+    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='../test_9/image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the general population has 100 000 diabetics with vision problems, how many of these people would be expected to self-report improvements in their vision because of the effects of the drug?",
     "options": [
       "24,000 people",
       "32,000 people",
@@ -1353,7 +1353,7 @@ const QUESTIONS = [
   {
     "id": 93,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>When the drug dose was doubled, the placebo groups showed no change in numbers or accuracy, but the number of Group A volunteers who reported improved vision jumped to 18. Assuming that drug effectiveness is dose dependent, what percent of volunteers in Group A taking the drug would be expected to self-report improved vision if the dose was tripled?",
+    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='../test_9/image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>When the drug dose was doubled, the placebo groups showed no change in numbers or accuracy, but the number of Group A volunteers who reported improved vision jumped to 18. Assuming that drug effectiveness is dose dependent, what percent of volunteers in Group A taking the drug would be expected to self-report improved vision if the dose was tripled?",
     "options": [
       "54.0 %",
       "72.0 %",
@@ -1368,7 +1368,7 @@ const QUESTIONS = [
   {
     "id": 94,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following statements is supported by the data in the table?",
+    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='../test_9/image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following statements is supported by the data in the table?",
     "options": [
       "The placebo is more effective than the drug.",
       "The drug acts to improve vision in diabetics and healthy volunteers.",
@@ -1383,7 +1383,7 @@ const QUESTIONS = [
   {
     "id": 95,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Dave wants his workout to take one hour on a 5 mile track. What is the maximum number of calories he can burn by running or cycling?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Dave wants his workout to take one hour on a 5 mile track. What is the maximum number of calories he can burn by running or cycling?",
     "options": [
       "Burn 125 calories running",
       "Burn 125 calories cycling",
@@ -1398,7 +1398,7 @@ const QUESTIONS = [
   {
     "id": 96,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Dave doesn’t want to eat less than his BMR and can only run for 30 minutes a day, but cycles 20 miles every day in an hour. How long will it take him to lose 10 pounds?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Dave doesn’t want to eat less than his BMR and can only run for 30 minutes a day, but cycles 20 miles every day in an hour. How long will it take him to lose 10 pounds?",
     "options": [
       "5 days",
       "7 days",
@@ -1413,7 +1413,7 @@ const QUESTIONS = [
   {
     "id": 97,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Elizabeth and Dave both want to lose 10% of their body weight without dieting or cycling. What is the ratio of minutes a day Elizabeth would have to run to those Dave would have to run to achieve their goal at the same time to 1 decimal place?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Elizabeth and Dave both want to lose 10% of their body weight without dieting or cycling. What is the ratio of minutes a day Elizabeth would have to run to those Dave would have to run to achieve their goal at the same time to 1 decimal place?",
     "options": [
       "1:0.5",
       "1:0.7",
@@ -1428,7 +1428,7 @@ const QUESTIONS = [
   {
     "id": 98,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Elizabeth eats cereal for breakfast, a sandwich for lunch, chicken and vegetables for dinner and does no exercise, in how many full days will she have reached her goal of 10% weight-loss?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Elizabeth eats cereal for breakfast, a sandwich for lunch, chicken and vegetables for dinner and does no exercise, in how many full days will she have reached her goal of 10% weight-loss?",
     "options": [
       "327 days",
       "354 days",
@@ -1443,7 +1443,7 @@ const QUESTIONS = [
   {
     "id": 99,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Elizabeth also began cycling 10 miles in 1 hour every day, how much faster would she reach her goal than in question 62?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Elizabeth also began cycling 10 miles in 1 hour every day, how much faster would she reach her goal than in question 62?",
     "options": [
       "1.00",
       "2.50",
@@ -1458,7 +1458,7 @@ const QUESTIONS = [
   {
     "id": 100,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Elizabeth eats one chocolate everyday; 3 times as much chicken as chocolate and twice as much cereal as chicken. If she exchanged these foods with 3 different foods in the table in the same proportions, what is the ratio of her rate of weight change before and after the switch, assuming she is trying to obtain the lowest weight she can?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Elizabeth eats one chocolate everyday; 3 times as much chicken as chocolate and twice as much cereal as chicken. If she exchanged these foods with 3 different foods in the table in the same proportions, what is the ratio of her rate of weight change before and after the switch, assuming she is trying to obtain the lowest weight she can?",
     "options": [
       "1:1",
       "1:2",
@@ -1473,7 +1473,7 @@ const QUESTIONS = [
   {
     "id": 101,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Susan buys a 20 coupon multi-pack at 10 % off single coupon price. She rides the rollercoaster five times at night. What percent off did she get on the first rollercoaster ride compared to buying single day tickets (to 1 decimal place)?",
+    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='../test_9/image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Susan buys a 20 coupon multi-pack at 10 % off single coupon price. She rides the rollercoaster five times at night. What percent off did she get on the first rollercoaster ride compared to buying single day tickets (to 1 decimal place)?",
     "options": [
       "10.0 %",
       "22.5 %",
@@ -1488,7 +1488,7 @@ const QUESTIONS = [
   {
     "id": 102,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>One weekend the single coupon prices are raised 20 %. Greg wants to ride the rollercoaster 10 times, buy 3 candy floss, play a carnival game, go through the fun house 2 times and ride the swings during the day. What is the ratio of the cost with a wristband to the cost without a wristband to 2 decimal places?",
+    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='../test_9/image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>One weekend the single coupon prices are raised 20 %. Greg wants to ride the rollercoaster 10 times, buy 3 candy floss, play a carnival game, go through the fun house 2 times and ride the swings during the day. What is the ratio of the cost with a wristband to the cost without a wristband to 2 decimal places?",
     "options": [
       "1:0.93",
       "1:0.98",
@@ -1503,7 +1503,7 @@ const QUESTIONS = [
   {
     "id": 103,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Andy went to the amusement park one night. He rode the rollercoaster 50 % more times than he rode the swings, and rode the swings 20 % more times than he played carnival games. He used a whole number of coupons that were cheaper than getting a wristband. How much did Andy pay?",
+    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='../test_9/image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Andy went to the amusement park one night. He rode the rollercoaster 50 % more times than he rode the swings, and rode the swings 20 % more times than he played carnival games. He used a whole number of coupons that were cheaper than getting a wristband. How much did Andy pay?",
     "options": [
       "£31",
       "£44",
@@ -1518,7 +1518,7 @@ const QUESTIONS = [
   {
     "id": 104,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Anna and James each spent one pound less than the cost of a wristband on single coupons one day at the amusement park. Anna went on the rollercoaster for half of her rides and the fun house for the rest. James went on the swings every odd ride and in the fun house every even ride. Neither of them went on any other rides or bought any food. What is the ratio of the number of rides Anna went on to the number James went on?",
+    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='../test_9/image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Anna and James each spent one pound less than the cost of a wristband on single coupons one day at the amusement park. Anna went on the rollercoaster for half of her rides and the fun house for the rest. James went on the swings every odd ride and in the fun house every even ride. Neither of them went on any other rides or bought any food. What is the ratio of the number of rides Anna went on to the number James went on?",
     "options": [
       "1:0.78",
       "1:0.81",
@@ -1533,7 +1533,7 @@ const QUESTIONS = [
   {
     "id": 105,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A 10-weekend season pass covers all costs in the park and is available for £1,000. Erik goes to the park one day every weekend and buys a wristband each time. On the first weekend he buys one candyfloss, and the next four weekends increases the number of candyfloss he buys by 100%, relative to the previous weekend. The four weekends after that he increases the number of candyfloss he buys by 50% each weekend, relative to the previous weekend. On the 10th weekend he is sick of candyfloss and buys none. What is the ratio of the cost without and with a season pass (to 2 decimal places)?",
+    "text": "<strong>Scenario:</strong><br>Visitors to an amusement park pay for food, rides and games with coupons. Coupons can be bought individually for £1 each or in multipacks at a discounted price. A £70 wristband can gives free entry and access to all rides (but not games or food) without using coupons. The table below shows the cost in coupons for each activity:<br><br><img src='../test_9/image/set_15.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A 10-weekend season pass covers all costs in the park and is available for £1,000. Erik goes to the park one day every weekend and buys a wristband each time. On the first weekend he buys one candyfloss, and the next four weekends increases the number of candyfloss he buys by 100%, relative to the previous weekend. The four weekends after that he increases the number of candyfloss he buys by 50% each weekend, relative to the previous weekend. On the 10th weekend he is sick of candyfloss and buys none. What is the ratio of the cost without and with a season pass (to 2 decimal places)?",
     "options": [
       "0. 7 : 1",
       "0.92 : 1",
@@ -1548,7 +1548,7 @@ const QUESTIONS = [
   {
     "id": 106,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Josh gets 2 large stuffed-crust 2 topping pan pizzas, 1 medium 3 topping Italian pizza and 3 small cheese pan pizzas. How much does he pay?",
+    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='../test_9/image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Josh gets 2 large stuffed-crust 2 topping pan pizzas, 1 medium 3 topping Italian pizza and 3 small cheese pan pizzas. How much does he pay?",
     "options": [
       "£31.00",
       "£40.50",
@@ -1563,7 +1563,7 @@ const QUESTIONS = [
   {
     "id": 107,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Janet bought cheese pan pizzas for the cheapest cost per slice and got £35 off as a discount deal. How many slices did she buy?",
+    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='../test_9/image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Janet bought cheese pan pizzas for the cheapest cost per slice and got £35 off as a discount deal. How many slices did she buy?",
     "options": [
       "35",
       "48",
@@ -1578,7 +1578,7 @@ const QUESTIONS = [
   {
     "id": 108,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Joey bought some plain cheese pizzas for a total price of £60 post-discount. All the plain cheese pizzas were the same. What is the price of the one type of pizza he could NOT have bought?",
+    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='../test_9/image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Joey bought some plain cheese pizzas for a total price of £60 post-discount. All the plain cheese pizzas were the same. What is the price of the one type of pizza he could NOT have bought?",
     "options": [
       "£6.00",
       "£8.00",
@@ -1593,7 +1593,7 @@ const QUESTIONS = [
   {
     "id": 109,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Lea always buys 30 slices of cheese pan pizza with 2 toppings and stuffed crust. What is the ratio of the cost of buying all large to all small pizzas (to 2 decimal places)?",
+    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='../test_9/image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Lea always buys 30 slices of cheese pan pizza with 2 toppings and stuffed crust. What is the ratio of the cost of buying all large to all small pizzas (to 2 decimal places)?",
     "options": [
       "1:0.50",
       "1:0.75",
@@ -1608,7 +1608,7 @@ const QUESTIONS = [
   {
     "id": 110,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Kate and two friends each order cheese pan pizzas (with no toppings) and get 30% off their order. They ordered the pizzas to pay the smallest price which gets this discount, but ended up with 25% more slices than they could eat. How many slices did they manage to eat?",
+    "text": "<strong>Scenario:</strong><br>The table shows the prices a pizzeria charges for their pizza: The pizzeria also offers three discount deals: 20% off orders from £20 - £29.99, 30% off orders from £30 - £49.99, and 50% off orders over £50. Small pizzas have 6 slices, medium pizzas have 8 slices, and large pizzas have 10 slices<br><br><img src='../test_9/image/set_16.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Kate and two friends each order cheese pan pizzas (with no toppings) and get 30% off their order. They ordered the pizzas to pay the smallest price which gets this discount, but ended up with 25% more slices than they could eat. How many slices did they manage to eat?",
     "options": [
       "16",
       "18",
@@ -1623,7 +1623,7 @@ const QUESTIONS = [
   {
     "id": 111,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Sarah works for 1 hour at each job, what will be the ratio of the earnings expressed as [Job A Earnings:Job B Earnings:Job C Earnings] (to 2 decimal places)?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Sarah works for 1 hour at each job, what will be the ratio of the earnings expressed as [Job A Earnings:Job B Earnings:Job C Earnings] (to 2 decimal places)?",
     "options": [
       "1.00:0.75:1.00",
       "1.00:1.00:0.75",
@@ -1638,7 +1638,7 @@ const QUESTIONS = [
   {
     "id": 112,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah worked 25 2-hour jobs, 4 1-hour jobs and 1 4-hour job for Job A in her first month. How much did she earn?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah worked 25 2-hour jobs, 4 1-hour jobs and 1 4-hour job for Job A in her first month. How much did she earn?",
     "options": [
       "£625.00",
       "£730.00",
@@ -1653,7 +1653,7 @@ const QUESTIONS = [
   {
     "id": 113,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah can work 50 2-hour jobs per month. For which single job should she work these hours to earn the most from 2 hour jobs at the end of the month?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah can work 50 2-hour jobs per month. For which single job should she work these hours to earn the most from 2 hour jobs at the end of the month?",
     "options": [
       "A",
       "B",
@@ -1668,7 +1668,7 @@ const QUESTIONS = [
   {
     "id": 114,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah pays 10% income tax if her monthly salary exceeds £1275. How many hours should she work in her first month for Job C, if all jobs are the average job length, to earn the highest amount possible whilst not paying tax, to the nearest half- hour?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah pays 10% income tax if her monthly salary exceeds £1275. How many hours should she work in her first month for Job C, if all jobs are the average job length, to earn the highest amount possible whilst not paying tax, to the nearest half- hour?",
     "options": [
       "60.0 hours",
       "62.5 hours",
@@ -1683,7 +1683,7 @@ const QUESTIONS = [
   {
     "id": 115,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At the start of her third month, Sarah has worked 200 hours at Job C. She works 100 hours at average job length this month. How much of her month’s earnings go to 10% income tax?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At the start of her third month, Sarah has worked 200 hours at Job C. She works 100 hours at average job length this month. How much of her month’s earnings go to 10% income tax?",
     "options": [
       "£150.00",
       "£187.50",
@@ -1698,7 +1698,7 @@ const QUESTIONS = [
   {
     "id": 116,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Job B wants her to work a minimum of 50 hours a month for them, and Job A and Job C require that she works at least the same hours for them as she does at any other jobs she has, or no hours at all. Assuming all jobs are the average job length, which arrangement would give her maximum earnings in her first 100-hour work month?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Job B wants her to work a minimum of 50 hours a month for them, and Job A and Job C require that she works at least the same hours for them as she does at any other jobs she has, or no hours at all. Assuming all jobs are the average job length, which arrangement would give her maximum earnings in her first 100-hour work month?",
     "options": [
       "50 hours for A and 50 hours for B",
       "50 hours for A and 50 hours for B",
@@ -1713,7 +1713,7 @@ const QUESTIONS = [
   {
     "id": 117,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Taking the underground costs £5. On Wednesdays this fare is reduced 15% and it is cheaper for some drivers to leave the car at home. How much more revenue is generated on Wednesday than the next highest grossing day?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='../test_9/image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Taking the underground costs £5. On Wednesdays this fare is reduced 15% and it is cheaper for some drivers to leave the car at home. How much more revenue is generated on Wednesday than the next highest grossing day?",
     "options": [
       "£1,457.75",
       "£3,537.25",
@@ -1728,7 +1728,7 @@ const QUESTIONS = [
   {
     "id": 118,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>On weekdays, what is the ratio of the average number of people being driven (not driving) in cars to the average number of people riding on the underground (to 2 decimal places)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='../test_9/image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>On weekdays, what is the ratio of the average number of people being driven (not driving) in cars to the average number of people riding on the underground (to 2 decimal places)?",
     "options": [
       "1:0.25",
       "1:0.78",
@@ -1743,7 +1743,7 @@ const QUESTIONS = [
   {
     "id": 119,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the ratio of the average number of people per car on Tuesday compared to the average number of people per car on Saturday?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='../test_9/image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the ratio of the average number of people per car on Tuesday compared to the average number of people per car on Saturday?",
     "options": [
       "1:0.67",
       "1:0.85",
@@ -1758,7 +1758,7 @@ const QUESTIONS = [
   {
     "id": 120,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the ratio of the number of Underground passengers on Monday compared to that on Saturday?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='../test_9/image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the ratio of the number of Underground passengers on Monday compared to that on Saturday?",
     "options": [
       "1:0.13",
       "1:0.25",
@@ -1773,7 +1773,7 @@ const QUESTIONS = [
   {
     "id": 121,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The tollbooths charge £4 per car and an additional £1 per passenger (including the driver). 80% of this payment is tax. How much tax is paid at the tollbooths next week from Monday-Friday if there are 4,219 commuters everyday split in the ratio of 2:1.7:1 - underground passenger : car passenger (including driver) : car ratio?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of cars passing a toll booth going into the town centre and how many passengers the cars carried, including the drivers. It also shows the number of passengers who got off at the town’s central underground station each day.<br><br><img src='../test_9/image/set_18.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The tollbooths charge £4 per car and an additional £1 per passenger (including the driver). 80% of this payment is tax. How much tax is paid at the tollbooths next week from Monday-Friday if there are 4,219 commuters everyday split in the ratio of 2:1.7:1 - underground passenger : car passenger (including driver) : car ratio?",
     "options": [
       "£1,938.45",
       "£4,219.00",
@@ -1788,7 +1788,7 @@ const QUESTIONS = [
   {
     "id": 122,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The hourly rate for a day session is 10% more expensive than a night session. What is the total cost, excluding the deposit, for 3 hours in the Superior room during a day session?",
+    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='../test_9/image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The hourly rate for a day session is 10% more expensive than a night session. What is the total cost, excluding the deposit, for 3 hours in the Superior room during a day session?",
     "options": [
       "£59.40",
       "£70.20",
@@ -1803,7 +1803,7 @@ const QUESTIONS = [
   {
     "id": 123,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The total cost for two 6 hour sessions in the Deluxe room is £460. How much is the deposit?",
+    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='../test_9/image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The total cost for two 6 hour sessions in the Deluxe room is £460. How much is the deposit?",
     "options": [
       "£64",
       "£75",
@@ -1818,7 +1818,7 @@ const QUESTIONS = [
   {
     "id": 124,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Mike books a Basic room and a Standard room for a full night session. The total cost is £221 including deposit. What is the hourly rate for a full night session in a Basic room?",
+    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='../test_9/image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Mike books a Basic room and a Standard room for a full night session. The total cost is £221 including deposit. What is the hourly rate for a full night session in a Basic room?",
     "options": [
       "£12.50",
       "£13.00",
@@ -1833,7 +1833,7 @@ const QUESTIONS = [
   {
     "id": 125,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The hourly rate for a morning session up to 6hrs is 5% cheaper than a night session. The deposit remains the same. A Superior room is booked for 90 minutes one morning, all costs paid up front. How much is paid at the start of the session? (Assume half hours can be booked at half the hourly rate.)",
+    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='../test_9/image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The hourly rate for a morning session up to 6hrs is 5% cheaper than a night session. The deposit remains the same. A Superior room is booked for 90 minutes one morning, all costs paid up front. How much is paid at the start of the session? (Assume half hours can be booked at half the hourly rate.)",
     "options": [
       "£97.25",
       "£92.75",
@@ -1848,7 +1848,7 @@ const QUESTIONS = [
   {
     "id": 126,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A Basic room is booked for 18 hours each day for three full weeks. What is the total cost of this booking excluding VAT and deposit?",
+    "text": "<strong>Scenario:</strong><br>Music practice rooms are available seven days a week, with each day being split into three sessions: morning (8am-2pm), day (2pm-8pm) and night (8pm-2am). The table below gives the prices for the hourly rental of the music practice rooms. Some information is missing. The “two sessions” column indicates the hourly charge if two sessions are booked on the same day. NB: All prices above include VAT (25%)<br><br><img src='../test_9/image/set_19.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A Basic room is booked for 18 hours each day for three full weeks. What is the total cost of this booking excluding VAT and deposit?",
     "options": [
       "£1,935.36",
       "£2,419.20",
@@ -1863,7 +1863,7 @@ const QUESTIONS = [
   {
     "id": 127,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of people under the age of 22 spotted more than 10 differences?",
+    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='../test_9/image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of people under the age of 22 spotted more than 10 differences?",
     "options": [
       "31.3%",
       "33.3%",
@@ -1878,7 +1878,7 @@ const QUESTIONS = [
   {
     "id": 128,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>75% of the results for the people who spotted 5 to 10 differences correctly were removed from the study. What percentage of the remaining people aged 16-22 spotted more than 15 differences?",
+    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='../test_9/image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>75% of the results for the people who spotted 5 to 10 differences correctly were removed from the study. What percentage of the remaining people aged 16-22 spotted more than 15 differences?",
     "options": [
       "6.3%",
       "6.9%",
@@ -1893,7 +1893,7 @@ const QUESTIONS = [
   {
     "id": 129,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>25% of people who correctly spotted over 10 differences, also incorrectly spotted over 10 differences. How many people was this?",
+    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='../test_9/image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>25% of people who correctly spotted over 10 differences, also incorrectly spotted over 10 differences. How many people was this?",
     "options": [
       "11",
       "12",
@@ -1908,7 +1908,7 @@ const QUESTIONS = [
   {
     "id": 130,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>10,000 people aged 48 or older take this test. Using the data, estimate how many spotted fewer than five differences to the nearest 50.",
+    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='../test_9/image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>10,000 people aged 48 or older take this test. Using the data, estimate how many spotted fewer than five differences to the nearest 50.",
     "options": [
       "2,300",
       "2,900",
@@ -1923,7 +1923,7 @@ const QUESTIONS = [
   {
     "id": 131,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The test is repeated with the same population. The number of 16-34 year olds who spot 11-15 differences increases by 50%. All other age groups experience no change. What is the new ratio between 16-34 year olds and the total number of people in the other age groups who spot 11-15 differences?",
+    "text": "<strong>Scenario:</strong><br>A group of 180 people took part in a perception study and were asked to count how many differences they could spot between two similar pieces of short video footage. The results are given below<br><br><img src='../test_9/image/set_20.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The test is repeated with the same population. The number of 16-34 year olds who spot 11-15 differences increases by 50%. All other age groups experience no change. What is the new ratio between 16-34 year olds and the total number of people in the other age groups who spot 11-15 differences?",
     "options": [
       "1:3",
       "4:17",
@@ -1938,7 +1938,7 @@ const QUESTIONS = [
   {
     "id": 132,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the number of boys that play football and the number that play netball in games lessons?",
+    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='../test_9/image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the number of boys that play football and the number that play netball in games lessons?",
     "options": [
       "90",
       "91",
@@ -1953,7 +1953,7 @@ const QUESTIONS = [
   {
     "id": 133,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The senior football teams are picked from the two most senior years – a total of 350 students. Only those whose favourite sport is football play. At least 11 people are needed per team. What is the maximum number of teams that could be made? Assume that the values given in the chart are representative of these years.",
+    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='../test_9/image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The senior football teams are picked from the two most senior years – a total of 350 students. Only those whose favourite sport is football play. At least 11 people are needed per team. What is the maximum number of teams that could be made? Assume that the values given in the chart are representative of these years.",
     "options": [
       "4",
       "5",
@@ -1968,7 +1968,7 @@ const QUESTIONS = [
   {
     "id": 134,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>All those whose favourite sport is basketball are boys and all those whose favourite sport is netball are girls. 80% of the basketball boys are invited to play netball. What proportion of the netball-playing population do they then make?",
+    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='../test_9/image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>All those whose favourite sport is basketball are boys and all those whose favourite sport is netball are girls. 80% of the basketball boys are invited to play netball. What proportion of the netball-playing population do they then make?",
     "options": [
       "17%",
       "25%",
@@ -1983,7 +1983,7 @@ const QUESTIONS = [
   {
     "id": 135,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>One quarter of students in the Other category have a favourite sport which is a ball sport. In the whole school, how many students have a favourite sport which is a ball sport?",
+    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='../test_9/image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>One quarter of students in the Other category have a favourite sport which is a ball sport. In the whole school, how many students have a favourite sport which is a ball sport?",
     "options": [
       "39",
       "117",
@@ -1998,7 +1998,7 @@ const QUESTIONS = [
   {
     "id": 136,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Only boys play cricket. Only girls play hockey. The gender split for tennis follows that of the school as a whole. How many more boys play cricket or tennis than girls play hockey or tennis?",
+    "text": "<strong>Scenario:</strong><br>The pie chart below shows the favourite sports of some high school students. Every student plays only their favourite sport in games lessons. The school has 1300 students, with an exact 50:50 split between boys and girls.<br><br><img src='../test_9/image/set_21.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Only boys play cricket. Only girls play hockey. The gender split for tennis follows that of the school as a whole. How many more boys play cricket or tennis than girls play hockey or tennis?",
     "options": [
       "39",
       "58",
@@ -2013,7 +2013,7 @@ const QUESTIONS = [
   {
     "id": 137,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the percentage increase in the number of apples used for human consumption from 1998 to 2003?",
+    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='../test_9/image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the percentage increase in the number of apples used for human consumption from 1998 to 2003?",
     "options": [
       "7%",
       "10%",
@@ -2028,7 +2028,7 @@ const QUESTIONS = [
   {
     "id": 138,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of all No Good apples was produced in the year most apples could not be used for humans?",
+    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='../test_9/image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of all No Good apples was produced in the year most apples could not be used for humans?",
     "options": [
       "11.6%",
       "11.8%",
@@ -2043,7 +2043,7 @@ const QUESTIONS = [
   {
     "id": 139,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>2004 saw a three-fold increase on 2003 in the number of No Good apples. The total number of apples fit for consumption remained the same. What was the difference in number between processed and No Good apples in 2004 to the nearest apple?",
+    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='../test_9/image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>2004 saw a three-fold increase on 2003 in the number of No Good apples. The total number of apples fit for consumption remained the same. What was the difference in number between processed and No Good apples in 2004 to the nearest apple?",
     "options": [
       "2,077,598",
       "2,224,675",
@@ -2058,7 +2058,7 @@ const QUESTIONS = [
   {
     "id": 140,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The next six-year period saw an overall 20% increase on the period 1998-2003 in the total number of edible apples picked. How many were sold as they came between 2004 and 2009?",
+    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='../test_9/image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The next six-year period saw an overall 20% increase on the period 1998-2003 in the total number of edible apples picked. How many were sold as they came between 2004 and 2009?",
     "options": [
       "3,588,698",
       "3,321,646",
@@ -2073,7 +2073,7 @@ const QUESTIONS = [
   {
     "id": 141,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Generally, 20 apples give 1 litre of cider. Given that 2004 saw the same number of apples fit for human consumption as 2003, roughly how many litres of cider were produced in 2004?",
+    "text": "<strong>Scenario:</strong><br>The number of apples picked by a company per year is given below, along with the quality of the apples. 30% of edible apples are sold as they come. Passable apples and the remaining edible apples are processed into cider. Apples which are No Good are not used for human consumption, and are instead discarded for animal food.<br><br><img src='../test_9/image/set_22.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Generally, 20 apples give 1 litre of cider. Given that 2004 saw the same number of apples fit for human consumption as 2003, roughly how many litres of cider were produced in 2004?",
     "options": [
       "122,000 l",
       "189,600 l",
@@ -2088,7 +2088,7 @@ const QUESTIONS = [
   {
     "id": 142,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>On wet days, Jen’s average speed decreases by 8%. How many kilometres does she cover in 40 minutes?",
+    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='../test_9/image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>On wet days, Jen’s average speed decreases by 8%. How many kilometres does she cover in 40 minutes?",
     "options": [
       "3.1 km",
       "3.3 km",
@@ -2103,7 +2103,7 @@ const QUESTIONS = [
   {
     "id": 143,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Jen begins training for a marathon (26 miles). She starts off by trying to complete a marathon over the space of four equally long jogs. Estimate how long each jog is. Assume dry conditions.",
+    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='../test_9/image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Jen begins training for a marathon (26 miles). She starts off by trying to complete a marathon over the space of four equally long jogs. Estimate how long each jog is. Assume dry conditions.",
     "options": [
       "42 minutes",
       "46 minutes",
@@ -2118,7 +2118,7 @@ const QUESTIONS = [
   {
     "id": 144,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>After starting marathon training, her average speed decreases to her old wet speed; her average wet speed remaining 8% slower than this. Estimate, therefore, how long it would take her to cover 12km in the rain.",
+    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='../test_9/image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>After starting marathon training, her average speed decreases to her old wet speed; her average wet speed remaining 8% slower than this. Estimate, therefore, how long it would take her to cover 12km in the rain.",
     "options": [
       "1 hour 38 minutes",
       "1 hour 46 minutes",
@@ -2133,7 +2133,7 @@ const QUESTIONS = [
   {
     "id": 145,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>After bringing her average speeds back to their original values, Jen starts a new regime. She goes on four jogs, each being 50% further than the last. Her first jog is 4km long. How long does the final jog take in dry conditions?",
+    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='../test_9/image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>After bringing her average speeds back to their original values, Jen starts a new regime. She goes on four jogs, each being 50% further than the last. Her first jog is 4km long. How long does the final jog take in dry conditions?",
     "options": [
       "1 hour 8 minutes",
       "1 hour 41 minutes",
@@ -2148,7 +2148,7 @@ const QUESTIONS = [
   {
     "id": 146,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Lots of training later, Jen completes the marathon in a time of 3hrs 42mins on a dry day. What is the percentage increase in Jen’s dry average speed compared to her original one?",
+    "text": "<strong>Scenario:</strong><br>Jen tracks her daily jogs using an app which gives her data on her performance. Her app tells her that her average speed is 5 mph. Conversion factor: 1 mile = 1.6 km<br><br><img src='../test_9/image/set_23.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Lots of training later, Jen completes the marathon in a time of 3hrs 42mins on a dry day. What is the percentage increase in Jen’s dry average speed compared to her original one?",
     "options": [
       "7%",
       "12%",
@@ -2163,7 +2163,7 @@ const QUESTIONS = [
   {
     "id": 147,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Villas are available with a private pool, and currently they are on sale: 20% off the standard price, where the standard price sits halfway between that of an apartment with a private pool and a palazzo with a private pool. How much would this cost for two people for one week?",
+    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='../test_9/image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Villas are available with a private pool, and currently they are on sale: 20% off the standard price, where the standard price sits halfway between that of an apartment with a private pool and a palazzo with a private pool. How much would this cost for two people for one week?",
     "options": [
       "£323",
       "£332",
@@ -2178,7 +2178,7 @@ const QUESTIONS = [
   {
     "id": 148,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A group of twelve rents out a beachfront palazzo for four weeks. A booking fee is required from each member of the group, in this case charged at 10% of the weekly cost per person. What is the total cost of the booking?",
+    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='../test_9/image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A group of twelve rents out a beachfront palazzo for four weeks. A booking fee is required from each member of the group, in this case charged at 10% of the weekly cost per person. What is the total cost of the booking?",
     "options": [
       "£23,040",
       "£23,161",
@@ -2193,7 +2193,7 @@ const QUESTIONS = [
   {
     "id": 149,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A couple rents an apartment with a shared pool for 20 days. The total cost is £492.89. How much is the booking fee?",
+    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='../test_9/image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A couple rents an apartment with a shared pool for 20 days. The total cost is £492.89. How much is the booking fee?",
     "options": [
       "£35.55",
       "£35.57",
@@ -2208,7 +2208,7 @@ const QUESTIONS = [
   {
     "id": 150,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A family of four stays at a beachfront villa for two weeks, with no booking fee. Due to a complaint, they are refunded 20% of the standard charge. How much does the family pay?",
+    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='../test_9/image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A family of four stays at a beachfront villa for two weeks, with no booking fee. Due to a complaint, they are refunded 20% of the standard charge. How much does the family pay?",
     "options": [
       "£1,408",
       "£1,760",
@@ -2223,7 +2223,7 @@ const QUESTIONS = [
   {
     "id": 151,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A company hires three palazzi with private pools for a week for the grand total of £19,500. The booking fee is 10% of the total cost. Assuming each palazzo has the\n\n\nsame number of people staying in it, how many people are there in each palazzo?",
+    "text": "<strong>Scenario:</strong><br>The table below gives the prices per person per week for different luxury holiday accommodations with different swimming facilities. Some types of accommodation offer a choice between swimming facilities. Some information is missing. Additional days are charged at 1/7 of the weekly cost.<br><br><img src='../test_9/image/set_24.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A company hires three palazzi with private pools for a week for the grand total of £19,500. The booking fee is 10% of the total cost. Assuming each palazzo has the\n\n\nsame number of people staying in it, how many people are there in each palazzo?",
     "options": [
       "18",
       "20",
@@ -2238,7 +2238,7 @@ const QUESTIONS = [
   {
     "id": 152,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John orders a green curry, noodles and a vegetarian curry. What is the total price?",
+    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='../test_9/image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John orders a green curry, noodles and a vegetarian curry. What is the total price?",
     "options": [
       "£16.62",
       "£14.82",
@@ -2252,7 +2252,7 @@ const QUESTIONS = [
   {
     "id": 153,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Katy orders 3 noodles, 2 chicken tikkas and a green curry. Her total is:",
+    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='../test_9/image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Katy orders 3 noodles, 2 chicken tikkas and a green curry. Her total is:",
     "options": [
       "£22.44",
       "£25.67",
@@ -2266,7 +2266,7 @@ const QUESTIONS = [
   {
     "id": 154,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John orders 2 noodles and a vegetarian curry. What is his total price?",
+    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='../test_9/image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John orders 2 noodles and a vegetarian curry. What is his total price?",
     "options": [
       "£15.42",
       "£14.24",
@@ -2280,7 +2280,7 @@ const QUESTIONS = [
   {
     "id": 155,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Katy orders a green curry, 3 noodles and a vegetarian curry. What is her total?",
+    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='../test_9/image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Katy orders a green curry, 3 noodles and a vegetarian curry. What is her total?",
     "options": [
       "£21.89",
       "£20.10",
@@ -2294,7 +2294,7 @@ const QUESTIONS = [
   {
     "id": 156,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A final ‘two for the price of one’ offer is applied for noodles. John orders 4 noodles, 2 chicken tikkas and a green curry. What is his total?",
+    "text": "<strong>Scenario:</strong><br>FastFoodCo is a fast food take-away that delivers directly to customers’ homes. Delivery rates are £3.00 for orders less than £10, £1.50 for orders from £10 - £15 and free for orders over £15. Below is a selection from their menu (delivery and food prices exclude 20% VAT, which is payable on all orders). VAT is added after delivery and any discounts have been taken into account.<br><br><img src='../test_9/image/set_25.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A final ‘two for the price of one’ offer is applied for noodles. John orders 4 noodles, 2 chicken tikkas and a green curry. What is his total?",
     "options": [
       "£18.20",
       "£21.33",
@@ -2309,7 +2309,7 @@ const QUESTIONS = [
   {
     "id": 157,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of total first quarter profits were earned by MediCo?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='../test_9/image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of total first quarter profits were earned by MediCo?",
     "options": [
       "26.6%",
       "28.6%",
@@ -2323,7 +2323,7 @@ const QUESTIONS = [
   {
     "id": 158,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of the total first quarter profit is from MediCo and Lifecare combined?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='../test_9/image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of the total first quarter profit is from MediCo and Lifecare combined?",
     "options": [
       "56.8%",
       "59.5%",
@@ -2337,7 +2337,7 @@ const QUESTIONS = [
   {
     "id": 159,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>PillPlus offers a 10% discount on all products in the second quarter. As a result, their sales increase and profit increases by 15%. Assuming that the profits of all other suppliers remain constant into the second quarter, what percentage of the total second quarter profits did PillPlus make?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='../test_9/image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>PillPlus offers a 10% discount on all products in the second quarter. As a result, their sales increase and profit increases by 15%. Assuming that the profits of all other suppliers remain constant into the second quarter, what percentage of the total second quarter profits did PillPlus make?",
     "options": [
       "16.4%",
       "23.8%",
@@ -2351,7 +2351,7 @@ const QUESTIONS = [
   {
     "id": 160,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>During the third quarter, all profits fall by 10% from second quarter values. Lifecare then buys DrugX. What percentage of the third quarter profits was made by Lifecare?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='../test_9/image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>During the third quarter, all profits fall by 10% from second quarter values. Lifecare then buys DrugX. What percentage of the third quarter profits was made by Lifecare?",
     "options": [
       "46.0%",
       "46.6%",
@@ -2365,7 +2365,7 @@ const QUESTIONS = [
   {
     "id": 161,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Production costs are increased in the fourth quarter, resulting in all profits falling by a further 5%, despite an increase in sales. The information given in question 124 still applies. How much money does Lifecare make in this quarter?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the first quarter profits (in GBP) of four suppliers of prescription medicine.<br><br><img src='../test_9/image/set_26.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Production costs are increased in the fourth quarter, resulting in all profits falling by a further 5%, despite an increase in sales. The information given in question 124 still applies. How much money does Lifecare make in this quarter?",
     "options": [
       "£41,800",
       "£42,750",
@@ -2379,7 +2379,7 @@ const QUESTIONS = [
   {
     "id": 162,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total cost of the Stuntman, with all optional extras?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='../test_9/image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total cost of the Stuntman, with all optional extras?",
     "options": [
       "£15,942",
       "£15,904",
@@ -2393,7 +2393,7 @@ const QUESTIONS = [
   {
     "id": 163,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the price difference between the Saloon and the Pod (with all optional extras)?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='../test_9/image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the price difference between the Saloon and the Pod (with all optional extras)?",
     "options": [
       "£3,900",
       "£4,020",
@@ -2407,7 +2407,7 @@ const QUESTIONS = [
   {
     "id": 164,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference in price between the Racer (with no optional extras) and the Stuntman with all optional extras?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='../test_9/image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference in price between the Racer (with no optional extras) and the Stuntman with all optional extras?",
     "options": [
       "£2,040",
       "£2,048",
@@ -2421,7 +2421,7 @@ const QUESTIONS = [
   {
     "id": 165,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>There is a 10% discount on the Racer and all its optional extras. What is the difference in price between the Pod with no optional extras and the Racer with all optional extras?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='../test_9/image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>There is a 10% discount on the Racer and all its optional extras. What is the difference in price between the Pod with no optional extras and the Racer with all optional extras?",
     "options": [
       "£4,236.20",
       "£4,285.50",
@@ -2435,7 +2435,7 @@ const QUESTIONS = [
   {
     "id": 166,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A final offer on the Saloon is 20% off, including all options. What is the difference in final price between the Saloon with Leather seats and Easy-Park technology and the Pod with only basic features?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the cost of a variety of cars and optional extras. All prices are excluding 20% VAT, which must be paid by all customers.<br><br><img src='../test_9/image/set_27.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A final offer on the Saloon is 20% off, including all options. What is the difference in final price between the Saloon with Leather seats and Easy-Park technology and the Pod with only basic features?",
     "options": [
       "£18.60",
       "£37.20",
@@ -2449,7 +2449,7 @@ const QUESTIONS = [
   {
     "id": 167,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the rate of increase of CO2 emissions between 2000 and 2005?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='../test_9/image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the rate of increase of CO2 emissions between 2000 and 2005?",
     "options": [
       "250 Tonnes/year",
       "225 Tonnes/year",
@@ -2463,7 +2463,7 @@ const QUESTIONS = [
   {
     "id": 168,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The economic crash of 2008 caused global CO2 emissions to decrease due to a decrease in industrial output. How much less CO2 was emitted in the year 2010 compared to if emissions had continued to rise at the same rate seen from 2000 to 2005.",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='../test_9/image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The economic crash of 2008 caused global CO2 emissions to decrease due to a decrease in industrial output. How much less CO2 was emitted in the year 2010 compared to if emissions had continued to rise at the same rate seen from 2000 to 2005.",
     "options": [
       "500 Tonnes",
       "750 Tonnes",
@@ -2477,7 +2477,7 @@ const QUESTIONS = [
   {
     "id": 169,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the percentage increase in CO2 emissions from 2005 to 2015?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='../test_9/image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the percentage increase in CO2 emissions from 2005 to 2015?",
     "options": [
       "25%",
       "33%",
@@ -2491,7 +2491,7 @@ const QUESTIONS = [
   {
     "id": 170,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the new energy bill is successful in meeting its aims, how much CO2 will be saved by the end of 2020 relative to the 2010 – 2015 trend continuing?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='../test_9/image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the new energy bill is successful in meeting its aims, how much CO2 will be saved by the end of 2020 relative to the 2010 – 2015 trend continuing?",
     "options": [
       "200 Tonnes",
       "250 Tonnes",
@@ -2505,7 +2505,7 @@ const QUESTIONS = [
   {
     "id": 171,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What will the total CO2 be in 2020 according to this new act?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total amount of CO2 (in Tonnes) emitted by the country Aissur in each year from 2000 onwards.<br><br><img src='../test_9/image/set_28.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What will the total CO2 be in 2020 according to this new act?",
     "options": [
       "2,750 Tonnes",
       "3,000 Tonnes",
@@ -2519,7 +2519,7 @@ const QUESTIONS = [
   {
     "id": 172,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the price per job of 74 single sided black & white sheets?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='../test_9/image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the price per job of 74 single sided black & white sheets?",
     "options": [
       "£3.70",
       "£5.18",
@@ -2533,7 +2533,7 @@ const QUESTIONS = [
   {
     "id": 173,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many double-sided colour sheets can you buy for £100?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='../test_9/image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many double-sided colour sheets can you buy for £100?",
     "options": [
       "222",
       "333",
@@ -2547,7 +2547,7 @@ const QUESTIONS = [
   {
     "id": 174,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the price of 150 units of double sided black & white?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='../test_9/image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the price of 150 units of double sided black & white?",
     "options": [
       "£13.50",
       "£15.50",
@@ -2561,7 +2561,7 @@ const QUESTIONS = [
   {
     "id": 175,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Compared to buying 150 double sided black & white sheets individually, how many sheets worth (at the standard price for 1 sheet) is saved by buying in one transaction at the discounted price?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='../test_9/image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Compared to buying 150 double sided black & white sheets individually, how many sheets worth (at the standard price for 1 sheet) is saved by buying in one transaction at the discounted price?",
     "options": [
       "65 sheets",
       "60 sheets",
@@ -2575,7 +2575,7 @@ const QUESTIONS = [
   {
     "id": 176,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total cost of an order of double sided pages, with 227 requiring black and white printing and 34 requiring colour printing?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the price per item for different styles of printing. The price is lower when larger orders are made, as shown in the table.<br><br><img src='../test_9/image/set_29.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total cost of an order of double sided pages, with 227 requiring black and white printing and 34 requiring colour printing?",
     "options": [
       "£22.38",
       "£29.61",
@@ -2589,7 +2589,7 @@ const QUESTIONS = [
   {
     "id": 177,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>4 sets of 300 volunteers take part in a clinical trial for a new drug, which is aimed at reducing the effects of asthma. The responses received are recorded below.<br><br><img src='image/set_30.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many people reacted positively overall?",
+    "text": "<strong>Scenario:</strong><br>4 sets of 300 volunteers take part in a clinical trial for a new drug, which is aimed at reducing the effects of asthma. The responses received are recorded below.<br><br><img src='../test_9/image/set_30.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many people reacted positively overall?",
     "options": [
       "135",
       "265",
@@ -2603,7 +2603,7 @@ const QUESTIONS = [
   {
     "id": 178,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>4 sets of 300 volunteers take part in a clinical trial for a new drug, which is aimed at reducing the effects of asthma. The responses received are recorded below.<br><br><img src='image/set_30.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many more people reacted negatively from",
+    "text": "<strong>Scenario:</strong><br>4 sets of 300 volunteers take part in a clinical trial for a new drug, which is aimed at reducing the effects of asthma. The responses received are recorded below.<br><br><img src='../test_9/image/set_30.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many more people reacted negatively from",
     "options": [],
     "answer": 2,
     "explanation": "In group 2, 30% reacted negatively: 30% of 300 is 90. In group 3, 15% reacted negatively: 15% of 300 is 45. Therefore the difference is 45; 45 more people in group 2 reacted negatively than people in group 3.",
@@ -2612,7 +2612,7 @@ const QUESTIONS = [
   {
     "id": 179,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>? 1. 15 2. 33 3. 45 4. 56<br><br><img src='image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of those tested overall reacted negatively?",
+    "text": "<strong>Scenario:</strong><br>? 1. 15 2. 33 3. 45 4. 56<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of those tested overall reacted negatively?",
     "options": [
       "21%",
       "23%",
@@ -2626,7 +2626,7 @@ const QUESTIONS = [
   {
     "id": 180,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>? 1. 15 2. 33 3. 45 4. 56<br><br><img src='image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the percentage increase in the success rate (i.e. the percentage of people reacting positively) in the 5th group compared to the first 4 groups?",
+    "text": "<strong>Scenario:</strong><br>? 1. 15 2. 33 3. 45 4. 56<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the percentage increase in the success rate (i.e. the percentage of people reacting positively) in the 5th group compared to the first 4 groups?",
     "options": [
       "7.81%",
       "15.75%",
@@ -2640,7 +2640,7 @@ const QUESTIONS = [
   {
     "id": 181,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>? 1. 15 2. 33 3. 45 4. 56<br><br><img src='image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Across all groups, including group 5, how many people reacted negatively to the drug?",
+    "text": "<strong>Scenario:</strong><br>? 1. 15 2. 33 3. 45 4. 56<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Across all groups, including group 5, how many people reacted negatively to the drug?",
     "options": [
       "275",
       "315",
@@ -2654,7 +2654,7 @@ const QUESTIONS = [
   {
     "id": 182,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the total number of views of the Final Frontier and The Last Chase during 2014?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='../test_9/image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the total number of views of the Final Frontier and The Last Chase during 2014?",
     "options": [
       "10,000",
       "15,000",
@@ -2668,7 +2668,7 @@ const QUESTIONS = [
   {
     "id": 183,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Broadcasters earn £2,500 from advertisements per 1,000 views. What is the difference in money earned through advertising between the two shows in 2014?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='../test_9/image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Broadcasters earn £2,500 from advertisements per 1,000 views. What is the difference in money earned through advertising between the two shows in 2014?",
     "options": [
       "£45,000",
       "£50,000",
@@ -2682,7 +2682,7 @@ const QUESTIONS = [
   {
     "id": 184,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the number of views of The Final Frontier continues to increase at same rate it did from Q1 – Q3 of 2014, how many views will it have during the final quarter of year 2015?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='../test_9/image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the number of views of The Final Frontier continues to increase at same rate it did from Q1 – Q3 of 2014, how many views will it have during the final quarter of year 2015?",
     "options": [
       "50,000",
       "55,000",
@@ -2696,7 +2696,7 @@ const QUESTIONS = [
   {
     "id": 185,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the number of views of The Final Frontier continues to increase at same rate it did from Q1 – Q3 of 2014, how many views will it have in 2015 in total?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='../test_9/image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the number of views of The Final Frontier continues to increase at same rate it did from Q1 – Q3 of 2014, how many views will it have in 2015 in total?",
     "options": [
       "180,000",
       "190,000",
@@ -2710,7 +2710,7 @@ const QUESTIONS = [
   {
     "id": 186,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Under different circumstances, at the end of the third quarter of 2014, the broadcasters decide to terminate The Last Chase. As a result, half of The Last Chase’s views instead transfer to The Final Frontier. How many views will The Final Frontier have at the end of the final quarter of 2014 under these circumstances?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the total number of views for two rival local television dramas, The Last Chase and The Final Frontier, across the 4 yearly quarters in 2014.<br><br><img src='../test_9/image/set_31.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Under different circumstances, at the end of the third quarter of 2014, the broadcasters decide to terminate The Last Chase. As a result, half of The Last Chase’s views instead transfer to The Final Frontier. How many views will The Final Frontier have at the end of the final quarter of 2014 under these circumstances?",
     "options": [
       "25,000",
       "35,000",
@@ -2724,7 +2724,7 @@ const QUESTIONS = [
   {
     "id": 187,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many patients waited for less than half an hour for an appointment in Scotland?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='../test_9/image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many patients waited for less than half an hour for an appointment in Scotland?",
     "options": [
       "12,500",
       "27,500",
@@ -2738,7 +2738,7 @@ const QUESTIONS = [
   {
     "id": 188,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of patients across the UK waited for more than half an hour for an appointment?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='../test_9/image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of patients across the UK waited for more than half an hour for an appointment?",
     "options": [
       "10%",
       "15%",
@@ -2752,7 +2752,7 @@ const QUESTIONS = [
   {
     "id": 189,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many complaints are received from this survey at the end of the year?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='../test_9/image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many complaints are received from this survey at the end of the year?",
     "options": [
       "20,250",
       "21,500",
@@ -2766,7 +2766,7 @@ const QUESTIONS = [
   {
     "id": 190,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of patients complained about waiting times by the end of the 2014 survey?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='../test_9/image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of patients complained about waiting times by the end of the 2014 survey?",
     "options": [
       "12.1%",
       "11.5%",
@@ -2780,7 +2780,7 @@ const QUESTIONS = [
   {
     "id": 191,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In January 2015, the government announced a target to reduce the number of patients waiting for longer than 30 minutes for an appointment by 50%, and by 25% for those waiting between 11-30 minutes. Proportionally, what will be the decrease in the number of complaints recorded by an identical survey at the end of 2015, if all targets are met?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average time, in minutes, spent waiting for GP appointments by patients, according to a series of surveys from 2014. On average, 20% of patients who wait between 11 and 30 minutes and 40% of those who wait for more than 30 minutes register a complaint during a customer satisfaction survey. No patients who waited for 10 minutes or less registered complaints.<br><br><img src='../test_9/image/set_32.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In January 2015, the government announced a target to reduce the number of patients waiting for longer than 30 minutes for an appointment by 50%, and by 25% for those waiting between 11-30 minutes. Proportionally, what will be the decrease in the number of complaints recorded by an identical survey at the end of 2015, if all targets are met?",
     "options": [
       "40%",
       "38%",
@@ -2794,7 +2794,7 @@ const QUESTIONS = [
   {
     "id": 192,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At what rate did the price of oil fall between January and March of 2014?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='../test_9/image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At what rate did the price of oil fall between January and March of 2014?",
     "options": [
       "$16.70 per month",
       "$20.00 per month",
@@ -2808,7 +2808,7 @@ const QUESTIONS = [
   {
     "id": 193,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was approximate total oil production in 2014?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='../test_9/image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was approximate total oil production in 2014?",
     "options": [
       "1,750 million barrels",
       "2,146 million barrels",
@@ -2822,7 +2822,7 @@ const QUESTIONS = [
   {
     "id": 194,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much did oil sales total in July 2014?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='../test_9/image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much did oil sales total in July 2014?",
     "options": [
       "$0.56 Billion",
       "$16.9 Billion",
@@ -2836,7 +2836,7 @@ const QUESTIONS = [
   {
     "id": 195,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Oil prices have been falling due to a high supply. On average, the price of extraction & production of oil makes up 40% of the total price. The rest of the price is profit. How much profit was made from oil sales during June 2014?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='../test_9/image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Oil prices have been falling due to a high supply. On average, the price of extraction & production of oil makes up 40% of the total price. The rest of the price is profit. How much profit was made from oil sales during June 2014?",
     "options": [
       "$8.4 Billion",
       "$12.6 Billion",
@@ -2850,7 +2850,7 @@ const QUESTIONS = [
   {
     "id": 196,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Profit from oil extraction is 60% of the total sale price. This profit is split between the oil companies and the nation producing the oil in a ratio of 5:2. Of the oil company profits, 30% are used for corporation tax in the companies’ home countries. Given that the overall sales value was $204 billion over the year, how much corporation tax was paid in 2014 (to 2 decimal places).",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the price of crude oil in US Dollars during 2014: The total oil production, in millions of barrels per day, is shown on the graph below:<br><br><img src='../test_9/image/set_33.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Profit from oil extraction is 60% of the total sale price. This profit is split between the oil companies and the nation producing the oil in a ratio of 5:2. Of the oil company profits, 30% are used for corporation tax in the companies’ home countries. Given that the overall sales value was $204 billion over the year, how much corporation tax was paid in 2014 (to 2 decimal places).",
     "options": [
       "$26.23 Billion",
       "$36.74 Billion",
@@ -2864,7 +2864,7 @@ const QUESTIONS = [
   {
     "id": 197,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many people surveyed suffer from asthma?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='../test_9/image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many people surveyed suffer from asthma?",
     "options": [
       "25",
       "35",
@@ -2878,7 +2878,7 @@ const QUESTIONS = [
   {
     "id": 198,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the proportion of children surveyed who are likely to develop respiratory problems?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='../test_9/image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the proportion of children surveyed who are likely to develop respiratory problems?",
     "options": [
       "13.00%",
       "13.25%",
@@ -2892,7 +2892,7 @@ const QUESTIONS = [
   {
     "id": 199,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many 0-10 year olds from the survey have been incorrectly diagnosed with asthma?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='../test_9/image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many 0-10 year olds from the survey have been incorrectly diagnosed with asthma?",
     "options": [
       "6.1%",
       "6.9%",
@@ -2906,7 +2906,7 @@ const QUESTIONS = [
   {
     "id": 200,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of children below the age of 10 who were correctly diagnosed with asthma will develop respiratory problems?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='../test_9/image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of children below the age of 10 who were correctly diagnosed with asthma will develop respiratory problems?",
     "options": [
       "9%",
       "10%",
@@ -2920,7 +2920,7 @@ const QUESTIONS = [
   {
     "id": 201,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much money was wasted on mistakenly prescribing medication to children who were wrongly diagnosed with asthma from 1990 to 1995?",
+    "text": "<strong>Scenario:</strong><br>The chart below shows the severity of asthma amongst a sample of 5 groups of 50 people of different ages. The average cost of asthma inhalers per patient is £50 per year. The population of the United Kingdom averaged 50 million during the period of interest. Children aged 0-5 years made up 7% of the population and children aged 5- 10 years made up 10% of the population. Children below the age of 10 who suffer from mild asthma have a half chance of developing respiratory problems in adult life. This figure is 90% for children below the age of 10 who suffer severe asthma. Children without asthma will not develop respiratory problems. A review into doctors’ practices concluded that between 1990 and 1995, 35% of mild asthma diagnoses of children between 0-10 were incorrect.<br><br><img src='../test_9/image/set_34.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much money was wasted on mistakenly prescribing medication to children who were wrongly diagnosed with asthma from 1990 to 1995?",
     "options": [
       "£133 million",
       "£157 million",
@@ -2934,7 +2934,7 @@ const QUESTIONS = [
   {
     "id": 202,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the government disinvested 50% of its stake in A at current market price, what (in £) is the amount of revenue generated by the government through the disinvestment?",
+    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the government disinvested 50% of its stake in A at current market price, what (in £) is the amount of revenue generated by the government through the disinvestment?",
     "options": [
       "375 Million",
       "325 Million",
@@ -2948,7 +2948,7 @@ const QUESTIONS = [
   {
     "id": 203,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the government disinvested 25% of its stake in B at current market price, the amount of revenue generated by the government through the disinvestment would be (in £):",
+    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the government disinvested 25% of its stake in B at current market price, the amount of revenue generated by the government through the disinvestment would be (in £):",
     "options": [
       "125 Million",
       "150 Million",
@@ -2962,7 +2962,7 @@ const QUESTIONS = [
   {
     "id": 204,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The government disinvested its entire stake in C at a price of £35 per share. What would have been the additional revenue generated by the government had it done the given disinvestment at the given market price?",
+    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The government disinvested its entire stake in C at a price of £35 per share. What would have been the additional revenue generated by the government had it done the given disinvestment at the given market price?",
     "options": [
       "£25 Million",
       "£50 Million",
@@ -2976,7 +2976,7 @@ const QUESTIONS = [
   {
     "id": 205,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the share price of D fell to £25 on 2 March 2015, then what was the decline in the total value of D’s shares held by the government from that of the previous day?",
+    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the share price of D fell to £25 on 2 March 2015, then what was the decline in the total value of D’s shares held by the government from that of the previous day?",
     "options": [
       "£25 Million",
       "£50 Million",
@@ -2990,7 +2990,7 @@ const QUESTIONS = [
   {
     "id": 206,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the share price of E rose to £25 on 2 March 2015, then what was the increase in the total value of E’s shares held by the government over that of the previous day (in £)?",
+    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the share price of E rose to £25 on 2 March 2015, then what was the increase in the total value of E’s shares held by the government over that of the previous day (in £)?",
     "options": [
       "£30.25 Million",
       "£30.75 Million",
@@ -3004,7 +3004,7 @@ const QUESTIONS = [
   {
     "id": 207,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following will fetch higher revenue for government?",
+    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following will fetch higher revenue for government?",
     "options": [
       "Redeeming all its stock from company A.",
       "Redeeming all its stock from company B.",
@@ -3018,7 +3018,7 @@ const QUESTIONS = [
   {
     "id": 208,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The production of food grain (in tonnes) in 2010-11 was:",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The production of food grain (in tonnes) in 2010-11 was:",
     "options": [
       "40",
       "60",
@@ -3032,7 +3032,7 @@ const QUESTIONS = [
   {
     "id": 209,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the difference in targeted production in 2011-12 and actual production in 2010-11 for oil seeds (in tonnes)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the difference in targeted production in 2011-12 and actual production in 2010-11 for oil seeds (in tonnes)?",
     "options": [
       "10",
       "20",
@@ -3046,7 +3046,7 @@ const QUESTIONS = [
   {
     "id": 210,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more sugarcane should have been produced in order to meet the target in 2011-12 (in tonnes)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more sugarcane should have been produced in order to meet the target in 2011-12 (in tonnes)?",
     "options": [
       "5",
       "10",
@@ -3060,7 +3060,7 @@ const QUESTIONS = [
   {
     "id": 211,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the combined production of Cotton and Jute in year 2010-11 (in tonnes)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the combined production of Cotton and Jute in year 2010-11 (in tonnes)?",
     "options": [
       "11",
       "21",
@@ -3074,7 +3074,7 @@ const QUESTIONS = [
   {
     "id": 212,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more food grain was produced than oil seeds in 2010-11 (in TONNES)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more food grain was produced than oil seeds in 2010-11 (in TONNES)?",
     "options": [
       "10",
       "20",
@@ -3088,7 +3088,7 @@ const QUESTIONS = [
   {
     "id": 213,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Cotton constituted what percentage of total crops in year 2011-12?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Cotton constituted what percentage of total crops in year 2011-12?",
     "options": [
       "10",
       "12.5",
@@ -3103,7 +3103,7 @@ const QUESTIONS = [
   {
     "id": 214,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In February, sale of product B constituted what percentage of total sales of all 4 products put together?",
+    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='../test_9/image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In February, sale of product B constituted what percentage of total sales of all 4 products put together?",
     "options": [
       "26%",
       "27%",
@@ -3117,7 +3117,7 @@ const QUESTIONS = [
   {
     "id": 215,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following products recorded maximum percentage increase from March to April?",
+    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='../test_9/image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following products recorded maximum percentage increase from March to April?",
     "options": [
       "Product A",
       "Product B",
@@ -3131,7 +3131,7 @@ const QUESTIONS = [
   {
     "id": 216,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In May 2014, the sales of product C witnessed an increase of 20% over the previous month. The sales of D were the same as those of C. What was the percentage increase in the sales of D in May relative to April?",
+    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='../test_9/image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In May 2014, the sales of product C witnessed an increase of 20% over the previous month. The sales of D were the same as those of C. What was the percentage increase in the sales of D in May relative to April?",
     "options": [
       "22.5 %",
       "25.0 %",
@@ -3145,7 +3145,7 @@ const QUESTIONS = [
   {
     "id": 217,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>By what percentage did the combined sales of product A and product C increase from January to April?",
+    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='../test_9/image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>By what percentage did the combined sales of product A and product C increase from January to April?",
     "options": [
       "17.0 %",
       "17.1 %",
@@ -3159,7 +3159,7 @@ const QUESTIONS = [
   {
     "id": 218,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assume a different scenario, that May 2015 witnessed a 20% growth in sales for products A and B, and a 30% growth in sales for products C and D over April values. What was the total sales value in May for all the products combined?",
+    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='../test_9/image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assume a different scenario, that May 2015 witnessed a 20% growth in sales for products A and B, and a 30% growth in sales for products C and D over April values. What was the total sales value in May for all the products combined?",
     "options": [
       "32,925",
       "33,925",
@@ -3173,7 +3173,7 @@ const QUESTIONS = [
   {
     "id": 219,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assume a different scenario, that May 2015 witnessed 20% growth in sales of product A and 10% growth in sales for the other 3 products (B, C and D). Sales of A constituted what percentage of total sales in May 2015?",
+    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='../test_9/image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Assume a different scenario, that May 2015 witnessed 20% growth in sales of product A and 10% growth in sales for the other 3 products (B, C and D). Sales of A constituted what percentage of total sales in May 2015?",
     "options": [
       "40.25 %",
       "41.25 %",
@@ -3187,7 +3187,7 @@ const QUESTIONS = [
   {
     "id": 220,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2012, the profit made by Courier Company was 30% of the total revenue. The company made a profit of £2.5 million. What was the total revenue?",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2012, the profit made by Courier Company was 30% of the total revenue. The company made a profit of £2.5 million. What was the total revenue?",
     "options": [
       "£3.6 Million",
       "£7.2 Million",
@@ -3201,7 +3201,7 @@ const QUESTIONS = [
   {
     "id": 221,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, the cost per consignment was the lowest through which method?",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, the cost per consignment was the lowest through which method?",
     "options": [
       "Rail",
       "Road",
@@ -3215,7 +3215,7 @@ const QUESTIONS = [
   {
     "id": 222,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, the cost per consignment through rail was £5 and the revenue per consignment through rail was £20. What was the ratio of the total revenue through rail to the total cost through rail? Assume the number of consignments is equal to that given in the table.",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, the cost per consignment through rail was £5 and the revenue per consignment through rail was £20. What was the ratio of the total revenue through rail to the total cost through rail? Assume the number of consignments is equal to that given in the table.",
     "options": [
       "4:1",
       "5:1",
@@ -3230,7 +3230,7 @@ const QUESTIONS = [
   {
     "id": 223,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2013, the total costs of the company are £54,000. What is the total cost of air transportation in the year 2013?",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2013, the total costs of the company are £54,000. What is the total cost of air transportation in the year 2013?",
     "options": [
       "£13,500",
       "£17,000",
@@ -3245,7 +3245,7 @@ const QUESTIONS = [
   {
     "id": 224,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, if the total number of consignments delivered was 17,145, then what was total number of consignments delivered using rail and road?",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, if the total number of consignments delivered was 17,145, then what was total number of consignments delivered using rail and road?",
     "options": [
       "11,670",
       "11,974",
@@ -3259,7 +3259,7 @@ const QUESTIONS = [
   {
     "id": 225,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Lead in alloy A.",
+    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Lead in alloy A.",
     "options": [
       "8.33 %",
       "4.16 %",
@@ -3273,7 +3273,7 @@ const QUESTIONS = [
   {
     "id": 226,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin in alloy C.",
+    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin in alloy C.",
     "options": [
       "31.3 %",
       "15.8 %",
@@ -3287,7 +3287,7 @@ const QUESTIONS = [
   {
     "id": 227,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>An alloy X contains A, B and C in equal proportion. What is the percentage of Zinc in this alloy?",
+    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>An alloy X contains A, B and C in equal proportion. What is the percentage of Zinc in this alloy?",
     "options": [
       "12.50 %",
       "16.67 %",
@@ -3301,7 +3301,7 @@ const QUESTIONS = [
   {
     "id": 228,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin and Copper combined in alloy C.",
+    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin and Copper combined in alloy C.",
     "options": [
       "15 %",
       "20 %",
@@ -3315,7 +3315,7 @@ const QUESTIONS = [
   {
     "id": 229,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin in alloy G.",
+    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin in alloy G.",
     "options": [
       "11.11 %",
       "21.11 %",
@@ -3329,7 +3329,7 @@ const QUESTIONS = [
   {
     "id": 230,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many elements have exactly the same concentration in Alloy G?",
+    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many elements have exactly the same concentration in Alloy G?",
     "options": [
       "One",
       "Two",
@@ -3343,7 +3343,7 @@ const QUESTIONS = [
   {
     "id": 231,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many people voted in favour of Hillary Clinton, who received 60% of total votes polled for lady politicians?",
+    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many people voted in favour of Hillary Clinton, who received 60% of total votes polled for lady politicians?",
     "options": [
       "1,173",
       "1,223",
@@ -3357,7 +3357,7 @@ const QUESTIONS = [
   {
     "id": 232,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If everyone who voted in favour of Robert Guiliani is a citizen of New York, then out of all the people surveyed, the number of citizens from New York is:",
+    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If everyone who voted in favour of Robert Guiliani is a citizen of New York, then out of all the people surveyed, the number of citizens from New York is:",
     "options": [
       "460",
       "960",
@@ -3371,7 +3371,7 @@ const QUESTIONS = [
   {
     "id": 233,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Out of the respondents, 20% are not US citizens. Given that only US citizens voted for George Bush, determine the percentage of US citizens who voted in favour of Bush.",
+    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Out of the respondents, 20% are not US citizens. Given that only US citizens voted for George Bush, determine the percentage of US citizens who voted in favour of Bush.",
     "options": [
       "42.8%",
       "45.3%",
@@ -3385,7 +3385,7 @@ const QUESTIONS = [
   {
     "id": 234,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Out of the total people surveyed, 40% are employees of the Federal Government and out of these 10% are in favour of Rumsfield. Find the number of people who are in favour of Rumsfield but are NOT employees of the Federal Government.",
+    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Out of the total people surveyed, 40% are employees of the Federal Government and out of these 10% are in favour of Rumsfield. Find the number of people who are in favour of Rumsfield but are NOT employees of the Federal Government.",
     "options": [
       "105",
       "110",
@@ -3399,7 +3399,7 @@ const QUESTIONS = [
   {
     "id": 235,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A mid-year survey has also been done on the same group of people. In that survey 16% of the people were in favour of Bill Clinton. Find the decrease in the number of people who voted in favour of Bill Clinton from mid-year survey to the actual survey.",
+    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A mid-year survey has also been done on the same group of people. In that survey 16% of the people were in favour of Bill Clinton. Find the decrease in the number of people who voted in favour of Bill Clinton from mid-year survey to the actual survey.",
     "options": [
       "1,210",
       "1,410",
@@ -3413,7 +3413,7 @@ const QUESTIONS = [
   {
     "id": 236,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A mid-year survey has also been done on the same group of people. In that survey 40% of the people were in favour of Bush. Find the decrease in the number of people who voted in favour of Bush from mid-year survey to the actual survey.",
+    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A mid-year survey has also been done on the same group of people. In that survey 40% of the people were in favour of Bush. Find the decrease in the number of people who voted in favour of Bush from mid-year survey to the actual survey.",
     "options": [
       "115",
       "230",
@@ -3427,7 +3427,7 @@ const QUESTIONS = [
   {
     "id": 237,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Before Christmas, the shop offers an extra 15% discount. Customer A decides to buy 5 premium mugs and 4 basic mugs with a unique picture printed on the basic mugs. How much will this cost?",
+    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='../test_9/image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Before Christmas, the shop offers an extra 15% discount. Customer A decides to buy 5 premium mugs and 4 basic mugs with a unique picture printed on the basic mugs. How much will this cost?",
     "options": [
       "£2.50",
       "£2.59",
@@ -3442,7 +3442,7 @@ const QUESTIONS = [
   {
     "id": 238,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Customer B needs 750 premium mugs, 130 basic mugs and 80 flyers, after Christmas. She wants a logo printed on the basic mugs. She wants black and white flyers. To the nearest pound, how much will she have to pay?",
+    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='../test_9/image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Customer B needs 750 premium mugs, 130 basic mugs and 80 flyers, after Christmas. She wants a logo printed on the basic mugs. She wants black and white flyers. To the nearest pound, how much will she have to pay?",
     "options": [
       "£160",
       "£170",
@@ -3457,7 +3457,7 @@ const QUESTIONS = [
   {
     "id": 239,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Customer C wants to spend £250. How many medium mugs with a logo can she buy with this money if she also wants to buy 50 colour flyers?",
+    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='../test_9/image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Customer C wants to spend £250. How many medium mugs with a logo can she buy with this money if she also wants to buy 50 colour flyers?",
     "options": [
       "1200",
       "1225",
@@ -3472,7 +3472,7 @@ const QUESTIONS = [
   {
     "id": 240,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The price of extra logo printed on the mug decreased by 1p, the price of premium mug decreased by 2p and the price of colour flyer decreased by 1p across all quantities in 2015. In percentage terms, how much cheaper would have been to order 70 medium mugs with logo and 150 colour flyers in 2015 instead of 2014?",
+    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='../test_9/image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The price of extra logo printed on the mug decreased by 1p, the price of premium mug decreased by 2p and the price of colour flyer decreased by 1p across all quantities in 2015. In percentage terms, how much cheaper would have been to order 70 medium mugs with logo and 150 colour flyers in 2015 instead of 2014?",
     "options": [
       "4%",
       "5%",
@@ -3487,7 +3487,7 @@ const QUESTIONS = [
   {
     "id": 241,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The shop made a profit of £325,750 in 2015. This was a compound average growth rate of 1.2% between 2012 and 2015. What was the profit in 2012?",
+    "text": "<strong>Scenario:</strong><br>Shop A sells merchandised mugs and also offers to print flyers at the prices shown below:<br><br><img src='../test_9/image/set_41.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The shop made a profit of £325,750 in 2015. This was a compound average growth rate of 1.2% between 2012 and 2015. What was the profit in 2012?",
     "options": [
       "£188,513",
       "£231,862",
@@ -3502,7 +3502,7 @@ const QUESTIONS = [
   {
     "id": 242,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many students are studying at St. Mary College in total?",
+    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='../test_9/image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many students are studying at St. Mary College in total?",
     "options": [
       "325",
       "340",
@@ -3517,7 +3517,7 @@ const QUESTIONS = [
   {
     "id": 243,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many students have both a tablet and smartphone but no laptop?",
+    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='../test_9/image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many students have both a tablet and smartphone but no laptop?",
     "options": [
       "40",
       "45",
@@ -3532,7 +3532,7 @@ const QUESTIONS = [
   {
     "id": 244,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many more students have a smartphone than both a tablet and laptop?",
+    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='../test_9/image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many more students have a smartphone than both a tablet and laptop?",
     "options": [
       "80",
       "85",
@@ -3547,7 +3547,7 @@ const QUESTIONS = [
   {
     "id": 245,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of all students have both a smartphone and a laptop?",
+    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='../test_9/image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of all students have both a smartphone and a laptop?",
     "options": [
       "20.5%",
       "23.1%",
@@ -3562,7 +3562,7 @@ const QUESTIONS = [
   {
     "id": 246,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Five more students come to St. Mary College. Three of the students have both a smartphone and a tablet. Two of the students have a smartphone only. What percentage of all students in the college have a smartphone now?",
+    "text": "<strong>Scenario:</strong><br>In St. Mary College, all students must have at least one device to interact with digital, interactive study materials. There are thirty students who have all three gadgets: Smartphone, tablet and laptop.<br><br><img src='../test_9/image/set_42.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Five more students come to St. Mary College. Three of the students have both a smartphone and a tablet. Two of the students have a smartphone only. What percentage of all students in the college have a smartphone now?",
     "options": [
       "34%",
       "45%",
@@ -3577,7 +3577,7 @@ const QUESTIONS = [
   {
     "id": 247,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many trains leave from Cambridge Station going to Liverpool Street between 2pm and 6.00pm?",
+    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='../test_9/image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many trains leave from Cambridge Station going to Liverpool Street between 2pm and 6.00pm?",
     "options": [
       "10",
       "12",
@@ -3592,7 +3592,7 @@ const QUESTIONS = [
   {
     "id": 248,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At 2.45pm, Antonia is at Sawbridgeworth station waiting for the next train to London Liverpool Street. What is the earliest time can she expect to arrive at Liverpool Street?",
+    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='../test_9/image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At 2.45pm, Antonia is at Sawbridgeworth station waiting for the next train to London Liverpool Street. What is the earliest time can she expect to arrive at Liverpool Street?",
     "options": [
       "3.01pm",
       "3.09pm",
@@ -3607,7 +3607,7 @@ const QUESTIONS = [
   {
     "id": 249,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many trains run from Cambridge Station to Liverpool Street all day?",
+    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='../test_9/image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many trains run from Cambridge Station to Liverpool Street all day?",
     "options": [
       "46",
       "47",
@@ -3622,7 +3622,7 @@ const QUESTIONS = [
   {
     "id": 250,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is 3pm and Mark wants to take the next train from Cambridge Station to Tottenham Hale for a 1 hour meeting straight at the station. What is the earliest time that Mark could schedule the meeting?",
+    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='../test_9/image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is 3pm and Mark wants to take the next train from Cambridge Station to Tottenham Hale for a 1 hour meeting straight at the station. What is the earliest time that Mark could schedule the meeting?",
     "options": [
       "4.25pm",
       "4.28pm",
@@ -3637,7 +3637,7 @@ const QUESTIONS = [
   {
     "id": 251,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the distance between Audley End and Bishops Stortford is 10.5 miles. What is the speed of the train?",
+    "text": "<strong>Scenario:</strong><br>Train Timetable [Cambridge to London Liverpool Street]<br><br><img src='../test_9/image/set_43.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the distance between Audley End and Bishops Stortford is 10.5 miles. What is the speed of the train?",
     "options": [
       "60 miles/hour",
       "70 miles/hour",
@@ -3652,7 +3652,7 @@ const QUESTIONS = [
   {
     "id": 252,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total length of the five longest rivers in the UK?",
+    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='../test_9/image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total length of the five longest rivers in the UK?",
     "options": [
       "897",
       "905",
@@ -3667,7 +3667,7 @@ const QUESTIONS = [
   {
     "id": 253,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2015, the drainage area of the River Thames increased by 1345.5 square miles. In percentage terms, how much did the drainage area of the seven longest rivers in England increase in 2015 if the other rivers the same?",
+    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='../test_9/image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2015, the drainage area of the River Thames increased by 1345.5 square miles. In percentage terms, how much did the drainage area of the seven longest rivers in England increase in 2015 if the other rivers the same?",
     "options": [
       "2%",
       "7%",
@@ -3682,7 +3682,7 @@ const QUESTIONS = [
   {
     "id": 254,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, how much bigger was the drainage area of the River Thames than the River Wye in 2014?",
+    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='../test_9/image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, how much bigger was the drainage area of the River Thames than the River Wye in 2014?",
     "options": [
       "213%",
       "276%",
@@ -3697,7 +3697,7 @@ const QUESTIONS = [
   {
     "id": 255,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the difference in length between the two rivers with the highest and lowest average discharge?",
+    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='../test_9/image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the difference in length between the two rivers with the highest and lowest average discharge?",
     "options": [
       "68 miles",
       "91 miles",
@@ -3712,7 +3712,7 @@ const QUESTIONS = [
   {
     "id": 256,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the average drainage area of the six longest rivers in England in 2014?",
+    "text": "<strong>Scenario:</strong><br>The list of the longest rivers in the UK by length in 2014.<br><br><img src='../test_9/image/set_44.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the average drainage area of the six longest rivers in England in 2014?",
     "options": [
       "2750",
       "3138",
@@ -3727,7 +3727,7 @@ const QUESTIONS = [
   {
     "id": 257,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which industry has the largest contribution to Scottish GDP?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which industry has the largest contribution to Scottish GDP?",
     "options": [
       "Agriculture, Forestry and Fishing",
       "Construction",
@@ -3742,7 +3742,7 @@ const QUESTIONS = [
   {
     "id": 258,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2015, UK GDP increased by 5% overall to 4.2tn pounds. How much was the UK GDP in 2014?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2015, UK GDP increased by 5% overall to 4.2tn pounds. How much was the UK GDP in 2014?",
     "options": [
       "3.9tn",
       "4tn",
@@ -3757,7 +3757,7 @@ const QUESTIONS = [
   {
     "id": 259,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much bigger is the contribution of Business Services and Finance to total UK GDP than the contribution of Manufacturing to Scottish GDP?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much bigger is the contribution of Business Services and Finance to total UK GDP than the contribution of Manufacturing to Scottish GDP?",
     "options": [
       "3%",
       "4%",
@@ -3772,7 +3772,7 @@ const QUESTIONS = [
   {
     "id": 260,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Scottish GDP was £1.2tn in 2014. What is the share of Agriculture, Forestry and Fishing in Scottish GDP in 2015 if there was an overall increase in GDP by 3%? Assume the percentage share of GDP for Agriculture, Forestry and Fishing does not change from 2014 to 2015.",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Scottish GDP was £1.2tn in 2014. What is the share of Agriculture, Forestry and Fishing in Scottish GDP in 2015 if there was an overall increase in GDP by 3%? Assume the percentage share of GDP for Agriculture, Forestry and Fishing does not change from 2014 to 2015.",
     "options": [
       "£0.007tn",
       "£0.012tn",
@@ -3787,7 +3787,7 @@ const QUESTIONS = [
   {
     "id": 261,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What are the top three contributing sectors to UK GDP?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_45.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What are the top three contributing sectors to UK GDP?",
     "options": [
       "Agriculture, Forestry and Fishing; Manufacturing; Construction",
       "Government and Other Services; Manufacturing; Construction",
@@ -3802,7 +3802,7 @@ const QUESTIONS = [
   {
     "id": 262,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, how much did the most-watched TV show increase in the number of viewers between year 1 and year 2?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, how much did the most-watched TV show increase in the number of viewers between year 1 and year 2?",
     "options": [
       "29%",
       "33%",
@@ -3817,7 +3817,7 @@ const QUESTIONS = [
   {
     "id": 263,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many more viewers did The Voice and Britain’s Got Talent have together in year 2 than in year 1?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many more viewers did The Voice and Britain’s Got Talent have together in year 2 than in year 1?",
     "options": [
       "0.1 million",
       "0.2 million",
@@ -3832,7 +3832,7 @@ const QUESTIONS = [
   {
     "id": 264,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which is the least-watched TV show by males in year 2?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which is the least-watched TV show by males in year 2?",
     "options": [
       "Big Brother",
       "Fresh Meat",
@@ -3847,7 +3847,7 @@ const QUESTIONS = [
   {
     "id": 265,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, what was the total increase in the number of viewers across all TV shows from year 1 to year 2?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, what was the total increase in the number of viewers across all TV shows from year 1 to year 2?",
     "options": [
       "5%",
       "10%",
@@ -3862,7 +3862,7 @@ const QUESTIONS = [
   {
     "id": 266,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the total population of females in year 2 was 30 million, how many males watched Geordie Shore in year 2?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_46.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the total population of females in year 2 was 30 million, how many males watched Geordie Shore in year 2?",
     "options": [
       "1.75 million",
       "2.38 million",
@@ -3877,7 +3877,7 @@ const QUESTIONS = [
   {
     "id": 267,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Each month, Claire sends 300 text messages and makes 75 mobile calls in the same network, each one minute on average. Which plan would be cheaper for Claire\n\n\nand by how much per month?",
+    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='../test_9/image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Each month, Claire sends 300 text messages and makes 75 mobile calls in the same network, each one minute on average. Which plan would be cheaper for Claire\n\n\nand by how much per month?",
     "options": [
       "Basic plan by £4.90",
       "Basic plan by £5.90",
@@ -3892,7 +3892,7 @@ const QUESTIONS = [
   {
     "id": 268,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Adam wants to spend maximum £60 per month on a mobile plan. Excluding any included minutes, what is the maximum number of additional minutes he can use if he has the premium plan?",
+    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='../test_9/image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Adam wants to spend maximum £60 per month on a mobile plan. Excluding any included minutes, what is the maximum number of additional minutes he can use if he has the premium plan?",
     "options": [
       "105 minutes",
       "145 minutes",
@@ -3907,7 +3907,7 @@ const QUESTIONS = [
   {
     "id": 269,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>All basic plan charges increase by 1p; the basic plan fee remains unchanged. Andrew sends 45 texts, and uses 125 minutes in the same network and 325 minutes in other networks on average. How much is he worse off?0p",
+    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='../test_9/image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>All basic plan charges increase by 1p; the basic plan fee remains unchanged. Andrew sends 45 texts, and uses 125 minutes in the same network and 325 minutes in other networks on average. How much is he worse off?0p",
     "options": [
       "75p",
       "£1.55",
@@ -3921,7 +3921,7 @@ const QUESTIONS = [
   {
     "id": 270,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Daisy does not send any text messages ever. She makes 800 minutes of calls in the same network. Which plan would be cheaper for Daisy and by how much?",
+    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='../test_9/image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Daisy does not send any text messages ever. She makes 800 minutes of calls in the same network. Which plan would be cheaper for Daisy and by how much?",
     "options": [
       "Basic plan by £2.10",
       "Premium plan by £5.75",
@@ -3936,7 +3936,7 @@ const QUESTIONS = [
   {
     "id": 271,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Kevin sends only text messages, 450 per month on average. If there were a 15% price increase in the monthly fee for both basic and premium plans, how much would Kevin save by changing to premium plan now?",
+    "text": "<strong>Scenario:</strong><br>Mobile Phone Plans Monthly fee for basic and premium plan fees: £45.29 and £47.89 respectively.<br><br><img src='../test_9/image/set_47.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Kevin sends only text messages, 450 per month on average. If there were a 15% price increase in the monthly fee for both basic and premium plans, how much would Kevin save by changing to premium plan now?",
     "options": [
       "£23.43",
       "£25.01",
@@ -3951,7 +3951,7 @@ const QUESTIONS = [
   {
     "id": 272,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the mean monthly snowfall in cm across Davos and Chamonix Mont- Blanc during winter in 2015?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the mean monthly snowfall in cm across Davos and Chamonix Mont- Blanc during winter in 2015?",
     "options": [
       "12.325 cm",
       "16.875 cm",
@@ -3966,7 +3966,7 @@ const QUESTIONS = [
   {
     "id": 273,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>During Winter 2015, where was the average monthly snowfall the highest?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>During Winter 2015, where was the average monthly snowfall the highest?",
     "options": [
       "Davos",
       "Chamonix Mont-Blanc",
@@ -3981,7 +3981,7 @@ const QUESTIONS = [
   {
     "id": 274,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, how much more snow fell in December than in February overall?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, how much more snow fell in December than in February overall?",
     "options": [
       "8%",
       "12%",
@@ -3996,7 +3996,7 @@ const QUESTIONS = [
   {
     "id": 275,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In November 2014, 30cm snow fell in the four areas together. In percentage terms, how much more snow fell in November 2015 in the four areas together?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In November 2014, 30cm snow fell in the four areas together. In percentage terms, how much more snow fell in November 2015 in the four areas together?",
     "options": [
       "5%",
       "17%",
@@ -4011,7 +4011,7 @@ const QUESTIONS = [
   {
     "id": 276,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much snow fell in Cortina d’ Ampezzo and Garmisch Partenkirchen in November and February together?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_48.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much snow fell in Cortina d’ Ampezzo and Garmisch Partenkirchen in November and February together?",
     "options": [
       "20 cm",
       "30 cm",
@@ -4026,7 +4026,7 @@ const QUESTIONS = [
   {
     "id": 277,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The greatest proportion of December expenses related to which client?",
+    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='../test_9/image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The greatest proportion of December expenses related to which client?",
     "options": [
       "HSBC",
       "Soros Fund Management",
@@ -4041,7 +4041,7 @@ const QUESTIONS = [
   {
     "id": 278,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total expense in December?",
+    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='../test_9/image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total expense in December?",
     "options": [
       "£121.50",
       "£137.60",
@@ -4056,7 +4056,7 @@ const QUESTIONS = [
   {
     "id": 279,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, how much more did Kevin spend on meals than on train tickets?",
+    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='../test_9/image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, how much more did Kevin spend on meals than on train tickets?",
     "options": [
       "35%",
       "41%",
@@ -4071,7 +4071,7 @@ const QUESTIONS = [
   {
     "id": 280,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many miles did Kevin travel by his car in December?",
+    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='../test_9/image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many miles did Kevin travel by his car in December?",
     "options": [
       "50.5 miles",
       "67.2 miles",
@@ -4086,7 +4086,7 @@ const QUESTIONS = [
   {
     "id": 281,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The company decides to change its policy from 2016 and only 75% of travel expenses and 90% of accommodation and meal expenses will be reimbursed. How much money would Kevin have lost in December if the new policy had been implemented already in 2015?",
+    "text": "<strong>Scenario:</strong><br>Please find below Kevin’s expenses for December 2015. Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter<br><br><img src='../test_9/image/set_49.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The company decides to change its policy from 2016 and only 75% of travel expenses and 90% of accommodation and meal expenses will be reimbursed. How much money would Kevin have lost in December if the new policy had been implemented already in 2015?",
     "options": [
       "£8.54",
       "£14.22",
@@ -4101,7 +4101,7 @@ const QUESTIONS = [
   {
     "id": 282,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much is the deposit for Alpha jet ski?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='../test_9/image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much is the deposit for Alpha jet ski?",
     "options": [
       "£20",
       "£30",
@@ -4116,7 +4116,7 @@ const QUESTIONS = [
   {
     "id": 283,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the total cost of renting a Beta and a Gamma jet ski for 6 hours each?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='../test_9/image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the total cost of renting a Beta and a Gamma jet ski for 6 hours each?",
     "options": [
       "£150",
       "£155",
@@ -4131,7 +4131,7 @@ const QUESTIONS = [
   {
     "id": 284,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Aron has £500 for jet ski renting. Which jet skis can he afford to rent for an hour?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='../test_9/image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Aron has £500 for jet ski renting. Which jet skis can he afford to rent for an hour?",
     "options": [
       "Alpha only",
       "Alpha and Beta and Gamma",
@@ -4146,7 +4146,7 @@ const QUESTIONS = [
   {
     "id": 285,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Andrew and Thomas want to rent Alpha and Gamma jet ski for three hours. How much will they pay in total?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='../test_9/image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Andrew and Thomas want to rent Alpha and Gamma jet ski for three hours. How much will they pay in total?",
     "options": [
       "£360",
       "£480",
@@ -4161,7 +4161,7 @@ const QUESTIONS = [
   {
     "id": 286,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the deposit for Delta jet ski is increased by 5% on Sundays, what will be the total cost of renting a Delta jet ski for 8 hours on a Sunday?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the cost of jet ski renting. There are four different jet skies: Alpha, Beta, Gamma and Delta. The deposit is non-refundable.<br><br><img src='../test_9/image/set_50.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the deposit for Delta jet ski is increased by 5% on Sundays, what will be the total cost of renting a Delta jet ski for 8 hours on a Sunday?",
     "options": [
       "£990",
       "£1200",
@@ -4176,7 +4176,7 @@ const QUESTIONS = [
   {
     "id": 287,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the price of the cheapest offer to East Asia in pounds (£)?",
+    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='../test_9/image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the price of the cheapest offer to East Asia in pounds (£)?",
     "options": [
       "£238",
       "£252",
@@ -4191,7 +4191,7 @@ const QUESTIONS = [
   {
     "id": 288,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>On average how much more expensive is it to choose a non-European destination with Good Fly than to choose a European one? (rounded up to one digit)",
+    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='../test_9/image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>On average how much more expensive is it to choose a non-European destination with Good Fly than to choose a European one? (rounded up to one digit)",
     "options": [
       "£185.2",
       "£186.3",
@@ -4206,7 +4206,7 @@ const QUESTIONS = [
   {
     "id": 289,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Take Me There decides to offer a 50$ discount on every travel to the Americas. In percentages, how much more expensive is the discounted ticket to North America than the original price offered by In The Air?",
+    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='../test_9/image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Take Me There decides to offer a 50$ discount on every travel to the Americas. In percentages, how much more expensive is the discounted ticket to North America than the original price offered by In The Air?",
     "options": [
       "2%",
       "4%",
@@ -4221,7 +4221,7 @@ const QUESTIONS = [
   {
     "id": 290,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Around The World only sells 10 tickets to Australia and 5 tickets to South America. Good Fly only sells 25 tickets to Europe and 12 tickets to Australia. Rounded to two decimals, what is the difference between the total revenues of these two companies, in percentage of the higher revenue?",
+    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='../test_9/image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Around The World only sells 10 tickets to Australia and 5 tickets to South America. Good Fly only sells 25 tickets to Europe and 12 tickets to Australia. Rounded to two decimals, what is the difference between the total revenues of these two companies, in percentage of the higher revenue?",
     "options": [
       "33.33%",
       "34.86%",
@@ -4236,7 +4236,7 @@ const QUESTIONS = [
   {
     "id": 291,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The £ to $ exchange rate changes in a way that £1 = 2.5$. In pounds, what is the difference between the original and the new ticket price of Take Me There to Australia?",
+    "text": "<strong>Scenario:</strong><br>Flight tickets to various regions from the UK Assumed exchange rate is 1£ = 2$ = 1.5€<br><br><img src='../test_9/image/set_51.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The £ to $ exchange rate changes in a way that £1 = 2.5$. In pounds, what is the difference between the original and the new ticket price of Take Me There to Australia?",
     "options": [
       "£55",
       "£58",
@@ -4251,7 +4251,7 @@ const QUESTIONS = [
   {
     "id": 292,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which industry has the largest contribution to Indian GDP?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which industry has the largest contribution to Indian GDP?",
     "options": [
       "Agriculture, Forestry and Fishing",
       "Construction",
@@ -4266,7 +4266,7 @@ const QUESTIONS = [
   {
     "id": 293,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Expressing ‘Government and Other Services’ as a percentage of ‘Business Services and Finance’, what is the difference between these ratios in India and the UK?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Expressing ‘Government and Other Services’ as a percentage of ‘Business Services and Finance’, what is the difference between these ratios in India and the UK?",
     "options": [
       "10%",
       "12%",
@@ -4281,7 +4281,7 @@ const QUESTIONS = [
   {
     "id": 294,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What are the top three contributing sectors to Indian GDP?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What are the top three contributing sectors to Indian GDP?",
     "options": [
       "Business Services Finance; Distribution, Hotels and Catering; Manufacturing",
       "Agriculture, Forestry and Fishing; Business Services Finance; Manufacturing",
@@ -4296,7 +4296,7 @@ const QUESTIONS = [
   {
     "id": 295,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the Indian GDP was £2 trillion and the UK GDP was £4.2 trillion in 2014. How much more did the bottom two performing sectors contribute to the UK GDP than to the Indian GDP?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the Indian GDP was £2 trillion and the UK GDP was £4.2 trillion in 2014. How much more did the bottom two performing sectors contribute to the UK GDP than to the Indian GDP?",
     "options": [
       "£10 Billion",
       "£15 Billion",
@@ -4311,7 +4311,7 @@ const QUESTIONS = [
   {
     "id": 296,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><br><br><img src='image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the Indian GDP was £2 trillion and the UK GDP was £4.2 trillion in 2014. In monetary terms which sector was the largest?",
+    "text": "<strong>Scenario:</strong><br><br><br><img src='../test_9/image/set_52.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the Indian GDP was £2 trillion and the UK GDP was £4.2 trillion in 2014. In monetary terms which sector was the largest?",
     "options": [
       "Business Services and Finance in the India with £400 Billion",
       "Business Services and Finance in the UK with £400 Billion",
@@ -4326,7 +4326,7 @@ const QUESTIONS = [
   {
     "id": 297,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much USD could you get for 1500 Yen in 2011?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='../test_9/image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much USD could you get for 1500 Yen in 2011?",
     "options": [
       "USD 19.50",
       "USD 21.00",
@@ -4341,7 +4341,7 @@ const QUESTIONS = [
   {
     "id": 298,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the GBP/USD average exchange rate in 2013 based on the information available?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='../test_9/image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the GBP/USD average exchange rate in 2013 based on the information available?",
     "options": [
       "0.85",
       "0.92",
@@ -4356,7 +4356,7 @@ const QUESTIONS = [
   {
     "id": 299,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, what was the increase in JPY/CAD exchange rate between 2011 and 2012?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='../test_9/image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In percentage terms, what was the increase in JPY/CAD exchange rate between 2011 and 2012?",
     "options": [
       "3.5%",
       "3.9%",
@@ -4371,7 +4371,7 @@ const QUESTIONS = [
   {
     "id": 300,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more JPY would I have received for USD 1300 in 2010 than in 2013?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='../test_9/image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more JPY would I have received for USD 1300 in 2010 than in 2013?",
     "options": [
       "JPY 43,333",
       "JPY 45,000",
@@ -4386,7 +4386,7 @@ const QUESTIONS = [
   {
     "id": 301,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which exchange rate has been the least volatile between 2010 and 2013?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the average value of 1 Japanese Yen (JPY).<br><br><img src='../test_9/image/set_53.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which exchange rate has been the least volatile between 2010 and 2013?",
     "options": [
       "CAD",
       "USD",
@@ -4401,7 +4401,7 @@ const QUESTIONS = [
   {
     "id": 302,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In which city was the population growth the largest between 2009 and 2014?",
+    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='../test_9/image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In which city was the population growth the largest between 2009 and 2014?",
     "options": [
       "Boston",
       "Chicago",
@@ -4416,7 +4416,7 @@ const QUESTIONS = [
   {
     "id": 303,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In which city was the growth in the number of cars used the largest between 2009 and 2014?",
+    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='../test_9/image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In which city was the growth in the number of cars used the largest between 2009 and 2014?",
     "options": [
       "Boston",
       "Chicago",
@@ -4431,7 +4431,7 @@ const QUESTIONS = [
   {
     "id": 304,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In which city was the number of cars per person the lowest in 2014?",
+    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='../test_9/image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In which city was the number of cars per person the lowest in 2014?",
     "options": [
       "Boston",
       "Chicago",
@@ -4446,7 +4446,7 @@ const QUESTIONS = [
   {
     "id": 305,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In which city was the change in the number of cars per person the largest between 2009 and 2014?",
+    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='../test_9/image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In which city was the change in the number of cars per person the largest between 2009 and 2014?",
     "options": [
       "Boston",
       "Chicago",
@@ -4461,7 +4461,7 @@ const QUESTIONS = [
   {
     "id": 306,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the number of cars per person in 2009 and 2014 in Boston?",
+    "text": "<strong>Scenario:</strong><br>The table below shows changes in car use and population in four American cities between 2009 and 2014.<br><br><img src='../test_9/image/set_54.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the number of cars per person in 2009 and 2014 in Boston?",
     "options": [
       "0.0064",
       "0.035",
@@ -4476,7 +4476,7 @@ const QUESTIONS = [
   {
     "id": 307,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Adam earned £37,000 in 2014-15. How much income was deducted from his salary during that year?",
+    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='../test_9/image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Adam earned £37,000 in 2014-15. How much income was deducted from his salary during that year?",
     "options": [
       "£4560",
       "£6730",
@@ -4491,7 +4491,7 @@ const QUESTIONS = [
   {
     "id": 308,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Bruno and Lewis each have a part-time job at a local pub and each earned £7,000 per year in 2014-15. What is the difference between their annual incomes after\n\n\nincome tax has been deducted?",
+    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='../test_9/image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Bruno and Lewis each have a part-time job at a local pub and each earned £7,000 per year in 2014-15. What is the difference between their annual incomes after\n\n\nincome tax has been deducted?",
     "options": [
       "£0",
       "£50",
@@ -4506,7 +4506,7 @@ const QUESTIONS = [
   {
     "id": 309,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Courtney received £42,000 in the tax year 2014-15. What was her average monthly income tax deduction?",
+    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='../test_9/image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Courtney received £42,000 in the tax year 2014-15. What was her average monthly income tax deduction?",
     "options": [
       "£878.98",
       "£898.98",
@@ -4521,7 +4521,7 @@ const QUESTIONS = [
   {
     "id": 310,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Adam earned a performance bonus of £4,000 in 2014-15, increasing his salary from £37,000 to £41.000. By how much did his income tax change from what it would have been for this year without the performance bonus?",
+    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='../test_9/image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Adam earned a performance bonus of £4,000 in 2014-15, increasing his salary from £37,000 to £41.000. By how much did his income tax change from what it would have been for this year without the performance bonus?",
     "options": [
       "£1200",
       "£1600",
@@ -4536,7 +4536,7 @@ const QUESTIONS = [
   {
     "id": 311,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much did the starting rate upper bound change from 2014-15 to 2015-16?",
+    "text": "<strong>Scenario:</strong><br>The table shows the change in tax rates and bands from tax year 2014-15 to 2015-16. Family: Adam, Lewis, Courtney and Bruno<br><br><img src='../test_9/image/set_55.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much did the starting rate upper bound change from 2014-15 to 2015-16?",
     "options": [
       "£80 decrease",
       "£150 decrease",
@@ -4551,7 +4551,7 @@ const QUESTIONS = [
   {
     "id": 312,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Who received the highest bonus?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='../test_9/image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Who received the highest bonus?",
     "options": [
       "Adam",
       "John",
@@ -4566,7 +4566,7 @@ const QUESTIONS = [
   {
     "id": 313,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the average sales per project generated by Daniel?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='../test_9/image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the average sales per project generated by Daniel?",
     "options": [
       "£83,755,000",
       "£93,450,000",
@@ -4581,7 +4581,7 @@ const QUESTIONS = [
   {
     "id": 314,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much bonus did Richard and Adam receive together?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='../test_9/image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much bonus did Richard and Adam receive together?",
     "options": [
       "£5,500,000",
       "£6,000,000",
@@ -4596,7 +4596,7 @@ const QUESTIONS = [
   {
     "id": 315,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Whose customer satisfaction rate was the highest?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='../test_9/image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Whose customer satisfaction rate was the highest?",
     "options": [
       "Adam",
       "John",
@@ -4611,7 +4611,7 @@ const QUESTIONS = [
   {
     "id": 316,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much was the total sales generated by the four partners together?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the annual summary for performance evaluation of four partners at a management consulting firm. The bonus earned is calculated by multiplying the total sales by the bonus rate.<br><br><img src='../test_9/image/set_56.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much was the total sales generated by the four partners together?",
     "options": [
       "£1,029,603,000",
       "£1,135,150,000",
@@ -4626,7 +4626,7 @@ const QUESTIONS = [
   {
     "id": 317,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the share price of GSK yesterday?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='../test_9/image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the share price of GSK yesterday?",
     "options": [
       "£132.873",
       "£134.157",
@@ -4641,7 +4641,7 @@ const QUESTIONS = [
   {
     "id": 318,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was difference between the daily highest and lowest price of British Land?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='../test_9/image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was difference between the daily highest and lowest price of British Land?",
     "options": [
       "£0",
       "£0.01",
@@ -4656,7 +4656,7 @@ const QUESTIONS = [
   {
     "id": 319,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the market capitalisation of HSBC yesterday assuming that the volume is unchanged?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='../test_9/image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the market capitalisation of HSBC yesterday assuming that the volume is unchanged?",
     "options": [
       "£186,250,178.618",
       "£186,350,178.618",
@@ -4671,7 +4671,7 @@ const QUESTIONS = [
   {
     "id": 320,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which company’s actual share price changed the most from yesterday?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='../test_9/image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which company’s actual share price changed the most from yesterday?",
     "options": [
       "HSBC",
       "British Land",
@@ -4686,7 +4686,7 @@ const QUESTIONS = [
   {
     "id": 321,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the latest market capitalisation of BP and British Land?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the daily share price movements of four UK companies: Market Capitalisation is calculated as: number of shares outstanding (volume) multiplied by share price<br><br><img src='../test_9/image/set_57.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the difference between the latest market capitalisation of BP and British Land?",
     "options": [
       "993,441,229.268",
       "993,941,234.268",
@@ -4701,7 +4701,7 @@ const QUESTIONS = [
   {
     "id": 322,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>For which course is the ratio of women and men most similar to that of Psychology?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>For which course is the ratio of women and men most similar to that of Psychology?",
     "options": [
       "Mathematics",
       "Physics",
@@ -4716,7 +4716,7 @@ const QUESTIONS = [
   {
     "id": 323,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>For which course is the ratio of women and men most similar to that of Physics?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>For which course is the ratio of women and men most similar to that of Physics?",
     "options": [
       "Mathematics",
       "Psychology",
@@ -4731,7 +4731,7 @@ const QUESTIONS = [
   {
     "id": 324,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total number of women in St. Mary Grammar School?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total number of women in St. Mary Grammar School?",
     "options": [
       "34",
       "51",
@@ -4746,7 +4746,7 @@ const QUESTIONS = [
   {
     "id": 325,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total proportion of women to men?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total proportion of women to men?",
     "options": [
       "0.25",
       "0.5",
@@ -4761,7 +4761,7 @@ const QUESTIONS = [
   {
     "id": 326,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If three new students arrive at St. Mary Grammar School and they are all women studying Psychology. What is the change in the ratio of women to men studying Psychology?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If three new students arrive at St. Mary Grammar School and they are all women studying Psychology. What is the change in the ratio of women to men studying Psychology?",
     "options": [
       "0.1",
       "0.3",
@@ -4776,7 +4776,7 @@ const QUESTIONS = [
   {
     "id": 327,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The difference between the percentage of women and men in employment is:",
+    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='../test_9/image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The difference between the percentage of women and men in employment is:",
     "options": [
       "0.6",
       "0.7",
@@ -4791,7 +4791,7 @@ const QUESTIONS = [
   {
     "id": 328,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The proportion of men to women self-employed or unemployed is:",
+    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='../test_9/image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The proportion of men to women self-employed or unemployed is:",
     "options": [
       "0.1",
       "0.5",
@@ -4806,7 +4806,7 @@ const QUESTIONS = [
   {
     "id": 329,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If there are overall 21 million women in employment in the UK how many women are self-employed?",
+    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='../test_9/image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If there are overall 21 million women in employment in the UK how many women are self-employed?",
     "options": [
       "0.59 million",
       "0.86 million",
@@ -4821,7 +4821,7 @@ const QUESTIONS = [
   {
     "id": 330,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If there are 31 million men and 32 million women living in the UK, how many more women are unemployed than men?",
+    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='../test_9/image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If there are 31 million men and 32 million women living in the UK, how many more women are unemployed than men?",
     "options": [
       "285,000",
       "423,000",
@@ -4836,7 +4836,7 @@ const QUESTIONS = [
   {
     "id": 331,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the proportion of employed to unemployed women in the UK?",
+    "text": "<strong>Scenario:</strong><br>This graph below shows the employment statistics (in percentages) of the men and women living in the UK in September 2015. A person is considered being in employment if they are shown as employed, self-employed, or “employed other”.<br><br><img src='../test_9/image/set_59.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the proportion of employed to unemployed women in the UK?",
     "options": [
       "2.87",
       "5.43",
@@ -4851,7 +4851,7 @@ const QUESTIONS = [
   {
     "id": 332,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much was their energy cost (electricity and gas) this month?",
+    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='../test_9/image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much was their energy cost (electricity and gas) this month?",
     "options": [
       "65 pounds",
       "85 pounds",
@@ -4866,7 +4866,7 @@ const QUESTIONS = [
   {
     "id": 333,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the ratio of household purchases, travel and gas costs to energy costs (electricity and gas)?",
+    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='../test_9/image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the ratio of household purchases, travel and gas costs to energy costs (electricity and gas)?",
     "options": [
       "0.5:1",
       "1:1",
@@ -4881,7 +4881,7 @@ const QUESTIONS = [
   {
     "id": 334,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which cost item was the greatest this month?",
+    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='../test_9/image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which cost item was the greatest this month?",
     "options": [
       "Gas",
       "Travel",
@@ -4896,7 +4896,7 @@ const QUESTIONS = [
   {
     "id": 335,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the total cost of household purchases, travel and gas costs was 180 pounds. How much were the energy costs in total this month?",
+    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='../test_9/image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the total cost of household purchases, travel and gas costs was 180 pounds. How much were the energy costs in total this month?",
     "options": [
       "80 pounds",
       "87.5 pounds",
@@ -4911,7 +4911,7 @@ const QUESTIONS = [
   {
     "id": 336,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which was the smallest cost item this month?",
+    "text": "<strong>Scenario:</strong><br>This chart shows the expenses of the Jones household for this month. Overall they spent 360 pounds.<br><br><img src='../test_9/image/set_60.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which was the smallest cost item this month?",
     "options": [
       "Gas",
       "Travel",
@@ -4926,7 +4926,7 @@ const QUESTIONS = [
   {
     "id": 337,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the annual sales of Spiral Enterprises in different parts of the country.<br><br><img src='image/set_252.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which region had the highest average sales for the 3 years shown?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the annual sales of Spiral Enterprises in different parts of the country.<br><br><img src='../test_12/image/set_252.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which region had the highest average sales for the 3 years shown?",
     "options": [
       "Northwest",
       "Southwest",
@@ -4941,7 +4941,7 @@ const QUESTIONS = [
   {
     "id": 338,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the annual sales of Spiral Enterprises in different parts of the country.<br><br><img src='image/set_252.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which region had the highest sales in 2014?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the annual sales of Spiral Enterprises in different parts of the country.<br><br><img src='../test_12/image/set_252.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which region had the highest sales in 2014?",
     "options": [
       "Northwest",
       "Southeast",
@@ -4956,7 +4956,7 @@ const QUESTIONS = [
   {
     "id": 339,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the annual sales of Spiral Enterprises in different parts of the country.<br><br><img src='image/set_252.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which region experienced the greatest growth percentage in sales from 2012 to 2014?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the annual sales of Spiral Enterprises in different parts of the country.<br><br><img src='../test_12/image/set_252.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which region experienced the greatest growth percentage in sales from 2012 to 2014?",
     "options": [
       "Northwest",
       "Southwest",
@@ -4971,7 +4971,7 @@ const QUESTIONS = [
   {
     "id": 340,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The graph below shows the annual sales of Spiral Enterprises in different parts of the country.<br><br><img src='image/set_252.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What were the total sales for all five regions in the year with the highest total sales?",
+    "text": "<strong>Scenario:</strong><br>The graph below shows the annual sales of Spiral Enterprises in different parts of the country.<br><br><img src='../test_12/image/set_252.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What were the total sales for all five regions in the year with the highest total sales?",
     "options": [
       "170,000",
       "215,000",
@@ -4986,7 +4986,7 @@ const QUESTIONS = [
   {
     "id": 341,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The diagram below shows the floor plan of a new suite of offices for a small company.<br><br><img src='image/set_253.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The director's office is 108 square feet smaller than the conference room. What is the area of the conference  room, in square feet?",
+    "text": "<strong>Scenario:</strong><br>The diagram below shows the floor plan of a new suite of offices for a small company.<br><br><img src='../test_12/image/set_253.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The director's office is 108 square feet smaller than the conference room. What is the area of the conference  room, in square feet?",
     "options": [
       "306",
       "414",
@@ -5001,7 +5001,7 @@ const QUESTIONS = [
   {
     "id": 342,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The diagram below shows the floor plan of a new suite of offices for a small company.<br><br><img src='image/set_253.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total area of the reception/front office room?",
+    "text": "<strong>Scenario:</strong><br>The diagram below shows the floor plan of a new suite of offices for a small company.<br><br><img src='../test_12/image/set_253.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total area of the reception/front office room?",
     "options": [
       "306 ft2",
       "484 ft2",
@@ -5016,7 +5016,7 @@ const QUESTIONS = [
   {
     "id": 343,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The diagram below shows the floor plan of a new suite of offices for a small company.<br><br><img src='image/set_253.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What are the dimensions of the reception area?",
+    "text": "<strong>Scenario:</strong><br>The diagram below shows the floor plan of a new suite of offices for a small company.<br><br><img src='../test_12/image/set_253.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What are the dimensions of the reception area?",
     "options": [
       "17 ft × 18 ft",
       "15 ft × 20.4 ft",
@@ -5031,7 +5031,7 @@ const QUESTIONS = [
   {
     "id": 344,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The diagram below shows the floor plan of a new suite of offices for a small company.<br><br><img src='image/set_253.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total cost of carpeting the entire suite of offices, except for the reception area?",
+    "text": "<strong>Scenario:</strong><br>The diagram below shows the floor plan of a new suite of offices for a small company.<br><br><img src='../test_12/image/set_253.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total cost of carpeting the entire suite of offices, except for the reception area?",
     "options": [
       "£3,851.42",
       "£4,766.06",
@@ -5046,7 +5046,7 @@ const QUESTIONS = [
   {
     "id": 345,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the six friends scored the highest in Science?",
+    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the six friends scored the highest in Science?",
     "options": [
       "Amanda",
       "David",
@@ -5061,7 +5061,7 @@ const QUESTIONS = [
   {
     "id": 346,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Who scored the best across all subjects?",
+    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Who scored the best across all subjects?",
     "options": [
       "Amanda",
       "Derek",
@@ -5076,7 +5076,7 @@ const QUESTIONS = [
   {
     "id": 347,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>David resits his English exam, and scores 36/60. What is the percentage rise in his English score?",
+    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>David resits his English exam, and scores 36/60. What is the percentage rise in his English score?",
     "options": [
       "60%",
       "80%",
@@ -5091,7 +5091,7 @@ const QUESTIONS = [
   {
     "id": 348,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the mean score of all the Science marks of all six friends to the nearest integer?",
+    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the mean score of all the Science marks of all six friends to the nearest integer?",
     "options": [
       "69/100",
       "75/100",
@@ -5106,7 +5106,7 @@ const QUESTIONS = [
   {
     "id": 349,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below are the profits Equinox Holdings made from their different businesses across sectors including Retail, Leisure, Commercial and Industrial in the past three years.<br><br><img src='image/set_255.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much profit did businesses in the Retail sector make in 2014?",
+    "text": "<strong>Scenario:</strong><br>Below are the profits Equinox Holdings made from their different businesses across sectors including Retail, Leisure, Commercial and Industrial in the past three years.<br><br><img src='../test_12/image/set_255.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much profit did businesses in the Retail sector make in 2014?",
     "options": [
       "£2,400,000",
       "£2,600,000",
@@ -5121,7 +5121,7 @@ const QUESTIONS = [
   {
     "id": 350,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below are the profits Equinox Holdings made from their different businesses across sectors including Retail, Leisure, Commercial and Industrial in the past three years.<br><br><img src='image/set_255.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much profit did businesses in the Leisure sector make in 2015?",
+    "text": "<strong>Scenario:</strong><br>Below are the profits Equinox Holdings made from their different businesses across sectors including Retail, Leisure, Commercial and Industrial in the past three years.<br><br><img src='../test_12/image/set_255.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much profit did businesses in the Leisure sector make in 2015?",
     "options": [
       "£1,200,000",
       "£1,600,000",
@@ -5136,7 +5136,7 @@ const QUESTIONS = [
   {
     "id": 351,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below are the profits Equinox Holdings made from their different businesses across sectors including Retail, Leisure, Commercial and Industrial in the past three years.<br><br><img src='image/set_255.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The profits of the Commercial sector increased by what percentage from 2013 to 2014?",
+    "text": "<strong>Scenario:</strong><br>Below are the profits Equinox Holdings made from their different businesses across sectors including Retail, Leisure, Commercial and Industrial in the past three years.<br><br><img src='../test_12/image/set_255.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The profits of the Commercial sector increased by what percentage from 2013 to 2014?",
     "options": [
       "20%",
       "25%",
@@ -5151,7 +5151,7 @@ const QUESTIONS = [
   {
     "id": 352,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below are the profits Equinox Holdings made from their different businesses across sectors including Retail, Leisure, Commercial and Industrial in the past three years.<br><br><img src='image/set_255.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the total profit across all business sectors in 2014?",
+    "text": "<strong>Scenario:</strong><br>Below are the profits Equinox Holdings made from their different businesses across sectors including Retail, Leisure, Commercial and Industrial in the past three years.<br><br><img src='../test_12/image/set_255.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the total profit across all business sectors in 2014?",
     "options": [
       "£7.8 million",
       "£8.6 million",
@@ -5166,7 +5166,7 @@ const QUESTIONS = [
   {
     "id": 353,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A medical school surveyed its 336 first-year students, and asked them to pick their favourite module from the year. All students selected one option only, as illustrated in the table.<br><br><img src='image/set_256.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>According to the survey, what is the most preferred module?",
+    "text": "<strong>Scenario:</strong><br>A medical school surveyed its 336 first-year students, and asked them to pick their favourite module from the year. All students selected one option only, as illustrated in the table.<br><br><img src='../test_12/image/set_256.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>According to the survey, what is the most preferred module?",
     "options": [
       "Cellular Biology",
       "Genetics",
@@ -5181,7 +5181,7 @@ const QUESTIONS = [
   {
     "id": 354,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A medical school surveyed its 336 first-year students, and asked them to pick their favourite module from the year. All students selected one option only, as illustrated in the table.<br><br><img src='image/set_256.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of students chose one of the three most popular modules as their favourite? A\t 1:4",
+    "text": "<strong>Scenario:</strong><br>A medical school surveyed its 336 first-year students, and asked them to pick their favourite module from the year. All students selected one option only, as illustrated in the table.<br><br><img src='../test_12/image/set_256.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of students chose one of the three most popular modules as their favourite? A\t 1:4",
     "options": [
       "3:7",
       "4:9",
@@ -5195,7 +5195,7 @@ const QUESTIONS = [
   {
     "id": 355,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A medical school surveyed its 336 first-year students, and asked them to pick their favourite module from the year. All students selected one option only, as illustrated in the table.<br><br><img src='image/set_256.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of students chose Physiology as their favourite module?",
+    "text": "<strong>Scenario:</strong><br>A medical school surveyed its 336 first-year students, and asked them to pick their favourite module from the year. All students selected one option only, as illustrated in the table.<br><br><img src='../test_12/image/set_256.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What percentage of students chose Physiology as their favourite module?",
     "options": [
       "1%",
       "2%",
@@ -5210,7 +5210,7 @@ const QUESTIONS = [
   {
     "id": 356,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A medical school surveyed its 336 first-year students, and asked them to pick their favourite module from the year. All students selected one option only, as illustrated in the table.<br><br><img src='image/set_256.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which module was selected as the favourite by the fewest students?",
+    "text": "<strong>Scenario:</strong><br>A medical school surveyed its 336 first-year students, and asked them to pick their favourite module from the year. All students selected one option only, as illustrated in the table.<br><br><img src='../test_12/image/set_256.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which module was selected as the favourite by the fewest students?",
     "options": [
       "Ethics",
       "Pathology",
@@ -5285,7 +5285,7 @@ const QUESTIONS = [
   {
     "id": 361,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Mr Johnston has a circular area in his garden that he wishes to renovate. The radius of this area is 5 metres. He has two options for the ground work in the garden and the cost of purchasing the materials for these is listed in the table below.<br><br><img src='image/set_258.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Mr Johnston uses lawn turf on the entire circular garden, how much will the materials cost?",
+    "text": "<strong>Scenario:</strong><br>Mr Johnston has a circular area in his garden that he wishes to renovate. The radius of this area is 5 metres. He has two options for the ground work in the garden and the cost of purchasing the materials for these is listed in the table below.<br><br><img src='../test_12/image/set_258.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Mr Johnston uses lawn turf on the entire circular garden, how much will the materials cost?",
     "options": [
       "£78.50",
       "£95.50",
@@ -5300,7 +5300,7 @@ const QUESTIONS = [
   {
     "id": 362,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Mr Johnston has a circular area in his garden that he wishes to renovate. The radius of this area is 5 metres. He has two options for the ground work in the garden and the cost of purchasing the materials for these is listed in the table below.<br><br><img src='image/set_258.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Mr Johnston uses paving slabs on the entire circular garden, how much will the materials cost?",
+    "text": "<strong>Scenario:</strong><br>Mr Johnston has a circular area in his garden that he wishes to renovate. The radius of this area is 5 metres. He has two options for the ground work in the garden and the cost of purchasing the materials for these is listed in the table below.<br><br><img src='../test_12/image/set_258.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Mr Johnston uses paving slabs on the entire circular garden, how much will the materials cost?",
     "options": [
       "£235.50",
       "£471.00",
@@ -5315,7 +5315,7 @@ const QUESTIONS = [
   {
     "id": 363,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Mr Johnston has a circular area in his garden that he wishes to renovate. The radius of this area is 5 metres. He has two options for the ground work in the garden and the cost of purchasing the materials for these is listed in the table below.<br><br><img src='image/set_258.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Mr Johnston has a budget of £750 for the renovation project. If he uses paving slabs across the entire gar- den, how much money will he have left in his budget after considering material and labour costs?",
+    "text": "<strong>Scenario:</strong><br>Mr Johnston has a circular area in his garden that he wishes to renovate. The radius of this area is 5 metres. He has two options for the ground work in the garden and the cost of purchasing the materials for these is listed in the table below.<br><br><img src='../test_12/image/set_258.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Mr Johnston has a budget of £750 for the renovation project. If he uses paving slabs across the entire gar- den, how much money will he have left in his budget after considering material and labour costs?",
     "options": [
       "£14.00",
       "£43.50",
@@ -5330,7 +5330,7 @@ const QUESTIONS = [
   {
     "id": 364,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Mr Johnston has a circular area in his garden that he wishes to renovate. The radius of this area is 5 metres. He has two options for the ground work in the garden and the cost of purchasing the materials for these is listed in the table below.<br><br><img src='image/set_258.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Mr Johnston decides to put a new circular garden fountain with a diameter of 2 m in the middle of the  garden. What is the area of the garden that is not covered by the new fountain?",
+    "text": "<strong>Scenario:</strong><br>Mr Johnston has a circular area in his garden that he wishes to renovate. The radius of this area is 5 metres. He has two options for the ground work in the garden and the cost of purchasing the materials for these is listed in the table below.<br><br><img src='../test_12/image/set_258.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Mr Johnston decides to put a new circular garden fountain with a diameter of 2 m in the middle of the  garden. What is the area of the garden that is not covered by the new fountain?",
     "options": [
       "56.2 m",
       "65.9 m",
@@ -5345,7 +5345,7 @@ const QUESTIONS = [
   {
     "id": 365,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The trend in gold and silver prices per ounce in a recent decade is shown below. Gold and silver are both traded in US dollars.<br><br><img src='image/set_259.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Approximately what was the price of gold in dollars per ounce in 2007?",
+    "text": "<strong>Scenario:</strong><br>The trend in gold and silver prices per ounce in a recent decade is shown below. Gold and silver are both traded in US dollars.<br><br><img src='../test_12/image/set_259.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Approximately what was the price of gold in dollars per ounce in 2007?",
     "options": [
       "550",
       "590",
@@ -5360,7 +5360,7 @@ const QUESTIONS = [
   {
     "id": 366,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The trend in gold and silver prices per ounce in a recent decade is shown below. Gold and silver are both traded in US dollars.<br><br><img src='image/set_259.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which year recorded the greatest difference between gold and silver, in price per ounce?",
+    "text": "<strong>Scenario:</strong><br>The trend in gold and silver prices per ounce in a recent decade is shown below. Gold and silver are both traded in US dollars.<br><br><img src='../test_12/image/set_259.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which year recorded the greatest difference between gold and silver, in price per ounce?",
     "options": [
       "2002",
       "2003",
@@ -5375,7 +5375,7 @@ const QUESTIONS = [
   {
     "id": 367,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The trend in gold and silver prices per ounce in a recent decade is shown below. Gold and silver are both traded in US dollars.<br><br><img src='image/set_259.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>By what percentage did silver increase in price per ounce from 2000 to 2010?",
+    "text": "<strong>Scenario:</strong><br>The trend in gold and silver prices per ounce in a recent decade is shown below. Gold and silver are both traded in US dollars.<br><br><img src='../test_12/image/set_259.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>By what percentage did silver increase in price per ounce from 2000 to 2010?",
     "options": [
       "183%",
       "240%",
@@ -5390,7 +5390,7 @@ const QUESTIONS = [
   {
     "id": 368,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The trend in gold and silver prices per ounce in a recent decade is shown below. Gold and silver are both traded in US dollars.<br><br><img src='image/set_259.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At 2010 prices, how many ounces of silver could you buy for the value of 100 ounces of gold?",
+    "text": "<strong>Scenario:</strong><br>The trend in gold and silver prices per ounce in a recent decade is shown below. Gold and silver are both traded in US dollars.<br><br><img src='../test_12/image/set_259.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At 2010 prices, how many ounces of silver could you buy for the value of 100 ounces of gold?",
     "options": [
       "104",
       "620",

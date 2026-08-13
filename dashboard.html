@@ -1219,6 +1219,45 @@
       'UCAT Situational Judgement Mock 3 Test': { q: './test_14/question_14.js', dir: './test_14' }
     };
 
+    // ── Fix Image Paths for deployment consistency ────────────────
+    function fixAllImagePaths(obj, dir) {
+      if (!obj) return obj;
+      let cleanDir = '';
+      if (dir) {
+        cleanDir = dir.replace(/^\.\//, '').replace(/\/$/, '');
+      }
+      function fixHTML(str) {
+        if (!str || typeof str !== 'string') return str;
+        // 1. Strip "../" from "../test_X/..."
+        str = str.replace(/src=(['"])\.\.\/(test_[^'"]+)/g, 'src=$1$2');
+        // 2. Prepend cleanDir to raw "image/" or "images/" paths if cleanDir is specified
+        if (cleanDir && cleanDir !== '.') {
+          str = str.replace(/src=(['"])(images?\/[^'"]+)/g, `src=$1${cleanDir}/$2`);
+        }
+        return str;
+      }
+      if (typeof obj === 'string') {
+        return fixHTML(obj);
+      }
+      if (Array.isArray(obj)) {
+        return obj.map(item => fixAllImagePaths(item, dir));
+      }
+      if (typeof obj === 'object') {
+        for (const key in obj) {
+          if (obj.hasOwnProperty(key)) {
+            if (typeof obj[key] === 'string' && (key === 'text' || key === 'explanation' || key === 'passageText')) {
+              obj[key] = fixHTML(obj[key]);
+            } else if (key === 'options' && Array.isArray(obj[key])) {
+              obj[key] = obj[key].map(opt => typeof opt === 'string' ? fixHTML(opt) : opt);
+            } else if (typeof obj[key] === 'object') {
+              obj[key] = fixAllImagePaths(obj[key], dir);
+            }
+          }
+        }
+      }
+      return obj;
+    }
+
     const loadedQuestionsCache = {};
     const loadedImagesCache = {};
 
@@ -1267,14 +1306,15 @@
                 });
               }
             });
-            loadedQuestionsCache[topicName] = qs;
-            resolve(qs);
+            loadedQuestionsCache[topicName] = fixAllImagePaths(qs, '.');
+            resolve(loadedQuestionsCache[topicName]);
             return;
           }
         }
 
         const mapping = getTopicMapping(topicName);
         const path = mapping ? mapping.q : null;
+        const dir = mapping ? mapping.dir : null;
         if (!path) {
           resolve(null);
           return;
@@ -1292,8 +1332,8 @@
               try {
                 const qs = iframe.contentWindow.QUESTIONS;
                 if (qs && Array.isArray(qs)) {
-                  loadedQuestionsCache[topicName] = qs;
-                  resolve(qs);
+                  loadedQuestionsCache[topicName] = fixAllImagePaths(qs, dir);
+                  resolve(loadedQuestionsCache[topicName]);
                 } else {
                   resolve(null);
                 }
@@ -1324,8 +1364,8 @@
               const fn = new Function(code);
               const result = fn();
               if (result && Array.isArray(result)) {
-                loadedQuestionsCache[topicName] = result;
-                resolve(result);
+                loadedQuestionsCache[topicName] = fixAllImagePaths(result, dir);
+                resolve(loadedQuestionsCache[topicName]);
               } else {
                 throw new Error("Eval did not yield array");
               }
@@ -1747,6 +1787,8 @@
           });
         }
       }
+
+      details = fixAllImagePaths(details, dir);
 
       // Check if test is a Full Mock Test
       const topicLower = (t.topic || '').toLowerCase();
@@ -2222,6 +2264,7 @@
                 };
               });
             }
+            details = fixAllImagePaths(details, topicData ? topicData.dir : '.');
             allDetails.push({
               testName: t.topic || `Test ${testIndex + 1}`,
               details,

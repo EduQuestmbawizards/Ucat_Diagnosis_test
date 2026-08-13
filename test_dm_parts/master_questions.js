@@ -1,6 +1,6 @@
 // Auto-generated master questions file for Decision Making
 // Total: 207 questions from question_3.js, question_8.js, question_13.js
-// Generated: 2026-08-12T05:19:03.034Z
+// Generated: 2026-08-13T05:17:46.851Z
 
 const PASSAGES = {};
 
@@ -2402,7 +2402,7 @@ const QUESTIONS = [
   {
     "id": 180,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 2D, 3, 9, 10(7)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 2D, 3, 9, 10(7)",
     "options": [
       "The human stopped the leader of the moon voyage.",
       "Humans stop the journey leader on the moon.",
@@ -2417,7 +2417,7 @@ const QUESTIONS = [
   {
     "id": 181,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: F4, 12(7), F2, A7, F2",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: F4, 12(7), F2, A7, F2",
     "options": [
       "The distance between planets was too far to travel.",
       "We flew a great distance between planets.",
@@ -2432,7 +2432,7 @@ const QUESTIONS = [
   {
     "id": 182,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: The aliens don't eat plants.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: The aliens don't eat plants.",
     "options": [
       "G16, B14, 4(F5)",
       "16, 14, 4(F3)",
@@ -2447,7 +2447,7 @@ const QUESTIONS = [
   {
     "id": 183,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: F4, F9, 5, 16(BJ)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: F4, F9, 5, 16(BJ)",
     "options": [
       "We stopped opposite the house with no plants.",
       "We went to the house with no plants.",
@@ -2462,7 +2462,7 @@ const QUESTIONS = [
   {
     "id": 184,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: J3, 12(13), FJ(JC)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: J3, 12(13), FJ(JC)",
     "options": [
       "Growing humans use up more air from the tank.",
       "More humans will use up the air tanks.",
@@ -2477,7 +2477,7 @@ const QUESTIONS = [
   {
     "id": 185,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: A new planet with plants is our new home.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: A new planet with plants is our new home.",
     "options": [
       "K(F2, 16), K(5, F4)",
       "K(F2), J16, K5, J(F4)",
@@ -2492,7 +2492,7 @@ const QUESTIONS = [
   {
     "id": 186,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 6(A8(14), AC(7D)), E11",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 6(A8(14), AC(7D)), E11",
     "options": [
       "In future, the rocket ship will journey into space.",
       "Tomorrow, the ship burns the rockets.",
@@ -2507,7 +2507,7 @@ const QUESTIONS = [
   {
     "id": 187,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: F2, J(15, C), B, F4(3)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: F2, J(15, C), B, F4(3)",
     "options": [
       "A fast-freezing planet is not for us humans.",
       "We humans cannot live on a fast-freezing planet.",
@@ -2522,7 +2522,7 @@ const QUESTIONS = [
   {
     "id": 188,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: In the distant future, the sun will shrink and become cold.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: In the distant future, the sun will shrink and become cold.",
     "options": [
       "A(AE11), A1, FJ, 9(8)",
       "E11, A1, FJ, JC",
@@ -2537,7 +2537,7 @@ const QUESTIONS = [
   {
     "id": 189,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: One night, many stars fell around us.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: One night, many stars fell around us.",
     "options": [
       "2D, J1, 7(FD), FE, F4",
       "G(2D), F(G1), 7(FD), FE, F4",
@@ -2552,7 +2552,7 @@ const QUESTIONS = [
   {
     "id": 190,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 4(F5), B9, 6(F4), 8B",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 4(F5), B9, 6(F4), 8B",
     "options": [
       "The aliens burned our ship, but didn't stop us.",
       "We stopped the aliens from burning our ship.",
@@ -2567,7 +2567,7 @@ const QUESTIONS = [
   {
     "id": 191,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A1, BM, JA(J1, JA1, J2, JF2)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A1, BM, JA(J1, JA1, J2, JF2)",
     "options": [
       "The sun is not unique in the universe.",
       "The stars are not alone in our galaxy.",
@@ -2582,7 +2582,7 @@ const QUESTIONS = [
   {
     "id": 192,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 10(3), 9(6, 7), H(7, K1)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 10(3), 9(6, 7), H(7, K1)",
     "options": [
       "The captain stopped the ship and realigned its path for a new star.",
       "The captain stopped the ship's progress and set course for a new star.",
@@ -2597,7 +2597,7 @@ const QUESTIONS = [
   {
     "id": 193,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A(FL12, J, 202, 9(FL12)), E2, F204",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A(FL12, J, 202, 9(FL12)), E2, F204",
     "options": [
       "Life in space is unusual.",
       "Life in space is not easy.",
@@ -2612,7 +2612,7 @@ const QUESTIONS = [
   {
     "id": 194,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message?   Message: A rich man will pay for a private space launch.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message?   Message: A rich man will pay for a private space launch.",
     "options": [
       "3(A106), L106, A101, E2",
       "3(106), L106, 7D, E2",
@@ -2627,7 +2627,7 @@ const QUESTIONS = [
   {
     "id": 195,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 3(107, 6), (108, B111), 103(2), 14(F9)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 3(107, 6), (108, B111), 103(2), 14(F9)",
     "options": [
       "The astronaut discovered a fuel source on the orange moon.",
       "The pilot explored the orange moon for a fuel source.",
@@ -2642,7 +2642,7 @@ const QUESTIONS = [
   {
     "id": 196,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 105(E2), 9(104), K(FA105), B111, 105",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 105(E2), 9(104), K(FA105), B111, 105",
     "options": [
       "The reinforcements couldn't find the space army, so the army surrendered.",
       "The replacements found the space army, but the army did not stop fighting.",
@@ -2657,7 +2657,7 @@ const QUESTIONS = [
   {
     "id": 197,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 3(107, 1), L, J(10, 18, FG), E102, 19(6)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 3(107, 1), L, J(10, 18, FG), E102, 19(6)",
     "options": [
       "A ship sends an astronaut to a distant time and place.",
       "The astronaut sent the ship to give a body to his future self.",
@@ -2672,7 +2672,7 @@ const QUESTIONS = [
   {
     "id": 198,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A110(107(E12), G102), B(F101), 5(F2)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A110(107(E12), G102), B(F101), 5(F2)",
     "options": [
       "The asteroid fell down to Earth.",
       "The space rock failed to launch.",
@@ -2687,7 +2687,7 @@ const QUESTIONS = [
   {
     "id": 199,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: B16(J3), A207",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: B16(J3), A207",
     "options": [
       "No plants grow humans; it's not a concern.",
       "No plants can grow humans, so don't worry.",
@@ -2702,7 +2702,7 @@ const QUESTIONS = [
   {
     "id": 200,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A103(12), J206, 3(10, 205)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A103(12), J206, 3(10, 205)",
     "options": [
       "The orange gas cloud expands differently than a person would expect.",
       "The orange gas grows just as you would hope.",
@@ -2717,7 +2717,7 @@ const QUESTIONS = [
   {
     "id": 201,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message?   Message: I seek a planet where all beings are equal.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message?   Message: I seek a planet where all beings are equal.",
     "options": [
       "G(F4), 109, F2, AJ(3, 4(F5)), B206",
       "F4, 111, F2, AJ3, F206",
@@ -2732,7 +2732,7 @@ const QUESTIONS = [
   {
     "id": 202,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 102(FD), 101, L(F4), J(207, B201)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: 102(FD), 101, L(F4), J(207, B201)",
     "options": [
       "Countdown to launch makes me emotional.",
       "Countdown to launch can play on our nerves.",
@@ -2747,7 +2747,7 @@ const QUESTIONS = [
   {
     "id": 203,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A7, H, JA(F202, 203, 104, F205), FE(18, FH)",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: A7, H, JA(F202, 203, 104, F205), FE(18, FH)",
     "options": [
       "Travel is the solution for an aching and sentimental heart.",
       "Space travel helps the emotional and heavy-hearted.",
@@ -2762,7 +2762,7 @@ const QUESTIONS = [
   {
     "id": 204,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message?   Message: An astronaut expands knowledge, not conflict.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message?   Message: An astronaut expands knowledge, not conflict.",
     "options": [
       "3(107, 1), J(FE10), BJ105",
       "3(107, 1), J(A112), BJ104",
@@ -2777,7 +2777,7 @@ const QUESTIONS = [
   {
     "id": 205,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: Poison ivy makes skin red and itchy.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: Poison ivy makes skin red and itchy.",
     "options": [
       "poison",
       "ivy",
@@ -2792,7 +2792,7 @@ const QUESTIONS = [
   {
     "id": 206,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: We changed the tank to finish the soldier's blood transfusion.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: We changed the tank to finish the soldier's blood transfusion.",
     "options": [
       "change",
       "finish",
@@ -2807,7 +2807,7 @@ const QUESTIONS = [
   {
     "id": 207,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: Drop rubbish in a bin, not into space.",
+    "text": "<strong>Scenario:</strong><br><img src='../test_13/image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: Drop rubbish in a bin, not into space.",
     "options": [
       "command",
       "drop",

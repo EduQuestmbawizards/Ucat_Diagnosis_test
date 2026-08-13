@@ -78,8 +78,8 @@ function parseQuestionFile(filePath) {
  */
 function fixImagePaths(str, sourceDir) {
   if (!str || typeof str !== 'string') return str;
-  // Fix src="images/..." or src="image/..."
-  return str.replace(/src="(images?\/)/g, `src="../${sourceDir}/$1`);
+  // Fix src="images/..." or src='images/...' or src="image/..." or src='image/...'
+  return str.replace(/src=(["'])(images?\/)/g, `src=$1../${sourceDir}/$2`);
 }
 
 function processCategory(cat) {
