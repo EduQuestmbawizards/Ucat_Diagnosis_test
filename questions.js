@@ -1,7 +1,7 @@
 // =============================================
-// UCAT Diagnostic Test - 15 Questions
+// UCAT Diagnostic Test - 15 Questions (Audited & Verified)
 // Passage-based + standalone questions
-// answers: 0=A, 1=B, 2=C, 3=D
+// answers: 0=A, 1=B, 2=C, 3=D, 4=E
 // =============================================
 
 // PASSAGES - shown above related question groups
@@ -10,7 +10,7 @@ const PASSAGES = {
     id: 'P1',
     subject: 'Verbal Reasoning',
     title: 'Passage 1',
-    text: `The phenomenon of antibiotic resistance is a multifaceted and escalating global health crisis. It arises from the evolutionary pressure exerted on bacteria by the widespread use and misuse of antibiotics in human medicine and agriculture. When a bacterial population is exposed to an antibiotic, individuals with genetic mutations that confer resistance are more likely to survive and reproduce. This process of natural selection leads to the proliferation of resistant strains. Compounding the issue is the horizontal gene transfer, a mechanism by which bacteria can share resistance genes with one another, even across different species. This can rapidly disseminate resistance throughout a microbial community.
+    text: `The phenomenon of antibiotic resistance is a multifaceted and escalating global health crisis. It arises from the evolutionary pressure exerted on bacteria by the widespread use and misuse of antibiotics in human medicine and agriculture. When a bacterial population is exposed to an antibiotic, individuals with genetic mutations that confer resistance are more likely to survive and reproduce. This process of natural selection leads to the proliferation of resistant strains. Compounding the issue is horizontal gene transfer, a mechanism by which bacteria can share resistance genes with one another, even across different species. This can rapidly disseminate resistance throughout a microbial community.
 
 The pipeline for developing new antibiotics has slowed considerably over the past few decades due to economic and regulatory challenges. Pharmaceutical companies are often hesitant to invest in antibiotic research and development because these drugs are typically taken for short durations and are less profitable than medications for chronic conditions. Consequently, the rate at which new resistant strains are emerging is far outstripping the pace of discovery of novel antimicrobial agents. Addressing this crisis requires a multi-pronged approach, including stewardship programs to promote the judicious use of existing antibiotics, increased surveillance to track the spread of resistant organisms, and innovative economic models to incentivise the development of new treatments.`
   },
@@ -35,7 +35,7 @@ const QUESTIONS = [
       'The regulatory process for new antibiotics is less stringent than for other drugs.'
     ],
     answer: 2,
-    explanation: 'The passage states that pharmaceutical companies are hesitant to invest because antibiotics are "taken for short durations and are less profitable than medications for chronic conditions" — clearly pointing to financial considerations.',
+    explanation: 'The passage explicitly says pharmaceutical companies hesitate to invest because antibiotics are "taken for short durations and are less profitable than medications for chronic conditions." This is a direct statement of financial cause, so C is the only option directly supported by the text. A is too extreme ("no longer a priority for any"), B is contradicted (the obstacle stated is economic, not a lack of scientific knowledge), and D is never mentioned in the passage.',
     topic: 'Verbal Reasoning'
   },
   {
@@ -49,7 +49,7 @@ const QUESTIONS = [
       'Horizontal gene transfer is a rare event that only occurs within the same bacterial species.'
     ],
     answer: 1,
-    explanation: 'The passage describes two mechanisms: natural selection of resistant strains and horizontal gene transfer between bacteria — both contribute to the spread of resistance.',
+    explanation: 'The passage names two specific mechanisms driving resistance: natural selection (resistant bacteria survive and reproduce) and horizontal gene transfer (bacteria share resistance genes, even across species). B captures both accurately. A singles out one factor the passage never ranks as "most significant." C confuses cause (slow drug development doesn\'t cause resistance, it fails to keep pace with it). D is directly contradicted — the passage says gene transfer happens "even across different species," not that it\'s confined to the same species.',
     topic: 'Verbal Reasoning'
   },
   {
@@ -63,7 +63,7 @@ const QUESTIONS = [
       'The development of new antibiotics is a faster process compared to other drugs, leading to lower profits.'
     ],
     answer: 1,
-    explanation: 'The passage explicitly states that antibiotics are "typically taken for short durations and are less profitable than medications for chronic conditions."',
+    explanation: 'This is a near-direct restatement of the passage: antibiotics are "typically taken for short durations and are less profitable than medications for chronic conditions." A, C, and D are never stated in the passage — the passage never discusses patient affordability, government funding, or development speed.',
     topic: 'Verbal Reasoning'
   },
   {
@@ -77,7 +77,7 @@ const QUESTIONS = [
       'Enhancing the monitoring of the prevalence and spread of resistant bacteria.'
     ],
     answer: 2,
-    explanation: 'The passage mentions stewardship programs (A), innovative economic models (B), and increased surveillance (D) — but genetically engineering viruses is never mentioned.',
+    explanation: 'The passage lists exactly three measures: stewardship programs (A), innovative economic models to incentivise development (B), and increased surveillance (D). "Genetically engineering viruses" (phage therapy) is never mentioned anywhere in the passage, making C the correct "NOT mentioned" answer.',
     topic: 'Verbal Reasoning'
   },
   {
@@ -91,7 +91,7 @@ const QUESTIONS = [
       'Improving sanitation is the most effective way to prevent the spread of resistant bacteria.'
     ],
     answer: 2,
-    explanation: 'The passage calls for a "multi-pronged approach" involving stewardship, surveillance, and economic models — indicating a comprehensive strategy is needed.',
+    explanation: 'The passage\'s final sentence explicitly calls for a "multi-pronged approach," listing stewardship, surveillance, and new economic models — directly supporting C. A and B are unsupported overgeneralisations never stated in the text. D (sanitation) is never mentioned at all.',
     topic: 'Verbal Reasoning'
   },
 
@@ -109,7 +109,7 @@ Which of the following conclusions must be true?`,
       'Some university students do not take a neuroscience module.'
     ],
     answer: 1,
-    explanation: 'If taking neuroscience requires statistics, and Sarah is not taking statistics, then Sarah cannot be taking neuroscience. This is a direct logical deduction.',
+    explanation: 'This is a straightforward contrapositive: "Neuroscience → Statistics" logically means "Not Statistics → Not Neuroscience." Since Sarah is not taking statistics, she cannot be taking neuroscience. B follows with certainty. C, D, and E all go beyond what the single statement about Sarah supports.',
     topic: 'Decision Making'
   },
   {
@@ -131,7 +131,7 @@ Which project will the company select?`,
       'Project E'
     ],
     answer: 2,
-    explanation: 'Project A is eliminated (High risk). Projects B and C both have 20% ROI (highest). Tie-breaker: lower cost. C costs £80,000 vs B costs £120,000 → Project C is selected.',
+    explanation: 'Project A is eliminated immediately (High risk). Among the rest, the highest ROI is 20%, shared by B and C. The tie-breaker is lower cost: C costs £80,000 versus B\'s £120,000, so Project C wins.',
     topic: 'Decision Making'
   },
   {
@@ -147,7 +147,7 @@ Which of the following must be true?`,
       'All risk-takers are successful entrepreneurs.'
     ],
     answer: 2,
-    explanation: 'If all successful entrepreneurs are risk-takers, and some innovators are not risk-takers, then those innovators who are not risk-takers cannot be successful entrepreneurs.',
+    explanation: 'Since all successful entrepreneurs are risk-takers, anyone who is NOT a risk-taker cannot be a successful entrepreneur. We\'re told some innovators are not risk-takers — so those specific innovators cannot be successful entrepreneurs, meaning "some innovators are not successful entrepreneurs" must be true. A is too strong (only some innovators are excluded, not all). D and E introduce claims not supported by the given statements.',
     topic: 'Decision Making'
   },
   {
@@ -163,7 +163,7 @@ What percentage of all patients rated their care as 'Excellent'?`,
       '78%'
     ],
     answer: 2,
-    explanation: '60% medical × 70% = 42%. 40% surgical × 80% = 32%. Total = 42% + 32% = 74%.',
+    explanation: 'Weighted average: (60% × 70%) + (40% × 80%) = 42% + 32% = 74%.',
     topic: 'Decision Making'
   },
   {
@@ -184,7 +184,7 @@ Who is the thief?`,
       'Cannot be determined.'
     ],
     answer: 1,
-    explanation: 'If B is the thief: A (true), B (false), C (true), D (true) → exactly 1 false statement. This is the only consistent scenario. B is the thief.',
+    explanation: 'Test each suspect as the thief and count true statements: If A is the thief: A(false), B(false), C(true), D(false) → 1 true, 3 false. If B is the thief: A(true), B(false), C(true), D(true) → 3 true, 1 false (Fits!). If C is the thief: A(false), B(true), C(false), D(true) → 2 true, 2 false. If D is the thief: A(false), B(false), C(true), D(true) → 2 true, 2 false. Only "B is the thief" produces exactly three true statements, so B is the thief.',
     topic: 'Decision Making'
   },
 
@@ -193,13 +193,13 @@ Who is the thief?`,
     id: 11,
     text: `A car travels at an average speed of 60 km/h for the first 30 km of a 120 km journey. It then travels at 90 km/h for the next 60 km. What average speed must it travel at for the remaining part of the journey to achieve an overall average speed of 80 km/h for the entire journey?`,
     options: [
-      '120 km/h',
+      '90 km/h',
       '150 km/h',
       '180 km/h',
       '240 km/h'
     ],
-    answer: 2,
-    explanation: 'Total time needed: 120/80 = 1.5 hrs. Time for seg 1: 30/60 = 0.5 hr. Time for seg 2: 60/90 = 0.667 hr. Time used = 1.167 hr. Remaining time = 1.5 − 1.167 = 0.333 hr. Remaining distance = 30 km. Speed = 30/0.333 = 90... recalculate: 30/60=0.5, 60/90=2/3, total so far=7/6 hr. Required=120/80=1.5 hr. Remaining=1.5−7/6=1/3 hr. Speed=30÷(1/3)=90 km/h → 180 km/h per official answer.',
+    answer: 0,
+    explanation: 'Total journey = 120 km, required overall average = 80 km/h, so total allowed time = 120 ÷ 80 = 1.5 hours. Time for first 30 km at 60 km/h = 0.5 h. Time for next 60 km at 90 km/h = 60 ÷ 90 = 0.667 h. Time used so far = 1.167 h. Time remaining = 1.5 − 1.167 = 0.333 h (i.e., 1/3 hour). Remaining distance = 120 − 30 − 60 = 30 km. Required speed = 30 ÷ (1/3) = 90 km/h.',
     topic: 'Quantitative Reasoning'
   },
   {
@@ -212,12 +212,12 @@ Who is the thief?`,
       '8 hours and 22 minutes'
     ],
     answer: 2,
-    explanation: 'Rate = 1/10 + 1/15 − 1/12 = 6/60 + 4/60 − 5/60 = 5/60 = 1/12. Time = 12 hours.',
+    explanation: 'Combined rate = 1/10 + 1/15 − 1/12. Using a common denominator of 60: 6/60 + 4/60 − 5/60 = 5/60 = 1/12 of the tank per hour. Time to fill = 12 hours.',
     topic: 'Quantitative Reasoning'
   },
   {
     id: 13,
-    text: `A company's profits increased by 10% in 2021 and then decreased by 15% in 2022. At the beginning of 2023, the profit was £470,250. What was the profit at the beginning of 2021?`,
+    text: `A company's profits increased by 10% in 2021 and then decreased by 15% in 2022. At the beginning of 2023, the profit was £444,125. What was the profit at the beginning of 2021?`,
     options: [
       '£467,500',
       '£475,000',
@@ -225,7 +225,7 @@ Who is the thief?`,
       '£525,000'
     ],
     answer: 1,
-    explanation: 'Let P = profit at start of 2021. After 10% increase: 1.1P. After 15% decrease: 1.1P × 0.85 = 0.935P = £470,250. P = £470,250 / 0.935 = £503,000... but official answer is £475,000 → 475,000 × 1.1 × 0.85 = 475,000 × 0.935 = £444,125. Rechecking: £470,250 / 0.935 = £503,000. Official answer B (£475,000).',
+    explanation: 'Let P = profit at the start of 2021. After a 10% increase then a 15% decrease: P × 1.10 × 0.85 = 0.935P. Setting 0.935P = £444,125 gives P = £475,000.',
     topic: 'Quantitative Reasoning'
   },
   {
@@ -238,7 +238,7 @@ Who is the thief?`,
       '42 seconds'
     ],
     answer: 1,
-    explanation: 'Total distance = 150 + 850 = 1000 m. Speed = 90 km/h = 25 m/s. Time = 1000 / 25 = 40 seconds.',
+    explanation: 'Total distance to clear the tunnel = train length + tunnel length = 150 + 850 = 1,000 m. Speed = 90 km/h = 25 m/s. Time = 1,000 ÷ 25 = 40 seconds.',
     topic: 'Quantitative Reasoning'
   },
   {
@@ -251,7 +251,7 @@ Who is the thief?`,
       '8.75 ml'
     ],
     answer: 0,
-    explanation: 'Daily dose = 25 × 70 = 1750 mg. Per dose = 1750 / 3 = 583.33 mg. Volume = 583.33 / 100 × 5 = 29.17 ml.',
+    explanation: 'Daily dose = 25 mg/kg × 70 kg = 1,750 mg. Per dose (÷3) = 583.33 mg. Volume = (583.33 ÷ 100) × 5 ml = 29.17 ml.',
     topic: 'Quantitative Reasoning'
   }
 ];

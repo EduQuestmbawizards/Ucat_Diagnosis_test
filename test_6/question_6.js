@@ -1,27 +1,21 @@
-// =============================================
-// UCAT Mock Test 6 - Questions & Passages
-// Auto-extracted from MedicHut UCAT Book (excluding Abstract Reasoning)
-// answers: 0=A, 1=B, 2=C, 3=D, 4=E
-// =============================================
-
 const PASSAGES = {
   "P1": {
     "id": "P1",
     "subject": "Verbal Reasoning",
     "title": "Passage 1",
-    "text": "The Battle of Gallipoli occurred on 29 May 1416 between a squadron of the Venetian \nnavy and the fleet of the Ottoman Empire off the Ottoman naval base of Gallipoli. The battle \nwas the main episode of a brief conflict between the two powers, resulting from Ottoman \nattacks against Venetian possessions and shipping in the Aegean Sea in late 1415. The \nVenetian fleet, under Pietro Loredan, was charged with transporting Venetian envoys to \nthe Sultan, but was authorized to attack if the Ottomans refused to negotiate. The \nsubsequent events are known chiefly from a letter written by Loredan after the battle. The \nOttomans exchanged fire with the Venetian ships as soon as the Venetian fleet approached \nGallipoli, forcing the Venetians to withdraw. \nOn the next day, the two fleets manoeuvred and fought off Gallipoli, but during the evening, \nLoredan managed to contact the Ottoman authorities and inform them of his diplomatic \nmission. Despite assurances that the Ottomans would welcome the envoys, when the \nVenetian fleet approached the city on the next day, the Ottoman fleet sailed to meet the \nVenetians and the two sides quickly became embroiled in battle. The Venetians scored a \ncrushing victory, killing the Ottoman admiral, capturing a large part of the Ottoman fleet, \nand taking large numbers prisoner, of whom many\u2014particularly the Christians serving \nvoluntarily in the Ottoman fleet\u2014were executed. The Venetians then retired to Tenedos to \nreplenish their supplies and rest. Although a crushing Venetian victory, which confirmed \nVenetian naval superiority in the Aegean Sea for the next few decades, the settlement of \nthe conflict was delayed until a peace treaty was signed in 1419.    \nSource: https://en.wikipedia.org/wiki/Battle_of_Gallipoli_(1416)"
+    "text": "The Battle of Gallipoli occurred on 29 May 1416 between a squadron of the Venetian \nnavy and the fleet of the Ottoman Empire off the Ottoman naval base of Gallipoli. The battle \nwas the main episode of a brief conflict between the two powers, resulting from Ottoman \nattacks against Venetian possessions and shipping in the Aegean Sea in late 1415. The \nVenetian fleet, under Pietro Loredan, was charged with transporting Venetian envoys to \nthe Sultan, but was authorized to attack if the Ottomans refused to negotiate. The \nsubsequent events are known chiefly from a letter written by Loredan after the battle. The \nOttomans exchanged fire with the Venetian ships as soon as the Venetian fleet approached \nGallipoli, forcing the Venetians to withdraw. \nOn the next day, the two fleets manoeuvred and fought off Gallipoli, but during the evening, \nLoredan managed to contact the Ottoman authorities and inform them of his diplomatic \nmission. Despite assurances that the Ottomans would welcome the envoys, when the \nVenetian fleet approached the city on the next day, the Ottoman fleet sailed to meet the \nVenetians and the two sides quickly became embroiled in battle. The Venetians scored a \ncrushing victory, killing the Ottoman admiral, capturing a large part of the Ottoman fleet, \nand taking large numbers prisoner, of whom many—particularly the Christians serving \nvoluntarily in the Ottoman fleet—were executed. The Venetians then retired to Tenedos to \nreplenish their supplies and rest. Although a crushing Venetian victory, which confirmed \nVenetian naval superiority in the Aegean Sea for the next few decades, the settlement of \nthe conflict was delayed until a peace treaty was signed in 1419.    \nSource: https://en.wikipedia.org/wiki/Battle_of_Gallipoli_(1416)"
   },
   "P2": {
     "id": "P2",
     "subject": "Verbal Reasoning",
     "title": "Passage 2",
-    "text": "Coal is a black or brownish-black sedimentary rock that can be burned for fuel and used to \ngenerate electricity. It is composed mostly of carbon and hydrocarbons, which contain \nenergy that can be released through combustion (burning). Coal is the largest source of \nenergy for generating electricity in the world, and the most abundant fossil fuel in the \nUnited States. Fossil fuels are formed from the remains of ancient organisms. Because coal \ntakes millions of years to develop and there is a limited amount of it, it is a nonrenewable \nresource.  \nThe conditions that would eventually create coal began to develop about 300 million years \nago, during the Carboniferous period. During this time, the Earth was covered in wide, \nshallow seas and dense forests. The seas occasionally flooded the forested areas, trapping \nplants and algae at the bottom of a swampy wetland. Over time, the plants (mostly mosses) \nand algae were buried and compressed under the weight of overlying mud \nand vegetation.  As the plant debris sifted deeper under Earth\u2019s surface, it encountered \nincreased temperatures and higher pressure. Mud and acidic water prevented the plant \nmatter from coming into contact with oxygen. Due to this, the plant matter decomposed at \na very slow rate and retained most of its carbon (source of energy).  \nThese areas of buried plant matter are called peat bogs. Peat bogs store massive amounts of \ncarbon many meters underground. Peat itself can be burned for fuel, and is a major source \nof heat energy in countries such as Scotland, Ireland, and Russia. Under the right conditions, \npeat transforms into coal through a process called carbonization. Carbonization takes place \nunder incredible heat and pressure. About 3 meters (10 feet) of layered vegetation \neventually compresses into a third of a meter (1 foot) of coal!  \nCoal exists in underground formations called \u201ccoal seams\u201d or \u201ccoal beds.\u201d A coal seam can \nbe as thick as 30 meters (90 feet) and stretch 1,500 kilometers (920 miles). Coal seams exist \non every continent. The largest coal reserves are in the United States, Russia, China, \nAustralia, and India. In the United States, coal is mined in 25 states and three major regions. \nIn the Western Coal Region, Wyoming is the top producer\u2014about 40% of the coal mined in \n\n--- PAGE 395 ---\nthe country is extracted in the state. More than one-third of the nation\u2019s coal comes from \nthe Appalachian Coal Region, which includes West Virginia, Virginia, Tennessee, and \nKentucky. Coal extracted from Texas in the Interior Coal Region supplies mostly local \nmarkets.  \nSource: https://www.nationalgeographic.org/encyclopedia/coal/"
+    "text": "Coal is a black or brownish-black sedimentary rock that can be burned for fuel and used to \ngenerate electricity. It is composed mostly of carbon and hydrocarbons, which contain \nenergy that can be released through combustion (burning). Coal is the largest source of \nenergy for generating electricity in the world, and the most abundant fossil fuel in the \nUnited States. Fossil fuels are formed from the remains of ancient organisms. Because coal \ntakes millions of years to develop and there is a limited amount of it, it is a nonrenewable \nresource.  \nThe conditions that would eventually create coal began to develop about 300 million years \nago, during the Carboniferous period. During this time, the Earth was covered in wide, \nshallow seas and dense forests. The seas occasionally flooded the forested areas, trapping \nplants and algae at the bottom of a swampy wetland. Over time, the plants (mostly mosses) \nand algae were buried and compressed under the weight of overlying mud \nand vegetation.  As the plant debris sifted deeper under Earth’s surface, it encountered \nincreased temperatures and higher pressure. Mud and acidic water prevented the plant \nmatter from coming into contact with oxygen. Due to this, the plant matter decomposed at \na very slow rate and retained most of its carbon (source of energy).  \nThese areas of buried plant matter are called peat bogs. Peat bogs store massive amounts of \ncarbon many meters underground. Peat itself can be burned for fuel, and is a major source \nof heat energy in countries such as Scotland, Ireland, and Russia. Under the right conditions, \npeat transforms into coal through a process called carbonization. Carbonization takes place \nunder incredible heat and pressure. About 3 meters (10 feet) of layered vegetation \neventually compresses into a third of a meter (1 foot) of coal!  \nCoal exists in underground formations called “coal seams” or “coal beds.” A coal seam can \nbe as thick as 30 meters (90 feet) and stretch 1,500 kilometers (920 miles). Coal seams exist \non every continent. The largest coal reserves are in the United States, Russia, China, \nAustralia, and India. In the United States, coal is mined in 25 states and three major regions. \nIn the Western Coal Region, Wyoming is the top producer—about 40% of the coal mined in \n\n--- PAGE 395 ---\nthe country is extracted in the state. More than one-third of the nation’s coal comes from \nthe Appalachian Coal Region, which includes West Virginia, Virginia, Tennessee, and \nKentucky. Coal extracted from Texas in the Interior Coal Region supplies mostly local \nmarkets.  \nSource: https://www.nationalgeographic.org/encyclopedia/coal/"
   },
   "P3": {
     "id": "P3",
     "subject": "Verbal Reasoning",
     "title": "Passage 3",
-    "text": "History in Bahrain is nowhere more intriguing than among the 85,000 burial mounds that \nnow lump, curdle and honeycomb 5% of the island\u2019s landmass. Archaeologists have recently \nconfirmed Bahrain as the seat of the lost and illustrious empire of Dilmun (3200\u2013330 BC), \nwhose influence spread as far north as modern Kuwait and as far inland as Al Hasa Oasis in \neastern Saudi Arabia. According to Sumerian, Babylonian and Assyrian inscriptions, the \nisland\u2019s residents were not only commercially active but also attentive to matters at home. \nThe proper burial of the sick, disabled and young in elaborate chambers, together with their \nchattels of ceramics, glass and beads (carefully displayed at the Bahrain National Museum), \n\n--- PAGE 396 ---\nsuggest an enlightened civilisation of considerable social and economic development, \nassisted by the perpetual abundance of \u2018sweet\u2019, or potable, water on the island.  \nLittle wonder, then, that Dilmun (which means \u2018noble\u2019) was often referred to as the fabled \nGarden of Eden and described as \u2018paradise\u2019 in the Epic of Gilgamesh, the world\u2019s oldest \npoetic saga. Dilmun\u2019s economic success was due in no small part to the trading of Omani \ncopper, which was measured using the internationally recognised \u2018Dilmun Standard\u2019 (the \nweights can be seen in the Bahrain National Museum). When the copper trade declined \naround 1800 BC, Dilmun\u2019s strength fell with it, leaving the island vulnerable to the predatory \ninterests of the surrounding big powers. By 600 BC Dilmun was absorbed entirely by \nBabylon and was subsequently ceded to Greece. The Greeks called the island Tylos, a name \nit kept for nearly a thousand years (from 330 BC to AD 622), despite Greek rule enduring for \nless than 100 years. Little distinguishes the history of Bahrain from that of the rest of the \nGulf thereafter until the 16th century. \nSource: https://www.lonelyplanet.com/bahrain/a/nar/ff4cd0f8-9a6f-4a9c-8b10-2d871bcbe572/361009"
+    "text": "History in Bahrain is nowhere more intriguing than among the 85,000 burial mounds that \nnow lump, curdle and honeycomb 5% of the island’s landmass. Archaeologists have recently \nconfirmed Bahrain as the seat of the lost and illustrious empire of Dilmun (3200–330 BC), \nwhose inflfluence spread as far north as modern Kuwait and as far inland as Al Hasa Oasis in \neastern Saudi Arabia. According to Sumerian, Babylonian and Assyrian inscriptions, the \nisland’s residents were not only commercially active but also attentive to matters at home. \nThe proper burial of the sick, disabled and young in elaborate chambers, together with their \nchattels of ceramics, glass and beads (carefully displayed at the Bahrain National Museum), \n\n--- PAGE 396 ---\nsuggest an enlightened civilisation of considerable social and economic development, \nassisted by the perpetual abundance of ‘sweet’, or potable, water on the island.  \nLittle wonder, then, that Dilmun (which means ‘noble’) was often referred to as the fabled \nGarden of Eden and described as ‘paradise’ in the Epic of Gilgamesh, the world’s oldest \npoetic saga. Dilmun’s economic success was due in no small part to the trading of Omani \ncopper, which was measured using the internationally recognised ‘Dilmun Standard’ (the \nweights can be seen in the Bahrain National Museum). When the copper trade declined \naround 1800 BC, Dilmun’s strength fell with it, leaving the island vulnerable to the predatory \ninterests of the surrounding big powers. By 600 BC Dilmun was absorbed entirely by \nBabylon and was subsequently ceded to Greece. The Greeks called the island Tylos, a name \nit kept for nearly a thousand years (from 330 BC to AD 622), despite Greek rule enduring for \nless than 100 years. Little distinguishes the history of Bahrain from that of the rest of the \nGulf thereafter until the 16th century. \nSource: https://www.lonelyplanet.com/bahrain/a/nar/ff4cd0f8-9a6f-4a9c-8b10-2d871bcbe572/361009"
   },
   "P4": {
     "id": "P4",
@@ -33,31 +27,31 @@ const PASSAGES = {
     "id": "P5",
     "subject": "Verbal Reasoning",
     "title": "Passage 5",
-    "text": "Italian Renaissance artists became anatomists by necessity, as they attempted to refine a \nmore lifelike, sculptural portrayal of the human figure. Indeed, until about 1500\u20131510, their \ninvestigations surpassed much of the knowledge of anatomy that was taught at the \nuniversities. Opportunities for direct anatomical dissection were very restricted during the \nRenaissance. Giorgio Vasari\u2019s Lives of the Artists states that the great Florentine sculptor, \npainter, and printmaker Antonio Pollaiuolo (ca. 1432\u20131498) was the \u201cfirst master to skin \nmany human bodies in order to investigate the muscles and understand the nude in a more \nmodern way.\u201d Giving credence to Vasari\u2019s claim, Pollaiuolo\u2019s highly influential engraving of \nthe Battle of Naked Men displays the figures of the nude warriors with nearly flayed \nmusculature, seen in fierce action poses and from various angles.  The later innovators in \nthe field, Leonardo da Vinci (1452\u20131519) and Michelangelo (1475\u20131564), who are known to \nhave undertaken detailed anatomical dissections at various points in their long careers, set a \nnew standard in their portrayals of the human figure. The patrons commissioning art in this \nperiod also came to expect such anatomical mastery. In the words of the Florentine sculptor \nBaccio Bandinelli (1493\u20131560), who was trying to impress a duke to hire him, and who also \nappears to have run an academy for the teaching of young artists, \u201cI will show you that I \nknow how to dissect the brain, and also living men, as I have dissected dead ones to learn \nmy art\u201d. Circumstantial evidence suggests that a number of other artists also attempted \ndirect dissections. Some later great masters produced \u00e9corch\u00e9s, studies of the peeled away \nor ripped apart forms of muscles, to explore their potential for purely artistic expression. \nThe majority of artists, however, limited their investigations to the surface of the body\u2014the \nappearance of its musculature, tendons, and bones as observed through the skin\u2014and \nrecorded such findings in exquisitely detailed studies after the live nude model.  \nSource: https://www.metmuseum.org/toah/hd/anat/hd_anat.htm"
+    "text": "Italian Renaissance artists became anatomists by necessity, as they attempted to refine a \nmore lifelike, sculptural portrayal of the human figure. Indeed, until about 1500–1510, their \ninvestigations surpassed much of the knowledge of anatomy that was taught at the \nuniversities. Opportunities for direct anatomical dissection were very restricted during the \nRenaissance. Giorgio Vasari’s Lives of the Artists states that the great Florentine sculptor, \npainter, and printmaker Antonio Pollaiuolo (ca. 1432–1498) was the “first master to skin \nmany human bodies in order to investigate the muscles and understand the nude in a more \nmodern way.” Giving credence to Vasari’s claim, Pollaiuolo’s highly influential engraving of \nthe Battle of Naked Men displays the figures of the nude warriors with nearly flayed \nmusculature, seen in fierce action poses and from various angles.  The later innovators in \nthe field, Leonardo da Vinci (1452–1519) and Michelangelo (1475–1564), who are known to \nhave undertaken detailed anatomical dissections at various points in their long careers, set a \nnew standard in their portrayals of the human figure. The patrons commissioning art in this \nperiod also came to expect such anatomical mastery. In the words of the Florentine sculptor \nBaccio Bandinelli (1493–1560), who was trying to impress a duke to hire him, and who also \nappears to have run an academy for the teaching of young artists, “I will show you that I \nknow how to dissect the brain, and also living men, as I have dissected dead ones to learn \nmy art”. Circumstantial evidence suggests that a number of other artists also attempted \ndirect dissections. Some later great masters produced écorchés, studies of the peeled away \nor ripped apart forms of muscles, to explore their potential for purely artistic expression. \nThe majority of artists, however, limited their investigations to the surface of the body—the \nappearance of its musculature, tendons, and bones as observed through the skin—and \nrecorded such findings in exquisitely detailed studies after the live nude model.  \nSource: https://www.metmuseum.org/toah/hd/anat/hd_anat.htm"
   },
   "P6": {
     "id": "P6",
     "subject": "Verbal Reasoning",
     "title": "Passage 6",
-    "text": "Many thousands of years ago, late in the Ice Age, humans journeyed across the Bering land \nbridge, from Asia into Alaska. Their descendants explored along the west coast of North \nAmerica. As early as 1000 BC, they had covered nearly the entire continent. It is not known \nwhen the first people arrived in the Americas. Some archaeologists (scientists who study the \nremains of past human lives) believe it might have been about 12000 BC. \nOver thousands of years, as they migrated across the continents, American Indians have \ndeveloped a wide range of languages, customs, and civilizations. There are as many \ndifferent tribal nations in the Americas as there are nations in Europe, Asia, or Africa, and \nthere is as much variety among them. \nTen thousand years ago, when the Ice Age ended, changes in climate and increasing \npopulations inspired some Native American tribes to experiment with growing different \ncrops. Some became highly skilled farmers. As early as about 5500 BC, tribes in Mexico \ncultivated corn and squash. They raised turkeys, llamas, and guinea pigs for food and they \nhunted deer and bison. They regularly burned off patches of land to keep it in pasture, so \nthe animals would come to graze. Many tribes on the coasts hunted sea mammals from \nboats and caught fish, using a variety of efficient methods. \nAfter 2000 BC, some Native Americans developed states, each governing thousands of \npeople. They established extensive trade routes across the continents. And they used cargo \nrafts and other boats to ship their goods from one trading point to another. In South \nAmerica, llamas provided transportation on land. \nFrom the present-day region of the mid-western United States to southern Peru in South \nAmerica, centers of government were marked by enormous mounds of earth. Most of these \nmounds were flat on top, with palaces and temples built on them. Some were burial sites of \nhonored leaders. American Indian cities were as big as the cities in Europe and Asia at that \ntime. Their fine architecture is still greatly admired. \nSource: https://www.scholastic.com/teachers/articles/teaching-content/history-native-americans/"
+    "text": "Many thousands of years ago, late in the Ice Age, humans journeyed across the Bering land \nbridge, from Asia into Alaska. Their descendants explored along the west coast of North \nAmerica. As early as 1000 BC, they had covered nearly the entire continent. It is not known \nwhen the first people arrived in the Americas. Some archaeologists (scientists who study the \nremains of past human lives) believe it might have been about 12000 BC. \nOver thousands of years, as they migrated across the continents, American Indians have \ndeveloped a wide range of languages, customs, and civilizations. There are as many \ndifferent tribal nations in the Americas as there are nations in Europe, Asia, or Africa, and \nthere is as much variety among them. \nTen thousand years ago, when the Ice Age ended, changes in climate and increasing \npopulations inspired some Native American tribes to experiment with grflowing different \ncrops. Some became highly skilled farmers. As early as about 5500 BC, tribes in Mexico \ncultivated corn and squash. They raised turkeys, llamas, and guinea pigs for food and they \nhunted deer and bison. They regularly burned off patches of land to keep it in pasture, so \nthe animals would come to graze. Many tribes on the coasts hunted sea mammals from \nboats and caught fish, using a variety of efficient methods. \nAfter 2000 BC, some Native Americans developed states, each governing thousands of \npeople. They established extensive trade routes across the continents. And they used cargo \nrafts and other boats to ship their goods from one trading point to another. In South \nAmerica, llamas provided transportation on land. \nFrom the present-day region of the mid-western United States to southern Peru in South \nAmerica, centers of government were marked by enormous mounds of earth. Most of these \nmounds were flat on top, with palaces and temples built on them. Some were burial sites of \nhonored leaders. American Indian cities were as big as the cities in Europe and Asia at that \ntime. Their fine architecture is still greatly admired. \nSource: https://www.scholastic.com/teachers/articles/teaching-content/history-native-americans/"
   },
   "P7": {
     "id": "P7",
     "subject": "Verbal Reasoning",
     "title": "Passage 7",
-    "text": "The 16th-century Spanish explorer and conquistador Hernando de Soto (c. 1496-1542) \narrived in the West Indies as a young man and went on to make a fortune in the Central \nAmerican slave trade. He supplied ships for Francisco Pizarro\u2019s southward expedition and \nended up accompanying Pizarro in his conquest of Peru in 1532. Seeking greater glory and \nriches, de Soto embarked on a major expedition in 1538 to conquer Florida for the Spanish \ncrown. He and his men traveled nearly 4,000 miles throughout the region that would \nbecome the southeastern United States in search of riches, fighting off Native American \nattacks along the way. In 1541, de Soto and his men became the first Europeans to \nencounter the great Mississippi River and cross it; de Soto died early the next year.  \nHernando de Soto\u2019s Early Life and Career. Like many of the era\u2019s conquistadors, Hernando \nde Soto was a native of the impoverished Extremadura region of southwestern Spain. He \nwas born in 1496 in Jerez de los Caballeros, Bajadoz province. De Soto\u2019s family was of minor \nnobility and modest means, and at a very young age he developed dreams of making his \nfortune in the New World. Around the age of 14, de Soto left for Seville, where he got \nhimself included on an expedition to the West Indies led by Pedro Arias D\u00e1vila in 1514. De \nSoto earned a fortune from D\u00e1vila\u2019s conquest of Panama and Nicaragua, and by 1530 he \nwas the leading slave trader and one of the richest men in Nicaragua. In 1531, he joined \n\n--- PAGE 401 ---\nFrancisco Pizarro on an expedition in pursuit of rumors of gold located in the region that is \nnow northwestern Colombia, on the Pacific coast.  In 1532, De Soto acted as Pizarro\u2019s chief \nlieutenant in the former\u2019s conquest of Peru. Before Spanish forces defeated the Incas at \nCajamarca that November, de Soto became the first European to make contact with the Inca \nemperor Atahualpa.  \nSource: https://www.history.com/topics/exploration/hernando-de-soto"
+    "text": "The 16th-century Spanish explorer and conquistador Hernando de Soto (c. 1496-1542) \narrived in the West Indies as a young man and went on to make a fortune in the Central \nAmerican slave trade. He supplied ships for Francisco Pizarro’s southward expedition and \nended up accompanying Pizarro in his conquest of Peru in 1532. Seeking greater glory and \nriches, de Soto embarked on a major expedition in 1538 to conquer Florida for the Spanish \ncrown. He and his men traveled nearly 4,000 miles throughout the region that would \nbecome the southeastern United States in search of riches, fighting off Native American \nattacks along the way. In 1541, de Soto and his men became the first Europeans to \nencounter the great Mississippi River and cross it; de Soto died early the next year.  \nHernando de Soto’s Early Life and Career. Like many of the era’s conquistadors, Hernando \nde Soto was a native of the impoverished Extremadura region of southwestern Spain. He \nwas born in 1496 in Jerez de los Caballeros, Bajadoz province. De Soto’s family was of minor \nnobility and modest means, and at a very young age he developed dreams of making his \nfortune in the New World. Around the age of 14, de Soto left for Seville, where he got \nhimself included on an expedition to the West Indies led by Pedro Arias Dávila in 1514. De \nSoto earned a fortune from Dávila’s conquest of Panama and Nicaragua, and by 1530 he \nwas the leading slave trader and one of the richest men in Nicaragua. In 1531, he joined \n\n--- PAGE 401 ---\nFrancisco Pizarro on an expedition in pursuit of rumors of gold located in the region that is \nnow northwestern Colombia, on the Pacific coast.  In 1532, De Soto acted as Pizarro’s chief \nlieutenant in the former’s conquest of Peru. Before Spanish forces defeated the Incas at \nCajamarca that November, de Soto became the first European to make contact with the Inca \nemperor Atahualpa.  \nSource: https://www.history.com/topics/exploration/hernando-de-soto"
   },
   "P8": {
     "id": "P8",
     "subject": "Verbal Reasoning",
     "title": "Passage 8",
-    "text": "Mediterranean Sea, an intercontinental sea that stretches from the Atlantic Ocean on the \nwest to Asia on the east and separates Europe from Africa. It has often been called the \nincubator of Western civilization. This ancient \u201csea between the lands\u201d occupies a deep, \nelongated, and almost landlocked irregular depression lying between latitudes 30\u00b0 and 46\u00b0 \nN and longitudes 5\u00b050\u2032 W and 36\u00b0 E. Its west-east extent\u2014from the Strait of Gibraltar \n\n--- PAGE 402 ---\nbetween Spain and Morocco to the shores of the Gulf of Iskenderun on the southwestern \ncoast of Turkey\u2014is approximately 2,500 miles (4,000 km), and its average north-south \nextent, between Croatia\u2019s southernmost shores and Libya, is about 500 miles (800 km). The \nMediterranean Sea, including the Sea of Marmara, occupies an area of approximately \n970,000 square miles (2,510,000 square km).   \nThe western extremity of the Mediterranean Sea connects with the Atlantic Ocean by the \nnarrow and shallow channel of the Strait of Gibraltar, which is roughly 8 miles (13 km) wide \nat its narrowest point; and the depth of the sill, or submarine ridge separating the Atlantic \nfrom the Albor\u00e1n Sea, is about 1,050 feet (320 metres). To the northeast the Mediterranean \nis connected with the Black Sea through the Dardanelles (with a sill depth of 230 feet [70 \nmetres]), the Sea of Marmara, and the strait of the Bosporus (sill depth of about 300 feet \n[90 metres]). To the southeast it is connected with the Red Sea by the Suez Canal.     \nA submarine ridge between the island of Sicily and the African coast with a sill depth of \nabout 1,200 feet (365 metres) divides the Mediterranean Sea into western and eastern \nparts. The western part in turn is subdivided into three principal submarine basins. The \nAlbor\u00e1n Basin is east of Gibraltar, between the coasts of Spain and Morocco. The Algerian \n(sometimes called the Algero-Proven\u00e7al or Balearic) Basin, east of the Albor\u00e1n Basin, is west \nof Sardinia and Corsica, extending from off the coast of Algeria to off the coast of France. \nThese two basins together constitute the western basin. The Tyrrhenian Basin, that part of \nthe Mediterranean known as the Tyrrhenian Sea, lies between Italy and the islands of \nSardinia and Corsica.    \nSource: https://www.britannica.com/place/Mediterranean-Sea"
+    "text": "Mediterranean Sea, an intercontinental sea that stretches from the Atlantic Ocean on the \nwest to Asia on the east and separates Europe from Africa. It has often been called the \nincubator of Western civilization. This ancient “sea between the lands” occupies a deep, \nelongated, and almost landlocked irregular depression lying between latitudes 30° and 46° \nN and longitudes 5°50′ W and 36° E. Its west-east extent—from the Strait of Gibraltar \n\n--- PAGE 402 ---\nbetween Spain and Morocco to the shores of the Gulf of Iskenderun on the southwestern \ncoast of Turkey—is approximately 2,500 miles (4,000 km), and its average north-south \nextent, between Croatia’s southernmost shores and Libya, is about 500 miles (800 km). The \nMediterranean Sea, including the Sea of Marmara, occupies an area of approximately \n970,000 square miles (2,510,000 square km).   \nThe western extremity of the Mediterranean Sea connects with the Atlantic Ocean by the \nnarrow and shallow channel of the Strait of Gibraltar, which is roughly 8 miles (13 km) wide \nat its narrowest point; and the depth of the sill, or submarine ridge separating the Atlantic \nfrom the Alborán Sea, is about 1,050 feet (320 metres). To the northeast the Mediterranean \nis connected with the Black Sea through the Dardanelles (with a sill depth of 230 feet [70 \nmetres]), the Sea of Marmara, and the strait of the Bosporus (sill depth of about 300 feet \n[90 metres]). To the southeast it is connected with the Red Sea by the Suez Canal.     \nA submarine ridge between the island of Sicily and the African coast with a sill depth of \nabout 1,200 feet (365 metres) divides the Mediterranean Sea into western and eastern \nparts. The western part in turn is subdivided into three principal submarine basins. The \nAlborán Basin is east of Gibraltar, between the coasts of Spain and Morocco. The Algerian \n(sometimes called the Algero-Provençal or Balearic) Basin, east of the Alborán Basin, is west \nof Sardinia and Corsica, extending from off the coast of Algeria to off the coast of France. \nThese two basins together constitute the western basin. The Tyrrhenian Basin, that part of \nthe Mediterranean known as the Tyrrhenian Sea, lies between Italy and the islands of \nSardinia and Corsica.    \nSource: https://www.britannica.com/place/Mediterranean-Sea"
   },
   "P9": {
     "id": "P9",
     "subject": "Verbal Reasoning",
     "title": "Passage 9",
-    "text": "Most modern roses sold today bloom somewhat regularly throughout the growing season. \nIn contrast, some old garden roses and climbing roses bloom once a year or bloom only in \nthe spring and fall. Roses that bloom on a regular basis are called \u201crepeat\u201d bloomers. \nThe speed with which a rose forms a new bloom-producing cane (stem), develops a bud, \nand the bud opens to a flower varies. When we cut off a dead spent bloom (deadheading) \nwe signal to that stem to grow a new flower-producing stem. In repeat-blooming roses, the \ntiming of the blooming process begins with the removal of an aged flower.  \nGenerally it takes 4 to 10 weeks (28 to 70 days) for reblooming to occur. Roses having a lot \nof petals take longer to re-bloom than roses with only a few petals. Miniature roses, single \nroses (those with 5 to 12 petals) and some old garden roses (especially Chinas, noisettes and \npolyanthas) tend to re-bloom the fastest (28 \u2013 32 days). Roses with a lot of petals (45 \u2013 50) \ntake longer to re-bloom, usually 6 weeks. While densely-petaled roses like Belinda\u2019s Dream \nand Quietness (100+ petals) take the longest to rebloom, these roses hold their blooms on \nthe bush a lot longer than their lesser-petaled counterparts. It is common for 100-petaled \nroses to last on the bush 10 to 14 days, making it worth the wait from a landscape impact \nperspective. A good rule of thumb is \u201cmore petals = more time.\u201d \nSource: https://arborgate.com/blog/garden/how-often-do-roses-bloom/"
+    "text": "Most modern roses sold today bloom somewhat regularly throughout the grflowing season. \nIn contrast, some old garden roses and climbing roses bloom once a year or bloom only in \nthe spring and fall. Roses that bloom on a regular basis are called “repeat” bloomers. \nThe speed with which a rose forms a new bloom-producing cane (stem), develops a bud, \nand the bud opens to a flower varies. When we cut off a dead spent bloom (deadheading) \nwe signal to that stem to grow a new flower-producing stem. In repeat-blooming roses, the \ntiming of the blooming process begins with the removal of an aged flower.  \nGenerally it takes 4 to 10 weeks (28 to 70 days) for reblooming to occur. Roses having a lot \nof petals take longer to fire-bloom than roses with only a few petals. Miniature roses, single \nroses (those with 5 to 12 petals) and some old garden roses (especially Chinas, noisettes and \npolyanthas) tend to fire-bloom the fastest (28 – 32 days). Roses with a lot of petals (45 – 50) \ntake longer to fire-bloom, usually 6 weeks. While densely-petaled roses like Belinda’s Dream \nand Quietness (100+ petals) take the longest to rebloom, these roses hold their blooms on \nthe bush a lot longer than their lesser-petaled counterparts. It is common for 100-petaled \nroses to last on the bush 10 to 14 days, making it worth the wait from a landscape impact \nperspective. A good rule of thumb is “more petals = more time.” \nSource: https://arborgate.com/blog/garden/how-often-do-roses-bloom/"
   },
   "P10": {
     "id": "P10",
@@ -85,7 +79,7 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "\u201cThe Ottomans exchanged fire with the Venetian ships as soon as the Venetian fleet approached Gallipoli, forcing the Venetians to withdraw.\u201d",
+    "explanation": "“The Ottomans exchanged fire with the Venetian ships as soon as the Venetian fleet approached Gallipoli, forcing the Venetians to withdraw.”",
     "id": 1
   },
   {
@@ -99,7 +93,7 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cThe Venetians then retired to Tenedos to replenish their supplies and rest.\u201d",
+    "explanation": "“The Venetians then retired to Tenedos to replenish their supplies and rest.”",
     "id": 2
   },
   {
@@ -113,12 +107,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cDespite assurances that the Ottomans would welcome the envoys\u2026\u201d",
+    "explanation": "“Despite assurances that the Ottomans would welcome the envoys…”",
     "id": 3
   },
   {
     "passageId": "P1",
-    "text": "Which of the following can best be inferred from the passage?",
+    "text": "Which of the follflowing can best be inferred from the passage?",
     "options": [
       "The Ottomans and Venetians were long-time enemies.",
       "The Ottomans and Venetians set aside their differences during the Battle of Gallipoli.",
@@ -127,12 +121,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 2,
-    "explanation": "This can be inferred from the following sentences: \u201cThe Venetian fleet, under Pietro Loredan, was charged with transporting Venetian envoys to the Sultan, but was authorized to attack if the Ottomans refused to negotiate. The subsequent events are known chiefly from a letter written by Loredan after the battle. On the next day, the two fleets manoeuvred and fought off Gallipoli, but during the evening, Loredan managed to contact the Ottoman authorities and inform them of his diplomatic mission.\u201d Passage 2",
+    "explanation": "This can be inferred from the follflowing sentences: “The Venetian fleet, under Pietro Loredan, was charged with transporting Venetian envoys to the Sultan, but was authorized to attack if the Ottomans refused to negotiate. The subsequent events are known chiefly from a letter written by Loredan after the battle. On the next day, the two fleets manoeuvred and fought off Gallipoli, but during the evening, Loredan managed to contact the Ottoman authorities and inform them of his diplomatic mission.” Passage 2.",
     "id": 4
   },
   {
     "passageId": "P2",
-    "text": "Which of the following statements is best supported by the passage?",
+    "text": "Which of the follflowing statements is best supported by the passage?",
     "options": [
       "The majority of the coal mined in the United States is in Wyoming.",
       "There is not enough coal in the world.",
@@ -141,12 +135,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "This can be proven by the first paragraph \u201cBecause coal takes millions of years to develop and there is a limited amount of it, it is a nonrenewable resource. \u201c",
+    "explanation": "This can be proven by the first paragraph “Because coal takes millions of years to develop and there is a limited amount of it, it is a nonrenewable resource. “.",
     "id": 5
   },
   {
     "passageId": "P2",
-    "text": "Which of the following can be inferred from the passage?",
+    "text": "Which of the follflowing can be inferred from the passage?",
     "options": [
       "Peat bogs are made from coal.",
       "Coal is made from plants.",
@@ -169,12 +163,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 3,
-    "explanation": "In paragraph 2, \u201c300 million years ago\u2026 the Earth was covered in wide, shallow seas and dense forests.\u201d",
+    "explanation": "In paragraph 2, “300 million years ago… the Earth was covered in wide, shallow seas and dense forests.”",
     "id": 7
   },
   {
     "passageId": "P2",
-    "text": "Which of the following statements is correct regarding the formation of coal?",
+    "text": "Which of the follflowing statements is correct regarding the formation of coal?",
     "options": [
       "It begins as plant matter, then forms peat, which forms coal.",
       "It begins as plant matter, which forms coal seams which are carbonised to form coal.",
@@ -183,15 +177,15 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "This can be found in the second and third paragraphs. Passage 3",
+    "explanation": "This can be found in the second and third paragraphs. Passage 3.",
     "id": 8
   },
   {
     "passageId": "P3",
-    "text": "Which of the following statements can best be inferred from the passage?",
+    "text": "Which of the follflowing statements can best be inferred from the passage?",
     "options": [
       "Oman is a different country to Bahrain.",
-      "It took 1200 years from the beginning of Dilmun\u2019s decline to its end.",
+      "It took 1200 years from the beginning of Dilmun’s decline to its end.",
       "The language of ancient Bahrain was Assyrian.",
       "Bahrain is north of Kuwait."
     ],
@@ -211,12 +205,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 2,
-    "explanation": "Although Dilmun means \u201cnoble\u201d, it was described as \u201cparadise\u201d in the Epic of Gilgamesh, the world\u2019s oldest poetic saga.",
+    "explanation": "Although Dilmun means “noble”, it was described as “paradise” in the Epic of Gilgamesh, the world’s oldest poetic saga.",
     "id": 10
   },
   {
     "passageId": "P3",
-    "text": "Which of the following statements best describes why Dilmun lost its power?",
+    "text": "Which of the follflowing statements best describes why Dilmun lost its power?",
     "options": [
       "Due to surrounding countries having power.",
       "Due to the decrease in copper trading.",
@@ -225,12 +219,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cWhen the copper trade declined around 1800 BC, Dilmun\u2019s strength fell with it.\u201d --- PAGE 466 --- 466",
+    "explanation": "“When the copper trade declined around 1800 BC, Dilmun’s strength fell with it.” --- PAGE 466 --- 466.",
     "id": 11
   },
   {
     "passageId": "P3",
-    "text": "Which of the following statements is best supported by the passage?",
+    "text": "Which of the follflowing statements is best supported by the passage?",
     "options": [
       "The water in Dilmun was portable.",
       "Bahrain was formed in the 16th century.",
@@ -239,7 +233,7 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 3,
-    "explanation": "This is described towards the end of the first paragraph \u201c\u2026suggest an enlightened civilisation of considerable social and economic development.\u201d Passage 4",
+    "explanation": "This is described towards the end of the first paragraph “…suggest an enlightened civilisation of considerable social and economic development.” Passage 4.",
     "id": 12
   },
   {
@@ -253,7 +247,7 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cThree astronauts were killed in the fire\u201d.",
+    "explanation": "“Three astronauts were killed in the fire”.",
     "id": 13
   },
   {
@@ -263,7 +257,7 @@ const QUESTIONS = [
       "Apollo 11",
       "Apollo 9",
       "Apollo 10",
-      "Can\u2019t tell."
+      "Can’t tell."
     ],
     "topic": "Verbal Reasoning",
     "answer": 3,
@@ -272,16 +266,16 @@ const QUESTIONS = [
   },
   {
     "passageId": "P4",
-    "text": "Which of the following can be inferred from the passage?",
+    "text": "Which of the follflowing can be inferred from the passage?",
     "options": [
       "The Soviet Union was ahead of the United States in space development.",
       "The first unmanned Apollo mission was in 1971.",
       "President Kennedy led the Apollo missions to ensure that man would step foot on the moon.",
-      "President Kennedy\u2019s appeal was granted in 1967. --- PAGE 398 --- 398"
+      "President Kennedy’s appeal was granted in 1967. --- PAGE 398 --- 398"
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "\u201cAt the time, the United States was still trailing the Soviet Union in space developments\u2026\u201d",
+    "explanation": "“At the time, the United States was still trailing the Soviet Union in space developments…”",
     "id": 15
   },
   {
@@ -295,7 +289,7 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 2,
-    "explanation": "\u201cIn 1966, after five years of work by an international team of scientists and engineers, the National Aeronautics and Space Administration (NASA) conducted the first unmanned Apollo mission.\u201d Passage 5",
+    "explanation": "“In 1966, after five years of work by an international team of scientists and engineers, the National Aeronautics and Space Administration (NASA) conducted the first unmanned Apollo mission.” Passage 5.",
     "id": 16
   },
   {
@@ -304,11 +298,11 @@ const QUESTIONS = [
     "options": [
       "True",
       "False",
-      "Can\u2019t tell"
+      "Can’t tell"
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cThe majority of artists, however, limited their investigations to the surface of the body\u2026\u201d",
+    "explanation": "“The majority of artists, however, limited their investigations to the surface of the body…”",
     "id": 17
   },
   {
@@ -317,11 +311,11 @@ const QUESTIONS = [
     "options": [
       "True",
       "False --- PAGE 399 ---",
-      "Can\u2019t tell"
+      "Can’t tell"
     ],
     "topic": "Verbal Reasoning",
     "answer": 2,
-    "explanation": "Antonio Pollaiuolo is listed as \u201cthe great Florentine sculptor, painter and printmaker\u201d but no information about Giorgio Vasari is given in this regard.",
+    "explanation": "Antonio Pollaiuolo is listed as “the great Florentine sculptor, painter and printmaker” but no information about Giorgio Vasari is given in this regard.",
     "id": 18
   },
   {
@@ -330,11 +324,11 @@ const QUESTIONS = [
     "options": [
       "True",
       "False",
-      "Can\u2019t tell"
+      "Can’t tell"
     ],
     "topic": "Verbal Reasoning",
     "answer": 2,
-    "explanation": "The qualifier of necessity \u201call\u201d makes this statement difficult to prove. The passage suggests that the artists had better anatomy than was taught at universities, but does not indicate that this applied to each of the artists of the time.",
+    "explanation": "The qualifier of necessity “all” makes this statement difficult to prove. The passage suggests that the artists had better anatomy than was taught at universities, but does not indicate that this applied to each of the artists of the time.",
     "id": 19
   },
   {
@@ -343,11 +337,11 @@ const QUESTIONS = [
     "options": [
       "True",
       "False",
-      "Can\u2019t tell"
+      "Can’t tell"
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "\u201c\u2026printmaker Antonio Pollaiuolo (ca. 1432\u20131498) was the \u2018first master to skin many human bodies in order to investigate the muscles and understand the nude in a more modern way.\u2019\u201d Passage 6",
+    "explanation": "“…printmaker Antonio Pollaiuolo (ca. 1432–1498) was the ‘first master to skin many human bodies in order to investigate the muscles and understand the nude in a more modern way.’” Passage 6.",
     "id": 20
   },
   {
@@ -356,11 +350,11 @@ const QUESTIONS = [
     "options": [
       "True",
       "False",
-      "Can\u2019t tell"
+      "Can’t tell"
     ],
     "topic": "Verbal Reasoning",
     "answer": 2,
-    "explanation": "\u201cAs early as 1000 BC, they had covered nearly the entire continent. It is not known when the first people arrived in the Americas.\u201d",
+    "explanation": "“As early as 1000 BC, they had covered nearly the entire continent. It is not known when the first people arrived in the Americas.”",
     "id": 21
   },
   {
@@ -369,7 +363,7 @@ const QUESTIONS = [
     "options": [
       "True",
       "False",
-      "Can\u2019t tell"
+      "Can’t tell"
     ],
     "topic": "Verbal Reasoning",
     "answer": 2,
@@ -382,11 +376,11 @@ const QUESTIONS = [
     "options": [
       "True",
       "False",
-      "Can\u2019t tell"
+      "Can’t tell"
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "\u201cTen thousand years ago, when the Ice Age ended, changes in climate and increasing populations inspired some Native American tribes to experiment with growing different crops.\u201d --- PAGE 467 --- 467",
+    "explanation": "“Ten thousand years ago, when the Ice Age ended, changes in climate and increasing populations inspired some Native American tribes to experiment with grflowing different crops.” --- PAGE 467 --- 467.",
     "id": 23
   },
   {
@@ -395,16 +389,16 @@ const QUESTIONS = [
     "options": [
       "True",
       "False",
-      "Can\u2019t tell"
+      "Can’t tell"
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cMany tribes on the coasts hunted sea mammals from boats and caught fish, using a variety of efficient methods\u2026And they used cargo rafts and other boats to ship their goods from one trading point to another.\u201d Passage 7",
+    "explanation": "“Many tribes on the coasts hunted sea mammals from boats and caught fish, using a variety of efficient methods…And they used cargo rafts and other boats to ship their goods from one trading point to another.” Passage 7.",
     "id": 24
   },
   {
     "passageId": "P7",
-    "text": "What was the main reason for Hernando\u2019s major expedition mentioned in the \npassage?",
+    "text": "What was the main reason for Hernando’s major expedition mentioned in the \npassage?",
     "options": [
       "Conquering land",
       "Glory and riches",
@@ -413,7 +407,7 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cSeeking greater glory and riches, de Soto embarked on a major expedition in 1538 to conquer Florida for the Spanish crown.\u201d",
+    "explanation": "“Seeking greater glory and riches, de Soto embarked on a major expedition in 1538 to conquer Florida for the Spanish crown.”",
     "id": 25
   },
   {
@@ -427,7 +421,7 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 3,
-    "explanation": "\u201cIn 1541, de Soto and his men became the first Europeans to encounter the great Mississippi River and cross it; de Soto died early the next year.\u201d",
+    "explanation": "“In 1541, de Soto and his men became the first Europeans to encounter the great Mississippi River and cross it; de Soto died early the next year.”",
     "id": 26
   },
   {
@@ -437,16 +431,16 @@ const QUESTIONS = [
       "Jerez de los Caballeros",
       "Francisco Pizarro",
       "Bajadoz",
-      "Pedro Arias D\u00e1vila"
+      "Pedro Arias Dávila"
     ],
     "topic": "Verbal Reasoning",
     "answer": 3,
-    "explanation": "\u201cAround the age of 14, de Soto left for Seville, where he got himself included on an expedition to the West Indies led by Pedro Arias D\u00e1vila in 1514.\u201d The beginning of the passage mentions that de Soto was born in 1496, making him 18 at the time of the expedition.",
+    "explanation": "“Around the age of 14, de Soto left for Seville, where he got himself included on an expedition to the West Indies led by Pedro Arias Dávila in 1514.” The beginning of the passage mentions that de Soto was born in 1496, making him 18 at the time of the expedition.",
     "id": 27
   },
   {
     "passageId": "P7",
-    "text": "Which statement best describes de Soto\u2019s family?",
+    "text": "Which statement best describes de Soto’s family?",
     "options": [
       "They were not that wealthy.",
       "They were very wealthy.",
@@ -455,12 +449,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "\u201cDe Soto\u2019s family was of minor nobility and modest means\u2026\u201d Passage 8",
+    "explanation": "“De Soto’s family was of minor nobility and modest means…” Passage 8.",
     "id": 28
   },
   {
     "passageId": "P8",
-    "text": "Which of the following countries does the Algerian Basin touch?",
+    "text": "Which of the follflowing countries does the Algerian Basin touch?",
     "options": [
       "Croatia",
       "Libya",
@@ -469,7 +463,7 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 3,
-    "explanation": "\u201cThe Algerian (sometimes called the Algero-Proven\u00e7al or Balearic) Basin, east of the Albor\u00e1n Basin, is west of Sardinia and Corsica, extending from off the coast of Algeria to off the coast of France.\u201d",
+    "explanation": "“The Algerian (sometimes called the Algero-Provençal or Balearic) Basin, east of the Alborán Basin, is west of Sardinia and Corsica, extending from off the coast of Algeria to off the coast of France.”",
     "id": 29
   },
   {
@@ -483,12 +477,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cMediterranean Sea, an intercontinental sea that stretches from the Atlantic Ocean on the west\u2026\u201d",
+    "explanation": "“Mediterranean Sea, an intercontinental sea that stretches from the Atlantic Ocean on the west…”",
     "id": 30
   },
   {
     "passageId": "P8",
-    "text": "Which of the following is not connected to the northeast of the Mediterranean Sea?",
+    "text": "Which of the follflowing is not connected to the northeast of the Mediterranean Sea?",
     "options": [
       "Black Sea",
       "The Strait of Gibraltar",
@@ -497,26 +491,26 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cThe western extremity of the Mediterranean Sea connects with the Atlantic Ocean by the narrow and shallow channel of the Strait of Gibraltar.\u201d",
+    "explanation": "“The western extremity of the Mediterranean Sea connects with the Atlantic Ocean by the narrow and shallow channel of the Strait of Gibraltar.”",
     "id": 31
   },
   {
     "passageId": "P8",
-    "text": "Which of the following statements is true, based on the passage?",
+    "text": "Which of the follflowing statements is true, based on the passage?",
     "options": [
       "Libya is on the southern end of the Mediterranean Sea.",
       "The Sea of Marmara is on the northwest of the Mediterranean Sea.",
       "The Gulf of Iskenderun is on the northern end of the Mediterranean Sea.",
-      "The Albor\u00e1n Basin is east of the Algerian Basin."
+      "The Alborán Basin is east of the Algerian Basin."
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "This can be directly inferred from: \u201cits average north-south extent, between Croatia\u2019s southernmost shores and Libya, is about 500 miles (800 km).\u201d Passage 9",
+    "explanation": "This can be directly inferred from: “its average north-south extent, between Croatia’s southernmost shores and Libya, is about 500 miles (800 km).” Passage 9.",
     "id": 32
   },
   {
     "passageId": "P9",
-    "text": "Which of the following statements can be inferred from the passage?",
+    "text": "Which of the follflowing statements can be inferred from the passage?",
     "options": [
       "Repeat-blooming roses will only grow once a year.",
       "A new rose will not grow in a repeat-blooming rose until the old rose has been removed.",
@@ -525,12 +519,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cIn repeat-blooming roses, the timing of the blooming process begins with the removal of an aged flower.\u201d",
+    "explanation": "“In repeat-blooming roses, the timing of the blooming process begins with the removal of an aged flower.”",
     "id": 33
   },
   {
     "passageId": "P9",
-    "text": "Which of the following statements is true based on the passage?",
+    "text": "Which of the follflowing statements is true based on the passage?",
     "options": [
       "Reblooming generally occurs in under 28 days.",
       "The less petals a rose has, the longer it will take to rebloom.",
@@ -539,21 +533,21 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 3,
-    "explanation": "\u201cWhen we cut off a dead spent bloom (deadheading) we signal to that stem to grow a new flower-producing stem.\u201d",
+    "explanation": "“When we cut off a dead spent bloom (deadheading) we signal to that stem to grow a new flower-producing stem.”",
     "id": 34
   },
   {
     "passageId": "P9",
-    "text": "Which of the following conclusions can be drawn from the passage?",
+    "text": "Which of the follflowing conclusions can be drawn from the passage?",
     "options": [
       "Quietness will most likely take over 42 days to bloom.",
       "A miniature rose will definitely bloom within 32 days.",
       "A noisette will take more than 28 days to bloom.",
-      "Belinda\u2019s Dream will most likely take over 100 days to bloom."
+      "Belinda’s Dream will most likely take over 100 days to bloom."
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "This conclusion can be drawn from the following: \u201cRoses with a lot of petals (45 \u2013 50) take longer to re-bloom, usually 6 weeks. While densely- petaled roses like Belinda\u2019s Dream and Quietness (100+ petals) take the longest to --- PAGE 468 --- rebloom\u2026\u201d 42 days is equivalent to 6 weeks, and it is a logical inference to make that Quietness will take over 6 weeks to bloom. Watch out for qualifiers of necessity in other options.",
+    "explanation": "This conclusion can be drawn from the follflowing: “Roses with a lot of petals (45 – 50) take longer to fire-bloom, usually 6 weeks. While densely- petaled roses like Belinda’s Dream and Quietness (100+ petals) take the longest to --- PAGE 468 --- rebloom…” 42 days is equivalent to 6 weeks, and it is a logical inference to make that Quietness will take over 6 weeks to bloom. Watch out for qualifiers of necessity in other options.",
     "id": 35
   },
   {
@@ -567,12 +561,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 2,
-    "explanation": "\u201cMost modern roses sold today bloom somewhat regularly throughout the growing season\u2026 Roses that bloom on a regular basis are called \u2018repeat\u2019 bloomers.\u201d Passage 10",
+    "explanation": "“Most modern roses sold today bloom somewhat regularly throughout the grflowing season… Roses that bloom on a regular basis are called ‘repeat’ bloomers.” Passage 10.",
     "id": 36
   },
   {
     "passageId": "P10",
-    "text": "Which of the following can be inferred from the passage?",
+    "text": "Which of the follflowing can be inferred from the passage?",
     "options": [
       "From the first noted use of candles, to the first noted use of wicked candles by the same population, there is a gap of 2000 years.",
       "The Ancient Egyptians were the first civilisation to use wicked candles.",
@@ -586,7 +580,7 @@ const QUESTIONS = [
   },
   {
     "passageId": "P10",
-    "text": "Which of the following statements is correct?",
+    "text": "Which of the follflowing statements is correct?",
     "options": [
       "Candles were made from cinnamon trees in Japan.",
       "Candles were made from insect wax in China.",
@@ -595,7 +589,7 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cEarly Chinese candles are said to have been molded in paper tubes, using rolled rice paper for the wick, and wax from an indigenous insect that was combined with seeds.\u201d",
+    "explanation": "“Early Chinese candles are said to have been molded in paper tubes, using rolled rice paper for the wick, and wax from an indigenous insect that was combined with seeds.”",
     "id": 38
   },
   {
@@ -609,12 +603,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "\u201cEmperor Constantine is reported to have called for the use of candles during an Easter service in the 4th century.\u201d",
+    "explanation": "“Emperor Constantine is reported to have called for the use of candles during an Easter service in the 4th century.”",
     "id": 39
   },
   {
     "passageId": "P10",
-    "text": "Which of the following is not mentioned by the passage as a use of wicked candles \nby the ancient Romans?",
+    "text": "Which of the follflowing is not mentioned by the passage as a use of wicked candles \nby the ancient Romans?",
     "options": [
       "To celebrate Easter",
       "Providing light inside their houses",
@@ -623,12 +617,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "\u201c\u2026the ancient Romans are generally credited with developing the wicked candle before that time by dipping rolled papyrus repeatedly in melted tallow or beeswax. The resulting candles were used to light their homes, to aid travelers at night, and in religious ceremonies.\u201d Be careful not to use any outside knowledge. Passage 11",
+    "explanation": "“…the ancient Romans are generally credited with developing the wicked candle before that time by dipping rolled papyrus repeatedly in melted tallow or beeswax. The resulting candles were used to light their homes, to aid travelers at night, and in religious ceremonies.” Be careful not to use any outside knowledge. Passage 11.",
     "id": 40
   },
   {
     "passageId": "P11",
-    "text": "Which of the following can be inferred from the passage?",
+    "text": "Which of the follflowing can be inferred from the passage?",
     "options": [
       "Lenient traffic law enforcement can contribute to higher rates of traffic fatalities.",
       "Vehicle-related deaths are caused by poor enforcement of traffic laws.",
@@ -637,12 +631,12 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "Watch out for options suggesting causation rather than correlation, as well as over-generalisation. For example, \u201cpoor law enforcement\u201d in option D is not specific to traffic laws.",
+    "explanation": "Watch out for options suggesting causation rather than correlation, as well as over-generalisation. For example, “poor law enforcement” in option D is not specific to traffic laws.",
     "id": 41
   },
   {
     "passageId": "P11",
-    "text": "Which of the following would best confirm POBC as being a cause of breaking traffic \nlaws?",
+    "text": "Which of the follflowing would best confirm POBC as being a cause of breaking traffic \nlaws?",
     "options": [
       "There are more car accidents as the drivers do not fear being caught breaking traffic laws.",
       "Drivers that abide by traffic laws in a different country choose not to abide by traffic laws in Malaysia due to its reputation of lenient law enforcement.",
@@ -656,21 +650,21 @@ const QUESTIONS = [
   },
   {
     "passageId": "P11",
-    "text": "Which of the following can be inferred as a reason for the greater POBC during \nfestive seasons?",
+    "text": "Which of the follflowing can be inferred as a reason for the greater POBC during \nfestive seasons?",
     "options": [
       "There is greater law enforcement.",
       "People are less likely to be on the roads.",
       "People are more willing to follow the laws.",
-      "There is a greater influence from Singapore\u2019s law enforcement forces."
+      "There is a greater inflfluence from Singapore’s law enforcement forces."
     ],
     "topic": "Verbal Reasoning",
     "answer": 0,
-    "explanation": "This can be inferred from the statement \u201cOur enforcement of traffic laws has been lackadaisical, inefficient, corrupt and seasonal\u2026\u201d This demonstrates that traffic enforcement is greater in festive seasons, and the statement \u201cWe have to raise the POBC rate to a high level to instil discipline among Malaysian drivers and to do this we have to drastically improve our culture of enforcement\u2026\u201d demonstrates that POBC can be increased by stricter law enforcement.",
+    "explanation": "This can be inferred from the statement “Our enforcement of traffic laws has been lackadaisical, inefficient, corrupt and seasonal…” This demonstrates that traffic enforcement is greater in festive seasons, and the statement “We have to raise the POBC rate to a high level to instil discipline among Malaysian drivers and to do this we have to drastically improve our culture of enforcement…” demonstrates that POBC can be increased by stricter law enforcement.",
     "id": 43
   },
   {
     "passageId": "P11",
-    "text": "Which of the following would best reduce the number of road traffic accidents in \nMalaysia?",
+    "text": "Which of the follflowing would best reduce the number of road traffic accidents in \nMalaysia?",
     "options": [
       "Improved vehicle safety",
       "Enforced hefty fines",
@@ -679,25 +673,25 @@ const QUESTIONS = [
     ],
     "topic": "Verbal Reasoning",
     "answer": 1,
-    "explanation": "\u201cMotorists simply do not fear being caught as traffic summonses are often not paid, can be negotiated or cancelled through corruption and even discounts can be officially given.\u201d This sentence explains why the POBC is",
+    "explanation": "“Motorists simply do not fear being caught as traffic summonses are often not paid, can be negotiated or cancelled through corruption and even discounts can be officially given.” This sentence explains why the POBC is.",
     "id": 44
   },
   {
     "id": 45,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nFrom all cancers, breast cancer is the biggest killer in the UK for females.",
+    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nFrom all cancers, breast cancer is the biggest killer in the UK for females.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "This graph shows cancer registrations, rather than cancer deaths. Further, it is of \u201c24 major sites\u201d rather than the entire UK population.",
+    "explanation": "This graph shows cancer registrations, rather than cancer deaths. Further, it is of “24 major sites” rather than the entire UK population.",
     "topic": "Decision Making"
   },
   {
     "id": 46,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nAny of the above types of cancer are non-contagious.",
+    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nAny of the above types of cancer are non-contagious.",
     "options": [
       "Yes",
       "No"
@@ -709,19 +703,19 @@ const QUESTIONS = [
   {
     "id": 47,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nAt least 10,000 people were diagnosed with melanoma of the skin.",
+    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nAt least 10,000 people were diagnosed with melanoma of the skin.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 0,
-    "explanation": "The total bar for \u201cmelanoma\u201d, including males and females, surpasses the 10,000 mark on the x-axis. If there are more than 10,000 registrations for melanoma, logically, there must be more than 10,000 people diagnosed with melanoma.",
+    "explanation": "The total bar for “melanoma”, including males and females, surpasses the 10,000 mark on the x-axis. If there are more than 10,000 registrations for melanoma, logically, there must be more than 10,000 people diagnosed with melanoma.",
     "topic": "Decision Making"
   },
   {
     "id": 48,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nProstate cancer was the most commonly diagnosed cancer in males.",
+    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nProstate cancer was the most commonly diagnosed cancer in males.",
     "options": [
       "Yes",
       "No"
@@ -733,7 +727,7 @@ const QUESTIONS = [
   {
     "id": 49,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nAmongst men and women, colorectal cancer was the 3rd most commonly diagnosed cancer.",
+    "text": "<strong>Scenario:</strong>\n<img src=\"image/page_407_Image1277.png\" style=\"max-width:100%; margin-bottom:15px;\"><br>Place \"No \" if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nAmongst men and women, colorectal cancer was the 3rd most commonly diagnosed cancer.",
     "options": [
       "Yes",
       "No"
@@ -745,7 +739,7 @@ const QUESTIONS = [
   {
     "id": 50,
     "passageId": null,
-    "text": "Consider the following statements to be true: \u201cSome smart people are athletic\u201d, \u201cAll artistic \npeople are smart\u201d, \u201cNo athletic people are artistic\u201d, \u201cAll musicians are athletic\u201d, \u201cSome \nmusicians are smart\u201d. \n \nWhich of the following diagrams represents the information given?",
+    "text": "Consider the follflowing statements to be true: “Some smart people are athletic”, “All artistic \npeople are smart”, “No athletic people are artistic”, “All musicians are athletic”, “Some \nmusicians are smart”. \n \nWhich of the follflowing diagrams represents the information given?",
     "options": [
       "<img src=\"image/q2_opt_A.png\" style=\"max-height:100px;\">",
       "<img src=\"image/q2_opt_B.png\" style=\"max-height:100px;\">",
@@ -753,7 +747,7 @@ const QUESTIONS = [
       "<img src=\"image/q2_opt_D.png\" style=\"max-height:100px;\">"
     ],
     "answer": 1,
-    "explanation": "The blue circle represents smart people; The orange circle represents artistic people; The green circle represents athletic people; The yellow circle represents musicians. --- PAGE 470 --- \u00a9 MedicHut 2023. All Rights Reserved. 470<br><br><strong>Venn Diagram Explanation:</strong><br><img src=\"image/q2_answer_diagram.png\" style=\"max-width:100%;\">",
+    "explanation": "The blue circle represents smart people; The orange circle represents artistic people; The green circle represents athletic people; The yellow circle represents musicians. --- PAGE 470 --- © MedicHut 2023. All Rights Reserved. 470<br><br><strong>Venn Diagram Explanation:</strong><br><img src=\"image/q2_answer_diagram.png\" style=\"max-width:100%;\">.",
     "topic": "Decision Making"
   },
   {
@@ -767,25 +761,25 @@ const QUESTIONS = [
       "29"
     ],
     "answer": 2,
-    "explanation": "The equations deducted from the paragraph are as follows: 1. 3p + 6m + 4g = 231 2. p = m - 2 3. 2p + g = 51 4. p - m = 1 2 (m - g) Equation 2 rearranged: m = p + 2 Equation 3 rearranged: g = 51 - 2p Substitute these into equation 1: 3p + 6(p+2) + 4(51-2p) = 231 3p + 6p + 12 + 204 - 8p = 231 1p + 216 = 231 p = 15 Substitute into equation 3 to find the length of g. g = 51 - 2p g = 51 - 2(15) g = 21 Alternatively, the following method can be used: 1. m = p + 2 2. g = m + 4 g = p + 6 3. 2p + g = 51 Substitute equation 2 into equation 3: 2p + (p + 6) = 51 3p + 6 = 51 3p = 45 p = 15 Then substitute this answer into equation 2: --- PAGE 471 --- \u00a9 MedicHut 2023. All Rights Reserved. 471 g = 15 + 6 g = 21",
+    "explanation": "The equations deducted from the paragraph are as follows: 1. 3p + 6m + 4g = 231 2. p = m - 2 3. 2p + g = 51 4. p - m = 1 2 (m - g) Equation 2 rearranged: m = p + 2 Equation 3 rearranged: g = 51 - 2p Substitute these into equation 1: 3p + 6(p+2) + 4(51-2p) = 231 3p + 6p + 12 + 204 - 8p = 231 1p + 216 = 231 p = 15 Substitute into equation 3 to find the length of g. g = 51 - 2p g = 51 - 2(15) g = 21 Alternatively, the follflowing method can be used: 1. m = p + 2 2. g = m + 4 g = p + 6 3. 2p + g = 51 Substitute equation 2 into equation 3: 2p + (p + 6) = 51 3p + 6 = 51 3p = 45 p = 15 Then substitute this answer into equation 2: --- PAGE 471 --- © MedicHut 2023. All Rights Reserved. 471 g = 15 + 6 g = 21.",
     "topic": "Decision Making"
   },
   {
     "id": 52,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nIf a bee has yellow and black stripes, it is an insect.",
+    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nIf a bee has yellow and black stripes, it is an insect.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 0,
-    "explanation": "\u201cAll bees are insects.\u201d",
+    "explanation": "“All bees are insects.”",
     "topic": "Decision Making"
   },
   {
     "id": 53,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nNo insects without wings are bees.",
+    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nNo insects without wings are bees.",
     "options": [
       "Yes",
       "No"
@@ -797,19 +791,19 @@ const QUESTIONS = [
   {
     "id": 54,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nSome winged insects crawl.",
+    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nSome winged insects crawl.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "\u201cNo insects crawl\u201d.",
+    "explanation": "“No insects crawl”.",
     "topic": "Decision Making"
   },
   {
     "id": 55,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nBees crawl or do not have wings.",
+    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nBees crawl or do not have wings.",
     "options": [
       "Yes",
       "No"
@@ -821,7 +815,7 @@ const QUESTIONS = [
   {
     "id": 56,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nAn insect is a bee or it does not have wings",
+    "text": "<strong>Scenario:</strong>\nAll bees are insects. No insects crawl. If an insect has wings it must be a bee.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nAn insect is a bee or it does not have wings",
     "options": [
       "Yes",
       "No"
@@ -833,7 +827,7 @@ const QUESTIONS = [
   {
     "id": 57,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nEuclid likes the number 39.",
+    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nEuclid likes the number 39.",
     "options": [
       "Yes",
       "No"
@@ -845,7 +839,7 @@ const QUESTIONS = [
   {
     "id": 58,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\n147 is a number that Euclid, Pythagoras, and Archimedes like.",
+    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\n147 is a number that Euclid, Pythagoras, and Archimedes like.",
     "options": [
       "Yes",
       "No"
@@ -857,7 +851,7 @@ const QUESTIONS = [
   {
     "id": 59,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nIf a number is liked by both Euclid and Archimedes, the first digit has to be 1.",
+    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nIf a number is liked by both Euclid and Archimedes, the first digit has to be 1.",
     "options": [
       "Yes",
       "No"
@@ -869,7 +863,7 @@ const QUESTIONS = [
   {
     "id": 60,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nOnly one of the three can like single-digit numbers.",
+    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nOnly one of the three can like single-digit numbers.",
     "options": [
       "Yes",
       "No"
@@ -881,7 +875,7 @@ const QUESTIONS = [
   {
     "id": 61,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nIf Pythagoras liked the numbers that Archimedes liked, 187 would be liked by all three of them.",
+    "text": "<strong>Scenario:</strong>\nEuclid only likes numbers with successive digits increasing in value, such as 135. Pythagoras \nonly likes numbers with a total of three digits. Archimedes likes all numbers containing the \ndigit 1. Pythagoras does not like any number that Archimedes likes. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nIf Pythagoras liked the numbers that Archimedes liked, 187 would be liked by all three of them.",
     "options": [
       "Yes",
       "No"
@@ -893,7 +887,7 @@ const QUESTIONS = [
   {
     "id": 62,
     "passageId": null,
-    "text": "The average height of a male in the United Kingdom is 170cm. \n\n--- PAGE 410 ---\nThe average height of a female in the United Kingdom is 140cm. \nThe average height of a male and female in Canada is 10% more than the UK averages.  \nJaspreet and Harvin are from Canada and have a combined height of 336cm. Harvin\u2019s height \nis double that of Jaspreets. \n \nWhich of the following statements must be true?",
+    "text": "The average height of a male in the United Kingdom is 170cm. \n\n--- PAGE 410 ---\nThe average height of a female in the United Kingdom is 140cm. \nThe average height of a male and female in Canada is 10% more than the UK averages.  \nJaspreet and Harvin are from Canada and have a combined height of 336cm. Harvin’s height \nis double that of Jaspreets. \n \nWhich of the follflowing statements must be true?",
     "options": [
       "Jaspreet has a height above average for Canada",
       "Harvin is 170cm tall.",
@@ -901,13 +895,13 @@ const QUESTIONS = [
       "Harvin is above the Canadian average."
     ],
     "answer": 3,
-    "explanation": "If Harvin\u2019s height is double that of Jaspreet\u2019s, Jaspreet must be 112cm and Harvin must be 224cm, to make a total of 336cm. You can calculate this by dividing 336cm into 3 portions \u2013 2 for Harvin, and 1 for Jaspreet. The average height of a male in Canada is 170cm + 10% of 170cm (17cm) = 187cm. Harvin is 224cm, thus option D must be true. --- PAGE 472 --- \u00a9 MedicHut 2023. All Rights Reserved. 472",
+    "explanation": "If Harvin’s height is double that of Jaspreet’s, Jaspreet must be 112cm and Harvin must be 224cm, to make a total of 336cm. You can calculate this by dividing 336cm into 3 portions – 2 for Harvin, and 1 for Jaspreet. The average height of a male in Canada is 170cm + 10% of 170cm (17cm) = 187cm. Harvin is 224cm, thus option D must be true. --- PAGE 472 --- © MedicHut 2023. All Rights Reserved. 472.",
     "topic": "Decision Making"
   },
   {
     "id": 63,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nSome apples are red.",
+    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nSome apples are red.",
     "options": [
       "Yes",
       "No"
@@ -919,7 +913,7 @@ const QUESTIONS = [
   {
     "id": 64,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nStrawberries are either red or yellow.",
+    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nStrawberries are either red or yellow.",
     "options": [
       "Yes",
       "No"
@@ -931,19 +925,19 @@ const QUESTIONS = [
   {
     "id": 65,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nSome baskets are mangoes.",
+    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nSome baskets are mangoes.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "\u201cAll baskets are strawberries.\u201d",
+    "explanation": "“All baskets are strawberries.”",
     "topic": "Decision Making"
   },
   {
     "id": 66,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nNo mangoes are baskets.",
+    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nNo mangoes are baskets.",
     "options": [
       "Yes",
       "No"
@@ -955,7 +949,7 @@ const QUESTIONS = [
   {
     "id": 67,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nAll baskets are yellow.",
+    "text": "<strong>Scenario:</strong>\nA shopkeeper in the Isle of Man sells mangoes, strawberries, baskets & apples in his grocery \nstore. Some mangoes are yellow. Some strawberries are also yellow. All baskets are \nstrawberries. All the other items are red. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nAll baskets are yellow.",
     "options": [
       "Yes",
       "No"
@@ -981,7 +975,7 @@ const QUESTIONS = [
   {
     "id": 69,
     "passageId": null,
-    "text": "There are 6 people standing in a queue to buy their lunch; Huzefa, Demetrius, Billy, Jared, \nFabrice & Sky. There is only 1 person ahead of Demetrius. Only Billy is standing behind \nJared. Fabrice is 3 places ahead of Billy. Sky is 2 places behind Demetrius.  \n \nWhich of the following statements is true?",
+    "text": "There are 6 people standing in a queue to buy their lunch; Huzefa, Demetrius, Billy, Jared, \nFabrice & Sky. There is only 1 person ahead of Demetrius. Only Billy is standing behind \nJared. Fabrice is 3 places ahead of Billy. Sky is 2 places behind Demetrius.  \n \nWhich of the follflowing statements is true?",
     "options": [
       "Sky is last in line behind Fabrice.",
       "Huzefa is 2 places ahead of Fabrice.",
@@ -995,7 +989,7 @@ const QUESTIONS = [
   {
     "id": 70,
     "passageId": null,
-    "text": "Consider the following statements to be true: \u201cAll apples are fruits\u201d, \u201cAll fruit is food\u201d, \u201cNo \napples taste good\u201d, \u201cSome fruits taste good\u201d, \u201cSomething must be food to taste good\u201d. \n \nWhich of the following diagrams represents the information given?",
+    "text": "Consider the follflowing statements to be true: “All apples are fruits”, “All fruit is food”, “No \napples taste good”, “Some fruits taste good”, “Something must be food to taste good”. \n \nWhich of the follflowing diagrams represents the information given?",
     "options": [
       "<img src=\"image/q10_opt_A.png\" style=\"max-height:100px;\">",
       "<img src=\"image/q10_opt_B.png\" style=\"max-height:100px;\">",
@@ -1003,7 +997,7 @@ const QUESTIONS = [
       "<img src=\"image/q10_opt_D.png\" style=\"max-height:100px;\">"
     ],
     "answer": 0,
-    "explanation": "The orange circle represents \u201cfood\u201d, the blue circle represents \u201ctaste good\u201d, the green circle represents \u201cfruit\u201d, and the yellow circle represents \u201capples\u201d. --- PAGE 473 --- \u00a9 MedicHut 2023. All Rights Reserved. 473<br><br><strong>Venn Diagram Explanation:</strong><br><img src=\"image/q10_answer_diagram.png\" style=\"max-width:100%;\">",
+    "explanation": "The orange circle represents “food”, the blue circle represents “taste good”, the green circle represents “fruit”, and the yellow circle represents “apples”. --- PAGE 473 --- © MedicHut 2023. All Rights Reserved. 473<br><br><strong>Venn Diagram Explanation:</strong><br><img src=\"image/q10_answer_diagram.png\" style=\"max-width:100%;\">.",
     "topic": "Decision Making"
   },
   {
@@ -1017,25 +1011,25 @@ const QUESTIONS = [
       "No, because there has been no correlation found between weight and cycling."
     ],
     "answer": 3,
-    "explanation": "Remember not to use outside knowledge. This is the strongest argument as it focusses on weight and brings up evidence, i.e. \u201cno correlation found\u201d. Option A is not relevant, as it is focussed on making bicycles affordable. Option B uses evidence but is centred around allowing exercise, with no mention of weight or reducing obesity. Option C is a statement with no evidence given.",
+    "explanation": "Remember not to use outside knowledge. This is the strongest argument as it focusses on weight and brings up evidence, i.e. “no correlation found”. Option A is not relevant, as it is focussed on making bicycles affordable. Option B uses evidence but is centred around allflowing exercise, with no mention of weight or reducing obesity. Option C is a statement with no evidence given.",
     "topic": "Decision Making"
   },
   {
     "id": 72,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani\u2019s playing cards are black. Some of \nDora\u2019s playing cards are blue but none of them are shiny. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nAll of Dora\u2019s playing cards are blue.",
+    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani’s playing cards are black. Some of \nDora’s playing cards are blue but none of them are shiny. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nAll of Dora’s playing cards are blue.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "Some of Dora\u2019s cards are blue, but there is no indication that all of them are blue.",
+    "explanation": "Some of Dora’s cards are blue, but there is no indication that all of them are blue.",
     "topic": "Decision Making"
   },
   {
     "id": 73,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani\u2019s playing cards are black. Some of \nDora\u2019s playing cards are blue but none of them are shiny. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nNeither Armani nor Dora has black playing cards.",
+    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani’s playing cards are black. Some of \nDora’s playing cards are blue but none of them are shiny. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nNeither Armani nor Dora has black playing cards.",
     "options": [
       "Yes",
       "No"
@@ -1047,7 +1041,7 @@ const QUESTIONS = [
   {
     "id": 74,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani\u2019s playing cards are black. Some of \nDora\u2019s playing cards are blue but none of them are shiny. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nNeither Armani nor Dora has black playing cards which are shiny.",
+    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani’s playing cards are black. Some of \nDora’s playing cards are blue but none of them are shiny. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nNeither Armani nor Dora has black playing cards which are shiny.",
     "options": [
       "Yes",
       "No"
@@ -1059,7 +1053,7 @@ const QUESTIONS = [
   {
     "id": 75,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani\u2019s playing cards are black. Some of \nDora\u2019s playing cards are blue but none of them are shiny. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nArmani and Dora both have some blue playing cards.",
+    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani’s playing cards are black. Some of \nDora’s playing cards are blue but none of them are shiny. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nArmani and Dora both have some blue playing cards.",
     "options": [
       "Yes",
       "No"
@@ -1071,13 +1065,13 @@ const QUESTIONS = [
   {
     "id": 76,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani\u2019s playing cards are black. Some of \nDora\u2019s playing cards are blue but none of them are shiny. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nBlue playing cards can never be shiny.",
+    "text": "<strong>Scenario:</strong>\nArmani and Dora both have playing cards. None of Armani’s playing cards are black. Some of \nDora’s playing cards are blue but none of them are shiny. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nBlue playing cards can never be shiny.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "There is not enough information to draw this conclusion. While Dora\u2019s blue playing cards are not shiny, there is nothing to indicate that no blue playing cards can be shiny.",
+    "explanation": "There is not enough information to draw this conclusion. While Dora’s blue playing cards are not shiny, there is nothing to indicate that no blue playing cards can be shiny.",
     "topic": "Decision Making"
   },
   {
@@ -1091,7 +1085,7 @@ const QUESTIONS = [
       "D"
     ],
     "answer": 0,
-    "explanation": "The circle represents cricket; The square represents tennis; The triangle represents football; The rectangle represents hockey. Don\u2019t forget the numbers overlapping other shapes to calculate the total number contained within each shape.",
+    "explanation": "The circle represents cricket; The square represents tennis; The triangle represents football; The rectangle represents hockey. Don’t forget the numbers overlapping other shapes to calculate the total number contained within each shape.",
     "topic": "Decision Making"
   },
   {
@@ -1111,7 +1105,7 @@ const QUESTIONS = [
   {
     "id": 79,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nThere were cases of COVID-19 prior to 29th March 2020.",
+    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nThere were cases of COVID-19 prior to 29th March 2020.",
     "options": [
       "Yes",
       "No"
@@ -1123,7 +1117,7 @@ const QUESTIONS = [
   {
     "id": 80,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nIn April, May, June and July of 2020, there was always a larger testing capacity than tests processed.",
+    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nIn April, May, June and July of 2020, there was always a larger testing capacity than tests processed.",
     "options": [
       "Yes",
       "No"
@@ -1135,19 +1129,19 @@ const QUESTIONS = [
   {
     "id": 81,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nIn the data above, the final day of July had the most tests processed.",
+    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nIn the data above, the final day of July had the most tests processed.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 0,
-    "explanation": "The highest bar on the graph is two days before 02 Aug, which is the final day of July. --- PAGE 474 --- \u00a9 MedicHut 2023. All Rights Reserved. 474",
+    "explanation": "The highest bar on the graph is two days before 02 Aug, which is the final day of July. --- PAGE 474 --- © MedicHut 2023. All Rights Reserved. 474.",
     "topic": "Decision Making"
   },
   {
     "id": 82,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nThe number of tests is directly proportionate to the number of infections.",
+    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nThe number of tests is directly proportionate to the number of infections.",
     "options": [
       "Yes",
       "No"
@@ -1159,7 +1153,7 @@ const QUESTIONS = [
   {
     "id": 83,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nThe first COVID-19 case diagnosed in the UK was on 29th March 2020.",
+    "text": "<strong>Scenario:</strong>\nThe graph shows information about COVID-19 testing during some months in 2020. \n \nSource: https://coronavirus.data.gov.uk/testing \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nThe first COVID-19 case diagnosed in the UK was on 29th March 2020.",
     "options": [
       "Yes",
       "No"
@@ -1171,7 +1165,7 @@ const QUESTIONS = [
   {
     "id": 84,
     "passageId": null,
-    "text": "There are 85 boys in year 7 at Pep\u2019s school. 5 do not participate in any after school sports \nclub. 27 go to badminton club, while 12 play rugby. 8 go to running club, while 42 play \n\n--- PAGE 415 ---\nsoccer. 4 play soccer and tennis. 22 play tennis in total, and 5 play both badminton and \ntennis.",
+    "text": "There are 85 boys in year 7 at Pep’s school. 5 do not participate in any after school sports \nclub. 27 go to badminton club, while 12 play rugby. 8 go to running club, while 42 play \n\n--- PAGE 415 ---\nsoccer. 4 play soccer and tennis. 22 play tennis in total, and 5 play both badminton and \ntennis.",
     "options": [
       "A",
       "B",
@@ -1179,13 +1173,13 @@ const QUESTIONS = [
       "D"
     ],
     "answer": 0,
-    "explanation": "The circle on the left represents badminton, the circle on the right represents soccer, and the circle at the bottom represents tennis. Outside the circles, 12 represents rugby, 8 represents running club, and 5 represents those who don\u2019t participate in any sports.",
+    "explanation": "The circle on the left represents badminton, the circle on the right represents soccer, and the circle at the bottom represents tennis. Outside the circles, 12 represents rugby, 8 represents running club, and 5 represents those who don’t participate in any sports.",
     "topic": "Decision Making"
   },
   {
     "id": 85,
     "passageId": null,
-    "text": "8 \n22 \n5  \n8 \n5  \n\n--- PAGE 416 ---\nWhich of the following makes the last equation true?<br><br><div style=\"display:flex; flex-direction:column; gap:10px; align-items:center;\"><img src=\"image/page_415_Image1343.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1344.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1345.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1346.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1347.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1348.png\" style=\"max-height:30px;\"></div>",
+    "text": "8 \n22 \n5  \n8 \n5  \n\n--- PAGE 416 ---\nWhich of the follflowing makes the last equation true?<br><br><div style=\"display:flex; flex-direction:column; gap:10px; align-items:center;\"><img src=\"image/page_415_Image1343.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1344.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1345.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1346.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1347.png\" style=\"max-height:30px;\"><img src=\"image/page_415_Image1348.png\" style=\"max-height:30px;\"></div>",
     "options": [
       "Heart",
       "Diamond",
@@ -1199,15 +1193,15 @@ const QUESTIONS = [
   {
     "id": 86,
     "passageId": null,
-    "text": "Should the government make it compulsory for all students to study History at A-level to \nensure they are aware of Britain\u2019s colonial past? \n \nSelect the strongest argument from the statements below.",
+    "text": "Should the government make it compulsory for all students to study History at A-level to \nensure they are aware of Britain’s colonial past? \n \nSelect the strongest argument from the statements below.",
     "options": [
       "Yes, as this will boost their chances of progressing to university.",
       "Yes, because its important that students realise the importance of History.",
-      "No, because studying History at A-level does not necessarily mean the students will \nbe exposed to the correct narrative of Britain\u2019s history.",
+      "No, because studying History at A-level does not necessarily mean the students will \nbe exposed to the correct narrative of Britain’s history.",
       "No, as everyone should have be able to make their own decisions of what they want \nto study."
     ],
     "answer": 2,
-    "explanation": "This addresses the fact that studying history is not guaranteed to lead to exposure of Britain\u2019s colonial past. --- PAGE 475 --- \u00a9 MedicHut 2023. All Rights Reserved. 475",
+    "explanation": "This addresses the fact that studying history is not guaranteed to lead to exposure of Britain’s colonial past. --- PAGE 475 --- © MedicHut 2023. All Rights Reserved. 475.",
     "topic": "Decision Making"
   },
   {
@@ -1221,13 +1215,13 @@ const QUESTIONS = [
       "No, because studies have shown that marijuana is not as addictive as other drugs, so \nthere should be a bigger emphasis placed on reducing crime related to other drugs. \n \n \n \n \n\n--- PAGE 417 ---"
     ],
     "answer": 1,
-    "explanation": "This provides a logical argument for how this action could lead to reduced crime rates. Option A is focussed on the number of citizens arrested for crime, rather than crime itself, and is a weaker argument due to the word \u201cmay\u201d. Option C mentions that the impact may not be \u201clarge\u201d, although the question does not specify that it\u2019s looking to reduce crime rates by a large amount. Further, option C is weakened by the word \u201clikely\u201d. Option D does not discuss whether legalising marijuana could reduce crime rates.",
+    "explanation": "This provides a logical argument for how this action could lead to reduced crime rates. Option A is focussed on the number of citizens arrested for crime, rather than crime itself, and is a weaker argument due to the word “may”. Option C mentions that the impact may not be “large”, although the question does not specify that it’s looking to reduce crime rates by a large amount. Further, option C is weakened by the word “likely”. Option D does not discuss whether legalising marijuana could reduce crime rates.",
     "topic": "Decision Making"
   },
   {
     "id": 88,
     "passageId": null,
-    "text": "COVID infection rates are recorded for various cities in Yorkshire. Results show a 27% rise in \ninfection rates during September in Leeds. Leeds has 3 universities all of which open during \nSeptember and 10% of students returning from overseas have tested positive for COVID. \n \nWhich of the following statements can be concluded from the passage?",
+    "text": "COVID infection rates are recorded for various cities in Yorkshire. Results show a 27% rise in \ninfection rates during September in Leeds. Leeds has 3 universities all of which open during \nSeptember and 10% of students returning from overseas have tested positive for COVID. \n \nWhich of the follflowing statements can be concluded from the passage?",
     "options": [
       "The increased infection rates are mainly due to the return of students to universities.",
       "Leeds should go on a local lockdown immediately to prevent further spread.",
@@ -1235,21 +1229,21 @@ const QUESTIONS = [
       "Students poor hygiene is to blame for the increased infection rates."
     ],
     "answer": 2,
-    "explanation": "If a percentage of students from overseas are positive for COVID- 19, it can be concluded that students have made some contribution to the infection rates. There is not enough evidence to support option A, primarily due to the world \u201cmainly\u201d. Option B is possible, but cannot definitely be concluded based on the information in the passage. It is worded as a definite statement, yet we cannot be 100% certain that this would be true. There is no evidence for option D.",
+    "explanation": "If a percentage of students from overseas are positive for COVID- 19, it can be concluded that students have made some contribution to the infection rates. There is not enough evidence to support option A, primarily due to the world “mainly”. Option B is possible, but cannot definitely be concluded based on the information in the passage. It is worded as a definite statement, yet we cannot be 100% certain that this would be true. There is no evidence for option D.",
     "topic": "Decision Making"
   },
   {
     "id": 89,
     "passageId": null,
-    "text": "Costi, Stari, Nervo & Boti visit the park during their lunch time break. They all decide to \npurchase some ice cream from the park shop. They buy 1 ice cream each costing; \u00a31.15, \n\u00a31.43, \u00a31.12, \u00a31.55 in no particular order. The names of the ice creams are; Melon on ice, \nRosewater, Blue freeze and Rockstar in no particular order.  \n \nStari purchased a Blue Freeze \n \nThe prices of Blue Freeze and Melon on Ice have the same first and last digits \n \nNervo purchased a Rosewater or Rockstar \n \nThe Rockstar was the cheapest \n \nCosti purchased the more expensive of the the following; Blue Freeze and Melon on ice. \n \nBoti purchased the more expensive of the following; Rosewater and Rockstar. \n \nWhat was the cost of Boti\u2019s ice cream?",
+    "text": "Costi, Stari, Nervo & Boti visit the park during their lunch time break. They all decide to \npurchase some ice cream from the park shop. They buy 1 ice cream each costing; £1.15, \n£1.43, £1.12, £1.55 in no particular order. The names of the ice creams are; Melon on ice, \nRosewater, Blue freeze and Rockstar in no particular order.  \n \nStari purchased a Blue Freeze \n \nThe prices of Blue Freeze and Melon on Ice have the same first and last digits \n \nNervo purchased a Rosewater or Rockstar \n \nThe Rockstar was the cheapest \n \nCosti purchased the more expensive of the the follflowing; Blue Freeze and Melon on ice. \n \nBoti purchased the more expensive of the follflowing; Rosewater and Rockstar. \n \nWhat was the cost of Boti’s ice cream?",
     "options": [
-      "\u00a31.12",
-      "\u00a31.43",
-      "\u00a31.15",
-      "\u00a31.55 \n \n\n--- PAGE 418 ---"
+      "£1.12",
+      "£1.43",
+      "£1.15",
+      "£1.55 \n \n\n--- PAGE 418 ---"
     ],
     "answer": 1,
-    "explanation": "Stari bought Blue Freeze: Melon on Ice and Blue Freeze cost \u00a31.15 and \u00a31.55 in any order: --- PAGE 476 --- \u00a9 MedicHut 2023. All Rights Reserved. 476 Nervo bought Rosewater or Rockstar Rockstar costs \u00a31.12: Costi bought the more expensive of \u00a31.15 and \u00a31.55, so they bought the \u00a31.55 ice cream: --- PAGE 477 --- \u00a9 MedicHut 2023. All Rights Reserved. 477 Stari bought Blue Freeze, and Costi bought the more expensive of Blue Freeze and Melon on Ice. Therefore, Blue Freeze must cost \u00a31.15 (the lower of the two), and Melon in Ice must cost \u00a31.55. Costi must have bought Melon on Ice. Boti bought the more expensive of \u00a31.12 and \u00a31.43, so Boti must have bought Rosewater for \u00a31.43.",
+    "explanation": "Stari bought Blue Freeze: Melon on Ice and Blue Freeze cost £1.15 and £1.55 in any order: --- PAGE 476 --- © MedicHut 2023. All Rights Reserved. 476 Nervo bought Rosewater or Rockstar Rockstar costs £1.12: Costi bought the more expensive of £1.15 and £1.55, so they bought the £1.55 ice cream: --- PAGE 477 --- © MedicHut 2023. All Rights Reserved. 477 Stari bought Blue Freeze, and Costi bought the more expensive of Blue Freeze and Melon on Ice. Therefore, Blue Freeze must cost £1.15 (the lower of the two), and Melon in Ice must cost £1.55. Costi must have bought Melon on Ice. Boti bought the more expensive of £1.12 and £1.43, so Boti must have bought Rosewater for £1.43.",
     "topic": "Decision Making"
   },
   {
@@ -1269,7 +1263,7 @@ const QUESTIONS = [
   {
     "id": 91,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place \u201cNo\u201d if the conclusion does not follow\n\n<strong>Does the following conclusion follow?</strong>\nThere are more rugs than cupboards.",
+    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place “No” if the conclusion does not follow\n\n<strong>Does the follflowing conclusion follow?</strong>\nThere are more rugs than cupboards.",
     "options": [
       "Yes",
       "No"
@@ -1281,7 +1275,7 @@ const QUESTIONS = [
   {
     "id": 92,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place \u201cNo\u201d if the conclusion does not follow\n\n<strong>Does the following conclusion follow?</strong>\nThere are 4 wooden chairs.",
+    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place “No” if the conclusion does not follow\n\n<strong>Does the follflowing conclusion follow?</strong>\nThere are 4 wooden chairs.",
     "options": [
       "Yes",
       "No"
@@ -1293,7 +1287,7 @@ const QUESTIONS = [
   {
     "id": 93,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place \u201cNo\u201d if the conclusion does not follow\n\n<strong>Does the following conclusion follow?</strong>\nThe total number of tables is 8.",
+    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place “No” if the conclusion does not follow\n\n<strong>Does the follflowing conclusion follow?</strong>\nThe total number of tables is 8.",
     "options": [
       "Yes",
       "No"
@@ -1305,7 +1299,7 @@ const QUESTIONS = [
   {
     "id": 94,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place \u201cNo\u201d if the conclusion does not follow\n\n<strong>Does the following conclusion follow?</strong>\nSome of the cupboards are wooden.",
+    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place “No” if the conclusion does not follow\n\n<strong>Does the follflowing conclusion follow?</strong>\nSome of the cupboards are wooden.",
     "options": [
       "Yes",
       "No"
@@ -1317,7 +1311,7 @@ const QUESTIONS = [
   {
     "id": 95,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place \u201cNo\u201d if the conclusion does not follow\n\n<strong>Does the following conclusion follow?</strong>\nAll of the rugs are cotton.",
+    "text": "<strong>Scenario:</strong>\nA businesswoman is selling some new furniture products in her store: chairs, tables, \ncupboards & rugs. She has a total of 25 new furniture products.  \n \nSome of the new furniture products are made from wood. None of the rugs are made from \nwood.  There are 2 more chairs than cupboards & there are an equal number of tables and \nchairs. Only chairs and tables are made from wood. There are 3 rugs. \n \n Place “No” if the conclusion does not follow\n\n<strong>Does the follflowing conclusion follow?</strong>\nAll of the rugs are cotton.",
     "options": [
       "Yes",
       "No"
@@ -1329,11 +1323,11 @@ const QUESTIONS = [
   {
     "id": 96,
     "passageId": null,
-    "text": "Ilyas has a biased coin. There is a 2 in 3 chance of it landing on heads. Ilyas tosses the coin \n14 times and lands on heads each time. \n \n\u201cIf Ilyas tosses the coin 1 more time, he will have the same chance of landing on tails as he \ndid previously.\u201d \n \n\n--- PAGE 419 ---",
+    "text": "Ilyas has a biased coin. There is a 2 in 3 chance of it landing on heads. Ilyas tosses the coin \n14 times and lands on heads each time. \n \n“If Ilyas tosses the coin 1 more time, he will have the same chance of landing on tails as he \ndid previously.” \n \n\n--- PAGE 419 ---",
     "options": [
       "Yes, because there is no conditional probability.",
       "Yes, because 2 in 3 is greater than 1 in 3.",
-      "No, because he hasn\u2019t yet once landed on tails.",
+      "No, because he hasn’t yet once landed on tails.",
       "No, because his coin is biased."
     ],
     "answer": 0,
@@ -1343,7 +1337,7 @@ const QUESTIONS = [
   {
     "id": 97,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nAll shiny cases are black",
+    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nAll shiny cases are black",
     "options": [
       "Yes",
       "No"
@@ -1355,7 +1349,7 @@ const QUESTIONS = [
   {
     "id": 98,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nNo clear cases are black",
+    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nNo clear cases are black",
     "options": [
       "Yes",
       "No"
@@ -1367,7 +1361,7 @@ const QUESTIONS = [
   {
     "id": 99,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nGrey cases must not be shiny",
+    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nGrey cases must not be shiny",
     "options": [
       "Yes",
       "No"
@@ -1379,7 +1373,7 @@ const QUESTIONS = [
   {
     "id": 100,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nBlue cases could be shiny.",
+    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nBlue cases could be shiny.",
     "options": [
       "Yes",
       "No"
@@ -1391,13 +1385,13 @@ const QUESTIONS = [
   {
     "id": 101,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nNon-grey cases cannot be clear.",
+    "text": "<strong>Scenario:</strong>\nSome phones have black cases and all black cases are shiny. Many grey cases are clear but \nnone are shiny.  \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nNon-grey cases cannot be clear.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "Many grey cases are clear, but clear cases are not exclusively grey based on the information given. --- PAGE 479 --- \u00a9 MedicHut 2023. All Rights Reserved. 479",
+    "explanation": "Many grey cases are clear, but clear cases are not exclusively grey based on the information given. --- PAGE 479 --- © MedicHut 2023. All Rights Reserved. 479.",
     "topic": "Decision Making"
   },
   {
@@ -1431,7 +1425,7 @@ const QUESTIONS = [
   {
     "id": 104,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. \u00bc of the \nfruits are apples, \u00bd of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nThere are more non fizzy drinks than fruits.",
+    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. ¼ of the \nfruits are apples, ½ of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nThere are more non fizzy drinks than fruits.",
     "options": [
       "Yes",
       "No"
@@ -1443,7 +1437,7 @@ const QUESTIONS = [
   {
     "id": 105,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. \u00bc of the \nfruits are apples, \u00bd of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nThere are twice as many fruits as drinks.",
+    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. ¼ of the \nfruits are apples, ½ of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nThere are twice as many fruits as drinks.",
     "options": [
       "Yes",
       "No"
@@ -1455,7 +1449,7 @@ const QUESTIONS = [
   {
     "id": 106,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. \u00bc of the \nfruits are apples, \u00bd of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nThere are 4 pizzas",
+    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. ¼ of the \nfruits are apples, ½ of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nThere are 4 pizzas",
     "options": [
       "Yes",
       "No"
@@ -1467,7 +1461,7 @@ const QUESTIONS = [
   {
     "id": 107,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. \u00bc of the \nfruits are apples, \u00bd of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nThere are more strawberries than fizzy drinks.",
+    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. ¼ of the \nfruits are apples, ½ of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nThere are more strawberries than fizzy drinks.",
     "options": [
       "Yes",
       "No"
@@ -1479,7 +1473,7 @@ const QUESTIONS = [
   {
     "id": 108,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. \u00bc of the \nfruits are apples, \u00bd of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place \u201cNo\u201d if the conclusion does not follow.\n\n<strong>Does the following conclusion follow?</strong>\nThe shopping trolley can hold a maximum of 26 items.",
+    "text": "<strong>Scenario:</strong>\nThere are 12 fruits, 8 frozen foods and a number of drinks in a shopping trolley. ¼ of the \nfruits are apples, ½ of the fruits are bananas and the rest are strawberries. Some of the \nfrozen foods are pizzas and half of the frozen foods are garlic bread. There are the same \nnumber of drinks as bananas and all the drinks are not fizzy. \n \n Place “No” if the conclusion does not follow.\n\n<strong>Does the follflowing conclusion follow?</strong>\nThe shopping trolley can hold a maximum of 26 items.",
     "options": [
       "Yes",
       "No"
@@ -1505,7 +1499,7 @@ const QUESTIONS = [
   {
     "id": 110,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe following table shows the exchange rate for \u00a31 (GBP) to Euro (EUR), Canadian dollar \n(CAD), American dollar (USD), Kuwait Dinar (KWD), Pakistan Rupee (PKR) and Hong Kong \ndollar (HKD).\n\n<strong>Question:</strong>\nTyson wants to book a surprise holiday to Kuwait for his wife Judith\u2019s 60th birthday. \nThe cost of the plane ticket is \u00a3436 per person unless it is a child ticket which costs \n\u00a3212. Tyson and Judith have 3 children; Andy 16, Ian 14 & Martin 6. Anyone under \nthe age of 12 is considered a child. \n \nIf Tyson decides to book the plane tickets for his full family, how much will he pay to \nthe nearest Kuwaiti Dinar (KWD)?",
+    "text": "<strong>Scenario:</strong>\nThe follflowing table shows the exchange rate for £1 (GBP) to Euro (EUR), Canadian dollar \n(CAD), American dollar (USD), Kuwait Dinar (KWD), Pakistan Rupee (PKR) and Hong Kong \ndollar (HKD).\n\n<strong>Question:</strong>\nTyson wants to book a surprise holiday to Kuwait for his wife Judith’s 60th birthday. \nThe cost of the plane ticket is £436 per person unless it is a child ticket which costs \n£212. Tyson and Judith have 3 children; Andy 16, Ian 14 & Martin 6. Anyone under \nthe age of 12 is considered a child. \n \nIf Tyson decides to book the plane tickets for his full family, how much will he pay to \nthe nearest Kuwaiti Dinar (KWD)?",
     "options": [
       "603 KWD",
       "782 KWD",
@@ -1514,13 +1508,13 @@ const QUESTIONS = [
       "842 KWD"
     ],
     "answer": 1,
-    "explanation": "There are 4 adults and 1 child. (4 x 436) + 212 = \u00a31956. To convert this into KWD, multiply by 0.4 = 782.4 KWD.",
+    "explanation": "There are 4 adults and 1 child. (4 x 436) + 212 = £1956. To convert this into KWD, multiply by 0.4 = 782.4 KWD.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 111,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe following table shows the exchange rate for \u00a31 (GBP) to Euro (EUR), Canadian dollar \n(CAD), American dollar (USD), Kuwait Dinar (KWD), Pakistan Rupee (PKR) and Hong Kong \ndollar (HKD).\n\n<strong>Question:</strong>\nJamal is booking a flight to Canada using his 50% discount coupon for all flights with \nQatar Airways. He is also eligible for a further 15% NHS discount. If the total cost of \nthe ticket is 1,650 CAD, how much will he save to the nearest GBP after the discounts \nare applied?",
+    "text": "<strong>Scenario:</strong>\nThe follflowing table shows the exchange rate for £1 (GBP) to Euro (EUR), Canadian dollar \n(CAD), American dollar (USD), Kuwait Dinar (KWD), Pakistan Rupee (PKR) and Hong Kong \ndollar (HKD).\n\n<strong>Question:</strong>\nJamal is booking a flight to Canada using his 50% discount coupon for all flights with \nQatar Airways. He is also eligible for a further 15% NHS discount. If the total cost of \nthe ticket is 1,650 CAD, how much will he save to the nearest GBP after the discounts \nare applied?",
     "options": [
       "401 GBP",
       "542 GBP",
@@ -1529,28 +1523,28 @@ const QUESTIONS = [
       "445 GBP GBP Exchange 1.00 1.11 EUR 1.00 1.75 CAD 1.00 1.31 USD 1.00 0.40 KWD 1.00 217.98 PKR 1.00 10.12 HKD --- PAGE 423 --- 423"
     ],
     "answer": 1,
-    "explanation": "1650 CAD / 1.75 = 942.86 GBP. 942.86 x 50% = 471.43 GBP. 471.43 - 15% = \u00a3400.71. This is how much the ticket would cost. The total savings would be 942.86 - 400.71= \u00a3542.15",
+    "explanation": "1650 CAD / 1.75 = 942.86 GBP. 942.86 x 50% = 471.43 GBP. 471.43 - 15% = £400.71. This is how much the ticket would cost. The total savings would be 942.86 - 400.71= £542.15.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 112,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe following table shows the exchange rate for \u00a31 (GBP) to Euro (EUR), Canadian dollar \n(CAD), American dollar (USD), Kuwait Dinar (KWD), Pakistan Rupee (PKR) and Hong Kong \ndollar (HKD).\n\n<strong>Question:</strong>\n15 friends decide to travel to Hong Kong to watch the Asia Cup Final. Their hotel \ncosts 42 HKD plus a 2.5% service fee each per night. They purchase 15 Cup final \ntickets which cost 2900 HKD in total. They paid 455 EUR each for their flights and \nspent an additional 100HKD per day each. If they stayed for 6 days and 6 nights, how \nmuch did they pay each in pounds?",
+    "text": "<strong>Scenario:</strong>\nThe follflowing table shows the exchange rate for £1 (GBP) to Euro (EUR), Canadian dollar \n(CAD), American dollar (USD), Kuwait Dinar (KWD), Pakistan Rupee (PKR) and Hong Kong \ndollar (HKD).\n\n<strong>Question:</strong>\n15 friends decide to travel to Hong Kong to watch the Asia Cup Final. Their hotel \ncosts 42 HKD plus a 2.5% service fee each per night. They purchase 15 Cup final \ntickets which cost 2900 HKD in total. They paid 455 EUR each for their flights and \nspent an additional 100HKD per day each. If they stayed for 6 days and 6 nights, how \nmuch did they pay each in pounds?",
     "options": [
-      "\u00a3464.41",
-      "\u00a3513.82",
-      "\u00a3482.93",
-      "\u00a3384.55",
-      "\u00a3762.95"
+      "£464.41",
+      "£513.82",
+      "£482.93",
+      "£384.55",
+      "£762.95"
     ],
     "answer": 1,
-    "explanation": "Hotel cost: 42 x 1.025 = 43.05 x 6 nights = 258.30 HKD. Cup final ticket per person = 2900/15 = 193.33 HKD. Total in HKD = 451.63 + (100 x 6 additional cost) = 1051.63 HKD. To get this in GBP, divide by 10.12 = 103.92 GBP. Flight cost converted to GBP = 455/1.11 = 409.9. \u00a3409.9 + \u00a3103.9= \u00a3513.82",
+    "explanation": "Hotel cost: 42 x 1.025 = 43.05 x 6 nights = 258.30 HKD. Cup final ticket per person = 2900/15 = 193.33 HKD. Total in HKD = 451.63 + (100 x 6 additional cost) = 1051.63 HKD. To get this in GBP, divide by 10.12 = 103.92 GBP. Flight cost converted to GBP = 455/1.11 = 409.9. £409.9 + £103.9= £513.82.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 113,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe following table shows the exchange rate for \u00a31 (GBP) to Euro (EUR), Canadian dollar \n(CAD), American dollar (USD), Kuwait Dinar (KWD), Pakistan Rupee (PKR) and Hong Kong \ndollar (HKD).\n\n<strong>Question:</strong>\nLola has 1,310 USD in her account. She spends all of this during her holiday in New \nYork. How much did she spend in Euros (EUR)?",
+    "text": "<strong>Scenario:</strong>\nThe follflowing table shows the exchange rate for £1 (GBP) to Euro (EUR), Canadian dollar \n(CAD), American dollar (USD), Kuwait Dinar (KWD), Pakistan Rupee (PKR) and Hong Kong \ndollar (HKD).\n\n<strong>Question:</strong>\nLola has 1,310 USD in her account. She spends all of this during her holiday in New \nYork. How much did she spend in Euros (EUR)?",
     "options": [
       "1000 EUR",
       "1400 EUR",
@@ -1559,7 +1553,7 @@ const QUESTIONS = [
       "1320 EUR"
     ],
     "answer": 2,
-    "explanation": "1310 USD = 1000 GBP = 1110 EUR Scenario 2",
+    "explanation": "1310 USD = 1000 GBP = 1110 EUR Scenario 2.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1589,7 +1583,7 @@ const QUESTIONS = [
       "63.2%"
     ],
     "answer": 0,
-    "explanation": "5645 - 4316 = 1329. Take the difference and divide it by the original value: 1329/5645 = 23.54%",
+    "explanation": "5645 - 4316 = 1329. Take the difference and divide it by the original value: 1329/5645 = 23.54%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1604,7 +1598,7 @@ const QUESTIONS = [
       "18%"
     ],
     "answer": 0,
-    "explanation": "The total number of bookings is 13637. 2088/13637 = 15%",
+    "explanation": "The total number of bookings is 13637. 2088/13637 = 15%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1619,28 +1613,28 @@ const QUESTIONS = [
       "78.6%"
     ],
     "answer": 1,
-    "explanation": "The total number of bookings in 2016 was 13305. 13305- 6763 = 6542. Take the difference and divide it by the first value: 6542/6763= 96.7% You could also do 13305/6763= 96.7% increase. --- PAGE 481 --- Scenario 3",
+    "explanation": "The total number of bookings in 2016 was 13305. 13305- 6763 = 6542. Take the difference and divide it by the first value: 6542/6763= 96.7% You could also do 13305/6763= 96.7% increase. --- PAGE 481 --- Scenario 3.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 118,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe diagram below shows a floor plan of the first floor of Yaqoob\u2019s new house. Both the \nliving room and front room are square-shaped and identical in dimension. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n--- PAGE 425 ---\n \n425<br><br><img src=\"image/page_424_Image1360.png\" style=\"max-width:100%;\">\n\n<strong>Question:</strong>\nYaqoob\u2019s wife, Noor, wants to put tiles in the living room and kitchen. The living \nroom is square-shaped. Each tile is 0.5m2 and costs \u00a32.30. How much will it cost to \nput tiles in the kitchen and living room.",
+    "text": "<strong>Scenario:</strong>\nThe diagram below shows a floor plan of the first floor of Yaqoob’s new house. Both the \nliving room and front room are square-shaped and identical in dimension. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n--- PAGE 425 ---\n \n425<br><br><img src=\"image/page_424_Image1360.png\" style=\"max-width:100%;\">\n\n<strong>Question:</strong>\nYaqoob’s wife, Noor, wants to put tiles in the living room and kitchen. The living \nroom is square-shaped. Each tile is 0.5m2 and costs £2.30. How much will it cost to \nput tiles in the kitchen and living room.",
     "options": [
-      "\u00a3184.00",
-      "\u00a3211.60",
-      "\u00a3386.40",
-      "\u00a3423.20",
-      "\u00a3288.70"
+      "£184.00",
+      "£211.60",
+      "£386.40",
+      "£423.20",
+      "£288.70"
     ],
     "answer": 3,
-    "explanation": "The area of the living room is 8x8=64m2, and the surface area of the kitchen is (7x8)/2=28m2. This gives a total of 92m2. Each tile is 0.5m2 so Yaqoob will need 92x2=184 tiles. Each tile costs \u00a32.30, so 184x2.3=\u00a3423.20",
+    "explanation": "The area of the living room is 8x8=64m2, and the surface area of the kitchen is (7x8)/2=28m2. This gives a total of 92m2. Each tile is 0.5m2 so Yaqoob will need 92x2=184 tiles. Each tile costs £2.30, so 184x2.3=£423.20.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 119,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe diagram below shows a floor plan of the first floor of Yaqoob\u2019s new house. Both the \nliving room and front room are square-shaped and identical in dimension. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n--- PAGE 425 ---\n \n425<br><br><img src=\"image/page_424_Image1360.png\" style=\"max-width:100%;\">\n\n<strong>Question:</strong>\nYaqoob now wants to extend his front room by 3m in length. By what percent will \nthe front room be bigger than the living room?",
+    "text": "<strong>Scenario:</strong>\nThe diagram below shows a floor plan of the first floor of Yaqoob’s new house. Both the \nliving room and front room are square-shaped and identical in dimension. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n--- PAGE 425 ---\n \n425<br><br><img src=\"image/page_424_Image1360.png\" style=\"max-width:100%;\">\n\n<strong>Question:</strong>\nYaqoob now wants to extend his front room by 3m in length. By what percent will \nthe front room be bigger than the living room?",
     "options": [
       "28.4%",
       "25%",
@@ -1649,13 +1643,13 @@ const QUESTIONS = [
       "27%"
     ],
     "answer": 2,
-    "explanation": "We already know the living room is 64m2. If extended by 3m, the front room would be (8 + 3) x 8 = 88m2. (88 - 64) / 64= 37.5%",
+    "explanation": "We already know the living room is 64m2. If extended by 3m, the front room would be (8 + 3) x 8 = 88m2. (88 - 64) / 64= 37.5%.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 120,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe diagram below shows a floor plan of the first floor of Yaqoob\u2019s new house. Both the \nliving room and front room are square-shaped and identical in dimension. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n--- PAGE 425 ---\n \n425<br><br><img src=\"image/page_424_Image1360.png\" style=\"max-width:100%;\">\n\n<strong>Question:</strong>\nNoor would like to put new carpet in the extended front room. If the carpet comes in \npieces that are 0.8m in length and 1.2m in width, how many pieces will she need to \ncover the extended front room\u2019s floor?",
+    "text": "<strong>Scenario:</strong>\nThe diagram below shows a floor plan of the first floor of Yaqoob’s new house. Both the \nliving room and front room are square-shaped and identical in dimension. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n--- PAGE 425 ---\n \n425<br><br><img src=\"image/page_424_Image1360.png\" style=\"max-width:100%;\">\n\n<strong>Question:</strong>\nNoor would like to put new carpet in the extended front room. If the carpet comes in \npieces that are 0.8m in length and 1.2m in width, how many pieces will she need to \ncover the extended front room’s floor?",
     "options": [
       "92",
       "48",
@@ -1670,7 +1664,7 @@ const QUESTIONS = [
   {
     "id": 121,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe diagram below shows a floor plan of the first floor of Yaqoob\u2019s new house. Both the \nliving room and front room are square-shaped and identical in dimension. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n--- PAGE 425 ---\n \n425<br><br><img src=\"image/page_424_Image1360.png\" style=\"max-width:100%;\">\n\n<strong>Question:</strong>\nYaqoob\u2019s son Yusuf would like to store his boxes in the living room, which is a cube.  \nThe boxes have dimensions of 0.2m in height x 0.3m in length x 0.5m in width. How \nmany boxes can he store if he covers half the space of the living room with boxes?",
+    "text": "<strong>Scenario:</strong>\nThe diagram below shows a floor plan of the first floor of Yaqoob’s new house. Both the \nliving room and front room are square-shaped and identical in dimension. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n--- PAGE 425 ---\n \n425<br><br><img src=\"image/page_424_Image1360.png\" style=\"max-width:100%;\">\n\n<strong>Question:</strong>\nYaqoob’s son Yusuf would like to store his boxes in the living room, which is a cube.  \nThe boxes have dimensions of 0.2m in height x 0.3m in length x 0.5m in width. How \nmany boxes can he store if he covers half the space of the living room with boxes?",
     "options": [
       "8534",
       "8533",
@@ -1679,67 +1673,67 @@ const QUESTIONS = [
       "17067 --- PAGE 426 --- 426"
     ],
     "answer": 1,
-    "explanation": "The volume of the living room is 8 x 8 x 8 = 512m3. Each box is 0.2 x 0.3 x 0.5 = 0.03m3. Half of the volume of the living room is 256m3. 256 / 0.03 = 8533 boxes. Remember not to round up as he\u2019s unable to take up more than half of the volume of the living room. Scenario 4",
+    "explanation": "The volume of the living room is 8 x 8 x 8 = 512m3. Each box is 0.2 x 0.3 x 0.5 = 0.03m3. Half of the volume of the living room is 256m3. 256 / 0.03 = 8533 boxes. Remember not to round up as he’s unable to take up more than half of the volume of the living room. Scenario 4.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 122,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnnual Income \nTax percentage \n\u00a30 - \u00a322,000 \n12% \n\u00a322,001 - \u00a350,000 \n20% \n\u00a350,001 - \u00a375,000 \n32% \n\u00a375,001 + \n40%\n\n<strong>Question:</strong>\nAlfonso has recently started working in his local Post Office. He earns \u00a312.50 per \nhour and works 8-hour shifts. If Alfonso works 5 days a week during each week of \nthe year, how much tax will he pay per month?",
+    "text": "<strong>Scenario:</strong>\nAnnual Income \nTax percentage \n£0 - £22,000 \n12% \n£22,001 - £50,000 \n20% \n£50,001 - £75,000 \n32% \n£75,001 + \n40%\n\n<strong>Question:</strong>\nAlfonso has recently started working in his local Post Office. He earns £12.50 per \nhour and works 8-hour shifts. If Alfonso works 5 days a week during each week of \nthe year, how much tax will he pay per month?",
     "options": [
-      "\u00a3286.67",
-      "\u00a3433.33",
-      "\u00a3788.90",
-      "\u00a35200.00",
-      "\u00a34639.80"
+      "£286.67",
+      "£433.33",
+      "£788.90",
+      "£5200.00",
+      "£4639.80"
     ],
     "answer": 0,
-    "explanation": "First calculate his annual income. \u00a312.50 x 8 hours x 5 days x 52 weeks = \u00a326000. This falls into the second tax bracket. He will pay 22000 x 12% = \u00a32640 tax for the first tack bracket, and (26000 - 22000) x 20% = \u00a3800 for the second tax bracket. This gives a total of \u00a33440 per year. Divided by 12 = \u00a3286.67 per month",
+    "explanation": "First calculate his annual income. £12.50 x 8 hours x 5 days x 52 weeks = £26000. This falls into the second tax bracket. He will pay 22000 x 12% = £2640 tax for the first tack bracket, and (26000 - 22000) x 20% = £800 for the second tax bracket. This gives a total of £3440 per year. Divided by 12 = £286.67 per month.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 123,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnnual Income \nTax percentage \n\u00a30 - \u00a322,000 \n12% \n\u00a322,001 - \u00a350,000 \n20% \n\u00a350,001 - \u00a375,000 \n32% \n\u00a375,001 + \n40%\n\n<strong>Question:</strong>\nThe Post Office made \u00a3276,000 in 2019. Sergio is the owner of the Post Office and \nhas two employees whose salaries he pays. Alfonso works during the week and Bella \nworks over the weekend. If Bella works for 16 hours over the weekend and is paid \n50p more than Alfonso per hour, how much tax will Sergio pay annually after \nremoving his staff salary costs?",
+    "text": "<strong>Scenario:</strong>\nAnnual Income \nTax percentage \n£0 - £22,000 \n12% \n£22,001 - £50,000 \n20% \n£50,001 - £75,000 \n32% \n£75,001 + \n40%\n\n<strong>Question:</strong>\nThe Post Office made £276,000 in 2019. Sergio is the owner of the Post Office and \nhas two employees whose salaries he pays. Alfonso works during the week and Bella \nworks over the weekend. If Bella works for 16 hours over the weekend and is paid \n50p more than Alfonso per hour, how much tax will Sergio pay annually after \nremoving his staff salary costs?",
     "options": [
-      "\u00a382,000.00",
-      "\u00a378,420.10",
-      "\u00a392,257.60",
-      "\u00a3142,886.40",
-      "\u00a381,913.60"
+      "£82,000.00",
+      "£78,420.10",
+      "£92,257.60",
+      "£142,886.40",
+      "£81,913.60"
     ],
     "answer": 4,
-    "explanation": "Alfonso earns \u00a326,000 per year, as we know from the previous question. Bella earns 16 hours x \u00a313.00 x 52 weeks = \u00a310816 per year. 276000 - (26000+10816) = 239184 left over. The tax he pays on this would be 12% of 22000 + 20% of (50000 - 22000) + 32% of (75000 - 50000) + 40% of (239184 - 75000) = 2640 + 5600 + 8000 + 65673.60 = \u00a381913.60.",
+    "explanation": "Alfonso earns £26,000 per year, as we know from the previous question. Bella earns 16 hours x £13.00 x 52 weeks = £10816 per year. 276000 - (26000+10816) = 239184 left over. The tax he pays on this would be 12% of 22000 + 20% of (50000 - 22000) + 32% of (75000 - 50000) + 40% of (239184 - 75000) = 2640 + 5600 + 8000 + 65673.60 = £81913.60.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 124,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnnual Income \nTax percentage \n\u00a30 - \u00a322,000 \n12% \n\u00a322,001 - \u00a350,000 \n20% \n\u00a350,001 - \u00a375,000 \n32% \n\u00a375,001 + \n40%\n\n<strong>Question:</strong>\nMr Kante owns the meat shop next door to the Post Office. Mr.Kante pays \u00a31,250 \ntax every month. How much taxable income does he make every year?",
+    "text": "<strong>Scenario:</strong>\nAnnual Income \nTax percentage \n£0 - £22,000 \n12% \n£22,001 - £50,000 \n20% \n£50,001 - £75,000 \n32% \n£75,001 + \n40%\n\n<strong>Question:</strong>\nMr Kante owns the meat shop next door to the Post Office. Mr.Kante pays £1,250 \ntax every month. How much taxable income does he make every year?",
     "options": [
-      "\u00a36760",
-      "\u00a321125",
-      "\u00a315000",
-      "\u00a350000",
-      "\u00a371125 --- PAGE 427 --- 427"
+      "£6760",
+      "£21125",
+      "£15000",
+      "£50000",
+      "£71125 --- PAGE 427 --- 427"
     ],
     "answer": 4,
-    "explanation": "If he pays \u00a31250 in tax every month, he must pay \u00a315000 in tax every year. \u2022 We know from the previous question that \u00a32640 of tax is paid within the first tax bracket, \u00a35600 in the second tax bracket, and \u00a38000 in the third tax bracket. 2640 + 5600 + 8000 = 16240, therefore, as he pays \u00a315000 in tax, he must fall within the third tax bracket and earn between \u00a350,001 and \u00a375,000 a year. \u2022 The next question is: How far into this tax bracket is he? \u00a315000 - \u00a38240 (total of the last 2 tax brackets) = \u00a36760, so the tax he pays at a rate of 32% is \u00a36760 per year. \u2022 To calculate how much income would lead to a tax of \u00a36760 in the third tax bracket, use the equation \u201c32% of x = \u00a36760\u201d so 0.32x = 6760. x = 21125. \u2022 This is how far into the third tax bracket he is, i.e. how much more than \u00a350,000 he earns. So his total annual earnings are 50000 + 21125 = \u00a371125 --- PAGE 482 --- 482",
+    "explanation": "If he pays £1250 in tax every month, he must pay £15000 in tax every year. • We know from the previous question that £2640 of tax is paid within the first tax bracket, £5600 in the second tax bracket, and £8000 in the third tax bracket. 2640 + 5600 + 8000 = 16240, therefore, as he pays £15000 in tax, he must fall within the third tax bracket and earn between £50,001 and £75,000 a year. • The next question is: How far into this tax bracket is he? £15000 - £8240 (total of the last 2 tax brackets) = £6760, so the tax he pays at a rate of 32% is £6760 per year. • To calculate how much income would lead to a tax of £6760 in the third tax bracket, use the equation “32% of x = £6760” so 0.32x = 6760. x = 21125. • This is how far into the third tax bracket he is, i.e. how much more than £50,000 he earns. So his total annual earnings are 50000 + 21125 = £71125 --- PAGE 482 --- 482.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 125,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnnual Income \nTax percentage \n\u00a30 - \u00a322,000 \n12% \n\u00a322,001 - \u00a350,000 \n20% \n\u00a350,001 - \u00a375,000 \n32% \n\u00a375,001 + \n40%\n\n<strong>Question:</strong>\nIf Mr Kante\u2019s monthly income is increased by 7%, how much more tax must he pay \nevery month?",
+    "text": "<strong>Scenario:</strong>\nAnnual Income \nTax percentage \n£0 - £22,000 \n12% \n£22,001 - £50,000 \n20% \n£50,001 - £75,000 \n32% \n£75,001 + \n40%\n\n<strong>Question:</strong>\nIf Mr Kante’s monthly income is increased by 7%, how much more tax must he pay \nevery month?",
     "options": [
-      "\u00a3165.96",
-      "\u00a3140.13",
-      "\u00a31103.75",
-      "\u00a3441.50",
-      "\u00a31390.13"
+      "£165.96",
+      "£140.13",
+      "£1103.75",
+      "£441.50",
+      "£1390.13"
     ],
     "answer": 1,
-    "explanation": "We know his annual income from the previous question. 71125 x 1.07 = \u00a376,103.75 which is his new annual income. This makes him eligible for the final tax bracket of 40%, but only on everything he earns above \u00a375,000. So, he pays 40% tax on \u00a31103.75 of his income, which equates to \u00a3441.50 (1103.75 x 0.4). Now add up all of the taxes from each bracket: \u2022 Tax on first tax bracket: 22000 x 0.12 = 2640 \u2022 Tax on second tax bracket: 28000 x 0.2 = 5600 \u2022 Tax on third tax bracket: 25000 x 0.32 = 8000 \u2022 Tax on fourth tax bracket: 441.50 The total tax from each bracket = \u00a316,681.50 \u2022 16681.50 / 12 = \u00a31390.13 (monthly tax). \u2022 Previously, he was paying \u00a31250 a month. \u2022 Monthly increase in tax = 1390.13 - 1250 = \u00a3140.13. Scenario 5",
+    "explanation": "We know his annual income from the previous question. 71125 x 1.07 = £76,103.75 which is his new annual income. This makes him eligible for the final tax bracket of 40%, but only on everything he earns above £75,000. So, he pays 40% tax on £1103.75 of his income, which equates to £441.50 (1103.75 x 0.4). Now add up all of the taxes from each bracket: • Tax on first tax bracket: 22000 x 0.12 = 2640 • Tax on second tax bracket: 28000 x 0.2 = 5600 • Tax on third tax bracket: 25000 x 0.32 = 8000 • Tax on fourth tax bracket: 441.50 The total tax from each bracket = £16,681.50 • 16681.50 / 12 = £1390.13 (monthly tax). • Previously, he was paying £1250 a month. • Monthly increase in tax = 1390.13 - 1250 = £140.13. Scenario 5.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1754,7 +1748,7 @@ const QUESTIONS = [
       "75.4 miles/hour"
     ],
     "answer": 3,
-    "explanation": "His driving time was 3 hours + 0.5 hours + 3 hours = 6.5 hours. Convert 521km to miles to get the average speed in mph. 521/1.6=325.625. Average speed = 325.625 miles / 6.5 hours = 50.1 miles/hour",
+    "explanation": "His driving time was 3 hours + 0.5 hours + 3 hours = 6.5 hours. Convert 521km to miles to get the average speed in mph. 521/1.6=325.625. Average speed = 325.625 miles / 6.5 hours = 50.1 miles/hour.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1769,13 +1763,13 @@ const QUESTIONS = [
       "566 miles"
     ],
     "answer": 0,
-    "explanation": "6 hours and 20 minutes subtract 32 minutes equals 5 hours and 48 minutes. 48/60 = 0.8 so it took 5.8 hours to arrive in Saskatoon. If he travelled at 120 miles/hour and the time taken was 5.8 hours, you can calculate the miles travelled with the following equation: 120 miles/hour x 5.8 hours = 696 miles",
+    "explanation": "6 hours and 20 minutes subtract 32 minutes equals 5 hours and 48 minutes. 48/60 = 0.8 so it took 5.8 hours to arrive in Saskatoon. If he travelled at 120 miles/hour and the time taken was 5.8 hours, you can calculate the miles travelled with the follflowing equation: 120 miles/hour x 5.8 hours = 696 miles.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 128,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nKaram, Nav & Abraham are 3 friends who have recently started their studies at different \nuniversities in Canada. Karam studies in Calgary which is 299km from Edmonton, where Nav \nstudies. Abraham studies in Saskatoon which is 521km from Edmonton.  \n \n1mile= 1.6km\n\n<strong>Question:</strong>\nLucinda lives in Toronto and wants to catch a flight to Calgary. The time zone in \nToronto is 3 hours ahead of Calgary. If Lucinda\u2019s flight is scheduled to take off at 2.30 \nPM Toronto time and lasts for 5 hours, what will the local time be when she arrives \nin Calgary?",
+    "text": "<strong>Scenario:</strong>\nKaram, Nav & Abraham are 3 friends who have recently started their studies at different \nuniversities in Canada. Karam studies in Calgary which is 299km from Edmonton, where Nav \nstudies. Abraham studies in Saskatoon which is 521km from Edmonton.  \n \n1mile= 1.6km\n\n<strong>Question:</strong>\nLucinda lives in Toronto and wants to catch a flight to Calgary. The time zone in \nToronto is 3 hours ahead of Calgary. If Lucinda’s flight is scheduled to take off at 2.30 \nPM Toronto time and lasts for 5 hours, what will the local time be when she arrives \nin Calgary?",
     "options": [
       "10:30 PM --- PAGE 428 ---",
       "7:30 PM",
@@ -1784,7 +1778,7 @@ const QUESTIONS = [
       "4:30 PM"
     ],
     "answer": 4,
-    "explanation": "2:30 PM + 5 hours = 7:30 PM Toronto time when she lands. This is 3 hours ahead of Calgary time, so it\u2019ll be 4:30 PM in Calgary.",
+    "explanation": "2:30 PM + 5 hours = 7:30 PM Toronto time when she lands. This is 3 hours ahead of Calgary time, so it’fill be 4:30 PM in Calgary.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1799,43 +1793,43 @@ const QUESTIONS = [
       "5250"
     ],
     "answer": 2,
-    "explanation": "Calgary \u2192 Edmonton = 299 km. Edmonton \u2192 Saskatoon = 521 km. 6442 miles x 1.6 = 10,307.2 km. 299 + 521 + 10307.2 = 11127.2 km Scenario 6",
+    "explanation": "Calgary → Edmonton = 299 km. Edmonton → Saskatoon = 521 km. 6442 miles x 1.6 = 10,307.2 km. 299 + 521 + 10307.2 = 11127.2 km Scenario 6.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 130,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nOlive works for a bakery in the town centre. She is contracted to bake chocolate cakes and \nstrawberry tarts. She works 10 hour shifts on Mondays, Wednesdays & on the weekends. \nShe is paid \u00a37.65 an hour on weekdays and \u00a38.65 an hour on the weekends. Her pay is \ndoubled if she works on bank holidays.\n\n<strong>Question:</strong>\nOlive worked her usual shifts over 4 weeks, including 2 bank holiday Monday shifts. \nHow much did she earn in total?",
+    "text": "<strong>Scenario:</strong>\nOlive works for a bakery in the town centre. She is contracted to bake chocolate cakes and \nstrawberry tarts. She works 10 hour shifts on Mondays, Wednesdays & on the weekends. \nShe is paid £7.65 an hour on weekdays and £8.65 an hour on the weekends. Her pay is \ndoubled if she works on bank holidays.\n\n<strong>Question:</strong>\nOlive worked her usual shifts over 4 weeks, including 2 bank holiday Monday shifts. \nHow much did she earn in total?",
     "options": [
-      "\u00a31304",
-      "\u00a31111",
-      "\u00a31457",
-      "\u00a31532",
-      "\u00a31409"
+      "£1304",
+      "£1111",
+      "£1457",
+      "£1532",
+      "£1409"
     ],
     "answer": 2,
-    "explanation": "In 4 weeks, there are 2 bank holiday Mondays, 2 normal Mondays, 4 Wednesdays, and 8 weekend days. \u2022 Bank holiday Mondays: 2 days x 2 (double rate) x \u00a37.65 x 10 hours = \u00a3306 \u2022 Normal Mondays and Wednesdays: 6 days x \u00a37.65 x 10 hours = \u00a3459 \u2022 Weekends: 8 days x \u00a38.65 x 10 hours = \u00a3692 \u2022 Total: \u00a31457",
+    "explanation": "In 4 weeks, there are 2 bank holiday Mondays, 2 normal Mondays, 4 Wednesdays, and 8 weekend days. • Bank holiday Mondays: 2 days x 2 (double rate) x £7.65 x 10 hours = £306 • Normal Mondays and Wednesdays: 6 days x £7.65 x 10 hours = £459 • Weekends: 8 days x £8.65 x 10 hours = £692 • Total: £1457.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 131,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nOlive works for a bakery in the town centre. She is contracted to bake chocolate cakes and \nstrawberry tarts. She works 10 hour shifts on Mondays, Wednesdays & on the weekends. \nShe is paid \u00a37.65 an hour on weekdays and \u00a38.65 an hour on the weekends. Her pay is \ndoubled if she works on bank holidays.\n\n<strong>Question:</strong>\nOlive has recently passed her driving test and is looking to purchase her dream car. \nThe car will cost her \u00a399,999 but she is eligible for a 10% discount. Not considering \nany bank holiday shifts, what is the minimum amount Olive must save every month \nfrom her salary in order to have enough money to purchase her dream car within 10 \nyears?",
+    "text": "<strong>Scenario:</strong>\nOlive works for a bakery in the town centre. She is contracted to bake chocolate cakes and \nstrawberry tarts. She works 10 hour shifts on Mondays, Wednesdays & on the weekends. \nShe is paid £7.65 an hour on weekdays and £8.65 an hour on the weekends. Her pay is \ndoubled if she works on bank holidays.\n\n<strong>Question:</strong>\nOlive has recently passed her driving test and is looking to purchase her dream car. \nThe car will cost her £99,999 but she is eligible for a 10% discount. Not considering \nany bank holiday shifts, what is the minimum amount Olive must save every month \nfrom her salary in order to have enough money to purchase her dream car within 10 \nyears?",
     "options": [
-      "\u00a3833.33",
-      "\u00a3676.70",
-      "\u00a3412.52",
-      "\u00a3748.40",
-      "\u00a3749.99 --- PAGE 429 --- 429"
+      "£833.33",
+      "£676.70",
+      "£412.52",
+      "£748.40",
+      "£749.99 --- PAGE 429 --- 429"
     ],
     "answer": 4,
-    "explanation": "99,999 x 0.9 = \u00a389,999.10 is the amount she would need to pay for the car. There are 120 months in 10 years. 89,999.10/120 = \u00a3749.99. --- PAGE 483 --- 483",
+    "explanation": "99,999 x 0.9 = £89,999.10 is the amount she would need to pay for the car. There are 120 months in 10 years. 89,999.10/120 = £749.99. --- PAGE 483 --- 483.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 132,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nOlive works for a bakery in the town centre. She is contracted to bake chocolate cakes and \nstrawberry tarts. She works 10 hour shifts on Mondays, Wednesdays & on the weekends. \nShe is paid \u00a37.65 an hour on weekdays and \u00a38.65 an hour on the weekends. Her pay is \ndoubled if she works on bank holidays.\n\n<strong>Question:</strong>\nDuring a normal hour of her work shift, Olive bakes 4 chocolate cakes and 8 \nstrawberry tarts. How many chocolate cakes and strawberry tarts does she make \nevery year during her contracted working hours?",
+    "text": "<strong>Scenario:</strong>\nOlive works for a bakery in the town centre. She is contracted to bake chocolate cakes and \nstrawberry tarts. She works 10 hour shifts on Mondays, Wednesdays & on the weekends. \nShe is paid £7.65 an hour on weekdays and £8.65 an hour on the weekends. Her pay is \ndoubled if she works on bank holidays.\n\n<strong>Question:</strong>\nDuring a normal hour of her work shift, Olive bakes 4 chocolate cakes and 8 \nstrawberry tarts. How many chocolate cakes and strawberry tarts does she make \nevery year during her contracted working hours?",
     "options": [
       "24,000",
       "12,480",
@@ -1844,13 +1838,13 @@ const QUESTIONS = [
       "25,000"
     ],
     "answer": 2,
-    "explanation": "Olive works 4 days a week and 10 hours on each day. If she works 40 hours a week for 52 weeks, that\u2019s 2080 hours. 4 cakes + 8 tarts = 12. 12 per hour x 2080 hours = 24,960.",
+    "explanation": "Olive works 4 days a week and 10 hours on each day. If she works 40 hours a week for 52 weeks, that’s 2080 hours. 4 cakes + 8 tarts = 12. 12 per hour x 2080 hours = 24,960.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 133,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nOlive works for a bakery in the town centre. She is contracted to bake chocolate cakes and \nstrawberry tarts. She works 10 hour shifts on Mondays, Wednesdays & on the weekends. \nShe is paid \u00a37.65 an hour on weekdays and \u00a38.65 an hour on the weekends. Her pay is \ndoubled if she works on bank holidays.\n\n<strong>Question:</strong>\nThere has been a change in management at the bakery and the new manager \ndemands that staff produce 7% more bakery items each shift. How many more \nchocolate cakes is Olive now expected to bake every week, to the nearest whole \nnumber?",
+    "text": "<strong>Scenario:</strong>\nOlive works for a bakery in the town centre. She is contracted to bake chocolate cakes and \nstrawberry tarts. She works 10 hour shifts on Mondays, Wednesdays & on the weekends. \nShe is paid £7.65 an hour on weekdays and £8.65 an hour on the weekends. Her pay is \ndoubled if she works on bank holidays.\n\n<strong>Question:</strong>\nThere has been a change in management at the bakery and the new manager \ndemands that staff produce 7% more bakery items each shift. How many more \nchocolate cakes is Olive now expected to bake every week, to the nearest whole \nnumber?",
     "options": [
       "170",
       "171",
@@ -1859,7 +1853,7 @@ const QUESTIONS = [
       "11"
     ],
     "answer": 4,
-    "explanation": "Olive works 40 hours a week, so she bakes 160 cakes a week (4/hour x 40 hours). 160 x 1.07 = 171.2. The question asks how many more she would need to bake to reach this target. 171.2 - 160 = 11.2. Scenario 7",
+    "explanation": "Olive works 40 hours a week, so she bakes 160 cakes a week (4/hour x 40 hours). 160 x 1.07 = 171.2. The question asks how many more she would need to bake to reach this target. 171.2 - 160 = 11.2. Scenario 7.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1874,7 +1868,7 @@ const QUESTIONS = [
       "31"
     ],
     "answer": 0,
-    "explanation": "Total number of students studying medicine = 72 + 59 + 125 + 16 + 80 = 352. 352 / 5 = 70.4",
+    "explanation": "Total number of students studying medicine = 72 + 59 + 125 + 16 + 80 = 352. 352 / 5 = 70.4.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1889,7 +1883,7 @@ const QUESTIONS = [
       "University of Newcastle"
     ],
     "answer": 2,
-    "explanation": "There are 331 students studying in Luton. It\u2019s quite easy to narrow this down by scanning for universities which appear to have a small number in comparison to others. For example, the physiotherapy students in Plymouth are limited to 5, and there are only 9 in Liverpool. If you have a look at the rest of Plymouth and Liverpool, they appear to be less populated than Luton. Sutton also appears to be far less populated just looking at the numbers. Likely, you won\u2019t have the time to work out the total of each university, so it\u2019s best to make an educated guess through scanning the table in order to save time.",
+    "explanation": "There are 331 students studying in Luton. It’s quite easy to narrow this down by scanning for universities which appear to have a small number in comparison to others. For example, the physiotherapy students in Plymouth are limited to 5, and there are only 9 in Liverpool. If you have a look at the rest of Plymouth and Liverpool, they appear to be less populated than Luton. Sutton also appears to be far less populated just looking at the numbers. Likely, you won’t have the time to work out the total of each university, so it’s best to make an educated guess through scanning the table in order to save time.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1919,13 +1913,13 @@ const QUESTIONS = [
       "University of Newcastle"
     ],
     "answer": 4,
-    "explanation": "Scenario 8",
+    "explanation": "Scenario 8.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 138,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe following table shows the local times of some cities around the world when it is 9 AM in \nLondon. \nMedina \n11 AM \nBuenos Aires \n5 AM \nTokyo \n5 PM \nDakar \n8 AM \nIstanbul \n11 AM \nMontreal \n4 AM \nWellington \n8 PM \nIslamabad \n1 PM \n\n--- PAGE 431 ---\n \n431\n\n<strong>Question:</strong>\nThe Champions League final is set to kick off at 7.30 PM on Saturday in London and \nwill last 3 hours. What time will it finish in Wellington?",
+    "text": "<strong>Scenario:</strong>\nThe follflowing table shows the local times of some cities around the world when it is 9 AM in \nLondon. \nMedina \n11 AM \nBuenos Aires \n5 AM \nTokyo \n5 PM \nDakar \n8 AM \nIstanbul \n11 AM \nMontreal \n4 AM \nWellington \n8 PM \nIslamabad \n1 PM \n\n--- PAGE 431 ---\n \n431\n\n<strong>Question:</strong>\nThe Champions League final is set to kick off at 7.30 PM on Saturday in London and \nwill last 3 hours. What time will it finish in Wellington?",
     "options": [
       "11:30 PM on Saturday",
       "9:30 AM on Saturday",
@@ -1934,13 +1928,13 @@ const QUESTIONS = [
       "11:30 AM on Sunday"
     ],
     "answer": 3,
-    "explanation": "Wellington is 11 hours ahead of London. When it\u2019s 7:30 PM in London, it should be 6:30 AM in Wellington. 6:30 + 3 hours = 9.30 AM on Sunday.",
+    "explanation": "Wellington is 11 hours ahead of London. When it’s 7:30 PM in London, it should be 6:30 AM in Wellington. 6:30 + 3 hours = 9.30 AM on Sunday.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 139,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe following table shows the local times of some cities around the world when it is 9 AM in \nLondon. \nMedina \n11 AM \nBuenos Aires \n5 AM \nTokyo \n5 PM \nDakar \n8 AM \nIstanbul \n11 AM \nMontreal \n4 AM \nWellington \n8 PM \nIslamabad \n1 PM \n\n--- PAGE 431 ---\n \n431\n\n<strong>Question:</strong>\nCameron begins writing a text message at 10 PM on Friday in Dakar to send to his \nfriend Abigail. If Cameron takes 30 minutes to write the email before sending, and \nAbigail opens it 1 hour after it reaches her inbox, when will Abigail read the email if \nshe is living in Tokyo?",
+    "text": "<strong>Scenario:</strong>\nThe follflowing table shows the local times of some cities around the world when it is 9 AM in \nLondon. \nMedina \n11 AM \nBuenos Aires \n5 AM \nTokyo \n5 PM \nDakar \n8 AM \nIstanbul \n11 AM \nMontreal \n4 AM \nWellington \n8 PM \nIslamabad \n1 PM \n\n--- PAGE 431 ---\n \n431\n\n<strong>Question:</strong>\nCameron begins writing a text message at 10 PM on Friday in Dakar to send to his \nfriend Abigail. If Cameron takes 30 minutes to write the email before sending, and \nAbigail opens it 1 hour after it reaches her inbox, when will Abigail read the email if \nshe is living in Tokyo?",
     "options": [
       "8:30 AM on Saturday",
       "11:30 PM on Friday",
@@ -1955,7 +1949,7 @@ const QUESTIONS = [
   {
     "id": 140,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe following table shows the local times of some cities around the world when it is 9 AM in \nLondon. \nMedina \n11 AM \nBuenos Aires \n5 AM \nTokyo \n5 PM \nDakar \n8 AM \nIstanbul \n11 AM \nMontreal \n4 AM \nWellington \n8 PM \nIslamabad \n1 PM \n\n--- PAGE 431 ---\n \n431\n\n<strong>Question:</strong>\nZaid who lives in Islamabad enjoys speaking to his family over video call every \nevening. His sister lives in Medina while his brother Talha is in Buenos Aires. On \nFriday the call lasted 1.5 hours and Zaid ended the call at 12 PM local time. If \neveryone joined the call together, when did Talha join the call?",
+    "text": "<strong>Scenario:</strong>\nThe follflowing table shows the local times of some cities around the world when it is 9 AM in \nLondon. \nMedina \n11 AM \nBuenos Aires \n5 AM \nTokyo \n5 PM \nDakar \n8 AM \nIstanbul \n11 AM \nMontreal \n4 AM \nWellington \n8 PM \nIslamabad \n1 PM \n\n--- PAGE 431 ---\n \n431\n\n<strong>Question:</strong>\nZaid who lives in Islamabad enjoys speaking to his family over video call every \nevening. His sister lives in Medina while his brother Talha is in Buenos Aires. On \nFriday the call lasted 1.5 hours and Zaid ended the call at 12 PM local time. If \neveryone joined the call together, when did Talha join the call?",
     "options": [
       "8:30 AM",
       "2:30 AM",
@@ -1964,13 +1958,13 @@ const QUESTIONS = [
       "4:30 AM"
     ],
     "answer": 1,
-    "explanation": "12 PM \u2013 1.5 hours = 10:30 AM in Islamabad. Buenos Aires is 8 hours behind Islamabad, so the time there was 2.30 AM on Friday.",
+    "explanation": "12 PM – 1.5 hours = 10:30 AM in Islamabad. Buenos Aires is 8 hours behind Islamabad, so the time there was 2.30 AM on Friday.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 141,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe following table shows the local times of some cities around the world when it is 9 AM in \nLondon. \nMedina \n11 AM \nBuenos Aires \n5 AM \nTokyo \n5 PM \nDakar \n8 AM \nIstanbul \n11 AM \nMontreal \n4 AM \nWellington \n8 PM \nIslamabad \n1 PM \n\n--- PAGE 431 ---\n \n431\n\n<strong>Question:</strong>\n3 friends decided to travel from Tokyo to Montreal. They had a layover in Islamabad \nwhich lasted 3 hours. If the plane set off on Monday at 6 PM from Tokyo and the \njourney took 8 hours to Islamabad and 14 hours to Montreal, what time did they \nland in Montreal on the following day?",
+    "text": "<strong>Scenario:</strong>\nThe follflowing table shows the local times of some cities around the world when it is 9 AM in \nLondon. \nMedina \n11 AM \nBuenos Aires \n5 AM \nTokyo \n5 PM \nDakar \n8 AM \nIstanbul \n11 AM \nMontreal \n4 AM \nWellington \n8 PM \nIslamabad \n1 PM \n\n--- PAGE 431 ---\n \n431\n\n<strong>Question:</strong>\n3 friends decided to travel from Tokyo to Montreal. They had a layover in Islamabad \nwhich lasted 3 hours. If the plane set off on Monday at 6 PM from Tokyo and the \njourney took 8 hours to Islamabad and 14 hours to Montreal, what time did they \nland in Montreal on the follflowing day?",
     "options": [
       "5:00 PM",
       "5:00 AM",
@@ -1979,13 +1973,13 @@ const QUESTIONS = [
       "6:00 AM --- PAGE 432 --- 432"
     ],
     "answer": 4,
-    "explanation": "The journey is 8 + 3 + 14 = 25 hours. 6 PM + 25 hours = 7 PM in Tokyo. Tokyo is 13 hours ahead of Montreal. 7 PM \u2013 13 hours = 6:00 AM. Scenario 9",
+    "explanation": "The journey is 8 + 3 + 14 = 25 hours. 6 PM + 25 hours = 7 PM in Tokyo. Tokyo is 13 hours ahead of Montreal. 7 PM – 13 hours = 6:00 AM. Scenario 9.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 142,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nWestbrook is a small town in the south of England and it has 4 main gyms. Some gyms have \na one-off joining fee. The table shows the price plans for all 4 gyms. Only Runners and \nGymnastics have swimming pools. \n \n \nMuscle House \nGymnastics \nAll-time Fitness \nRunners \nJoining fee \n- \n\u00a314.99 \n\u00a37.99 \n- \nDaily pass \n\u00a33 \n\u00a35 \n\u00a34.75 \n\u00a310 \nWeekly pass \n\u00a320 \n\u00a325 \n\u00a325 \n\u00a340 \nMonthly pass \n\u00a324.99 \n\u00a329.99 \n\u00a325.99 \n\u00a359.99 \n3-month pass \n\u00a340 \n\u00a335 \n\u00a339.99 \n\u00a399.99 \n1-year pass \n\u00a3100 \n\u00a395 \n\u00a3100 \n\u00a3200 \n2-year pass \n\u00a3150 \n\u00a3180 \n\u00a3190 \n\u00a3350\n\n<strong>Question:</strong>\nKieta would like to join a gym which has a swimming pool. What percent would he \nsave if he chose to sign up for a 1-year pass at Gymnastics compared to Runners?",
+    "text": "<strong>Scenario:</strong>\nWestbrook is a small town in the south of England and it has 4 main gyms. Some gyms have \na one-off joining fee. The table shows the price plans for all 4 gyms. Only Runners and \nGymnastics have swimming pools. \n \n \nMuscle House \nGymnastics \nAll-time Fitness \nRunners \nJoining fee \n- \n£14.99 \n£7.99 \n- \nDaily pass \n£3 \n£5 \n£4.75 \n£10 \nWeekly pass \n£20 \n£25 \n£25 \n£40 \nMonthly pass \n£24.99 \n£29.99 \n£25.99 \n£59.99 \n3-month pass \n£40 \n£35 \n£39.99 \n£99.99 \n1-year pass \n£100 \n£95 \n£100 \n£200 \n2-year pass \n£150 \n£180 \n£190 \n£350\n\n<strong>Question:</strong>\nKieta would like to join a gym which has a swimming pool. What percent would he \nsave if he chose to sign up for a 1-year pass at Gymnastics compared to Runners?",
     "options": [
       "33%",
       "25%",
@@ -1994,13 +1988,13 @@ const QUESTIONS = [
       "45%"
     ],
     "answer": 4,
-    "explanation": "Gymnastics has a joining fee of \u00a314.99 plus an annual fee of \u00a395. Total = \u00a3109.99. Runners only has an annual fee of \u00a3200. (200-109.99)/200 = 0.45 or 45%. --- PAGE 484 --- 484",
+    "explanation": "Gymnastics has a joining fee of £14.99 plus an annual fee of £95. Total = £109.99. Runners only has an annual fee of £200. (200-109.99)/200 = 0.45 or 45%. --- PAGE 484 --- 484.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 143,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nWestbrook is a small town in the south of England and it has 4 main gyms. Some gyms have \na one-off joining fee. The table shows the price plans for all 4 gyms. Only Runners and \nGymnastics have swimming pools. \n \n \nMuscle House \nGymnastics \nAll-time Fitness \nRunners \nJoining fee \n- \n\u00a314.99 \n\u00a37.99 \n- \nDaily pass \n\u00a33 \n\u00a35 \n\u00a34.75 \n\u00a310 \nWeekly pass \n\u00a320 \n\u00a325 \n\u00a325 \n\u00a340 \nMonthly pass \n\u00a324.99 \n\u00a329.99 \n\u00a325.99 \n\u00a359.99 \n3-month pass \n\u00a340 \n\u00a335 \n\u00a339.99 \n\u00a399.99 \n1-year pass \n\u00a3100 \n\u00a395 \n\u00a3100 \n\u00a3200 \n2-year pass \n\u00a3150 \n\u00a3180 \n\u00a3190 \n\u00a3350\n\n<strong>Question:</strong>\nIf the gym passes for Runners and Gymnastics have 25% off any of their \nmemberships, while Muscle House and All-time fitness have 20% off, which gym is \nthe cheapest for Jonas to join for a 3-month membership?",
+    "text": "<strong>Scenario:</strong>\nWestbrook is a small town in the south of England and it has 4 main gyms. Some gyms have \na one-off joining fee. The table shows the price plans for all 4 gyms. Only Runners and \nGymnastics have swimming pools. \n \n \nMuscle House \nGymnastics \nAll-time Fitness \nRunners \nJoining fee \n- \n£14.99 \n£7.99 \n- \nDaily pass \n£3 \n£5 \n£4.75 \n£10 \nWeekly pass \n£20 \n£25 \n£25 \n£40 \nMonthly pass \n£24.99 \n£29.99 \n£25.99 \n£59.99 \n3-month pass \n£40 \n£35 \n£39.99 \n£99.99 \n1-year pass \n£100 \n£95 \n£100 \n£200 \n2-year pass \n£150 \n£180 \n£190 \n£350\n\n<strong>Question:</strong>\nIf the gym passes for Runners and Gymnastics have 25% off any of their \nmemberships, while Muscle House and All-time fitness have 20% off, which gym is \nthe cheapest for Jonas to join for a 3-month membership?",
     "options": [
       "Muscle House",
       "Gymnastics",
@@ -2009,28 +2003,28 @@ const QUESTIONS = [
       "Runners"
     ],
     "answer": 0,
-    "explanation": "Runners is clearly the most expensive 3-month pass by far, so this can be ruled out. The prices of the rest are as follows: \u2022 Muscle House: 40 x 0.8 = \u00a332 \u2022 Gymnastics: 14.99 + (35 x 0.75) = \u00a341.24 \u2022 All-time Fitness: 7.99 + (39.99 x 0.8) = \u00a339.98",
+    "explanation": "Runners is clearly the most expensive 3-month pass by far, so this can be ruled out. The prices of the rest are as follows: • Muscle House: 40 x 0.8 = £32 • Gymnastics: 14.99 + (35 x 0.75) = £41.24 • All-time Fitness: 7.99 + (39.99 x 0.8) = £39.98.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 144,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nWestbrook is a small town in the south of England and it has 4 main gyms. Some gyms have \na one-off joining fee. The table shows the price plans for all 4 gyms. Only Runners and \nGymnastics have swimming pools. \n \n \nMuscle House \nGymnastics \nAll-time Fitness \nRunners \nJoining fee \n- \n\u00a314.99 \n\u00a37.99 \n- \nDaily pass \n\u00a33 \n\u00a35 \n\u00a34.75 \n\u00a310 \nWeekly pass \n\u00a320 \n\u00a325 \n\u00a325 \n\u00a340 \nMonthly pass \n\u00a324.99 \n\u00a329.99 \n\u00a325.99 \n\u00a359.99 \n3-month pass \n\u00a340 \n\u00a335 \n\u00a339.99 \n\u00a399.99 \n1-year pass \n\u00a3100 \n\u00a395 \n\u00a3100 \n\u00a3200 \n2-year pass \n\u00a3150 \n\u00a3180 \n\u00a3190 \n\u00a3350\n\n<strong>Question:</strong>\nMuscle House made \u00a3150,000 more than Gymnastics in 2020. Gymnastics made a \nloss of 18% compared to its 2019 income. If Gymnastics earned \u00a389,000 in 2019, \nhow much did Muscle House make in 2020?",
+    "text": "<strong>Scenario:</strong>\nWestbrook is a small town in the south of England and it has 4 main gyms. Some gyms have \na one-off joining fee. The table shows the price plans for all 4 gyms. Only Runners and \nGymnastics have swimming pools. \n \n \nMuscle House \nGymnastics \nAll-time Fitness \nRunners \nJoining fee \n- \n£14.99 \n£7.99 \n- \nDaily pass \n£3 \n£5 \n£4.75 \n£10 \nWeekly pass \n£20 \n£25 \n£25 \n£40 \nMonthly pass \n£24.99 \n£29.99 \n£25.99 \n£59.99 \n3-month pass \n£40 \n£35 \n£39.99 \n£99.99 \n1-year pass \n£100 \n£95 \n£100 \n£200 \n2-year pass \n£150 \n£180 \n£190 \n£350\n\n<strong>Question:</strong>\nMuscle House made £150,000 more than Gymnastics in 2020. Gymnastics made a \nloss of 18% compared to its 2019 income. If Gymnastics earned £89,000 in 2019, \nhow much did Muscle House make in 2020?",
     "options": [
-      "\u00a372,980",
-      "\u00a3222,980",
-      "\u00a3166,020",
-      "\u00a3172,980 --- PAGE 433 ---",
-      "\u00a3264,120"
+      "£72,980",
+      "£222,980",
+      "£166,020",
+      "£172,980 --- PAGE 433 ---",
+      "£264,120"
     ],
     "answer": 1,
-    "explanation": "Gymnastics earned 89000 - (89000 x 0.18) = \u00a372980 in 2020. 72980 + 150000 = \u00a3222,980.",
+    "explanation": "Gymnastics earned 89000 - (89000 x 0.18) = £72980 in 2020. 72980 + 150000 = £222,980.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 145,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nWestbrook is a small town in the south of England and it has 4 main gyms. Some gyms have \na one-off joining fee. The table shows the price plans for all 4 gyms. Only Runners and \nGymnastics have swimming pools. \n \n \nMuscle House \nGymnastics \nAll-time Fitness \nRunners \nJoining fee \n- \n\u00a314.99 \n\u00a37.99 \n- \nDaily pass \n\u00a33 \n\u00a35 \n\u00a34.75 \n\u00a310 \nWeekly pass \n\u00a320 \n\u00a325 \n\u00a325 \n\u00a340 \nMonthly pass \n\u00a324.99 \n\u00a329.99 \n\u00a325.99 \n\u00a359.99 \n3-month pass \n\u00a340 \n\u00a335 \n\u00a339.99 \n\u00a399.99 \n1-year pass \n\u00a3100 \n\u00a395 \n\u00a3100 \n\u00a3200 \n2-year pass \n\u00a3150 \n\u00a3180 \n\u00a3190 \n\u00a3350\n\n<strong>Question:</strong>\nAll of the gyms decide to start a lifetime membership deal. Muscle House decides it \nwill give lifetime membership to anyone who signs up for at least 10 years. \nGymnastics will give lifetime membership to anyone who purchases 7 yearly passes. \nAt All-time Fitness, a lifetime membership is given to anyone that purchases 20 3-\nmonth passes. Finally, Runners will give a lifetime membership to anyone who \npurchases 5 yearly passes. What is the cheapest lifestyle membership?",
+    "text": "<strong>Scenario:</strong>\nWestbrook is a small town in the south of England and it has 4 main gyms. Some gyms have \na one-off joining fee. The table shows the price plans for all 4 gyms. Only Runners and \nGymnastics have swimming pools. \n \n \nMuscle House \nGymnastics \nAll-time Fitness \nRunners \nJoining fee \n- \n£14.99 \n£7.99 \n- \nDaily pass \n£3 \n£5 \n£4.75 \n£10 \nWeekly pass \n£20 \n£25 \n£25 \n£40 \nMonthly pass \n£24.99 \n£29.99 \n£25.99 \n£59.99 \n3-month pass \n£40 \n£35 \n£39.99 \n£99.99 \n1-year pass \n£100 \n£95 \n£100 \n£200 \n2-year pass \n£150 \n£180 \n£190 \n£350\n\n<strong>Question:</strong>\nAll of the gyms decide to start a lifetime membership deal. Muscle House decides it \nwill give lifetime membership to anyone who signs up for at least 10 years. \nGymnastics will give lifetime membership to anyone who purchases 7 yearly passes. \nAt All-time Fitness, a lifetime membership is given to anyone that purchases 20 3-\nmonth passes. Finally, Runners will give a lifetime membership to anyone who \npurchases 5 yearly passes. What is the cheapest lifestyle membership?",
     "options": [
       "Muscle House and All-time Fitness",
       "All-time Fitness",
@@ -2039,13 +2033,13 @@ const QUESTIONS = [
       "Gymnastics"
     ],
     "answer": 4,
-    "explanation": "The prices are as follows: \u2022 Muscle House: Cheapest 10 years = 5 x 2 yearly passes = 5 x 150 = \u00a3750 \u2022 Gymnastics: 14.99 + (7 x 95) = \u00a3679.99 \u2022 All-time Fitness: 7.99 + (20 x \u00a339.99) = \u00a3807.79 \u2022 Runners: 5 x \u00a3200 = \u00a31000 Abstract Reasoning Answers Question 1 Pattern: \u2022 Set A: There is a grey oval when there are an odd number of boxes and a white circle when there are an even number of boxes. \u2022 Set B: There is a white circle when there are an odd number of boxes and a grey oval when there are an even number of boxes. Answers: Test shape 1: The correct answer is A. Test shape 2: The correct answer is A. Test shape 3: The correct answer is C. Test shape 4: The correct answer is B. Test shape 5: The correct answer is C. Question 2 Pattern: \u2022 Set A: The grey triangle is always to the right of the moon. There is always at least 1 black box and 1 white circle present. \u2022 Set B: The grey triangle is always to the left of the white moon. There is always at least 1 black box and 1 white circle present.",
+    "explanation": "The prices are as follows: • Muscle House: Cheapest 10 years = 5 x 2 yearly passes = 5 x 150 = £750 • Gymnastics: 14.99 + (7 x 95) = £679.99 • All-time Fitness: 7.99 + (20 x £39.99) = £807.79 • Runners: 5 x £200 = £1000 Abstract Reasoning Answers Question 1 Pattern: • Set A: There is a grey oval when there are an odd number of boxes and a white circle when there are an even number of boxes. • Set B: There is a white circle when there are an odd number of boxes and a grey oval when there are an even number of boxes. Answers: Test shape 1: The correct answer is A. Test shape 2: The correct answer is A. Test shape 3: The correct answer is C. Test shape 4: The correct answer is B. Test shape 5: The correct answer is C. Question 2 Pattern: • Set A: The grey triangle is always to the right of the moon. There is always at least 1 black box and 1 white circle present. • Set B: The grey triangle is always to the left of the white moon. There is always at least 1 black box and 1 white circle present.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 146,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJames, a medical student, is taking a history from a patient. The patient mentions that she \noverheard racist remarks being made by a consultant regarding another member of staff. She \nfeels deeply hurt and offended by what she heard and she wants to know what can be done \nabout this. \n \nHow appropriate are the following responses by James in this situation?\n\n<strong>Question:</strong>\nTell the patient that this is very out of character for the consultant and she probably \nmisunderstood him.",
+    "text": "<strong>Scenario:</strong>\nJames, a medical student, is taking a history from a patient. The patient mentions that she \noverheard racist remarks being made by a consultant regarding another member of staff. She \nfeels deeply hurt and offended by what she heard and she wants to know what can be done \nabout this. \n \nHow appropriate are the follflowing responses by James in this situation?\n\n<strong>Question:</strong>\nTell the patient that this is very out of character for the consultant and she probably \nmisunderstood him.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2053,13 +2047,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This is a very inappropriate resolution as it trivialises the patient\u2019s concerns. Racism is a serious issue that needs to be dealt with. The patient should feel listened to and should be assured that the matter will be taken seriously.",
+    "explanation": "This is a very inappropriate resolution as it trivialises the patient’s concerns. Racism is a serious issue that needs to be dealt with. The patient should feel listened to and should be assured that the matter will be taken seriously.",
     "topic": "Situational Judgement"
   },
   {
     "id": 147,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJames, a medical student, is taking a history from a patient. The patient mentions that she \noverheard racist remarks being made by a consultant regarding another member of staff. She \nfeels deeply hurt and offended by what she heard and she wants to know what can be done \nabout this. \n \nHow appropriate are the following responses by James in this situation?\n\n<strong>Question:</strong>\nApologise on behalf of the consultant and ask the patient for more information.",
+    "text": "<strong>Scenario:</strong>\nJames, a medical student, is taking a history from a patient. The patient mentions that she \noverheard racist remarks being made by a consultant regarding another member of staff. She \nfeels deeply hurt and offended by what she heard and she wants to know what can be done \nabout this. \n \nHow appropriate are the follflowing responses by James in this situation?\n\n<strong>Question:</strong>\nApologise on behalf of the consultant and ask the patient for more information.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2067,13 +2061,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "By apologising on behalf of the consultant, James would be accepting that this situation took place and partially taking the blame. James is hearing of this for the first time, and should take the matter seriously, but it is not ideal to apologise on behalf of someone else. However, it is still appropriate as James is asking for more information, which demonstrates that he cares about the patient\u2019s issue and wants to help resolve it.",
+    "explanation": "By apologising on behalf of the consultant, James would be accepting that this situation took place and partially taking the blame. James is hearing of this for the first time, and should take the matter seriously, but it is not ideal to apologise on behalf of someone else. However, it is still appropriate as James is asking for more information, which demonstrates that he cares about the patient’s issue and wants to help resolve it.",
     "topic": "Situational Judgement"
   },
   {
     "id": 148,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJames, a medical student, is taking a history from a patient. The patient mentions that she \noverheard racist remarks being made by a consultant regarding another member of staff. She \nfeels deeply hurt and offended by what she heard and she wants to know what can be done \nabout this. \n \nHow appropriate are the following responses by James in this situation?\n\n<strong>Question:</strong>\nInform the patient that racism is not tolerated in their hospital trust and any such \nreports will be taken seriously.",
+    "text": "<strong>Scenario:</strong>\nJames, a medical student, is taking a history from a patient. The patient mentions that she \noverheard racist remarks being made by a consultant regarding another member of staff. She \nfeels deeply hurt and offended by what she heard and she wants to know what can be done \nabout this. \n \nHow appropriate are the follflowing responses by James in this situation?\n\n<strong>Question:</strong>\nInform the patient that racism is not tolerated in their hospital trust and any such \nreports will be taken seriously.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2081,13 +2075,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "The patient wants to know what can be done about this matter, and it is reassuring of James to inform her that any form of racism will not be tolerated and that her complaint will be taken seriously. He may not have any more information regarding the reporting procedure, but as a medical student, he should be aware that it is important to respond to such reports. --- PAGE 489 --- 489",
+    "explanation": "The patient wants to know what can be done about this matter, and it is reassuring of James to inform her that any form of racism will not be tolerated and that her complaint will be taken seriously. He may not have any more information regarding the reporting procedure, but as a medical student, he should be aware that it is important to respond to such reports. --- PAGE 489 --- 489.",
     "topic": "Situational Judgement"
   },
   {
     "id": 149,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJames, a medical student, is taking a history from a patient. The patient mentions that she \noverheard racist remarks being made by a consultant regarding another member of staff. She \nfeels deeply hurt and offended by what she heard and she wants to know what can be done \nabout this. \n \nHow appropriate are the following responses by James in this situation?\n\n<strong>Question:</strong>\nAsk the consultant to enter the room so they can discuss the matter.",
+    "text": "<strong>Scenario:</strong>\nJames, a medical student, is taking a history from a patient. The patient mentions that she \noverheard racist remarks being made by a consultant regarding another member of staff. She \nfeels deeply hurt and offended by what she heard and she wants to know what can be done \nabout this. \n \nHow appropriate are the follflowing responses by James in this situation?\n\n<strong>Question:</strong>\nAsk the consultant to enter the room so they can discuss the matter.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2095,13 +2089,13 @@ const QUESTIONS = [
       "Very inappropriate --- PAGE 451 --- 451"
     ],
     "answer": 3,
-    "explanation": "Bringing the consultant into the room will make the situation more uncomfortable for both the patient and the consultant. James should get more information from the patient prior to bringing the consultant inside, as the patient may be unwilling to discuss this in front of the person who was responsible for the situation. Further, it can result in conflict between James and the consultant, or between the patient and the consultant. Because the patient confided in James, each side should first be heard individually. Scenario 2",
+    "explanation": "Bringing the consultant into the room will make the situation more uncomfortable for both the patient and the consultant. James should get more information from the patient prior to bringing the consultant inside, as the patient may be unwilling to discuss this in front of the person who was responsible for the situation. Further, it can result in conflict between James and the consultant, or between the patient and the consultant. Because the patient confided in James, each side should first be heard individually. Scenario 2.",
     "topic": "Situational Judgement"
   },
   {
     "id": 150,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nRajesh, a medical student, is unable to attend classes for a few days as he must travel to \nattend a family funeral. He does not want this to impact his attendance, so he asks his \ncolleague, Anna, to sign his name on the register during this time. The classes are on \nimportant clinical skills that he will need as a doctor.  \n \nHow appropriate are the following responses by Anna in this situation?\n\n<strong>Question:</strong>\nSign him in as he can always learn the skills at a later date.",
+    "text": "<strong>Scenario:</strong>\nRajesh, a medical student, is unable to attend classes for a few days as he must travel to \nattend a family funeral. He does not want this to impact his attendance, so he asks his \ncolleague, Anna, to sign his name on the register during this time. The classes are on \nimportant clinical skills that he will need as a doctor.  \n \nHow appropriate are the follflowing responses by Anna in this situation?\n\n<strong>Question:</strong>\nSign him in as he can always learn the skills at a later date.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2109,13 +2103,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Signing him in is fraudulent and dishonest, so it must be very inappropriate. Further, this would mean Rajesh may never learn the important skills required. Most medical schools require attendance unless exempted, so signing him in would go against the medical school\u2019s rules and code of conduct.",
+    "explanation": "Signing him in is fraudulent and dishonest, so it must be very inappropriate. Further, this would mean Rajesh may never learn the important skills required. Most medical schools require attendance unless exempted, so signing him in would go against the medical school’s rules and code of conduct.",
     "topic": "Situational Judgement"
   },
   {
     "id": 151,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nRajesh, a medical student, is unable to attend classes for a few days as he must travel to \nattend a family funeral. He does not want this to impact his attendance, so he asks his \ncolleague, Anna, to sign his name on the register during this time. The classes are on \nimportant clinical skills that he will need as a doctor.  \n \nHow appropriate are the following responses by Anna in this situation?\n\n<strong>Question:</strong>\nSuggest that Rajesh talk to his course director to try to arrange a catch-up for what he \nwill be missing.",
+    "text": "<strong>Scenario:</strong>\nRajesh, a medical student, is unable to attend classes for a few days as he must travel to \nattend a family funeral. He does not want this to impact his attendance, so he asks his \ncolleague, Anna, to sign his name on the register during this time. The classes are on \nimportant clinical skills that he will need as a doctor.  \n \nHow appropriate are the follflowing responses by Anna in this situation?\n\n<strong>Question:</strong>\nSuggest that Rajesh talk to his course director to try to arrange a catch-up for what he \nwill be missing.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2129,7 +2123,7 @@ const QUESTIONS = [
   {
     "id": 152,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nRajesh, a medical student, is unable to attend classes for a few days as he must travel to \nattend a family funeral. He does not want this to impact his attendance, so he asks his \ncolleague, Anna, to sign his name on the register during this time. The classes are on \nimportant clinical skills that he will need as a doctor.  \n \nHow appropriate are the following responses by Anna in this situation?\n\n<strong>Question:</strong>\nRefuse because it will affect her integrity.",
+    "text": "<strong>Scenario:</strong>\nRajesh, a medical student, is unable to attend classes for a few days as he must travel to \nattend a family funeral. He does not want this to impact his attendance, so he asks his \ncolleague, Anna, to sign his name on the register during this time. The classes are on \nimportant clinical skills that he will need as a doctor.  \n \nHow appropriate are the follflowing responses by Anna in this situation?\n\n<strong>Question:</strong>\nRefuse because it will affect her integrity.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2137,13 +2131,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Although there are more steps that should be taken to resolve the issue at hand, this action does deal with the issue of integrity. For an option to be \u201cvery appropriate\u201d, it does not need to be the only step that is taken. It is adamant that Anna does not do what Rajesh asked her to do.",
+    "explanation": "Although there are more steps that should be taken to resolve the issue at hand, this action does deal with the issue of integrity. For an option to be “very appropriate”, it does not need to be the only step that is taken. It is adamant that Anna does not do what Rajesh asked her to do.",
     "topic": "Situational Judgement"
   },
   {
     "id": 153,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nRajesh, a medical student, is unable to attend classes for a few days as he must travel to \nattend a family funeral. He does not want this to impact his attendance, so he asks his \ncolleague, Anna, to sign his name on the register during this time. The classes are on \nimportant clinical skills that he will need as a doctor.  \n \nHow appropriate are the following responses by Anna in this situation?\n\n<strong>Question:</strong>\nTell him that he should not travel under any circumstances as he needs to attend his \nclasses.",
+    "text": "<strong>Scenario:</strong>\nRajesh, a medical student, is unable to attend classes for a few days as he must travel to \nattend a family funeral. He does not want this to impact his attendance, so he asks his \ncolleague, Anna, to sign his name on the register during this time. The classes are on \nimportant clinical skills that he will need as a doctor.  \n \nHow appropriate are the follflowing responses by Anna in this situation?\n\n<strong>Question:</strong>\nTell him that he should not travel under any circumstances as he needs to attend his \nclasses.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2151,13 +2145,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This option presents no resolution whatsoever and could make Rajesh feel guilty about attending the funeral, demonstrating a lack of empathy on Anna\u2019s part. The funeral is likely very important for Rajesh, so Anna should respect this, rather than responding in such a manner. Scenario 3",
+    "explanation": "This option presents no resolution whatsoever and could make Rajesh feel guilty about attending the funeral, demonstrating a lack of empathy on Anna’s part. The funeral is likely very important for Rajesh, so Anna should respect this, rather than responding in such a manner. Scenario 3.",
     "topic": "Situational Judgement"
   },
   {
     "id": 154,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAmanda, a junior doctor, is asked to assist in sorting a list of operations in terms of priority. \nOne of the inpatients informed her earlier that he was worried about staying in the hospital \nfor longer than necessary due to the risk of hospital-acquired infections. He asked Amanda \nto make sure that he would be getting his operation quickly. \n\n--- PAGE 452 ---\nHow important to take into account are the following considerations for Amanda when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nHow healthy and well the patient is.",
+    "text": "<strong>Scenario:</strong>\nAmanda, a junior doctor, is asked to assist in sorting a list of operations in terms of priority. \nOne of the inpatients informed her earlier that he was worried about staying in the hospital \nfor longer than necessary due to the risk of hospital-acquired infections. He asked Amanda \nto make sure that he would be getting his operation quickly. \n\n--- PAGE 452 ---\nHow important to take into account are the follflowing considerations for Amanda when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nHow healthy and well the patient is.",
     "options": [
       "Very important",
       "Important",
@@ -2171,7 +2165,7 @@ const QUESTIONS = [
   {
     "id": 155,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAmanda, a junior doctor, is asked to assist in sorting a list of operations in terms of priority. \nOne of the inpatients informed her earlier that he was worried about staying in the hospital \nfor longer than necessary due to the risk of hospital-acquired infections. He asked Amanda \nto make sure that he would be getting his operation quickly. \n\n--- PAGE 452 ---\nHow important to take into account are the following considerations for Amanda when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe urgency of the patient\u2019s operation.",
+    "text": "<strong>Scenario:</strong>\nAmanda, a junior doctor, is asked to assist in sorting a list of operations in terms of priority. \nOne of the inpatients informed her earlier that he was worried about staying in the hospital \nfor longer than necessary due to the risk of hospital-acquired infections. He asked Amanda \nto make sure that he would be getting his operation quickly. \n\n--- PAGE 452 ---\nHow important to take into account are the follflowing considerations for Amanda when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe urgency of the patient’s operation.",
     "options": [
       "Very important",
       "Important",
@@ -2179,13 +2173,13 @@ const QUESTIONS = [
       "Not important"
     ],
     "answer": 0,
-    "explanation": "If the operation is urgent, it should be dealt with quickly. If it is not urgent, and there are more urgent operations that need to be carried out, this patient may be further down the list. --- PAGE 490 --- Scenario 4",
+    "explanation": "If the operation is urgent, it should be dealt with quickly. If it is not urgent, and there are more urgent operations that need to be carried out, this patient may be further down the list. --- PAGE 490 --- Scenario 4.",
     "topic": "Situational Judgement"
   },
   {
     "id": 156,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nElizabeth, a junior doctor, is working on the wards. The registrar disagrees with her treatment \nplan for a patient. She has had some issues with this particular registrar in the past.  \n \nHow appropriate are the following responses by Elizabeth in this situation?\n\n<strong>Question:</strong>\nGo ahead with her treatment plan as she is also a qualified doctor and so has every \nright to do so",
+    "text": "<strong>Scenario:</strong>\nElizabeth, a junior doctor, is working on the wards. The registrar disagrees with her treatment \nplan for a patient. She has had some issues with this particular registrar in the past.  \n \nHow appropriate are the follflowing responses by Elizabeth in this situation?\n\n<strong>Question:</strong>\nGo ahead with her treatment plan as she is also a qualified doctor and so has every \nright to do so",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2199,7 +2193,7 @@ const QUESTIONS = [
   {
     "id": 157,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nElizabeth, a junior doctor, is working on the wards. The registrar disagrees with her treatment \nplan for a patient. She has had some issues with this particular registrar in the past.  \n \nHow appropriate are the following responses by Elizabeth in this situation?\n\n<strong>Question:</strong>\nOutline why she thinks her treatment plan works well and ask the registrar why he \nthinks she should do it a different way",
+    "text": "<strong>Scenario:</strong>\nElizabeth, a junior doctor, is working on the wards. The registrar disagrees with her treatment \nplan for a patient. She has had some issues with this particular registrar in the past.  \n \nHow appropriate are the follflowing responses by Elizabeth in this situation?\n\n<strong>Question:</strong>\nOutline why she thinks her treatment plan works well and ask the registrar why he \nthinks she should do it a different way",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2213,7 +2207,7 @@ const QUESTIONS = [
   {
     "id": 158,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nElizabeth, a junior doctor, is working on the wards. The registrar disagrees with her treatment \nplan for a patient. She has had some issues with this particular registrar in the past.  \n \nHow appropriate are the following responses by Elizabeth in this situation?\n\n<strong>Question:</strong>\nGo with the registrar\u2019s plan as he is more experienced than her and so knows best",
+    "text": "<strong>Scenario:</strong>\nElizabeth, a junior doctor, is working on the wards. The registrar disagrees with her treatment \nplan for a patient. She has had some issues with this particular registrar in the past.  \n \nHow appropriate are the follflowing responses by Elizabeth in this situation?\n\n<strong>Question:</strong>\nGo with the registrar’s plan as he is more experienced than her and so knows best",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal --- PAGE 453 ---",
@@ -2227,7 +2221,7 @@ const QUESTIONS = [
   {
     "id": 159,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJen, a medical student, is headed to a teaching session after her lunch break. On the way, she \ngets a phone call from her friend, Anthony, who needs her urgent help. He says that he is in \ntrouble and wants her to reach him as soon as possible, ideally within the next 20 minutes. It \nwill take her 15 minutes to get to Anthony, and she will have to miss her teaching session. \n \nHow appropriate are the following responses by Jen in this situation?\n\n<strong>Question:</strong>\nGo to Anthony as her tutor will understand that she would not be missing the \nsession unless it was urgent.",
+    "text": "<strong>Scenario:</strong>\nJen, a medical student, is headed to a teaching session after her lunch break. On the way, she \ngets a phone call from her friend, Anthony, who needs her urgent help. He says that he is in \ntrouble and wants her to reach him as soon as possible, ideally within the next 20 minutes. It \nwill take her 15 minutes to get to Anthony, and she will have to miss her teaching session. \n \nHow appropriate are the follflowing responses by Jen in this situation?\n\n<strong>Question:</strong>\nGo to Anthony as her tutor will understand that she would not be missing the \nsession unless it was urgent.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2241,7 +2235,7 @@ const QUESTIONS = [
   {
     "id": 160,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJen, a medical student, is headed to a teaching session after her lunch break. On the way, she \ngets a phone call from her friend, Anthony, who needs her urgent help. He says that he is in \ntrouble and wants her to reach him as soon as possible, ideally within the next 20 minutes. It \nwill take her 15 minutes to get to Anthony, and she will have to miss her teaching session. \n \nHow appropriate are the following responses by Jen in this situation?\n\n<strong>Question:</strong>\nAfter unsuccessfully attempting to contact the tutor, head to Anthony knowing that \nshe tried her best.",
+    "text": "<strong>Scenario:</strong>\nJen, a medical student, is headed to a teaching session after her lunch break. On the way, she \ngets a phone call from her friend, Anthony, who needs her urgent help. He says that he is in \ntrouble and wants her to reach him as soon as possible, ideally within the next 20 minutes. It \nwill take her 15 minutes to get to Anthony, and she will have to miss her teaching session. \n \nHow appropriate are the follflowing responses by Jen in this situation?\n\n<strong>Question:</strong>\nAfter unsuccessfully attempting to contact the tutor, head to Anthony knflowing that \nshe tried her best.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2255,7 +2249,7 @@ const QUESTIONS = [
   {
     "id": 161,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJen, a medical student, is headed to a teaching session after her lunch break. On the way, she \ngets a phone call from her friend, Anthony, who needs her urgent help. He says that he is in \ntrouble and wants her to reach him as soon as possible, ideally within the next 20 minutes. It \nwill take her 15 minutes to get to Anthony, and she will have to miss her teaching session. \n \nHow appropriate are the following responses by Jen in this situation?\n\n<strong>Question:</strong>\nQuickly head to the teaching session to explain the situation, then head to Anthony.",
+    "text": "<strong>Scenario:</strong>\nJen, a medical student, is headed to a teaching session after her lunch break. On the way, she \ngets a phone call from her friend, Anthony, who needs her urgent help. He says that he is in \ntrouble and wants her to reach him as soon as possible, ideally within the next 20 minutes. It \nwill take her 15 minutes to get to Anthony, and she will have to miss her teaching session. \n \nHow appropriate are the follflowing responses by Jen in this situation?\n\n<strong>Question:</strong>\nQuickly head to the teaching session to explain the situation, then head to Anthony.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2263,13 +2257,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This is ideal, as Anthony needs her in 20 minutes, and it will take her 15 minutes to get there. She can likely explain the situation within the extra 5 minutes that she has, then head to Anthony. Scenario 6",
+    "explanation": "This is ideal, as Anthony needs her in 20 minutes, and it will take her 15 minutes to get there. She can likely explain the situation within the extra 5 minutes that she has, then head to Anthony. Scenario 6.",
     "topic": "Situational Judgement"
   },
   {
     "id": 162,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJohn, a GP, is seeing Mrs. Adams regarding her pregnancy. Mrs. Adams is a heavy smoker and \nhas never indicated a wish to stop smoking.  \n \nHow important to take into account are the following considerations for John when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nThe impact of smoking on the foetus\u2019 health and development. \n\n--- PAGE 454 ---",
+    "text": "<strong>Scenario:</strong>\nJohn, a GP, is seeing Mrs. Adams regarding her pregnancy. Mrs. Adams is a heavy smoker and \nhas never indicated a wish to stop smoking.  \n \nHow important to take into account are the follflowing considerations for John when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nThe impact of smoking on the foetus’ health and development. \n\n--- PAGE 454 ---",
     "options": [
       "Very important",
       "Important",
@@ -2283,7 +2277,7 @@ const QUESTIONS = [
   {
     "id": 163,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJohn, a GP, is seeing Mrs. Adams regarding her pregnancy. Mrs. Adams is a heavy smoker and \nhas never indicated a wish to stop smoking.  \n \nHow important to take into account are the following considerations for John when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nMrs. Adams\u2019 autonomy to make her own decisions regarding her lifestyle choices.",
+    "text": "<strong>Scenario:</strong>\nJohn, a GP, is seeing Mrs. Adams regarding her pregnancy. Mrs. Adams is a heavy smoker and \nhas never indicated a wish to stop smoking.  \n \nHow important to take into account are the follflowing considerations for John when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nMrs. Adams’ autonomy to make her own decisions regarding her lifestyle choices.",
     "options": [
       "Very important",
       "Important",
@@ -2297,7 +2291,7 @@ const QUESTIONS = [
   {
     "id": 164,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJohn, a GP, is seeing Mrs. Adams regarding her pregnancy. Mrs. Adams is a heavy smoker and \nhas never indicated a wish to stop smoking.  \n \nHow important to take into account are the following considerations for John when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nMrs. Adams\u2019 awareness of how smoking can impact her child\u2019s health.",
+    "text": "<strong>Scenario:</strong>\nJohn, a GP, is seeing Mrs. Adams regarding her pregnancy. Mrs. Adams is a heavy smoker and \nhas never indicated a wish to stop smoking.  \n \nHow important to take into account are the follflowing considerations for John when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nMrs. Adams’ awareness of how smoking can impact her child’s health.",
     "options": [
       "Very important",
       "Important",
@@ -2305,13 +2299,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "If Mrs. Adams is not fully aware of the risks of smoking in pregnancy, she is more likely to continue smoking. Informing her of these risks is very important. --- PAGE 491 --- Scenario 7",
+    "explanation": "If Mrs. Adams is not fully aware of the risks of smoking in pregnancy, she is more likely to continue smoking. Informing her of these risks is very important. --- PAGE 491 --- Scenario 7.",
     "topic": "Situational Judgement"
   },
   {
     "id": 165,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nChris, a medical student, shares a flat with Eleanor, another other medical student. Eleanor \nhas recently become friends with a concerning group of students who Chris knows are \nheavily involved in drug abuse. Her attitude towards drugs has recently begun to change, \nand Chris is worried that she may also be abusing drugs. \nHow important to take into account are the following considerations for Chris when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe reason for Eleanor\u2019s recent changes.",
+    "text": "<strong>Scenario:</strong>\nChris, a medical student, shares a flat with Eleanor, another other medical student. Eleanor \nhas recently become friends with a concerning group of students who Chris knows are \nheavily involved in drug abuse. Her attitude towards drugs has recently begun to change, \nand Chris is worried that she may also be abusing drugs. \nHow important to take into account are the follflowing considerations for Chris when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe reason for Eleanor’s recent changes.",
     "options": [
       "Very important",
       "Important",
@@ -2325,7 +2319,7 @@ const QUESTIONS = [
   {
     "id": 166,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nChris, a medical student, shares a flat with Eleanor, another other medical student. Eleanor \nhas recently become friends with a concerning group of students who Chris knows are \nheavily involved in drug abuse. Her attitude towards drugs has recently begun to change, \nand Chris is worried that she may also be abusing drugs. \nHow important to take into account are the following considerations for Chris when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nHow Eleanor\u2019s behaviour may impact her professional life.",
+    "text": "<strong>Scenario:</strong>\nChris, a medical student, shares a flat with Eleanor, another other medical student. Eleanor \nhas recently become friends with a concerning group of students who Chris knows are \nheavily involved in drug abuse. Her attitude towards drugs has recently begun to change, \nand Chris is worried that she may also be abusing drugs. \nHow important to take into account are the follflowing considerations for Chris when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nHow Eleanor’s behaviour may impact her professional life.",
     "options": [
       "Very important",
       "Important",
@@ -2333,13 +2327,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "Illegal substance abuse can have a significant impact on Eleanor\u2019s career, and she may be disqualified from university if she is found to be abusing drugs. It is very important for Chris to consider this so that he can remind her of the consequences.",
+    "explanation": "Illegal substance abuse can have a significant impact on Eleanor’s career, and she may be disqualified from university if she is found to be abusing drugs. It is very important for Chris to consider this so that he can remind her of the conseqfluences.",
     "topic": "Situational Judgement"
   },
   {
     "id": 167,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nChris, a medical student, shares a flat with Eleanor, another other medical student. Eleanor \nhas recently become friends with a concerning group of students who Chris knows are \nheavily involved in drug abuse. Her attitude towards drugs has recently begun to change, \nand Chris is worried that she may also be abusing drugs. \nHow important to take into account are the following considerations for Chris when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nWhether Eleanor is happy with her new friends.",
+    "text": "<strong>Scenario:</strong>\nChris, a medical student, shares a flat with Eleanor, another other medical student. Eleanor \nhas recently become friends with a concerning group of students who Chris knows are \nheavily involved in drug abuse. Her attitude towards drugs has recently begun to change, \nand Chris is worried that she may also be abusing drugs. \nHow important to take into account are the follflowing considerations for Chris when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nWhether Eleanor is happy with her new friends.",
     "options": [
       "Very important",
       "Important --- PAGE 455 ---",
@@ -2347,13 +2341,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": "Eleanor may be very happy with her new friend group, and it is important for Chris to be sensitive of this. However, the main issue at hand is the possibility of Eleanor abusing drugs as a result of her new influences. If Chris considers her attitude towards her new friends, it will help him to deal with the problem at hand. However, it is not an absolutely vital consideration. Scenario 8",
+    "explanation": "Eleanor may be very happy with her new friend group, and it is important for Chris to be sensitive of this. However, the main issue at hand is the possibility of Eleanor abusing drugs as a result of her new inflfluences. If Chris considers her attitude towards her new friends, it will help him to deal with the problem at hand. However, it is not an absolutely vital consideration. Scenario 8.",
     "topic": "Situational Judgement"
   },
   {
     "id": 168,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAndrew, a dental student, has been allocated a group of four other dental students to work \non a group presentation with. They divide the task fairly, but it becomes clear that two of the \nstudents, Javaid and Amy, have no desire to do the work required, affecting the whole group. \nThe group is required to present on this topic in a week. \nHow appropriate are the following responses by Andrew in this situation?\n\n<strong>Question:</strong>\nSpeak to Javaid and Amy together to help them understand that their lack of effort \nwill impact the whole group.",
+    "text": "<strong>Scenario:</strong>\nAndrew, a dental student, has been allocated a group of four other dental students to work \non a group presentation with. They divide the task fairly, but it becomes clear that two of the \nstudents, Javaid and Amy, have no desire to do the work required, affecting the whole group. \nThe group is required to present on this topic in a week. \nHow appropriate are the follflowing responses by Andrew in this situation?\n\n<strong>Question:</strong>\nSpeak to Javaid and Amy together to help them understand that their lack of effort \nwill impact the whole group.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2361,13 +2355,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "This resolution has good intention \u2013 conflict resolution. However, speaking to them together is not ideal, as conflicts are better resolved when discussed one-to-one. Javaid and Amy may have completely different reasons for not participating, and having a discussion with both of them together may not be comfortable for them and may seem confrontational, thus they may not open up about the underlying issues. Thus, it is inappropriate to have the discussion with both of them.",
+    "explanation": "This resolution has good intention – conflict resolution. However, speaking to them together is not ideal, as conflicts are better resolved when discussed one-to-one. Javaid and Amy may have completely different reasons for not participating, and having a discussion with both of them together may not be comfortable for them and may seem confrontational, thus they may not open up about the underlying issues. Thus, it is inappropriate to have the discussion with both of them.",
     "topic": "Situational Judgement"
   },
   {
     "id": 169,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAndrew, a dental student, has been allocated a group of four other dental students to work \non a group presentation with. They divide the task fairly, but it becomes clear that two of the \nstudents, Javaid and Amy, have no desire to do the work required, affecting the whole group. \nThe group is required to present on this topic in a week. \nHow appropriate are the following responses by Andrew in this situation?\n\n<strong>Question:</strong>\nMention at the start of the presentation that most of the work was conducted by the \nthree group members not including Javaid and Amy.",
+    "text": "<strong>Scenario:</strong>\nAndrew, a dental student, has been allocated a group of four other dental students to work \non a group presentation with. They divide the task fairly, but it becomes clear that two of the \nstudents, Javaid and Amy, have no desire to do the work required, affecting the whole group. \nThe group is required to present on this topic in a week. \nHow appropriate are the follflowing responses by Andrew in this situation?\n\n<strong>Question:</strong>\nMention at the start of the presentation that most of the work was conducted by the \nthree group members not including Javaid and Amy.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2381,7 +2375,7 @@ const QUESTIONS = [
   {
     "id": 170,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAndrew, a dental student, has been allocated a group of four other dental students to work \non a group presentation with. They divide the task fairly, but it becomes clear that two of the \nstudents, Javaid and Amy, have no desire to do the work required, affecting the whole group. \nThe group is required to present on this topic in a week. \nHow appropriate are the following responses by Andrew in this situation?\n\n<strong>Question:</strong>\nSpeak to the other members of the group to try to work out how the three of them \ncan do all of the work in the given timeframe.",
+    "text": "<strong>Scenario:</strong>\nAndrew, a dental student, has been allocated a group of four other dental students to work \non a group presentation with. They divide the task fairly, but it becomes clear that two of the \nstudents, Javaid and Amy, have no desire to do the work required, affecting the whole group. \nThe group is required to present on this topic in a week. \nHow appropriate are the follflowing responses by Andrew in this situation?\n\n<strong>Question:</strong>\nSpeak to the other members of the group to try to work out how the three of them \ncan do all of the work in the given timeframe.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2389,13 +2383,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "This way, the work is completed and Andrew\u2019s grades are not affected. However, it does not solve the issue of Javaid and Amy not putting effort into the group project.",
+    "explanation": "This way, the work is completed and Andrew’s grades are not affected. However, it does not solve the issue of Javaid and Amy not putting effort into the group project.",
     "topic": "Situational Judgement"
   },
   {
     "id": 171,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAndrew, a dental student, has been allocated a group of four other dental students to work \non a group presentation with. They divide the task fairly, but it becomes clear that two of the \nstudents, Javaid and Amy, have no desire to do the work required, affecting the whole group. \nThe group is required to present on this topic in a week. \nHow appropriate are the following responses by Andrew in this situation?\n\n<strong>Question:</strong>\nWrite a detailed email to the course director to explain the situation.",
+    "text": "<strong>Scenario:</strong>\nAndrew, a dental student, has been allocated a group of four other dental students to work \non a group presentation with. They divide the task fairly, but it becomes clear that two of the \nstudents, Javaid and Amy, have no desire to do the work required, affecting the whole group. \nThe group is required to present on this topic in a week. \nHow appropriate are the follflowing responses by Andrew in this situation?\n\n<strong>Question:</strong>\nWrite a detailed email to the course director to explain the situation.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2403,13 +2397,13 @@ const QUESTIONS = [
       "Very inappropriate --- PAGE 456 --- 456"
     ],
     "answer": 3,
-    "explanation": "It is not an appropriate method of conflict resolution \u2013 you must deal with conflicts internally prior to escalating the situation. This will lead to further conflict within the group, and will likely impact the relationships between colleagues. --- PAGE 492 --- Scenario 9",
+    "explanation": "It is not an appropriate method of conflict resolution – you must deal with conflicts internally prior to escalating the situation. This will lead to further conflict within the group, and will likely impact the relationships between colleagues. --- PAGE 492 --- Scenario 9.",
     "topic": "Situational Judgement"
   },
   {
     "id": 172,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAryan, a medical student, is shadowing a consultant on a medical ward. The consultant \nprescribes a specific painkiller for a patient and asks Aryan to deliver the prescription to the \nnurse. The consultant then finishes his shift and heads home. Aryan notices prior to \ndelivering the prescription that the patient in question has a previous addiction issue with \nthat particular painkiller. \nHow appropriate are the following responses by Aryan in this situation?\n\n<strong>Question:</strong>\nChange the prescription to another type of painkiller.",
+    "text": "<strong>Scenario:</strong>\nAryan, a medical student, is shadflowing a consultant on a medical ward. The consultant \nprescribes a specific painkiller for a patient and asks Aryan to deliver the prescription to the \nnurse. The consultant then finishes his shift and heads home. Aryan notices prior to \ndelivering the prescription that the patient in question has a previous addiction issue with \nthat particular painkiller. \nHow appropriate are the follflowing responses by Aryan in this situation?\n\n<strong>Question:</strong>\nChange the prescription to another type of painkiller.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2423,7 +2417,7 @@ const QUESTIONS = [
   {
     "id": 173,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAryan, a medical student, is shadowing a consultant on a medical ward. The consultant \nprescribes a specific painkiller for a patient and asks Aryan to deliver the prescription to the \nnurse. The consultant then finishes his shift and heads home. Aryan notices prior to \ndelivering the prescription that the patient in question has a previous addiction issue with \nthat particular painkiller. \nHow appropriate are the following responses by Aryan in this situation?\n\n<strong>Question:</strong>\nAsk the nurse for advice.",
+    "text": "<strong>Scenario:</strong>\nAryan, a medical student, is shadflowing a consultant on a medical ward. The consultant \nprescribes a specific painkiller for a patient and asks Aryan to deliver the prescription to the \nnurse. The consultant then finishes his shift and heads home. Aryan notices prior to \ndelivering the prescription that the patient in question has a previous addiction issue with \nthat particular painkiller. \nHow appropriate are the follflowing responses by Aryan in this situation?\n\n<strong>Question:</strong>\nAsk the nurse for advice.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2431,13 +2425,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "Some nurses are qualified to prescribe medications, but they are not in charge of making decisions regarding patient care. As such, the nurse would have to seek another doctor\u2019s advice, and so, it would be more ideal to go directly to a doctor.",
+    "explanation": "Some nurses are qualified to prescribe medications, but they are not in charge of making decisions regarding patient care. As such, the nurse would have to seek another doctor’s advice, and so, it would be more ideal to go directly to a doctor.",
     "topic": "Situational Judgement"
   },
   {
     "id": 174,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAryan, a medical student, is shadowing a consultant on a medical ward. The consultant \nprescribes a specific painkiller for a patient and asks Aryan to deliver the prescription to the \nnurse. The consultant then finishes his shift and heads home. Aryan notices prior to \ndelivering the prescription that the patient in question has a previous addiction issue with \nthat particular painkiller. \nHow appropriate are the following responses by Aryan in this situation?\n\n<strong>Question:</strong>\nContact an on-call doctor to ask for advice.",
+    "text": "<strong>Scenario:</strong>\nAryan, a medical student, is shadflowing a consultant on a medical ward. The consultant \nprescribes a specific painkiller for a patient and asks Aryan to deliver the prescription to the \nnurse. The consultant then finishes his shift and heads home. Aryan notices prior to \ndelivering the prescription that the patient in question has a previous addiction issue with \nthat particular painkiller. \nHow appropriate are the follflowing responses by Aryan in this situation?\n\n<strong>Question:</strong>\nContact an on-call doctor to ask for advice.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2451,7 +2445,7 @@ const QUESTIONS = [
   {
     "id": 175,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAryan, a medical student, is shadowing a consultant on a medical ward. The consultant \nprescribes a specific painkiller for a patient and asks Aryan to deliver the prescription to the \nnurse. The consultant then finishes his shift and heads home. Aryan notices prior to \ndelivering the prescription that the patient in question has a previous addiction issue with \nthat particular painkiller. \nHow appropriate are the following responses by Aryan in this situation?\n\n<strong>Question:</strong>\nApologise to the patient and explain that the medications will be reviewed the next \nday when the consultant returns.",
+    "text": "<strong>Scenario:</strong>\nAryan, a medical student, is shadflowing a consultant on a medical ward. The consultant \nprescribes a specific painkiller for a patient and asks Aryan to deliver the prescription to the \nnurse. The consultant then finishes his shift and heads home. Aryan notices prior to \ndelivering the prescription that the patient in question has a previous addiction issue with \nthat particular painkiller. \nHow appropriate are the follflowing responses by Aryan in this situation?\n\n<strong>Question:</strong>\nApologise to the patient and explain that the medications will be reviewed the next \nday when the consultant returns.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2459,13 +2453,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "Although there is some attempt at resolving the situation, as evidenced by the apology given, this does not solve the issue that the patient will be in pain until the next day. The issue should be resolved more immediately so the patient can have their required prescription. Scenario 10",
+    "explanation": "Although there is some attempt at resolving the situation, as evidenced by the apology given, this does not solve the issue that the patient will be in pain until the next day. The issue should be resolved more immediately so the patient can have their required prescription. Scenario 10.",
     "topic": "Situational Judgement"
   },
   {
     "id": 176,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmma, a medical student, is on a train when the conductor starts asking if there is a doctor \nanywhere. She tells him that she is a medical student, but can try to help. He informs her \nthat a child in another carriage swallowed part of a plastic fork and his mother is extremely \n\n--- PAGE 457 ---\nworried that this will be harmful for him. Emma is not entirely sure how to solve this, but no \none else on the train has come forward as a doctor. \nHow important to take into account are the following considerations for Emma when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe fact that nobody else has come forward.",
+    "text": "<strong>Scenario:</strong>\nEmma, a medical student, is on a train when the conductor starts asking if there is a doctor \nanywhere. She tells him that she is a medical student, but can try to help. He informs her \nthat a child in another carriage swallowed part of a plastic fork and his mother is extremely \n\n--- PAGE 457 ---\nworried that this will be harmful for him. Emma is not entirely sure how to solve this, but no \none else on the train has come forward as a doctor. \nHow important to take into account are the follflowing considerations for Emma when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe fact that nobody else has come forward.",
     "options": [
       "Very important",
       "Important",
@@ -2479,7 +2473,7 @@ const QUESTIONS = [
   {
     "id": 177,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmma, a medical student, is on a train when the conductor starts asking if there is a doctor \nanywhere. She tells him that she is a medical student, but can try to help. He informs her \nthat a child in another carriage swallowed part of a plastic fork and his mother is extremely \n\n--- PAGE 457 ---\nworried that this will be harmful for him. Emma is not entirely sure how to solve this, but no \none else on the train has come forward as a doctor. \nHow important to take into account are the following considerations for Emma when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe conductor is offering to move her to first class if she is able to help with the \nsituation.",
+    "text": "<strong>Scenario:</strong>\nEmma, a medical student, is on a train when the conductor starts asking if there is a doctor \nanywhere. She tells him that she is a medical student, but can try to help. He informs her \nthat a child in another carriage swallowed part of a plastic fork and his mother is extremely \n\n--- PAGE 457 ---\nworried that this will be harmful for him. Emma is not entirely sure how to solve this, but no \none else on the train has come forward as a doctor. \nHow important to take into account are the follflowing considerations for Emma when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe conductor is offering to move her to first class if she is able to help with the \nsituation.",
     "options": [
       "Very important",
       "Important",
@@ -2493,7 +2487,7 @@ const QUESTIONS = [
   {
     "id": 178,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmma, a medical student, is on a train when the conductor starts asking if there is a doctor \nanywhere. She tells him that she is a medical student, but can try to help. He informs her \nthat a child in another carriage swallowed part of a plastic fork and his mother is extremely \n\n--- PAGE 457 ---\nworried that this will be harmful for him. Emma is not entirely sure how to solve this, but no \none else on the train has come forward as a doctor. \nHow important to take into account are the following considerations for Emma when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe conductor does not seem concerned about the child when he explains the \nsituation to Emma.",
+    "text": "<strong>Scenario:</strong>\nEmma, a medical student, is on a train when the conductor starts asking if there is a doctor \nanywhere. She tells him that she is a medical student, but can try to help. He informs her \nthat a child in another carriage swallowed part of a plastic fork and his mother is extremely \n\n--- PAGE 457 ---\nworried that this will be harmful for him. Emma is not entirely sure how to solve this, but no \none else on the train has come forward as a doctor. \nHow important to take into account are the follflowing considerations for Emma when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe conductor does not seem concerned about the child when he explains the \nsituation to Emma.",
     "options": [
       "Very important",
       "Important",
@@ -2501,13 +2495,13 @@ const QUESTIONS = [
       "Not important"
     ],
     "answer": 3,
-    "explanation": "The conductor likely does not have a medical background. If Emma considers that he is not concerned, she may act less urgently, potentially putting the child at risk. Scenario 11",
+    "explanation": "The conductor likely does not have a medical background. If Emma considers that he is not concerned, she may act less urgently, potentially putting the child at risk. Scenario 11.",
     "topic": "Situational Judgement"
   },
   {
     "id": 179,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Maxim is a cardiologist running a clinic. A patient comes into the clinic, clearly very angry. \nHe complains that he has been waiting over an hour to be seen and that this is not the service \nhe expects from the NHS.  \nHow appropriate are the following responses by Dr Maxim in this situation?\n\n<strong>Question:</strong>\nTell the patient that everybody has to wait and that there is not anything he can do.",
+    "text": "<strong>Scenario:</strong>\nDr Maxim is a cardiologist running a clinic. A patient comes into the clinic, clearly very angry. \nHe complains that he has been waiting over an hour to be seen and that this is not the service \nhe expects from the NHS.  \nHow appropriate are the follflowing responses by Dr Maxim in this situation?\n\n<strong>Question:</strong>\nTell the patient that everybody has to wait and that there is not anything he can do.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2515,13 +2509,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This response does nothing to address the patient\u2019s concerns. It is very impersonal and would likely make the patient feel undervalued and unable to voice their concerns.",
+    "explanation": "This response does nothing to address the patient’s concerns. It is very impersonal and would likely make the patient feel undervalued and unable to voice their concerns.",
     "topic": "Situational Judgement"
   },
   {
     "id": 180,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Maxim is a cardiologist running a clinic. A patient comes into the clinic, clearly very angry. \nHe complains that he has been waiting over an hour to be seen and that this is not the service \nhe expects from the NHS.  \nHow appropriate are the following responses by Dr Maxim in this situation?\n\n<strong>Question:</strong>\nAsk the patient to calm down before they carry on with the consultation.",
+    "text": "<strong>Scenario:</strong>\nDr Maxim is a cardiologist running a clinic. A patient comes into the clinic, clearly very angry. \nHe complains that he has been waiting over an hour to be seen and that this is not the service \nhe expects from the NHS.  \nHow appropriate are the follflowing responses by Dr Maxim in this situation?\n\n<strong>Question:</strong>\nAsk the patient to calm down before they carry on with the consultation.",
     "options": [
       "Very appropriate --- PAGE 458 ---",
       "Appropriate, but not ideal",
@@ -2529,13 +2523,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "This provides no resolution, as simply saying \u201ccalm down\u201d will not help the patient to calm down. However, it is not awful as there is a correct intention in place, although it could be dealt with in a better manner.",
+    "explanation": "This provides no resolution, as simply saying “calm down” will not help the patient to calm down. However, it is not awful as there is a correct intention in place, although it could be dealt with in a better manner.",
     "topic": "Situational Judgement"
   },
   {
     "id": 181,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Maxim is a cardiologist running a clinic. A patient comes into the clinic, clearly very angry. \nHe complains that he has been waiting over an hour to be seen and that this is not the service \nhe expects from the NHS.  \nHow appropriate are the following responses by Dr Maxim in this situation?\n\n<strong>Question:</strong>\nTell the patient that they should be grateful that they do not have to pay to be seen \nby a doctor through the NHS.",
+    "text": "<strong>Scenario:</strong>\nDr Maxim is a cardiologist running a clinic. A patient comes into the clinic, clearly very angry. \nHe complains that he has been waiting over an hour to be seen and that this is not the service \nhe expects from the NHS.  \nHow appropriate are the follflowing responses by Dr Maxim in this situation?\n\n<strong>Question:</strong>\nTell the patient that they should be grateful that they do not have to pay to be seen \nby a doctor through the NHS.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2543,13 +2537,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "A comment like this is unnecessary and leads to a more fractured doctor-patient relationship. This could compromise the quality of care and lead to the patient feeling as if their concerns are not valued. --- PAGE 493 --- 493",
+    "explanation": "A comment like this is unnecessary and leads to a more fractured doctor-patient relationship. This could compromise the quality of care and lead to the patient feeling as if their concerns are not valued. --- PAGE 493 --- 493.",
     "topic": "Situational Judgement"
   },
   {
     "id": 182,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Maxim is a cardiologist running a clinic. A patient comes into the clinic, clearly very angry. \nHe complains that he has been waiting over an hour to be seen and that this is not the service \nhe expects from the NHS.  \nHow appropriate are the following responses by Dr Maxim in this situation?\n\n<strong>Question:</strong>\nTell the patient that he will pass the feedback on to the relevant department.",
+    "text": "<strong>Scenario:</strong>\nDr Maxim is a cardiologist running a clinic. A patient comes into the clinic, clearly very angry. \nHe complains that he has been waiting over an hour to be seen and that this is not the service \nhe expects from the NHS.  \nHow appropriate are the follflowing responses by Dr Maxim in this situation?\n\n<strong>Question:</strong>\nTell the patient that he will pass the feedback on to the relevant department.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2557,13 +2551,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "It is important to pass on such feedback so it can be addressed appropriately. Perhaps the administration staff have been overbooking clinics, and reporting this would allow any necessary changes to be made. Scenario 12",
+    "explanation": "It is important to pass on such feedback so it can be addressed appropriately. Perhaps the administration staff have been overbooking clinics, and reporting this would allow any necessary changes to be made. Scenario 12.",
     "topic": "Situational Judgement"
   },
   {
     "id": 183,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nYusuf, a medical student, is on a 4-week rotation at a GP practice. He must have his \nplacement booklet signed each day to confirm his attendance. This is a requirement by his \nuniversity, and failure to provide evidence for attendance can result in a professionalism \nissue. One day, he forgets his attendance booklet at home. \nHow important to take into account are the following considerations for Yusuf when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nHe has one week left of his rotation.",
+    "text": "<strong>Scenario:</strong>\nYusuf, a medical student, is on a 4-week rotation at a GP practice. He must have his \nplacement booklet signed each day to confirm his attendance. This is a requirement by his \nuniversity, and failure to provide evidence for attendance can result in a professionalism \nissue. One day, he forgets his attendance booklet at home. \nHow important to take into account are the follflowing considerations for Yusuf when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nHe has one week left of his rotation.",
     "options": [
       "Very important",
       "Important",
@@ -2571,13 +2565,13 @@ const QUESTIONS = [
       "Not important"
     ],
     "answer": 1,
-    "explanation": "The main concern is the professionalism issue. He is present, so he is not doing anything wrong \u2013 he simply made a mistake by forgetting his booklet. By considering how much time he has left on the placement, he can arrange for his GP to sign the booklet at a later date. However, it is not essential to consider this, as the issue should be dealt with regardless of how much time he has left.",
+    "explanation": "The main concern is the professionalism issue. He is present, so he is not doing anything wrong – he simply made a mistake by forgetting his booklet. By considering how much time he has left on the placement, he can arrange for his GP to sign the booklet at a later date. However, it is not essential to consider this, as the issue should be dealt with regardless of how much time he has left.",
     "topic": "Situational Judgement"
   },
   {
     "id": 184,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nYusuf, a medical student, is on a 4-week rotation at a GP practice. He must have his \nplacement booklet signed each day to confirm his attendance. This is a requirement by his \nuniversity, and failure to provide evidence for attendance can result in a professionalism \nissue. One day, he forgets his attendance booklet at home. \nHow important to take into account are the following considerations for Yusuf when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nHe has enough time during his lunch break to get his booklet from home.",
+    "text": "<strong>Scenario:</strong>\nYusuf, a medical student, is on a 4-week rotation at a GP practice. He must have his \nplacement booklet signed each day to confirm his attendance. This is a requirement by his \nuniversity, and failure to provide evidence for attendance can result in a professionalism \nissue. One day, he forgets his attendance booklet at home. \nHow important to take into account are the follflowing considerations for Yusuf when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nHe has enough time during his lunch break to get his booklet from home.",
     "options": [
       "Very important",
       "Important",
@@ -2585,13 +2579,13 @@ const QUESTIONS = [
       "Not important --- PAGE 459 --- 459"
     ],
     "answer": 0,
-    "explanation": "If he is able to deal with the matter during his lunch break, that is ideal, as he will still be able to receive a signature in his booklet for that day. If he considers that he has enough time, he can make the decision to retrieve his booklet during his break to avoid any further issues. Scenario 13",
+    "explanation": "If he is able to deal with the matter during his lunch break, that is ideal, as he will still be able to receive a signature in his booklet for that day. If he considers that he has enough time, he can make the decision to retrieve his booklet during his break to avoid any further issues. Scenario 13.",
     "topic": "Situational Judgement"
   },
   {
     "id": 185,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHarun, a junior doctor, is working in a hospice. He is asked to inform a patient, Carl, that \ntreatment will now be withdrawn as he is on the end-of-life pathway. The focus of his care \nplan will now be to make sure that he is comfortable in his last few days. Carl was visited \nearlier by his daughter who informed him of a herbal remedy that she was certain would cure \nhis condition. Carl asks Harun to look into the herbal remedy, but Harun doubts it would be \nof any medical benefit. \nHow appropriate are the following responses by Harun in this situation?\n\n<strong>Question:</strong>\nTell Carl that the medical team\u2019s decision is final.",
+    "text": "<strong>Scenario:</strong>\nHarun, a junior doctor, is working in a hospice. He is asked to inform a patient, Carl, that \ntreatment will now be withdrawn as he is on the end-of-life pathway. The focus of his care \nplan will now be to make sure that he is comfortable in his last few days. Carl was visited \nearlier by his daughter who informed him of a herbal remedy that she was certain would cure \nhis condition. Carl asks Harun to look into the herbal remedy, but Harun doubts it would be \nof any medical benefit. \nHow appropriate are the follflowing responses by Harun in this situation?\n\n<strong>Question:</strong>\nTell Carl that the medical team’s decision is final.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2599,13 +2593,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This completely disregards Carl\u2019s concerns and revokes his right to autonomy.",
+    "explanation": "This completely disregards Carl’s concerns and revokes his right to autonomy.",
     "topic": "Situational Judgement"
   },
   {
     "id": 186,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHarun, a junior doctor, is working in a hospice. He is asked to inform a patient, Carl, that \ntreatment will now be withdrawn as he is on the end-of-life pathway. The focus of his care \nplan will now be to make sure that he is comfortable in his last few days. Carl was visited \nearlier by his daughter who informed him of a herbal remedy that she was certain would cure \nhis condition. Carl asks Harun to look into the herbal remedy, but Harun doubts it would be \nof any medical benefit. \nHow appropriate are the following responses by Harun in this situation?\n\n<strong>Question:</strong>\nExplain to Carl that any herbal remedy will not be beneficial to him.",
+    "text": "<strong>Scenario:</strong>\nHarun, a junior doctor, is working in a hospice. He is asked to inform a patient, Carl, that \ntreatment will now be withdrawn as he is on the end-of-life pathway. The focus of his care \nplan will now be to make sure that he is comfortable in his last few days. Carl was visited \nearlier by his daughter who informed him of a herbal remedy that she was certain would cure \nhis condition. Carl asks Harun to look into the herbal remedy, but Harun doubts it would be \nof any medical benefit. \nHow appropriate are the follflowing responses by Harun in this situation?\n\n<strong>Question:</strong>\nExplain to Carl that any herbal remedy will not be beneficial to him.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2613,13 +2607,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "Harun does not yet know any details about the herbal remedy, as evidenced by Carl\u2019s request for him to look into it. By generalising and explaining that no herbal remedy will be beneficial, Harun is doing a disservice to his patient. If there is something that Carl is requesting which will not harm him in any way, and may be able to ease his anxiety or help him feel calm, even via a placebo effect, this can be considered. Immediately disregarding his request is inappropriate. However, the response is not awful as Harun is still attempting to explain things to Carl and keeping him informed of the care plan.",
+    "explanation": "Harun does not yet know any details about the herbal remedy, as evidenced by Carl’s request for him to look into it. By generalising and explaining that no herbal remedy will be beneficial, Harun is doing a disservice to his patient. If there is something that Carl is requesting which will not harm him in any way, and may be able to ease his anxiety or help him feel calm, even via a placebo effect, this can be considered. Immediately disregarding his request is inappropriate. However, the response is not awful as Harun is still attempting to explain things to Carl and keeping him informed of the care plan.",
     "topic": "Situational Judgement"
   },
   {
     "id": 187,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHarun, a junior doctor, is working in a hospice. He is asked to inform a patient, Carl, that \ntreatment will now be withdrawn as he is on the end-of-life pathway. The focus of his care \nplan will now be to make sure that he is comfortable in his last few days. Carl was visited \nearlier by his daughter who informed him of a herbal remedy that she was certain would cure \nhis condition. Carl asks Harun to look into the herbal remedy, but Harun doubts it would be \nof any medical benefit. \nHow appropriate are the following responses by Harun in this situation?\n\n<strong>Question:</strong>\nDiscuss the herbal remedy with the consultant looking after Carl.",
+    "text": "<strong>Scenario:</strong>\nHarun, a junior doctor, is working in a hospice. He is asked to inform a patient, Carl, that \ntreatment will now be withdrawn as he is on the end-of-life pathway. The focus of his care \nplan will now be to make sure that he is comfortable in his last few days. Carl was visited \nearlier by his daughter who informed him of a herbal remedy that she was certain would cure \nhis condition. Carl asks Harun to look into the herbal remedy, but Harun doubts it would be \nof any medical benefit. \nHow appropriate are the follflowing responses by Harun in this situation?\n\n<strong>Question:</strong>\nDiscuss the herbal remedy with the consultant looking after Carl.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2627,13 +2621,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This would give the medical team an opportunity to evaluate their options and decide how to best care for their patient. A junior doctor may not be qualified to make complex decisions about a patient\u2019s care, thus it is always appropriate to ask a senior for advice. Scenario 14",
+    "explanation": "This would give the medical team an opportunity to evaluate their options and decide how to best care for their patient. A junior doctor may not be qualified to make complex decisions about a patient’s care, thus it is always appropriate to ask a senior for advice. Scenario 14.",
     "topic": "Situational Judgement"
   },
   {
     "id": 188,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA junior doctor, Sharon, works in a renal unit. She has a medical student, Callum, shadowing \nher for the first time. Sharon has some difficulty balancing patient care and teaching the \nstudent at the same time. A fellow junior doctor jokingly makes a comment about Sharon\u2019s \nlack of capability managing a large workload, and Sharon appears to be upset at the remark.   \nHow appropriate are the following responses by Callum in this situation?\n\n<strong>Question:</strong>\nTake the other junior doctor aside immediately and inform them that their comment \nwas very offensive.",
+    "text": "<strong>Scenario:</strong>\nA junior doctor, Sharon, works in a renal unit. She has a medical student, Callum, shadflowing \nher for the first time. Sharon has some difficulty balancing patient care and teaching the \nstudent at the same time. A fellow junior doctor jokingly makes a comment about Sharon’s \nlack of capability managing a large workload, and Sharon appears to be upset at the remark.   \nHow appropriate are the follflowing responses by Callum in this situation?\n\n<strong>Question:</strong>\nTake the other junior doctor aside immediately and inform them that their comment \nwas very offensive.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal --- PAGE 460 ---",
@@ -2647,7 +2641,7 @@ const QUESTIONS = [
   {
     "id": 189,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA junior doctor, Sharon, works in a renal unit. She has a medical student, Callum, shadowing \nher for the first time. Sharon has some difficulty balancing patient care and teaching the \nstudent at the same time. A fellow junior doctor jokingly makes a comment about Sharon\u2019s \nlack of capability managing a large workload, and Sharon appears to be upset at the remark.   \nHow appropriate are the following responses by Callum in this situation?\n\n<strong>Question:</strong>\nApologise to Sharon.",
+    "text": "<strong>Scenario:</strong>\nA junior doctor, Sharon, works in a renal unit. She has a medical student, Callum, shadflowing \nher for the first time. Sharon has some difficulty balancing patient care and teaching the \nstudent at the same time. A fellow junior doctor jokingly makes a comment about Sharon’s \nlack of capability managing a large workload, and Sharon appears to be upset at the remark.   \nHow appropriate are the follflowing responses by Callum in this situation?\n\n<strong>Question:</strong>\nApologise to Sharon.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2661,7 +2655,7 @@ const QUESTIONS = [
   {
     "id": 190,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA junior doctor, Sharon, works in a renal unit. She has a medical student, Callum, shadowing \nher for the first time. Sharon has some difficulty balancing patient care and teaching the \nstudent at the same time. A fellow junior doctor jokingly makes a comment about Sharon\u2019s \nlack of capability managing a large workload, and Sharon appears to be upset at the remark.   \nHow appropriate are the following responses by Callum in this situation?\n\n<strong>Question:</strong>\nGet a third party involved.",
+    "text": "<strong>Scenario:</strong>\nA junior doctor, Sharon, works in a renal unit. She has a medical student, Callum, shadflowing \nher for the first time. Sharon has some difficulty balancing patient care and teaching the \nstudent at the same time. A fellow junior doctor jokingly makes a comment about Sharon’s \nlack of capability managing a large workload, and Sharon appears to be upset at the remark.   \nHow appropriate are the follflowing responses by Callum in this situation?\n\n<strong>Question:</strong>\nGet a third party involved.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2669,13 +2663,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "There are already three people in this situation. Conflict resolution should be conducted internally before involving anyone else. Bringing a third party into the situation could make it worse. Scenario 15",
+    "explanation": "There are already three people in this situation. Conflict resolution should be conducted internally before involving anyone else. Bringing a third party into the situation could make it worse. Scenario 15.",
     "topic": "Situational Judgement"
   },
   {
     "id": 191,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGracie, a medical student, asks Dr Adams, a GP, to look at the blood test results of a patient \nin the waiting room. She says that it is her sister-in-law who was feeling unwell last week, so \nshe wants to know how she is doing.  \nHow appropriate are the following responses by Dr Adams in this situation?\n\n<strong>Question:</strong>\nReport Gracie to her course supervisor at medical school for attempting to breach \nconfidentiality.",
+    "text": "<strong>Scenario:</strong>\nGracie, a medical student, asks Dr Adams, a GP, to look at the blood test results of a patient \nin the waiting room. She says that it is her sister-in-law who was feeling unwell last week, so \nshe wants to know how she is doing.  \nHow appropriate are the follflowing responses by Dr Adams in this situation?\n\n<strong>Question:</strong>\nReport Gracie to her course supervisor at medical school for attempting to breach \nconfidentiality.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2689,7 +2683,7 @@ const QUESTIONS = [
   {
     "id": 192,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGracie, a medical student, asks Dr Adams, a GP, to look at the blood test results of a patient \nin the waiting room. She says that it is her sister-in-law who was feeling unwell last week, so \nshe wants to know how she is doing.  \nHow appropriate are the following responses by Dr Adams in this situation?\n\n<strong>Question:</strong>\nAllow Gracie to access the files as her sister-in-law had previously informed her that \nshe was unwell.",
+    "text": "<strong>Scenario:</strong>\nGracie, a medical student, asks Dr Adams, a GP, to look at the blood test results of a patient \nin the waiting room. She says that it is her sister-in-law who was feeling unwell last week, so \nshe wants to know how she is doing.  \nHow appropriate are the follflowing responses by Dr Adams in this situation?\n\n<strong>Question:</strong>\nAllow Gracie to access the files as her sister-in-law had previously informed her that \nshe was unwell.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2703,7 +2697,7 @@ const QUESTIONS = [
   {
     "id": 193,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGracie, a medical student, asks Dr Adams, a GP, to look at the blood test results of a patient \nin the waiting room. She says that it is her sister-in-law who was feeling unwell last week, so \nshe wants to know how she is doing.  \nHow appropriate are the following responses by Dr Adams in this situation?\n\n<strong>Question:</strong>\nAdvise her that he is not the GP treating her sister-in-law, so she should ask the GP in \ncharge if she can access the blood test results.",
+    "text": "<strong>Scenario:</strong>\nGracie, a medical student, asks Dr Adams, a GP, to look at the blood test results of a patient \nin the waiting room. She says that it is her sister-in-law who was feeling unwell last week, so \nshe wants to know how she is doing.  \nHow appropriate are the follflowing responses by Dr Adams in this situation?\n\n<strong>Question:</strong>\nAdvise her that he is not the GP treating her sister-in-law, so she should ask the GP in \ncharge if she can access the blood test results.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal --- PAGE 461 ---",
@@ -2711,13 +2705,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "All of the arrows on the right-hand side of the box turn 180\u00b0.",
+    "explanation": "All of the arrows on the right-hand side of the box turn 180°.",
     "topic": "Situational Judgement"
   },
   {
     "id": 194,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGracie, a medical student, asks Dr Adams, a GP, to look at the blood test results of a patient \nin the waiting room. She says that it is her sister-in-law who was feeling unwell last week, so \nshe wants to know how she is doing.  \nHow appropriate are the following responses by Dr Adams in this situation?\n\n<strong>Question:</strong>\nAsk Gracie to speak to her sister-in-law in the waiting room and ask for permission to \naccess the files.",
+    "text": "<strong>Scenario:</strong>\nGracie, a medical student, asks Dr Adams, a GP, to look at the blood test results of a patient \nin the waiting room. She says that it is her sister-in-law who was feeling unwell last week, so \nshe wants to know how she is doing.  \nHow appropriate are the follflowing responses by Dr Adams in this situation?\n\n<strong>Question:</strong>\nAsk Gracie to speak to her sister-in-law in the waiting room and ask for permission to \naccess the files.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2731,7 +2725,7 @@ const QUESTIONS = [
   {
     "id": 195,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMikhail is a junior doctor on a respiratory ward. He is at the end of his shift and waiting for \nthe next shift\u2019s junior doctor, Joe, to come take over. When Joe finally comes in late, Mikhail \nattempts to hand over the patients in his care to Joe. He notices that Joe seems very distracted \nand unable to concentrate. He also thinks that he can smell alcohol in Joe\u2019s breath. \nHow important to take into account are the following considerations for Mikhail when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe danger posed to the patients.",
+    "text": "<strong>Scenario:</strong>\nMikhail is a junior doctor on a respiratory ward. He is at the end of his shift and waiting for \nthe next shift’s junior doctor, Joe, to come take over. When Joe finally comes in late, Mikhail \nattempts to hand over the patients in his care to Joe. He notices that Joe seems very distracted \nand unable to concentrate. He also thinks that he can smell alcohol in Joe’s breath. \nHow important to take into account are the follflowing considerations for Mikhail when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe danger posed to the patients.",
     "options": [
       "Very important",
       "Important",
@@ -2739,13 +2733,13 @@ const QUESTIONS = [
       "Not important"
     ],
     "answer": 2,
-    "explanation": "Connecting the dots in each box in Set A makes right-angled triangles. Connecting the dots in Set B makes scalene triangles. Situational Judgement Test Answers Scenario 1",
+    "explanation": "Connecting the dots in each box in Set A makes right-angled triangles. Connecting the dots in Set B makes scalene triangles. Situational Judgement Test Answers Scenario 1.",
     "topic": "Situational Judgement"
   },
   {
     "id": 196,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMikhail is a junior doctor on a respiratory ward. He is at the end of his shift and waiting for \nthe next shift\u2019s junior doctor, Joe, to come take over. When Joe finally comes in late, Mikhail \nattempts to hand over the patients in his care to Joe. He notices that Joe seems very distracted \nand unable to concentrate. He also thinks that he can smell alcohol in Joe\u2019s breath. \nHow important to take into account are the following considerations for Mikhail when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe reason that his colleague has come into work drinking.",
+    "text": "<strong>Scenario:</strong>\nMikhail is a junior doctor on a respiratory ward. He is at the end of his shift and waiting for \nthe next shift’s junior doctor, Joe, to come take over. When Joe finally comes in late, Mikhail \nattempts to hand over the patients in his care to Joe. He notices that Joe seems very distracted \nand unable to concentrate. He also thinks that he can smell alcohol in Joe’s breath. \nHow important to take into account are the follflowing considerations for Mikhail when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe reason that his colleague has come into work drinking.",
     "options": [
       "Very important",
       "Important",
@@ -2753,13 +2747,13 @@ const QUESTIONS = [
       "Not important"
     ],
     "answer": 0,
-    "explanation": "Assuming that this is not normal behaviour for Joe, there may have been something going on outside of his work life that is causing him to behave like this. By considering the reason for this, Mikhail can help to resolve the situation and remove Joe from the workplace in an empathetic manner. --- PAGE 495 --- 495",
+    "explanation": "Assuming that this is not normal behaviour for Joe, there may have been something going on outside of his work life that is causing him to behave like this. By considering the reason for this, Mikhail can help to resolve the situation and remove Joe from the workplace in an empathetic manner. --- PAGE 495 --- 495.",
     "topic": "Situational Judgement"
   },
   {
     "id": 197,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMikhail is a junior doctor on a respiratory ward. He is at the end of his shift and waiting for \nthe next shift\u2019s junior doctor, Joe, to come take over. When Joe finally comes in late, Mikhail \nattempts to hand over the patients in his care to Joe. He notices that Joe seems very distracted \nand unable to concentrate. He also thinks that he can smell alcohol in Joe\u2019s breath. \nHow important to take into account are the following considerations for Mikhail when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nJoe may lose his job for attending work intoxicated.",
+    "text": "<strong>Scenario:</strong>\nMikhail is a junior doctor on a respiratory ward. He is at the end of his shift and waiting for \nthe next shift’s junior doctor, Joe, to come take over. When Joe finally comes in late, Mikhail \nattempts to hand over the patients in his care to Joe. He notices that Joe seems very distracted \nand unable to concentrate. He also thinks that he can smell alcohol in Joe’s breath. \nHow important to take into account are the follflowing considerations for Mikhail when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nJoe may lose his job for attending work intoxicated.",
     "options": [
       "Very important",
       "Important",
@@ -2767,13 +2761,13 @@ const QUESTIONS = [
       "Not important --- PAGE 462 --- 462"
     ],
     "answer": 2,
-    "explanation": "The main concern here is patient safety. Regardless of whether or not Joe may lose his job, Mikhail needs to act urgently for the safety of the patients. However, by considering this, Mikhail may better assess the situation and confirm his thoughts before responding or taking it further. Therefore, considering this may help to resolve a minor problem, i.e. the consequences to Joe for his actions. Scenario 17",
+    "explanation": "The main concern here is patient safety. Regardless of whether or not Joe may lose his job, Mikhail needs to act urgently for the safety of the patients. However, by considering this, Mikhail may better assess the situation and confirm his thoughts before responding or taking it further. Therefore, considering this may help to resolve a minor problem, i.e. the conseqfluences to Joe for his actions. Scenario 17.",
     "topic": "Situational Judgement"
   },
   {
     "id": 198,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJake, a dental student, is assigned a group for a project. One of the group members, Mike, \nsuggests a topic for the presentation that no one else seems to agree with. He is insistent \nthat it is the best topic, and fills out the project proposal form with his chosen topic. No one \nelse seems to have a say in this. Jake does not feel comfortable with the way Mike is \nhandling the group project.  \nHow appropriate are the following responses by Jake in this situation?\n\n<strong>Question:</strong>\nSpeak up in front of the group and inform Mike that this is not appropriate.",
+    "text": "<strong>Scenario:</strong>\nJake, a dental student, is assigned a group for a project. One of the group members, Mike, \nsuggests a topic for the presentation that no one else seems to agree with. He is insistent \nthat it is the best topic, and fills out the project proposal form with his chosen topic. No one \nelse seems to have a say in this. Jake does not feel comfortable with the way Mike is \nhandling the group project.  \nHow appropriate are the follflowing responses by Jake in this situation?\n\n<strong>Question:</strong>\nSpeak up in front of the group and inform Mike that this is not appropriate.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2787,7 +2781,7 @@ const QUESTIONS = [
   {
     "id": 199,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJake, a dental student, is assigned a group for a project. One of the group members, Mike, \nsuggests a topic for the presentation that no one else seems to agree with. He is insistent \nthat it is the best topic, and fills out the project proposal form with his chosen topic. No one \nelse seems to have a say in this. Jake does not feel comfortable with the way Mike is \nhandling the group project.  \nHow appropriate are the following responses by Jake in this situation?\n\n<strong>Question:</strong>\nAccept the idea as it will avoid conflict, even though it makes him feel uncomfortable.",
+    "text": "<strong>Scenario:</strong>\nJake, a dental student, is assigned a group for a project. One of the group members, Mike, \nsuggests a topic for the presentation that no one else seems to agree with. He is insistent \nthat it is the best topic, and fills out the project proposal form with his chosen topic. No one \nelse seems to have a say in this. Jake does not feel comfortable with the way Mike is \nhandling the group project.  \nHow appropriate are the follflowing responses by Jake in this situation?\n\n<strong>Question:</strong>\nAccept the idea as it will avoid conflict, even though it makes him feel uncomfortable.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2801,7 +2795,7 @@ const QUESTIONS = [
   {
     "id": 200,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJake, a dental student, is assigned a group for a project. One of the group members, Mike, \nsuggests a topic for the presentation that no one else seems to agree with. He is insistent \nthat it is the best topic, and fills out the project proposal form with his chosen topic. No one \nelse seems to have a say in this. Jake does not feel comfortable with the way Mike is \nhandling the group project.  \nHow appropriate are the following responses by Jake in this situation?\n\n<strong>Question:</strong>\nDiscuss the issue with the group supervisor after everyone has left.",
+    "text": "<strong>Scenario:</strong>\nJake, a dental student, is assigned a group for a project. One of the group members, Mike, \nsuggests a topic for the presentation that no one else seems to agree with. He is insistent \nthat it is the best topic, and fills out the project proposal form with his chosen topic. No one \nelse seems to have a say in this. Jake does not feel comfortable with the way Mike is \nhandling the group project.  \nHow appropriate are the follflowing responses by Jake in this situation?\n\n<strong>Question:</strong>\nDiscuss the issue with the group supervisor after everyone has left.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2809,13 +2803,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "It is not appropriate to escalate a concern prior to handling it internally. This should be discussed with Mike before discussing it with a supervisor. Scenario 18",
+    "explanation": "It is not appropriate to escalate a concern prior to handling it internally. This should be discussed with Mike before discussing it with a supervisor. Scenario 18.",
     "topic": "Situational Judgement"
   },
   {
     "id": 201,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLily, a medical student, is talking to a young patient in the emergency room, who came in with \nsevere injuries and bruising. The patient tells Lily that she gets these injuries at home, but \nasks Lily to keep it to herself and to not tell anybody.  \nHow important to take into account are the following considerations for Lily when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nThe patient did not give Lily permission to discuss this with anyone else.",
+    "text": "<strong>Scenario:</strong>\nLily, a medical student, is talking to a young patient in the emergency room, who came in with \nsevere injuries and bruising. The patient tells Lily that she gets these injuries at home, but \nasks Lily to keep it to herself and to not tell anybody.  \nHow important to take into account are the follflowing considerations for Lily when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nThe patient did not give Lily permission to discuss this with anyone else.",
     "options": [
       "Very important",
       "Important",
@@ -2823,13 +2817,13 @@ const QUESTIONS = [
       "Not important --- PAGE 463 --- 463"
     ],
     "answer": 0,
-    "explanation": "Patient confidentiality is always essential to consider. This does not mean that Lily should not tell someone. For the patient\u2019s safety, she must first seek permission from the patient to disclose this information. If the patient refuses, Lily must disclose it only to a person or persons who will help bring the patient to safety. This information should not be disclosed to anyone who will not be involved in the patient\u2019s care.",
+    "explanation": "Patient confidentiality is always essential to consider. This does not mean that Lily should not tell someone. For the patient’s safety, she must first seek permission from the patient to disclose this information. If the patient refuses, Lily must disclose it only to a person or persons who will help bring the patient to safety. This information should not be disclosed to anyone who will not be involved in the patient’s care.",
     "topic": "Situational Judgement"
   },
   {
     "id": 202,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLily, a medical student, is talking to a young patient in the emergency room, who came in with \nsevere injuries and bruising. The patient tells Lily that she gets these injuries at home, but \nasks Lily to keep it to herself and to not tell anybody.  \nHow important to take into account are the following considerations for Lily when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nLily is planning to go back home this evening.",
+    "text": "<strong>Scenario:</strong>\nLily, a medical student, is talking to a young patient in the emergency room, who came in with \nsevere injuries and bruising. The patient tells Lily that she gets these injuries at home, but \nasks Lily to keep it to herself and to not tell anybody.  \nHow important to take into account are the follflowing considerations for Lily when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nLily is planning to go back home this evening.",
     "options": [
       "Very important",
       "Important",
@@ -2843,7 +2837,7 @@ const QUESTIONS = [
   {
     "id": 203,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLily, a medical student, is talking to a young patient in the emergency room, who came in with \nsevere injuries and bruising. The patient tells Lily that she gets these injuries at home, but \nasks Lily to keep it to herself and to not tell anybody.  \nHow important to take into account are the following considerations for Lily when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nLily does not know the correct procedure for dealing with cases of abuse.",
+    "text": "<strong>Scenario:</strong>\nLily, a medical student, is talking to a young patient in the emergency room, who came in with \nsevere injuries and bruising. The patient tells Lily that she gets these injuries at home, but \nasks Lily to keep it to herself and to not tell anybody.  \nHow important to take into account are the follflowing considerations for Lily when deciding \nhow to respond to the situation?\n\n<strong>Question:</strong>\nLily does not know the correct procedure for dealing with cases of abuse.",
     "options": [
       "Very important",
       "Important",
@@ -2851,13 +2845,13 @@ const QUESTIONS = [
       "Not important"
     ],
     "answer": 0,
-    "explanation": "The main concern here is patient safety. This is a very sensitive topic that needs to be dealt with accordingly. Lily must recognise her limitations to avoid acting outside of her capabilities. As a medical student, her role is to report this to a senior. She must seek further guidance if she is unclear on what else she is able to do. Because she is unaware of the protocol, she should not be making further phone calls to the police, social services, or any other organisation or person without first discussing this with a senior member of staff. --- PAGE 496 --- Scenario 19",
+    "explanation": "The main concern here is patient safety. This is a very sensitive topic that needs to be dealt with accordingly. Lily must recognise her limitations to avoid acting outside of her capabilities. As a medical student, her role is to report this to a senior. She must seek further guidance if she is unclear on what else she is able to do. Because she is unaware of the protocol, she should not be making further phone calls to the police, social services, or any other organisation or person without first discussing this with a senior member of staff. --- PAGE 496 --- Scenario 19.",
     "topic": "Situational Judgement"
   },
   {
     "id": 204,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nYvonne, a dental student, received comments from her tutor stating that she should work on \nbeing more empathetic in her patient interactions. Yvonne already feels that she comes \nacross as empathetic. \nHow appropriate are the following responses by Yvonne in this situation?\n\n<strong>Question:</strong>\nTell her tutor that these comments are unfair and unfounded.",
+    "text": "<strong>Scenario:</strong>\nYvonne, a dental student, received comments from her tutor stating that she should work on \nbeing more empathetic in her patient interactions. Yvonne already feels that she comes \nacross as empathetic. \nHow appropriate are the follflowing responses by Yvonne in this situation?\n\n<strong>Question:</strong>\nTell her tutor that these comments are unfair and unfounded.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2871,7 +2865,7 @@ const QUESTIONS = [
   {
     "id": 205,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nYvonne, a dental student, received comments from her tutor stating that she should work on \nbeing more empathetic in her patient interactions. Yvonne already feels that she comes \nacross as empathetic. \nHow appropriate are the following responses by Yvonne in this situation?\n\n<strong>Question:</strong>\nAsk for more details on how she should improve her patient manner.",
+    "text": "<strong>Scenario:</strong>\nYvonne, a dental student, received comments from her tutor stating that she should work on \nbeing more empathetic in her patient interactions. Yvonne already feels that she comes \nacross as empathetic. \nHow appropriate are the follflowing responses by Yvonne in this situation?\n\n<strong>Question:</strong>\nAsk for more details on how she should improve her patient manner.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2879,13 +2873,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "To ensure high quality of care, it would be best to find out what prompted these comments. This will allow her to improve her manner with patients. This is a constructive and ideal approach. Scenario 20",
+    "explanation": "To ensure high quality of care, it would be best to find out what prompted these comments. This will allow her to improve her manner with patients. This is a constructive and ideal approach. Scenario 20.",
     "topic": "Situational Judgement"
   },
   {
     "id": 206,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSara, a dental student, is scrolling through her Instagram when she finds a video that Alex, \nanother student on her course, has made. He recorded himself and his friends in clinic, and \nthe video briefly showed a patient\u2019s face in the background. \nHow appropriate are the following responses by Sara in this situation?\n\n<strong>Question:</strong>\nForward the video to the dental school without consulting Alex. \n\n--- PAGE 464 ---",
+    "text": "<strong>Scenario:</strong>\nSara, a dental student, is scrolling through her Instagram when she finds a video that Alex, \nanother student on her course, has made. He recorded himself and his friends in clinic, and \nthe video briefly showed a patient’s face in the background. \nHow appropriate are the follflowing responses by Sara in this situation?\n\n<strong>Question:</strong>\nForward the video to the dental school without consulting Alex. \n\n--- PAGE 464 ---",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2893,13 +2887,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "Patient confidentiality is a serious matter. This is not about getting Alex in trouble, but about ensuring that the video is taken down as soon as possible. Alex needs to be reminded of patient confidentiality, and this may require mentioning it to the dental school, but it is essential to first speak to Alex and ask him to take it down. It is possible that he was not aware of the patient\u2019s face in the background of his video.",
+    "explanation": "Patient confidentiality is a serious matter. This is not about getting Alex in trouble, but about ensuring that the video is taken down as soon as possible. Alex needs to be reminded of patient confidentiality, and this may require mentioning it to the dental school, but it is essential to first speak to Alex and ask him to take it down. It is possible that he was not aware of the patient’s face in the background of his video.",
     "topic": "Situational Judgement"
   },
   {
     "id": 207,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSara, a dental student, is scrolling through her Instagram when she finds a video that Alex, \nanother student on her course, has made. He recorded himself and his friends in clinic, and \nthe video briefly showed a patient\u2019s face in the background. \nHow appropriate are the following responses by Sara in this situation?\n\n<strong>Question:</strong>\nAsk Alex to remove the video right away.",
+    "text": "<strong>Scenario:</strong>\nSara, a dental student, is scrolling through her Instagram when she finds a video that Alex, \nanother student on her course, has made. He recorded himself and his friends in clinic, and \nthe video briefly showed a patient’s face in the background. \nHow appropriate are the follflowing responses by Sara in this situation?\n\n<strong>Question:</strong>\nAsk Alex to remove the video right away.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2907,13 +2901,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This is ideal. He may need a further reminder of patient confidentiality, and to avoid taking pictures or videos in clinics with patients present. However, the response does not need to be complete in order to be \u201cvery appropriate\u201d.",
+    "explanation": "This is ideal. He may need a further reminder of patient confidentiality, and to avoid taking pictures or videos in clinics with patients present. However, the response does not need to be complete in order to be “very appropriate”.",
     "topic": "Situational Judgement"
   },
   {
     "id": 208,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSara, a dental student, is scrolling through her Instagram when she finds a video that Alex, \nanother student on her course, has made. He recorded himself and his friends in clinic, and \nthe video briefly showed a patient\u2019s face in the background. \nHow appropriate are the following responses by Sara in this situation?\n\n<strong>Question:</strong>\nRemind Alex that breaching patient confidentiality can get him kicked out of dental \nschool.",
+    "text": "<strong>Scenario:</strong>\nSara, a dental student, is scrolling through her Instagram when she finds a video that Alex, \nanother student on her course, has made. He recorded himself and his friends in clinic, and \nthe video briefly showed a patient’s face in the background. \nHow appropriate are the follflowing responses by Sara in this situation?\n\n<strong>Question:</strong>\nRemind Alex that breaching patient confidentiality can get him kicked out of dental \nschool.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2921,13 +2915,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "The intent here is correct \u2013 a reminder of patient confidentiality. However, this does nothing to address the urgent matter at hand, which is the video on the internet. Further, this kind of reminder can lead to conflict between Sara and Alex. It is best to be more clear and refer to the video directly. Scenario 21",
+    "explanation": "The intent here is correct – a reminder of patient confidentiality. However, this does nothing to address the urgent matter at hand, which is the video on the internet. Further, this kind of reminder can lead to conflict between Sara and Alex. It is best to be more clear and refer to the video directly. Scenario 21.",
     "topic": "Situational Judgement"
   },
   {
     "id": 209,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Markham, a hepatologist, is working in the transplant unit. A liver has just become \navailable by a donor. There are two patients who require a transplant \u2013 a 38-year-old alcoholic \nman and an otherwise healthy 50-year-old woman.  \nHow important to take into account are the following considerations by Dr Markham when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe alcohol consumption of each patient.",
+    "text": "<strong>Scenario:</strong>\nDr Markham, a hepatologist, is working in the transplant unit. A liver has just become \navailable by a donor. There are two patients who require a transplant – a 38-year-old alcoholic \nman and an otherwise healthy 50-year-old woman.  \nHow important to take into account are the follflowing considerations by Dr Markham when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe alcohol consumption of each patient.",
     "options": [
       "Very important",
       "Important",
@@ -2941,7 +2935,7 @@ const QUESTIONS = [
   {
     "id": 210,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Markham, a hepatologist, is working in the transplant unit. A liver has just become \navailable by a donor. There are two patients who require a transplant \u2013 a 38-year-old alcoholic \nman and an otherwise healthy 50-year-old woman.  \nHow important to take into account are the following considerations by Dr Markham when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe number of Quality Adjusted Life Years available to each patient post-transplant.",
+    "text": "<strong>Scenario:</strong>\nDr Markham, a hepatologist, is working in the transplant unit. A liver has just become \navailable by a donor. There are two patients who require a transplant – a 38-year-old alcoholic \nman and an otherwise healthy 50-year-old woman.  \nHow important to take into account are the follflowing considerations by Dr Markham when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe number of Quality Adjusted Life Years available to each patient post-transplant.",
     "options": [
       "Very important",
       "Important",
@@ -2949,13 +2943,13 @@ const QUESTIONS = [
       "Not important"
     ],
     "answer": 0,
-    "explanation": "Quality Adjusted Life Years (QALYs) can demonstrate the benefit of a treatment, such as a transplant, to a patient. It is important to consider how many QALYs each patient will be able to obtain from the liver, as this can help determine which patient will take the most benefit from it. --- PAGE 497 --- 497",
+    "explanation": "Quality Adjusted Life Years (QALYs) can demonstrate the benefit of a treatment, such as a transplant, to a patient. It is important to consider how many QALYs each patient will be able to obtain from the liver, as this can help determine which patient will take the most benefit from it. --- PAGE 497 --- 497.",
     "topic": "Situational Judgement"
   },
   {
     "id": 211,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Markham, a hepatologist, is working in the transplant unit. A liver has just become \navailable by a donor. There are two patients who require a transplant \u2013 a 38-year-old alcoholic \nman and an otherwise healthy 50-year-old woman.  \nHow important to take into account are the following considerations by Dr Markham when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe organ compatibility of each patient.",
+    "text": "<strong>Scenario:</strong>\nDr Markham, a hepatologist, is working in the transplant unit. A liver has just become \navailable by a donor. There are two patients who require a transplant – a 38-year-old alcoholic \nman and an otherwise healthy 50-year-old woman.  \nHow important to take into account are the follflowing considerations by Dr Markham when \ndeciding how to respond to the situation?\n\n<strong>Question:</strong>\nThe organ compatibility of each patient.",
     "options": [
       "Very important",
       "Important",
@@ -2963,7 +2957,7 @@ const QUESTIONS = [
       "Not important"
     ],
     "answer": 0,
-    "explanation": "If one patient is incompatible with the liver, they should not receive it, as it would be a waste of NHS resources and potentially be harmful to the patient. - END OF BOOK -",
+    "explanation": "If one patient is incompatible with the liver, they should not receive it, as it would be a waste of NHS resources and potentially be harmful to the patient. - END OF BOOK -.",
     "topic": "Situational Judgement"
   }
 ];

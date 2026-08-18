@@ -28,7 +28,7 @@ const QUESTIONS = [
       "Southwest and Midlands"
     ],
     "answer": 0,
-    "explanation": "The region with the highest sales for 2014 is simply the region with the tallest rightmost bar in its set of  3 bars. Of these, the tallest is clearly that for Northwest, so the answer is (A).\n\n\nScore Higher on the UKCAT 338",
+    "explanation": "The region with the highest sales for 2014 is simply the region with the tallest rightmost bar in its set of  3 bars. Of these, the tallest is clearly that for Northwest, so the answer is (A).\n\n\nScore Higher on the UKCAT 338.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -103,7 +103,7 @@ const QUESTIONS = [
       "Can't tell"
     ],
     "answer": 4,
-    "explanation": "According to the bulleted info, the reception area is 35% of the combined reception/front office room, or  0.35 × 874 ft2 = 306 ft2. However, the same bulleted info states that the diagram of the offices is not to scale,  and thus it is impossible to approximate or otherwise calculate any of the dimensions of the reception  area, which is shaded in the diagram. Both answers (A) and (B) would have an area of 306 ft2, and there is  no way of determining whether one of these is correct, or whether the dimensions are a third option not  listed in the answers. For these reasons, the answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 339",
+    "explanation": "According to the bulleted info, the reception area is 35% of the combined reception/front office room, or  0.35 × 874 ft2 = 306 ft2. However, the same bulleted info states that the diagram of the offices is not to scale,  and thus it is impossible to approximate or otherwise calculate any of the dimensions of the reception  area, which is shaded in the diagram. Both answers (A) and (B) would have an area of 306 ft2, and there is  no way of determining whether one of these is correct, or whether the dimensions are a third option not  listed in the answers. For these reasons, the answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 339.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -124,7 +124,7 @@ const QUESTIONS = [
   {
     "id": 9,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the six friends scored the highest in Science?",
+    "text": "<strong>Scenario:</strong><br>Below is a table shflowing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the six friends scored the highest in Science?",
     "options": [
       "Amanda",
       "David",
@@ -139,7 +139,7 @@ const QUESTIONS = [
   {
     "id": 10,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Who scored the best across all subjects?",
+    "text": "<strong>Scenario:</strong><br>Below is a table shflowing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Who scored the best across all subjects?",
     "options": [
       "Amanda",
       "Derek",
@@ -154,7 +154,7 @@ const QUESTIONS = [
   {
     "id": 11,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>David resits his English exam, and scores 36/60. What is the percentage rise in his English score?",
+    "text": "<strong>Scenario:</strong><br>Below is a table shflowing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>David resits his English exam, and scores 36/60. What is the percentage rise in his English score?",
     "options": [
       "60%",
       "80%",
@@ -169,7 +169,7 @@ const QUESTIONS = [
   {
     "id": 12,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the mean score of all the Science marks of all six friends to the nearest integer?",
+    "text": "<strong>Scenario:</strong><br>Below is a table shflowing the exam scores for a group of friends.<br><br><img src='image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the mean score of all the Science marks of all six friends to the nearest integer?",
     "options": [
       "69/100",
       "75/100",
@@ -267,7 +267,7 @@ const QUESTIONS = [
       "11:17"
     ],
     "answer": 3,
-    "explanation": "The three most popular modules are pharmacology, genetics and immunology. Add these up for the first  figure for the proportion: 81 + 68 + 67 = 216. The information above the table indicates that 336 students  completed the survey. Therefore, the proportion of students who picked the three most popular modules  is simply 216:336. This simplifies to 9:14, answer (D).\n\n\nScore Higher on the UKCAT 340",
+    "explanation": "The three most popular modules are pharmacology, genetics and immunology. Add these up for the first  figure for the proportion: 81 + 68 + 67 = 216. The information above the table indicates that 336 students  completed the survey. Therefore, the proportion of students who picked the three most popular modules  is simply 216:336. This simplifies to 9:14, answer (D).\n\n\nScore Higher on the UKCAT 340.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -417,7 +417,7 @@ const QUESTIONS = [
       "75.4 m"
     ],
     "answer": 4,
-    "explanation": "To solve, subtract the area of the fountain from the area of the entire garden (78.5 m2). The fountain  has a diameter of 2 m, which means it has a radius of 1 m. Use the area formula to solve for the foun- tain's area: A = π(1)2 = 3.14 × 1 = 3.14 m2. Subtract the area of the fountain from the area of the entire  garden to find the area that is not covered by the fountain: 78.5 m2 - 3.14 m2 = 75.36 m2. The correct  answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 341",
+    "explanation": "To solve, subtract the area of the fountain from the area of the entire garden (78.5 m2). The fountain  has a diameter of 2 m, which means it has a radius of 1 m. Use the area formula to solve for the foun- tain's area: A = π(1)2 = 3.14 × 1 = 3.14 m2. Subtract the area of the fountain from the area of the entire  garden to find the area that is not covered by the fountain: 78.5 m2 - 3.14 m2 = 75.36 m2. The correct  answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 341.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -492,7 +492,7 @@ const QUESTIONS = [
       "3.12 kg"
     ],
     "answer": 4,
-    "explanation": "The initial starter requires 1 cup of sugar. In growing the starter, you add 1 cup of sugar on Day 5 and  again on Day 10, for a total of 2 cups of sugar in each cycle. The cake requires a further 2 cups of sugar.  Thus, each cycle of growing the starter and baking a cake uses 4 cups of sugar. If you complete the cycle  and bake a cake 3 times, then you would use 4 × 3 = 12 cups of sugar, plus the cup from the initial starter,  for 13 cups total. Multiply to convert to grams: 13 × 240 = 3,120 g, or 3.12 kg. Answer (E) is correct.",
+    "explanation": "The initial starter requires 1 cup of sugar. In grflowing the starter, you add 1 cup of sugar on Day 5 and  again on Day 10, for a total of 2 cups of sugar in each cycle. The cake requires a further 2 cups of sugar.  Thus, each cycle of grflowing the starter and baking a cake uses 4 cups of sugar. If you complete the cycle  and bake a cake 3 times, then you would use 4 × 3 = 12 cups of sugar, plus the cup from the initial starter,  for 13 cups total. Multiply to convert to grams: 13 × 240 = 3,120 g, or 3.12 kg. Answer (E) is correct.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -528,7 +528,7 @@ const QUESTIONS = [
   {
     "id": 36,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>In ten-pin bowling, each player tries to knock down as many pins as possible on each turn, known as a frame. Each frame normally consists of one or two rolls. If a player knocks down all ten pins in the first roll in the frame, it’s called a strike (scored with an X). If a player knocks down all ten pins by the second roll in the frame, it’s called a spare (the first roll is scored with the number of pins knocked down on that roll; the second roll is scored with a /). When a player scores a strike, the number of pins knocked down in the next two rolls is added to the frame in which they scored the strike. Thus, if a player rolls a strike, followed by a 5 and a 3 in the next frame, they score 18 in the frame with the strike, plus 8 in the following frame. When a player scores a spare, the number of pins knocked down in the next roll is added to the frame in which they scored the spare. Thus, if a player rolls a spare, followed by a 5 and a 3 in the next frame, they score 15 in the frame with the spare, plus 8 in the following frame. If a player rolls a strike in the 10th frame, they get two bonus rolls, to allow for extra points. Thus, a perfect game of ten-pin bowling would result in 12 strikes, with an overall score of 300. If a player rolls a spare in the 10th frame, they get one bonus roll, to allow for extra points.<br><br><strong>Question:</strong><br>What is the overall score of a player who scored strikes up until and including the 9th frame, followed by  a 7, a 3, and a strike on the bonus roll in the 10th frame?",
+    "text": "<strong>Scenario:</strong><br>In ten-pin bowling, each player tries to knock down as many pins as possible on each turn, known as a frame. Each frame normally consists of one or two rolls. If a player knocks down all ten pins in the first roll in the frame, it’s called a strike (scored with an X). If a player knocks down all ten pins by the second roll in the frame, it’s called a spare (the first roll is scored with the number of pins knocked down on that roll; the second roll is scored with a /). When a player scores a strike, the number of pins knocked down in the next two rolls is added to the frame in which they scored the strike. Thus, if a player rolls a strike, followed by a 5 and a 3 in the next frame, they score 18 in the frame with the strike, plus 8 in the follflowing frame. When a player scores a spare, the number of pins knocked down in the next roll is added to the frame in which they scored the spare. Thus, if a player rolls a spare, followed by a 5 and a 3 in the next frame, they score 15 in the frame with the spare, plus 8 in the follflowing frame. If a player rolls a strike in the 10th frame, they get two bonus rolls, to allow for extra points. Thus, a perfect game of ten-pin bowling would result in 12 strikes, with an overall score of 300. If a player rolls a spare in the 10th frame, they get one bonus roll, to allow for extra points.<br><br><strong>Question:</strong><br>What is the overall score of a player who scored strikes up until and including the 9th frame, followed by  a 7, a 3, and a strike on the bonus roll in the 10th frame?",
     "options": [
       "273",
       "277",
@@ -537,7 +537,7 @@ const QUESTIONS = [
       "287"
     ],
     "answer": 1,
-    "explanation": "In the example of a perfect game, scoring 300, the bowler would have earned 30 points in the 10th frame  - 10 with the initial strike, and 10 more with each of the 2 strikes on the bonus rolls. In this question, the  bowler scores 7, 3, 10 in the 10th frame, instead of 10, 10, 10. This is a difference of 30 - 20 = 10, so sub- tract 10 points from the overall score, to remove the 10th frame score: 300 - 10 = 290. However, a strike  means that you add the score from the following 2 rolls to the frame with the strike. The score in the 8th  frame includes the strike from the 9th frame and the first roll in the 10th frame; instead of 10, it should  only be 7, so subtract 3: 290 - 3 = 287. Similarly, the 9th frame score includes the first two strikes from the  10th frame, in the score for a perfect game; instead of 10, 10, the bowler in this question has 7, 3 - a net  difference of 10 points (20 - 10 = 10). Subtract a further 10: 287 - 10 = 277. Answer (B) is correct.",
+    "explanation": "In the example of a perfect game, scoring 300, the bowler would have earned 30 points in the 10th frame  - 10 with the initial strike, and 10 more with each of the 2 strikes on the bonus rolls. In this question, the  bowler scores 7, 3, 10 in the 10th frame, instead of 10, 10, 10. This is a difference of 30 - 20 = 10, so sub- tract 10 points from the overall score, to remove the 10th frame score: 300 - 10 = 290. However, a strike  means that you add the score from the follflowing 2 rolls to the frame with the strike. The score in the 8th  frame includes the strike from the 9th frame and the first roll in the 10th frame; instead of 10, it should  only be 7, so subtract 3: 290 - 3 = 287. Similarly, the 9th frame score includes the first two strikes from the  10th frame, in the score for a perfect game; instead of 10, 10, the bowler in this question has 7, 3 - a net  difference of 10 points (20 - 10 = 10). Subtract a further 10: 287 - 10 = 277. Answer (B) is correct.",
     "topic": "Quantitative Reasoning"
   }
 ];

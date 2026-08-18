@@ -1,7 +1,3 @@
-// Auto-generated master questions file for Situational Judgement
-// Total: 436 questions from question_5.js, question_10.js, question_14.js
-// Generated: 2026-08-13T05:17:46.879Z
-
 const PASSAGES = {};
 
 const QUESTIONS = [
@@ -128,7 +124,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. Lying is always unacceptable and should always be “very  \ninappropriate”.",
+    "explanation": "The correct answer is D. Lying is always unacceptable and should always be “very inappropriate”. GMC guidelines strictly emphasize patient safety, confidentiality, honesty, and professional boundaries. This action breaches ethical protocols, risks patient care, damages inter-professional trust, or fails to uphold the duty of care, making it a very inappropriate thing to do.",
     "topic": "Situational Judgement"
   },
   {
@@ -470,7 +466,7 @@ const QUESTIONS = [
   {
     "id": 34,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nColeen is a dental student who has just moved in with her friend, Charlotte, who is also a  \ndental student. They will soon be starting clinics with patients, and Coleen is concerned about  \nCharlotte. She has been expressing inappropriate ideas about the position of a dentist in  \nrelation to the patients that they treat. Coleen thinks that Charlotte has been negatively  \ninfluenced by a television series that she has been watching.\n\n<strong>Question:</strong>\nThe impact that Charlotte’s behaviour might have on patients that she sees in her  \nclinics.",
+    "text": "<strong>Scenario:</strong>\nColeen is a dental student who has just moved in with her friend, Charlotte, who is also a  \ndental student. They will soon be starting clinics with patients, and Coleen is concerned about  \nCharlotte. She has been expressing inappropriate ideas about the position of a dentist in  \nrelation to the patients that they treat. Coleen thinks that Charlotte has been negatively  \ninflfluenced by a television series that she has been watching.\n\n<strong>Question:</strong>\nThe impact that Charlotte’s behaviour might have on patients that she sees in her  \nclinics.",
     "options": [
       "Very important",
       "Important",
@@ -562,7 +558,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. The threat to patient safety should be urgent and immediate.   \nTherefore, after knowing that the doctor is nowhere in sight, it would be very  \ninappropriate to spend time looking for the doctor. In this time, someone may give Mr  \nXiu the medication, resulting in him having an allergic reaction. This action would  \nincrease the risk to the patient, thus is very inappropriate.",
+    "explanation": "The correct answer is D. The threat to patient safety should be urgent and immediate.   \nTherefore, after knflowing that the doctor is nowhere in sight, it would be very  \ninappropriate to spend time looking for the doctor. In this time, someone may give Mr  \nXiu the medication, resulting in him having an allergic reaction. This action would  \nincrease the risk to the patient, thus is very inappropriate.",
     "topic": "Situational Judgement"
   },
   {
@@ -762,7 +758,7 @@ const QUESTIONS = [
   {
     "id": 55,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nInterrupt the consultation to remind Dr Sheffield that other patients are waiting.",
+    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allflowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nInterrupt the consultation to remind Dr Sheffield that other patients are waiting.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -776,7 +772,7 @@ const QUESTIONS = [
   {
     "id": 56,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nDo nothing as there are other doctors in the surgery that can see the other patients.",
+    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allflowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nDo nothing as there are other doctors in the surgery that can see the other patients.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -790,7 +786,7 @@ const QUESTIONS = [
   {
     "id": 57,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nInterrupt the consultation and ask the patient to leave, as there are other patients  \nwho need to be seen.",
+    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allflowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nInterrupt the consultation and ask the patient to leave, as there are other patients  \nwho need to be seen.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -812,7 +808,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "The correct answer is A. Patient safety is a primary concern at all times, and therefore  \nis very important. He must consider this and act urgently.",
+    "explanation": "The correct answer is A. Patient safety is a primary concern at all times, and therefore is very important. He must consider this and act urgently. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -956,7 +952,7 @@ const QUESTIONS = [
   {
     "id": 69,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the following actions from Jacob?\n\n<strong>Question:</strong>\nTell Kate that you will help to file a complaint against Dr Herbert.",
+    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the follflowing actions from Jacob?\n\n<strong>Question:</strong>\nTell Kate that you will help to file a complaint against Dr Herbert.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -970,7 +966,7 @@ const QUESTIONS = [
   {
     "id": 70,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the following actions from Jacob?\n\n<strong>Question:</strong>\nMake Dr Herbert aware that perhaps he should be kinder the next time he speaks to Kate and patients.",
+    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the follflowing actions from Jacob?\n\n<strong>Question:</strong>\nMake Dr Herbert aware that perhaps he should be kinder the next time he speaks to Kate and patients.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -978,13 +974,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": ", because the medical student would not be telling the doctor anything specific.",
+    "explanation": ", because the medical student would not be telling the doctor anything specific. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 71,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the following actions from Jacob?\n\n<strong>Question:</strong>\nIgnore the situation and do nothing.",
+    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the follflowing actions from Jacob?\n\n<strong>Question:</strong>\nIgnore the situation and do nothing.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -998,7 +994,7 @@ const QUESTIONS = [
   {
     "id": 72,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the following actions from Jacob?\n\n<strong>Question:</strong>\nAlert his supervisor as to what he saw, and to get advice on what to do.",
+    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the follflowing actions from Jacob?\n\n<strong>Question:</strong>\nAlert his supervisor as to what he saw, and to get advice on what to do.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1006,13 +1002,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because the supervisor would be able to advise the student as to what they should do.",
+    "explanation": "because the supervisor would be able to advise the student as to what they should do. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 73,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the following actions from Jacob?\n\n<strong>Question:</strong>\nTell Dr Herbert that his behaviour was making patients and midwives feel uncomfortable.",
+    "text": "<strong>Scenario:</strong>\nA conversation is taking place between a midwife Kate and the senior Dr Herbert: Jacob, the medical student, is observing. Dr Herbert is being rude to the Kate and is acting superior. When Dr Herbert leaves, Jacob overhears Kate talking to the other midwives about his behaviour, and how it happens frequently, and makes both the midwives and the patients feel uncomfortable. How appropriate are the follflowing actions from Jacob?\n\n<strong>Question:</strong>\nTell Dr Herbert that his behaviour was making patients and midwives feel uncomfortable.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1020,13 +1016,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": ", whilst it makes Dr Herbert aware of the issue, it is quite confrontational and Dr Herbert may become defensive.",
+    "explanation": ", whilst it makes Dr Herbert aware of the issue, it is quite confrontational and Dr Herbert may become defensive. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 74,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the following responses by George in this situation?\n\n<strong>Question:</strong>\nAlert Dr Walker that he ought to wash his hands more after the current consultation has finished.",
+    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the follflowing responses by George in this situation?\n\n<strong>Question:</strong>\nAlert Dr Walker that he ought to wash his hands more after the current consultation has finished.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1034,13 +1030,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": ", because Dr Walker could have gotten into a bad habit and may be unaware that he hasn’t been washing his hands.",
+    "explanation": ", because Dr Walker could have gotten into a bad habit and may be unaware that he hasn’t been washing his hands. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 75,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the following responses by George in this situation?\n\n<strong>Question:</strong>\nWash his hands before and after each patient in the hopes that Dr Walker will follow by example.",
+    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the follflowing responses by George in this situation?\n\n<strong>Question:</strong>\nWash his hands before and after each patient in the hopes that Dr Walker will follow by example.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1048,13 +1044,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": ", because Dr Walker may not pick up on the hint, although it might save George some awkwardness in having to ask Dr Walker directly.",
+    "explanation": ", because Dr Walker may not pick up on the hint, although it might save George some awkwardness in having to ask Dr Walker directly. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 76,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the following responses by George in this situation?\n\n<strong>Question:</strong>\nDo nothing because Dr Walker is an experienced consultant.",
+    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the follflowing responses by George in this situation?\n\n<strong>Question:</strong>\nDo nothing because Dr Walker is an experienced consultant.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1062,13 +1058,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because hospitals function as a team. If George is aware of something that could potentially cause patients harm, he must try to solve the issue.",
+    "explanation": "because hospitals function as a team. If George is aware of something that could potentially cause patients harm, he must try to solve the issue. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 77,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the following responses by George in this situation?\n\n<strong>Question:</strong>\nTell the nurse in charge of the foot patients after the clinic has finished.",
+    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the follflowing responses by George in this situation?\n\n<strong>Question:</strong>\nTell the nurse in charge of the foot patients after the clinic has finished.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1082,7 +1078,7 @@ const QUESTIONS = [
   {
     "id": 78,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the following responses by George in this situation?\n\n<strong>Question:</strong>\nWrite in the patient notes that Dr Walker didn’t wash his hands before examining them.",
+    "text": "<strong>Scenario:</strong>\nA medical student, George, is sitting in a foot clinic with Dr Walker. George notices that Dr Walker hasn’t been washing his hands between patients, despite examining the feet of all of his patients without gloves. In his training George was told that he must wash his hands properly before and after touching each patient to prevent the spread of infections.\n\n\nHow appropriate are each of the follflowing responses by George in this situation?\n\n<strong>Question:</strong>\nWrite in the patient notes that Dr Walker didn’t wash his hands before examining them.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1096,7 +1092,7 @@ const QUESTIONS = [
   {
     "id": 79,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the following responses by Linh?\n\n<strong>Question:</strong>\nIgnore what happened, throw the skull remains away, and borrow another group’s skull to finish the project.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the follflowing responses by Linh?\n\n<strong>Question:</strong>\nIgnore what happened, throw the skull remains away, and borrow another group’s skull to finish the project.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1110,7 +1106,7 @@ const QUESTIONS = [
   {
     "id": 80,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the following responses by Linh?\n\n<strong>Question:</strong>\nAlert the museum curator about what happened as a group, and write a letter of apology together.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the follflowing responses by Linh?\n\n<strong>Question:</strong>\nAlert the museum curator about what happened as a group, and write a letter of apology together.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1124,7 +1120,7 @@ const QUESTIONS = [
   {
     "id": 81,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the following responses by Linh?\n\n<strong>Question:</strong>\nPretend that the skull was stolen.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the follflowing responses by Linh?\n\n<strong>Question:</strong>\nPretend that the skull was stolen.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1138,7 +1134,7 @@ const QUESTIONS = [
   {
     "id": 82,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the following responses by Linh?\n\n<strong>Question:</strong>\nTell the museum curator in private about who dropped the skull.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the follflowing responses by Linh?\n\n<strong>Question:</strong>\nTell the museum curator in private about who dropped the skull.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1146,13 +1142,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": ", because despite the fact that the curator would be informed of what occurred, it could get your colleague into trouble that could have been avoided.",
+    "explanation": ", because despite the fact that the curator would be informed of what occurred, it could get your colleague into trouble that could have been avoided. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 83,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the following responses by Linh?\n\n<strong>Question:</strong>\nTell her supervisor.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Linh, is working on a project with a small group of other students. The students have to examine real skull bones, which were provided by the medical school’s museum, and are very valuable. One of the students in Linh’s group accidentally drops the skull and some of the smaller delicate bones shatter. How appropriate are the follflowing responses by Linh?\n\n<strong>Question:</strong>\nTell her supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1160,13 +1156,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": ", because the supervisor can give advice as to what to do, but it does not directly address the problem.",
+    "explanation": ", because the supervisor can give advice as to what to do, but it does not directly address the problem. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 84,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it diﬃcult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the following responses by Henry?\n\n<strong>Question:</strong>\nSpeak to his personal tutor about how he can organise himself and tackle his work in the future.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it difficult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the follflowing responses by Henry?\n\n<strong>Question:</strong>\nSpeak to his personal tutor about how he can organise himself and tackle his work in the future.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1174,13 +1170,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because his tutor can give him proper advice and will also be aware of any reasons behind a potentially disappointing exam mark.",
+    "explanation": "because his tutor can give him proper advice and will also be aware of any reasons behind a potentially disappointing exam mark. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 85,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it diﬃcult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the following responses by Henry?\n\n<strong>Question:</strong>\nRetaliate by insulting the other students.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it difficult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the follflowing responses by Henry?\n\n<strong>Question:</strong>\nRetaliate by insulting the other students.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1188,13 +1184,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because it will increase tensions and result in a more stressful environment, which would hinder his progress even more.",
+    "explanation": "because it will increase tensions and result in a more stressful environment, which would hinder his progress even more. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 86,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it diﬃcult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the following responses by Henry?\n\n<strong>Question:</strong>\nDo nothing because he doesn’t want to offend anyone and is embarrassed about not being able to cope with the workload.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it difficult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the follflowing responses by Henry?\n\n<strong>Question:</strong>\nDo nothing because he doesn’t want to offend anyone and is embarrassed about not being able to cope with the workload.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1202,13 +1198,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because he will end up feeling very isolated and lonely and anxious, which will also ruin both his friendships and his work progress.",
+    "explanation": "because he will end up feeling very isolated and lonely and anxious, which will also ruin both his friendships and his work progress. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 87,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it diﬃcult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the following responses by Henry?\n\n<strong>Question:</strong>\nMove out of the halls.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it difficult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the follflowing responses by Henry?\n\n<strong>Question:</strong>\nMove out of the halls.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1216,13 +1212,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": ", because he will lose out on friendships as well as go through the diﬃculty of finding another place to live. This could end up as a lonely option with no support network.",
+    "explanation": ", because he will lose out on friendships as well as go through the difficulty of finding another place to live. This could end up as a lonely option with no support network.",
     "topic": "Situational Judgement"
   },
   {
     "id": 88,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it diﬃcult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the following responses by Henry?\n\n<strong>Question:</strong>\nSpeak to his medical student friends about how annoying he finds his flat mates.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Henry, is living in a set of halls with students that study many different subjects. The other students find it funny to joke about Henry’s work. Henry is finding it difficult to keep up with his work, and silently takes offense every time the other students joke with him. The night before one of Henry’s exams, the other students make a joke that really affects Henry, and he is unable to concentrate on finishing up his revision.\n\n\nHow appropriate are each of the follflowing responses by Henry?\n\n<strong>Question:</strong>\nSpeak to his medical student friends about how annoying he finds his flat mates.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1236,7 +1232,7 @@ const QUESTIONS = [
   {
     "id": 89,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the following responses by Mark?\n\n<strong>Question:</strong>\nGet the most senior student in his study group to perform the test and write the results in the patient’s notes.",
+    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the follflowing responses by Mark?\n\n<strong>Question:</strong>\nGet the most senior student in his study group to perform the test and write the results in the patient’s notes.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1250,7 +1246,7 @@ const QUESTIONS = [
   {
     "id": 90,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the following responses by Mark?\n\n<strong>Question:</strong>\nDo the test himself and write the results in the patient’s notes.",
+    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the follflowing responses by Mark?\n\n<strong>Question:</strong>\nDo the test himself and write the results in the patient’s notes.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1258,13 +1254,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": ", because Mark could document the results as a student and write exactly who he was. Students are allowed to perform tests, just not to administer medication.",
+    "explanation": ", because Mark could document the results as a student and write exactly who he was. Students are allowed to perform tests, just not to administer medication. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 91,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the following responses by Mark?\n\n<strong>Question:</strong>\nBleep the doctor that is in charge of the patient to alert him about his mistake.",
+    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the follflowing responses by Mark?\n\n<strong>Question:</strong>\nBleep the doctor that is in charge of the patient to alert him about his mistake.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1272,13 +1268,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because it will alert the doctor as to his mistake, and the student can be advised appropriately.",
+    "explanation": "because it will alert the doctor as to his mistake, and the student can be advised appropriately. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 92,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the following responses by Mark?\n\n<strong>Question:</strong>\nPretend that the doctor never asked him to do the test.",
+    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the follflowing responses by Mark?\n\n<strong>Question:</strong>\nPretend that the doctor never asked him to do the test.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1286,13 +1282,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because the test needs to be done, and the doctor would assume that the test had been done. Therefore the patient could be left waiting for a long time.",
+    "explanation": "because the test needs to be done, and the doctor would assume that the test had been done. Therefore the patient could be left waiting for a long time. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 93,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the following responses by Mark?\n\n<strong>Question:</strong>\nTry to find another member of staff that would be capable of performing the test.",
+    "text": "<strong>Scenario:</strong>\nMark, a medical student, is working with a group of nursing and physiotherapy students to learn about integrated care. Mark is mistaken for a junior doctor, as he is not in uniform, and is asked to test the urine of an elderly patient on the ward using a dipstick. Mark is familiar with the patient, and knows exactly how to do the test. Unfortunately, the doctor that asked him to do the test has left, and there are no other members of staff that are able to do the test for another 5 hours. The results of the test will determine the patient’s management. How appropriate are the follflowing responses by Mark?\n\n<strong>Question:</strong>\nTry to find another member of staff that would be capable of performing the test.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1300,13 +1296,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because they might be better qualified to do the test.",
+    "explanation": "because they might be better qualified to do the test. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 94,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the following actions for Adele to take?\n\n<strong>Question:</strong>\nFake an illness and postpone her exams.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the follflowing actions for Adele to take?\n\n<strong>Question:</strong>\nFake an illness and postpone her exams.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1314,13 +1310,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because it is dishonest and if the truth were to emerge, she could be expelled from the medical school for such an act.",
+    "explanation": "because it is dishonest and if the truth were to emerge, she could be expelled from the medical school for such an act. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 95,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the following actions for Adele to take?\n\n<strong>Question:</strong>\nSpeak to her parents and her personal tutor about her struggle to get through the revision.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the follflowing actions for Adele to take?\n\n<strong>Question:</strong>\nSpeak to her parents and her personal tutor about her struggle to get through the revision.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1328,13 +1324,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because they can support her and help her organise the rest of her revision.",
+    "explanation": "because they can support her and help her organise the rest of her revision. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 96,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the following actions for Adele to take?\n\n<strong>Question:</strong>\nSpeak to the other medical students to see if they all felt the same way about their work.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the follflowing actions for Adele to take?\n\n<strong>Question:</strong>\nSpeak to the other medical students to see if they all felt the same way about their work.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1342,13 +1338,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because it can reassure her and give her more confidence as most people would probably feel similar.",
+    "explanation": "because it can reassure her and give her more confidence as most people would probably feel similar. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 97,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the following actions for Adele to take?\n\n<strong>Question:</strong>\nRefuse to turn up to the exams on the day and pretend that she had food poisoning.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the follflowing actions for Adele to take?\n\n<strong>Question:</strong>\nRefuse to turn up to the exams on the day and pretend that she had food poisoning.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1356,13 +1352,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this is also dishonest and therefore, unprofessional.",
+    "explanation": "because this is also dishonest and therefore, unprofessional. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 98,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the following actions for Adele to take?\n\n<strong>Question:</strong>\nMake an eﬃcient revision plan for her remaining days before the exams and attempt to do the exams as best as she can.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Adele, is studying for her first year exams. She has started to panic, and does not feel as though she will be able to complete her revision before the exams start. If Adele fails the exams she would have to resit them in her holidays, which she has come to terms with. She is embarrassed of the possibility of failing,\n\n\nand would rather tell her friends and family that she was ill and unable to take the exams than face the embarrassment of failure. It is against the Medical School rules to opt out of an exam without a medical reason and a Doctor’s letter. How appropriate are the follflowing actions for Adele to take?\n\n<strong>Question:</strong>\nMake an efficient revision plan for her remaining days before the exams and attempt to do the exams as best as she can.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1370,13 +1366,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because she might just pass her exams and surprise herself.",
+    "explanation": "because she might just pass her exams and surprise herself. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 99,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the following actions by Rohan?\n\n<strong>Question:</strong>\nAdvise Dijam to go home.",
+    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the follflowing actions by Rohan?\n\n<strong>Question:</strong>\nAdvise Dijam to go home.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1384,13 +1380,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because Dijam should not be in the hospital and is not employed to be in the hospital so can go home to recuperate.",
+    "explanation": "because Dijam should not be in the hospital and is not employed to be in the hospital so can go home to recuperate. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 100,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the following actions by Rohan?\n\n<strong>Question:</strong>\nIgnore the situation because Dijam wasn’t actually treating any of the patients.",
+    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the follflowing actions by Rohan?\n\n<strong>Question:</strong>\nIgnore the situation because Dijam wasn’t actually treating any of the patients.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1404,7 +1400,7 @@ const QUESTIONS = [
   {
     "id": 101,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the following actions by Rohan?\n\n<strong>Question:</strong>\nInform the doctors that are on call with Dijam.",
+    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the follflowing actions by Rohan?\n\n<strong>Question:</strong>\nInform the doctors that are on call with Dijam.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1412,13 +1408,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "because they might send Dijam home as well, or could allow him to stay but restrict what he was allowed to do for the day.",
+    "explanation": "because they might send Dijam home as well, or could allow him to stay but restrict what he was allowed to do for the day. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 102,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the following actions by Rohan?\n\n<strong>Question:</strong>\nJoke with Dijam about how he managed to make it into work on time.",
+    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the follflowing actions by Rohan?\n\n<strong>Question:</strong>\nJoke with Dijam about how he managed to make it into work on time.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1426,13 +1422,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this is a very serious violation of professionalism and joking about it is not addressing the problem.",
+    "explanation": "because this is a very serious violation of professionalism and joking about it is not addressing the problem. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 103,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the following actions by Rohan?\n\n<strong>Question:</strong>\nInform the Doctor that is in charge of Dijam and Rohan’s attachment about Dijam’s state.",
+    "text": "<strong>Scenario:</strong>\nRohan, a final year medical student, notices that Dijam, one of the medical students on his ward who had been drinking a lot the previous night is on call. How appropriate are the follflowing actions by Rohan?\n\n<strong>Question:</strong>\nInform the Doctor that is in charge of Dijam and Rohan’s attachment about Dijam’s state.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1440,13 +1436,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "because Dijam could get into more trouble than he probably ought to. That doctor also may not have witnessed Dijam in his state anyway, so it is better to inform the doctors that Dijam is shadowing than the one that is in charge.",
+    "explanation": "because Dijam could get into more trouble than he probably ought to. That doctor also may not have witnessed Dijam in his state anyway, so it is better to inform the doctors that Dijam is shadflowing than the one that is in charge.",
     "topic": "Situational Judgement"
   },
   {
     "id": 104,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the following responses by Patrick?\n\n<strong>Question:</strong>\nIgnore the situation and allow Jina to do the majority of the work.",
+    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the follflowing responses by Patrick?\n\n<strong>Question:</strong>\nIgnore the situation and allow Jina to do the majority of the work.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1454,13 +1450,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "as the work should be a joint effort from everyone but it won’t be confrontational.",
+    "explanation": "as the work should be a joint effort from everyone but it won’t be confrontational. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 105,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the following responses by Patrick?\n\n<strong>Question:</strong>\nAsk his personal tutor for advice on how he should tackle the situation.",
+    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the follflowing responses by Patrick?\n\n<strong>Question:</strong>\nAsk his personal tutor for advice on how he should tackle the situation.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1468,13 +1464,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because Patrick’s personal tutor can advise him accordingly.",
+    "explanation": "because Patrick’s personal tutor can advise him accordingly. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 106,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the following responses by Patrick?\n\n<strong>Question:</strong>\nAsk the quieter members of the team about what they think of Jina.",
+    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the follflowing responses by Patrick?\n\n<strong>Question:</strong>\nAsk the quieter members of the team about what they think of Jina.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1482,13 +1478,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "it will allow them to speak up but the conversation wouldn’t involve Jina.",
+    "explanation": "it will allow them to speak up but the conversation wouldn’t involve Jina. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 107,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the following responses by Patrick?\n\n<strong>Question:</strong>\nSubtly hint to everyone to try to contribute more during the sessions so that it is a more even contribution from everyone.",
+    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the follflowing responses by Patrick?\n\n<strong>Question:</strong>\nSubtly hint to everyone to try to contribute more during the sessions so that it is a more even contribution from everyone.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1496,13 +1492,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "because the group members may not pick up on the hinting.",
+    "explanation": "because the group members may not pick up on the hinting. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 108,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the following responses by Patrick?\n\n<strong>Question:</strong>\nConfront Jina and tell her to be less dominating during the sessions.",
+    "text": "<strong>Scenario:</strong>\nPatrick is a medical student, and is working with another group of students on a project that they will receive a joint mark for. Patrick has noticed that there are a couple of loud dominating people in the group, and that the rest of the group are very shy and quiet, and rarely contribute to the conversations. Jina is one particularly loud\n\n\nstudent that is involved, however she has been making some excellent points and is happy to do a lot of the work. How appropriate are the follflowing responses by Patrick?\n\n<strong>Question:</strong>\nConfront Jina and tell her to be less dominating during the sessions.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1510,13 +1506,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because the confrontational approach could offend Jina and not achieve what Patrick was hoping for.",
+    "explanation": "because the confrontational approach could offend Jina and not achieve what Patrick was hoping for. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 109,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the following responses from Nazia?\n\n<strong>Question:</strong>\nTell Joshua to do the presentation the next day instead when he has more time.",
+    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the follflowing responses from Nazia?\n\n<strong>Question:</strong>\nTell Joshua to do the presentation the next day instead when he has more time.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1524,13 +1520,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because Joshua should never be allowed to breach confidentiality and take the patient’s notes away from the hospital.",
+    "explanation": "because Joshua should never be allowed to breach confidentiality and take the patient’s notes away from the hospital. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 110,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the following responses from Nazia?\n\n<strong>Question:</strong>\nIgnore what he is doing.",
+    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the follflowing responses from Nazia?\n\n<strong>Question:</strong>\nIgnore what he is doing.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1538,13 +1534,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because Nazia has a duty to not allow any serious breaches of confidentiality if she is aware of them.",
+    "explanation": "because Nazia has a duty to not allow any serious breaches of confidentiality if she is aware of them. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 111,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the following responses from Nazia?\n\n<strong>Question:</strong>\nTell the ward nurses after Joshua leaves with the notes.",
+    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the follflowing responses from Nazia?\n\n<strong>Question:</strong>\nTell the ward nurses after Joshua leaves with the notes.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1552,13 +1548,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "because although people have been made aware, the notes have already left the hospital.",
+    "explanation": "because although people have been made aware, the notes have already left the hospital. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 112,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the following responses from Nazia?\n\n<strong>Question:</strong>\nSeek advice from your clinical supervisor.",
+    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the follflowing responses from Nazia?\n\n<strong>Question:</strong>\nSeek advice from your clinical supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1566,13 +1562,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because your clinical advisor can give you the best advice when it is unclear what is best to do.",
+    "explanation": "because your clinical advisor can give you the best advice when it is unclear what is best to do. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 113,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the following responses from Nazia?\n\n<strong>Question:</strong>\nTell Joshua that you will write the notes for him so he doesn’t have to take the notes away from the hospital.",
+    "text": "<strong>Scenario:</strong>\nNazia, a medical student, has been working on busy hospital ward. She has been writing up notes from the patient’s notes into her notebook so that she can construct a presentation on the case for her study group. No-one is allowed to remove the patient’s notes from the hospital. However, she has noticed that one of her friends, Joshua, has a set of patient’s notes sticking out of his bag. He has an appointment to get to, and has no time to write the notes up whilst at the hospital. Joshua says that he will return the notes first thing in the morning after he completes the work at home. How appropriate are the follflowing responses from Nazia?\n\n<strong>Question:</strong>\nTell Joshua that you will write the notes for him so he doesn’t have to take the notes away from the hospital.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1580,13 +1576,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "because it prevents Joshua from taking the notes away from the hospital but will cost Megan her time.",
+    "explanation": "because it prevents Joshua from taking the notes away from the hospital but will cost Megan her time. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 114,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the following week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the following responses by Dr Kelly?\n\n<strong>Question:</strong>\nTell Mr. Marshall that everything is fine.",
+    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the follflowing week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the follflowing responses by Dr Kelly?\n\n<strong>Question:</strong>\nTell Mr. Marshall that everything is fine.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1594,13 +1590,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "as this is a clear lie and therefore grossly unprofessional.",
+    "explanation": "as this is a clear lie and therefore grossly unprofessional. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 115,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the following week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the following responses by Dr Kelly?\n\n<strong>Question:</strong>\nReassure Mr. Marshall that Dr O’Brien will be able to answer his question better.",
+    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the follflowing week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the follflowing responses by Dr Kelly?\n\n<strong>Question:</strong>\nReassure Mr. Marshall that Dr O’Brien will be able to answer his question better.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1608,13 +1604,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because Dr Kelly cannot really explain much to Mr. Marshall without breaking the bad news to him.",
+    "explanation": "because Dr Kelly cannot really explain much to Mr. Marshall without breaking the bad news to him. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 116,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the following week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the following responses by Dr Kelly?\n\n<strong>Question:</strong>\nTell Mr. Marshall that she is not allowed to discuss that information with him yet.",
+    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the follflowing week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the follflowing responses by Dr Kelly?\n\n<strong>Question:</strong>\nTell Mr. Marshall that she is not allowed to discuss that information with him yet.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1622,13 +1618,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "because this may damage their relationship.",
+    "explanation": "because this may damage their relationship. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 117,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the following week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the following responses by Dr Kelly?\n\n<strong>Question:</strong>\nLook away and say nothing to try to express the seriousness of the situation.",
+    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the follflowing week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the follflowing responses by Dr Kelly?\n\n<strong>Question:</strong>\nLook away and say nothing to try to express the seriousness of the situation.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1636,13 +1632,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this may create confusion and being unnecessarily cryptic.",
+    "explanation": "because this may create confusion and being unnecessarily cryptic. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 118,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the following week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the following responses by Dr Kelly?\n\n<strong>Question:</strong>\nTell Mr. Marshall that he has cancer.",
+    "text": "<strong>Scenario:</strong>\nMr. Marshall has been seeing Dr Kelly regularly for years to check up on his diabetes. Recently, Mr Marshall has been seen by a different specialist doctor, Dr O’Brien. Dr O’Brien runs a test that shows that Mr. Marshall has cancer. He is then\n\n\nbooked to see Dr O’Brien the follflowing week who will break the diagnosis. Mr. Marshall is currently in clinic with Dr Kelly and asks her “is everything okay?” How appropriate are the follflowing responses by Dr Kelly?\n\n<strong>Question:</strong>\nTell Mr. Marshall that he has cancer.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1650,13 +1646,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because although it will address his concerns, Dr Kelly is not the best person to break the news.",
+    "explanation": "because although it will address his concerns, Dr Kelly is not the best person to break the news. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 119,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the following responses by Julia?\n\n<strong>Question:</strong>\nExplain to Mary that she is unable to answer her question, and that the doctor will be back soon.",
+    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the follflowing responses by Julia?\n\n<strong>Question:</strong>\nExplain to Mary that she is unable to answer her question, and that the doctor will be back soon.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1664,13 +1660,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because Julia is unable to advise Mary.",
+    "explanation": "because Julia is unable to advise Mary. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 120,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the following responses by Julia?\n\n<strong>Question:</strong>\nTell Mary that in most cases people wouldn’t be able to leave the hospital at her stage of recovery.",
+    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the follflowing responses by Julia?\n\n<strong>Question:</strong>\nTell Mary that in most cases people wouldn’t be able to leave the hospital at her stage of recovery.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1678,13 +1674,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because Julia isn’t experienced enough to assess when Mary will be able to go home.",
+    "explanation": "because Julia isn’t experienced enough to assess when Mary will be able to go home. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 121,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the following responses by Julia?\n\n<strong>Question:</strong>\nTell Mary that she can self-discharge from hospital if she is very keen to leave, but that it might be against medical opinion.",
+    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the follflowing responses by Julia?\n\n<strong>Question:</strong>\nTell Mary that she can self-discharge from hospital if she is very keen to leave, but that it might be against medical opinion.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1692,13 +1688,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because whilst technically true, it is not Julia’s responsibility to advise Mary on anything without the permission of her doctor.",
+    "explanation": "because whilst technically true, it is not Julia’s responsibility to advise Mary on anything without the permission of her doctor. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 122,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the following responses by Julia?\n\n<strong>Question:</strong>\nTell Mary that she will find out and let her know.",
+    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the follflowing responses by Julia?\n\n<strong>Question:</strong>\nTell Mary that she will find out and let her know.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1706,13 +1702,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "as she would then be giving correct information and also addressing Mary’s concerns.",
+    "explanation": "as she would then be giving correct information and also addressing Mary’s concerns. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 123,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the following responses by Julia?\n\n<strong>Question:</strong>\nAnswer Mary’s questions directly.",
+    "text": "<strong>Scenario:</strong>\nMary, a patient, has been in hospital for a long time whilst she recovers from a leg wound, and is desperate to return home. One day, Dr Anil is speaking to her on the ward. He has to leave urgently to answer his bleep call. Mary is left with a junior medical student, Julia. She asks Julia why she is still in the hospital, and wants to know if she can leave that day. How appropriate are the follflowing responses by Julia?\n\n<strong>Question:</strong>\nAnswer Mary’s questions directly.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1720,13 +1716,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because Julia is not qualified and cannot answer Mary’s questions.",
+    "explanation": "because Julia is not qualified and cannot answer Mary’s questions. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 124,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the following responses by Daniel?\n\n<strong>Question:</strong>\nAsk to have his turn once a few of his colleagues had been so he can observe.",
+    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the follflowing responses by Daniel?\n\n<strong>Question:</strong>\nAsk to have his turn once a few of his colleagues had been so he can observe.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1734,13 +1730,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because it shows that Daniel is trying his best to learn the skill with minimal fuss.",
+    "explanation": "because it shows that Daniel is trying his best to learn the skill with minimal fuss. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 125,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the following responses by Daniel?\n\n<strong>Question:</strong>\nConfront Hannah and ask her why she didn’t tell him about the assessment.",
+    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the follflowing responses by Daniel?\n\n<strong>Question:</strong>\nConfront Hannah and ask her why she didn’t tell him about the assessment.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1748,13 +1744,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because Hannah needs to know that she missed someone out, but it won’t solve the immediate problem.",
+    "explanation": "because Hannah needs to know that she missed someone out, but it won’t solve the immediate problem. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 126,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the following responses by Daniel?\n\n<strong>Question:</strong>\nTell the doctor that it was Hannah’s fault.",
+    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the follflowing responses by Daniel?\n\n<strong>Question:</strong>\nTell the doctor that it was Hannah’s fault.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1762,13 +1758,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because it could have been a genuine mistake on Hannah’s part, and will not make the current situation better.",
+    "explanation": "because it could have been a genuine mistake on Hannah’s part, and will not make the current situation better. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 127,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the following responses by Daniel?\n\n<strong>Question:</strong>\nAsk the group to see how many people were prepared for the assessment.",
+    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the follflowing responses by Daniel?\n\n<strong>Question:</strong>\nAsk the group to see how many people were prepared for the assessment.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1776,13 +1772,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because it might have been an issue that affected lots of people, instead of just Daniel.",
+    "explanation": "because it might have been an issue that affected lots of people, instead of just Daniel. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 128,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the following responses by Daniel?\n\n<strong>Question:</strong>\nAsk the doctor if he can have his assessment another day so he can learn the skill and the theory properly.",
+    "text": "<strong>Scenario:</strong>\nDaniel, a first year medical student, is visiting a hospital for the first time since he started medical school. The doctor supervising them asked Hannah, another student to let the group know that they would be having a hand washing assessment\n\n\nconsisting of practical and theoretical aspects. Unfortunately, Daniel was not been about the assessment, and doesn’t know how to wash his hands properly. How appropriate are the follflowing responses by Daniel?\n\n<strong>Question:</strong>\nAsk the doctor if he can have his assessment another day so he can learn the skill and the theory properly.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1790,13 +1786,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": ". This shows that Daniel cares about his assessment but also means extra hassle for the doctor.",
+    "explanation": ". This shows that Daniel cares about his assessment but also means extra hassle for the doctor. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 129,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nCall her friend and cancel the holiday.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nCall her friend and cancel the holiday.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1804,13 +1800,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because her friend will have spent a lot of money on the flights and will be left to fend for herself or not be able to go.",
+    "explanation": "because her friend will have spent a lot of money on the flights and will be left to fend for herself or not be able to go. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 130,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo travelling but take her revision with her and revise every day.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo travelling but take her revision with her and revise every day.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1818,13 +1814,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because the holiday will not be enjoyable for Helen’s friend, and Helen will also not benefit from having a fun experience.",
+    "explanation": "because the holiday will not be enjoyable for Helen’s friend, and Helen will also not benefit from having a fun experience. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 131,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo for part of the holiday and come home early to revise for the exams.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo for part of the holiday and come home early to revise for the exams.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1838,7 +1834,7 @@ const QUESTIONS = [
   {
     "id": 132,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo travelling and cram in the revision in the few days between coming back and taking the exams.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo travelling and cram in the revision in the few days between coming back and taking the exams.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1846,13 +1842,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because Helen will be jeopardizing her chances of remaining in medical school.",
+    "explanation": "because Helen will be jeopardizing her chances of remaining in medical school. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 133,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nTry to get another friend to replace her so she can stay at home and revise but without leaving her friend to fend for herself.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is waiting for her exam results. She was very worried because she didn’t feel as though she was ready for them. When the results come out, she realises that she has to retake her exams. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during the holidays and she is now worried that she will be unable to go, or that if she goes she will not have enough time to revise for the exams. She is also worried that her friend will be left to travel by herself if she doesn’t go. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nTry to get another friend to replace her so she can stay at home and revise but without leaving her friend to fend for herself.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1860,13 +1856,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because she will not be disappointing her friend as much, and will still be able to do her revision.",
+    "explanation": "because she will not be disappointing her friend as much, and will still be able to do her revision. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 134,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the following responses by Celia?\n\n<strong>Question:</strong>\nConfront her parents and demand the money because they are ‘denying her a student experience’.",
+    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the follflowing responses by Celia?\n\n<strong>Question:</strong>\nConfront her parents and demand the money because they are ‘denying her a student experience’.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1874,13 +1870,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because Celia’s parents have not chosen to isolate her on purpose.",
+    "explanation": "because Celia’s parents have not chosen to isolate her on purpose. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 135,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the following responses by Celia?\n\n<strong>Question:</strong>\nLive at home but join a sports team so she can meet more people and join in with the student lifestyle a little more.",
+    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the follflowing responses by Celia?\n\n<strong>Question:</strong>\nLive at home but join a sports team so she can meet more people and join in with the student lifestyle a little more.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1888,13 +1884,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because Celia can meet new people without having to worry about insulting her parents.",
+    "explanation": "because Celia can meet new people without having to worry about insulting her parents. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 136,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the following responses by Celia?\n\n<strong>Question:</strong>\nStart spending every night at her friend’s room in halls.",
+    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the follflowing responses by Celia?\n\n<strong>Question:</strong>\nStart spending every night at her friend’s room in halls.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1902,13 +1898,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "as although she will be closer to her friends, she may turn into an unwelcome guest quite quickly.",
+    "explanation": "as although she will be closer to her friends, she may turn into an unwelcome guest quite quickly. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 137,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the following responses by Celia?\n\n<strong>Question:</strong>\nLive at home in resentment and isolate herself from her university friends.",
+    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the follflowing responses by Celia?\n\n<strong>Question:</strong>\nLive at home in resentment and isolate herself from her university friends.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1916,13 +1912,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this will affect her mental health and her relationships, and will probably lead to underperformance in her studies as well",
+    "explanation": "because this will affect her mental health and her relationships, and will probably lead to underperformance in her studies as well. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 138,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the following responses by Celia?\n\n<strong>Question:</strong>\nCome to an agreement with her parents that if she can move out for a couple of years and then live at home for the rest of medical school.",
+    "text": "<strong>Scenario:</strong>\nCelia, a medical student, is living at home instead of at halls because she doesn’t live far away from the medical school. She found it hard to make friends in first year, and wants to move out for her second year or she fears that she will be further\n\n\nisolated from everyone. Unfortunately, that would depend on financial support from her parents. Celia’s parents are unable to provide much financial aid, and Celia doesn’t have time to take up another job. How appropriate are the follflowing responses by Celia?\n\n<strong>Question:</strong>\nCome to an agreement with her parents that if she can move out for a couple of years and then live at home for the rest of medical school.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1930,13 +1926,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because it shows that she understands her family’s situation whilst attempting to address her own predicaments.",
+    "explanation": "because it shows that she understands her family’s situation whilst attempting to address her own predicaments. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 139,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the following day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the following responses by Xun?\n\n<strong>Question:</strong>\nStay up late and finish the essay so that he doesn’t miss the deadline.",
+    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the follflowing day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the follflowing responses by Xun?\n\n<strong>Question:</strong>\nStay up late and finish the essay so that he doesn’t miss the deadline.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1944,13 +1940,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Xun should try to do it to the best of his ability in the remaining time.",
+    "explanation": "Xun should try to do it to the best of his ability in the remaining time. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 140,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the following day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the following responses by Xun?\n\n<strong>Question:</strong>\nCall the head of the assessments and explain his situation to them, in the hope that there will be some leniency.",
+    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the follflowing day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the follflowing responses by Xun?\n\n<strong>Question:</strong>\nCall the head of the assessments and explain his situation to them, in the hope that there will be some leniency.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1958,13 +1954,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "it is unlikely that the deadline will be unchanged but there is always space for honesty and he might just be lucky.",
+    "explanation": "it is unlikely that the deadline will be unchanged but there is always space for honesty and he might just be lucky. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 141,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the following day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the following responses by Xun?\n\n<strong>Question:</strong>\nGive up and hand in the essay half-complete.",
+    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the follflowing day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the follflowing responses by Xun?\n\n<strong>Question:</strong>\nGive up and hand in the essay half-complete.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1972,13 +1968,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this action will affect his final grade.",
+    "explanation": "because this action will affect his final grade. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 142,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the following day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the following responses by Xun?\n\n<strong>Question:</strong>\nCopy out a similar essay that a friend has written.",
+    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the follflowing day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the follflowing responses by Xun?\n\n<strong>Question:</strong>\nCopy out a similar essay that a friend has written.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -1986,13 +1982,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this is plagiarism and both Xun and his friend would be penalised for it.",
+    "explanation": "because this is plagiarism and both Xun and his friend would be penalised for it. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 143,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the following day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the following responses by Xun?\n\n<strong>Question:</strong>\nFake an illness and ask for an extension.",
+    "text": "<strong>Scenario:</strong>\nXun, a medical student, is due to hand in an essay the follflowing day at 8AM but is only half way to finishing it at 9PM. The essay will contribute 20% to his final grade and he is beginning to panic. How appropriate are the follflowing responses by Xun?\n\n<strong>Question:</strong>\nFake an illness and ask for an extension.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2000,13 +1996,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because he would be lying to the assessment oﬃce and could get into a lot of trouble for it.",
+    "explanation": "because he would be lying to the assessment office and could get into a lot of trouble for it. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 144,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the following responses by Nahor in this situation?\n\n<strong>Question:</strong>\nCut his hair and get a professional looking colour and style.",
+    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the follflowing responses by Nahor in this situation?\n\n<strong>Question:</strong>\nCut his hair and get a professional looking colour and style.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2014,13 +2010,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because he will be showing that he respects the hospital, infection control, and the patients.",
+    "explanation": "because he will be shflowing that he respects the hospital, infection control, and the patients. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 145,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the following responses by Nahor in this situation?\n\n<strong>Question:</strong>\nStart his hospital rotations with his pink long hair, and refuse to change it if he is asked to.",
+    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the follflowing responses by Nahor in this situation?\n\n<strong>Question:</strong>\nStart his hospital rotations with his pink long hair, and refuse to change it if he is asked to.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2028,13 +2024,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this will set a bad first impression to his patients and colleagues – made worse by his refusal.",
+    "explanation": "because this will set a bad first impression to his patients and colleagues – made worse by his refusal. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 146,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the following responses by Nahor in this situation?\n\n<strong>Question:</strong>\nStart his hospital rotations with his pink long hair, and only change it if he is asked to.",
+    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the follflowing responses by Nahor in this situation?\n\n<strong>Question:</strong>\nStart his hospital rotations with his pink long hair, and only change it if he is asked to.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2042,13 +2038,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": ". Nahor may set a bad first impression but there is a small chance that he might be allowed to keep it.",
+    "explanation": ". Nahor may set a bad first impression but there is a small chance that he might be allowed to keep it. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 147,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the following responses by Nahor in this situation?\n\n<strong>Question:</strong>\nKeep his hair a little quirky but make it look more professional that it has previously been.",
+    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the follflowing responses by Nahor in this situation?\n\n<strong>Question:</strong>\nKeep his hair a little quirky but make it look more professional that it has previously been.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2056,13 +2052,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because he can still enjoy keeping his hair in an individual style without looking unprofessional.",
+    "explanation": "because he can still enjoy keeping his hair in an individual style without looking unprofessional. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 148,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the following responses by Nahor in this situation?\n\n<strong>Question:</strong>\nRequest permission from the clinical dean to keep his hair as it is.",
+    "text": "<strong>Scenario:</strong>\nNahor, a medical student, has always enjoyed having creative hairstyles. He is starting his rotations in the hospitals next week, and is worried that he will be unable to express himself through his hair anymore.\n\n\nHow appropriate are the follflowing responses by Nahor in this situation?\n\n<strong>Question:</strong>\nRequest permission from the clinical dean to keep his hair as it is.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2076,7 +2072,7 @@ const QUESTIONS = [
   {
     "id": 149,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the following responses by Charles?\n\n<strong>Question:</strong>\nLeave and email Dr Patel with a letter of apology.",
+    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the follflowing responses by Charles?\n\n<strong>Question:</strong>\nLeave and email Dr Patel with a letter of apology.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2090,7 +2086,7 @@ const QUESTIONS = [
   {
     "id": 150,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the following responses by Charles?\n\n<strong>Question:</strong>\nCall up the captain of the sports team to apologise, and promise that you will make the second half of the match.",
+    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the follflowing responses by Charles?\n\n<strong>Question:</strong>\nCall up the captain of the sports team to apologise, and promise that you will make the second half of the match.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2104,7 +2100,7 @@ const QUESTIONS = [
   {
     "id": 151,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the following responses by Charles?\n\n<strong>Question:</strong>\nLeave the on call room and try to find Dr Patel to talk to him in person.",
+    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the follflowing responses by Charles?\n\n<strong>Question:</strong>\nLeave the on call room and try to find Dr Patel to talk to him in person.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2112,13 +2108,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because it addresses the problem directly and Dr Patel would then know that Charles was leaving.",
+    "explanation": "because it addresses the problem directly and Dr Patel would then know that Charles was leaving. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 152,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the following responses by Charles?\n\n<strong>Question:</strong>\nLeave a message with one of the nurses in the on call room to tell the doctor that is meant to be taking over.",
+    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the follflowing responses by Charles?\n\n<strong>Question:</strong>\nLeave a message with one of the nurses in the on call room to tell the doctor that is meant to be taking over.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2126,13 +2122,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because Charles should not rely on messengers as they aren’t as reliable as telling Dr Patel himself.",
+    "explanation": "because Charles should not rely on messengers as they aren’t as reliable as telling Dr Patel himself. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 153,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the following responses by Charles?\n\n<strong>Question:</strong>\nTry to call up the doctor that is taking over to explain the situation to him.",
+    "text": "<strong>Scenario:</strong>\nCharles, a medical student, was on call with Dr Patel in a busy hospital. Dr Patel told Charles to wait for the doctor that is going to handover to arrive before he leaves. The doctor isn’t due to arrive for another 30 minutes. Charles has a sports match in 15 minutes, and needs to leave before then. Unfortunately Dr Patel is busy with a patient and is not answering his bleep. How appropriate are the follflowing responses by Charles?\n\n<strong>Question:</strong>\nTry to call up the doctor that is taking over to explain the situation to him.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2140,13 +2136,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "No explanation available.",
+    "explanation": "No explanation available. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 154,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the following responses by Archie?\n\n<strong>Question:</strong>\nExplain that he is unable to say, but that the patient should direct her questions towards Dr Coombe when he returns.",
+    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the follflowing responses by Archie?\n\n<strong>Question:</strong>\nExplain that he is unable to say, but that the patient should direct her questions towards Dr Coombe when he returns.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2154,13 +2150,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because Archie is being truthful and professional without ignoring the patient and still addresses her concerns.",
+    "explanation": "because Archie is being truthful and professional without ignoring the patient and still addresses her concerns. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 155,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the following responses by Archie?\n\n<strong>Question:</strong>\nTry to answer the questions to the best of his ability.",
+    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the follflowing responses by Archie?\n\n<strong>Question:</strong>\nTry to answer the questions to the best of his ability.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2168,13 +2164,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because Archie is not qualified to answer questions regarding management from a patient.",
+    "explanation": "because Archie is not qualified to answer questions regarding management from a patient. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 156,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the following responses by Archie?\n\n<strong>Question:</strong>\nTell the patient that they should ‘Google’ the answers.",
+    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the follflowing responses by Archie?\n\n<strong>Question:</strong>\nTell the patient that they should ‘Google’ the answers.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2188,7 +2184,7 @@ const QUESTIONS = [
   {
     "id": 157,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the following responses by Archie?\n\n<strong>Question:</strong>\nTell the patient that he will ‘Google’ the answers.",
+    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the follflowing responses by Archie?\n\n<strong>Question:</strong>\nTell the patient that he will ‘Google’ the answers.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2196,13 +2192,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because Archie doesn’t have the expertise necessary to give medical advice – with or without the use of Google.",
+    "explanation": "because Archie doesn’t have the expertise necessary to give medical advice – with or without the use of Google. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 158,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the following responses by Archie?\n\n<strong>Question:</strong>\nExcuse himself and walk out of the room to leave the patient in there by herself until Dr Coombe returns.",
+    "text": "<strong>Scenario:</strong>\nArchie, a medical student, is in clinic with Dr Coombe. Dr Coombe explains to the patient that her medication isn’t working and that will have to try something else. Dr Coombe has to take an urgent call and walks out of the room- leaving Archie and the patient in the room. The patient then starts to ask Archie lots of questions about her medication.\n\n\nHow appropriate are the follflowing responses by Archie?\n\n<strong>Question:</strong>\nExcuse himself and walk out of the room to leave the patient in there by herself until Dr Coombe returns.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2210,13 +2206,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because it is doesn’t address the problem directly but at least isn’t going to make the situation worse.",
+    "explanation": "because it is doesn’t address the problem directly but at least isn’t going to make the situation worse. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 159,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the following responses by Matthias?\n\n<strong>Question:</strong>\nWrite to the medical school and his personal tutor for advice as soon as possible.",
+    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the follflowing responses by Matthias?\n\n<strong>Question:</strong>\nWrite to the medical school and his personal tutor for advice as soon as possible.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2224,13 +2220,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because they can advise Matthias on the best possible care.",
+    "explanation": "because they can advise Matthias on the best possible care. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 160,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the following responses by Matthias?\n\n<strong>Question:</strong>\nTry to go to the hospital for 2 days to see if he can cope.",
+    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the follflowing responses by Matthias?\n\n<strong>Question:</strong>\nTry to go to the hospital for 2 days to see if he can cope.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2238,13 +2234,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because it may slow his recovery and may be dangerous. However, he would at least know if he was able to cope with the activity.",
+    "explanation": "because it may slow his recovery and may be dangerous. However, he would at least know if he was able to cope with the activity. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 161,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the following responses by Matthias?\n\n<strong>Question:</strong>\nDo all of his book work whilst he is unable to walk around the hospital, so that he can focus on clinical training when he’s better.",
+    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the follflowing responses by Matthias?\n\n<strong>Question:</strong>\nDo all of his book work whilst he is unable to walk around the hospital, so that he can focus on clinical training when he’s better.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2252,13 +2248,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because it shows that he is being proactive and does not want to waste time.",
+    "explanation": "because it shows that he is being proactive and does not want to waste time. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 162,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the following responses by Matthias?\n\n<strong>Question:</strong>\nStop going into hospital without letting anyone know.",
+    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the follflowing responses by Matthias?\n\n<strong>Question:</strong>\nStop going into hospital without letting anyone know.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2266,13 +2262,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because the medical school might assume that he is being lazy and not going to hospital as he isn’t committed.",
+    "explanation": "because the medical school might assume that he is being lazy and not going to hospital as he isn’t committed. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 163,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the following responses by Matthias?\n\n<strong>Question:</strong>\nStop going into hospital and ask his friends to let the medical school know.",
+    "text": "<strong>Scenario:</strong>\nMatthias, a medical student, has hurt his knee whilst playing hockey. He will need to wear a full leg brace which will prevent him from walking around the hospital. Matthias is concerned that it will affect his studies adversely. He will have to take at least 6 weeks off. How appropriate are the follflowing responses by Matthias?\n\n<strong>Question:</strong>\nStop going into hospital and ask his friends to let the medical school know.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2280,13 +2276,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "because the medical school should find out from Matthias- not his friends.",
+    "explanation": "because the medical school should find out from Matthias- not his friends. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 164,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the following responses by Jessie in this situation?\n\n<strong>Question:</strong>\nIgnore the situation and hope that someone else will notice.",
+    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the follflowing responses by Jessie in this situation?\n\n<strong>Question:</strong>\nIgnore the situation and hope that someone else will notice.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2294,13 +2290,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because Jessie may be the only person who notices this and is therefore in a position to address it. If nothing is done, Gemma may become very isolated.",
+    "explanation": "because Jessie may be the only person who notices this and is therefore in a position to address it. If nothing is done, Gemma may become very isolated. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 165,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the following responses by Jessie in this situation?\n\n<strong>Question:</strong>\nTry to talk to Gemma and bring up her eating disorder.",
+    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the follflowing responses by Jessie in this situation?\n\n<strong>Question:</strong>\nTry to talk to Gemma and bring up her eating disorder.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2308,13 +2304,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "because Gemma will probably not want to talk about her eating disorder and avoid the topic in the future.",
+    "explanation": "because Gemma will probably not want to talk about her eating disorder and avoid the topic in the future. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 166,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the following responses by Jessie in this situation?\n\n<strong>Question:</strong>\nChat to Gemma about her stress and ask if she is coping. Allow her to bring up the disorder on her own account.",
+    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the follflowing responses by Jessie in this situation?\n\n<strong>Question:</strong>\nChat to Gemma about her stress and ask if she is coping. Allow her to bring up the disorder on her own account.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2322,13 +2318,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because it shows that Jessie can be trusted and is there for Gemma, without being confrontational.",
+    "explanation": "because it shows that Jessie can be trusted and is there for Gemma, without being confrontational. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 167,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the following responses by Jessie in this situation?\n\n<strong>Question:</strong>\nSpeak to Gemma’s parents about it, without consulting her.",
+    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the follflowing responses by Jessie in this situation?\n\n<strong>Question:</strong>\nSpeak to Gemma’s parents about it, without consulting her.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2336,13 +2332,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "as whilst it may make Gemma’s parents aware – it is likely to strain their friendship.",
+    "explanation": "as whilst it may make Gemma’s parents aware – it is likely to strain their friendship. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 168,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the following responses by Jessie in this situation?\n\n<strong>Question:</strong>\nSpeak to your personal tutor for advice.",
+    "text": "<strong>Scenario:</strong>\nJessie, a medical student, has a friend called Gemma. Jessie suspects that Gemma has an eating disorder. Gemma was very stressed at medical school, and Jessie is uncertain with how to proceed. How appropriate are the follflowing responses by Jessie in this situation?\n\n<strong>Question:</strong>\nSpeak to your personal tutor for advice.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2350,13 +2346,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because they will have seen this scenario before, and will know how to respond to it.",
+    "explanation": "because they will have seen this scenario before, and will know how to respond to it. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 169,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nCall her friend and cancel the holiday.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nCall her friend and cancel the holiday.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2370,7 +2366,7 @@ const QUESTIONS = [
   {
     "id": 170,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo travelling but take her revision with her and revise every day.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo travelling but take her revision with her and revise every day.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2378,13 +2374,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "Helen would be addressing both issues but given the circumstances, her revision may suffer or her friend may not enjoy the holiday as much.",
+    "explanation": "Helen would be addressing both issues but given the circumstances, her revision may suffer or her friend may not enjoy the holiday as much. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 171,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo for part of the holiday and come home early to revise for the exams.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo for part of the holiday and come home early to revise for the exams.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2398,7 +2394,7 @@ const QUESTIONS = [
   {
     "id": 172,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo travelling and cram in the revision in the few days between coming back and taking the exams.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nGo travelling and cram in the revision in the few days between coming back and taking the exams.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2406,13 +2402,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because Helen will be jeopardizing her chances of remaining in medical school.",
+    "explanation": "because Helen will be jeopardizing her chances of remaining in medical school. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 173,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nTransfer her holiday booking to another mutually good friend so she can stay at home and revise but without leaving her friend to fend for herself.",
+    "text": "<strong>Scenario:</strong>\nHelen, a medical student, is has to retake her end of year exams because she failed them the first time. She had booked to go travelling with a friend in South America over the summer holidays, but the resit exams are during this period. She is worried that she will be unable to go and therefore, her friend will be left to travel by herself. If she goes she won’t have enough time to revise for the exams. How appropriate are the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nTransfer her holiday booking to another mutually good friend so she can stay at home and revise but without leaving her friend to fend for herself.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -2420,13 +2416,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because she will not be disappointing her friend as much, and will still be able to do her revision.",
+    "explanation": "because she will not be disappointing her friend as much, and will still be able to do her revision. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 174,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the following factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nSean can generally produce better work than Daniel anyway.",
+    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the follflowing factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nSean can generally produce better work than Daniel anyway.",
     "options": [
       "Very important",
       "Important",
@@ -2434,13 +2430,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "because the task should be joint effort.",
+    "explanation": "because the task should be joint effort. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 175,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the following factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nThe mark that they get will be recorded in their log books.",
+    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the follflowing factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nThe mark that they get will be recorded in their log books.",
     "options": [
       "Very important",
       "Important",
@@ -2448,13 +2444,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": ", because this means that their grade is significant, and Sean will want to do as well as possible.",
+    "explanation": ", because this means that their grade is significant, and Sean will want to do as well as possible. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 176,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the following factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nDaniel and Sean have to work together for the rest of the year.",
+    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the follflowing factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nDaniel and Sean have to work together for the rest of the year.",
     "options": [
       "Very important",
       "Important",
@@ -2462,13 +2458,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": "because they should learn how to work together to prevent future problems with their group work.",
+    "explanation": "because they should learn how to work together to prevent future problems with their group work. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 177,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the following factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nDaniel has recently broken up with his girlfriend.",
+    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the follflowing factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nDaniel has recently broken up with his girlfriend.",
     "options": [
       "Very important",
       "Important",
@@ -2476,13 +2472,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "although this might be troubling Daniel, he shouldn’t let his social life affect his work life.",
+    "explanation": "although this might be troubling Daniel, he shouldn’t let his social life affect his work life. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 178,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the following factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nSean usually does most of the work when they have to do projects together.",
+    "text": "<strong>Scenario:</strong>\nDaniel and Sean are medical students who are working together on a project. They get into a heated argument in the hospital lobby because Daniel has been prioritising his social life recently which is frustrating Sean. How important are the follflowing factors for Sean in deciding on what to do?\n\n<strong>Question:</strong>\nSean usually does most of the work when they have to do projects together.",
     "options": [
       "Very important",
       "Important",
@@ -2490,13 +2486,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because Daniel maybe used to not pulling his weight, and will have to be informed that he needs to contribute more.",
+    "explanation": "because Daniel maybe used to not pulling his weight, and will have to be informed that he needs to contribute more. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 179,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the following factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nThe importance of the essay towards her final mark for the year.",
+    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the follflowing factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nThe importance of the essay towards her final mark for the year.",
     "options": [
       "Very important",
       "Important",
@@ -2504,13 +2500,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because if the essay counts towards Tanya’s final mark for the year then she would want to do very well.",
+    "explanation": ", because if the essay counts towards Tanya’s final mark for the year then she would want to do very well. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 180,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the following factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nTanya’s friend did not find the clinic very educational.",
+    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the follflowing factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nTanya’s friend did not find the clinic very educational.",
     "options": [
       "Very important",
       "Important",
@@ -2518,13 +2514,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "different people learn in different ways and every clinic is different.",
+    "explanation": "different people learn in different ways and every clinic is different. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 181,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the following factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nTanya’s reputation with Dr Garg.",
+    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the follflowing factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nTanya’s reputation with Dr Garg.",
     "options": [
       "Very important",
       "Important",
@@ -2532,13 +2528,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": ", because Dr Garg will be assessing her at the end of the term.",
+    "explanation": ", because Dr Garg will be assessing her at the end of the term. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 182,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the following factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nWhether or not Tanya will be able to attend a different clinic with Dr Garg.",
+    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the follflowing factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nWhether or not Tanya will be able to attend a different clinic with Dr Garg.",
     "options": [
       "Very important",
       "Important",
@@ -2546,13 +2542,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because if this opportunity is available at another time, then missing this particular clinic is not particularly disastrous for Tanya’s learning.",
+    "explanation": ", because if this opportunity is available at another time, then missing this particular clinic is not particularly disastrous for Tanya’s learning. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 183,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the following factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nHow long it will take to finish the essay.",
+    "text": "<strong>Scenario:</strong>\nA medical student Tanya is invited to attend a clinic with Dr Garg who is in charge of Tanya’s grade for the whole term. On the morning of the clinic, Tanya realises that she has not finished her essay that is due the next day. How important are the follflowing factors for Tanya to consider in deciding on what to do?\n\n<strong>Question:</strong>\nHow long it will take to finish the essay.",
     "options": [
       "Very important",
       "Important",
@@ -2560,13 +2556,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because Tanya can complete the essay in time for the clinic, then she would not be compromising her learning.",
+    "explanation": ", because Tanya can complete the essay in time for the clinic, then she would not be compromising her learning. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 184,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the following factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\nCaroline’s reputation with the doctors.",
+    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the follflowing factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\nCaroline’s reputation with the doctors.",
     "options": [
       "Very important",
       "Important",
@@ -2574,13 +2570,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": ", because the doctors that will be assessing Caroline will associate her with the dishevelled looking first year students and it may look unprofessional.",
+    "explanation": ", because the doctors that will be assessing Caroline will associate her with the dishevelled looking first year students and it may look unprofessional. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 185,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the following factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\nThe first year students are only in hospital for 2 hours every week.",
+    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the follflowing factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\nThe first year students are only in hospital for 2 hours every week.",
     "options": [
       "Very important",
       "Important",
@@ -2588,13 +2584,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": ", because they will still be representing the medical school and as such have a duty towards acting properly.",
+    "explanation": ", because they will still be representing the medical school and as such have a duty towards acting properly. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 186,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the following factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\nThe first year students have direct contact with the patients and the hospital staff.",
+    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the follflowing factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\nThe first year students have direct contact with the patients and the hospital staff.",
     "options": [
       "Very important",
       "Important",
@@ -2602,13 +2598,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because the first year students are therefore expected to dress appropriately and professionally.",
+    "explanation": ", because the first year students are therefore expected to dress appropriately and professionally. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 187,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the following factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\n2 of the students are on her sports team.",
+    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the follflowing factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\n2 of the students are on her sports team.",
     "options": [
       "Very important",
       "Important",
@@ -2616,13 +2612,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": ", because if she needs to ask them to dress more appropriately, they shouldn’t get offended.",
+    "explanation": ", because if she needs to ask them to dress more appropriately, they shouldn’t get offended. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 188,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the following factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\nThe first year students don’t have their professionalism exams until third year.",
+    "text": "<strong>Scenario:</strong>\nCaroline, a final year medical student, is teaching first year medical students. She notices that they frequently arrive looking untidy and has noticed that some of the doctors have started to comment on how badly dressed the first year students are. She is worried that she will offend the students if she asks them to dress more appropriately, because 2 of the students are on her sports team. How important are the follflowing factors for Caroline in deciding on what to do?\n\n<strong>Question:</strong>\nThe first year students don’t have their professionalism exams until third year.",
     "options": [
       "Very important",
       "Important",
@@ -2630,13 +2626,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "the students are representing the medical profession and must appear appropriately presentable regardless of when their examinations are.",
+    "explanation": "the students are representing the medical profession and must appear appropriately presentable regardless of when their examinations are. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 189,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the following factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nHis hockey team needs him this year to win the championships.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the follflowing factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nHis hockey team needs him this year to win the championships.",
     "options": [
       "Very important",
       "Important",
@@ -2644,13 +2640,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "timetabled clinical commitments should always come first (without extenuating circumstances).",
+    "explanation": "timetabled clinical commitments should always come first (without extenuating circumstances). This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 190,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the following factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nAlbert is on a sports scholarship at medical school.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the follflowing factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nAlbert is on a sports scholarship at medical school.",
     "options": [
       "Very important",
       "Important",
@@ -2664,7 +2660,7 @@ const QUESTIONS = [
   {
     "id": 191,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the following factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nHis grade will determine if he can progress to his fourth year.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the follflowing factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nHis grade will determine if he can progress to his fourth year.",
     "options": [
       "Very important",
       "Important",
@@ -2672,13 +2668,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because he may not be allowed to finish his degree if he chooses to miss the sessions and not inform the consultant.",
+    "explanation": ", because he may not be allowed to finish his degree if he chooses to miss the sessions and not inform the consultant. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 192,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the following factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nThe consultant is free on Wednesday mornings.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the follflowing factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nThe consultant is free on Wednesday mornings.",
     "options": [
       "Very important",
       "Important",
@@ -2686,13 +2682,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": "because this might allow him to rearrange the teaching sessions.",
+    "explanation": "because this might allow him to rearrange the teaching sessions. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 193,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the following factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nThis is the only teaching he will get on this particular topic this year.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Albert, is in his third year and is captain of the hockey team. He has noticed that his hockey training on Wednesday afternoons always clashes\n\n\nwith his consultant teaching sessions. The consultant will be responsible for his final grade for the year. How important are the follflowing factors for Albert in deciding on what to do?\n\n<strong>Question:</strong>\nThis is the only teaching he will get on this particular topic this year.",
     "options": [
       "Very important",
       "Important",
@@ -2700,13 +2696,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because if he is missing invaluable teaching then this will affect his training and disadvantage him in the long run.",
+    "explanation": "because if he is missing invaluable teaching then this will affect his training and disadvantage him in the long run. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 194,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the following factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nDr Davison is marking one of Sybil’s assessments.",
+    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the follflowing factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nDr Davison is marking one of Sybil’s assessments.",
     "options": [
       "Very important",
       "Important",
@@ -2714,13 +2710,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "patient satisfaction in important and challenging bad practice does not reflect badly on students.",
+    "explanation": "patient satisfaction in important and challenging bad practice does not reflect badly on students. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 195,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the following factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nThe patient appears to be uncomfortable with Dr Davison swearing.",
+    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the follflowing factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nThe patient appears to be uncomfortable with Dr Davison swearing.",
     "options": [
       "Very important",
       "Important",
@@ -2728,13 +2724,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": "because the patient might be reluctant to ask questions or comply with the treatment if they are uncomfortable.",
+    "explanation": "because the patient might be reluctant to ask questions or comply with the treatment if they are uncomfortable. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 196,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the following factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nHow often Dr Davison swears during other patient consultations.",
+    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the follflowing factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nHow often Dr Davison swears during other patient consultations.",
     "options": [
       "Very important",
       "Important",
@@ -2742,13 +2738,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": "because if it is not a regular thing, then perhaps it is because Dr Davison is particularly stressed one day and might not be aware that he is swearing.",
+    "explanation": "because if it is not a regular thing, then perhaps it is because Dr Davison is particularly stressed one day and might not be aware that he is swearing. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 197,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the following factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nIf other members of staff are aware of Dr Davison’s swearing.",
+    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the follflowing factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nIf other members of staff are aware of Dr Davison’s swearing.",
     "options": [
       "Very important",
       "Important",
@@ -2756,13 +2752,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "because whether or not they are aware of his swearing, it still makes the patient feel uncomfortable.",
+    "explanation": "because whether or not they are aware of his swearing, it still makes the patient feel uncomfortable. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 198,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the following factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nIf the patient has seen Dr Davison before.",
+    "text": "<strong>Scenario:</strong>\nA patient is in a consultation with Dr Davison and Sybil, a medical student is observing. The doctor swears a number of times during the consultation, and Sybil notices that the patient is getting uncomfortable. How important are the follflowing factors for Sybil in deciding on what to do?\n\n<strong>Question:</strong>\nIf the patient has seen Dr Davison before.",
     "options": [
       "Very important",
       "Important",
@@ -2770,13 +2766,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because that means that the patient was either comfortable with the doctor previously, or that they were uncomfortable from before.",
+    "explanation": "because that means that the patient was either comfortable with the doctor previously, or that they were uncomfortable from before. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 199,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the following factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nThe risk to the patient who is about to have the operation.",
+    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the follflowing factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nThe risk to the patient who is about to have the operation.",
     "options": [
       "Very important",
       "Important",
@@ -2784,13 +2780,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because the patient could be subjected to avoidable infections, which could be life threatening.",
+    "explanation": "because the patient could be subjected to avoidable infections, which could be life threatening. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 200,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the following factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nThe inconvenience for all of the theatre staff to have to bring out a new sterile trolley.",
+    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the follflowing factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nThe inconvenience for all of the theatre staff to have to bring out a new sterile trolley.",
     "options": [
       "Very important",
       "Important",
@@ -2798,13 +2794,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "because the risk of the patient receiving an infection is worth the time required for the theatre staff to get more equipment ready.",
+    "explanation": "because the risk of the patient receiving an infection is worth the time required for the theatre staff to get more equipment ready. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 201,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the following factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nAlex would be embarrassed because he touched something that he wasn’t meant to.",
+    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the follflowing factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nAlex would be embarrassed because he touched something that he wasn’t meant to.",
     "options": [
       "Very important",
       "Important",
@@ -2812,13 +2808,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": ", because he is only a medical student so can be forgiven for making mistakes. The repercussions of not saying anything could be far more serious.",
+    "explanation": ", because he is only a medical student so can be forgiven for making mistakes. The repercussions of not saying anything could be far more serious. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 202,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the following factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nAlex only briefly touched the trolley.",
+    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the follflowing factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nAlex only briefly touched the trolley.",
     "options": [
       "Very important",
       "Important",
@@ -2826,13 +2822,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "because there is still a risk of infection if he is not sterile but the trolley is. He could still transmit infections.",
+    "explanation": "because there is still a risk of infection if he is not sterile but the trolley is. He could still transmit infections. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 203,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the following factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nMr Daniels would be disappointed in Marco and Alex.",
+    "text": "<strong>Scenario:</strong>\nMarco and Alex are medical students on their surgical placement. They are invited to observe surgery with Mr. Daniels and told not to touch the sterile equipment. Before the operation begins, Marco sees Alex accidentally touch the sterile trolley with the operating equipment on it. Alex doesn’t tell anyone, and Marco thinks that he should inform someone. How important are the follflowing factors for Marco in deciding on what to do?\n\n<strong>Question:</strong>\nMr Daniels would be disappointed in Marco and Alex.",
     "options": [
       "Very important",
       "Important",
@@ -2840,13 +2836,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "because it is still important to protect the patient first and foremost.",
+    "explanation": "because it is still important to protect the patient first and foremost. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 204,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the following factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nThe patient might be in pain.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the follflowing factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nThe patient might be in pain.",
     "options": [
       "Very important",
       "Important",
@@ -2860,7 +2856,7 @@ const QUESTIONS = [
   {
     "id": 205,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the following factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nThe patient is being avoided by staff.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the follflowing factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nThe patient is being avoided by staff.",
     "options": [
       "Very important",
       "Important",
@@ -2868,13 +2864,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "because her demands for pain medication are irrelevant to the staff, especially since she has just been reviewed by the doctors and nurses.",
+    "explanation": "because her demands for pain medication are irrelevant to the staff, especially since she has just been reviewed by the doctors and nurses. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 206,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the following factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nFreddie is not authorised to administer pain medication.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the follflowing factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nFreddie is not authorised to administer pain medication.",
     "options": [
       "Very important",
       "Important",
@@ -2882,13 +2878,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because Freddie cannot administer any medications.",
+    "explanation": "because Freddie cannot administer any medications. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 207,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the following factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nThe patient may have already had her regular pain medication.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the follflowing factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nThe patient may have already had her regular pain medication.",
     "options": [
       "Very important",
       "Important",
@@ -2896,13 +2892,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because this means that the pain medication is not working or she is asking for it unnecessarily.",
+    "explanation": "because this means that the pain medication is not working or she is asking for it unnecessarily. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 208,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the following factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nThe patient has recently been reviewed by the doctors and nurses.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Freddie, is on a busy hospital ward. A patient is addicted to pain medication and constantly bullies staff, so that they are reluctant to see her. Freddie has noticed that the doctors and nurses have been attending to her less frequently than before. One day, after she has been reviewed by the doctors and nurses, she starts to verbally abuse Freddie. She demands that he gets her more pain medication. How important are the follflowing factors for Freddie in determining what he should do?\n\n<strong>Question:</strong>\nThe patient has recently been reviewed by the doctors and nurses.",
     "options": [
       "Very important",
       "Important",
@@ -2910,13 +2906,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because the patient has been reviewed and is therefore unlikely to need anything else so soon.",
+    "explanation": "because the patient has been reviewed and is therefore unlikely to need anything else so soon. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 209,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nMr. Gupta is very competent.",
+    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nMr. Gupta is very competent.",
     "options": [
       "Very important",
       "Important",
@@ -2924,13 +2920,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because this is the key issue and the most important one for patient outcomes.",
+    "explanation": "because this is the key issue and the most important one for patient outcomes. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 210,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nThe surgeon is often flustered when speaking to patients.",
+    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nThe surgeon is often flustered when speaking to patients.",
     "options": [
       "Very important",
       "Important",
@@ -2938,13 +2934,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": "because letting Claire know this would put Claire at ease but it is not an essential piece of information to convey.",
+    "explanation": "because letting Claire know this would put Claire at ease but it is not an essential piece of information to convey. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 211,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nMr. Gupta recently reprimanded Jenny for filling in a drug chart incorrectly.",
+    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nMr. Gupta recently reprimanded Jenny for filling in a drug chart incorrectly.",
     "options": [
       "Very important",
       "Important",
@@ -2952,13 +2948,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "as it is irrelevant to Claire’s operation.",
+    "explanation": "as it is irrelevant to Claire’s operation. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 212,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nClaire is already quite anxious about having an operation.",
+    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nClaire is already quite anxious about having an operation.",
     "options": [
       "Very important",
       "Important",
@@ -2966,13 +2962,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because her anxiety could affect her recovery if she is not completely comfortable with the surgeon.",
+    "explanation": ", because her anxiety could affect her recovery if she is not completely comfortable with the surgeon. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 213,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nPatients usually do better if they are confident and at ease before an operation.",
+    "text": "<strong>Scenario:</strong>\nJenny is a junior doctor who is training under Mr. Gupta. Her sister, Claire, is due to be operated on by Mr. Gupta to correct a hernia. Claire is nervous about the operation and asks Jenny what she thinks about Mr. Gupta. Jenny knows that Mr. Gupta is a very good surgeon but he is often late when seeing patients on the wards. Therefore, he always appears to be rushing, flustered, and a little sweaty when speaking to them before their operations, which can make them lose confidence in him. Jenny must decide on what to say to her sister Claire.\n\n\nHow important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nPatients usually do better if they are confident and at ease before an operation.",
     "options": [
       "Very important",
       "Important",
@@ -2980,13 +2976,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because if this is true, it will help Claire’s recovery.",
+    "explanation": "because if this is true, it will help Claire’s recovery. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 214,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the following factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nAlex and Annabel dated for the first year, until he broke up with her.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the follflowing factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nAlex and Annabel dated for the first year, until he broke up with her.",
     "options": [
       "Very important",
       "Important",
@@ -2994,13 +2990,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "because Annabel should respond according to the situation, not because of who is involved. However, she should be wary that her actions are not in revenge.",
+    "explanation": "because Annabel should respond according to the situation, not because of who is involved. However, she should be wary that her actions are not in revenge. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 215,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the following factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nAlex is a hard working student.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the follflowing factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nAlex is a hard working student.",
     "options": [
       "Very important",
       "Important",
@@ -3008,13 +3004,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": "because it will show that he usually works hard, whether or not he receives the help.",
+    "explanation": "because it will show that he usually works hard, whether or not he receives the help. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 216,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the following factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nIn this particular year, most of the questions won’t be the same as in previous years.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the follflowing factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nIn this particular year, most of the questions won’t be the same as in previous years.",
     "options": [
       "Very important",
       "Important",
@@ -3022,13 +3018,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": "because the help from his rugby friends would not count as cheating.",
+    "explanation": "because the help from his rugby friends would not count as cheating. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 217,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the following factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nAnnabel isn’t part of a team where information from older members is readily available.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the follflowing factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nAnnabel isn’t part of a team where information from older members is readily available.",
     "options": [
       "Very important",
       "Important",
@@ -3036,13 +3032,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "Annabel might be jealous that she doesn’t have this support network, but that should not influence her actions.",
+    "explanation": "Annabel might be jealous that she doesn’t have this support network, but that should not inflfluence her actions. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 218,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the following factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nThe answers are not available to all students.",
+    "text": "<strong>Scenario:</strong>\nA medical student, Alex, is on the university rugby team. He has been given model answers for various written assessments from older members of the rugby team. His friend, Annabel, realises that the Medical school often repeats their questions, and that it is against the rules to pass down previous papers from year to year. How important are the follflowing factors for Annabel in deciding on what to do?\n\n<strong>Question:</strong>\nThe answers are not available to all students.",
     "options": [
       "Very important",
       "Important",
@@ -3050,13 +3046,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because it severely disadvantages students who don’t have access to the answers.",
+    "explanation": "because it severely disadvantages students who don’t have access to the answers. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 219,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the following factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nHis marks for professionalism are not included in his final grade for the year.",
+    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the follflowing factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nHis marks for professionalism are not included in his final grade for the year.",
     "options": [
       "Very important",
       "Important",
@@ -3064,13 +3060,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "whilst it won’t stop him progressing with his degree, professionalism is a very important thing, and the medical school might want to investigate it further.",
+    "explanation": "whilst it won’t stop him progressing with his degree, professionalism is a very important thing, and the medical school might want to investigate it further. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 220,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the following factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nPublic transport information updates are readily available online.",
+    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the follflowing factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nPublic transport information updates are readily available online.",
     "options": [
       "Very important",
       "Important",
@@ -3078,13 +3074,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": ", because Matthew would have evidence of the public transport being delayed.",
+    "explanation": ", because Matthew would have evidence of the public transport being delayed. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 221,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the following factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nThe rest of his class is usually late.",
+    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the follflowing factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nThe rest of his class is usually late.",
     "options": [
       "Very important",
       "Important",
@@ -3092,13 +3088,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": ", because the punctuality of the rest of his class does not reflect on Matthew at all.",
+    "explanation": ", because the punctuality of the rest of his class does not reflect on Matthew at all. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 222,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the following factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nMatthew is usually on time for most classes.",
+    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the follflowing factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nMatthew is usually on time for most classes.",
     "options": [
       "Very important",
       "Important",
@@ -3112,7 +3108,7 @@ const QUESTIONS = [
   {
     "id": 223,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the following factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nHis teacher will be involved in his studies for the next year.",
+    "text": "<strong>Scenario:</strong>\nMatthew, a medical student, is running late for his teaching session. He missed his bus and the next one doesn’t come for another hour. His class was warned yesterday that if they were late for another session without a good reason, then they would not get a good grade for professionalism at the end of the term. How important are the follflowing factors for Matthew in deciding on what to do?\n\n<strong>Question:</strong>\nHis teacher will be involved in his studies for the next year.",
     "options": [
       "Very important",
       "Important",
@@ -3120,13 +3116,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because Matthew should maintain a good rapport with his teacher if they are to see each other regularly for the next year.",
+    "explanation": ", because Matthew should maintain a good rapport with his teacher if they are to see each other regularly for the next year. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 224,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the following factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nMichaela cannot spend another week on the intensive care unit.",
+    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadflowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the follflowing factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nMichaela cannot spend another week on the intensive care unit.",
     "options": [
       "Very important",
       "Important",
@@ -3134,13 +3130,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because the week will be a vital part of her learning experience, and she will miss out if she misses the opportunity.",
+    "explanation": ", because the week will be a vital part of her learning experience, and she will miss out if she misses the opportunity. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 225,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the following factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nMichaela’s illness is just a mild cold and is unlikely to cause serious harm.",
+    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadflowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the follflowing factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nMichaela’s illness is just a mild cold and is unlikely to cause serious harm.",
     "options": [
       "Very important",
       "Important",
@@ -3148,13 +3144,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "because whilst it may not cause seriously harm healthy people, it could seriously harm ill patients.",
+    "explanation": "because whilst it may not cause seriously harm healthy people, it could seriously harm ill patients. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 226,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the following factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nThe illness doesn’t affect her ability to interact with patients.",
+    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadflowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the follflowing factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nThe illness doesn’t affect her ability to interact with patients.",
     "options": [
       "Very important",
       "Important",
@@ -3162,13 +3158,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "because the issue here is of infection control – not if Michaela can function in the hospital.",
+    "explanation": "because the issue here is of infection control – not if Michaela can function in the hospital. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 227,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the following factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nMichaela was told by the doctors not to come in if she became unwell.",
+    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadflowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the follflowing factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nMichaela was told by the doctors not to come in if she became unwell.",
     "options": [
       "Very important",
       "Important",
@@ -3176,13 +3172,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because if a patient became ill, Michaela would be unable to say that she had not been instructed appropriately.",
+    "explanation": "because if a patient became ill, Michaela would be unable to say that she had not been instructed appropriately. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 228,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the following factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nMichaela’s friend told her that she would learn a lot during her time on the intensive care unit.",
+    "text": "<strong>Scenario:</strong>\nMichaela, a medical student, is shadflowing doctors on the intensive care unit of a busy hospital. Unfortunately Michaela becomes unwell during the week. She was told on her first day to stay at home if she becomes ill to minimise the risk of spreading infection to the patients. She is reluctant to remain at home because she this is her first and only week on the intensive care unit. How important are the follflowing factors for Michaela in deciding on what to do?\n\n<strong>Question:</strong>\nMichaela’s friend told her that she would learn a lot during her time on the intensive care unit.",
     "options": [
       "Very important",
       "Important",
@@ -3190,13 +3186,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": ", as it would be a useful opportunity but not very important because the information is just her friend’s opinion.",
+    "explanation": ", as it would be a useful opportunity but not very important because the information is just her friend’s opinion. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 229,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nHow useful the mock exams will be.",
+    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nHow useful the mock exams will be.",
     "options": [
       "Very important",
       "Important",
@@ -3204,13 +3200,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", as this may be Jenny’s only attempt to see what the exams are going to be like.",
+    "explanation": ", as this may be Jenny’s only attempt to see what the exams are going to be like. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 230,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nThe cost of her ski trip.",
+    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nThe cost of her ski trip.",
     "options": [
       "Very important",
       "Important",
@@ -3224,7 +3220,7 @@ const QUESTIONS = [
   {
     "id": 231,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nThe mock exams are optional.",
+    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nThe mock exams are optional.",
     "options": [
       "Very important",
       "Important",
@@ -3232,13 +3228,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": ", as Jenny would not have to worry about missing them or swapping her exam dates.",
+    "explanation": ", as Jenny would not have to worry about missing them or swapping her exam dates. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 232,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nThe university’s policy on swapping dates of exams.",
+    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nThe university’s policy on swapping dates of exams.",
     "options": [
       "Very important",
       "Important",
@@ -3246,13 +3242,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because if the university agrees to swap their exam dates then the issue would be resolved.",
+    "explanation": ", because if the university agrees to swap their exam dates then the issue would be resolved. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 233,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the following factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nJenny has performed well on all exams in medical school so far.",
+    "text": "<strong>Scenario:</strong>\nJenny, a 4th year medical student, has booked and paid to go on the university ski trip. Unfortunately, she finds out that she has the option to sit a set of mock practical exams during the week of the ski trip. Jenny will lose the full amount of money if she pulls out of the ski trip. One of Jenny’s friends has their mock exam the day after Jenny gets back. Jenny wants to try and swap their exam dates. How important are the follflowing factors for Jenny in deciding on what to do?\n\n<strong>Question:</strong>\nJenny has performed well on all exams in medical school so far.",
     "options": [
       "Very important",
       "Important",
@@ -3266,7 +3262,7 @@ const QUESTIONS = [
   {
     "id": 234,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the following factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nLuke has spoken to the project supervisor.",
+    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the follflowing factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nLuke has spoken to the project supervisor.",
     "options": [
       "Very important",
       "Important",
@@ -3274,13 +3270,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because it shows that he was very interested and proactive in the subject. It can also be used as evidence that Luke should be reconsidered for the project.",
+    "explanation": ", because it shows that he was very interested and proactive in the subject. It can also be used as evidence that Luke should be reconsidered for the project. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 235,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the following factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nArchitha didn’t want to have the project.",
+    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the follflowing factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nArchitha didn’t want to have the project.",
     "options": [
       "Very important",
       "Important",
@@ -3288,13 +3284,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because Architha may be willing to help Luke in his appeal as she could also gain from it.",
+    "explanation": "because Architha may be willing to help Luke in his appeal as she could also gain from it. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 236,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the following factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nThe project grade will count for Luke’s final grade at the end of the year.",
+    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the follflowing factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nThe project grade will count for Luke’s final grade at the end of the year.",
     "options": [
       "Very important",
       "Important",
@@ -3302,13 +3298,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": ", because Luke should try to achieve the best grade possible with whichever project he was given.",
+    "explanation": ", because Luke should try to achieve the best grade possible with whichever project he was given. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 237,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the following factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nLuke finds it diﬃcult to invest time in a project that he doesn’t care about.",
+    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the follflowing factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nLuke finds it difficult to invest time in a project that he doesn’t care about.",
     "options": [
       "Very important",
       "Important",
@@ -3316,13 +3312,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": ", although Luke will find it diﬃcult to concentrate on the project that he was allocated, personal preferences should not hinder his overall performance.",
+    "explanation": ", although Luke will find it difficult to concentrate on the project that he was allocated, personal preferences should not hinder his overall performance. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 238,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the following factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nLuke was allocated his second choice of project.",
+    "text": "<strong>Scenario:</strong>\nLuke, a medical student, has wanted to do a particular project for months. He has already spoken with the project’s supervisor and planned it with him. He has also put it as his top choice for a project, although he knows that of other people also want to do the same project. Later next week, Luke finds out that he has been allocated to his second choice project instead. His friend, Architha, has been allocated the project that he wanted even though it was her last choice. Based, on this, Luke wants to make an oﬃcial appeal. How important are the follflowing factors for Luke in deciding whether to appeal?\n\n<strong>Question:</strong>\nLuke was allocated his second choice of project.",
     "options": [
       "Very important",
       "Important",
@@ -3330,13 +3326,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because the medical school can show that took his preferences into account.",
+    "explanation": ", because the medical school can show that took his preferences into account. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 239,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the following factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nIf Lucinda fails her exams the mark will be on her university transcript when she graduates.",
+    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the follflowing factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nIf Lucinda fails her exams the mark will be on her university transcript when she graduates.",
     "options": [
       "Very important",
       "Important",
@@ -3344,13 +3340,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because the mark will reflect on her ability for the rest of her life.",
+    "explanation": ", because the mark will reflect on her ability for the rest of her life. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 240,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the following factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nJobs as a junior doctor are partially determined based on your grades at medical school.",
+    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the follflowing factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nJobs as a junior doctor are partially determined based on your grades at medical school.",
     "options": [
       "Very important",
       "Important",
@@ -3358,13 +3354,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because this act might prevent Lucinda from getting the job she wants later on in her medical career.",
+    "explanation": ", because this act might prevent Lucinda from getting the job she wants later on in her medical career. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 241,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the following factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nLucinda and Andy have only been in a relationship for 6 weeks.",
+    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the follflowing factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nLucinda and Andy have only been in a relationship for 6 weeks.",
     "options": [
       "Very important",
       "Important",
@@ -3372,13 +3368,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": ", because it is a short period of time and if their relationship ends then Lucinda would have waster a year.",
+    "explanation": ", because it is a short period of time and if their relationship ends then Lucinda would have waster a year. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 242,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the following factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nLucinda’s friends are performing very well and will progress onto the next year.",
+    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the follflowing factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nLucinda’s friends are performing very well and will progress onto the next year.",
     "options": [
       "Very important",
       "Important",
@@ -3386,13 +3382,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "although she is used to being with people that do well, they shouldn’t affect her decision.",
+    "explanation": "although she is used to being with people that do well, they shouldn’t affect her decision. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 243,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the following factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nAndy has asked her to fail her exams on purpose.",
+    "text": "<strong>Scenario:</strong>\nLucinda, a medical student, has been performing very well in her exams so far. She has been in a relationship with Andy (who is also in her year) for 6 weeks. Unfortunately, Andy will need to repeat the year as he has been struggling with the workload. Lucinda is desperate to stay in his year. Andy suggests that she fail her exams on purpose so that she can stay in his year. How important are the follflowing factors for Lucinda in deciding on what to do?\n\n<strong>Question:</strong>\nAndy has asked her to fail her exams on purpose.",
     "options": [
       "Very important",
       "Important",
@@ -3400,13 +3396,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": ", although they are in a relationship, she needs to make the decision herself rather than be pressured into it.",
+    "explanation": ", although they are in a relationship, she needs to make the decision herself rather than be pressured into it. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 244,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the following factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv must pay for his own flights with the money he has saved up.",
+    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the follflowing factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv must pay for his own flights with the money he has saved up.",
     "options": [
       "Very important",
       "Important",
@@ -3414,13 +3410,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because Shiv will save a lot of money if he skips the last day.",
+    "explanation": ", because Shiv will save a lot of money if he skips the last day. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 245,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the following factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv’s final assessment involves the doctor asking him how the term has gone for him, and then signing his log book.",
+    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the follflowing factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv’s final assessment involves the doctor asking him how the term has gone for him, and then signing his log book.",
     "options": [
       "Very important",
       "Important",
@@ -3428,13 +3424,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": ", because the content of the assessment is not the issue but rather its timing.",
+    "explanation": ", because the content of the assessment is not the issue but rather its timing. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 246,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the following factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv has been punctual and has produced impressive work throughout the rotation.",
+    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the follflowing factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv has been punctual and has produced impressive work throughout the rotation.",
     "options": [
       "Very important",
       "Important",
@@ -3448,7 +3444,7 @@ const QUESTIONS = [
   {
     "id": 247,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the following factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv’s doctor will be retiring after Christmas.",
+    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the follflowing factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv’s doctor will be retiring after Christmas.",
     "options": [
       "Very important",
       "Important",
@@ -3456,13 +3452,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": ", because it will have no impact on Shiv’s grade.",
+    "explanation": ", because it will have no impact on Shiv’s grade. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 248,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the following factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv’s girlfriend is in Australia.",
+    "text": "<strong>Scenario:</strong>\nShiv, a medical student, is nearly at the end of his rotation. He really wants to go to Australia for the Christmas holidays to see his girlfriend who is on her elective there. The flights are much cheaper if he skips the final day of his rotation. Most of his medical friends have already finished for the holidays because the doctors that were in charge of them finished their final assessments early. However, Shiv has a very strict doctor who insists that their final assessments will be on the final day of term, and no sooner. The doctor is due to retire after Christmas. How important are the follflowing factors for Shiv in deciding on what to do?\n\n<strong>Question:</strong>\nShiv’s girlfriend is in Australia.",
     "options": [
       "Very important",
       "Important",
@@ -3470,13 +3466,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "although Shiv would like to meet with his girlfriend, he will be able to see her eventually so this isn’t important in deciding when to leave.",
+    "explanation": "although Shiv would like to meet with his girlfriend, he will be able to see her eventually so this isn’t important in deciding when to leave. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 249,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the following factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nHer choir has never been on an international tour before and this might be Jazzmynne’s only chance to go.",
+    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the follflowing factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nHer choir has never been on an international tour before and this might be Jazzmynne’s only chance to go.",
     "options": [
       "Very important",
       "Important",
@@ -3484,13 +3480,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "because if Jazzmynne won’t get another chance to go on tour then it may be worth considering if she can miss classes.",
+    "explanation": "because if Jazzmynne won’t get another chance to go on tour then it may be worth considering if she can miss classes. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 250,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the following factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nJazzmynne would end up missing half of one of her clinical rotations.",
+    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the follflowing factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nJazzmynne would end up missing half of one of her clinical rotations.",
     "options": [
       "Very important",
       "Important",
@@ -3498,13 +3494,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because her learning is also important, and if she misses this rotation then she may not necessarily get the chance to catch up again.",
+    "explanation": ", because her learning is also important, and if she misses this rotation then she may not necessarily get the chance to catch up again. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 251,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the following factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nJazzmynne’s parents get anxious when she misses class.",
+    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the follflowing factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nJazzmynne’s parents get anxious when she misses class.",
     "options": [
       "Very important",
       "Important",
@@ -3518,7 +3514,7 @@ const QUESTIONS = [
   {
     "id": 252,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the following factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nJazzmynne sometimes struggles to keep up with her workload.",
+    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the follflowing factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nJazzmynne sometimes struggles to keep up with her workload.",
     "options": [
       "Very important",
       "Important",
@@ -3532,7 +3528,7 @@ const QUESTIONS = [
   {
     "id": 253,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the following factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nJazzmynne’s friends are also going on the tour with her.",
+    "text": "<strong>Scenario:</strong>\nJazzmynne, a medical student, is a talented vocalist and is offered the chance to go on a prestigious singing tour for a month with her choir. Unfortunately, this would mean missing a month of classes. How important are the follflowing factors for Jazzmynne in deciding on what to do?\n\n<strong>Question:</strong>\nJazzmynne’s friends are also going on the tour with her.",
     "options": [
       "Very important",
       "Important",
@@ -3540,13 +3536,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "as Jazzmynne should not make the decision based on how much she would gain from the tour not because of what her friends decide.",
+    "explanation": "as Jazzmynne should not make the decision based on how much she would gain from the tour not because of what her friends decide. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 254,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the following factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\nEllen is in her final year of medical school.",
+    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the follflowing factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\nEllen is in her final year of medical school.",
     "options": [
       "Very important",
       "Important",
@@ -3554,13 +3550,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": ". The changes may not come into action for Ellen to see but if she still feels strongly about the paper then it shouldn’t change her actions.",
+    "explanation": ". The changes may not come into action for Ellen to see but if she still feels strongly about the paper then it shouldn’t change her actions. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 255,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the following factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\nThe university has a good reputation for responding positively to student petitions.",
+    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the follflowing factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\nThe university has a good reputation for responding positively to student petitions.",
     "options": [
       "Very important",
       "Important",
@@ -3568,13 +3564,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", as this shows that the university will take the opinions of the students into account.",
+    "explanation": ", as this shows that the university will take the opinions of the students into account. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 256,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the following factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\n90% of the university newspaper readers are medical students.",
+    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the follflowing factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\n90% of the university newspaper readers are medical students.",
     "options": [
       "Very important",
       "Important",
@@ -3588,7 +3584,7 @@ const QUESTIONS = [
   {
     "id": 257,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the following factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\nThe principal wants to encourage more stories about the health press, the world, and academics, rather than gossip at the bars.",
+    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the follflowing factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\nThe principal wants to encourage more stories about the health press, the world, and academics, rather than gossip at the bars.",
     "options": [
       "Very important",
       "Important",
@@ -3596,13 +3592,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": ", because the principal’s stories can still be incorporated into the newspapers without abolishing the papers on the students’ social lives.",
+    "explanation": ", because the principal’s stories can still be incorporated into the newspapers without abolishing the papers on the students’ social lives. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 258,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the following factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\nEllen doesn’t like the new principal very much.",
+    "text": "<strong>Scenario:</strong>\nEllen, a medical student, has been writing for the university newspaper since her first year. She likes to focus on stories that are topical for the students. Recently, the new principal of the medical school has created a ban on stories that involve student bars and social lives. Ellen wants to start a petition to change this rule. How important are the follflowing factors for Ellen in deciding on what to do?\n\n<strong>Question:</strong>\nEllen doesn’t like the new principal very much.",
     "options": [
       "Very important",
       "Important",
@@ -3610,13 +3606,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "as this isn’t a personal issue and should be handled professionally instead.",
+    "explanation": "as this isn’t a personal issue and should be handled professionally instead. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 259,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the following factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nStudents are being denied access to their own bars.",
+    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the follflowing factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nStudents are being denied access to their own bars.",
     "options": [
       "Very important",
       "Important",
@@ -3624,13 +3620,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because the student bars should be safe, controlled spaces for the students to enjoy themselves.",
+    "explanation": ", because the student bars should be safe, controlled spaces for the students to enjoy themselves. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 260,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the following factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nGuy will get more work and therefore money if the bar expands.",
+    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the follflowing factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nGuy will get more work and therefore money if the bar expands.",
     "options": [
       "Very important",
       "Important",
@@ -3638,13 +3634,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "whilst extra money would be useful, the decision to appeal should be based on the needs of the student body rather than serving a selfish agenda.",
+    "explanation": "whilst extra money would be useful, the decision to appeal should be based on the needs of the student body rather than serving a selfish agenda. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 261,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the following factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nThe university has dropped in student satisfaction league tables.",
+    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the follflowing factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nThe university has dropped in student satisfaction league tables.",
     "options": [
       "Very important",
       "Important",
@@ -3652,13 +3648,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because this is another factor that could bring their satisfaction ratings down further.",
+    "explanation": ", because this is another factor that could bring their satisfaction ratings down further. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 262,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the following factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nThe bar is very expensive.",
+    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the follflowing factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nThe bar is very expensive.",
     "options": [
       "Very important",
       "Important",
@@ -3666,13 +3662,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "the issue is not about the cost but about the waiting times.",
+    "explanation": "the issue is not about the cost but about the waiting times. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 263,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the following factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nThe university is having financial troubles.",
+    "text": "<strong>Scenario:</strong>\nGuy, a medical student, works at the student bar during the week. The recent change in the university’s health and safety policy imposes a maximum number of students that can enter the bar at any time. This means that on popular nights, there is usually an hour-long queue to get into the bar. Guy thinks that this is unfair, and drafts a letter to the university, asking them to expand the student bar. How important are the follflowing factors for Guy in deciding on what to do?\n\n<strong>Question:</strong>\nThe university is having financial troubles.",
     "options": [
       "Very important",
       "Important",
@@ -3680,13 +3676,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": ", because expanding the bar could bring in more money for the university.",
+    "explanation": ", because expanding the bar could bring in more money for the university. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 264,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the following factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nOlivia and Phil were previously in a relationship.",
+    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the follflowing factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nOlivia and Phil were previously in a relationship.",
     "options": [
       "Very important",
       "Important",
@@ -3694,13 +3690,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": ", because this should be handled amiably rather than making it personal.",
+    "explanation": ", because this should be handled amiably rather than making it personal. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 265,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the following factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nPhil is in his final year but Olivia is in her penultimate year.",
+    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the follflowing factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nPhil is in his final year but Olivia is in her penultimate year.",
     "options": [
       "Very important",
       "Important",
@@ -3708,13 +3704,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because Phil does not have a chance of running again, but Olivia does.",
+    "explanation": ", because Phil does not have a chance of running again, but Olivia does. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 266,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the following factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nOlivia has worked for the student union for a lot longer than Phil has.",
+    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the follflowing factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nOlivia has worked for the student union for a lot longer than Phil has.",
     "options": [
       "Very important",
       "Important",
@@ -3728,7 +3724,7 @@ const QUESTIONS = [
   {
     "id": 267,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the following factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nNeither Phil nor Olivia are happy to run for any other position on the committee.",
+    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the follflowing factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nNeither Phil nor Olivia are happy to run for any other position on the committee.",
     "options": [
       "Very important",
       "Important",
@@ -3736,13 +3732,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because this excludes any chance of compromise with position allocation.",
+    "explanation": ", because this excludes any chance of compromise with position allocation. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 268,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the following factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nOlivia gave up the presidency of the student union last year because her friend who was in his final year wanted it.",
+    "text": "<strong>Scenario:</strong>\nOlivia, a medical student, wants to run for president of the student union. She has been involved for many years, and is very dedicated to the union. Her friend, Phil, also wants to run for president. Phil is very popular, although he has not contributed as much to the union as Olivia. How important are the follflowing factors for Olivia in deciding on what to do?\n\n<strong>Question:</strong>\nOlivia gave up the presidency of the student union last year because her friend who was in his final year wanted it.",
     "options": [
       "Very important",
       "Important",
@@ -3750,13 +3746,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": ", because it shows that Olivia has already compromised with the position previously, and will be unlikely to want to compromise again",
+    "explanation": ", because it shows that Olivia has already compromised with the position previously, and will be unlikely to want to compromise again. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 269,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the following responses by Annie in this situation?\n\n<strong>Question:</strong>\nTell George she found the exam and won’t inform anyone else as long as she can have a copy of the exam herself.",
+    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the follflowing responses by Annie in this situation?\n\n<strong>Question:</strong>\nTell George she found the exam and won’t inform anyone else as long as she can have a copy of the exam herself.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3764,13 +3760,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This shows a lack of honesty and integrity and it is unfair to other students.",
+    "explanation": "This shows a lack of honesty and integrity and it is unfair to other students. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 270,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the following responses by Annie in this situation?\n\n<strong>Question:</strong>\nCopy the exam and distribute it to all the final year medical students so it is fair for everyone.",
+    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the follflowing responses by Annie in this situation?\n\n<strong>Question:</strong>\nCopy the exam and distribute it to all the final year medical students so it is fair for everyone.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3784,7 +3780,7 @@ const QUESTIONS = [
   {
     "id": 271,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the following responses by Annie in this situation?\n\n<strong>Question:</strong>\nIgnore the situation and do nothing.",
+    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the follflowing responses by Annie in this situation?\n\n<strong>Question:</strong>\nIgnore the situation and do nothing.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3792,13 +3788,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "As a medical student you should take initiative and escalate situations appropriately. When you see that there is something that can affect the rest of the students and the medical school, you should involve those at a senior level",
+    "explanation": "As a medical student you should take initiative and escalate situations appropriately. When you see that there is something that can affect the rest of the students and the medical school, you should involve those at a senior level.",
     "topic": "Situational Judgement"
   },
   {
     "id": 272,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the following responses by Annie in this situation?\n\n<strong>Question:</strong>\nAlert her supervisor as to what she saw, and get advice on what to do.",
+    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the follflowing responses by Annie in this situation?\n\n<strong>Question:</strong>\nAlert her supervisor as to what she saw, and get advice on what to do.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3806,13 +3802,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "The supervisor would be able to advise the student on what to do and would be able to help them in escalating the issue if required.",
+    "explanation": "The supervisor would be able to advise the student on what to do and would be able to help them in escalating the issue if required. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 273,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the following responses by Annie in this situation?\n\n<strong>Question:</strong>\nAlert the medical school as to what she saw.",
+    "text": "<strong>Scenario:</strong>\nAnnie, a final year medical student, is in the library. She notices George, another final year student, rushing out of the library and accidentally leaving some of his papers by the photocopying machine. She later finds out that they are copies of the upcoming final year exam. How appropriate are each of the follflowing responses by Annie in this situation?\n\n<strong>Question:</strong>\nAlert the medical school as to what she saw.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3820,13 +3816,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "The medical school will have a protocol for reporting situations such as these, and can deal with the situation accordingly.",
+    "explanation": "The medical school will have a protocol for reporting situations such as these, and can deal with the situation accordingly. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 274,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the following responses by Kate in this situation?\n\n<strong>Question:</strong>\nCall the police on the patients behalf, stealing is a criminal offense.",
+    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the follflowing responses by Kate in this situation?\n\n<strong>Question:</strong>\nCall the police on the patients behalf, stealing is a criminal offense.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3840,7 +3836,7 @@ const QUESTIONS = [
   {
     "id": 275,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the following responses by Kate in this situation?\n\n<strong>Question:</strong>\nTell the patient that she should have been more careful and you will see what you can do.",
+    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the follflowing responses by Kate in this situation?\n\n<strong>Question:</strong>\nTell the patient that she should have been more careful and you will see what you can do.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3848,13 +3844,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "Kate needs to be careful not to sound patronising, as the patient will know that the wards are very exposed. However, it is good she offers them reassurance.",
+    "explanation": "Kate needs to be careful not to sound patronising, as the patient will know that the wards are very exposed. However, it is good she offers them reassurance. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 276,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the following responses by Kate in this situation?\n\n<strong>Question:</strong>\nTell the patient that she should not be making false accusations.",
+    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the follflowing responses by Kate in this situation?\n\n<strong>Question:</strong>\nTell the patient that she should not be making false accusations.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3862,13 +3858,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This is very patronising to the patient. Kate is accusing them of lying without understanding the full story. Also she has not provided any re-assurance that she will follow this up with more senior members of the department.",
+    "explanation": "This is very patronising to the patient. Kate is accusing them of lying without understanding the full story. Also she has not provided any fire-assurance that she will follow this up with more senior members of the department.",
     "topic": "Situational Judgement"
   },
   {
     "id": 277,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the following responses by Kate in this situation?\n\n<strong>Question:</strong>\nAsk the patient for further details about the theft, reassure her you will see what you can do and alert the nurse in charge of the ward.",
+    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the follflowing responses by Kate in this situation?\n\n<strong>Question:</strong>\nAsk the patient for further details about the theft, reassure her you will see what you can do and alert the nurse in charge of the ward.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3876,13 +3872,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Kate has taken some further details, she has re-assured the patient and has escalated the issue to the right person. Also the nurse in charge will be aware of the hospital processes and would be able to provide the patient with more information and assurance.",
+    "explanation": "Kate has taken some further details, she has fire-assured the patient and has escalated the issue to the right person. Also the nurse in charge will be aware of the hospital processes and would be able to provide the patient with more information and assurance.",
     "topic": "Situational Judgement"
   },
   {
     "id": 278,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the following responses by Kate in this situation?\n\n<strong>Question:</strong>\nSend an e-mail out to all other medical students to alert them of the theft.",
+    "text": "<strong>Scenario:</strong>\nKate is a medical student on a ward round. A patient calls her and complains that a small amount of money has disappeared from her bedside table. How appropriate are each of the follflowing responses by Kate in this situation?\n\n<strong>Question:</strong>\nSend an e-mail out to all other medical students to alert them of the theft.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3896,7 +3892,7 @@ const QUESTIONS = [
   {
     "id": 279,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the following responses by Sam?\n\n<strong>Question:</strong>\nAccuse Andrew of drug possession and tell him he will be informing his supervisor.",
+    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the follflowing responses by Sam?\n\n<strong>Question:</strong>\nAccuse Andrew of drug possession and tell him he will be informing his supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3904,13 +3900,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "Sam should not accuse Andrew of possession before he clarifies the situation. However, escalating the problem to his supervisor is appropriate.",
+    "explanation": "Sam should not accuse Andrew of possession before he clarifies the situation. However, escalating the problem to his supervisor is appropriate. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 280,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the following responses by Sam?\n\n<strong>Question:</strong>\nSeek information from Andrew about why he has the marijuana in his bag, and tell him he will ignore the situation if he gets rid of it.",
+    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the follflowing responses by Sam?\n\n<strong>Question:</strong>\nSeek information from Andrew about why he has the marijuana in his bag, and tell him he will ignore the situation if he gets rid of it.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3924,7 +3920,7 @@ const QUESTIONS = [
   {
     "id": 281,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the following responses by Sam?\n\n<strong>Question:</strong>\nDiscuss the incident with his own supervisor.",
+    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the follflowing responses by Sam?\n\n<strong>Question:</strong>\nDiscuss the incident with his own supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3932,13 +3928,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "The supervisor would be able to provide advice to Sam on what he should do next.",
+    "explanation": "The supervisor would be able to provide advice to Sam on what he should do next. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 282,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the following responses by Sam?\n\n<strong>Question:</strong>\nOffer support to Andrew and recommend he seek professional help.",
+    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the follflowing responses by Sam?\n\n<strong>Question:</strong>\nOffer support to Andrew and recommend he seek professional help.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3952,7 +3948,7 @@ const QUESTIONS = [
   {
     "id": 283,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the following responses by Sam?\n\n<strong>Question:</strong>\nPretend he did not see anything and do nothing.",
+    "text": "<strong>Scenario:</strong>\nDuring a discussion with a fellow medical student, Andrew, in the student common room, Sam notices that a bag of marijuana falls out of Andrew’s bag. How appropriate are each of the follflowing responses by Sam?\n\n<strong>Question:</strong>\nPretend he did not see anything and do nothing.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3960,13 +3956,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Doing nothing is totally inappropriate. Seeing patients under the influence of drugs may put patient safety at risk and totally undermines a doctor’s position of trust.",
+    "explanation": "Doing nothing is totally inappropriate. Seeing patients under the inflfluence of drugs may put patient safety at risk and totally undermines a doctor’s position of trust.",
     "topic": "Situational Judgement"
   },
   {
     "id": 284,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the following responses by Anna?\n\n<strong>Question:</strong>\nAlert a more senior member of the team to the situation at hand.",
+    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the follflowing responses by Anna?\n\n<strong>Question:</strong>\nAlert a more senior member of the team to the situation at hand.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3980,7 +3976,7 @@ const QUESTIONS = [
   {
     "id": 285,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the following responses by Anna?\n\n<strong>Question:</strong>\nDo nothing as she is only a medical student.",
+    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the follflowing responses by Anna?\n\n<strong>Question:</strong>\nDo nothing as she is only a medical student.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -3994,7 +3990,7 @@ const QUESTIONS = [
   {
     "id": 286,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the following responses by Anna?\n\n<strong>Question:</strong>\nAllow the junior doctor to carry out his ward duties and accompany him to make sure he is not making any mistakes.",
+    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the follflowing responses by Anna?\n\n<strong>Question:</strong>\nAllow the junior doctor to carry out his ward duties and accompany him to make sure he is not making any mistakes.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4002,13 +3998,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Anna needs to recognise the limitations of her expertise and allowing the doctor to carry out his duties under the influence of alcohol can place patient safety at risk.",
+    "explanation": "Anna needs to recognise the limitations of her expertise and allflowing the doctor to carry out his duties under the inflfluence of alcohol can place patient safety at risk.",
     "topic": "Situational Judgement"
   },
   {
     "id": 287,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the following responses by Anna?\n\n<strong>Question:</strong>\nReflect on the situation later that evening.",
+    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the follflowing responses by Anna?\n\n<strong>Question:</strong>\nReflect on the situation later that evening.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4016,13 +4012,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "It is good to reflect on diﬃcult situations in practice, however this has not provided a solution to the current situation.",
+    "explanation": "It is good to reflect on difficult situations in practice, however this has not provided a solution to the current situation. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 288,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the following responses by Anna?\n\n<strong>Question:</strong>\nAdvise the junior doctor to inform the team and go home.",
+    "text": "<strong>Scenario:</strong>\nAnna is a final year medical student attached to a medical team.. One morning, a junior doctor from the team arrives very drunk. The junior doctor is about to start his ward duties. How appropriate are each of the follflowing responses by Anna?\n\n<strong>Question:</strong>\nAdvise the junior doctor to inform the team and go home.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4036,7 +4032,7 @@ const QUESTIONS = [
   {
     "id": 289,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the following responses by Sean?\n\n<strong>Question:</strong>\nTell the group’s supervisor about Sarah’s tardiness and contribution.",
+    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the follflowing responses by Sean?\n\n<strong>Question:</strong>\nTell the group’s supervisor about Sarah’s tardiness and contribution.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4044,13 +4040,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Escalating the problem to the supervisor will enable the supervisor to provide solutions to the problem, support the group and encourage Sarah.",
+    "explanation": "Escalating the problem to the supervisor will enable the supervisor to provide solutions to the problem, support the group and encourage Sarah. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 290,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the following responses by Sean?\n\n<strong>Question:</strong>\nDiscuss the problem with other members of the group.",
+    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the follflowing responses by Sean?\n\n<strong>Question:</strong>\nDiscuss the problem with other members of the group.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4058,13 +4054,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "Seeing how other group members feel about the current situation is appropriate, however it may lead to spreading gossip about Sarah.",
+    "explanation": "Seeing how other group members feel about the current situation is appropriate, however it may lead to spreading gossip about Sarah. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 291,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the following responses by Sean?\n\n<strong>Question:</strong>\nApproach Sarah and tell her that her attitude and poor contribution are causing problems and she needs to pull her weight. .",
+    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the follflowing responses by Sean?\n\n<strong>Question:</strong>\nApproach Sarah and tell her that her attitude and poor contribution are causing problems and she needs to pull her weight. .",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4078,7 +4074,7 @@ const QUESTIONS = [
   {
     "id": 292,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the following responses by Sean?\n\n<strong>Question:</strong>\nAsk Sarah if there is a reason for her lateness and lack of contribution and if there is anything Sean can do to help.",
+    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the follflowing responses by Sean?\n\n<strong>Question:</strong>\nAsk Sarah if there is a reason for her lateness and lack of contribution and if there is anything Sean can do to help.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4092,7 +4088,7 @@ const QUESTIONS = [
   {
     "id": 293,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the following responses by Sean?\n\n<strong>Question:</strong>\nIgnore the situation. The rest of the group is working well and you can work harder to complete the group project.",
+    "text": "<strong>Scenario:</strong>\nSean is a medical student working on a group project with three other students. One of the students, Sarah, is consistently arriving late and is not contributing her fair share of work to the group project. How appropriate are each of the follflowing responses by Sean?\n\n<strong>Question:</strong>\nIgnore the situation. The rest of the group is working well and you can work harder to complete the group project.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4100,13 +4096,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This is unfair to the other group members, in addition Sarah may be going through personal problems that she needs support for.",
+    "explanation": "This is unfair to the other group members, in addition Sarah may be going through personal problems that she needs support for. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 294,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the following responses by Mary?\n\n<strong>Question:</strong>\nApproach the nurse and inform her that this is not best practice.",
+    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the follflowing responses by Mary?\n\n<strong>Question:</strong>\nApproach the nurse and inform her that this is not best practice.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4114,13 +4110,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "The nurse may not be aware of whom Mary is and Mary may come across as patronising, so the nurse may not be inclined to listen to her.",
+    "explanation": "The nurse may not be aware of whom Mary is and Mary may come across as patronising, so the nurse may not be inclined to listen to her. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 295,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the following responses by Mary?\n\n<strong>Question:</strong>\nInform the nurse in charge.",
+    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the follflowing responses by Mary?\n\n<strong>Question:</strong>\nInform the nurse in charge.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4128,13 +4124,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Reporting the situation to a senior member is appropriate. The best person to report it to is the nurses immediate senior.",
+    "explanation": "Reporting the situation to a senior member is appropriate. The best person to report it to is the nurses immediate senior. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 296,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the following responses by Mary?\n\n<strong>Question:</strong>\nReport the matter to the Consultant supervising her.",
+    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the follflowing responses by Mary?\n\n<strong>Question:</strong>\nReport the matter to the Consultant supervising her.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4148,7 +4144,7 @@ const QUESTIONS = [
   {
     "id": 297,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the following responses by Mary?\n\n<strong>Question:</strong>\nPretend she did not see anything as the nurse probably needs the antibiotics.",
+    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the follflowing responses by Mary?\n\n<strong>Question:</strong>\nPretend she did not see anything as the nurse probably needs the antibiotics.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4162,7 +4158,7 @@ const QUESTIONS = [
   {
     "id": 298,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the following responses by Mary?\n\n<strong>Question:</strong>\nWrite a reflective piece on the nurse’s practice.",
+    "text": "<strong>Scenario:</strong>\nMary is a medical student who is attending a placement on the wards. One day she sees a nurse pick antibiotics out of a drug trolley and place them in her handbag for personal use. How appropriate are each of the follflowing responses by Mary?\n\n<strong>Question:</strong>\nWrite a reflective piece on the nurse’s practice.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4176,7 +4172,7 @@ const QUESTIONS = [
   {
     "id": 299,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the following responses by Alan in this situation?\n\n<strong>Question:</strong>\nComplain about the incident to a senior nurse.",
+    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the follflowing responses by Alan in this situation?\n\n<strong>Question:</strong>\nComplain about the incident to a senior nurse.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4190,7 +4186,7 @@ const QUESTIONS = [
   {
     "id": 300,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the following responses by Alan in this situation?\n\n<strong>Question:</strong>\nArrange a meeting with the Consultant to discuss the incident.",
+    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the follflowing responses by Alan in this situation?\n\n<strong>Question:</strong>\nArrange a meeting with the Consultant to discuss the incident.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4204,7 +4200,7 @@ const QUESTIONS = [
   {
     "id": 301,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the following responses by Alan in this situation?\n\n<strong>Question:</strong>\nArgue with the Consultant at the bedside so he knows he is being rude.",
+    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the follflowing responses by Alan in this situation?\n\n<strong>Question:</strong>\nArgue with the Consultant at the bedside so he knows he is being rude.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4218,7 +4214,7 @@ const QUESTIONS = [
   {
     "id": 302,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the following responses by Alan in this situation?\n\n<strong>Question:</strong>\nArrange a meeting with his medical school supervisor to discuss the incident.",
+    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the follflowing responses by Alan in this situation?\n\n<strong>Question:</strong>\nArrange a meeting with his medical school supervisor to discuss the incident.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4232,7 +4228,7 @@ const QUESTIONS = [
   {
     "id": 303,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the following responses by Alan in this situation?\n\n<strong>Question:</strong>\nOnce the session is over apologise to the patient about the consultant’s behaviour.",
+    "text": "<strong>Scenario:</strong>\nAlan is a medical student who is having a bedside teaching session.During the session the Consultant asks Alan a range of questions, some of which he struggles to answer. At the end of the session Alan feels that the Consultant was rude and has embarrassed him in front of the patient. How appropriate are each of the follflowing responses by Alan in this situation?\n\n<strong>Question:</strong>\nOnce the session is over apologise to the patient about the consultant’s behaviour.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4246,7 +4242,7 @@ const QUESTIONS = [
   {
     "id": 304,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the following responses by Harry in this situation?\n\n<strong>Question:</strong>\nTell the nurse that this is really an issue for the ward Consultant to deal with and she should go and talk to him,",
+    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the follflowing responses by Harry in this situation?\n\n<strong>Question:</strong>\nTell the nurse that this is really an issue for the ward Consultant to deal with and she should go and talk to him,",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4260,7 +4256,7 @@ const QUESTIONS = [
   {
     "id": 305,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the following responses by Harry in this situation?\n\n<strong>Question:</strong>\nRaise the issue in confidence with Joe.",
+    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the follflowing responses by Harry in this situation?\n\n<strong>Question:</strong>\nRaise the issue in confidence with Joe.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4274,7 +4270,7 @@ const QUESTIONS = [
   {
     "id": 306,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the following responses by Harry in this situation?\n\n<strong>Question:</strong>\nTell the nurse he will speak to Joe about it, but then ignore the issue. Harry does not want to hurt Joe’s feelings.",
+    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the follflowing responses by Harry in this situation?\n\n<strong>Question:</strong>\nTell the nurse he will speak to Joe about it, but then ignore the issue. Harry does not want to hurt Joe’s feelings.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4282,13 +4278,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Harry is being dishonest to the nurse especially when he has promised to speak to Joe.",
+    "explanation": "Harry is being dishonest to the nurse especially when he has promised to speak to Joe. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 307,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the following responses by Harry in this situation?\n\n<strong>Question:</strong>\nSend an anonymous note to Joe.",
+    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the follflowing responses by Harry in this situation?\n\n<strong>Question:</strong>\nSend an anonymous note to Joe.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4296,13 +4292,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "Harry is not publically humiliating Joe and he has not ignored the issue, but sending him an anonymous note is very cowardly and may upset Joe.",
+    "explanation": "Harry is not publically humiliating Joe and he has not ignored the issue, but sending him an anonymous note is very cowardly and may upset Joe. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 308,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the following responses by Harry in this situation?\n\n<strong>Question:</strong>\nRaise the issue at a student group meeting with Joe present.",
+    "text": "<strong>Scenario:</strong>\nHarry is a medical student doing a placement on a medical ward. One of the nurses comes up to Harry and complains to him about one of his colleagues, Joe’s, body odour and is asking if he could have a quiet word with him. How appropriate are each of the follflowing responses by Harry in this situation?\n\n<strong>Question:</strong>\nRaise the issue at a student group meeting with Joe present.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4310,13 +4306,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This action will achieve nothing other than publicly humiliating Joe in front of other students.",
+    "explanation": "This action will achieve nothing other than publicly humiliating Joe in front of other students. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 309,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nTell the consultant that she can’t publish the case report with the two names added and will only publish it under her name.",
+    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nTell the consultant that she can’t publish the case report with the two names added and will only publish it under her name.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4324,13 +4320,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "It is appropriate to be honest to the consultant and to refuse to add the names unless they have contributed to the report.",
+    "explanation": "It is appropriate to be honest to the consultant and to refuse to add the names unless they have contributed to the report. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 310,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nAgree to add the names as it’s only a case report and not a research paper.",
+    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nAgree to add the names as it’s only a case report and not a research paper.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4338,13 +4334,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This is dishonest and unprofessional, it doesn’t matter what type of publication; it is a matter of personal ethics that Helen has to her patients and society.",
+    "explanation": "This is dishonest and unprofessional, it doesn’t matter what type of publication; it is a matter of personal ethics that Helen has to her patients and society. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 311,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nDiscuss the matter with her medical school supervisor.",
+    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nDiscuss the matter with her medical school supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4352,13 +4348,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Escalating the problem to the medical student supervisor is appropriate as he would be able to support and provide Helen with the advice\n\n\nneeded.",
+    "explanation": "Escalating the problem to the medical student supervisor is appropriate as he would be able to support and provide Helen with the advice needed. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 312,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nDiscuss the matter with the consultant in a private meeting.",
+    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nDiscuss the matter with the consultant in a private meeting.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4366,13 +4362,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Helen could clarify if the added names have actually contributed to the report and to discuss her concerns.",
+    "explanation": "Helen could clarify if the added names have actually contributed to the report and to discuss her concerns. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 313,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the following responses by Helen in this situation?\n\n<strong>Question:</strong>\nChoose not to publish the case report at all.",
+    "text": "<strong>Scenario:</strong>\nHelen is a final year medical student. She has written a case report for publication and her Consultant has recently reviewed the final draft. When he gives her the case report back with comments, he has added two names to the list of authors. Helen enquires and the Consultant explains that it is his wife and his Registrar who are currently applying for jobs and need publications on their CVs. How appropriate are each of the follflowing responses by Helen in this situation?\n\n<strong>Question:</strong>\nChoose not to publish the case report at all.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4386,7 +4382,7 @@ const QUESTIONS = [
   {
     "id": 314,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nAccuse Clare of stealing the books from the library.",
+    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nAccuse Clare of stealing the books from the library.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4394,13 +4390,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "John is being presumptive here, the books may be Clare’s own, and Clare may have borrowed the books from the library and forgot to return them.",
+    "explanation": "John is being presumptive here, the books may be Clare’s own, and Clare may have borrowed the books from the library and forgot to return them. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 315,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nAsk Clare if these are actually the books from the library and tell her to return them if they are the missing books.",
+    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nAsk Clare if these are actually the books from the library and tell her to return them if they are the missing books.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4414,7 +4410,7 @@ const QUESTIONS = [
   {
     "id": 316,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nContacting the police, theft is a crime.",
+    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nContacting the police, theft is a crime.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4422,13 +4418,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "There is no need to contact the police in this situation, John would be wasting their time and resources.",
+    "explanation": "There is no need to contact the police in this situation, John would be wasting their time and resources. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 317,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nInform the medical school library of his suspicions.",
+    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nInform the medical school library of his suspicions.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4442,7 +4438,7 @@ const QUESTIONS = [
   {
     "id": 318,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nDiscussing the situation with his supervisor.",
+    "text": "<strong>Scenario:</strong>\nThe medical school library has sent out a notice for a few missing books. John and Clare, both medical students, are studying at her home. Whilst they are studying, John sees a pile of books on her shelf which suspiciously look like the ones from the library. How appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nDiscussing the situation with his supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4450,13 +4446,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "If John is not sure of how to tackle the situation it would be best to discuss it with his supervisor as he would give him the advice needed.",
+    "explanation": "If John is not sure of how to tackle the situation it would be best to discuss it with his supervisor as he would give him the advice needed. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 319,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadowing Anne. How appropriate are each of the following responses by Nadia in this situation?\n\n<strong>Question:</strong>\nSpeak to Anne about her feelings of being ignored, and find a solution with Anne.",
+    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadflowing Anne. How appropriate are each of the follflowing responses by Nadia in this situation?\n\n<strong>Question:</strong>\nSpeak to Anne about her feelings of being ignored, and find a solution with Anne.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4470,7 +4466,7 @@ const QUESTIONS = [
   {
     "id": 320,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadowing Anne. How appropriate are each of the following responses by Nadia in this situation?\n\n<strong>Question:</strong>\nWatch and wait- there is still three weeks left to her attachment and things may improve.",
+    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadflowing Anne. How appropriate are each of the follflowing responses by Nadia in this situation?\n\n<strong>Question:</strong>\nWatch and wait- there is still three weeks left to her attachment and things may improve.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4484,7 +4480,7 @@ const QUESTIONS = [
   {
     "id": 321,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadowing Anne. How appropriate are each of the following responses by Nadia in this situation?\n\n<strong>Question:</strong>\nDiscuss the situation with her supervisor.",
+    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadflowing Anne. How appropriate are each of the follflowing responses by Nadia in this situation?\n\n<strong>Question:</strong>\nDiscuss the situation with her supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4492,13 +4488,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Her supervisor would be a good person to speak to, to get advice and help",
+    "explanation": "Her supervisor would be a good person to speak to, to get advice and help. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 322,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadowing Anne. How appropriate are each of the following responses by Nadia in this situation?\n\n<strong>Question:</strong>\nStop coming to the ward and go to the library instead.",
+    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadflowing Anne. How appropriate are each of the follflowing responses by Nadia in this situation?\n\n<strong>Question:</strong>\nStop coming to the ward and go to the library instead.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4506,13 +4502,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "Nadia needs to spend time on the wards during her medical school years, as this will give her invaluable patient experience, However, she may feel that her time is spent more eﬃciently in the library.",
+    "explanation": "Nadia needs to spend time on the wards during her medical school years, as this will give her invaluable patient experience, However, she may feel that her time is spent more efficiently in the library.",
     "topic": "Situational Judgement"
   },
   {
     "id": 323,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadowing Anne. How appropriate are each of the following responses by Nadia in this situation?\n\n<strong>Question:</strong>\nFind another doctor on the ward who she can shadow.",
+    "text": "<strong>Scenario:</strong>\nNadia, a fifth year medical student, is currently on a four week rotation on the neonatal wards. She has been assigned to shadow one of the consultants, Anne. During her first week, whenever Nadia approaches Anne, she is told that ‘there is not much going on today, why don’t you head home early’. This continues for a week and Nadia is starting to feel like she hasn’t learnt anything whilst shadflowing Anne. How appropriate are each of the follflowing responses by Nadia in this situation?\n\n<strong>Question:</strong>\nFind another doctor on the ward who she can shadow.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4526,7 +4522,7 @@ const QUESTIONS = [
   {
     "id": 324,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the following responses by Dean?\n\n<strong>Question:</strong>\nReprimand Laura for delaying signing the book until now, refuse to sign the book and give her tips of how to be more organised.",
+    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the follflowing responses by Dean?\n\n<strong>Question:</strong>\nReprimand Laura for delaying signing the book until now, refuse to sign the book and give her tips of how to be more organised.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4540,7 +4536,7 @@ const QUESTIONS = [
   {
     "id": 325,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the following responses by Dean?\n\n<strong>Question:</strong>\nAgree to sign the missing boxes for Laura, Dean knows she attended everyday.",
+    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the follflowing responses by Dean?\n\n<strong>Question:</strong>\nAgree to sign the missing boxes for Laura, Dean knows she attended everyday.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4548,13 +4544,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Despite seeing Laura attending the sessions, this is dishonest. It would be considered forgery as doctors are required to sign.",
+    "explanation": "Despite seeing Laura attending the sessions, this is dishonest. It would be considered forgery as doctors are required to sign. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 326,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the following responses by Dean?\n\n<strong>Question:</strong>\nSuggest she finds one of the junior doctors to sign her book.",
+    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the follflowing responses by Dean?\n\n<strong>Question:</strong>\nSuggest she finds one of the junior doctors to sign her book.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4562,13 +4558,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Directing Laura to the right person who is meant to be signing the book is appropriate as they know the appropriate steps to take.",
+    "explanation": "Directing Laura to the right person who is meant to be signing the book is appropriate as they know the appropriate steps to take. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 327,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the following responses by Dean?\n\n<strong>Question:</strong>\nAsk Laura to demonstrate the skills and then sign them.",
+    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the follflowing responses by Dean?\n\n<strong>Question:</strong>\nAsk Laura to demonstrate the skills and then sign them.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4576,13 +4572,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Even if Laura has demonstrated the skill, students should not be signing assessments for one another.",
+    "explanation": "Even if Laura has demonstrated the skill, students should not be signing assessments for one another. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 328,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the following responses by Dean?\n\n<strong>Question:</strong>\nReport Laura to the medical school.",
+    "text": "<strong>Scenario:</strong>\nDean,a third year medical student, is currently on a placement in hospital with a group of three other students. During their placement they have to get their attendance and some clinical skills signed off by doctors. On the last day of their placement, one of the other students, Laura, approaches Dean and asks him to sign off some of her attendance and two of her skills. How appropriate are each of the follflowing responses by Dean?\n\n<strong>Question:</strong>\nReport Laura to the medical school.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4590,13 +4586,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "Reporting Laura to the medical school without clarifying the situation or trying the solve it is a bit extreme, however forgery is a great academic offence.",
+    "explanation": "Reporting Laura to the medical school without clarifying the situation or trying the solve it is a bit extreme, however forgery is a great academic offence. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 329,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmma is shadowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the following responses by Emma in this situation?\n\n<strong>Question:</strong>\nTry to cannulate the patient herself, she was successful in inserting one yesterday.",
+    "text": "<strong>Scenario:</strong>\nEmma is shadflowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the follflowing responses by Emma in this situation?\n\n<strong>Question:</strong>\nTry to cannulate the patient herself, she was successful in inserting one yesterday.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4604,13 +4600,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "There must be a reason why it took Steven three attempts to cannulate the patient, Emma should work within her limitations.",
+    "explanation": "There must be a reason why it took Steven three attempts to cannulate the patient, Emma should work within her limitations. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 330,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmma is shadowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the following responses by Emma in this situation?\n\n<strong>Question:</strong>\nSpeak to the nurse in charge about Steven.",
+    "text": "<strong>Scenario:</strong>\nEmma is shadflowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the follflowing responses by Emma in this situation?\n\n<strong>Question:</strong>\nSpeak to the nurse in charge about Steven.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4624,7 +4620,7 @@ const QUESTIONS = [
   {
     "id": 331,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmma is shadowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the following responses by Emma in this situation?\n\n<strong>Question:</strong>\nExcuse herself from the patient’s bedside and go and find Steven.",
+    "text": "<strong>Scenario:</strong>\nEmma is shadflowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the follflowing responses by Emma in this situation?\n\n<strong>Question:</strong>\nExcuse herself from the patient’s bedside and go and find Steven.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4638,7 +4634,7 @@ const QUESTIONS = [
   {
     "id": 332,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmma is shadowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the following responses by Emma in this situation?\n\n<strong>Question:</strong>\nSpeak to Steven’s consultant.",
+    "text": "<strong>Scenario:</strong>\nEmma is shadflowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the follflowing responses by Emma in this situation?\n\n<strong>Question:</strong>\nSpeak to Steven’s consultant.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4646,13 +4642,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Escalating the situation to a more senior doctor is appropriate, they would be able to provide Emma with advice on what to do.",
+    "explanation": "Escalating the situation to a more senior doctor is appropriate, they would be able to provide Emma with advice on what to do. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 333,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmma is shadowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the following responses by Emma in this situation?\n\n<strong>Question:</strong>\nComplain about Steven to the patient.",
+    "text": "<strong>Scenario:</strong>\nEmma is shadflowing a junior doctor, Steven, on the wards. He is trying to cannulate a patient and after three failed attempts, he stops and leaves the patient’s bedside flustered without an explanation. Emma is still stood by the patient’s bedside. How appropriate are each of the follflowing responses by Emma in this situation?\n\n<strong>Question:</strong>\nComplain about Steven to the patient.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4660,13 +4656,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Emma is undermining Steven as a doctor, and this would affect patient-doctor trust.",
+    "explanation": "Emma is undermining Steven as a doctor, and this would affect patient-doctor trust. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 334,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the following responses by Jill in this situation?\n\n<strong>Question:</strong>\nShe should retaliate and call the patient a racist idiot.",
+    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadflowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the follflowing responses by Jill in this situation?\n\n<strong>Question:</strong>\nShe should retaliate and call the patient a racist idiot.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4674,13 +4670,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Jill should remain professional in her manner even if the patient has said something offensive, and retaliating could make the situation worse.",
+    "explanation": "Jill should remain professional in her manner even if the patient has said something offensive, and retaliating could make the situation worse. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 335,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the following responses by Jill in this situation?\n\n<strong>Question:</strong>\nPretend she didn’t hear the patient’s comment.",
+    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadflowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the follflowing responses by Jill in this situation?\n\n<strong>Question:</strong>\nPretend she didn’t hear the patient’s comment.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4694,7 +4690,7 @@ const QUESTIONS = [
   {
     "id": 336,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the following responses by Jill in this situation?\n\n<strong>Question:</strong>\nPolitely tell the patient that this language is not tolerated in the hospital.",
+    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadflowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the follflowing responses by Jill in this situation?\n\n<strong>Question:</strong>\nPolitely tell the patient that this language is not tolerated in the hospital.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4702,13 +4698,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Racist comments are not tolerated in any workplace, so speaking to the patient politely maintains professionalism and shows that Jill has taken initiative.",
+    "explanation": "Racist comments are not tolerated in any workplace, so speaking to the patient politely maintains professionalism and shows that Jill has taken initiative. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 337,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the following responses by Jill in this situation?\n\n<strong>Question:</strong>\nDiscuss the matter with the consultant in charge.",
+    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadflowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the follflowing responses by Jill in this situation?\n\n<strong>Question:</strong>\nDiscuss the matter with the consultant in charge.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4716,13 +4712,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Discussing the matter with the consultant in charge is appropriate, he will provide Jill with the right advice and can help in de- escalating the situation.",
+    "explanation": "Discussing the matter with the consultant in charge is appropriate, he will provide Jill with the right advice and can help in de- escalating the situation. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 338,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the following responses by Jill in this situation?\n\n<strong>Question:</strong>\nReport the matter to the registrar.",
+    "text": "<strong>Scenario:</strong>\nJill is a medical student. She is shadflowing a registrar in surgery, who is currently clerking a patient who needs an operation. The registrar leaves Jill with the patient and goes to get the operation consent forms. While he is away the patient makes a racist comment about the registrar. How appropriate are each of the follflowing responses by Jill in this situation?\n\n<strong>Question:</strong>\nReport the matter to the registrar.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4736,7 +4732,7 @@ const QUESTIONS = [
   {
     "id": 339,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nDiscuss the issue with the other members of the group.",
+    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nDiscuss the issue with the other members of the group.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4744,13 +4740,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Xun should try to do it to the best of his ability in the remaining time.",
+    "explanation": "Xun should try to do it to the best of his ability in the remaining time. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 340,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nSpeak to Hannah and tell her she is not allowing others to contribute ,and if she doesn’t change she has to leave the group.",
+    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nSpeak to Hannah and tell her she is not allflowing others to contribute ,and if she doesn’t change she has to leave the group.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4758,13 +4754,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "it is unlikely that the deadline will be unchanged but there is always space for honesty and he might just be lucky.",
+    "explanation": "it is unlikely that the deadline will be unchanged but there is always space for honesty and he might just be lucky. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 341,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nAllow Hannah to continue to dominate the group discussions and to do the majority of the work.",
+    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nAllow Hannah to continue to dominate the group discussions and to do the majority of the work.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4772,13 +4768,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this action will affect his final grade.",
+    "explanation": "because this action will affect his final grade. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 342,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nSpeak to his supervisor.",
+    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nSpeak to his supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4786,13 +4782,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this is plagiarism and both Xun and his friend would be penalised for it.",
+    "explanation": "because this is plagiarism and both Xun and his friend would be penalised for it. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 343,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the following responses by John in this situation?\n\n<strong>Question:</strong>\nSpeak to Hannah and tell her it would be good if all members of the group contributed equally to the project.",
+    "text": "<strong>Scenario:</strong>\nJohn is a first year medical student, he is working with four other medical students on a group project. Hannah, one of the other students, is dominating the group discussions and is doing a large amount of the work.\n\n\nHow appropriate are each of the follflowing responses by John in this situation?\n\n<strong>Question:</strong>\nSpeak to Hannah and tell her it would be good if all members of the group contributed equally to the project.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4800,13 +4796,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because he would be lying to the assessment oﬃce and could get into a lot of trouble for it.",
+    "explanation": "because he would be lying to the assessment office and could get into a lot of trouble for it. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 344,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the following responses by Jenny in this situation?\n\n<strong>Question:</strong>\nAdvise her colleague to go home for the day.",
+    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the follflowing responses by Jenny in this situation?\n\n<strong>Question:</strong>\nAdvise her colleague to go home for the day.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4814,13 +4810,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because he will be showing that he respects the hospital, infection control, and the patients.",
+    "explanation": "because he will be shflowing that he respects the hospital, infection control, and the patients. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 345,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the following responses by Jenny in this situation?\n\n<strong>Question:</strong>\nOffer her colleague support.",
+    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the follflowing responses by Jenny in this situation?\n\n<strong>Question:</strong>\nOffer her colleague support.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4828,13 +4824,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "because this will set a bad first impression to his patients and colleagues – made worse by his refusal.",
+    "explanation": "because this will set a bad first impression to his patients and colleagues – made worse by his refusal. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 346,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the following responses by Jenny in this situation?\n\n<strong>Question:</strong>\nDiscuss this with her supervisor.",
+    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the follflowing responses by Jenny in this situation?\n\n<strong>Question:</strong>\nDiscuss this with her supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4842,13 +4838,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": ". Nahor may set a bad first impression but there is a small chance that he might be allowed to keep it.",
+    "explanation": ". Nahor may set a bad first impression but there is a small chance that he might be allowed to keep it. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 347,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the following responses by Jenny in this situation?\n\n<strong>Question:</strong>\nTell her colleague it is inappropriate to cry on the wards and to stop.",
+    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the follflowing responses by Jenny in this situation?\n\n<strong>Question:</strong>\nTell her colleague it is inappropriate to cry on the wards and to stop.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4856,13 +4852,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "because he can still enjoy keeping his hair in an individual style without looking unprofessional.",
+    "explanation": "because he can still enjoy keeping his hair in an individual style without looking unprofessional. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 348,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the following responses by Jenny in this situation?\n\n<strong>Question:</strong>\nGive her colleague some time alone.",
+    "text": "<strong>Scenario:</strong>\nJenny, a medical student, hears that one of her colleagues has recently lost their grandmother. They are both at hospital on their rotation, when her colleague bursts into tears. How appropriate are each of the follflowing responses by Jenny in this situation?\n\n<strong>Question:</strong>\nGive her colleague some time alone.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4876,7 +4872,7 @@ const QUESTIONS = [
   {
     "id": 349,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the following responses by Maya in this situation?\n\n<strong>Question:</strong>\nMaya should join in the conversation and speak about a particularly interesting patient she had seen.",
+    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the follflowing responses by Maya in this situation?\n\n<strong>Question:</strong>\nMaya should join in the conversation and speak about a particularly interesting patient she had seen.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4884,13 +4880,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This is a breach of patient confidentiality. Patient details should not be discussed in public places.",
+    "explanation": "This is a breach of patient confidentiality. Patient details should not be discussed in public places. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 350,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the following responses by Maya in this situation?\n\n<strong>Question:</strong>\nMaya should warn her friends that they are in a public place and should not be talking about patients using their names.",
+    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the follflowing responses by Maya in this situation?\n\n<strong>Question:</strong>\nMaya should warn her friends that they are in a public place and should not be talking about patients using their names.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4898,13 +4894,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Maya is within a group of friends and she should remind her friends of patient confidentiality and their duty to protect it.",
+    "explanation": "Maya is within a group of friends and she should remind her friends of patient confidentiality and their duty to protect it. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 351,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the following responses by Maya in this situation?\n\n<strong>Question:</strong>\nMaya should try to change the subject of the conversation.",
+    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the follflowing responses by Maya in this situation?\n\n<strong>Question:</strong>\nMaya should try to change the subject of the conversation.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4918,7 +4914,7 @@ const QUESTIONS = [
   {
     "id": 352,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the following responses by Maya in this situation?\n\n<strong>Question:</strong>\nMaya should report her friends to the medical school",
+    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the follflowing responses by Maya in this situation?\n\n<strong>Question:</strong>\nMaya should report her friends to the medical school",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4932,7 +4928,7 @@ const QUESTIONS = [
   {
     "id": 353,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the following responses by Maya in this situation?\n\n<strong>Question:</strong>\nExcuse herself from the table and leave.",
+    "text": "<strong>Scenario:</strong>\nMaya, a sixth year medical student, is out with a group of her friends from medical school. They are all out at a restaurant for an evening meal. The students start discussing some of the interesting patients they had seen over the last few weeks. Some of the patients’ names are being mentioned in the conversation, and other diners could certainly overhear. How appropriate are each of the follflowing responses by Maya in this situation?\n\n<strong>Question:</strong>\nExcuse herself from the table and leave.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4946,7 +4942,7 @@ const QUESTIONS = [
   {
     "id": 354,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the following responses by Michael in this situation?\n\n<strong>Question:</strong>\nSpeak to his own supervisor without telling Simon.",
+    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the follflowing responses by Michael in this situation?\n\n<strong>Question:</strong>\nSpeak to his own supervisor without telling Simon.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4954,13 +4950,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "The supervisor would be able to provide Michael with advice on how to proceed, but Simon may not have wanted anyone else to know.",
+    "explanation": "The supervisor would be able to provide Michael with advice on how to proceed, but Simon may not have wanted anyone else to know. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 355,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the following responses by Michael in this situation?\n\n<strong>Question:</strong>\nAdvise Simon to speak to his supervisor.",
+    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the follflowing responses by Michael in this situation?\n\n<strong>Question:</strong>\nAdvise Simon to speak to his supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4974,7 +4970,7 @@ const QUESTIONS = [
   {
     "id": 356,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the following responses by Michael in this situation?\n\n<strong>Question:</strong>\nMock him and tell him he should get over it.",
+    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the follflowing responses by Michael in this situation?\n\n<strong>Question:</strong>\nMock him and tell him he should get over it.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -4982,13 +4978,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Simon has confided in Michael seeking support, mocking him may make him feel worse about himself.",
+    "explanation": "Simon has confided in Michael seeking support, mflocking him may make him feel worse about himself. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 357,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the following responses by Michael in this situation?\n\n<strong>Question:</strong>\nTell other students in the medical school so they can offer some support.",
+    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the follflowing responses by Michael in this situation?\n\n<strong>Question:</strong>\nTell other students in the medical school so they can offer some support.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5002,7 +4998,7 @@ const QUESTIONS = [
   {
     "id": 358,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the following responses by Michael in this situation?\n\n<strong>Question:</strong>\nOffer any help he can, and advise him to see his GP or a counselor.",
+    "text": "<strong>Scenario:</strong>\nMichael is a medical student; one of his colleagues Simon confides in him that he is suffering from depression and feels it is affecting their work. He asks Michael not to tell anyone. How appropriate are each of the follflowing responses by Michael in this situation?\n\n<strong>Question:</strong>\nOffer any help he can, and advise him to see his GP or a counselor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5016,7 +5012,7 @@ const QUESTIONS = [
   {
     "id": 359,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the following responses by Mark in this situation?\n\n<strong>Question:</strong>\nPretend he didn’t see anything and leave the doctor’s mess immediately.",
+    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the follflowing responses by Mark in this situation?\n\n<strong>Question:</strong>\nPretend he didn’t see anything and leave the doctor’s mess immediately.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5024,13 +5020,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "The doctor is in breach of hospital regulations and his moral obligations; he needs to be made aware that what he is doing is wrong.",
+    "explanation": "The doctor is in breach of hospital regulations and his moral obligations; he needs to be made aware that what he is doing is wrong. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 360,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the following responses by Mark in this situation?\n\n<strong>Question:</strong>\nSpeak to his supervisor.",
+    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the follflowing responses by Mark in this situation?\n\n<strong>Question:</strong>\nSpeak to his supervisor.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5038,13 +5034,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Mark’s supervisor would be aware of the guidelines for similar issues so he would be able to advise Mark on what to do and to support\n\n\nhim.",
+    "explanation": "Mark’s supervisor would be aware of the guidelines for similar issues so he would be able to advise Mark on what to do and to support him. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 361,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the following responses by Mark in this situation?\n\n<strong>Question:</strong>\nConfront the doctor about the issue.",
+    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the follflowing responses by Mark in this situation?\n\n<strong>Question:</strong>\nConfront the doctor about the issue.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5058,7 +5054,7 @@ const QUESTIONS = [
   {
     "id": 362,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the following responses by Mark in this situation?\n\n<strong>Question:</strong>\nSpread the news in the hospital that there was a doctor watching pornography during working hours.",
+    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the follflowing responses by Mark in this situation?\n\n<strong>Question:</strong>\nSpread the news in the hospital that there was a doctor watching pornography during working hours.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5066,13 +5062,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Mark has not clarified the situation with the doctor; this may anger the doctor and may lead to patients losing trust in doctors.",
+    "explanation": "Mark has not clarified the situation with the doctor; this may anger the doctor and may lead to patients losing trust in doctors. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
     "id": 363,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the following responses by Mark in this situation?\n\n<strong>Question:</strong>\nContact the hospital IT services.",
+    "text": "<strong>Scenario:</strong>\nMark is a medical student, he walk into the doctor’s mess and sees one of the doctors watching adult pornography on one of the hospital computers. How appropriate are each of the follflowing responses by Mark in this situation?\n\n<strong>Question:</strong>\nContact the hospital IT services.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5086,7 +5082,7 @@ const QUESTIONS = [
   {
     "id": 364,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the following responses by Alice in this situation?\n\n<strong>Question:</strong>\nTell another student to apologise to the seminar leader for her absence.",
+    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the follflowing responses by Alice in this situation?\n\n<strong>Question:</strong>\nTell another student to apologise to the seminar leader for her absence.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5094,13 +5090,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "She is offering her apologies, however is involving another student and this is not the appropriate step to take.",
+    "explanation": "She is offering her apologies, however is involving another student and this is not the appropriate step to take. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 365,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the following responses by Alice in this situation?\n\n<strong>Question:</strong>\nLeave as planned, and hope her absence goes unnoticed.",
+    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the follflowing responses by Alice in this situation?\n\n<strong>Question:</strong>\nLeave as planned, and hope her absence goes unnoticed.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5108,13 +5104,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "The change in seminar times was very short notice, so other students may be off sick however Alice would have to justify her absence at a later date.",
+    "explanation": "The change in seminar times was very short notice, so other students may be off sick however Alice would have to justify her absence at a later date. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
     "id": 366,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the following responses by Alice in this situation?\n\n<strong>Question:</strong>\nFind out what the seminar is about and speak to the seminar leader and explain that she had prior arrangements.",
+    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the follflowing responses by Alice in this situation?\n\n<strong>Question:</strong>\nFind out what the seminar is about and speak to the seminar leader and explain that she had prior arrangements.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5128,7 +5124,7 @@ const QUESTIONS = [
   {
     "id": 367,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the following responses by Alice in this situation?\n\n<strong>Question:</strong>\nCall her boyfriend and tell him that the dinner needs to be cancelled, as she must attend an important teaching session.",
+    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the follflowing responses by Alice in this situation?\n\n<strong>Question:</strong>\nCall her boyfriend and tell him that the dinner needs to be cancelled, as she must attend an important teaching session.",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5136,13 +5132,13 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 1,
-    "explanation": "Alice has realised that she has to attend the teaching session, it is good to have a work and social life balance so cancelling the dinner plans is not ideal.",
+    "explanation": "Alice has realised that she has to attend the teaching session, it is good to have a work and social life balance so cancelling the dinner plans is not ideal. Under professional clinical standards, while this action takes a positive and constructive step toward resolving the situation, it is not the most direct, timely, or comprehensive approach available. It addresses part of the concern but leaves important elements unaddressed, making it appropriate, but not ideal.",
     "topic": "Situational Judgement"
   },
   {
     "id": 368,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the following responses by Alice in this situation?\n\n<strong>Question:</strong>\nWrite a rude email to the seminar leader complaining about the short notice.\n\n\nANSWERS",
+    "text": "<strong>Scenario:</strong>\nAlice has arranged to go out for dinner with her boyfriend tonight. Just before leaving medical school she receives an e-mail which informs her that tomorrow morning’s seminar has been moved to this evening and starts in the next 30 minutes. How appropriate are each of the follflowing responses by Alice in this situation?\n\n<strong>Question:</strong>\nWrite a rude email to the seminar leader complaining about the short notice.\n\n\nANSWERS",
     "options": [
       "Very appropriate",
       "Appropriate, but not ideal",
@@ -5150,7 +5146,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "The change in seminar times is short notice however; there are ways that Alice could approach the issue without being rude.",
+    "explanation": "The change in seminar times is short notice however; there are ways that Alice could approach the issue without being rude. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5206,7 +5202,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Being dishonest is an inappropriate course of action in any context. This option also demonstrates Adam  would not be admitting his need for help, which may have further consequences for his training and for  becoming a good doctor. This is therefore highly inappropriate.",
+    "explanation": "Being dishonest is an inappropriate course of action in any context. This option also demonstrates Adam  would not be admitting his need for help, which may have further conseqfluences for his training and for  becoming a good doctor. This is therefore highly inappropriate.",
     "topic": "Situational Judgement"
   },
   {
@@ -5220,7 +5216,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This response is neutral and supportive, and is thus highly appropriate.",
+    "explanation": "This response is neutral and supportive, and is thus highly appropriate. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5290,7 +5286,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "This is an inappropriate option, as it could come across as rude and might be awkward if the patient were  to be re-admitted to her ward. However, it is not awful, since doctors should not socialise with patients.  The better response would be to ignore the request, rather than denying it.",
+    "explanation": "This is an inappropriate option, as it could come across as rude and might be awkward if the patient were  to be fire-admitted to her ward. However, it is not awful, since doctors should not socialise with patients.  The better response would be to ignore the request, rather than denying it.",
     "topic": "Situational Judgement"
   },
   {
@@ -5304,7 +5300,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This is a very inappropriate response, as it is unprofessional for Saba to socialise with a patient. Accepting  the request in order to explain why she cannot socialise would send the patient a mixed message, and  would also begin a conversation on the social networking site, which could lead to serious professional  consequences for Saba, despite her best intentions.",
+    "explanation": "This is a very inappropriate response, as it is unprofessional for Saba to socialise with a patient. Accepting  the request in order to explain why she cannot socialise would send the patient a mixed message, and  would also begin a conversation on the social networking site, which could lead to serious professional  conseqfluences for Saba, despite her best intentions.",
     "topic": "Situational Judgement"
   },
   {
@@ -5318,7 +5314,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This would be a highly appropriate response, since it will not escalate the situation further, and it will  ensure that Saba does not engage in any inappropriate social contact with a patient.\n\n\nScore Higher on the UKCAT 352",
+    "explanation": "This would be a highly appropriate response, since it will not escalate the situation further, and it will  ensure that Saba does not engage in any inappropriate social contact with a patient.\n\n\nScore Higher on the UKCAT 352.",
     "topic": "Situational Judgement"
   },
   {
@@ -5332,7 +5328,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "It is inappropriate for a doctor to speak to nurses in such a manner; however, the nurses are behaving  unprofessionally, so this response is not awful.",
+    "explanation": "It is inappropriate for a doctor to speak to nurses in such a manner; however, the nurses are behaving unprofessionally, so this response is not awful. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
@@ -5346,7 +5342,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This response allows Dr Davies to obtain the information required quickly and directly, and is therefore  a very appropriate thing to do.",
+    "explanation": "This response allows Dr Davies to obtain the information required quickly and directly, and is therefore a very appropriate thing to do. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5360,7 +5356,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "Clearing her throat will not ensure that the nurses notice her presence or stop their gossiping, so it is not  an effective or appropriate response. However, there are no negative consequences from doing so, other  than potentially having to wait a bit longer for help from the nurses-so it is not an awful response.",
+    "explanation": "Clearing her throat will not ensure that the nurses notice her presence or stop their gossiping, so it is not  an effective or appropriate response. However, there are no negative conseqfluences from doing so, other  than potentially having to wait a bit longer for help from the nurses-so it is not an awful response.",
     "topic": "Situational Judgement"
   },
   {
@@ -5374,7 +5370,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This response is quick and direct, and is thus highly appropriate.",
+    "explanation": "This response is quick and direct, and is thus highly appropriate. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5388,7 +5384,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Whilst this would be a difficult action for Ian to pursue, it is a very appropriate response that deals with  the situation immediately, discreetly and locally. No student under any circumstances should be allowed  to cheat, and this response ensures that Ben must face the consequences of his actions.",
+    "explanation": "Whilst this would be a difficult action for Ian to pursue, it is a very appropriate response that deals with  the situation immediately, discreetly and locally. No student under any circumstances should be allowed  to cheat, and this response ensures that Ben must face the conseqfluences of his actions.",
     "topic": "Situational Judgement"
   },
   {
@@ -5402,7 +5398,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "This response is inappropriate, as it does not deal with the situation as swiftly as possible. However, it does  deal with the situation, so it is not awful.",
+    "explanation": "This response is inappropriate, as it does not deal with the situation as swiftly as possible. However, it does deal with the situation, so it is not awful. In accordance with medical ethics and professional conduct, this action is unhelpful, untimely, or sub-optimal for resolving the underlying difficulty. However, because it does not actively cause direct patient harm, breach critical confidentiality, or escalate the conflict severely, it is classified as inappropriate, but not awful.",
     "topic": "Situational Judgement"
   },
   {
@@ -5430,7 +5426,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This may save Ian from a difficult conversation with his best friend; however, this response is neither  immediate nor local. By the time the medical school investigates further, it will be hard to prove that Ben  cheated. This means it is likely that Ben will not have to face consequences for having cheated, and that  he will be able to maintain an unfair advantage over their fellow medical students. Thus, this is a highly  inappropriate response.",
+    "explanation": "This may save Ian from a difficult conversation with his best friend; however, this response is neither  immediate nor local. By the time the medical school investigates further, it will be hard to prove that Ben  cheated. This means it is likely that Ben will not have to face conseqfluences for having cheated, and that  he will be able to maintain an unfair advantage over their fellow medical students. Thus, this is a highly  inappropriate response.",
     "topic": "Situational Judgement"
   },
   {
@@ -5458,7 +5454,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "The patient has not given consent for the treatment, so it would be highly unprofessional for Arissa to  proceed with the treatment. This would be a highly inappropriate thing to do, and could result in serious  professional consequences for Arissa.",
+    "explanation": "The patient has not given consent for the treatment, so it would be highly unprofessional for Arissa to  proceed with the treatment. This would be a highly inappropriate thing to do, and could result in serious  professional conseqfluences for Arissa.",
     "topic": "Situational Judgement"
   },
   {
@@ -5472,7 +5468,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "It is always very appropriate for a doctor to seek advice from a senior colleague.",
+    "explanation": "It is always very appropriate for a doctor to seek advice from a senior colleague. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5500,7 +5496,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This would be a very appropriate thing to do, since it would give them both equal opportunities to teach  and to help complete the paperwork.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 353",
+    "explanation": "This would be a very appropriate thing to do, since it would give them both equal opportunities to teach  and to help complete the paperwork.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 353.",
     "topic": "Situational Judgement"
   },
   {
@@ -5626,7 +5622,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This is a highly appropriate response, as it is an open and neutral question, with no possible negative  consequences for Alfie.",
+    "explanation": "This is a highly appropriate response, as it is an open and neutral question, with no possible negative conseqfluences for Alfie. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5640,7 +5636,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "If Hannah wants to examine Alfie's injuries, then it would be highly appropriate to get consent from his  carer before doing so.",
+    "explanation": "If Hannah wants to examine Alfie's injuries, then it would be highly appropriate to get consent from his carer before doing so. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5654,7 +5650,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This is a very appropriate thing to do, as it will help to calm Alfie and make it easier for Hannah to  treat him.",
+    "explanation": "This is a very appropriate thing to do, as it will help to calm Alfie and make it easier for Hannah to treat him. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5668,7 +5664,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "It is not clear that Alfie has been abused, though his injuries are worrying and would justify further inves- tigation by Hannah before making a report to children's services. The next step would be to examine the  injuries, ideally after obtaining consent from Alfie's carer. Phoning in a report before checking the injuries  would be highly inappropriate.\n\n\nScore Higher on the UKCAT 354",
+    "explanation": "It is not clear that Alfie has been abused, though his injuries are worrying and would justify further inves- tigation by Hannah before making a report to children's services. The next step would be to examine the  injuries, ideally after obtaining consent from Alfie's carer. Phoning in a report before checking the injuries  would be highly inappropriate.\n\n\nScore Higher on the UKCAT 354.",
     "topic": "Situational Judgement"
   },
   {
@@ -5696,7 +5692,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This response is very inappropriate, and it is also inaccurate, as the patient has given consent for his con- dition to be explained to his family.",
+    "explanation": "This response is very inappropriate, and it is also inaccurate, as the patient has given consent for his con- dition to be explained to his family. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5724,7 +5720,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "This is not at all important, as Jackson should not be stealing the supplies for any reason.",
+    "explanation": "This is not at all important, as Jackson should not be stealing the supplies for any reason. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5766,7 +5762,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "Whilst it may be tempting for Zakariyah to 'let this one go' in support of his friend, stealing hospital sup- plies is completely against all regulations and also calls into question a doctor's probity; therefore, it is  important that Zakariyah raises this through the appropriate channels without placing any importance  at all on the consequences for Jackson's medical career.",
+    "explanation": "Whilst it may be tempting for Zakariyah to 'let this one go' in support of his friend, stealing hospital sup- plies is completely against all regulations and also calls into question a doctor's probity; therefore, it is  important that Zakariyah raises this through the appropriate channels without placing any importance  at all on the conseqfluences for Jackson's medical career.",
     "topic": "Situational Judgement"
   },
   {
@@ -5780,7 +5776,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "This factor is not at all important, as it does not mitigate Liam's unprofessional comments about this  patient in any way.",
+    "explanation": "This factor is not at all important, as it does not mitigate Liam's unprofessional comments about this patient in any way. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5836,7 +5832,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "This factor is of minor importance. It makes it more likely that Conor would want to be sensitive yet  effective in responding to Liam's remarks, but it does not mitigate the need to address Liam's behaviour  in any way.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 355",
+    "explanation": "This factor is of minor importance. It makes it more likely that Conor would want to be sensitive yet  effective in responding to Liam's remarks, but it does not mitigate the need to address Liam's behaviour  in any way.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 355.",
     "topic": "Situational Judgement"
   },
   {
@@ -5878,7 +5874,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 1,
-    "explanation": "This is an important factor, as it means that there is sufficient time remaining to organise this non-urgent  X-ray before the patient leaves the hospital.",
+    "explanation": "This is an important factor, as it means that there is sufficient time remaining to organise this non-urgent X-ray before the patient leaves the hospital. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {
@@ -5948,7 +5944,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "This factor is extremely important, as it is fundamental to the matter at hand, and Addison must disclose  what he observed to the hospital administrator.",
+    "explanation": "This factor is extremely important, as it is fundamental to the matter at hand, and Addison must disclose what he observed to the hospital administrator. This judgment reflects the core priorities of patient safety, clear professional communication, and ethical medical practice.",
     "topic": "Situational Judgement"
   },
   {

@@ -1,9 +1,3 @@
-// =============================================
-// UCAT Mock Test 8 - Questions & Passages
-// Auto-extracted from The Ultimate UKCAT Guide
-// topic: Decision Making
-// =============================================
-
 const PASSAGES = {};
 
 const QUESTIONS = [
@@ -19,7 +13,7 @@ const QUESTIONS = [
       "South of Harrington, Westside, Twotown and Pilbury."
     ],
     "answer": 3,
-    "explanation": "The easiest thing to do is draw the relative positions. We know Harrington is\nnorth of Westside and Pilbury. We know that Twotown is between Pilbury and\nWestside. Crewville is south of Twotown, Westside and Harrington but we do not\nknow but its location relative to Pilbury.\n--- PAGE 665 ---",
+    "explanation": "The easiest thing to do is draw the relative positions. We know Harrington is\nnorth of Westside and Pilbury. We know that Twotown is between Pilbury and\nWestside. Crewville is south of Twotown, Westside and Harrington but we do not\nknow but its location relative to Pilbury.\n--- PAGE 665 ---.",
     "topic": "Decision Making"
   },
   {
@@ -40,7 +34,7 @@ const QUESTIONS = [
   {
     "id": 3,
     "passageId": null,
-    "text": "If criminals, thieves and judges are represented below:<br><br><img src=\"images/page_114_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Assuming that judges must have clean record, all thieves are criminals and all those who are guilty are convicted of their crimes, which of one of the following best represents their interaction?",
+    "text": "If criminals, thieves and judges are represented below:<br><br><img src=\"images/page_114_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Assuming that judges must have clean record, all thieves are criminals and all those who are guilty are convicted of their crimes, which of one of the follflowing best represents their interaction?",
     "options": [
       "<img src=\"images/page_115_img_1.png\" style=\"max-height:80px; display:block; margin:auto;\">",
       "<img src=\"images/page_115_img_2.png\" style=\"max-height:80px; display:block; margin:auto;\">",
@@ -49,13 +43,13 @@ const QUESTIONS = [
       "<img src=\"images/page_115_img_5.png\" style=\"max-height:80px; display:block; margin:auto;\">"
     ],
     "answer": 1,
-    "explanation": "All thieves are criminals. So the circle must be fully inside the square, we are told\njudges cannot be criminals so the star must be completely separate from the other\ntwo.\n--- PAGE 666 ---",
+    "explanation": "All thieves are criminals. So the circle must be fully inside the square, we are told\njudges cannot be criminals so the star must be completely separate from the other\ntwo.\n--- PAGE 666 ---.",
     "topic": "Decision Making"
   },
   {
     "id": 4,
     "passageId": null,
-    "text": "Apples are more expensive than pears, which are more expensive than oranges. Peaches are more expensive than oranges. Apples are less expensive than grapes.<br><br>Which two of the following must be true?<br>1. Grapes are less expensive than oranges.<br>2. Peaches may be less expensive than pears.<br>3. Grapes are more expensive than pears.<br>4. Pears and peaches are the same price.<br>5. Apples and peaches are the same price.",
+    "text": "Apples are more expensive than pears, which are more expensive than oranges. Peaches are more expensive than oranges. Apples are less expensive than grapes.<br><br>Which two of the follflowing must be true?<br>1. Grapes are less expensive than oranges.<br>2. Peaches may be less expensive than pears.<br>3. Grapes are more expensive than pears.<br>4. Pears and peaches are the same price.<br>5. Apples and peaches are the same price.",
     "options": [
       "Statement 1 and 2",
       "Statement 2 and 3",
@@ -70,7 +64,7 @@ const QUESTIONS = [
   {
     "id": 5,
     "passageId": null,
-    "text": ":\nA class of young students has a pet spider. Deciding to play a practical joke on\ntheir teacher, one day during morning break one of the students put the spider in\ntheir teachers’ desk. When first questioned by the head teacher, Mr Jones, the ve\nstudents who were in the classroom during morning break all lied about what they\nsaw. Realising that the students were all lying, Mr Jones called all 5 students back\nindividually and, threatened with suspension, all the students told the truth.\nUnfortunately Mr Jones only wrote down the student’s statements not whether they\nhad been told in the truthful or lying questioning.\nThe students’ two statements appear below:\nArchie: “It wasn’t Edward. “\n“It was Bella.”\nDarcy: “It was Charlotte”\n“It was Bella”\nEdward: “It was Darcy”\n“It wasn’t Archie”\nCharlotte: “It was Edward.”\n“It wasn’t Archie”\nBella: “It wasn’t Charlotte.”\n“It wasn’t Edward.”\nWho put the spider in the teacher’s desk?",
+    "text": ":\nA class of young students has a pet spider. Deciding to play a practical joke on\ntheir teacher, one day during morning break one of the students put the spider in\ntheir teachers’ desk. When first questioned by the head teacher, Mr Jones, the five\nstudents who were in the classroom during morning break all lied about what they\nsaw. Realising that the students were all lying, Mr Jones called all 5 students back\nindividually and, threatened with suspension, all the students told the truth.\nUnfortunately Mr Jones only wrote down the student’s statements not whether they\nhad been told in the truthful or lying questioning.\nThe students’ two statements appear below:\nArchie: “It wasn’t Edward. “\n“It was Bella.”\nDarcy: “It was Charlotte”\n“It was Bella”\nEdward: “It was Darcy”\n“It wasn’t Archie”\nCharlotte: “It was Edward.”\n“It wasn’t Archie”\nBella: “It wasn’t Charlotte.”\n“It wasn’t Edward.”\nWho put the spider in the teacher’s desk?",
     "options": [
       "Edward",
       "Bella",
@@ -109,7 +103,7 @@ const QUESTIONS = [
       "Adam = 11, Bertie = 10, Charles = 8"
     ],
     "answer": 2,
-    "explanation": "We know that Charles is born in 2002, therefore in 2010 he must be 8. There are 3\nyears between Charles and Adam, and Charles is the middle grandchild. As Bertie is\n--- PAGE 667 ---\nolder than Adam, Adam must be younger than Charles so Adam must be 5 in 2010.\nIn 2010, if Adam is 5, Bertie must be 10 (states he is double the age of Adam).\nThe question asks for ages in 2015: Adam = 10, Bertie = 15, Charles = 13",
+    "explanation": "We know that Charles is born in 2002, therefore in 2010 he must be 8. There are 3\nyears between Charles and Adam, and Charles is the middle grandchild. As Bertie is\n--- PAGE 667 ---\nolder than Adam, Adam must be younger than Charles so Adam must be 5 in 2010.\nIn 2010, if Adam is 5, Bertie must be 10 (states he is double the age of Adam).\nThe question asks for ages in 2015: Adam = 10, Bertie = 15, Charles = 13.",
     "topic": "Decision Making"
   },
   {
@@ -124,13 +118,13 @@ const QUESTIONS = [
       "12 days"
     ],
     "answer": 1,
-    "explanation": "In this question it is worth remembering it will take more people a shorter\namount of time.\nWork out how many man hours it takes to build the house. Days x hours x\nbuilders\n12 x 7 x 4 = 336 hours\nWork out how many hours it will take the 7man workforce: 336/7 = 48 hours\nConvert to 8 hour days: 48/8 = 6 days",
+    "explanation": "In this question it is worth remembering it will take more people a shorter\namount of time.\nWork out how many man hours it takes to build the house. Days x hours x\nbuilders\n12 x 7 x 4 = 336 hours\nWork out how many hours it will take the 7man workforce: 336/7 = 48 hours\nConvert to 8 hour days: 48/8 = 6 days.",
     "topic": "Decision Making"
   },
   {
     "id": 9,
     "passageId": null,
-    "text": "Four young girls entered a local baking competition. Though a bit burnt, Ellen’s carrot cake did not come last. The girl who baked a Madeira sponge had practiced a lot, and so came first, while Jaya came third with her entry. Aleena did better than the girl who made the Tiramisu, and the girl who made the Victoria sponge did better than Veronica.<br><br>Which TWO of the following were NOT results of the competition?<br>1. Veronica made a tiramisu<br>2. Ellen came second<br>3. Aleena made a Victoria sponge<br>4. The Victoria sponge came in 3rd place<br>5. The carrot cake came 3rd",
+    "text": "Four young girls entered a local baking competition. Though a bit burnt, Ellen’s carrot cake did not come last. The girl who baked a Madeira sponge had practiced a lot, and so came first, while Jaya came third with her entry. Aleena did better than the girl who made the Tiramisu, and the girl who made the Victoria sponge did better than Veronica.<br><br>Which TWO of the follflowing were NOT results of the competition?<br>1. Veronica made a tiramisu<br>2. Ellen came second<br>3. Aleena made a Victoria sponge<br>4. The Victoria sponge came in 3rd place<br>5. The carrot cake came 3rd",
     "options": [
       "Statement 1 and 2",
       "Statement 2 and 4",
@@ -139,7 +133,7 @@ const QUESTIONS = [
       "Statement 2 and 5"
     ],
     "answer": 2,
-    "explanation": "The easiest way to work this out is using a table. With the information we know:\nEllen made carrot cake and it was not last. It now cannot be 1st or 3rd as these\nplaces are taken so it must be second:\nAleena’s was better than the tiramisu, so she can’t have come last, therefore\nAleena must have placed rst\nAnd the girl who made the Victoria sponge was better than Veronica:\n--- PAGE 668 ---",
+    "explanation": "The easiest way to work this out is using a table. With the information we know:\nEllen made carrot cake and it was not last. It now cannot be 1st or 3rd as these\nplaces are taken so it must be second:\nAleena’s was better than the tiramisu, so she can’t have come last, therefore\nAleena must have placed first\nAnd the girl who made the Victoria sponge was better than Veronica:\n--- PAGE 668 ---.",
     "topic": "Decision Making"
   },
   {
@@ -175,7 +169,7 @@ const QUESTIONS = [
   {
     "id": 12,
     "passageId": null,
-    "text": "I look at the clock on my bedside table, and I see the following digits:<br><br><img src=\"images/page_132_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>However, I also see that there is a glass of water between me and the clock, which is in front of 2 adjacent figures. I know that this means these 2 figures will appear reversed. For example, 10 would appear as 01, and 20 would appear as 05 (as 5 on a digital clock is a reversed image of a 2). Some numbers, such as 3, cannot appear reversed because there are no numbers which look like the reverse of 3.<br><br>Which of the following could be the actual time?",
+    "text": "I look at the clock on my bedside table, and I see the follflowing digits:<br><br><img src=\"images/page_132_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>However, I also see that there is a glass of water between me and the clock, which is in front of 2 adjacent figures. I know that this means these 2 figures will appear reversed. For example, 10 would appear as 01, and 20 would appear as 05 (as 5 on a digital clock is a reversed image of a 2). Some numbers, such as 3, cannot appear reversed because there are no numbers which look like the reverse of 3.<br><br>Which of the follflowing could be the actual time?",
     "options": [
       "15:52",
       "21:25",
@@ -190,7 +184,7 @@ const QUESTIONS = [
   {
     "id": 13,
     "passageId": null,
-    "text": ":\nRyan is cooking breakfast for several guests at his hotel. He is frying most of the\nitems using the same large frying pan, to get as much food prepared in as little time\nas possible. Ryan is cooking Bacon, Sausages, and eggs in this pan. He calculates how\nmuch room is taken up in the pan by each item. He calculates the following:\n- Each rasher of bacon takes up 7% of the available space in the pan\n- Each sausage takes up 3% of the available space in the pan.\n- Each egg takes up 12% of the available space in the pan.\nRyan is cooking 2 rashers of bacon, 4 sausages and 1 egg for each guest. He\ndecides to cook all the food for each guest at the same time, rather than cooking all\nof each item at once.\nHow many guests can he cook for at once?",
+    "text": ":\nRyan is cooking breakfast for several guests at his hotel. He is frying most of the\nitems using the same large frying pan, to get as much food prepared in as little time\nas possible. Ryan is cooking Bacon, Sausages, and eggs in this pan. He calculates how\nmuch room is taken up in the pan by each item. He calculates the follflowing:\n- Each rasher of bacon takes up 7% of the available space in the pan\n- Each sausage takes up 3% of the available space in the pan.\n- Each egg takes up 12% of the available space in the pan.\nRyan is cooking 2 rashers of bacon, 4 sausages and 1 egg for each guest. He\ndecides to cook all the food for each guest at the same time, rather than cooking all\nof each item at once.\nHow many guests can he cook for at once?",
     "options": [
       "1",
       "2",
@@ -280,7 +274,7 @@ const QUESTIONS = [
   {
     "id": 19,
     "passageId": null,
-    "text": ":\nLauren, Amy and Chloe live in different cities across England. They decide to\nmeet up together in London and have a meal together. Lauren departs from\nSouthampton at 2:30pm, and arrives in London at 4pm. Amy’s journey lasts twice as\nlong as Lauren’s journey and she arrives in London at 4:15pm. Chloe departs from\nSheﬃeld at 1:30pm, and her journey lasts an hour longer than Lauren’s journey.\nWhich of the following statements is denitely true?",
+    "text": ":\nLauren, Amy and Chloe live in different cities across England. They decide to\nmeet up together in London and have a meal together. Lauren departs from\nSouthampton at 2:30pm, and arrives in London at 4pm. Amy’s journey lasts twice as\nlong as Lauren’s journey and she arrives in London at 4:15pm. Chloe departs from\nSheﬃfield at 1:30pm, and her journey lasts an hour longer than Lauren’s journey.\nWhich of the follflowing statements is denitely true?",
     "options": [
       "Chloe’s journey took the longest time.",
       "Amy departed after Lauren.",
@@ -289,7 +283,7 @@ const QUESTIONS = [
       "Amy departed before Chloe."
     ],
     "answer": 4,
-    "explanation": "To nd out whether many of these statements are true it is necessary to work out\nthe departure and arrival times, and journey time, for each girl.\nLauren departs at 2:30pm and arrives at 4pm, therefore her journey takes 1.5\nhours\nChloe departs at 1:30pm and her journey takes 1 hour longer than 1.5 hours\n(Lauren’s journey), therefore her journey takes 2.5 hours and she arrives at 4pm\nAmy arrives at 4:15pm and her journey takes 2 times 1.5 hours (Lauren’s\njourney), therefore her journey takes 3 hours and she departs at 1:15pm.\nLooking at each statement, the only one which is denitely true is E: Amy departs\nat 1:15pm and Chloe departs at 1:30pm therefore Amy departed before Chloe.\nD may be true, but nothing in the question shows it is denitely true, so it can be\nsafely ignored.",
+    "explanation": "To find out whether many of these statements are true it is necessary to work out\nthe departure and arrival times, and journey time, for each girl.\nLauren departs at 2:30pm and arrives at 4pm, therefore her journey takes 1.5\nhours\nChloe departs at 1:30pm and her journey takes 1 hour longer than 1.5 hours\n(Lauren’s journey), therefore her journey takes 2.5 hours and she arrives at 4pm\nAmy arrives at 4:15pm and her journey takes 2 times 1.5 hours (Lauren’s\njourney), therefore her journey takes 3 hours and she departs at 1:15pm.\nLooking at each statement, the only one which is denitely true is E: Amy departs\nat 1:15pm and Chloe departs at 1:30pm therefore Amy departed before Chloe.\nD may be true, but nothing in the question shows it is denitely true, so it can be\nsafely ignored.",
     "topic": "Decision Making"
   },
   {
@@ -304,13 +298,13 @@ const QUESTIONS = [
       "2/3"
     ],
     "answer": 2,
-    "explanation": "For the total score to be odd, there must be either three odd or one odd and two\neven scores obtained. Since the solitary odd score could be either the rst, second or\nthird throw there are four possible outcomes that result in an odd total score.\nAdditionally, there are the same number of possibilities giving an even score (either\nall three even or two odd and one even scores obtained), and the chance of throwing\nodd or even with any given dart is equal. Therefore, there is an equal probability of\nthree darts totalling to an odd score as to an even score, and so the chance of an odd\nscore is ½.",
+    "explanation": "For the total score to be odd, there must be either three odd or one odd and two\neven scores obtained. Since the solitary odd score could be either the first, second or\nthird throw there are four possible outcomes that result in an odd total score.\nAdditionally, there are the same number of possibilities giving an even score (either\nall three even or two odd and one even scores obtained), and the chance of thrflowing\nodd or even with any given dart is equal. Therefore, there is an equal probability of\nthree darts totalling to an odd score as to an even score, and so the chance of an odd\nscore is ½.",
     "topic": "Decision Making"
   },
   {
     "id": 21,
     "passageId": null,
-    "text": "Should nurses be encouraged to make more signicant decisions regarding\ntreatment in the health care setting?\nSelect the strongest argument from the statements below.\nof training.\nqualied to make decisions than doctors.\nimportant additional perspective.",
+    "text": "Should nurses be encouraged to make more significant decisions regarding\ntreatment in the health care setting?\nSelect the strongest argument from the statements below.\nof training.\nqualied to make decisions than doctors.\nimportant additional perspective.",
     "options": [
       "No. Nurses are not able to make complex decisions that require a higher degree",
       "No. Nurses are not able to understand the complexity of medical care.",
@@ -318,13 +312,13 @@ const QUESTIONS = [
       "Yes. Nurses provide valuable input to care delivery already as they deliver an"
     ],
     "answer": 3,
-    "explanation": "1. Not appropriate as it is highly judgemental towards the abilities of nurses.\nNurses already play an important role in care delivery and in many cases\nalready make important decisions. The NHS would not be able to deliver care\neﬃciently without the input of specialty nurses.\n2. Worse version of statement a). Same reasons why this is inappropriate.\n--- PAGE 671 ---\n3. In general, not completely wrong, but the fact that it places the ability of nurses\nover these of doctors without limitation is the aw of this argument. Nurses and\ndoctors work together to deliver care with different areas of responsibility.\n4. Correct answer. True and less restrictive than the version in c). Nurses input\nvaluable and it would denitely be helpful to give nurses more freedom for\ndecision making.",
+    "explanation": "1. Not appropriate as it is highly judgemental towards the abilities of nurses.\nNurses already play an important role in care delivery and in many cases\nalready make important decisions. The NHS would not be able to deliver care\nefficiently without the input of specialty nurses.\n2. Worse version of statement a). Same reasons why this is inappropriate.\n--- PAGE 671 ---\n3. In general, not completely wrong, but the fact that it places the ability of nurses\nover these of doctors without limitation is the aw of this argument. Nurses and\ndoctors work together to deliver care with different areas of responsibility.\n4. Correct answer. True and less restrictive than the version in c). Nurses input\nvaluable and it would denitely be helpful to give nurses more freedom for\ndecision making.",
     "topic": "Decision Making"
   },
   {
     "id": 22,
     "passageId": null,
-    "text": "On a walk in the woods, James observes a variety of wildlife species. He nds that\nbirds tend to y off as soon as he approaches their position, whereas the many\nsquirrels he sees tend to wait and observe his behaviour for some time. He also\nmanages to see some deer in the distance and something he thinks was a fox.\nWhich of the following statements are true?",
+    "text": "On a walk in the woods, James observes a variety of wildlife species. He finds that\nbirds tend to y off as soon as he approaches their position, whereas the many\nsquirrels he sees tend to wait and observe his behaviour for some time. He also\nmanages to see some deer in the distance and something he thinks was a fox.\nWhich of the follflowing statements are true?",
     "options": [
       "Squirrels are uncommon in the woods.",
       "Birds are used to human presence.",
@@ -338,21 +332,21 @@ const QUESTIONS = [
   {
     "id": 23,
     "passageId": null,
-    "text": "“The physician must be able to tell the antecedents, know the present, and\nforetell the future – must mediate these things, and have two special objects in view\nwith regard to disease, namely, to do good or to do no harm” – Hippocrates.\nWhich of the following statements is true with regards to the above statement?",
+    "text": "“The physician must be able to tell the antecedents, know the present, and\nforetell the future – must mediate these things, and have two special objects in view\nwith regard to disease, namely, to do good or to do no harm” – Hippocrates.\nWhich of the follflowing statements is true with regards to the above statement?",
     "options": [
-      "A physician must be all-knowing and not make any mistakes.",
+      "A physician must be all-knflowing and not make any mistakes.",
       "It does not matter how well trained a physician is.",
       "Avoidance of harm is one of the guiding principles of medicine.",
       "Techniques of the past are still the best today."
     ],
     "answer": 2,
-    "explanation": "1. Incorrect. This is not about being all-knowing and infallible. It is about the\nassumption of do no harm.\n2. Training is not mentioned in the quote at all, therefore this answers is incorrect.\nIt can be further assumed that for a physician to be able to tell the present and\nfuture, he must have undergone some degree of training.\n3. Correct. Non-malecence means do no harm.\n4. In some cases techniques of the past are valuable and still used today, in some\ncases they are not. In any case this quote is not about techniques, but about the\nmoral background of actions.",
+    "explanation": "1. Incorrect. This is not about being all-knflowing and infallible. It is about the\nassumption of do no harm.\n2. Training is not mentioned in the quote at all, therefore this answers is incorrect.\nIt can be further assumed that for a physician to be able to tell the present and\nfuture, he must have undergone some degree of training.\n3. Correct. Non-malecence means do no harm.\n4. In some cases techniques of the past are valuable and still used today, in some\ncases they are not. In any case this quote is not about techniques, but about the\nmoral background of actions.",
     "topic": "Decision Making"
   },
   {
     "id": 24,
     "passageId": null,
-    "text": "One of the biggest challenges facing the NHS is the discharge of patients from\nhospitals. This can generally have a variety of reasons, but most commonly it is due\nto the lack of adequate care being available for the patient outside of the hospital.\nThe cuts to social care spending as well as a decreasing ability of families to care for\ntheir relatives compound this problem.\nWhich of the following represent valid solutions to this problem?",
+    "text": "One of the biggest challenges facing the NHS is the discharge of patients from\nhospitals. This can generally have a variety of reasons, but most commonly it is due\nto the lack of adequate care being available for the patient outside of the hospital.\nThe cuts to social care spending as well as a decreasing ability of families to care for\ntheir relatives compound this problem.\nWhich of the follflowing represent valid solutions to this problem?",
     "options": [
       "Discharge patients irrespective of availability of social care.",
       "Force families to care for their patients.",
@@ -360,7 +354,7 @@ const QUESTIONS = [
       "None of the above."
     ],
     "answer": 3,
-    "explanation": "1. Incorrect. This would solve the problem but ignore all ethical basis we use for\nmedical decision making.\n2. Incorrect. This would cause a signicant impact to the everyday life of the\nfamilies of the patients making it a highly unethical decision.\n3. Incorrect. The entire idea of the NHS is based on the notion that there is no\ndiscrimination between the rich and the poor. It is for that reason unacceptable\nto charge patients for extended hospital stays unless they get different care.\n4. Correct. All other answers are incorrect per descriptions above.",
+    "explanation": "1. Incorrect. This would solve the problem but ignore all ethical basis we use for\nmedical decision making.\n2. Incorrect. This would cause a significant impact to the everyday life of the\nfamilies of the patients making it a highly unethical decision.\n3. Incorrect. The entire idea of the NHS is based on the notion that there is no\ndiscrimination between the rich and the poor. It is for that reason unacceptable\nto charge patients for extended hospital stays unless they get different care.\n4. Correct. All other answers are incorrect per descriptions above.",
     "topic": "Decision Making"
   },
   {
@@ -374,13 +368,13 @@ const QUESTIONS = [
       "75"
     ],
     "answer": 1,
-    "explanation": "--- PAGE 672 ---\nThe relationship of goats and pigs to cows is 4:1 meaning that in every 5 animals,\n1 has to be a cow. The value of the individual animals is a distraction that is not\nneeded for the calculation of this question. 5 = 40",
+    "explanation": "--- PAGE 672 ---\nThe relationship of goats and pigs to cows is 4:1 meaning that in every 5 animals,\n1 has to be a cow. The value of the individual animals is a distraction that is not\nneeded for the calculation of this question. 5 = 40.",
     "topic": "Decision Making"
   },
   {
     "id": 26,
     "passageId": null,
-    "text": "In study of wild monkeys in the Amazon rainforest, a scientist nds that the\nmonkeys mingle according to a complex set of rules based on their gender and age.\nHe nds that young animals mingle with others irrespective of age and gender;\nadolescent males mingle only with young animals and adolescent females mingle\nexclusively with older females and the young monkeys. The majority of older males\nexhibit hostile behaviour to adolescent males. Older females treat adolescent males\nwith suspicion but tolerate them in their proximity.\nWhich of the following statements are true with regards to the interactions of the\ngroup?",
+    "text": "In study of wild monkeys in the Amazon rainforest, a scientist finds that the\nmonkeys mingle according to a complex set of rules based on their gender and age.\nHe finds that young animals mingle with others irrespective of age and gender;\nadolescent males mingle only with young animals and adolescent females mingle\nexclusively with older females and the young monkeys. The majority of older males\nexhibit hostile behaviour to adolescent males. Older females treat adolescent males\nwith suspicion but tolerate them in their proximity.\nWhich of the follflowing statements are true with regards to the interactions of the\ngroup?",
     "options": [
       "Young apes never mingle with older male apes.",
       "Adolescent males have the widest range of social interactions in the herd.",
@@ -442,7 +436,7 @@ const QUESTIONS = [
   {
     "id": 31,
     "passageId": null,
-    "text": "Anna is visiting a concert with her four friends, Louise, Maria, Sophie and Jenny.\nThe ve manage to get a row of seats right in front of the stage.\nAnna is the tallest and stands right in the middle next to Louise.\nSophie is left handed and prefers to sit on the far left.\nJenny met another friend and sits at the far end of the row next to Louise.\nPlease indicate which statements can be concluded to be true<br><br><b>Statement:</b> Maria sits between Sophie and Anna.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "Anna is visiting a concert with her four friends, Louise, Maria, Sophie and Jenny.\nThe five manage to get a row of seats right in front of the stage.\nAnna is the tallest and stands right in the middle next to Louise.\nSophie is left handed and prefers to sit on the far left.\nJenny met another friend and sits at the far end of the row next to Louise.\nPlease indicate which statements can be concluded to be true<br><br><b>Statement:</b> Maria sits between Sophie and Anna.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -454,7 +448,7 @@ const QUESTIONS = [
   {
     "id": 32,
     "passageId": null,
-    "text": "Anna is visiting a concert with her four friends, Louise, Maria, Sophie and Jenny.\nThe ve manage to get a row of seats right in front of the stage.\nAnna is the tallest and stands right in the middle next to Louise.\nSophie is left handed and prefers to sit on the far left.\nJenny met another friend and sits at the far end of the row next to Louise.\nPlease indicate which statements can be concluded to be true<br><br><b>Statement:</b> Sophie sits at the edge of the concert hall.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "Anna is visiting a concert with her four friends, Louise, Maria, Sophie and Jenny.\nThe five manage to get a row of seats right in front of the stage.\nAnna is the tallest and stands right in the middle next to Louise.\nSophie is left handed and prefers to sit on the far left.\nJenny met another friend and sits at the far end of the row next to Louise.\nPlease indicate which statements can be concluded to be true<br><br><b>Statement:</b> Sophie sits at the edge of the concert hall.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -466,7 +460,7 @@ const QUESTIONS = [
   {
     "id": 33,
     "passageId": null,
-    "text": "Anna is visiting a concert with her four friends, Louise, Maria, Sophie and Jenny.\nThe ve manage to get a row of seats right in front of the stage.\nAnna is the tallest and stands right in the middle next to Louise.\nSophie is left handed and prefers to sit on the far left.\nJenny met another friend and sits at the far end of the row next to Louise.\nPlease indicate which statements can be concluded to be true<br><br><b>Statement:</b> Jenny left the group and sits with her other friend.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "Anna is visiting a concert with her four friends, Louise, Maria, Sophie and Jenny.\nThe five manage to get a row of seats right in front of the stage.\nAnna is the tallest and stands right in the middle next to Louise.\nSophie is left handed and prefers to sit on the far left.\nJenny met another friend and sits at the far end of the row next to Louise.\nPlease indicate which statements can be concluded to be true<br><br><b>Statement:</b> Jenny left the group and sits with her other friend.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -478,7 +472,7 @@ const QUESTIONS = [
   {
     "id": 34,
     "passageId": null,
-    "text": "Anna is visiting a concert with her four friends, Louise, Maria, Sophie and Jenny.\nThe ve manage to get a row of seats right in front of the stage.\nAnna is the tallest and stands right in the middle next to Louise.\nSophie is left handed and prefers to sit on the far left.\nJenny met another friend and sits at the far end of the row next to Louise.\nPlease indicate which statements can be concluded to be true<br><br><b>Statement:</b> Louise sits on the second seat from the right.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "Anna is visiting a concert with her four friends, Louise, Maria, Sophie and Jenny.\nThe five manage to get a row of seats right in front of the stage.\nAnna is the tallest and stands right in the middle next to Louise.\nSophie is left handed and prefers to sit on the far left.\nJenny met another friend and sits at the far end of the row next to Louise.\nPlease indicate which statements can be concluded to be true<br><br><b>Statement:</b> Louise sits on the second seat from the right.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -490,7 +484,7 @@ const QUESTIONS = [
   {
     "id": 35,
     "passageId": null,
-    "text": "Sven is trying to set up a vegetable garden. He is allergic to tomatoes so will not\nbe planting these. He decides to plant several rows of salad, carrots and courgettes.\nHe also decides to plant raspberries and blackberries, even though they are not\nvegetables.\nWhich of the following conclusions are true?",
+    "text": "Sven is trying to set up a vegetable garden. He is allergic to tomatoes so will not\nbe planting these. He decides to plant several rows of salad, carrots and courgettes.\nHe also decides to plant raspberries and blackberries, even though they are not\nvegetables.\nWhich of the follflowing conclusions are true?",
     "options": [
       "Sven will grow more than 2 types of vegetables.",
       "The garden will contain only green vegetables.",
@@ -504,7 +498,7 @@ const QUESTIONS = [
   {
     "id": 36,
     "passageId": null,
-    "text": "Louise is organising a trip to Europe for her friends. They plan to leave London in\nJune and visit 4 cities, starting the furthest north and move further south to then\nspend a week at the beach. They plan to visit Berlin, Amsterdam, Paris and Rome in\nthat order.\nWhich of the following conclusions follow?",
+    "text": "Louise is organising a trip to Europe for her friends. They plan to leave London in\nJune and visit 4 cities, starting the furthest north and move further south to then\nspend a week at the beach. They plan to visit Berlin, Amsterdam, Paris and Rome in\nthat order.\nWhich of the follflowing conclusions follow?",
     "options": [
       "Paris is the most Southern city they visit.",
       "Amsterdam is further north than Berlin.",
@@ -518,7 +512,7 @@ const QUESTIONS = [
   {
     "id": 37,
     "passageId": null,
-    "text": "James is planning to invest into a company by buying shares. He decides that he\ndoes not want to invest into any company that may take part in military supply. He\nnds that 40% of electronics rms contribute to military applications, but limited\nexclusively to computer technology rms. He also nds that all British steel\ncompanies are involved in producing specialty steel for the arms industry. The food\nindustry, with exception to the beef industry does not seem to have any military\ncontracts.\nat the moment.<br><br><b>Statement:</b> James is free to invest in computer technology.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "James is planning to invest into a company by buying shares. He decides that he\ndoes not want to invest into any company that may take part in military supply. He\nfinds that 40% of electronics rms contribute to military applications, but limited\nexclusively to computer technology rms. He also finds that all British steel\ncompanies are involved in producing specialty steel for the arms industry. The food\nindustry, with exception to the beef industry does not seem to have any military\ncontracts.\nat the moment.<br><br><b>Statement:</b> James is free to invest in computer technology.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -530,7 +524,7 @@ const QUESTIONS = [
   {
     "id": 38,
     "passageId": null,
-    "text": "James is planning to invest into a company by buying shares. He decides that he\ndoes not want to invest into any company that may take part in military supply. He\nnds that 40% of electronics rms contribute to military applications, but limited\nexclusively to computer technology rms. He also nds that all British steel\ncompanies are involved in producing specialty steel for the arms industry. The food\nindustry, with exception to the beef industry does not seem to have any military\ncontracts.\nat the moment.<br><br><b>Statement:</b> Investments into the chocolate industry are possible.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "James is planning to invest into a company by buying shares. He decides that he\ndoes not want to invest into any company that may take part in military supply. He\nfinds that 40% of electronics rms contribute to military applications, but limited\nexclusively to computer technology rms. He also finds that all British steel\ncompanies are involved in producing specialty steel for the arms industry. The food\nindustry, with exception to the beef industry does not seem to have any military\ncontracts.\nat the moment.<br><br><b>Statement:</b> Investments into the chocolate industry are possible.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -542,7 +536,7 @@ const QUESTIONS = [
   {
     "id": 39,
     "passageId": null,
-    "text": "James is planning to invest into a company by buying shares. He decides that he\ndoes not want to invest into any company that may take part in military supply. He\nnds that 40% of electronics rms contribute to military applications, but limited\nexclusively to computer technology rms. He also nds that all British steel\ncompanies are involved in producing specialty steel for the arms industry. The food\nindustry, with exception to the beef industry does not seem to have any military\ncontracts.\nat the moment.<br><br><b>Statement:</b> Most branches of industry are connected to military applications.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "James is planning to invest into a company by buying shares. He decides that he\ndoes not want to invest into any company that may take part in military supply. He\nfinds that 40% of electronics rms contribute to military applications, but limited\nexclusively to computer technology rms. He also finds that all British steel\ncompanies are involved in producing specialty steel for the arms industry. The food\nindustry, with exception to the beef industry does not seem to have any military\ncontracts.\nat the moment.<br><br><b>Statement:</b> Most branches of industry are connected to military applications.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -554,7 +548,7 @@ const QUESTIONS = [
   {
     "id": 40,
     "passageId": null,
-    "text": "James is planning to invest into a company by buying shares. He decides that he\ndoes not want to invest into any company that may take part in military supply. He\nnds that 40% of electronics rms contribute to military applications, but limited\nexclusively to computer technology rms. He also nds that all British steel\ncompanies are involved in producing specialty steel for the arms industry. The food\nindustry, with exception to the beef industry does not seem to have any military\ncontracts.\nat the moment.<br><br><b>Statement:</b> Investments in general are not a good idea due to the volatile political situation<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "James is planning to invest into a company by buying shares. He decides that he\ndoes not want to invest into any company that may take part in military supply. He\nfinds that 40% of electronics rms contribute to military applications, but limited\nexclusively to computer technology rms. He also finds that all British steel\ncompanies are involved in producing specialty steel for the arms industry. The food\nindustry, with exception to the beef industry does not seem to have any military\ncontracts.\nat the moment.<br><br><b>Statement:</b> Investments in general are not a good idea due to the volatile political situation<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -566,7 +560,7 @@ const QUESTIONS = [
   {
     "id": 41,
     "passageId": null,
-    "text": "A group of 5 friends live on the same road in a row of houses running parallel to the road.<br>Austin lives the furthest from Mark.<br>Steve lives two houses down from Austin.<br>David lives next to Mark.<br><br><img src=\"images/page_154_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the following is true?<br>1. Steve lives equidistant from Austin and Mark.<br>2. The five live in a small town.<br>3. Peter lives next to Austin.<br>4. Peter and David are neighbours.",
+    "text": "A group of 5 friends live on the same road in a row of houses running parallel to the road.<br>Austin lives the furthest from Mark.<br>Steve lives two houses down from Austin.<br>David lives next to Mark.<br><br><img src=\"images/page_154_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the follflowing is true?<br>1. Steve lives equidistant from Austin and Mark.<br>2. The five live in a small town.<br>3. Peter lives next to Austin.<br>4. Peter and David are neighbours.",
     "options": [
       "Statement 1 and 2",
       "Statement 2 and 3",
@@ -581,7 +575,7 @@ const QUESTIONS = [
   {
     "id": 42,
     "passageId": null,
-    "text": "A group of scientists investigate male pattern baldness for a popular shampoo producer that aims to release a product for that market. They find that male pattern baldness is becoming increasingly common in men aged between 30 – 60 and that it sometimes is associated with the use of anabolic steroids or type 2 diabetes. They also find that in the majority of cases there seems to be a genetic predisposition of unknown origin, but independent of external factors.<br><br>Which of the following is are reasonable conclusions from the above?<br>1. Baldness is not exclusive to men.<br>2. There is a connection between life-style choices and hair loss<br>3. A hair loss treatment in shampoo form promises to help for the majority of cases.<br>4. Anabolic steroids can cause hair loss.",
+    "text": "A group of scientists investigate male pattern baldness for a popular shampoo producer that aims to release a product for that market. They find that male pattern baldness is becoming increasingly common in men aged between 30 – 60 and that it sometimes is associated with the use of anabolic steroids or type 2 diabetes. They also find that in the majority of cases there seems to be a genetic predisposition of unknown origin, but independent of external factors.<br><br>Which of the follflowing is are reasonable conclusions from the above?<br>1. Baldness is not exclusive to men.<br>2. There is a connection between life-style choices and hair loss<br>3. A hair loss treatment in shampoo form promises to help for the majority of cases.<br>4. Anabolic steroids can cause hair loss.",
     "options": [
       "Statement 1 and 2",
       "Statement 2 and 4",
@@ -596,7 +590,7 @@ const QUESTIONS = [
   {
     "id": 43,
     "passageId": null,
-    "text": "A farmer has a forest planted. It contains exclusively needle trees, except for\nsome oaks and beeches. It also contains fruit trees.\nWhich of the following is true?",
+    "text": "A farmer has a forest planted. It contains exclusively needle trees, except for\nsome oaks and beeches. It also contains fruit trees.\nWhich of the follflowing is true?",
     "options": [
       "The forest will only deliver lumber.",
       "There are only 2 types of trees in the forest.",
@@ -610,7 +604,7 @@ const QUESTIONS = [
   {
     "id": 44,
     "passageId": null,
-    "text": "Penguins live in large colonies in various climates of the Southern hemisphere.\nThese colonies provide protection for the individual as well as oﬀering\ncompanionship and breeding partners. Penguins are ightless but are excellent\nswimmers and spend about half of their life in the ocean. They live mostly of sea\nanimals such as sh, krill and squid.\nWhich of the conclusions are false?",
+    "text": "Penguins live in large colonies in various climates of the Southern hemisphere.\nThese colonies provide protection for the individual as well as oﬀering\ncompanionship and breeding partners. Penguins are ightless but are excellent\nswimmers and spend about half of their life in the ocean. They live mostly of sea\nanimals such as fish, krill and squid.\nWhich of the conclusions are false?",
     "options": [
       "Penguins spend 50% of their life on land.",
       "Penguins are herd animals.",
@@ -632,7 +626,7 @@ const QUESTIONS = [
       "No, we are too dependent on energy to be able to source adequate supply from"
     ],
     "answer": 3,
-    "explanation": "--- PAGE 675 ---\n1. False. Fossil fuel technology has constantly been improved in efficiency and has\nnot been overcome to this day.\n2. False. Import of fossil fuels such as coal and oil is expensive, but not expensive\nenough to make it economically unsound as it forms an essential part of most\nindustrial productions steps.\n3. False. Fossil fuels are limited.\n4. True. Due to our huge energy demand, an immediate switch to non-fossil fuels\nis diﬃcult. Also, there are less developed countries where fossil fuels represent\nthe primary source of energy sue to technological constraints regarding energy\ngeneration.",
+    "explanation": "--- PAGE 675 ---\n1. False. Fossil fuel technology has constantly been improved in efficiency and has\nnot been overcome to this day.\n2. False. Import of fossil fuels such as coal and oil is expensive, but not expensive\nenough to make it economically unsound as it forms an essential part of most\nindustrial productions steps.\n3. False. Fossil fuels are limited.\n4. True. Due to our huge energy demand, an immediate switch to non-fossil fuels\nis difficult. Also, there are less developed countries where fossil fuels represent\nthe primary source of energy sue to technological constraints regarding energy\ngeneration.",
     "topic": "Decision Making"
   },
   {
@@ -652,7 +646,7 @@ const QUESTIONS = [
   {
     "id": 47,
     "passageId": null,
-    "text": "With increasing parental age, the risk of congenital abnormalities in babies\nincreases. This is thought to be due to a variety of factors including accumulation of\ngenetic defects in egg cells as well as an increased degradation of sperm quality.\nWhich of the following consequences is true?\npresent at birth and exposed to environmental mutagens.",
+    "text": "With increasing parental age, the risk of congenital abnormalities in babies\nincreases. This is thought to be due to a variety of factors including accumulation of\ngenetic defects in egg cells as well as an increased degradation of sperm quality.\nWhich of the follflowing conseqfluences is true?\npresent at birth and exposed to environmental mutagens.",
     "options": [
       "Older parents are less likely to have children with chromosomal abnormalities.",
       "From a genetic perspective, it is safer to have children at a younger age.",
@@ -666,21 +660,21 @@ const QUESTIONS = [
   {
     "id": 48,
     "passageId": null,
-    "text": "5 drivers take part in a car race. The top three drivers are each separated by 1\nsecond. The fastest driver, James, reached the nish line 10 seconds before the last,\nLucas. Felix was 5 seconds faster than Lucas, but 3 seconds slower than Peter. Dorian\nnishes second.\nWhich of the following is true?",
+    "text": "5 drivers take part in a car race. The top three drivers are each separated by 1\nsecond. The fastest driver, James, reached the finish line 10 seconds before the last,\nLucas. Felix was 5 seconds faster than Lucas, but 3 seconds slower than Peter. Dorian\nfinishes second.\nWhich of the follflowing is true?",
     "options": [
-      "Peter nished 8 seconds before Lucas.",
-      "James nishes 2 seconds before Dorian.",
-      "Dorian nishes third.",
+      "Peter finished 8 seconds before Lucas.",
+      "James finishes 2 seconds before Dorian.",
+      "Dorian finishes third.",
       "None of the above."
     ],
     "answer": 0,
-    "explanation": "1. True. Peter is 3 seconds faster than Felix, who is 5 seconds faster than Lucas.\n2. False, Dorian nishes second, and according to the text the top 3 places are\nseparated by 1 second.\n3. False. Dorian nishes second.\n--- PAGE 676 ---\n4. False. Answer a) is correct.",
+    "explanation": "1. True. Peter is 3 seconds faster than Felix, who is 5 seconds faster than Lucas.\n2. False, Dorian finishes second, and according to the text the top 3 places are\nseparated by 1 second.\n3. False. Dorian finishes second.\n--- PAGE 676 ---\n4. False. Answer a) is correct.",
     "topic": "Decision Making"
   },
   {
     "id": 49,
     "passageId": null,
-    "text": "A group of friends buys an assortment of junk food. They buy biscuits, chocolate and gummy bears. All but 2 of them like gummy bears. 6 like chocolate and 3 like biscuits. 1 doesn’t like any sweets and therefore bought peanuts. Out of the 5 that like gummy bears, 2 like chocolate and 1 likes biscuits. 2 of the 3 that like biscuits also like chocolate.<br><br><img src=\"images/page_157_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the following best represents the group’s food preferences?",
+    "text": "A group of friends buys an assortment of junk food. They buy biscuits, chocolate and gummy bears. All but 2 of them like gummy bears. 6 like chocolate and 3 like biscuits. 1 doesn’t like any sweets and therefore bought peanuts. Out of the 5 that like gummy bears, 2 like chocolate and 1 likes biscuits. 2 of the 3 that like biscuits also like chocolate.<br><br><img src=\"images/page_157_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the follflowing best represents the group’s food preferences?",
     "options": [
       "<img src=\"images/page_158_img_1.png\" style=\"max-height:100px; display:block; margin:auto;\">",
       "<img src=\"images/page_158_img_2.png\" style=\"max-height:100px; display:block; margin:auto;\">",
@@ -694,7 +688,7 @@ const QUESTIONS = [
   {
     "id": 50,
     "passageId": null,
-    "text": "A popular confectionary manufacturer analyses their yearly sales. They have 5\nmain products. All numbers are given in 1 ton batches and each batch has the same\nvalue. Their first product has sold 10 000 batches. That is 10% more than the previous\nyear. Product 2 has been sold in 500 batches, which represents a 95% drop in sales\nsince the last year. Product 3 has been sold 12 000 times, representing an increase of\n30% from last year. Products 4 and 5 have been sold 5000 times which is the same\namount as the previous year in both cases.\nWhich of the following conclusions must be correct?",
+    "text": "A popular confectionary manufacturer analyses their yearly sales. They have 5\nmain products. All numbers are given in 1 ton batches and each batch has the same\nvalue. Their first product has sold 10 000 batches. That is 10% more than the previous\nyear. Product 2 has been sold in 500 batches, which represents a 95% drop in sales\nsince the last year. Product 3 has been sold 12 000 times, representing an increase of\n30% from last year. Products 4 and 5 have been sold 5000 times which is the same\namount as the previous year in both cases.\nWhich of the follflowing conclusions must be correct?",
     "options": [
       "The company has made more money than the previous year.",
       "The company has grown internationally.",
@@ -708,7 +702,7 @@ const QUESTIONS = [
   {
     "id": 51,
     "passageId": null,
-    "text": "A plastic surgeon claims that the majority of procedures he does fall into 4 main\ncategories, listed according to prevalence: liposuction, nose reconstruction, facial\nlifting and eye surgery. They all have roughly equal durations, but the price of the\nsurgeries varies. A nose reconstruction costs roughly £500, liposuction costs £300,\nfacial lifting costs £700 and eye surgery costs £900. The prices are graded according\nto clinical diﬃculty.\nWhich of the following is not a valid conclusion?\nfacial lifting.",
+    "text": "A plastic surgeon claims that the majority of procedures he does fall into 4 main\ncategories, listed according to prevalence: liposuction, nose reconstruction, facial\nlifting and eye surgery. They all have roughly equal durations, but the price of the\nsurgeries varies. A nose reconstruction costs roughly £500, liposuction costs £300,\nfacial lifting costs £700 and eye surgery costs £900. The prices are graded according\nto clinical difficulty.\nWhich of the follflowing is not a valid conclusion?\nfacial lifting.",
     "options": [
       "The surgeon does only private work.",
       "The surgeon does more liposuction that eye surgeries.",
@@ -736,7 +730,7 @@ const QUESTIONS = [
   {
     "id": 53,
     "passageId": null,
-    "text": "Studies show that children from families where both parents have university\ndegrees are twice as likely to successfully complete a university degree themselves\nthan children from families where only one of the two has a university degree. These\nfamilies in turn are twice as likely to complete a university degree than children from\nfamilies where neither parent has a university degree.\nWhich one of the following conclusions must be correct?\nto be wealthy.",
+    "text": "Studies show that children from families where both parents have university\ndegrees are twice as likely to successfully complete a university degree themselves\nthan children from families where only one of the two has a university degree. These\nfamilies in turn are twice as likely to complete a university degree than children from\nfamilies where neither parent has a university degree.\nWhich one of the follflowing conclusions must be correct?\nto be wealthy.",
     "options": [
       "The education system must be reformed.",
       "Families where only one of the parents have university degrees are more likely",
@@ -750,7 +744,7 @@ const QUESTIONS = [
   {
     "id": 54,
     "passageId": null,
-    "text": "On a particularly busy night in an accident and emergency department in a\nLondon hospital, the staﬀ members conduct a study into the reason of visit. The\nstudy identies 5 main reasons for patients to seek help.\nA presentation due to respiratory causes was twice as likely as a presentation due\nto cardiovascular causes.\nThe chance of being admitted due to abdominal disease was 15%, making it\nproportionally 10% less common than cardiovascular causes.\nTraﬃc accidents and work accidents were equally as common.\nWhich of the following is true?",
+    "text": "On a particularly busy night in an accident and emergency department in a\nLondon hospital, the staﬀ members conduct a study into the reason of visit. The\nstudy identies 5 main reasons for patients to seek help.\nA presentation due to respiratory causes was twice as likely as a presentation due\nto cardiovascular causes.\nThe chance of being admitted due to abdominal disease was 15%, making it\nproportionally 10% less common than cardiovascular causes.\nTraﬃc accidents and work accidents were equally as common.\nWhich of the follflowing is true?",
     "options": [
       "5% of cases were due to traﬃc accidents.",
       "50% of cases were due to cardiovascular reasons.",
@@ -764,9 +758,9 @@ const QUESTIONS = [
   {
     "id": 55,
     "passageId": null,
-    "text": "A paediatric unit conducts a study into the prevalence of allergies in the children\nthat are admitted to the unit. They nd that 15% of children have allergies, with the\nmajority of them, 65%, being food intolerances such as nut allergies. This was\nfollowed by contact allergies to latex, accounting for 10% of allergies. Other common\nallergies included dust and pollen.\nWhich of the following conclusions are correct?",
+    "text": "A paediatric unit conducts a study into the prevalence of allergies in the children\nthat are admitted to the unit. They find that 15% of children have allergies, with the\nmajority of them, 65%, being food intolerances such as nut allergies. This was\nfollowed by contact allergies to latex, accounting for 10% of allergies. Other common\nallergies included dust and pollen.\nWhich of the follflowing conclusions are correct?",
     "options": [
-      "Allergies are a problem aﬀecting a large proportion of children.",
+      "Allergies are a problem affecting a large proportion of children.",
       "Roughly 10% of all children have food allergies.",
       "Nuts are the most common reason for allergies.",
       "Dust and pollen allergies are much more common in adults."
@@ -778,7 +772,7 @@ const QUESTIONS = [
   {
     "id": 56,
     "passageId": null,
-    "text": "In the wild, chimpanzees have been observed to be using simple tools for food\ngathering as well as for hunting. It is not uncommon to see them shing with sticks\nfor algae or see them use rocks for opening nuts and seeds. In particular, over the last\ntwo decades, this has become an increasingly common observation.\nWhich of the following conclusions cannot be reasonably drawn?",
+    "text": "In the wild, chimpanzees have been observed to be using simple tools for food\ngathering as well as for hunting. It is not uncommon to see them shing with sticks\nfor algae or see them use rocks for opening nuts and seeds. In particular, over the last\ntwo decades, this has become an increasingly common observation.\nWhich of the follflowing conclusions cannot be reasonably drawn?",
     "options": [
       "Chimpanzees are becoming more intelligent.",
       "Chimpanzees understand the effect of tools.",
@@ -786,13 +780,13 @@ const QUESTIONS = [
       "None of the above."
     ],
     "answer": 0,
-    "explanation": "The fact that chimpanzees continuously use tools shows that they understand\ntheir eﬀect, this makes b) true and therefore the wrong answer. With regards to\nanswer c), using tools in itself represents a form of environmental manipulation\nmaking c) true and therefore the incorrect answer for this question.",
+    "explanation": "The fact that chimpanzees continuously use tools shows that they understand\ntheir effect, this makes b) true and therefore the wrong answer. With regards to\nanswer c), using tools in itself represents a form of environmental manipulation\nmaking c) true and therefore the incorrect answer for this question.",
     "topic": "Decision Making"
   },
   {
     "id": 57,
     "passageId": null,
-    "text": "Carl and his friends want to build a treehouse. They know that they will need\nstrong material as all 5 of them are supposed to be able to be on the treehouse at the\nsame time. They calculate that the platform must be able to hold 225kg of weight for\nall of them as well as the structure of the house itself.\nCarl is 10kg heavier than Alex.\nPeter is the lightest of them, weighing 35kg.\nBen is the same weight as Alex\nLuke weighs 5kg more than Alex and 10kg more than Peter.\nWhich of the following must be true?",
+    "text": "Carl and his friends want to build a treehouse. They know that they will need\nstrong material as all 5 of them are supposed to be able to be on the treehouse at the\nsame time. They calculate that the platform must be able to hold 225kg of weight for\nall of them as well as the structure of the house itself.\nCarl is 10kg heavier than Alex.\nPeter is the lightest of them, weighing 35kg.\nBen is the same weight as Alex\nLuke weighs 5kg more than Alex and 10kg more than Peter.\nWhich of the follflowing must be true?",
     "options": [
       "Carl is neither the heaviest nor the lightest.",
       "Ben weighs 10kg less than Carl.",
@@ -806,7 +800,7 @@ const QUESTIONS = [
   {
     "id": 58,
     "passageId": null,
-    "text": "A group of scientists study different subspecies of a spider family. They find that some of the subspecies share traits with one another, whilst others have nothing in common.<br>Group A shares some traits with group C.<br>Group C shares traits with group D but not with Group B.<br>Group C shares traits with A.<br>Group E shares traits with groups A.<br>Group E shares traits with group C but with neither Group A nor Group B.<br><br>Which of the following represents the interrelation between the groups the best?",
+    "text": "A group of scientists study different subspecies of a spider family. They find that some of the subspecies share traits with one another, whilst others have nothing in common.<br>Group A shares some traits with group C.<br>Group C shares traits with group D but not with Group B.<br>Group C shares traits with A.<br>Group E shares traits with groups A.<br>Group E shares traits with group C but with neither Group A nor Group B.<br><br>Which of the follflowing represents the interrelation between the groups the best?",
     "options": [
       "<img src=\"images/page_163_img_1.png\" style=\"max-height:100px; display:block; margin:auto;\">",
       "<img src=\"images/page_163_img_2.png\" style=\"max-height:100px; display:block; margin:auto;\">",
@@ -820,7 +814,7 @@ const QUESTIONS = [
   {
     "id": 59,
     "passageId": null,
-    "text": "Ant colonies are organised as large units with clear distribution of responsibility\namongst individual groups of individuals, coordinated by communication\nmechanisms. They are headed by a queen and thereby represent a female dominant\nsociety. Some species of ants feed of plant material, other species feed of animal\nmaterial. Multiple colonies can exist in proximity leading to intraspecies competition\nbut little interspecies competition.\nWhich of the following must be true?\nants from different species.",
+    "text": "Ant colonies are organised as large units with clear distribution of responsibility\namongst individual groups of individuals, coordinated by communication\nmechanisms. They are headed by a queen and thereby represent a female dominant\nsociety. Some species of ants feed of plant material, other species feed of animal\nmaterial. Multiple colonies can exist in proximity leading to intraspecies competition\nbut little interspecies competition.\nWhich of the follflowing must be true?\nants from different species.",
     "options": [
       "Ants compete amongst individuals for food.",
       "Ants of different colonies, but of the same species work together to displace",
@@ -838,11 +832,11 @@ const QUESTIONS = [
     "options": [
       "Yes, pesticides should be outlawed as they are unnatural.",
       "No, pesticides should not be outlawed as they allow the UK food industry to",
-      "Yes, pesticides should be outlawed as they carry signicant health risks for the",
+      "Yes, pesticides should be outlawed as they carry significant health risks for the",
       "No, pesticides should not be outlawed as they represent an important branch"
     ],
     "answer": 2,
-    "explanation": "Many pesticides carry health risks for the consumer and are present in the food\nwe consume every day, which carries signicant health risks.",
+    "explanation": "Many pesticides carry health risks for the consumer and are present in the food\nwe consume every day, which carries significant health risks.",
     "topic": "Decision Making"
   },
   {
@@ -896,7 +890,7 @@ const QUESTIONS = [
   {
     "id": 65,
     "passageId": null,
-    "text": "Ancient peoples in hunter gatherer societies lived a nomadic lifestyle, roaming\nfreely through the forests of Europe. Before developing the technology needed for\ncultivation of grain, the majority of their food consisted of meat as this was available\nyear around. After developing farming and setting up settlements, the proportion of\nnon-meat food materials in their diet increased to include grain and other produce\nas well as by-products of animal farming.\nWhich of the following conclusions are false?\ntheir diet.",
+    "text": "Ancient peoples in hunter gatherer societies lived a nomadic lifestyle, roaming\nfreely through the forests of Europe. Before developing the technology needed for\ncultivation of grain, the majority of their food consisted of meat as this was available\nyear around. After developing farming and setting up settlements, the proportion of\nnon-meat food materials in their diet increased to include grain and other produce\nas well as by-products of animal farming.\nWhich of the follflowing conclusions are false?\ntheir diet.",
     "options": [
       "Hunting represented an important food source for our ancestors.",
       "Farming formed the basis of settlement development.",
@@ -910,10 +904,10 @@ const QUESTIONS = [
   {
     "id": 66,
     "passageId": null,
-    "text": "Diﬀerent studies have demonstrated that physical activity in children increases\ntheir cognitive performance.\nWhich one of the following conclusions can be drawn from this?\ndevelopment of children.",
+    "text": "Diﬀerent studies have demonstrated that physical activity in children increases\ntheir cognitive performance.\nWhich one of the follflowing conclusions can be drawn from this?\ndevelopment of children.",
     "options": [
       "Exercise should play a bigger role in school life.",
-      "Leading a sedentary life style can have detrimental eﬀects on intellectual",
+      "Leading a sedentary life style can have detrimental effects on intellectual",
       "Children that are members in sports clubs are likely to perform better at school.",
       "All of the above."
     ],
@@ -924,7 +918,7 @@ const QUESTIONS = [
   {
     "id": 67,
     "passageId": null,
-    "text": "Recently NASA discovered several planets that stand in a similar constellation to\ntheir sun as our planet does with our sun. This led to general conclusion that there\nare further inhabitable planets in the universe.\nWhich of the following assumptions must be met in order for this conclusion to\nbe true?",
+    "text": "Recently NASA discovered several planets that stand in a similar constellation to\ntheir sun as our planet does with our sun. This led to general conclusion that there\nare further inhabitable planets in the universe.\nWhich of the follflowing assumptions must be met in order for this conclusion to\nbe true?",
     "options": [
       "The new planets must meet other pre-requisites for life such as air and water.",
       "The planets are already inhabited.",
@@ -938,7 +932,7 @@ const QUESTIONS = [
   {
     "id": 68,
     "passageId": null,
-    "text": "Diﬀerent birds have different food preferences. Species A mainly eats sunower\nseeds, but if that is not available may fall back to pumpkin seeds. Species B has\ngrown particularly strong jaws allowing them to break open the hard shells of\nhazelnuts which represent their favoured food source. Species C mainly lives oﬀ\nberries, but will also eat the smaller seeds or insects if berries are not available.\nSpecies D lives off smaller insects.\nWhich of the following is true?",
+    "text": "Diﬀerent birds have different food preferences. Species A mainly eats sunower\nseeds, but if that is not available may fall back to pumpkin seeds. Species B has\ngrown particularly strong jaws allflowing them to break open the hard shells of\nhazelnuts which represent their favoured food source. Species C mainly lives oﬀ\nberries, but will also eat the smaller seeds or insects if berries are not available.\nSpecies D lives off smaller insects.\nWhich of the follflowing is true?",
     "options": [
       "Species B lives off berries.",
       "Species D has a strong beak to kill its insect pray.",
@@ -946,7 +940,7 @@ const QUESTIONS = [
       "Species C is adapted to all seasons."
     ],
     "answer": 3,
-    "explanation": "The fact that species C lives of berries when available but then falls back to seeds\nor insects means that they can nd food in any season. Answer a) Is incorrect as only\nspecies C eats berries, answer b) is incorrect as there is no mention of their beaks in\nthe text, answer c) is incorrect as Species A will also eat sunower seeds.",
+    "explanation": "The fact that species C lives of berries when available but then falls back to seeds\nor insects means that they can find food in any season. Answer a) Is incorrect as only\nspecies C eats berries, answer b) is incorrect as there is no mention of their beaks in\nthe text, answer c) is incorrect as Species A will also eat sunower seeds.",
     "topic": "Decision Making"
   },
   {
@@ -966,10 +960,10 @@ const QUESTIONS = [
   {
     "id": 70,
     "passageId": null,
-    "text": "A group of scientists conducted a study into the purchasing behaviour of young\nmen. The nd that having positive experiences such as holidays has the greatest\neﬀect in encouraging purchase, whereas advertising depicting products themselves\nwithout a theme has the least effect on encouraging purchase. Other eﬀective\ntechniques to encourage purchase seem to be nancial success or social interaction\nsuch as with friends.\nWhich of the following statements are correct?",
+    "text": "A group of scientists conducted a study into the purchasing behaviour of young\nmen. The find that having positive experiences such as holidays has the greatest\neffect in encouraging purchase, whereas advertising depicting products themselves\nwithout a theme has the least effect on encouraging purchase. Other effective\ntechniques to encourage purchase seem to be nancial success or social interaction\nsuch as with friends.\nWhich of the follflowing statements are correct?",
     "options": [
       "Financial gain is powerful advertising tool.",
-      "Advertising is most eﬀective if exclusively focused on the product itself.",
+      "Advertising is most effective if exclusively focused on the product itself.",
       "Young women are most encouraged to make purchases by positive experiences.",
       "None of the above."
     ],
@@ -980,7 +974,7 @@ const QUESTIONS = [
   {
     "id": 71,
     "passageId": null,
-    "text": "A company groups applicants into different populations depending on the type of experiences they bring to the table. Most applicants possess good excel skills, but only few have good photoshop skills. Some of those that have good photoshop skills, speak more than one language. A proportion of those that speak more than one language also have excellent communication skills. Very few applicants speak only English, but have great experience from previous jobs.<br><br>Which of the following represents the distribution of applicants the most accurately?<br><br><img src=\"images/page_168_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br><img src=\"images/page_169_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\">",
+    "text": "A company groups applicants into different populations depending on the type of experiences they bring to the table. Most applicants possess good excel skills, but only few have good photoshop skills. Some of those that have good photoshop skills, speak more than one language. A proportion of those that speak more than one language also have excellent communication skills. Very few applicants speak only English, but have great experience from previous jobs.<br><br>Which of the follflowing represents the distribution of applicants the most accurately?<br><br><img src=\"images/page_168_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br><img src=\"images/page_169_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\">",
     "options": [
       "A",
       "B",
@@ -994,22 +988,22 @@ const QUESTIONS = [
   {
     "id": 72,
     "passageId": null,
-    "text": "A group of ve friends compare the results of a recent maths test. Tom nds he\nachieved the highest score in all three sections. Richard has the second best score in\nsections A and B but the worst score in section C. Tony has the same result as\nRichard in section C, and worse results than Anthony in sections A and B. Anthony is\nin the middle eld achieving 50% of all possible points in all three sections. Steve\nnished better than Richard in section C, but worse than Anthony in sections A and\nWhich of the following is false?",
+    "text": "A group of five friends compare the results of a recent maths test. Tom finds he\nachieved the highest score in all three sections. Richard has the second best score in\nsections A and B but the worst score in section C. Tony has the same result as\nRichard in section C, and worse results than Anthony in sections A and B. Anthony is\nin the middle field achieving 50% of all possible points in all three sections. Steve\nfinished better than Richard in section C, but worse than Anthony in sections A and\nWhich of the follflowing is false?",
     "options": [
       "",
       "Tom has the best results.",
       "Steve has a higher score than Tony.",
       "Anthony has worse results for section A and B than Richard.",
-      "Richard nishes well in section C."
+      "Richard finishes well in section C."
     ],
     "answer": 3,
-    "explanation": "The overall order is: Tom - Richard - Anthony - Steve - Tony\nThe text describes that Richard nished joint bottom in section C, therefore he\ndid not nish well in the section.",
+    "explanation": "The overall order is: Tom - Richard - Anthony - Steve - Tony\nThe text describes that Richard finished joint bottom in section C, therefore he\ndid not finish well in the section.",
     "topic": "Decision Making"
   },
   {
     "id": 73,
     "passageId": null,
-    "text": "A tobacco company orders research into the eﬀects of a new cigarette that is\nsupposed to be less toxic than the current most common cigarettes on the market.\nThe results show that the new cigarette has a lower tar content than competitor\nbrands, but the amount of nicotine is twice as high and so is the amount of carbon\nmonoxide that’s inhaled. They also nd that there is signicantly more nitrous oxide\nreleased from the new cigarette than from competition blends.\nWhich of the following is correct?\nsame nicotine level.",
+    "text": "A tobacco company orders research into the effects of a new cigarette that is\nsupposed to be less toxic than the current most common cigarettes on the market.\nThe results show that the new cigarette has a lower tar content than competitor\nbrands, but the amount of nicotine is twice as high and so is the amount of carbon\nmonoxide that’s inhaled. They also find that there is significantly more nitrous oxide\nreleased from the new cigarette than from competition blends.\nWhich of the follflowing is correct?\nsame nicotine level.",
     "options": [
       "The new cigarette leads to less carbon monoxide being inhaled.",
       "The new cigarette contains more tar being inhaled.",
@@ -1023,7 +1017,7 @@ const QUESTIONS = [
   {
     "id": 74,
     "passageId": null,
-    "text": "A train travels from Elmsworth to Southwarf. The trip takes a total of 120mins.\nAfter 30mins of travel the train reaches the Eastwich where it stops for 5mins. After\nthat it travels for another 45mins to reach Northtown. From Northtown the trip to\nSouthwarf takes another 30mins, but the train waits for 5mins at the station before\nsetting off on the journey.\nWhich of the following is correct?",
+    "text": "A train travels from Elmsworth to Southwarf. The trip takes a total of 120mins.\nAfter 30mins of travel the train reaches the Eastwich where it stops for 5mins. After\nthat it travels for another 45mins to reach Northtown. From Northtown the trip to\nSouthwarf takes another 30mins, but the train waits for 5mins at the station before\nsetting off on the journey.\nWhich of the follflowing is correct?",
     "options": [
       "The trip from Elmsworth to Northtown takes 70mins.",
       "Eastwich lies 60mins away from Southwarf.",
@@ -1031,28 +1025,28 @@ const QUESTIONS = [
       "All of the above."
     ],
     "answer": 2,
-    "explanation": "Elmsworth to Eastwich: 30 minutes\nWaiting time at Eastwich: 5 minutes\nEastwich to Northtown: 45 minutes\nWaiting time at Northtown:5 minutes\nNorthtown to Southwarf: 30 minutes\nStop at Northtown station: 5 minutes\nTotal: 120 minutes",
+    "explanation": "Elmsworth to Eastwich: 30 minutes\nWaiting time at Eastwich: 5 minutes\nEastwich to Northtown: 45 minutes\nWaiting time at Northtown:5 minutes\nNorthtown to Southwarf: 30 minutes\nStop at Northtown station: 5 minutes\nTotal: 120 minutes.",
     "topic": "Decision Making"
   },
   {
     "id": 75,
     "passageId": null,
-    "text": "A sports club publishes the results of a local football tournament. There are a\ntotal of 5 teams taking part but only the first 2 teams will receive a prize. In the\nscoring system, a victory will deliver 3 points, a loss will deliver 0 and a draw will\ndeliver 1 point to each team. In the tournament each team plays each other team\nonce.\nTeam A wins against team E and C, but draws against team B and loses to team\nTeam B never wins but nishes with 3 points.\nTeam C wins against Team E and draws with Team B.\nTeam D does not lose or draw any games.\nWhich of the following are correct?",
+    "text": "A sports club publishes the results of a local football tournament. There are a\ntotal of 5 teams taking part but only the first 2 teams will receive a prize. In the\nscoring system, a victory will deliver 3 points, a loss will deliver 0 and a draw will\ndeliver 1 point to each team. In the tournament each team plays each other team\nonce.\nTeam A wins against team E and C, but draws against team B and loses to team\nTeam B never wins but finishes with 3 points.\nTeam C wins against Team E and draws with Team B.\nTeam D does not lose or draw any games.\nWhich of the follflowing are correct?",
     "options": [
       "",
-      "Team D will nish with the second most points.",
+      "Team D will finish with the second most points.",
       "Team E draws with team B.",
-      "Team C will nish rst.",
+      "Team C will finish first.",
       "It is customary for the best 3 teams to receive a prize."
     ],
     "answer": 1,
-    "explanation": "Team A: 7 points.\nTeam B: 3 points.\nTeam C: 4 points.\nTeam D: 12 points.\nTeam E: 1 point.\n1. False. Since team D is unbeaten and each team plays each opponent only once,\nthey achieve the most points.\n2. True. Since team B nishes with 3 points they must draw three times, with\nteam A, C and E.\n3. False. Team C will collect fewer points than team D.\n4. Irrelevant therefore false.",
+    "explanation": "Team A: 7 points.\nTeam B: 3 points.\nTeam C: 4 points.\nTeam D: 12 points.\nTeam E: 1 point.\n1. False. Since team D is unbeaten and each team plays each opponent only once,\nthey achieve the most points.\n2. True. Since team B finishes with 3 points they must draw three times, with\nteam A, C and E.\n3. False. Team C will collect fewer points than team D.\n4. Irrelevant therefore false.",
     "topic": "Decision Making"
   },
   {
     "id": 76,
     "passageId": null,
-    "text": "Every year there is a discussion surrounding the discontinuation of daylight\nsaving time.\nWhich of the following represents the strongest argument in support of this?\nshortage of World War 1 and now this war is long over.\ndangerous twilight time causing increased casualties to road traﬃc accidents.",
+    "text": "Every year there is a discussion surrounding the discontinuation of daylight\nsaving time.\nWhich of the follflowing represents the strongest argument in support of this?\nshortage of World War 1 and now this war is long over.\ndangerous twilight time causing increased casualties to road traﬃc accidents.",
     "options": [
       "Daylight saving is not necessary as it was introduced during the resource",
       "It is confusing to citizens who forget to change their watches.",
@@ -1066,7 +1060,7 @@ const QUESTIONS = [
   {
     "id": 77,
     "passageId": null,
-    "text": "Tim plans to run a marathon. For that he asks his friends to place themselves at\ndiﬀerent intervals from the start line to hand him snacks and sports drinks. He\nplaces his friend Chris at 15km after the start line. Anne stands 31km after the start\nline followed by Tara 5km after her. His friend Peter is placed 2km before the nish.\nPhilip stands 10km up race from Chris.\nWhich of the following is true?",
+    "text": "Tim plans to run a marathon. For that he asks his friends to place themselves at\ndiﬀerent intervals from the start line to hand him snacks and sports drinks. He\nplaces his friend Chris at 15km after the start line. Anne stands 31km after the start\nline followed by Tara 5km after her. His friend Peter is placed 2km before the finish.\nPhilip stands 10km up race from Chris.\nWhich of the follflowing is true?",
     "options": [
       "Chris stands 10km from Anne.",
       "Philip is the first friend Tim will pass.",
@@ -1074,7 +1068,7 @@ const QUESTIONS = [
       "All of the above."
     ],
     "answer": 2,
-    "explanation": "--- PAGE 681 ---\nThe progression of the race is as follows: Start -15km- Chris -10km- Philip -6km-\nAnne -5km- Tara -4km- Peter -2km- nish. Therefore the distances between stops\nprogressively reduce through the race",
+    "explanation": "--- PAGE 681 ---\nThe progression of the race is as follows: Start -15km- Chris -10km- Philip -6km-\nAnne -5km- Tara -4km- Peter -2km- finish. Therefore the distances between stops\nprogressively reduce through the race.",
     "topic": "Decision Making"
   },
   {
@@ -1094,7 +1088,7 @@ const QUESTIONS = [
   {
     "id": 79,
     "passageId": null,
-    "text": "Lisa likes to put her 5 dolls in a specic order when she puts them away on her\nshelf at the end of the day.\nTina always sits next to Annette.\nAnnette sits the furthest from Stephanie.\nPatricia sits next to Tina.\nWhich of the following is correct?",
+    "text": "Lisa likes to put her 5 dolls in a specic order when she puts them away on her\nshelf at the end of the day.\nTina always sits next to Annette.\nAnnette sits the furthest from Stephanie.\nPatricia sits next to Tina.\nWhich of the follflowing is correct?",
     "options": [
       "Patricia sits next to Annette.",
       "Tina must sit at the edge.",
@@ -1102,13 +1096,13 @@ const QUESTIONS = [
       "Patricia does not sit in the middle."
     ],
     "answer": 2,
-    "explanation": "Stephanie – Sophie – Patricia – Tina – Annette",
+    "explanation": "Stephanie – Sophie – Patricia – Tina – Annette.",
     "topic": "Decision Making"
   },
   {
     "id": 80,
     "passageId": null,
-    "text": "When it comes to the actions of the individual, there are several priorities\ninuencing behaviour. Factors like socialisation and inter-personal relationships can\ninuence this decision making as well as some degree of individual variability. It is for\nthis reason that we can nd all kinds of behavioural patterns in people from all\ndiﬀerent walks of life, independent of the cultural background, but they all follow\nsimilar patterns.\nWhich of the following conclusions can be drawn from the above?",
+    "text": "When it comes to the actions of the individual, there are several priorities\ninuencing behaviour. Factors like socialisation and inter-personal relationships can\ninfluence this decision making as well as some degree of individual variability. It is for\nthis reason that we can find all kinds of behavioural patterns in people from all\ndiﬀerent walks of life, independent of the cultural background, but they all follow\nsimilar patterns.\nWhich of the follflowing conclusions can be drawn from the above?",
     "options": [
       "People make choices based on xed patterns that show little variability.",
       "Certain behavioural traits are associated with specic social classes.",
@@ -1122,21 +1116,21 @@ const QUESTIONS = [
   {
     "id": 81,
     "passageId": null,
-    "text": "Steve ranks his 5 university applications.\nHe really wants to go to Cambridge.\nHe ranks Sheﬃeld in third place, behind Imperial.\nHe places Southampton between Cardiﬀ and Sheﬃeld.\nWhich of the following is correct?",
+    "text": "Steve ranks his 5 university applications.\nHe really wants to go to Cambridge.\nHe ranks Sheﬃfield in third place, behind Imperial.\nHe places Southampton between Cardiﬀ and Sheﬃfield.\nWhich of the follflowing is correct?",
     "options": [
       "Cardiﬀ must be his last choice.",
-      "Sheﬃeld is higher up in his ranking than Imperial.",
+      "Sheﬃfield is higher up in his ranking than Imperial.",
       "His first choice is Oxford.",
       "All his universities are private schools."
     ],
     "answer": 0,
-    "explanation": "Cambridge – Imperial – Sheﬃeld – Southampton – Cardiﬀ",
+    "explanation": "Cambridge – Imperial – Sheﬃfield – Southampton – Cardiﬀ.",
     "topic": "Decision Making"
   },
   {
     "id": 82,
     "passageId": null,
-    "text": "If we don’t change our wasteful, consumerist behaviour, we as a species will fail.\nWhich of the following represents the strongest argument in support of this\nquestion?\nresources more.\nsustenance.",
+    "text": "If we don’t change our wasteful, consumerist behaviour, we as a species will fail.\nWhich of the follflowing represents the strongest argument in support of this\nquestion?\nresources more.\nsustenance.",
     "options": [
       "Consumerism is bad.",
       "Due to the increasing shortage of resources, we must start to conserve",
@@ -1150,7 +1144,7 @@ const QUESTIONS = [
   {
     "id": 83,
     "passageId": null,
-    "text": "Tim is going to the dentist. He hates going to the dentist. In order to make the\nvisit easier for him, he tries to distract himself with little games that keep his mind\noccupied and prevent him from focusing on what is going on around him. His\nfavourite coping mechanism is reciting poetry in his head. He also likes to tell himself\nstories that distract him.\nWhich of the following is true?",
+    "text": "Tim is going to the dentist. He hates going to the dentist. In order to make the\nvisit easier for him, he tries to distract himself with little games that keep his mind\noccupied and prevent him from focusing on what is going on around him. His\nfavourite coping mechanism is reciting poetry in his head. He also likes to tell himself\nstories that distract him.\nWhich of the follflowing is true?",
     "options": [
       "Tom hates dentists.",
       "Tim likes poetry.",
@@ -1164,21 +1158,21 @@ const QUESTIONS = [
   {
     "id": 84,
     "passageId": null,
-    "text": "A group of scientists research swarm patterns of small sh. They nd that there is\na great degree of coordination between the individual shes in the swarm in order to\nmaintain a tight group. They also nd that swarm patterns seem to be particularly\nsuccessful in more murky water in comparison to very clear water. There is also a\ndiﬀerence in success rate depending on the eyesight of the number one predator in\nthe area, worse eye sight seems to increase protection to the individual.\nWhich of the following conclusions can be drawn?\nin protecting the individual.\nprotecting the individual.",
+    "text": "A group of scientists research swarm patterns of small fish. They find that there is\na great degree of coordination between the individual shes in the swarm in order to\nmaintain a tight group. They also find that swarm patterns seem to be particularly\nsuccessful in more murky water in comparison to very clear water. There is also a\ndiﬀerence in success rate depending on the eyesight of the number one predator in\nthe area, worse eye sight seems to increase protection to the individual.\nWhich of the follflowing conclusions can be drawn?\nin protecting the individual.\nprotecting the individual.",
     "options": [
-      "Large sh never swim in swarm patterns.",
+      "Large fish never swim in swarm patterns.",
       "The water temperature is a central factor in swarm formation.",
       "The better the eyesight of the predator, the more success swarm patterns show",
       "There seems to be a visual component to the success of swarm formations in"
     ],
     "answer": 3,
-    "explanation": "1. False. This statement only investigates small sh.\n2. False. Water temperature is never mentioned.\n--- PAGE 682 ---\n3. False. The statement directly mentions that worse eyesight improves individual\nsurvival chances.\n4. True. In cases of impaired visual function such as through dirt in murky water\nor through worse eye sight of the predator, the individual seems to be better\nprotected.",
+    "explanation": "1. False. This statement only investigates small fish.\n2. False. Water temperature is never mentioned.\n--- PAGE 682 ---\n3. False. The statement directly mentions that worse eyesight improves individual\nsurvival chances.\n4. True. In cases of impaired visual function such as through dirt in murky water\nor through worse eye sight of the predator, the individual seems to be better\nprotected.",
     "topic": "Decision Making"
   },
   {
     "id": 85,
     "passageId": null,
-    "text": "A political party is trying to determine the most popular topics in order to\nprepare their manifesto for the next general election. They produce a survey asking\npeople to select the topic they nd most pressing. 50% of people consider health care\nto be essential. Defence spending is considered the most essential by only 10% of\npeople lling in the survey. Education comes in as the second highest priority,\naccounting for 25%. The remaining people consider infrastructure to be the most\nrelevant.\nWhich of the following is correct?",
+    "text": "A political party is trying to determine the most popular topics in order to\nprepare their manifesto for the next general election. They produce a survey asking\npeople to select the topic they find most pressing. 50% of people consider health care\nto be essential. Defence spending is considered the most essential by only 10% of\npeople lling in the survey. Education comes in as the second highest priority,\naccounting for 25%. The remaining people consider infrastructure to be the most\nrelevant.\nWhich of the follflowing is correct?",
     "options": [
       "Healthcare is not an issue in this population.",
       "The population must feel very secure.",
@@ -1186,13 +1180,13 @@ const QUESTIONS = [
       "Infrastructure is an important issue for 15% of people."
     ],
     "answer": 3,
-    "explanation": "1. Incorrect. Since 50% of people consider healthcare to be the number one issue,\nthere is clearly a problem with heath care provision.\n2. Incorrect. Only because 10% consider defense the most important issue does\nnot mean the population feels very secure. It just means they consider other\npoints more important.\n3. False. Irrelevant to the question.\n4. Correct. Healthcare = 50%, education = 25%, infrastructure = 15%, defense =\n10%",
+    "explanation": "1. Incorrect. Since 50% of people consider healthcare to be the number one issue,\nthere is clearly a problem with heath care provision.\n2. Incorrect. Only because 10% consider defense the most important issue does\nnot mean the population feels very secure. It just means they consider other\npoints more important.\n3. False. Irrelevant to the question.\n4. Correct. Healthcare = 50%, education = 25%, infrastructure = 15%, defense =\n10%.",
     "topic": "Decision Making"
   },
   {
     "id": 86,
     "passageId": null,
-    "text": "A local political leader conducts a survey into the key interests of his\nconstituents. He nds that the issues can be reduced to ve main issues: Education,\nhousing, health care, smoking policy and public cleanliness. Education is the most\nimportant point accounting for 28% of votes, followed by housing which is most\nimportant to 5% less of the voters. The least important issue is smoking policy, a\npriority for only 11% of people, which places it behind public cleanliness policy which\nrepresents 16% of all votes.\nWhich of the following conclusions is incorrect?",
+    "text": "A local political leader conducts a survey into the key interests of his\nconstituents. He finds that the issues can be reduced to five main issues: Education,\nhousing, health care, smoking policy and public cleanliness. Education is the most\nimportant point accounting for 28% of votes, followed by housing which is most\nimportant to 5% less of the voters. The least important issue is smoking policy, a\npriority for only 11% of people, which places it behind public cleanliness policy which\nrepresents 16% of all votes.\nWhich of the follflowing conclusions is incorrect?",
     "options": [
       "Health care is more important than public cleanliness policy.",
       "Housing is more important than public health.",
@@ -1206,7 +1200,7 @@ const QUESTIONS = [
   {
     "id": 87,
     "passageId": null,
-    "text": "The mating behaviour of birds heavily relies on the use of loud calls that are\ndesigned to attract the attention of a female to the male where the loud call\noriginates. They are species specic, though there can also be a certain degree of\nmimicry when it comes to breeding calls. The amount of different calls varies\ndepending on the season and increases with the amount of birds that are actively\nlooking for a sexual partner.\nWhich of the following conclusions can be drawn from the above text?",
+    "text": "The mating behaviour of birds heavily relies on the use of loud calls that are\ndesigned to attract the attention of a female to the male where the loud call\noriginates. They are species specic, though there can also be a certain degree of\nmimicry when it comes to breeding calls. The amount of different calls varies\ndepending on the season and increases with the amount of birds that are actively\nlooking for a sexual partner.\nWhich of the follflowing conclusions can be drawn from the above text?",
     "options": [
       "It never happens that one bird uses another species’ mating call.",
       "Birds are the most active in the summer.",
@@ -1220,7 +1214,7 @@ const QUESTIONS = [
   {
     "id": 88,
     "passageId": null,
-    "text": "Elephants are highly social animals. They live in groups that are led by a single\nolder female elephant, and the main aim of the group is to protect the young whilst\nproviding the most stable social environment for the young to grow up. For this\nreason, young males are often excluded from the groups in order to prevent conict\nfor hierarchical reasons and to encourage the young males to nd their own herd,\nthereby also contributing to genetic variability by preventing inbreeding.\nWhich of the following statements about elephant behaviour is correct?",
+    "text": "Elephants are highly social animals. They live in groups that are led by a single\nolder female elephant, and the main aim of the group is to protect the young whilst\nproviding the most stable social environment for the young to grow up. For this\nreason, young males are often excluded from the groups in order to prevent conict\nfor hierarchical reasons and to encourage the young males to find their own herd,\nthereby also contributing to genetic variability by preventing inbreeding.\nWhich of the follflowing statements about elephant behaviour is correct?",
     "options": [
       "Elephants live in group led by males.",
       "Elephant groups include young animals that are protected by the group.",
@@ -1234,7 +1228,7 @@ const QUESTIONS = [
   {
     "id": 89,
     "passageId": null,
-    "text": "A group of monkeys is found to prefer yellow fruit to all other types of fruit. They\nwill also eat red fruit. They never eat green fruit.\nWhich of the following statements is true?",
+    "text": "A group of monkeys is found to prefer yellow fruit to all other types of fruit. They\nwill also eat red fruit. They never eat green fruit.\nWhich of the follflowing statements is true?",
     "options": [
       "The monkeys prefer red fruit to green fruit.",
       "The monkeys eat four different coloured fruits.",
@@ -1248,7 +1242,7 @@ const QUESTIONS = [
   {
     "id": 90,
     "passageId": null,
-    "text": "A group is only as strong as its weakest member.\nWhich of the following statements most supports this theory?\neﬃciency.",
+    "text": "A group is only as strong as its weakest member.\nWhich of the follflowing statements most supports this theory?\nefficiency.",
     "options": [
       "Groups consist of individuals, so without them, there is no group.",
       "A large group is better than a smaller one.",
@@ -1262,7 +1256,7 @@ const QUESTIONS = [
   {
     "id": 91,
     "passageId": null,
-    "text": "A mobile phone company takes stock of the sales of their 5 different handsets. In\ntotal they sold 10,000 handsets in the last year.\nSet A sold the most, accounting for 4,000 units sold.\nSet B and C sold to equal shares.\nSet D sold 1,500 units.\nSet E sold worst, with only 500 units sold.\nWhich of the following statements is true?",
+    "text": "A mobile phone company takes stock of the sales of their 5 different handsets. In\ntotal they sold 10,000 handsets in the last year.\nSet A sold the most, accounting for 4,000 units sold.\nSet B and C sold to equal shares.\nSet D sold 1,500 units.\nSet E sold worst, with only 500 units sold.\nWhich of the follflowing statements is true?",
     "options": [
       "Set C sold 2,000 units.",
       "Set B sold 2,500 units.",
@@ -1276,7 +1270,7 @@ const QUESTIONS = [
   {
     "id": 92,
     "passageId": null,
-    "text": "Different types of trees prefer different conditions. A study delivers the following results: Walnut trees like moist ground but secrete a poison that prevents any other trees from growing around them. Willow trees like darker and moist areas. Beeches grow high and grow in pretty much all areas. Oaks dislike moist areas.<br><br><img src=\"images/page_178_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the following best represents the individual relationships?",
+    "text": "Different types of trees prefer different conditions. A study delivers the follflowing results: Walnut trees like moist ground but secrete a poison that prevents any other trees from grflowing around them. Willow trees like darker and moist areas. Beeches grow high and grow in pretty much all areas. Oaks dislike moist areas.<br><br><img src=\"images/page_178_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the follflowing best represents the individual relationships?",
     "options": [
       "A",
       "B",
@@ -1290,7 +1284,7 @@ const QUESTIONS = [
   {
     "id": 93,
     "passageId": null,
-    "text": "Five friends decide to order take-away. They decide to order Chinese food, as 80%\nof the group are happy with Chinese. They order three portions of egg fried rice, two\nportions of beef spring rolls, 2 portions of sweet and sour chicken and one portion of\nsweet and sour duck. They also order two sh dishes.\nWhich of the following conclusions can be reasonably drawn?\nof egg fried rice.",
+    "text": "Five friends decide to order take-away. They decide to order Chinese food, as 80%\nof the group are happy with Chinese. They order three portions of egg fried rice, two\nportions of beef spring rolls, 2 portions of sweet and sour chicken and one portion of\nsweet and sour duck. They also order two fish dishes.\nWhich of the follflowing conclusions can be reasonably drawn?\nof egg fried rice.",
     "options": [
       "4 of the friends wanted Chinese food.",
       "There are vegans in the group.",
@@ -1304,11 +1298,11 @@ const QUESTIONS = [
   {
     "id": 94,
     "passageId": null,
-    "text": "After a local sports tournament, the leader table of countries is published, based\non gold medals achieved. All different groups have the same number of athletes and\nthere is a total of 5 groups.\nGroup A achieves 5 gold medals, 7 silver medals and no bronze medals.\nGroup B achieves 6 gold medals, 2 silver medals and 1 bronze medal.\nGroup C Ranks highest.\nGroup D achieves 1 gold medal and 10 silver medals as well 3 bronze medals.\nGroup E achieves 3 bronze medals.\nWhich of the following is correct?",
+    "text": "After a local sports tournament, the leader table of countries is published, based\non gold medals achieved. All different groups have the same number of athletes and\nthere is a total of 5 groups.\nGroup A achieves 5 gold medals, 7 silver medals and no bronze medals.\nGroup B achieves 6 gold medals, 2 silver medals and 1 bronze medal.\nGroup C Ranks highest.\nGroup D achieves 1 gold medal and 10 silver medals as well 3 bronze medals.\nGroup E achieves 3 bronze medals.\nWhich of the follflowing is correct?",
     "options": [
       "Group A ranks higher than group B.",
       "Group C has achieved at least 7 gold medals.",
-      "Group D nishes last.",
+      "Group D finishes last.",
       "Group C has more Bronze medals than group D."
     ],
     "answer": 1,
@@ -1318,7 +1312,7 @@ const QUESTIONS = [
   {
     "id": 95,
     "passageId": null,
-    "text": "Scientists have found that due to the change in temperatures during the winter,\nthe behaviour of birds that normally y South for warmer climates is changing. They\nnow are more likely to stay in their normal habitat without migrating. This results in\na constant presence of the birds which inuences predator as well as prey\npopulations. Feeding habits of humans in developed countries have however helped\nto counterbalance the increased pressure on prey populations.\nWhich of the following conclusions cannot be drawn from the text?",
+    "text": "Scientists have found that due to the change in temperatures during the winter,\nthe behaviour of birds that normally y South for warmer climates is changing. They\nnow are more likely to stay in their normal habitat without migrating. This results in\na constant presence of the birds which influences predator as well as prey\npopulations. Feeding habits of humans in developed countries have however helped\nto counterbalance the increased pressure on prey populations.\nWhich of the follflowing conclusions cannot be drawn from the text?",
     "options": [
       "Migratory birds provide important prey to predators.",
       "Climate change has reduced bird migration",
@@ -1338,7 +1332,7 @@ const QUESTIONS = [
       "No"
     ],
     "answer": 1,
-    "explanation": "Statement 1: No (False). <br><br>1. False – the passage describes coloured clothes\n2. False – no red clothes are described\n3. False – he owns sports clothes\n4. False – some are but we cannot conclude that most are",
+    "explanation": "Statement 1: No (False). <br><br>1. False – the passage describes coloured clothes\n2. False – no red clothes are described\n3. False – he owns sports clothes\n4. False – some are but we cannot conclude that most are.",
     "topic": "Decision Making"
   },
   {
@@ -1350,7 +1344,7 @@ const QUESTIONS = [
       "No"
     ],
     "answer": 1,
-    "explanation": "Statement 2: No (False). <br><br>1. False – the passage describes coloured clothes\n2. False – no red clothes are described\n3. False – he owns sports clothes\n4. False – some are but we cannot conclude that most are",
+    "explanation": "Statement 2: No (False). <br><br>1. False – the passage describes coloured clothes\n2. False – no red clothes are described\n3. False – he owns sports clothes\n4. False – some are but we cannot conclude that most are.",
     "topic": "Decision Making"
   },
   {
@@ -1362,7 +1356,7 @@ const QUESTIONS = [
       "No"
     ],
     "answer": 1,
-    "explanation": "Statement 3: No (False). <br><br>1. False – the passage describes coloured clothes\n2. False – no red clothes are described\n3. False – he owns sports clothes\n4. False – some are but we cannot conclude that most are",
+    "explanation": "Statement 3: No (False). <br><br>1. False – the passage describes coloured clothes\n2. False – no red clothes are described\n3. False – he owns sports clothes\n4. False – some are but we cannot conclude that most are.",
     "topic": "Decision Making"
   },
   {
@@ -1374,13 +1368,13 @@ const QUESTIONS = [
       "No"
     ],
     "answer": 1,
-    "explanation": "Statement 4: No (False). <br><br>1. False – the passage describes coloured clothes\n2. False – no red clothes are described\n3. False – he owns sports clothes\n4. False – some are but we cannot conclude that most are",
+    "explanation": "Statement 4: No (False). <br><br>1. False – the passage describes coloured clothes\n2. False – no red clothes are described\n3. False – he owns sports clothes\n4. False – some are but we cannot conclude that most are.",
     "topic": "Decision Making"
   },
   {
     "id": 100,
     "passageId": null,
-    "text": "A rowing club celebrates their 100th birthday by holding a 2000m race. Anthony,\nPeter, Eugene, David and John compete against each other.\nAnthony nishes the race after David.\nPeter is 3 seconds faster than Eugene.\nJohn is one second slower than Eugene, but faster than David.<br><br><b>Statement:</b> David is last to nish.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "A rflowing club celebrates their 100th birthday by holding a 2000m race. Anthony,\nPeter, Eugene, David and John compete against each other.\nAnthony finishes the race after David.\nPeter is 3 seconds faster than Eugene.\nJohn is one second slower than Eugene, but faster than David.<br><br><b>Statement:</b> David is last to finish.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -1392,7 +1386,7 @@ const QUESTIONS = [
   {
     "id": 101,
     "passageId": null,
-    "text": "A rowing club celebrates their 100th birthday by holding a 2000m race. Anthony,\nPeter, Eugene, David and John compete against each other.\nAnthony nishes the race after David.\nPeter is 3 seconds faster than Eugene.\nJohn is one second slower than Eugene, but faster than David.<br><br><b>Statement:</b> Peter has the fastest time.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "A rflowing club celebrates their 100th birthday by holding a 2000m race. Anthony,\nPeter, Eugene, David and John compete against each other.\nAnthony finishes the race after David.\nPeter is 3 seconds faster than Eugene.\nJohn is one second slower than Eugene, but faster than David.<br><br><b>Statement:</b> Peter has the fastest time.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -1404,7 +1398,7 @@ const QUESTIONS = [
   {
     "id": 102,
     "passageId": null,
-    "text": "A rowing club celebrates their 100th birthday by holding a 2000m race. Anthony,\nPeter, Eugene, David and John compete against each other.\nAnthony nishes the race after David.\nPeter is 3 seconds faster than Eugene.\nJohn is one second slower than Eugene, but faster than David.<br><br><b>Statement:</b> John is between Eugene and David.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "A rflowing club celebrates their 100th birthday by holding a 2000m race. Anthony,\nPeter, Eugene, David and John compete against each other.\nAnthony finishes the race after David.\nPeter is 3 seconds faster than Eugene.\nJohn is one second slower than Eugene, but faster than David.<br><br><b>Statement:</b> John is between Eugene and David.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -1416,7 +1410,7 @@ const QUESTIONS = [
   {
     "id": 103,
     "passageId": null,
-    "text": "A rowing club celebrates their 100th birthday by holding a 2000m race. Anthony,\nPeter, Eugene, David and John compete against each other.\nAnthony nishes the race after David.\nPeter is 3 seconds faster than Eugene.\nJohn is one second slower than Eugene, but faster than David.<br><br><b>Statement:</b> Anthony is slower than Peter.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
+    "text": "A rflowing club celebrates their 100th birthday by holding a 2000m race. Anthony,\nPeter, Eugene, David and John compete against each other.\nAnthony finishes the race after David.\nPeter is 3 seconds faster than Eugene.\nJohn is one second slower than Eugene, but faster than David.<br><br><b>Statement:</b> Anthony is slower than Peter.<br><br>Place \"Yes\" if the conclusion follows. Place \"No\" if it does not follow.",
     "options": [
       "Yes",
       "No"
@@ -1436,13 +1430,13 @@ const QUESTIONS = [
       "In order to distribute heath care funds fairly, the richest in society must pay"
     ],
     "answer": 2,
-    "explanation": "1. True, but not the strongest argument.\n2. False.\n3. True, strongest argument.\n4. False, as it replaces one unfair restriction with another.\n--- PAGE 685 ---",
+    "explanation": "1. True, but not the strongest argument.\n2. False.\n3. True, strongest argument.\n4. False, as it replaces one unfair restriction with another.\n--- PAGE 685 ---.",
     "topic": "Decision Making"
   },
   {
     "id": 105,
     "passageId": null,
-    "text": "Scientists investigate the feeding behaviour of bears. Bears are omnivores that\nfeed on meat as well as plants. They nd that bears will always prefer berries over any\nother type of food. Scientists believe that this is due to their sweet taste. They also\nnd that bears do not tend to hunt, but rather tend to eat the meat of freshly\ndeceased animals. They have been seen chasing away other predators in order to\nsteal their catch. This suggests that bears actually are more gatherers than hunters\nand will only actively attack if cornered or if considering their oﬀspring to be in\ndanger.\nWhich of the following conclusions can be drawn from the above text?",
+    "text": "Scientists investigate the feeding behaviour of bears. Bears are omnivores that\nfeed on meat as well as plants. They find that bears will always prefer berries over any\nother type of food. Scientists believe that this is due to their sweet taste. They also\nfind that bears do not tend to hunt, but rather tend to eat the meat of freshly\ndeceased animals. They have been seen chasing away other predators in order to\nsteal their catch. This suggests that bears actually are more gatherers than hunters\nand will only actively attack if cornered or if considering their oﬀspring to be in\ndanger.\nWhich of the follflowing conclusions can be drawn from the above text?",
     "options": [
       "Bears frequently hunt small animals like rabbits and squirrels.",
       "Bears prefer seeds over berries.",
@@ -1456,7 +1450,7 @@ const QUESTIONS = [
   {
     "id": 106,
     "passageId": null,
-    "text": "Ants are investigated for their social behaviour. Scientists come to the following conclusions:<br>Some ants are exclusively responsible for construction work.<br>Some ants take part in hunting and a proportion of those also play a role in protection of the nest.<br>Male ants exclusively exist for reproduction.<br><br><img src=\"images/page_182_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the following most accurately depicts the relationship between the different roles of ants?",
+    "text": "Ants are investigated for their social behaviour. Scientists come to the follflowing conclusions:<br>Some ants are exclusively responsible for construction work.<br>Some ants take part in hunting and a proportion of those also play a role in protection of the nest.<br>Male ants exclusively exist for reproduction.<br><br><img src=\"images/page_182_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the follflowing most accurately depicts the relationship between the different roles of ants?",
     "options": [
       "A",
       "B",
@@ -1476,7 +1470,7 @@ const QUESTIONS = [
       "No"
     ],
     "answer": 1,
-    "explanation": "Statement 1: No (False). <br><br>1. False – there are cherry trees.\n2. True – all the described plants are trees.\n3. False – her husband plants cherry trees.\n4. True – raspberry bushes are all she planted; the other plants were either there\nbefore or planted by her husband",
+    "explanation": "Statement 1: No (False). <br><br>1. False – there are cherry trees.\n2. True – all the described plants are trees.\n3. False – her husband plants cherry trees.\n4. True – raspberry bushes are all she planted; the other plants were either there\nbefore or planted by her husband.",
     "topic": "Decision Making"
   },
   {
@@ -1488,7 +1482,7 @@ const QUESTIONS = [
       "No"
     ],
     "answer": 0,
-    "explanation": "Statement 2: Yes (True). <br><br>1. False – there are cherry trees.\n2. True – all the described plants are trees.\n3. False – her husband plants cherry trees.\n4. True – raspberry bushes are all she planted; the other plants were either there\nbefore or planted by her husband",
+    "explanation": "Statement 2: Yes (True). <br><br>1. False – there are cherry trees.\n2. True – all the described plants are trees.\n3. False – her husband plants cherry trees.\n4. True – raspberry bushes are all she planted; the other plants were either there\nbefore or planted by her husband.",
     "topic": "Decision Making"
   },
   {
@@ -1500,7 +1494,7 @@ const QUESTIONS = [
       "No"
     ],
     "answer": 1,
-    "explanation": "Statement 3: No (False). <br><br>1. False – there are cherry trees.\n2. True – all the described plants are trees.\n3. False – her husband plants cherry trees.\n4. True – raspberry bushes are all she planted; the other plants were either there\nbefore or planted by her husband",
+    "explanation": "Statement 3: No (False). <br><br>1. False – there are cherry trees.\n2. True – all the described plants are trees.\n3. False – her husband plants cherry trees.\n4. True – raspberry bushes are all she planted; the other plants were either there\nbefore or planted by her husband.",
     "topic": "Decision Making"
   },
   {
@@ -1512,13 +1506,13 @@ const QUESTIONS = [
       "No"
     ],
     "answer": 0,
-    "explanation": "Statement 4: Yes (True). <br><br>1. False – there are cherry trees.\n2. True – all the described plants are trees.\n3. False – her husband plants cherry trees.\n4. True – raspberry bushes are all she planted; the other plants were either there\nbefore or planted by her husband",
+    "explanation": "Statement 4: Yes (True). <br><br>1. False – there are cherry trees.\n2. True – all the described plants are trees.\n3. False – her husband plants cherry trees.\n4. True – raspberry bushes are all she planted; the other plants were either there\nbefore or planted by her husband.",
     "topic": "Decision Making"
   },
   {
     "id": 111,
     "passageId": null,
-    "text": "In order to improve our health, we must make an eﬀort to avoid unhealthy foods.\nWhich of the following arguments most strongly opposes this statement?",
+    "text": "In order to improve our health, we must make an eﬀort to avoid unhealthy foods.\nWhich of the follflowing arguments most strongly opposes this statement?",
     "options": [
       "Health is always dependent on the individual.",
       "The denition of unhealthy foods is too imprecise to be of any use",
@@ -1526,13 +1520,13 @@ const QUESTIONS = [
       "All of the above."
     ],
     "answer": 1,
-    "explanation": "1. Partially true, certainly not the strongest argument.\n2. Correct. The term “unhealthy foods” is not well enough dened and can vary\ngreatly.\n3. False. Obesity is not mentioned in the argument.\n4. False.",
+    "explanation": "1. Partially true, certainly not the strongest argument.\n2. Correct. The term “unhealthy foods” is not well enough defined and can vary\ngreatly.\n3. False. Obesity is not mentioned in the argument.\n4. False.",
     "topic": "Decision Making"
   },
   {
     "id": 112,
     "passageId": null,
-    "text": "Stanley decides to build a wardrobe for his new bedroom. He measures the room\nand nds that he will need to make his wardrobe 75cm wide in order to have space\nfor all his clothes and he decides to make it 2 meters high in order to take full\nadvantage of the ceiling space available. He decides to use the more expensive\nWalnut wood because he prefers the darker colour in comparison to pine. He also\ndecides to use nails instead of screws because he does not have a drill and does not\nwant to buy one. This increases the risk of the wardrobe collapsing.\nWhich of the following statements is correct?",
+    "text": "Stanley decides to build a wardrobe for his new bedroom. He measures the room\nand finds that he will need to make his wardrobe 75cm wide in order to have space\nfor all his clothes and he decides to make it 2 meters high in order to take full\nadvantage of the ceiling space available. He decides to use the more expensive\nWalnut wood because he prefers the darker colour in comparison to pine. He also\ndecides to use nails instead of screws because he does not have a drill and does not\nwant to buy one. This increases the risk of the wardrobe collapsing.\nWhich of the follflowing statements is correct?",
     "options": [
       "The wardrobe will be large.",
       "Nails hold less securely than screws.",
@@ -1546,7 +1540,7 @@ const QUESTIONS = [
   {
     "id": 113,
     "passageId": null,
-    "text": "In order to deliver the highest quality product at the most aﬀordable price\npossible, a company conducts research into different materials to use for their\nproduct. They know that their product needs to be deliver a good compromise of\ncost, tensile strength, weather resistance and head resistance.\nMaterial A delivers good cost eﬀectiveness and weather resistance, but poor\ntensile strength and little heat resistance.\nMaterial B delivers good tensile strength, weather resistance and hear resistance,\nbut is very expensive.\nMaterial C is a 50/50 mix of Materials A and B resulting in good tensile strength\nand excellent weather resistance and heat resistance.\nWhich of the following conclusions is true?",
+    "text": "In order to deliver the highest quality product at the most aﬀordable price\npossible, a company conducts research into different materials to use for their\nproduct. They know that their product needs to be deliver a good compromise of\ncost, tensile strength, weather resistance and head resistance.\nMaterial A delivers good cost effectiveness and weather resistance, but poor\ntensile strength and little heat resistance.\nMaterial B delivers good tensile strength, weather resistance and hear resistance,\nbut is very expensive.\nMaterial C is a 50/50 mix of Materials A and B resulting in good tensile strength\nand excellent weather resistance and heat resistance.\nWhich of the follflowing conclusions is true?",
     "options": [
       "Material A is ideal for a good product.",
       "Material B must be steel.",
@@ -1554,13 +1548,13 @@ const QUESTIONS = [
       "Materials A and B do not interact to achieve new properties."
     ],
     "answer": 2,
-    "explanation": "1. Incorrect.\n2. Incorrect. At no point is the material named specically.\n3. True. As material C contains a signicant proportion of the expensive material\nB, it must be purchased making material C expensive.\n4. Incorrect. They must interact in order to produce material C which has diﬀerent\nproperties than its basic components.",
+    "explanation": "1. Incorrect.\n2. Incorrect. At no point is the material named specically.\n3. True. As material C contains a significant proportion of the expensive material\nB, it must be purchased making material C expensive.\n4. Incorrect. They must interact in order to produce material C which has diﬀerent\nproperties than its basic components.",
     "topic": "Decision Making"
   },
   {
     "id": 114,
     "passageId": null,
-    "text": "A magazine ranks 5 different companies according to annual income.\nCompany A makes $100,000, which is twice as much as company B.\nCompany C makes 10% less than company A.\nCompany D is the smallest company and only makes $75,000.\nCompany E makes the least.\nWhich of the following is correct?",
+    "text": "A magazine ranks 5 different companies according to annual income.\nCompany A makes $100,000, which is twice as much as company B.\nCompany C makes 10% less than company A.\nCompany D is the smallest company and only makes $75,000.\nCompany E makes the least.\nWhich of the follflowing is correct?",
     "options": [
       "Company A makes the most.",
       "Company B makes more than company C.",
@@ -1574,7 +1568,7 @@ const QUESTIONS = [
   {
     "id": 115,
     "passageId": null,
-    "text": "Cheryl analyses the relationships of her friends for a school project. She finds that Sarah gets along well with Tina and Marylin, but not at all with Peter and Astrid. Peter gets along with everybody but Sarah. Tina gets along well with Peter and Sarah, but not with Astrid. Astrid gets along well with Peter.<br><br><img src=\"images/page_185_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the following best represents the interaction of Cheryl’s friends?",
+    "text": "Cheryl analyses the relationships of her friends for a school project. She finds that Sarah gets along well with Tina and Marylin, but not at all with Peter and Astrid. Peter gets along with everybody but Sarah. Tina gets along well with Peter and Sarah, but not with Astrid. Astrid gets along well with Peter.<br><br><img src=\"images/page_185_img_1.png\" style=\"max-width:100%; display:block; margin:10px auto;\"><br>Which of the follflowing best represents the interaction of Cheryl’s friends?",
     "options": [
       "A",
       "B",
@@ -1588,7 +1582,7 @@ const QUESTIONS = [
   {
     "id": 116,
     "passageId": null,
-    "text": "A group of scientist investigates the link between population density and the\ndensity of newspapers. They nd that as populations grow, the amount of\nnewspapers increases until it reaches a ceiling from where it declines as population\ngrowth continues. In addition to that they nd that the remaining newspapers can\nincreasingly easily be classed into two opposing camps that tend to approach issues\nfrom polar opposites.\nWhich of the following statements is true with regards to the text above?\ndensity.",
+    "text": "A group of scientist investigates the link between population density and the\ndensity of newspapers. They find that as populations grow, the amount of\nnewspapers increases until it reaches a ceiling from where it declines as population\ngrowth continues. In addition to that they find that the remaining newspapers can\nincreasingly easily be classed into two opposing camps that tend to approach issues\nfrom polar opposites.\nWhich of the follflowing statements is true with regards to the text above?\ndensity.",
     "options": [
       "The media is a tool to make us believe in the theories of the politicians.",
       "At a certain point population growth is inversely proportional to newspaper",
@@ -1602,7 +1596,7 @@ const QUESTIONS = [
   {
     "id": 117,
     "passageId": null,
-    "text": "A school conducts a survey of their 200 students to nd out about their\nindividual job aspirations. They nd that they are essentially limited to 5 categories.\n10% of children want to be politicians.\n40% of children have not chosen a profession yet.\n50 children want to be doctors.\n20 children want to be actors.\nMore children want to be teachers than actors.\nWhich of the following statements is correct?",
+    "text": "A school conducts a survey of their 200 students to find out about their\nindividual job aspirations. They find that they are essentially limited to 5 categories.\n10% of children want to be politicians.\n40% of children have not chosen a profession yet.\n50 children want to be doctors.\n20 children want to be actors.\nMore children want to be teachers than actors.\nWhich of the follflowing statements is correct?",
     "options": [
       "More children want to be politicians than actors.",
       "The majority of children want to be doctors.",
@@ -1616,7 +1610,7 @@ const QUESTIONS = [
   {
     "id": 118,
     "passageId": null,
-    "text": "Philipp and Tom play for Port Town United FC. Philipp scores in every game of\nthe football season. Tom only scores in half the games. In the last game, neither Tom\nnor Philipp score. In every game Tom scores, Philipp scores at least the same number\nof goals as Tom. In every game that Tom scores, Port Town never lose. Neither Philipp\nnor Tom have been sent off in the season.\nWhich of the following statements is supported by the text?",
+    "text": "Philipp and Tom play for Port Town United FC. Philipp scores in every game of\nthe football season. Tom only scores in half the games. In the last game, neither Tom\nnor Philipp score. In every game Tom scores, Philipp scores at least the same number\nof goals as Tom. In every game that Tom scores, Port Town never lose. Neither Philipp\nnor Tom have been sent off in the season.\nWhich of the follflowing statements is supported by the text?",
     "options": [
       "Philipp scores more goals than Tom.",
       "Tom scores in the last game of the season.",
@@ -1624,7 +1618,7 @@ const QUESTIONS = [
       "Tom is better than Philipp."
     ],
     "answer": 0,
-    "explanation": "1. True – as per text\n2. False – neither score\n3. False – information not in passage\n4. False – information not in passage, we only know he scores fewer goals",
+    "explanation": "1. True – as per text\n2. False – neither score\n3. False – information not in passage\n4. False – information not in passage, we only know he scores fewer goals.",
     "topic": "Decision Making"
   }
 ];

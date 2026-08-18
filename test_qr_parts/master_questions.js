@@ -1,14 +1,10 @@
-// Auto-generated master questions file for Quantitative Reasoning
-// Total: 372 questions from question_4.js, question_9.js, question_12.js
-// Generated: 2026-08-13T05:17:46.862Z
-
 const PASSAGES = {};
 
 const QUESTIONS = [
   {
     "id": 1,
     "passageId": null,
-    "text": "The following table shows the distribution of birthdays in a class of 30 students:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:340px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Month</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Frequency</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>January</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>February</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>5</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>March</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>April</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>May</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>June</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>July</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>4</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>August</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>September</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>October</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>1</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>November</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>December</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr></table>\n\nWhat percentage of students are born in the second half of the year?",
+    "text": "The follflowing table shows the distribution of birthdays in a class of 30 students:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:340px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Month</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Frequency</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>January</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>February</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>5</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>March</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>April</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>May</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>June</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>July</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>4</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>August</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>September</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>October</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>1</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>November</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>December</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr></table>\n\nWhat percentage of students are born in the second half of the year?",
     "options": [
       "50%",
       "33.3%",
@@ -17,13 +13,13 @@ const QUESTIONS = [
       "38%"
     ],
     "answer": 2,
-    "explanation": "Adding up all of the values from July to December will give you 12. 12 / 30 = 0.4 → 40%",
+    "explanation": "• Calculation & Steps: Adding up all of the values from July to December will give you 12. 12 / 30 = 0.4 → 40%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 40%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 2,
     "passageId": null,
-    "text": "The following table shows the distribution of birthdays in a class of 30 students:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:340px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Month</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Frequency</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>January</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>February</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>5</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>March</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>April</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>May</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>June</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>July</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>4</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>August</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>September</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>October</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>1</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>November</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>December</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr></table>\n\nWhat is the ratio of students born in July to December to students born in January to June?",
+    "text": "The follflowing table shows the distribution of birthdays in a class of 30 students:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:340px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Month</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Frequency</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>January</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>February</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>5</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>March</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>April</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>May</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>June</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>July</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>4</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>August</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>September</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>October</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>1</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>November</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>December</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr></table>\n\nWhat is the ratio of students born in July to December to students born in January to June?",
     "options": [
       "2:3",
       "5:2",
@@ -38,7 +34,7 @@ const QUESTIONS = [
   {
     "id": 3,
     "passageId": null,
-    "text": "The following table shows the distribution of birthdays in a class of 30 students:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:340px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Month</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Frequency</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>January</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>February</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>5</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>March</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>April</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>May</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>June</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>July</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>4</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>August</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>September</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>October</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>1</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>November</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>December</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr></table>\n\nWhat is the probability of the birthdays of two randomly selected students being in May?",
+    "text": "The follflowing table shows the distribution of birthdays in a class of 30 students:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:340px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Month</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Frequency</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>January</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>February</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>5</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>March</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>April</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>May</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>June</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>July</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>4</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>August</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>September</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>October</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>1</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>November</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>December</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr></table>\n\nWhat is the probability of the birthdays of two randomly selected students being in May?",
     "options": [
       "0.00230",
       "0.00444",
@@ -53,7 +49,7 @@ const QUESTIONS = [
   {
     "id": 4,
     "passageId": null,
-    "text": "The following table shows the distribution of birthdays in a class of 30 students:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:340px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Month</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Frequency</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>January</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>February</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>5</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>March</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>April</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>May</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>June</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>July</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>4</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>August</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>September</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>October</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>1</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>November</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>December</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr></table>\n\nWhich combination of months accounts for 40% of all birthdays in the class?",
+    "text": "The follflowing table shows the distribution of birthdays in a class of 30 students:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:340px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Month</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Frequency</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>January</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>February</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>5</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>March</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>April</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>May</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>June</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>July</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>4</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>August</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>September</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>October</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>1</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>November</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>3</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>December</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>2</td></tr></table>\n\nWhich combination of months accounts for 40% of all birthdays in the class?",
     "options": [
       "January, February, March, May",
       "January, February, July",
@@ -188,7 +184,7 @@ const QUESTIONS = [
   {
     "id": 13,
     "passageId": null,
-    "text": "The following table shows the tax rates on annual income:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Band</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Taxable Income</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Tax Rate</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Personal Allowance</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Up to £12,500</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Basic Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£12,501 to £50,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>20%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£50,001 to £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>40%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Additional Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Over £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>45%</td></tr></table>\n\nHow much income tax would someone earning £75,000 a year pay?",
+    "text": "The follflowing table shows the tax rates on annual income:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Band</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Taxable Income</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Tax Rate</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Personal Allowance</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Up to £12,500</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Basic Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£12,501 to £50,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>20%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£50,001 to £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>40%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Additional Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Over £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>45%</td></tr></table>\n\nHow much income tax would someone earning £75,000 a year pay?",
     "options": [
       "£17,500",
       "£25,000",
@@ -203,7 +199,7 @@ const QUESTIONS = [
   {
     "id": 14,
     "passageId": null,
-    "text": "The following table shows the tax rates on annual income:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Band</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Taxable Income</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Tax Rate</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Personal Allowance</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Up to £12,500</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Basic Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£12,501 to £50,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>20%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£50,001 to £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>40%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Additional Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Over £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>45%</td></tr></table>\n\nLucy pays £12,500 income tax per year. How much is her annual salary before tax?",
+    "text": "The follflowing table shows the tax rates on annual income:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Band</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Taxable Income</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Tax Rate</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Personal Allowance</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Up to £12,500</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Basic Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£12,501 to £50,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>20%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£50,001 to £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>40%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Additional Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Over £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>45%</td></tr></table>\n\nLucy pays £12,500 income tax per year. How much is her annual salary before tax?",
     "options": [
       "£50,000",
       "£62,500",
@@ -218,7 +214,7 @@ const QUESTIONS = [
   {
     "id": 15,
     "passageId": null,
-    "text": "The following table shows the tax rates on annual income:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Band</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Taxable Income</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Tax Rate</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Personal Allowance</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Up to £12,500</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Basic Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£12,501 to £50,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>20%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£50,001 to £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>40%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Additional Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Over £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>45%</td></tr></table>\n\nAlex pays £12,000 income tax per year. As a percentage of his monthly salary, how much does he need to save per month in order to have enough to pay his income tax?",
+    "text": "The follflowing table shows the tax rates on annual income:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Band</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Taxable Income</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Tax Rate</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Personal Allowance</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Up to £12,500</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Basic Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£12,501 to £50,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>20%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£50,001 to £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>40%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Additional Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Over £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>45%</td></tr></table>\n\nAlex pays £12,000 income tax per year. As a percentage of his monthly salary, how much does he need to save per month in order to have enough to pay his income tax?",
     "options": [
       "1.63%",
       "9.6%",
@@ -233,7 +229,7 @@ const QUESTIONS = [
   {
     "id": 16,
     "passageId": null,
-    "text": "The following table shows the tax rates on annual income:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Band</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Taxable Income</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Tax Rate</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Personal Allowance</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Up to £12,500</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Basic Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£12,501 to £50,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>20%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£50,001 to £100,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>40%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>New Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£100,001 to £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>45%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Additional Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Over £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>55%</td></tr></table>\n\nA change to the tax system means that any income between £100,000 - £150,000 will now be taxed at 45%, with the Additional rate moving up to 55%. Under the new system, how much would somebody earning £200,000 a year have to pay in income tax?",
+    "text": "The follflowing table shows the tax rates on annual income:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:left;'>Band</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Taxable Income</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 14px;text-align:center;'>Tax Rate</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Personal Allowance</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Up to £12,500</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>0%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Basic Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£12,501 to £50,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>20%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£50,001 to £100,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>40%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>New Higher Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>£100,001 to £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>45%</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;'>Additional Rate</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>Over £150,000</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 14px;text-align:center;'>55%</td></tr></table>\n\nA change to the tax system means that any income between £100,000 - £150,000 will now be taxed at 45%, with the Additional rate moving up to 55%. Under the new system, how much would somebody earning £200,000 a year have to pay in income tax?",
     "options": [
       "£75,000",
       "£77,500",
@@ -257,7 +253,7 @@ const QUESTIONS = [
       "9.02 hours"
     ],
     "answer": 1,
-    "explanation": "Rearranging the formula speed = distance / time to get time = distance / speed will give you the answer. Time = 402 / 55 = 7.31 hours.",
+    "explanation": "• Calculation & Steps: Rearranging the formula speed = distance / time to get time = distance / speed will give you the answer. Time = 402 / 55 = 7.31 hours.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 7.31 hours, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -308,7 +304,7 @@ const QUESTIONS = [
   {
     "id": 21,
     "passageId": null,
-    "text": "The following table shows the distances between 4 major cities in Italy:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;'></th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Rome</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Florence</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Milan</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Naples</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Rome</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Florence</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Milan</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Naples</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td></tr></table>\n\n1 mile = 1.6 kilometres\n\nIt takes Adam exactly 4 hours to drive from Florence to Milan. What is his average speed in miles per hour?",
+    "text": "The follflowing table shows the distances between 4 major cities in Italy:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;'></th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Rome</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Florence</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Milan</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Naples</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Rome</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Florence</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Milan</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Naples</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td></tr></table>\n\n1 mile = 1.6 kilometres\n\nIt takes Adam exactly 4 hours to drive from Florence to Milan. What is his average speed in miles per hour?",
     "options": [
       "30 miles/hour",
       "40 miles/hour",
@@ -317,13 +313,13 @@ const QUESTIONS = [
       "70 miles/hour"
     ],
     "answer": 0,
-    "explanation": "Use the formula speed = distance / time. Florence to Milan = 120 miles. Speed = 120 / 4 = 30 miles/hour.",
+    "explanation": "• Calculation & Steps: Use the formula speed = distance / time. Florence to Milan = 120 miles. Speed = 120 / 4 = 30 miles/hour.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 30 miles/hour, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 22,
     "passageId": null,
-    "text": "The following table shows the distances between 4 major cities in Italy:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;'></th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Rome</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Florence</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Milan</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Naples</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Rome</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Florence</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Milan</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Naples</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td></tr></table>\n\n1 mile = 1.6 kilometres\n\nThe drive between Rome and Milan usually takes 4 hours. However, increased traffic means that the journey will take 5 hours on a given day. What is the difference in average speed between the two journeys?",
+    "text": "The follflowing table shows the distances between 4 major cities in Italy:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;'></th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Rome</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Florence</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Milan</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Naples</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Rome</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Florence</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Milan</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Naples</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td></tr></table>\n\n1 mile = 1.6 kilometres\n\nThe drive between Rome and Milan usually takes 4 hours. However, increased traffic means that the journey will take 5 hours on a given day. What is the difference in average speed between the two journeys?",
     "options": [
       "5 miles/hour",
       "10 miles/hour",
@@ -338,7 +334,7 @@ const QUESTIONS = [
   {
     "id": 23,
     "passageId": null,
-    "text": "The following table shows the distances between 4 major cities in Italy:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;'></th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Rome</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Florence</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Milan</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Naples</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Rome</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Florence</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Milan</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Naples</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td></tr></table>\n\n1 mile = 1.6 kilometres\n\nZakariya sets off on a drive between two cities, averaging a speed of 50mph. He breaks down 1.5 hours into the drive, meaning that he is 60% of the way to his destination. Which two cities is he travelling between?",
+    "text": "The follflowing table shows the distances between 4 major cities in Italy:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;'></th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Rome</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Florence</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Milan</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Naples</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Rome</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Florence</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Milan</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Naples</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td></tr></table>\n\n1 mile = 1.6 kilometres\n\nZakariya sets off on a drive between two cities, averaging a speed of 50mph. He breaks down 1.5 hours into the drive, meaning that he is 60% of the way to his destination. Which two cities is he travelling between?",
     "options": [
       "Milan and Rome",
       "Florence and Milan",
@@ -353,7 +349,7 @@ const QUESTIONS = [
   {
     "id": 24,
     "passageId": null,
-    "text": "The following table shows the distances between 4 major cities in Italy:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;'></th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Rome</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Florence</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Milan</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Naples</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Rome</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Florence</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Milan</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Naples</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td></tr></table>\n\n1 mile = 1.6 kilometres\n\nGracie decides to travel from Rome to Milan via Florence. Assuming on the way back she travels directly from Milan to Rome, how long would the round trip take if she traveled at an average of 50mph?",
+    "text": "The follflowing table shows the distances between 4 major cities in Italy:\n\n<table style='border-collapse:collapse;margin:12px 0;width:100%;max-width:500px;'><tr style='background:rgba(124,58,237,0.15);'><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;'></th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Rome</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Florence</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Milan</th><th style='border:1px solid rgba(124,58,237,0.3);padding:8px 12px;text-align:center;'>Naples</th></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Rome</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Florence</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>125 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Milan</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>200 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>120 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td></tr><tr><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;font-weight:600;'>Naples</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>210 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>85 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>45 miles</td><td style='border:1px solid rgba(124,58,237,0.2);padding:6px 12px;text-align:center;'>/</td></tr></table>\n\n1 mile = 1.6 kilometres\n\nGracie decides to travel from Rome to Milan via Florence. Assuming on the way back she travels directly from Milan to Rome, how long would the round trip take if she traveled at an average of 50mph?",
     "options": [
       "8.6 hours",
       "8.7 hours",
@@ -362,7 +358,7 @@ const QUESTIONS = [
       "9.0 hours"
     ],
     "answer": 3,
-    "explanation": "Calculate the total miles: Rome → Florence (125) + Florence → Milan (120) + Milan → Rome (200) = 445 miles. Time = 445 / 50 = 8.9 hours.",
+    "explanation": "• Calculation & Steps: Calculate the total miles: Rome → Florence (125) + Florence → Milan (120) + Milan → Rome (200) = 445 miles. Time = 445 / 50 = 8.9 hours.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 8.9 hours, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -377,7 +373,7 @@ const QUESTIONS = [
       "£66"
     ],
     "answer": 1,
-    "explanation": "Simple interest: £1000 + (£50 × 5) = £1,250. Compound interest: £1000 × 1.035⁵ = £1,187.69. Difference = £1,250 - £1,188 = £62.",
+    "explanation": "• Calculation & Steps: Simple interest: £1000 + (£50 × 5) = £1,250. Compound interest: £1000 × 1.035⁵ = £1,187.69. Difference = £1,250 - £1,188 = £62.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £62, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -452,7 +448,7 @@ const QUESTIONS = [
       "34,000 cm²"
     ],
     "answer": 1,
-    "explanation": "Use the formula A = 4πr². With radius = 50cm: A = 4 × π × 50² = 4 × π × 2,500 = 31,415.9 cm² ≈ 31,000 cm².",
+    "explanation": "• Calculation & Steps: Use the formula A = 4πr². With radius = 50cm: A = 4 × π × 50² = 4 × π × 2,500 = 31,415.9 cm² ≈ 31,000 cm².\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 31,000 cm², confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -482,13 +478,13 @@ const QUESTIONS = [
       "0.823"
     ],
     "answer": 1,
-    "explanation": "The surface area to volume ratio is SA/V. With r ≈ 18.14 cm: SA = 4π(18.14²) = 4,134.6 cm². SA/V = 4,134.6 / 25,000 = 0.165.",
+    "explanation": "• Calculation & Steps: The surface area to volume ratio is SA/V. With r ≈ 18.14 cm: SA = 4π(18.14²) = 4,134.6 cm². SA/V = 4,134.6 / 25,000 = 0.165.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 0.165, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 33,
     "passageId": null,
-    "text": "The following pie chart shows the distribution of degrees held by 140 employees at a particular financial institution:\n\n<br><img src=\"../test_4/images/img_p241_1.jpeg\" style=\"max-width:100%;\"><br>\n\nMaster of Business Administration (MBA)\n\nHow many employees do not hold a degree in a scientific field?",
+    "text": "The follflowing pie chart shows the distribution of degrees held by 140 employees at a particular financial institution:\n\n<br><img src=\"../test_4/images/img_p241_1.jpeg\" style=\"max-width:100%;\"><br>\n\nMaster of Business Administration (MBA)\n\nHow many employees do not hold a degree in a scientific field?",
     "options": [
       "42",
       "44",
@@ -503,7 +499,7 @@ const QUESTIONS = [
   {
     "id": 34,
     "passageId": null,
-    "text": "The following pie chart shows the distribution of degrees held by 140 employees at a particular financial institution:\n\n<br><img src=\"../test_4/images/img_p241_1.jpeg\" style=\"max-width:100%;\"><br>\n\nMaster of Business Administration (MBA)\n\nWhat is the probability of randomly selecting two employees with MBA degrees out of the pool of 140 employees?",
+    "text": "The follflowing pie chart shows the distribution of degrees held by 140 employees at a particular financial institution:\n\n<br><img src=\"../test_4/images/img_p241_1.jpeg\" style=\"max-width:100%;\"><br>\n\nMaster of Business Administration (MBA)\n\nWhat is the probability of randomly selecting two employees with MBA degrees out of the pool of 140 employees?",
     "options": [
       "0.00678",
       "0.678",
@@ -518,7 +514,7 @@ const QUESTIONS = [
   {
     "id": 35,
     "passageId": null,
-    "text": "The following pie chart shows the distribution of degrees held by 140 employees at a particular financial institution:\n\n<br><img src=\"../test_4/images/img_p241_1.jpeg\" style=\"max-width:100%;\"><br>\n\nMaster of Business Administration (MBA)\n\nThe firm hired 5 new employees. Two held MBAs and three held Bachelor of Arts degrees. What is the new percentage of employees holding MBAs to the nearest whole percentile?",
+    "text": "The follflowing pie chart shows the distribution of degrees held by 140 employees at a particular financial institution:\n\n<br><img src=\"../test_4/images/img_p241_1.jpeg\" style=\"max-width:100%;\"><br>\n\nMaster of Business Administration (MBA)\n\nThe firm hired 5 new employees. Two held MBAs and three held Bachelor of Arts degrees. What is the new percentage of employees holding MBAs to the nearest whole percentile?",
     "options": [
       "10%",
       "9%",
@@ -533,7 +529,7 @@ const QUESTIONS = [
   {
     "id": 36,
     "passageId": null,
-    "text": "The following pie chart shows the distribution of degrees held by 140 employees at a particular financial institution:\n\n<br><img src=\"../test_4/images/img_p241_1.jpeg\" style=\"max-width:100%;\"><br>\n\nMaster of Business Administration (MBA)\n\nIncluding the 5 new employees, what would be the probability of randomly selecting three employees with Bachelor of Sciences degrees out of the new pool of employees?",
+    "text": "The follflowing pie chart shows the distribution of degrees held by 140 employees at a particular financial institution:\n\n<br><img src=\"../test_4/images/img_p241_1.jpeg\" style=\"max-width:100%;\"><br>\n\nMaster of Business Administration (MBA)\n\nIncluding the 5 new employees, what would be the probability of randomly selecting three employees with Bachelor of Sciences degrees out of the new pool of employees?",
     "options": [
       "0.0339",
       "0.0394",
@@ -556,7 +552,7 @@ const QUESTIONS = [
       "Derivia"
     ],
     "answer": 2,
-    "explanation": "We can work out that the tax rates must fit in the following equation: ($50 x Food tax rate) + ($30 x Clothes tax rate) + $80 = $88. Only the tax rates in Casova fit correctly in this equation.",
+    "explanation": "We can work out that the tax rates must fit in the follflowing equation: ($50 x Food tax rate) + ($30 x Clothes tax rate) + $80 = $88. Only the tax rates in Casova fit correctly in this equation.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -576,7 +572,7 @@ const QUESTIONS = [
   {
     "id": 39,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='../test_9/image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John goes into a store and spends $100. Of this, $12 is tax. Which of the following is possible?",
+    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='../test_9/image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>John goes into a store and spends $100. Of this, $12 is tax. Which of the follflowing is possible?",
     "options": [
       "He shopped in Asteria and bought no imported goods.",
       "He shopped in Casova.",
@@ -590,7 +586,7 @@ const QUESTIONS = [
   {
     "id": 40,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='../test_9/image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sibella is on a road trip through Ecunemia, driving through different states. On the journey she buys $100 of the finest Asterian ham, $30 of the finest Bolovian caviar, a $10 case of Casovan orange juice and spends $100 on a Derivian dress (all of these prices without tax). Which of the following cannot have been the total amount Sibella spent, including tax?",
+    "text": "<strong>Scenario:</strong><br>The country of Ecunemia has a somewhat complicated tax code. There are four states that make up Ecunemia: Asteria, Bolovia, Casova and Derivia. Each state has its own tax code, including different tax rates on different items. The table below represents the tax a customer has to pay when they purchase an item from a store. E.g. a £100 coat in Asteria would cost £110. The customer must add the tax onto the advertised purchase price. In the case of an item falling into multiple categories ( for example, in the case of Imported Food) the higher tax rate is paid and the lower rate is ignored.<br><br><img src='../test_9/image/set_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sibella is on a road trip through Ecunemia, driving through different states. On the journey she buys $100 of the finest Asterian ham, $30 of the finest Bolovian caviar, a $10 case of Casovan orange juice and spends $100 on a Derivian dress (all of these prices without tax). Which of the follflowing cannot have been the total amount Sibella spent, including tax?",
     "options": [
       "$256",
       "$264",
@@ -598,7 +594,7 @@ const QUESTIONS = [
       "$288"
     ],
     "answer": 3,
-    "explanation": "The sum of the basic prices is 100+30+10+100 = $240. Now the highest tax rate on the board is 20% ( for imports to Asteria), thus the maximum tax is $240 x 1.20 = $288. However, this is impossible to attain (since if we bought everything in Asteria, the ham would be cheaper, as it is not imported and would only be taxed at the food rate). Therefore no option allows the overall price to be as high as $288, so this is the answer. Answer A) is possible if all products were bought in the state they are produced in. Answer C) is the correct answer if all products were bought in Asteria (and accounting for the reduced tax rate for the ham, which is not an import). Answer B) is possible if the ham was bought in Asteria, the caviar and orange juice were bought in Casova and the dress was bought in Bolovia. SET 2",
+    "explanation": "The sum of the basic prices is 100+30+10+100 = $240. Now the highest tax rate on the board is 20% ( for imports to Asteria), thus the maximum tax is $240 x 1.20 = $288. However, this is impossible to attain (since if we bought everything in Asteria, the ham would be cheaper, as it is not imported and would only be taxed at the food rate). Therefore no option allows the overall price to be as high as $288, so this is the answer. Answer A) is possible if all products were bought in the state they are produced in. Answer C) is the correct answer if all products were bought in Asteria (and accounting for the reduced tax rate for the ham, which is not an import). Answer B) is possible if the ham was bought in Asteria, the caviar and orange juice were bought in Casova and the dress was bought in Bolovia.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -626,13 +622,13 @@ const QUESTIONS = [
       "78 seconds."
     ],
     "answer": 1,
-    "explanation": "Calculate that the probe can drop 300,000 Pa/1,000 Pa per metre = 300 metres into the ocean before breaking. Now rearrange the equation in the question, to make t the subject, as follows: 2d = √(t3) (2d)2 = t3\n\n\nt = 3√(2d)2 Then substitute the depth into this supplied equation: t = 3√(2d)2 = 3√(2x300)2 = 71 seconds. SET 3",
+    "explanation": "Calculate that the probe can drop 300,000 Pa/1,000 Pa per metre = 300 metres into the ocean before breaking. Now rearrange the equation in the question, to make t the subject, as follows: 2d = √(t3) (2d)2 = t3\n\n\nt = 3√(2d)2 Then substitute the depth into this supplied equation: t = 3√(2d)2 = 3√(2x300)2 = 71 seconds.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 43,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Over the course of treatment, John, an 80 kg male, takes 26.88 grams of the drug. Which disease was he prescribed the drug for?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The follflowing table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Over the course of treatment, John, an 80 kg male, takes 26.88 grams of the drug. Which disease was he prescribed the drug for?",
     "options": [
       "Black Trump Virus",
       "Swamp Fever",
@@ -646,7 +642,7 @@ const QUESTIONS = [
   {
     "id": 44,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Carol is a 60 kg female who is prescribed the drug (precisely and at different times) three times in one year. Two of the cases are for Yellow Tick. In total she takes 40.32 grams of the drug. Which was the third disease she was prescribed the drug for?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The follflowing table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Carol is a 60 kg female who is prescribed the drug (precisely and at different times) three times in one year. Two of the cases are for Yellow Tick. In total she takes 40.32 grams of the drug. Which was the third disease she was prescribed the drug for?",
     "options": [
       "Black Trump Virus",
       "Swamp Fever",
@@ -660,7 +656,7 @@ const QUESTIONS = [
   {
     "id": 45,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Clarence takes the drug twice in his life. Once he takes it for Swamp Fever at age 18, when he weighs 80 kg, and he takes it later in life at age 40 for Black Trump Virus, when he weighs 110 kg. What is the ratio of the amount he takes each time?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The follflowing table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Clarence takes the drug twice in his life. Once he takes it for Swamp Fever at age 18, when he weighs 80 kg, and he takes it later in life at age 40 for Black Trump Virus, when he weighs 110 kg. What is the ratio of the amount he takes each time?",
     "options": [
       "1:23",
       "1:22",
@@ -674,7 +670,7 @@ const QUESTIONS = [
   {
     "id": 46,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Danny has liver disease. His system cannot cope with more than 15.5 grams of Cordrazine every 4 weeks. Danny has a medical condition usually treated with Cordrazine, but doctors have advised him to not complete a course of the treatment, as he would exceed the dose that his system is able to cope with. Which of the following statements is possible?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The follflowing table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Danny has liver disease. His system cannot cope with more than 15.5 grams of Cordrazine every 4 weeks. Danny has a medical condition usually treated with Cordrazine, but doctors have advised him to not complete a course of the treatment, as he would exceed the dose that his system is able to cope with. Which of the follflowing statements is possible?",
     "options": [
       "Danny suffers from Red Rage and weighs 75 kg.",
       "Danny suffers from Swamp Fever and weighs 100 kg.",
@@ -688,7 +684,7 @@ const QUESTIONS = [
   {
     "id": 47,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The following table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Eileen has kidney failure. Her system cannot cope with more than 10 grams of Cordrazine every 4 weeks. She suffers from Red Rage, but doctors have recommended she does not use Cordrazine to treat it, as this would exceed the 10 g dosage her system can cope with. Which of the following weights is the minimum that would support this recommendation?",
+    "text": "<strong>Scenario:</strong><br>The fictional drug Cordrazine is used to treat four separate conditions. The follflowing table gives the amount of drug used in each case to treat each condition, written in the form x mg/kg: i.e. for every kilogram you weigh, you take x mg of the drug. The recommended course for the drug is also listed, in the form of number of times a day and how many weeks you need to take the drug.<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Eileen has kidney failure. Her system cannot cope with more than 10 grams of Cordrazine every 4 weeks. She suffers from Red Rage, but doctors have recommended she does not use Cordrazine to treat it, as this would exceed the 10 g dosage her system can cope with. Which of the follflowing weights is the minimum that would support this recommendation?",
     "options": [
       "40.34 kg",
       "42.53 kg",
@@ -696,13 +692,13 @@ const QUESTIONS = [
       "47.62 kg"
     ],
     "answer": 3,
-    "explanation": "Heavier people need a higher dose. To find the maximum weight, we use the equation: 5 x weight x 2 x 21 = 10 g, where “weight” represents the maximum weight requiring a dosage of less than 10 g. So the maximum weight to not need a dosage exceeding 10 g is = 10,000 mg/(21 days x 2 daily doses x 5 mg/kg) = 47.62 kg. SET 4",
+    "explanation": "Heavier people need a higher dose. To find the maximum weight, we use the equation: 5 x weight x 2 x 21 = 10 g, where “weight” represents the maximum weight requiring a dosage of less than 10 g. So the maximum weight to not need a dosage exceeding 10 g is = 10,000 mg/(21 days x 2 daily doses x 5 mg/kg) = 47.62 kg.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 48,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which cake contains the highest proportion of flour?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the follflowing ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which cake contains the highest proportion of flour?",
     "options": [
       "Sponge",
       "Madeira",
@@ -710,13 +706,13 @@ const QUESTIONS = [
       "Chocolate."
     ],
     "answer": 1,
-    "explanation": "To solve this, divide the flour content by the overall mass. A quick inspection might show you that this is likely to be Madeira, which is confirmed by the calculation (250/825 = 0.3). Thus, 30% of the Madeira’s total weight is flour, which is a higher percentage than for any other cake",
+    "explanation": "To solve this, divide the flour content by the overall mass. A quick inspection might show you that this is likely to be Madeira, which is confirmed by the calculation (250/825 = 0.3). Thus, 30% of the Madeira’s total weight is flour, which is a higher percentage than for any other cake.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 49,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The cake recipes are scaled up for a large order. One cake weighs 2.6 kg and contains 625 g of flour. What variety of cake is it?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the follflowing ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The cake recipes are scaled up for a large order. One cake weighs 2.6 kg and contains 625 g of flour. What variety of cake is it?",
     "options": [
       "Sponge",
       "Madeira",
@@ -730,7 +726,7 @@ const QUESTIONS = [
   {
     "id": 50,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Eliza is having a wedding and wants to produce a 4-tiered wedding cake. She wishes each tier to be of different size, and scaled such that that the bottom cake is 50% heavier than normal (e.g. the cake contains 50% more ingredients), the second cake is 25% heavier than normal, the third cake is 10% heavier than normal and the top cake is normal-sized, where each cake is of the same type. Which of the following is a possible weight of sugar for the cake (rounded to 2 s.f.)?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the follflowing ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Eliza is having a wedding and wants to produce a 4-tiered wedding cake. She wishes each tier to be of different size, and scaled such that that the bottom cake is 50% heavier than normal (e.g. the cake contains 50% more ingredients), the second cake is 25% heavier than normal, the third cake is 10% heavier than normal and the top cake is normal-sized, where each cake is of the same type. Which of the follflowing is a possible weight of sugar for the cake (rounded to 2 s.f.)?",
     "options": [
       "940 g",
       "970 g",
@@ -744,7 +740,7 @@ const QUESTIONS = [
   {
     "id": 51,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is known that flour costs £0.55 per 1.5 kg and sugar costs £0.70 per 1 kg. Which of the following is the closest to the cost ratio of flour to sugar in a Madeira cake?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the follflowing ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is known that flour costs £0.55 per 1.5 kg and sugar costs £0.70 per 1 kg. Which of the follflowing is the closest to the cost ratio of flour to sugar in a Madeira cake?",
     "options": [
       "1:2",
       "3:4",
@@ -752,13 +748,13 @@ const QUESTIONS = [
       "5:6"
     ],
     "answer": 1,
-    "explanation": "A kilogram of flour costs 55 x 2/3 pence and we are using 0.25 kg, so 9.167 p worth of flour goes into a Madeira cake. For sugar, we have 0.175 kg x 70 p per kg = 12.25 p worth of sugar going into the cake. The ratio is thus 9.167:12.25 = approx 0.75:1 = 3:4",
+    "explanation": "A kilogram of flour costs 55 x 2/3 pence and we are using 0.25 kg, so 9.167 p worth of flour goes into a Madeira cake. For sugar, we have 0.175 kg x 70 p per kg = 12.25 p worth of sugar going into the cake. The ratio is thus 9.167:12.25 = approx 0.75:1 = 3:4.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 52,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the following ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Milk costs £0.44 per kilogram and flour costs £0.55 per 1.5 kg. What is the cost ratio of flour to milk in a chocolate cake?",
+    "text": "<strong>Scenario:</strong><br>A bakery sells four varieties of cakes. The cakes contain the follflowing ingredients:<br><br><img src='../test_9/image/set_4.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Milk costs £0.44 per kilogram and flour costs £0.55 per 1.5 kg. What is the cost ratio of flour to milk in a chocolate cake?",
     "options": [
       "1:1",
       "2:3",
@@ -766,7 +762,7 @@ const QUESTIONS = [
       "10:9"
     ],
     "answer": 3,
-    "explanation": "As before, the flour costs: 55 p per 1.5 kg x 2/3 x 0.2 kg = 7.3 pence. The milk costs: 44 p per kg x 150 g/1000 g per kg = 6.6 pence. Thus the ratio is 7.3:6.6 = 1:0.9 = 10:9. SET 5",
+    "explanation": "As before, the flour costs: 55 p per 1.5 kg x 2/3 x 0.2 kg = 7.3 pence. The milk costs: 44 p per kg x 150 g/1000 g per kg = 6.6 pence. Thus the ratio is 7.3:6.6 = 1:0.9 = 10:9.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -780,13 +776,13 @@ const QUESTIONS = [
       "63%"
     ],
     "answer": 1,
-    "explanation": "In total, 108 people out of the 200 tested have the disease; this is 108/200 = 0.54. Thus, the answer is 54%.",
+    "explanation": "• Calculation & Steps: In total, 108 people out of the 200 tested have the disease; this is 108/200 = 0.54. Thus, the answer is 54%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 54%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 54,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A population of 231,768 is divided: 53% women, 47% men. Use the data in the table to estimate the number of people in the population that have the Kryptos virus. Assume that the infection rates in each gender will be the same as for the sample population in Test A. Which of the following is the number of people expected to be infected with Kryptos virus in this population?",
+    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A population of 231,768 is divided: 53% women, 47% men. Use the data in the table to estimate the number of people in the population that have the Kryptos virus. Assume that the infection rates in each gender will be the same as for the sample population in Test A. Which of the follflowing is the number of people expected to be infected with Kryptos virus in this population?",
     "options": [
       "123,587",
       "123,589",
@@ -800,7 +796,7 @@ const QUESTIONS = [
   {
     "id": 55,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>3/9 of the men and 5/7 of the women testing positive for Kryptos in Test A have visited the city of Atlantis. Which of the following is the correct percentage of people in the test group testing positive for Kryptos who have NOT visited Atlantis?",
+    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>3/9 of the men and 5/7 of the women testing positive for Kryptos in Test A have visited the city of Atlantis. Which of the follflowing is the correct percentage of people in the test group testing positive for Kryptos who have NOT visited Atlantis?",
     "options": [
       "40%",
       "44%",
@@ -814,7 +810,7 @@ const QUESTIONS = [
   {
     "id": 56,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is known that Test A is not always correct. Test B is a more accurate test. The 45 men who tested positive for the Kryptos virus using Test A were then re-tested with Test B - only 20 tested positive. Assuming the same proportion of men and women experienced false positive results with Test A, how many women in the test group do we expect to actually have the Kryptos virus?",
+    "text": "<strong>Scenario:</strong><br>The Kryptos Virus is particularly virulent. The infection rate is dependent upon the gender of the recipient. A random sample of 100 men and 100 women are taken from a population and tested for the Kryptos virus using Test A. The results of Test A are displayed below:<br><br><img src='../test_9/image/set_5.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>It is known that Test A is not always correct. Test B is a more accurate test. The 45 men who tested positive for the Kryptos virus using Test A were then fire-tested with Test B - only 20 tested positive. Assuming the same proportion of men and women experienced false positive results with Test A, how many women in the test group do we expect to actually have the Kryptos virus?",
     "options": [
       "20",
       "28",
@@ -836,13 +832,13 @@ const QUESTIONS = [
       "55%"
     ],
     "answer": 2,
-    "explanation": "The largest section on the pie chart for Scottish GDP is Government and Other Services – it accounts for 29% of total Scottish GDP.",
+    "explanation": "• Calculation & Steps: The largest section on the pie chart for Scottish GDP is Government and Other Services – it accounts for 29% of total Scottish GDP.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 50%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 58,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A business has 3 manufacturing plants and 3 stores. Each plant can ship to each store, and the following table shows the flat rate cost, in pounds sterling (£), of the business sending a truck from the plant to the store.<br><br><img src='../test_9/image/set_6.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Currently the businesses strategy is to send material from Plant A to store 2, from Plant B to store 3 and from Plant C to store 1. One truck is suﬃcient for a day’s delivery. What is the daily cost of this plan?",
+    "text": "<strong>Scenario:</strong><br>A business has 3 manufacturing plants and 3 stores. Each plant can ship to each store, and the follflowing table shows the flat rate cost, in pounds sterling (£), of the business sending a truck from the plant to the store.<br><br><img src='../test_9/image/set_6.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Currently the businesses strategy is to send material from Plant A to store 2, from Plant B to store 3 and from Plant C to store 1. One truck is suﬃcient for a day’s delivery. What is the daily cost of this plan?",
     "options": [
       "£850",
       "£930",
@@ -850,13 +846,13 @@ const QUESTIONS = [
       "£1,030"
     ],
     "answer": 1,
-    "explanation": "The cost of the plan is 190 + 600 + 140 = £930 per day",
+    "explanation": "• Calculation & Steps: The cost of the plan is 190 + 600 + 140 = £930 per day.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £930, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 59,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A business has 3 manufacturing plants and 3 stores. Each plant can ship to each store, and the following table shows the flat rate cost, in pounds sterling (£), of the business sending a truck from the plant to the store.<br><br><img src='../test_9/image/set_6.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The store wishes to optimize their shipping costs by sending material from Plant C to store 3, noticing that the delivery cost is lower. They then choose the two other options that save the most money. What percentage saving is achieved by this strategy relative to the strategy in the previous question (to the nearest whole number)?",
+    "text": "<strong>Scenario:</strong><br>A business has 3 manufacturing plants and 3 stores. Each plant can ship to each store, and the follflowing table shows the flat rate cost, in pounds sterling (£), of the business sending a truck from the plant to the store.<br><br><img src='../test_9/image/set_6.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The store wishes to optimize their shipping costs by sending material from Plant C to store 3, noticing that the delivery cost is lower. They then choose the two other options that save the most money. What percentage saving is achieved by this strategy relative to the strategy in the previous question (to the nearest whole number)?",
     "options": [
       "18%",
       "20%",
@@ -864,7 +860,7 @@ const QUESTIONS = [
       "24%"
     ],
     "answer": 2,
-    "explanation": "Firstly we need to find the two options that save the most money, aside from the one already stated. The two best options are to send material from Plant A to Store 1, and material from plant B to store 2. We can see from the table that these 2 options will be £30 per day cheaper than sending from Plant A to store 2, and plant B to store 1 (as with the current business plan).\n\n\nThe new total cost is 100 + 180 + 450 = £730. Thus the saving is (930 – 730) = £200. £200 is 22% of £930, so the percentage saving is 22% (to the nearest whole number). SET 7",
+    "explanation": "Firstly we need to find the two options that save the most money, aside from the one already stated. The two best options are to send material from Plant A to Store 1, and material from plant B to store 2. We can see from the table that these 2 options will be £30 per day cheaper than sending from Plant A to store 2, and plant B to store 1 (as with the current business plan).\n\n\nThe new total cost is 100 + 180 + 450 = £730. Thus the saving is (930 – 730) = £200. £200 is 22% of £930, so the percentage saving is 22% (to the nearest whole number).",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -912,7 +908,7 @@ const QUESTIONS = [
   {
     "id": 63,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='../test_9/image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The following week, the shop decides to market the horror books more heavily, resulting in the sales of horror books doubling, and the sales of non-fiction books returning to the normal level. How much does the shop’s income increase this week compared to the non-fiction marketing week? Sales of all other books can be assumed to be the same as un-marketed weeks.",
+    "text": "<strong>Scenario:</strong><br>The table below shows the number of books sold by a bookshop in one day:<br><br><img src='../test_9/image/set_7.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The follflowing week, the shop decides to market the horror books more heavily, resulting in the sales of horror books doubling, and the sales of non-fiction books returning to the normal level. How much does the shop’s income increase this week compared to the non-fiction marketing week? Sales of all other books can be assumed to be the same as un-marketed weeks.",
     "options": [
       "1%",
       "2%",
@@ -920,13 +916,13 @@ const QUESTIONS = [
       "4%"
     ],
     "answer": 3,
-    "explanation": "The shop’s revenue is now £6 x (100+90+23+90+103+159) + £10 x (12+30) per day. This income equates to £3,810 per day and £26,670 per week. Therefore the percentage difference is 26,670/25,620 = 1.04, giving a 4% increase on the previous week. SET 8",
+    "explanation": "The shop’s revenue is now £6 x (100+90+23+90+103+159) + £10 x (12+30) per day. This income equates to £3,810 per day and £26,670 per week. Therefore the percentage difference is 26,670/25,620 = 1.04, giving a 4% increase on the previous week.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 64,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A family goes on a tour of Italy in the High season. They are 2 adults and 2 children, aged 9 and 13. They spend two nights in each of Venice, Rome, Padua and Siena. They stay in 3 star hotels for the entire trip, and have two rooms (an adult room and a child room). How much tax do they pay for their trip?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A family goes on a tour of Italy in the High season. They are 2 adults and 2 children, aged 9 and 13. They spend two nights in each of Venice, Rome, Padua and Siena. They stay in 3 star hotels for the entire trip, and have two rooms (an adult room and a child room). How much tax do they pay for their trip?",
     "options": [
       "EUR 35",
       "EUR 56",
@@ -940,7 +936,7 @@ const QUESTIONS = [
   {
     "id": 65,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Claude is comparing cities. He can either spend 7 nights in Rome in a 4 star hotel, or 8 nights in Padua in a 5 star hotel. Which of the following is the ratio between the tax he pays in Rome and the tax he pays in Padua?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Claude is comparing cities. He can either spend 7 nights in Rome in a 4 star hotel, or 8 nights in Padua in a 5 star hotel. Which of the follflowing is the ratio between the tax he pays in Rome and the tax he pays in Padua?",
     "options": [
       "8:3",
       "7:4",
@@ -948,13 +944,13 @@ const QUESTIONS = [
       "1:4"
     ],
     "answer": 1,
-    "explanation": "In Rome he pays 6 euros x 7 nights = 42 Euros. In Padua he pays 3 euros x 8 nights = 24 Euros. 42:24 = 7:4.",
+    "explanation": "• Calculation & Steps: In Rome he pays 6 euros x 7 nights = 42 Euros. In Padua he pays 3 euros x 8 nights = 24 Euros. 42:24 = 7:4.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 7:4, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 66,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Alice goes on a trip for 2 days to Venice in a 3 star hotel and for 3 days to Padua in a 4 star hotel. What is the percentage more tax she pays in Padua relative to Venice?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Alice goes on a trip for 2 days to Venice in a 3 star hotel and for 3 days to Padua in a 4 star hotel. What is the percentage more tax she pays in Padua relative to Venice?",
     "options": [
       "25%",
       "50%",
@@ -968,7 +964,7 @@ const QUESTIONS = [
   {
     "id": 67,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How long does Reuben have to stay in a 4 star hotel in Rome so that the tax would be less than or equal to the tax he incurs if staying the same length of time in a 4 star hotel in Padua?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows the taxing structure for Italian city hotels: Unless specifically mentioned, assume that all of the people below are aged 18 or over.<br><br><img src='../test_9/image/set_8.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How long does Reuben have to stay in a 4 star hotel in Rome so that the tax would be less than or equal to the tax he incurs if staying the same length of time in a 4 star hotel in Padua?",
     "options": [
       "10 days",
       "15 days",
@@ -976,7 +972,7 @@ const QUESTIONS = [
       "25 days"
     ],
     "answer": 2,
-    "explanation": "The maximum cost of tax in a 4 star hotel in Rome is 6 euros x 10 nights = 60 EUR. Up until this point it will always be cheaper in Padua. In Padua the cost for a 4 star hotel is 3 euros a night, therefore after 20 days the cost of the Padua hotel is equal to the cost of a stay of equivalent duration in Rome. SET 9",
+    "explanation": "The maximum cost of tax in a 4 star hotel in Rome is 6 euros x 10 nights = 60 EUR. Up until this point it will always be cheaper in Padua. In Padua the cost for a 4 star hotel is 3 euros a night, therefore after 20 days the cost of the Padua hotel is equal to the cost of a stay of equivalent duration in Rome.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -990,7 +986,7 @@ const QUESTIONS = [
       "121 m2"
     ],
     "answer": 1,
-    "explanation": "First find the wall length: 15m x 0.6 = 9m. Therefore, the area of the room is 9m x 9m = 81 m2",
+    "explanation": "• Calculation & Steps: First find the wall length: 15m x 0.6 = 9m. Therefore, the area of the room is 9m x 9m = 81 m2.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 81 m2, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1010,7 +1006,7 @@ const QUESTIONS = [
   {
     "id": 70,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='../test_9/image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>After building the house, Peter decides to add an extension to the sitting room, turning it into a combined lounge and dining room. He extends the room by increasing the length of the longer wall by 5 metres. The lounge is 3 metres high. How much extra wall (in m2) does Peter have to build, assuming that he is extending directly outwards and cannot move or re-use any wall?",
+    "text": "<strong>Scenario:</strong><br>Peter is building a house that contains rooms of different sizes. The sitting room is 10m x 20m, the hallway is 3m x 10m, and the master bedroom is 15m x 15m. In addition, the house has another square-shaped bedroom, a kitchen and a bathroom.<br><br><img src='../test_9/image/set_9.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>After building the house, Peter decides to add an extension to the sitting room, turning it into a combined lounge and dining room. He extends the room by increasing the length of the longer wall by 5 metres. The lounge is 3 metres high. How much extra wall (in m2) does Peter have to build, assuming that he is extending directly outwards and cannot move or fire-use any wall?",
     "options": [
       "15m2",
       "30m2",
@@ -1032,7 +1028,7 @@ const QUESTIONS = [
       "2.00:3.00"
     ],
     "answer": 1,
-    "explanation": "Builder 1 costs: (15 x 300) + 200 = £4,700 Builder 2 costs: (16 x 300) = £4,800. Therefore the requested ratio is 47:48, which is 1:1.02, to 3 s.f. SET 10",
+    "explanation": "Builder 1 costs: (15 x 300) + 200 = £4,700 Builder 2 costs: (16 x 300) = £4,800. Therefore the requested ratio is 47:48, which is 1:1.02, to 3 s.f.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1047,7 +1043,7 @@ const QUESTIONS = [
       "£11.20"
     ],
     "answer": 3,
-    "explanation": "200 SMSs are free, so he pays for 7. £5 monthly fee + 7 SMSs x £0.20 + 15 minutes x £0.20 = £9.40",
+    "explanation": "• Calculation & Steps: 200 SMSs are free, so he pays for 7. £5 monthly fee + 7 SMSs x £0.20 + 15 minutes x £0.20 = £9.40.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £9.40, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1107,7 +1103,7 @@ const QUESTIONS = [
       "75 %"
     ],
     "answer": 2,
-    "explanation": "100 minutes are free on Plan C. Plan D has unlimited minutes and costs £5 more than C per month. At 20p a minute, Rachel can call for 25 minutes for £5, so can exceed her free minutes by 25 %, at which point Plan D is the same price. If she exceeds the free minutes allowance by any more than this, then plan D would be cheaper. SET 11",
+    "explanation": "100 minutes are free on Plan C. Plan D has unlimited minutes and costs £5 more than C per month. At 20p a minute, Rachel can call for 25 minutes for £5, so can exceed her free minutes by 25 %, at which point Plan D is the same price. If she exceeds the free minutes allowance by any more than this, then plan D would be cheaper.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1152,7 +1148,7 @@ const QUESTIONS = [
       "50"
     ],
     "answer": 4,
-    "explanation": "Any whole number multiple of flour, sugar or milk can be measured with a ½ cup. 4 tablespoons is 60 ml, ½ cup is 125 ml. The least common multiple of 60 and 125 is 1500, representing the smallest possible amount of butter that can be measured with half-cup measures. 1500 grams of butter makes 25 batches of muﬃns, which would require 25 x 2 cups = 50 cups of flour. Thus, the weight ratio of Milk:Butter is 131.25/57:1 = 2.3:1.",
+    "explanation": "Any whole number multiple of flour, sugar or milk can be measured with a ½ cup. 4 tablespoons is 60 ml, ½ cup is 125 ml. The least common multiple of 60 and 125 is 1500, representing the smallest possible amount of butter that can be measured with half-cup measures. 1500 grams of butter makes 25 batches of muﬃfins, which would require 25 x 2 cups = 50 cups of flour. Thus, the weight ratio of Milk:Butter is 131.25/57:1 = 2.3:1.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1167,13 +1163,13 @@ const QUESTIONS = [
       "1,100 grams/dm3"
     ],
     "answer": 0,
-    "explanation": "The recipe will have: 2 cups of milk = 500 ml = 0.5 dm3 1 cup of sugar = 250 ml = 0.25 dm3 ½ cup of flour = 125 ml = 0.125 dm3 4 tablespoons of butter = 60 ml = 0.06 dm3.\n\n\nTherefore the volume of the batter is 0.5 dm3 + 0.25 dm3 + 0.125 dm3 + 0.06 dm3 = 0.935 dm3. Now, to calculate the density of the batter, multiply the density of each ingredient by the proportion of the batter it makes up, and then add up these figures, as follows: (1050 grams/dm3 milk x 0.5/0.935) + (850 grams/dm3 sugar x 0.25/0.935) + (600 grams/dm3 flour x 0.125/0.935) + (950 grams/dm3 butter x 0.06/0.935) = 561.5 grams/dm3 + 227.3 grams/dm3 + 80.2 grams/dm3 + 61.0 grams/dm3 = 930 grams/dm3",
+    "explanation": "The recipe will have: 2 cups of milk = 500 ml = 0.5 dm3 1 cup of sugar = 250 ml = 0.25 dm3 ½ cup of flour = 125 ml = 0.125 dm3 4 tablespoons of butter = 60 ml = 0.06 dm3.\n\n\nTherefore the volume of the batter is 0.5 dm3 + 0.25 dm3 + 0.125 dm3 + 0.06 dm3 = 0.935 dm3. Now, to calculate the density of the batter, multiply the density of each ingredient by the proportion of the batter it makes up, and then add up these figures, as follows: (1050 grams/dm3 milk x 0.5/0.935) + (850 grams/dm3 sugar x 0.25/0.935) + (600 grams/dm3 flour x 0.125/0.935) + (950 grams/dm3 butter x 0.06/0.935) = 561.5 grams/dm3 + 227.3 grams/dm3 + 80.2 grams/dm3 + 61.0 grams/dm3 = 930 grams/dm3.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 81,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Peter wanted to make 10 muﬃns weighing 100 grams each, how much butter would he need to 1 decimal place? Assume that the finished product weighs the same as the initial dough.",
+    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Peter wanted to make 10 muﬃfins weighing 100 grams each, how much butter would he need to 1 decimal place? Assume that the finished product weighs the same as the initial dough.",
     "options": [
       "55.1 grams",
       "62.3 grams",
@@ -1182,13 +1178,13 @@ const QUESTIONS = [
       "81.3 grams"
     ],
     "answer": 4,
-    "explanation": "10 muﬃns x 100 grams = 1,000 grams batter required. The recipe calls for: 2 cups flour = 5 dl = 0.5 dm3 flour. Weight of the flour is 0.5 dm3 x 600 grams/dm3 = 300 grams. 1 cup sugar = 2.5 dl = 0.25 dm3 sugar. Weight of the sugar is 0.25 dm3 x 850 grams/dm3 = 212.5 grams. From question 42 we remember that the weight of the milk as called for by the recipe is 131.25 grams and weight of the butter is 57 grams. Thus the overall weight of the batter is 300 + 212.5 + 131.25 + 57 = 700.75 grams. 700.75/1,000 grams batter = 57/B grams butter, where B is the amount of butter required in 1,000g batter. B = 81.3 grams butter.",
+    "explanation": "10 muﬃfins x 100 grams = 1,000 grams batter required. The recipe calls for: 2 cups flour = 5 dl = 0.5 dm3 flour. Weight of the flour is 0.5 dm3 x 600 grams/dm3 = 300 grams. 1 cup sugar = 2.5 dl = 0.25 dm3 sugar. Weight of the sugar is 0.25 dm3 x 850 grams/dm3 = 212.5 grams. From question 42 we remember that the weight of the milk as called for by the recipe is 131.25 grams and weight of the butter is 57 grams. Thus the overall weight of the batter is 300 + 212.5 + 131.25 + 57 = 700.75 grams. 700.75/1,000 grams batter = 57/B grams butter, where B is the amount of butter required in 1,000g batter. B = 81.3 grams butter.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 82,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>When Peter’s ten 100 gram muﬃns are done, assuming no losses to cooking, what percentage of the weight will be made up by flour, to the nearest whole number?",
+    "text": "<strong>Scenario:</strong><br>A muﬃn recipe calls for ingredients in the amounts listed in the table below: 1 cup = 2.5 decilitres (dl); 1 tablespoon = 15 millilitres (ml); 1 cubic decimetre (dm3) = 1 litre<br><br><img src='../test_9/image/set_11.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>When Peter’s ten 100 gram muﬃfins are done, assuming no losses to cooking, what percentage of the weight will be made up by flour, to the nearest whole number?",
     "options": [
       "35 %",
       "39 %",
@@ -1197,7 +1193,7 @@ const QUESTIONS = [
       "52 %"
     ],
     "answer": 2,
-    "explanation": "700.75/1,000 grams batter = 300/F grams flour, where F is the amount of flour required to make 1,000 grams of muﬃn. F = 428.11 grams. 428.11 grams/1000 grams = 0.428 = 43 % to the nearest whole number. SET 12",
+    "explanation": "700.75/1,000 grams batter = 300/F grams flour, where F is the amount of flour required to make 1,000 grams of muﬃn. F = 428.11 grams. 428.11 grams/1000 grams = 0.428 = 43 % to the nearest whole number.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1242,7 +1238,7 @@ const QUESTIONS = [
       "560,000 °C km3"
     ],
     "answer": 3,
-    "explanation": "Crustal volume per year = 20 km2 crustal thickness x 20 mm/year spreading rate x 1 year = 20,000,000,000,000 mm2 x 20 mm = 400,000,000,000,000 mm3 = 400,000 m3",
+    "explanation": "Crustal volume per year = 20 km2 crustal thickness x 20 mm/year spreading rate x 1 year = 20,000,000,000,000 mm2 x 20 mm = 400,000,000,000,000 mm3 = 400,000 m3.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1257,7 +1253,7 @@ const QUESTIONS = [
       "1:6.0"
     ],
     "answer": 2,
-    "explanation": "In answering this question, it is not necessary to use the same units for crustal thickness and spreading rate, as long as we use the same units for the crustal thickness from both locations, and likewise for the spreading rate. Location A = 10 x 100 = 1,000. Location C = 30 x 150 = 4,500. A:C = 1:4,500/1,000 = 1:4.5",
+    "explanation": "In answering this question, it is not necessary to use the same units for crustal thickness and spreading rate, as long as we use the same units for the crustal thickness from both locations, and likewise for the spreading rate. Location A = 10 x 100 = 1,000. Location C = 30 x 150 = 4,500. A:C = 1:4,500/1,000 = 1:4.5.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1287,7 +1283,7 @@ const QUESTIONS = [
       "3, 600,000,000,000,000 mm3"
     ],
     "answer": 4,
-    "explanation": "Temperature at D is 1,600 °C, decreased by 10 % it would be 1440 °C. From the trend in temperature and crustal thickness this corresponds to a crustal thickness of 24 km2. Crustal volume per 3 years = 24 km2 crustal thickness x 50 mm/year x 3 years = 24,000,000,000,000 mm2 x 150 mm = 3,600,000,000,000,000 mm3 SET 13",
+    "explanation": "Temperature at D is 1,600 °C, decreased by 10 % it would be 1440 °C. From the trend in temperature and crustal thickness this corresponds to a crustal thickness of 24 km2. Crustal volume per 3 years = 24 km2 crustal thickness x 50 mm/year x 3 years = 24,000,000,000,000 mm2 x 150 mm = 3,600,000,000,000,000 mm3.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1302,7 +1298,7 @@ const QUESTIONS = [
       "36 %"
     ],
     "answer": 2,
-    "explanation": "A: 9/25, B: 6/23, C: 7/22, D: 8/24. (9+6+7+8)/(25+23+22+24) = 30/94 = 32 % to the nearest whole number.",
+    "explanation": "• Calculation & Steps: A: 9/25, B: 6/23, C: 7/22, D: 8/24. (9+6+7+8)/(25+23+22+24) = 30/94 = 32 % to the nearest whole number.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 32 %, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1368,7 +1364,7 @@ const QUESTIONS = [
   {
     "id": 94,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='../test_9/image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following statements is supported by the data in the table?",
+    "text": "<strong>Scenario:</strong><br>A new drug to treat vision problems in diabetics is tested on volunteers. It is also tested on control groups of diabetics without vision problems and healthy volunteers with or without vision problems. Some volunteers are given one inactive placebo pill which they are told is the drug. There are the same number of people in each group testing either the drug or placebo, as indicated below. The table below shows the number of volunteers in Groups A-D who self- reported improved vision and their measured average accuracy reading letters before and after taking the drug or a placebo. Group A: 50 diabetics with vision problems (25 in each group) Group B: 46 diabetics without vision problems (23 in each group) Group C: 44 healthy volunteers with vision problems (22 in each group) Group D: 48 healthy volunteers without vision problems (24 in each group)<br><br><img src='../test_9/image/set_13.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the follflowing statements is supported by the data in the table?",
     "options": [
       "The placebo is more effective than the drug.",
       "The drug acts to improve vision in diabetics and healthy volunteers.",
@@ -1377,13 +1373,13 @@ const QUESTIONS = [
       "The data are inconclusive."
     ],
     "answer": 3,
-    "explanation": "D is supported, because in all groups taking the placebo, there was an increase in accuracy with reading letters, suggesting better vision, and in many cases this was equivalent to the increase in those taking the drug. The data suggest that A) and B) are incorrect. Only one group showed a higher increase in accuracy amongst the placebo group, in all other groups the people taking the drug had a larger % increase in accuracy. In healthy volunteers, there was as much of an increase in accuracy amongst those taking a placebo, suggesting the drug does not have as much of an effect in healthy volunteers. Options C) and E) are relatively meaningless statements which are not supported by the data. SET 14",
+    "explanation": "D is supported, because in all groups taking the placebo, there was an increase in accuracy with reading letters, suggesting better vision, and in many cases this was equivalent to the increase in those taking the drug. The data suggest that A) and B) are incorrect. Only one group showed a higher increase in accuracy amongst the placebo group, in all other groups the people taking the drug had a larger % increase in accuracy. In healthy volunteers, there was as much of an increase in accuracy amongst those taking a placebo, suggesting the drug does not have as much of an effect in healthy volunteers. Options C) and E) are relatively meaningless statements which are not supported by the data.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 95,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Dave wants his workout to take one hour on a 5 mile track. What is the maximum number of calories he can burn by running or cycling?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the follflowing relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Dave wants his workout to take one hour on a 5 mile track. What is the maximum number of calories he can burn by running or cycling?",
     "options": [
       "Burn 125 calories running",
       "Burn 125 calories cycling",
@@ -1398,7 +1394,7 @@ const QUESTIONS = [
   {
     "id": 96,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Dave doesn’t want to eat less than his BMR and can only run for 30 minutes a day, but cycles 20 miles every day in an hour. How long will it take him to lose 10 pounds?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the follflowing relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Dave doesn’t want to eat less than his BMR and can only run for 30 minutes a day, but cycles 20 miles every day in an hour. How long will it take him to lose 10 pounds?",
     "options": [
       "5 days",
       "7 days",
@@ -1413,7 +1409,7 @@ const QUESTIONS = [
   {
     "id": 97,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Elizabeth and Dave both want to lose 10% of their body weight without dieting or cycling. What is the ratio of minutes a day Elizabeth would have to run to those Dave would have to run to achieve their goal at the same time to 1 decimal place?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the follflowing relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Elizabeth and Dave both want to lose 10% of their body weight without dieting or cycling. What is the ratio of minutes a day Elizabeth would have to run to those Dave would have to run to achieve their goal at the same time to 1 decimal place?",
     "options": [
       "1:0.5",
       "1:0.7",
@@ -1428,7 +1424,7 @@ const QUESTIONS = [
   {
     "id": 98,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Elizabeth eats cereal for breakfast, a sandwich for lunch, chicken and vegetables for dinner and does no exercise, in how many full days will she have reached her goal of 10% weight-loss?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the follflowing relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Elizabeth eats cereal for breakfast, a sandwich for lunch, chicken and vegetables for dinner and does no exercise, in how many full days will she have reached her goal of 10% weight-loss?",
     "options": [
       "327 days",
       "354 days",
@@ -1443,7 +1439,7 @@ const QUESTIONS = [
   {
     "id": 99,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Elizabeth also began cycling 10 miles in 1 hour every day, how much faster would she reach her goal than in question 62?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the follflowing relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Elizabeth also began cycling 10 miles in 1 hour every day, how much faster would she reach her goal than in question 62?",
     "options": [
       "1.00",
       "2.50",
@@ -1458,7 +1454,7 @@ const QUESTIONS = [
   {
     "id": 100,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the following relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Elizabeth eats one chocolate everyday; 3 times as much chicken as chocolate and twice as much cereal as chicken. If she exchanged these foods with 3 different foods in the table in the same proportions, what is the ratio of her rate of weight change before and after the switch, assuming she is trying to obtain the lowest weight she can?",
+    "text": "<strong>Scenario:</strong><br>Dave weighs 200 pounds and has a Basal Metabolic Rate (BMR) of 2000 calories. Elizabeth weighs 140 pounds and has a BMR of 1500 calories. The table below shows the calorific value of the foods they eat:\n\n\nTo lose one pound of fat requires a 3500 calorie deficit, obtained by eating fewer calories than the BMR or burning calories by exercising. Running burns 5 calories per hour per pound you weigh at any running speed. Cycling burns calories according to the follflowing relationship, where M is mph cycling speed: Calories burned per mile = 50 calories + (5 calories x (M-10))<br><br><img src='../test_9/image/set_14.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Elizabeth eats one chocolate everyday; 3 times as much chicken as chocolate and twice as much cereal as chicken. If she exchanged these foods with 3 different foods in the table in the same proportions, what is the ratio of her rate of weight change before and after the switch, assuming she is trying to obtain the lowest weight she can?",
     "options": [
       "1:1",
       "1:2",
@@ -1467,7 +1463,7 @@ const QUESTIONS = [
       "5:1"
     ],
     "answer": 4,
-    "explanation": "1 chocolate is the least she can eat, which means she eats 3 pieces of chicken and 6 bowls of cereal. 1x350 calories + 3x250 calories + 6x400 calories = 3,500 calories. The lowest calorie arrangement of the 3 other foods is 1 lasagna, 3 vegetables and 6 apples. 1x700 calories + 3x200 calories + 6x100 calories = 1,900 calories. She has a 3,500 calories per day – 1500 calorie BMR = 2,000 calorie surplus before and 400 calorie surplus after. 2,000 calories:400 calories = 5:1. SET 15",
+    "explanation": "1 chocolate is the least she can eat, which means she eats 3 pieces of chicken and 6 bowls of cereal. 1x350 calories + 3x250 calories + 6x400 calories = 3,500 calories. The lowest calorie arrangement of the 3 other foods is 1 lasagna, 3 vegetables and 6 apples. 1x700 calories + 3x200 calories + 6x100 calories = 1,900 calories. She has a 3,500 calories per day – 1500 calorie BMR = 2,000 calorie surplus before and 400 calorie surplus after. 2,000 calories:400 calories = 5:1.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1542,7 +1538,7 @@ const QUESTIONS = [
       "1.15 : 1"
     ],
     "answer": 4,
-    "explanation": "First we calculate how much candyfloss Erik buys each weekend, using the 100% increase for the first 4 weeks, and the 50% increase thereafter as detailed in the question. Week 1: 1, 2: 2, 3: 4, 4: 8, 5: 16, 6: 24, 7: 36, 8: 54, 9: 81, 10: 0. Thus, he bought a total of 226 lots of candy floss. 226 candy floss x 2 coupons x £1 pound each = £452. Cost with season pass = £1000. Cost without pass = £700 + £452 = £1,152. SET 16",
+    "explanation": "First we calculate how much candyfloss Erik buys each weekend, using the 100% increase for the first 4 weeks, and the 50% increase thereafter as detailed in the question. Week 1: 1, 2: 2, 3: 4, 4: 8, 5: 16, 6: 24, 7: 36, 8: 54, 9: 81, 10: 0. Thus, he bought a total of 226 lots of candy floss. 226 candy floss x 2 coupons x £1 pound each = £452. Cost with season pass = £1000. Cost without pass = £700 + £452 = £1,152.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1572,7 +1568,7 @@ const QUESTIONS = [
       "70"
     ],
     "answer": 2,
-    "explanation": "£35 is 50% of £70. £70 buys £70/£14 = 5 large cheese pan pizzas.\n\n\nLarge pizzas have 10 slices: 10 slices x 5 pizzas = 50 slices.",
+    "explanation": "• Calculation & Steps: £35 is 50% of £70. £70 buys £70/£14 = 5 large cheese pan pizzas. Large pizzas have 10 slices: 10 slices x 5 pizzas = 50 slices.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 50, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1602,7 +1598,7 @@ const QUESTIONS = [
       "1:1.25"
     ],
     "answer": 3,
-    "explanation": "30 slices is 3 large pizzas or 5 small pizzas. 3 large pan pizzas with 2 toppings and stuffed crust cost: 3 x (£14.00 + (2x£2.00) + £2.00) = £60.00. 5 small pan pizzas with 2 toppings and stuffed crust cost: 5 x (£10.00 + 2x£0.50 + £1.00) = £60.00. Large:Small ratio is 1:£60.00/£60.00 = 1:1.00",
+    "explanation": "30 slices is 3 large pizzas or 5 small pizzas. 3 large pan pizzas with 2 toppings and stuffed crust cost: 3 x (£14.00 + (2x£2.00) + £2.00) = £60.00. 5 small pan pizzas with 2 toppings and stuffed crust cost: 5 x (£10.00 + 2x£0.50 + £1.00) = £60.00. Large:Small ratio is 1:£60.00/£60.00 = 1:1.00.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1617,13 +1613,13 @@ const QUESTIONS = [
       "32"
     ],
     "answer": 0,
-    "explanation": "The lowest price order over £31 is 2 small pizzas and 1 medium pizza costing £32 total. 30% off £32 = £22.40. They get 20 slices with this order, but we know that they got 25% more than they could eat. Thus, if we treat 20 slices as 125%, then 100% is the amount that they ate. 20/1.25 = 16, so this is the amount that they could eat. SET 17",
+    "explanation": "The lowest price order over £31 is 2 small pizzas and 1 medium pizza costing £32 total. 30% off £32 = £22.40. They get 20 slices with this order, but we know that they got 25% more than they could eat. Thus, if we treat 20 slices as 125%, then 100% is the amount that they ate. 20/1.25 = 16, so this is the amount that they could eat.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 111,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Sarah works for 1 hour at each job, what will be the ratio of the earnings expressed as [Job A Earnings:Job B Earnings:Job C Earnings] (to 2 decimal places)?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for shflowing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If Sarah works for 1 hour at each job, what will be the ratio of the earnings expressed as [Job A Earnings:Job B Earnings:Job C Earnings] (to 2 decimal places)?",
     "options": [
       "1.00:0.75:1.00",
       "1.00:1.00:0.75",
@@ -1638,7 +1634,7 @@ const QUESTIONS = [
   {
     "id": 112,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah worked 25 2-hour jobs, 4 1-hour jobs and 1 4-hour job for Job A in her first month. How much did she earn?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for shflowing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah worked 25 2-hour jobs, 4 1-hour jobs and 1 4-hour job for Job A in her first month. How much did she earn?",
     "options": [
       "£625.00",
       "£730.00",
@@ -1647,13 +1643,13 @@ const QUESTIONS = [
       "£1,020.00"
     ],
     "answer": 2,
-    "explanation": "In her first 50 hours she worked 25 2-hour jobs: 25 x (£10 - £5 + 2x£10) = 25 x £25 = £625. Her hourly wage was then increased to £10 + £5 = £15. She then worked 4 1-hour jobs: 4 x (£10 - £5 + 1x£15) = 4 x £20 = £80. Then she worked 1 4-hour job: 1 x (£10 - £5 + 4x£15) = 1 x £65 = £65. Her total earnings were £625 + £80 + £65 = £770.00",
+    "explanation": "In her first 50 hours she worked 25 2-hour jobs: 25 x (£10 - £5 + 2x£10) = 25 x £25 = £625. Her hourly wage was then increased to £10 + £5 = £15. She then worked 4 1-hour jobs: 4 x (£10 - £5 + 1x£15) = 4 x £20 = £80. Then she worked 1 4-hour job: 1 x (£10 - £5 + 4x£15) = 1 x £65 = £65. Her total earnings were £625 + £80 + £65 = £770.00.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 113,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah can work 50 2-hour jobs per month. For which single job should she work these hours to earn the most from 2 hour jobs at the end of the month?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for shflowing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah can work 50 2-hour jobs per month. For which single job should she work these hours to earn the most from 2 hour jobs at the end of the month?",
     "options": [
       "A",
       "B",
@@ -1668,7 +1664,7 @@ const QUESTIONS = [
   {
     "id": 114,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah pays 10% income tax if her monthly salary exceeds £1275. How many hours should she work in her first month for Job C, if all jobs are the average job length, to earn the highest amount possible whilst not paying tax, to the nearest half- hour?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for shflowing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Sarah pays 10% income tax if her monthly salary exceeds £1275. How many hours should she work in her first month for Job C, if all jobs are the average job length, to earn the highest amount possible whilst not paying tax, to the nearest half- hour?",
     "options": [
       "60.0 hours",
       "62.5 hours",
@@ -1683,7 +1679,7 @@ const QUESTIONS = [
   {
     "id": 115,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At the start of her third month, Sarah has worked 200 hours at Job C. She works 100 hours at average job length this month. How much of her month’s earnings go to 10% income tax?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for shflowing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>At the start of her third month, Sarah has worked 200 hours at Job C. She works 100 hours at average job length this month. How much of her month’s earnings go to 10% income tax?",
     "options": [
       "£150.00",
       "£187.50",
@@ -1698,7 +1694,7 @@ const QUESTIONS = [
   {
     "id": 116,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for showing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Job B wants her to work a minimum of 50 hours a month for them, and Job A and Job C require that she works at least the same hours for them as she does at any other jobs she has, or no hours at all. Assuming all jobs are the average job length, which arrangement would give her maximum earnings in her first 100-hour work month?",
+    "text": "<strong>Scenario:</strong><br>Sarah has three journalist jobs she splits her time across. The table shows a breakdown of what she earns at each job. Her salary is composed of a fixed starter wage she earns for shflowing up and an hourly wage on top of that. Her hourly wage increases in each job the more hours she works at that job. She must pay for her own travel expenses. Each travel cost occurs once per job she completes, and is not affected by the length of the job in hours.<br><br><img src='../test_9/image/set_17.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Job B wants her to work a minimum of 50 hours a month for them, and Job A and Job C require that she works at least the same hours for them as she does at any other jobs she has, or no hours at all. Assuming all jobs are the average job length, which arrangement would give her maximum earnings in her first 100-hour work month?",
     "options": [
       "50 hours for A and 50 hours for B",
       "50 hours for A and 50 hours for B",
@@ -1707,7 +1703,7 @@ const QUESTIONS = [
       "None of the above."
     ],
     "answer": 3,
-    "explanation": "Working 50 hours for Job B earns 50 times the hourly rate plus 50 times the fixed starter wage, as jobs average 1 hour in duration. Therefore the income = (50x£15) + (50x£5) = £1,000.00. The extra 50 hours can be worked at either Job A, B or C (note that Jobs A and B have travel expenses). The same calculation for Job A gives (10x50) + (10 x 25) – (5x25) = £625.00. The same calculation for Job C gives (50x20) + (5x12.5) – (10x12.5) = £937.50. Therefore she earns most by working 100 hours for Job B. SET 18",
+    "explanation": "Working 50 hours for Job B earns 50 times the hourly rate plus 50 times the fixed starter wage, as jobs average 1 hour in duration. Therefore the income = (50x£15) + (50x£5) = £1,000.00. The extra 50 hours can be worked at either Job A, B or C (note that Jobs A and B have travel expenses). The same calculation for Job A gives (10x50) + (10 x 25) – (5x25) = £625.00. The same calculation for Job C gives (50x20) + (5x12.5) – (10x12.5) = £937.50. Therefore she earns most by working 100 hours for Job B.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1722,7 +1718,7 @@ const QUESTIONS = [
       "£1,3187.75"
     ],
     "answer": 0,
-    "explanation": "Monday has the 2nd highest number of passengers, so this will be the 2nd highest grossing day. On Monday the revenue is £5 x 2346 underground passengers = £11,730.00. On Wednesday the revenue is 3,103 x 0.85 x £5 = £1,3187.75. £13,187.75 - £11,730.00 = £1,457.75",
+    "explanation": "Monday has the 2nd highest number of passengers, so this will be the 2nd highest grossing day. On Monday the revenue is £5 x 2346 underground passengers = £11,730.00. On Wednesday the revenue is 3,103 x 0.85 x £5 = £1,3187.75. £13,187.75 - £11,730.00 = £1,457.75.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1737,7 +1733,7 @@ const QUESTIONS = [
       "1:9.60"
     ],
     "answer": 2,
-    "explanation": "Total number of weekday underground passengers = 2346 +1798 +3103 + 2118 + 1397 = 10,762 Total number of weekday car passengers = total passengers – number of drivers = Monday: 1873-1517=356 Tusesday: 2421-1632=789 Wednesday: 1116-987=129 Thursday: 2101-1465=636 Friday: 2822-2024 =798 356+789+129+636+798 = 2708 The average ratio is 10,762 : 2,708 = 1:3.97",
+    "explanation": "Total number of weekday underground passengers = 2346 +1798 +3103 + 2118 + 1397 = 10,762 Total number of weekday car passengers = total passengers – number of drivers = Monday: 1873-1517=356 Tusesday: 2421-1632=789 Wednesday: 1116-987=129 Thursday: 2101-1465=636 Friday: 2822-2024 =798 356+789+129+636+798 = 2708 The average ratio is 10,762 : 2,708 = 1:3.97.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1752,7 +1748,7 @@ const QUESTIONS = [
       "1:1.89"
     ],
     "answer": 4,
-    "explanation": "Tuesday: 2,421/1,632= 1.48 Weekend: 1,339/478= 2.80. Ratio of Tuesday to Saturday = 1.48/2.8 = 1:1.89",
+    "explanation": "• Calculation & Steps: Tuesday: 2,421/1,632= 1.48 Weekend: 1,339/478= 2.80. Ratio of Tuesday to Saturday = 1.48/2.8 = 1:1.89.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 1:1.89, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1767,7 +1763,7 @@ const QUESTIONS = [
       "1:4.08"
     ],
     "answer": 1,
-    "explanation": "This is straightforward: 2,346/576 = 4.07:1 = 1:0.25",
+    "explanation": "• Calculation & Steps: This is straightforward: 2,346/576 = 4.07:1 = 1:0.25.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 1:0.25, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1782,7 +1778,7 @@ const QUESTIONS = [
       "£6,498.96"
     ],
     "answer": 3,
-    "explanation": "There are 4,219 commuters each day (as seen by adding the total car passengers and underground passengers on any given day). For every 1 car there are 1.7 passengers and 2 underground riders. Thus, by dividing 1.7 by 3.7 and multiplying this by the total number of passengers (4219), we can calculate how many people are in cars: 1.7/3.7 x 4,219 = 1,938 people drive (to the nearest whole number, obviously there cannot be a non-integer number of people driving). Now, by dividing the number of people driving (1938) by the number of passengers, we can calculate the number of cars: 1938/1.7 = 1,140 cars. 1,140 cars x £4 = £4,560. £4,560 + 1,938x£1 = £6,498. 80% of £6,498 is £5,198.40.\n\n\nSET 19",
+    "explanation": "There are 4,219 commuters each day (as seen by adding the total car passengers and underground passengers on any given day). For every 1 car there are 1.7 passengers and 2 underground riders. Thus, by dividing 1.7 by 3.7 and multiplying this by the total number of passengers (4219), we can calculate how many people are in cars: 1.7/3.7 x 4,219 = 1,938 people drive (to the nearest whole number, obviously there cannot be a non-integer number of people driving). Now, by dividing the number of people driving (1938) by the number of passengers, we can calculate the number of cars: 1938/1.7 = 1,140 cars. 1,140 cars x £4 = £4,560. £4,560 + 1,938x£1 = £6,498. 80% of £6,498 is £5,198.40.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1797,7 +1793,7 @@ const QUESTIONS = [
       "£85.80"
     ],
     "answer": 4,
-    "explanation": "First calculate the Superior room cost at night: 3hrs x £26.00/hr = £78.00 Now add 10%: £78 x 1.1 = £85.80",
+    "explanation": "• Calculation & Steps: First calculate the Superior room cost at night: 3hrs x £26.00/hr = £78.00 Now add 10%: £78 x 1.1 = £85.80.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £85.80, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1812,7 +1808,7 @@ const QUESTIONS = [
       "£136"
     ],
     "answer": 3,
-    "explanation": "Total cost minus deposit = 12hrs x £30/hr = £360 Deposit = £460 - £360 = £100",
+    "explanation": "• Calculation & Steps: Total cost minus deposit = 12hrs x £30/hr = £360 Deposit = £460 - £360 = £100.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £100, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1827,7 +1823,7 @@ const QUESTIONS = [
       "£18.83"
     ],
     "answer": 1,
-    "explanation": "Total deposit = £10 + £25 = £35 6hrs in Standard room = 6hrs x £18/hr = £108 6hrs in Basic Room = £221 – (£108 + £35) = £78 Basic room hourly rate (2-6hrs) = £78 ÷ 6hrs = £13/hr",
+    "explanation": "Total deposit = £10 + £25 = £35 6hrs in Standard room = 6hrs x £18/hr = £108 6hrs in Basic Room = £221 – (£108 + £35) = £78 Basic room hourly rate (2-6hrs) = £78 ÷ 6hrs = £13/hr.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1842,7 +1838,7 @@ const QUESTIONS = [
       "£90.25"
     ],
     "answer": 1,
-    "explanation": "1.5hrs in Superior room (night session) = 1.5hrs x £30/hr = £45 Decreased by 5% = £45 x 0.95 = £42.75 Total cost = £50 deposit + £42.75 = £92.75",
+    "explanation": "1.5hrs in Superior room (night session) = 1.5hrs x £30/hr = £45 Decreased by 5% = £45 x 0.95 = £42.75 Total cost = £50 deposit + £42.75 = £92.75.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1857,7 +1853,7 @@ const QUESTIONS = [
       "£3,074.40"
     ],
     "answer": 1,
-    "explanation": "Basic room all day cost = 18hrs x £8/hr = £144 All week = 7 days x £144 = £1,008 Three weeks = £1,008 x 3 = £3,024 Deducting the VAT = £3,024/1.25 = £2,419.20 SET 20",
+    "explanation": "Basic room all day cost = 18hrs x £8/hr = £144 All week = 7 days x £144 = £1,008 Three weeks = £1,008 x 3 = £3,024 Deducting the VAT = £3,024/1.25 = £2,419.20.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1872,7 +1868,7 @@ const QUESTIONS = [
       "63.2%"
     ],
     "answer": 2,
-    "explanation": "Total number of people aged under 22 = sum of first two columns = 62 Number aged <22 who spotted >10 differences = 11 + 8 + 3 + 2 = 24 Percentage = 24/62 = 38.7%",
+    "explanation": "Total number of people aged under 22 = sum of first two columns = 62 Number aged <22 who spotted >10 differences = 11 + 8 + 3 + 2 = 24 Percentage = 24/62 = 38.7%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1887,7 +1883,7 @@ const QUESTIONS = [
       "9.4%"
     ],
     "answer": 3,
-    "explanation": "Valid results for 5-10 spots for ages 16-22 = 0.25 x 12 = 3 Total number of valid results for 16-22 = 10 + 3 + 8 + 2 = 23 Percentage of over 15 spots for 16-22 = 2 ÷ 23 = 8.7%",
+    "explanation": "Valid results for 5-10 spots for ages 16-22 = 0.25 x 12 = 3 Total number of valid results for 16-22 = 10 + 3 + 8 + 2 = 23 Percentage of over 15 spots for 16-22 = 2 ÷ 23 = 8.7%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1902,7 +1898,7 @@ const QUESTIONS = [
       "15"
     ],
     "answer": 2,
-    "explanation": "Total who spotted over 10 = sum of bottom two rows = 52 25% of 52 = 13",
+    "explanation": "• Calculation & Steps: Total who spotted over 10 = sum of bottom two rows = 52 25% of 52 = 13.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 13, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1917,7 +1913,7 @@ const QUESTIONS = [
       "5,150 6. 5,200"
     ],
     "answer": 4,
-    "explanation": "Total 48+ who spotted <5 = 15 + 19 = 34 Total aged 48+ = sum of final two columns = 66 Percentage of 48+ who spotted <5 = 34 ÷ 66 = 52% (2 s.f.) 52% of 10,000 = 0.52 x 10,000 = 5,200",
+    "explanation": "Total 48+ who spotted <5 = 15 + 19 = 34 Total aged 48+ = sum of final two columns = 66 Percentage of 48+ who spotted <5 = 34 ÷ 66 = 52% (2 s.f.) 52% of 10,000 = 0.52 x 10,000 = 5,200.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1932,7 +1928,7 @@ const QUESTIONS = [
       "21:51"
     ],
     "answer": 4,
-    "explanation": "50% increase in 16-34s who spot 11-15 = 1.5 x (8 + 6) = 21 New total who spot 11-15 = 11 + 21 + 2 + 8 + 9 = 51 Ratio = 21:51 SET 21",
+    "explanation": "• Calculation & Steps: 50% increase in 16-34s who spot 11-15 = 1.5 x (8 + 6) = 21 New total who spot 11-15 = 11 + 21 + 2 + 8 + 9 = 51 Ratio = 21:51.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 21:51, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1947,7 +1943,7 @@ const QUESTIONS = [
       "182 6. 286"
     ],
     "answer": 1,
-    "explanation": "Number that play Football = 22% of 1300 = 286 Number that play Hockey = 8 % of 1300 = 104 Thus, the difference = 286-104 = 182 Boys + Girls; Therefore, 182/2 = 91 Boys",
+    "explanation": "Number that play Football = 22% of 1300 = 286 Number that play Hockey = 8 % of 1300 = 104 Thus, the difference = 286-104 = 182 Boys + Girls; Therefore, 182/2 = 91 Boys.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1962,7 +1958,7 @@ const QUESTIONS = [
       "8"
     ],
     "answer": 3,
-    "explanation": "22% of 350 = 77 students 77 ÷ 11 people per team = 7 teams",
+    "explanation": "• Calculation & Steps: 22% of 350 = 77 students 77 ÷ 11 people per team = 7 teams.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 7, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -1992,7 +1988,7 @@ const QUESTIONS = [
       "1,183"
     ],
     "answer": 3,
-    "explanation": "Number of Other students = 0.12 x 1,300 = 156 Other ball sports = 0.25 x 156 = 39 Total non-ball sports (swimming & athletics) = (0.06 + 0.03) x 1300 = 117 Total “other” non ball sports = 156 – 39 = 117 Total ball sports = 1,300 – 117 – 117 = 1,066",
+    "explanation": "Number of Other students = 0.12 x 1,300 = 156 Other ball sports = 0.25 x 156 = 39 Total non-ball sports (swimming & athletics) = (0.06 + 0.03) x 1300 = 117 Total “other” non ball sports = 156 – 39 = 117 Total ball sports = 1,300 – 117 – 117 = 1,066.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2007,7 +2003,7 @@ const QUESTIONS = [
       "112"
     ],
     "answer": 0,
-    "explanation": "Girls who play hockey = 0.07 x 1,300 = 91 Boys who play cricket = 0.1 x 1,300 = 130 Difference = 39. Note the tennis info makes no difference (50:50 split)\n\n\nSET 22",
+    "explanation": "Girls who play hockey = 0.07 x 1,300 = 91 Boys who play cricket = 0.1 x 1,300 = 130 Difference = 39. Note the tennis info makes no difference (50:50 split)",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2052,7 +2048,7 @@ const QUESTIONS = [
       "2,765,131"
     ],
     "answer": 0,
-    "explanation": "2004 total No Goods = 3 x 571,221 = 1,713,663 70% of edible apples are processed, as are all passable apples. Difference = (0.7 x 1,931,784 + 2,439,012) – 1,713,663 = 2,077,598",
+    "explanation": "2004 total No Goods = 3 x 571,221 = 1,713,663 70% of edible apples are processed, as are all passable apples. Difference = (0.7 x 1,931,784 + 2,439,012) – 1,713,663 = 2,077,598.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2067,7 +2063,7 @@ const QUESTIONS = [
       "2,208,430"
     ],
     "answer": 2,
-    "explanation": "Total number of edibles 1998-2003 = sum of top row = 9,201,790 20% increase = 1.2 x 9,201,790 = 11,042,148 30% of these are sold as they come = 0.3 x 11,042,148 = 3,312,644",
+    "explanation": "Total number of edibles 1998-2003 = sum of top row = 9,201,790 20% increase = 1.2 x 9,201,790 = 11,042,148 30% of these are sold as they come = 0.3 x 11,042,148 = 3,312,644.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2082,7 +2078,7 @@ const QUESTIONS = [
       "988,400 l"
     ],
     "answer": 1,
-    "explanation": "Apples processed for cider = (1,931,784 x 0.7) + 2,439,012 = 3,791,260.8 Litres of cider = 3,791,260.80 ÷ 20 = 189,600 litres (4 s.f.) SET 23",
+    "explanation": "• Calculation & Steps: Apples processed for cider = (1,931,784 x 0.7) + 2,439,012 = 3,791,260.8 Litres of cider = 3,791,260.80 ÷ 20 = 189,600 litres (4 s.f.)\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 189,600 l, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2097,7 +2093,7 @@ const QUESTIONS = [
       "7.4 km"
     ],
     "answer": 2,
-    "explanation": "Decreased average speed = 0.92 x 5 mph = 4.6 mph Miles covered = 4.6 x (40 ÷ 60) = 3.07 miles Km covered = 1.6 x 3.07 miles = 4.9 km",
+    "explanation": "• Calculation & Steps: Decreased average speed = 0.92 x 5 mph = 4.6 mph Miles covered = 4.6 x (40 ÷ 60) = 3.07 miles Km covered = 1.6 x 3.07 miles = 4.9 km.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 4.9 km, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2112,7 +2108,7 @@ const QUESTIONS = [
       "1 hour 30 minutes"
     ],
     "answer": 2,
-    "explanation": "Distance per session = 26 miles ÷ 4 = 6.5 miles Time per session = 6.5 miles ÷ 5 mph = 1.3 hrs = 1hr 18mins",
+    "explanation": "• Calculation & Steps: Distance per session = 26 miles ÷ 4 = 6.5 miles Time per session = 6.5 miles ÷ 5 mph = 1.3 hrs = 1hr 18mins.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 1 hour 18 minutes, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2127,7 +2123,7 @@ const QUESTIONS = [
       "2 hours 50 minutes"
     ],
     "answer": 1,
-    "explanation": "New wet average speed = 0.92 x 4.6 mph = 4.232 mph 12 km in miles = 12 km ÷ 1.6 = 7.5 miles Time taken = 7.5 miles ÷ 4.232 mph = 1.77 hrs = 1hr 46mins",
+    "explanation": "New wet average speed = 0.92 x 4.6 mph = 4.232 mph 12 km in miles = 12 km ÷ 1.6 = 7.5 miles Time taken = 7.5 miles ÷ 4.232 mph = 1.77 hrs = 1hr 46mins.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2142,7 +2138,7 @@ const QUESTIONS = [
       "2 hours 42 minutes"
     ],
     "answer": 1,
-    "explanation": "Distance of second jog = 4 km x 1.5 = 6 km Distance of third jog = 6 km x 1.5 = 9 km Distance of last jog = 9 km x 1.5 = 13.5 km 13.5 km in miles = 13.5 km ÷ 1.6 = 8.4375 miles Time = 8.4375 miles ÷ 5 mph = 1.69 hrs = 1hr 41mins",
+    "explanation": "Distance of second jog = 4 km x 1.5 = 6 km Distance of third jog = 6 km x 1.5 = 9 km Distance of last jog = 9 km x 1.5 = 13.5 km 13.5 km in miles = 13.5 km ÷ 1.6 = 8.4375 miles Time = 8.4375 miles ÷ 5 mph = 1.69 hrs = 1hr 41mins.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2157,7 +2153,7 @@ const QUESTIONS = [
       "53%"
     ],
     "answer": 2,
-    "explanation": "3hrs 42mins = 3.7 hrs Average speed = 26 miles ÷ 3.7 hrs = 7.027 mph 7.027 mph ÷ 5 mph = 1.405 (i.e. 41% increase) SET 24",
+    "explanation": "• Calculation & Steps: 3hrs 42mins = 3.7 hrs Average speed = 26 miles ÷ 3.7 hrs = 7.027 mph 7.027 mph ÷ 5 mph = 1.405 (i.e. 41% increase)\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 41%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2172,7 +2168,7 @@ const QUESTIONS = [
       "£664"
     ],
     "answer": 2,
-    "explanation": "Standard price = (£325 + £100) ÷ 2 = £212.50 For two people for one week = £212.50 x 2 = £425 Deducting 20% due to discount = 0.8 x £425 = £340",
+    "explanation": "Standard price = (£325 + £100) ÷ 2 = £212.50 For two people for one week = £212.50 x 2 = £425 Deducting 20% due to discount = 0.8 x £425 = £340.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2187,7 +2183,7 @@ const QUESTIONS = [
       "£25,614"
     ],
     "answer": 2,
-    "explanation": "Four weeks rent per person = 4 x £480 = £1,920 Total group rent = 12 x £1,920 = £23,040 Booking fee per person = 0.1 x £480 = £48 Total booking fee = 12 x £48 = £576 Total cost = £23,040 + £576 = £23,616",
+    "explanation": "Four weeks rent per person = 4 x £480 = £1,920 Total group rent = 12 x £1,920 = £23,040 Booking fee per person = 0.1 x £480 = £48 Total booking fee = 12 x £48 = £576 Total cost = £23,040 + £576 = £23,616.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2202,7 +2198,7 @@ const QUESTIONS = [
       "£37.75"
     ],
     "answer": 2,
-    "explanation": "One person for 10 days = £80 x (20÷7) = £228.57 Two people for 10 days = 2 x £228.57 = £457.14 Booking fee = £492.89 - £457.14 = £35.75",
+    "explanation": "• Calculation & Steps: One person for 10 days = £80 x (20÷7) = £228.57 Two people for 10 days = 2 x £228.57 = £457.14 Booking fee = £492.89 - £457.14 = £35.75.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £35.75, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2217,7 +2213,7 @@ const QUESTIONS = [
       "£2,620"
     ],
     "answer": 0,
-    "explanation": "Total rent = £220 x 2 weeks x 4 people = £1,760 Total discount = £1,760 x 0.2 = £352 Total cost = £1,760 - £352 = £1,408",
+    "explanation": "• Calculation & Steps: Total rent = £220 x 2 weeks x 4 people = £1,760 Total discount = £1,760 x 0.2 = £352 Total cost = £1,760 - £352 = £1,408.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £1,408, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2232,7 +2228,7 @@ const QUESTIONS = [
       "60"
     ],
     "answer": 0,
-    "explanation": "Booking fee = 0.1 x £19,500 = £1,950 Total rental charge = £19,500 - £1,950 = £17,550 Number of people = £17,550 ÷ £325 = 54 Number in each palazzo = 54 ÷ 3 = 18 people.\n\n\nSET 25",
+    "explanation": "Booking fee = 0.1 x £19,500 = £1,950 Total rental charge = £19,500 - £1,950 = £17,550 Number of people = £17,550 ÷ £325 = 54 Number in each palazzo = 54 ÷ 3 = 18 people.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2274,7 +2270,7 @@ const QUESTIONS = [
       "£12.14"
     ],
     "answer": 0,
-    "explanation": "The total price is (2 x £2.95) + £3.95 = £9.85 Add £3 for delivery under £10: 9.85 + 3 = 11.865 Add 20% for VAT: 11.865 x 1.2 = £15.42",
+    "explanation": "• Calculation & Steps: The total price is (2 x £2.95) + £3.95 = £9.85 Add £3 for delivery under £10: 9.85 + 3 = 11.865 Add 20% for VAT: 11.865 x 1.2 = £15.42.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £15.42, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2288,7 +2284,7 @@ const QUESTIONS = [
       "£18.09"
     ],
     "answer": 1,
-    "explanation": "The total is £3.95 + (3 x £2.95) + £3.95 = £16.75 Delivery is free over £15. We then add 20% for VAT: 16.75 x 1.2 = £20.10",
+    "explanation": "• Calculation & Steps: The total is £3.95 + (3 x £2.95) + £3.95 = £16.75 Delivery is free over £15. We then add 20% for VAT: 16.75 x 1.2 = £20.10.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £20.10, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2303,7 +2299,7 @@ const QUESTIONS = [
       "£24.31"
     ],
     "answer": 3,
-    "explanation": "The total price is (2 x £2.95) + (2 x £4.95) + £3.95 = £19.75 (price of only two noodles because of offer) Delivery is free over £15. We then add 20% for VAT: 19.75 x 1.2 = £23.70 SET 26",
+    "explanation": "The total price is (2 x £2.95) + (2 x £4.95) + £3.95 = £19.75 (price of only two noodles because of offer) Delivery is free over £15. We then add 20% for VAT: 19.75 x 1.2 = £23.70.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2373,7 +2369,7 @@ const QUESTIONS = [
       "£47,002"
     ],
     "answer": 1,
-    "explanation": "Take account of the first fall in profits of 10% and then a further fall of 5%: (15,000 + 35,000) x 0.9 x 0.95 = £42,750. SET 27",
+    "explanation": "• Calculation & Steps: Take account of the first fall in profits of 10% and then a further fall of 5%: (15,000 + 35,000) x 0.9 x 0.95 = £42,750.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £42,750, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2387,7 +2383,7 @@ const QUESTIONS = [
       "£15,616"
     ],
     "answer": 0,
-    "explanation": "The total value for the Stuntman is £12500 + £345 + £145 + £295 = £13,285. Adding 20% VAT, this is £13,285 x 1.2 = £15,942.",
+    "explanation": "• Calculation & Steps: The total value for the Stuntman is £12500 + £345 + £145 + £295 = £13,285. Adding 20% VAT, this is £13,285 x 1.2 = £15,942.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £15,942, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2401,7 +2397,7 @@ const QUESTIONS = [
       "£4,100"
     ],
     "answer": 1,
-    "explanation": "Remember to include tax in all calculations: Saloon: (£21500 + £495 + £245 + £445) = £22,685. £22,685 x 1.2 = £27,222. Pod: (£18000 + £445 + £395 + £495) = £19335. £19335 x 1.2 = £23,202. £27,222 - £23,202 = £4020",
+    "explanation": "Remember to include tax in all calculations: Saloon: (£21500 + £495 + £245 + £445) = £22,685. £22,685 x 1.2 = £27,222. Pod: (£18000 + £445 + £395 + £495) = £19335. £19335 x 1.2 = £23,202. £27,222 - £23,202 = £4020.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2415,7 +2411,7 @@ const QUESTIONS = [
       "£2,142"
     ],
     "answer": 2,
-    "explanation": "Racer: (£15,000 x 1.2) = £18,000. Stuntman: (£12500 + £345 + £145 + £295) = £13,285. £13,285 x 1.2 = £15,942. £18,000 - £15,942 = £2,058",
+    "explanation": "• Calculation & Steps: Racer: (£15,000 x 1.2) = £18,000. Stuntman: (£12500 + £345 + £145 + £295) = £13,285. £13,285 x 1.2 = £15,942. £18,000 - £15,942 = £2,058.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £2,058, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2429,7 +2425,7 @@ const QUESTIONS = [
       "£4,438.40"
     ],
     "answer": 2,
-    "explanation": "The Pod with no optional extras is £18000 x 1.2 = £21,600. The Racer with all optional extras with a 10% discount is (£15000 + £395 + £195 + £395) x 0.9 x 1.2 = £17,263.80. £21,600 - £17263.80 = £4,336.20",
+    "explanation": "The Pod with no optional extras is £18000 x 1.2 = £21,600. The Racer with all optional extras with a 10% discount is (£15000 + £395 + £195 + £395) x 0.9 x 1.2 = £17,263.80. £21,600 - £17263.80 = £4,336.20.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2443,7 +2439,7 @@ const QUESTIONS = [
       "£57.60"
     ],
     "answer": 3,
-    "explanation": "Saloon with leather seats and easy-park technology = £21500 + £495 + £445 = £22440. Add 20% = £22,440 x 1.2 = £26,928. Reduced by 20% = £26928 x 0.8 = £21,542.40. Pod = £18,000 x 1.2 = £21600. £21,600 - £21,542.40 = £57.60 SET 28",
+    "explanation": "Saloon with leather seats and easy-park technology = £21500 + £495 + £445 = £22440. Add 20% = £22,440 x 1.2 = £26,928. Reduced by 20% = £26928 x 0.8 = £21,542.40. Pod = £18,000 x 1.2 = £21600. £21,600 - £21,542.40 = £57.60.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2457,7 +2453,7 @@ const QUESTIONS = [
       "100 Tonnes/year"
     ],
     "answer": 2,
-    "explanation": "Emissions increased by 1,000 tonnes from 1,000 to 2,000 tonnes over 5 years, therefore the rate of increase was 200 tonnes per year",
+    "explanation": "• Calculation & Steps: Emissions increased by 1,000 tonnes from 1,000 to 2,000 tonnes over 5 years, therefore the rate of increase was 200 tonnes per year.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 200 Tonnes/year, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2499,7 +2495,7 @@ const QUESTIONS = [
       "750 Tonnes"
     ],
     "answer": 1,
-    "explanation": "2015 – 2020 the amount would increase from 3,000 tonnes to 3,500 tonnes without any action. This equates to a rate of increase of 100 tonnes per year. With the new act, this is reduced by 50% to 50 tonnes per year, thus over 5 years: Overall saving = 50 x 5 = 250 Tonnes",
+    "explanation": "2015 – 2020 the amount would increase from 3,000 tonnes to 3,500 tonnes without any action. This equates to a rate of increase of 100 tonnes per year. With the new act, this is reduced by 50% to 50 tonnes per year, thus over 5 years: Overall saving = 50 x 5 = 250 Tonnes.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2513,7 +2509,7 @@ const QUESTIONS = [
       "3,500 Tonne"
     ],
     "answer": 2,
-    "explanation": "The emissions in 2020 = projected – rate reduction (50% of the difference between projected total and current total). Rate reduction = 50 tonnes per year. Projected rate = current emissions (3,000 tonnes) + projected increase without the act (5 x 100, which is 500). = (3,000+500) – (5 x 50) = 3250 Tonnes SET 29",
+    "explanation": "The emissions in 2020 = projected – rate reduction (50% of the difference between projected total and current total). Rate reduction = 50 tonnes per year. Projected rate = current emissions (3,000 tonnes) + projected increase without the act (5 x 100, which is 500). = (3,000+500) – (5 x 50) = 3250 Tonnes.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2527,7 +2523,7 @@ const QUESTIONS = [
       "£7.40"
     ],
     "answer": 1,
-    "explanation": "For between 10 and 100 units, single sided black and white printing costs £0.07 per page. 74 x 7p = £5.18.",
+    "explanation": "• Calculation & Steps: For between 10 and 100 units, single sided black and white printing costs £0.07 per page. 74 x 7p = £5.18.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £5.18, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2541,7 +2537,7 @@ const QUESTIONS = [
       "425"
     ],
     "answer": 2,
-    "explanation": "£100 will clearly buy more than 100 sheets as all prices are under £1, therefore use the 100+ price: The price for double sided colour printing over 100 sheets is £0.25. £100/0.25 = 400 sheets",
+    "explanation": "£100 will clearly buy more than 100 sheets as all prices are under £1, therefore use the 100+ price: The price for double sided colour printing over 100 sheets is £0.25. £100/0.25 = 400 sheets.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2569,7 +2565,7 @@ const QUESTIONS = [
       "50 Sheets"
     ],
     "answer": 1,
-    "explanation": "Price for buying separately = 150 x 0.15 = £22.50 Price buying together = 150 x 0.10 x 0.9 (discount) = £13.50 Difference = £9 Number of sheets could buy with £9 = 9/0.15 = 60 sheets",
+    "explanation": "Price for buying separately = 150 x 0.15 = £22.50 Price buying together = 150 x 0.10 x 0.9 (discount) = £13.50 Difference = £9 Number of sheets could buy with £9 = 9/0.15 = 60 sheets.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2583,7 +2579,7 @@ const QUESTIONS = [
       "£34.32"
     ],
     "answer": 1,
-    "explanation": "The price for 227 sheets of double sided black and white printing is £0.10 each, so the total is £22.70. The price for 34 sheets of double sided colour printing is £0.30 each, so the total is £10.20. The total for all the sheets is £32.90. If this is discounted by 10%, this is £32.90 x 0.9 = £29.61. SET 30",
+    "explanation": "The price for 227 sheets of double sided black and white printing is £0.10 each, so the total is £22.70. The price for 34 sheets of double sided colour printing is £0.30 each, so the total is £10.20. The total for all the sheets is £32.90. If this is discounted by 10%, this is £32.90 x 0.9 = £29.61.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2597,14 +2593,19 @@ const QUESTIONS = [
       "795"
     ],
     "answer": 3,
-    "explanation": "We can calculate the number of people who reacted positively in each group and then add up the total: 75% of 300 is 225 65% of 300 is 195 70% of 300 is 210 55% of 300 is 165 225 + 195 + 210 + 165 = 795",
+    "explanation": "We can calculate the number of people who reacted positively in each group and then add up the total: 75% of 300 is 225 65% of 300 is 195 70% of 300 is 210 55% of 300 is 165 225 + 195 + 210 + 165 = 795.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 178,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>4 sets of 300 volunteers take part in a clinical trial for a new drug, which is aimed at reducing the effects of asthma. The responses received are recorded below.<br><br><img src='../test_9/image/set_30.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many more people reacted negatively from",
-    "options": [],
+    "text": "<strong>Scenario:</strong><br>4 sets of 300 volunteers take part in a clinical trial for a new drug, which is aimed at reducing the effects of asthma. The responses received are recorded below.<br><br><img src='../test_9/image/set_30.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many more people reacted negatively from group 2 compared to group 3?",
+    "options": [
+      "15",
+      "33",
+      "45",
+      "56"
+    ],
     "answer": 2,
     "explanation": "In group 2, 30% reacted negatively: 30% of 300 is 90. In group 3, 15% reacted negatively: 15% of 300 is 45. Therefore the difference is 45; 45 more people in group 2 reacted negatively than people in group 3.",
     "topic": "Quantitative Reasoning"
@@ -2612,21 +2613,21 @@ const QUESTIONS = [
   {
     "id": 179,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>? 1. 15 2. 33 3. 45 4. 56<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of those tested overall reacted negatively?",
+    "text": "<strong>Scenario:</strong><br>4 sets of 300 volunteers take part in a clinical trial for a new drug, which is aimed at reducing the effects of asthma.<br><br><img src='../test_9/image/set_30.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What proportion of those tested overall reacted negatively?",
     "options": [
       "21%",
       "23%",
       "26%",
-      "28% After modifications to the drug, a new survey of 300 volunteers was taken. The results of this are shown below"
+      "28%"
     ],
     "answer": 1,
-    "explanation": "We can calculate the number of people who reacted negatively in each group and then add up the total:\n\n\n20% of 300 is 60 30% of 300 is 90 15% of 300 is 45 25% of 300 is 75 60 + 90 + 45 + 75 = 270 270 as a percentage of the total, 1200, is 22.5%, which rounds to 23%.",
+    "explanation": "We can calculate the number of people who reacted negatively in each group and then add up the total: 20% of 300 is 60; 30% of 300 is 90; 15% of 300 is 45; 25% of 300 is 75. Total negative = 60 + 90 + 45 + 75 = 270. As a percentage of total volunteers (1200), 270 / 1200 = 22.5%, which rounds to 23%.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 180,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>? 1. 15 2. 33 3. 45 4. 56<br><br><img src='../test_9/image/set_3.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the percentage increase in the success rate (i.e. the percentage of people reacting positively) in the 5th group compared to the first 4 groups?",
+    "text": "<strong>Scenario:</strong><br>After modifications to the drug, a new survey of 300 volunteers was taken.<br><br><img src='../test_9/image/set_30.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the percentage increase in the success rate (i.e. the percentage of people reacting positively) in the 5th group compared to the first 4 groups?",
     "options": [
       "7.81%",
       "15.75%",
@@ -2648,7 +2649,7 @@ const QUESTIONS = [
       "380"
     ],
     "answer": 1,
-    "explanation": "In the answer to question 143 we calculated that in the first 4 groups, 270 people reacted negatively. In group 5, 15% of 300 people, which is 45 people, reacted negatively. Hence the negative reactions total 315 people. SET 31",
+    "explanation": "In the answer to question 143 we calculated that in the first 4 groups, 270 people reacted negatively. In group 5, 15% of 300 people, which is 45 people, reacted negatively. Hence the negative reactions total 315 people.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2662,7 +2663,7 @@ const QUESTIONS = [
       "25,000"
     ],
     "answer": 2,
-    "explanation": "The total number of views of The Last Chase is 20,000 + 20,000 + 15,000 + 20,000 = 75,000. The total number of views of The Final Frontier is 15,000 + 20,000 + 25,000 + 35,000 = 95,000. Hence the difference is 95,000 – 75,000 = 20,000",
+    "explanation": "The total number of views of The Last Chase is 20,000 + 20,000 + 15,000 + 20,000 = 75,000. The total number of views of The Final Frontier is 15,000 + 20,000 + 25,000 + 35,000 = 95,000. Hence the difference is 95,000 – 75,000 = 20,000.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2690,7 +2691,7 @@ const QUESTIONS = [
       "65,000"
     ],
     "answer": 1,
-    "explanation": "Growth rate is 5,000 per quarter between Q1 and Q3 of 2014. Therefore the total growth during 2015: 35,000 + (5,000 x 4) = 55,000",
+    "explanation": "• Calculation & Steps: Growth rate is 5,000 per quarter between Q1 and Q3 of 2014. Therefore the total growth during 2015: 35,000 + (5,000 x 4) = 55,000.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 55,000, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2718,7 +2719,7 @@ const QUESTIONS = [
       "45,000"
     ],
     "answer": 3,
-    "explanation": "Without the show cancellation, there are 35,000 Final Frontier views and 20,000 Last Chase views. With the cancellation, half of the Last Chase views transfer over to Final Frontier, this equates to 10,000 views. Therefore the Final Frontier now has 45,000 views in this scenario. SET 32",
+    "explanation": "Without the show cancellation, there are 35,000 Final Frontier views and 20,000 Last Chase views. With the cancellation, half of the Last Chase views transfer over to Final Frontier, this equates to 10,000 views. Therefore the Final Frontier now has 45,000 views in this scenario.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2746,7 +2747,7 @@ const QUESTIONS = [
       "25%"
     ],
     "answer": 1,
-    "explanation": "We can work out how many patients had to wait more than half an hour for an appointment in each part of the UK then find the total: In England, 10% of 100,000 patients = 10,000 patients had to wait longer than half an hour. In Scotland, 20% of 50,000 patients = 10,000 patients had to wait longer than half an hour. In Wales, 25% of 25,000 patients = 6,250 patients had to wait longer than half an hour. In Northern Ireland, 15% of 25,000 patients = 3,750 patients had to wait longer than half an hour. The total number of patients that had to wait longer than half an hour is 10,000 + 10,000 + 6,250 + 3,750 = 30,000. 30,000/200,000 = 15%",
+    "explanation": "We can work out how many patients had to wait more than half an hour for an appointment in each part of the UK then find the total: In England, 10% of 100,000 patients = 10,000 patients had to wait longer than half an hour. In Scotland, 20% of 50,000 patients = 10,000 patients had to wait longer than half an hour. In Wales, 25% of 25,000 patients = 6,250 patients had to wait longer than half an hour. In Northern Ireland, 15% of 25,000 patients = 3,750 patients had to wait longer than half an hour. The total number of patients that had to wait longer than half an hour is 10,000 + 10,000 + 6,250 + 3,750 = 30,000. 30,000/200,000 = 15%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2774,7 +2775,7 @@ const QUESTIONS = [
       "10.7%"
     ],
     "answer": 1,
-    "explanation": "Use the total survey size to calculate the proportion: 23,000/200,000 = 11.5%.",
+    "explanation": "• Calculation & Steps: Use the total survey size to calculate the proportion: 23,000/200,000 = 11.5%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 11.5%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2788,7 +2789,7 @@ const QUESTIONS = [
       "34%"
     ],
     "answer": 1,
-    "explanation": "We worked out in question 153 that 30,000 people had to wait longer than 30 minutes and 55,000 people had to wait between 11 and 30 minutes. If the targets are met, 15,000 people will have to wait longer than 30 minutes and 41,250 will have to wait between 11 and 30 minutes. If 20% of these 41,250 people complain, this is 8,250 complaints. If 40% of the 15,000 people complain this is 6,000 complaints. Hence there are a total of 14,250 complaints. The previous number of complaints was 23,000, hence the percentage decrease is (23,000-14,250)/23,000 = 0.38 = 38%. SET 33",
+    "explanation": "We worked out in question 153 that 30,000 people had to wait longer than 30 minutes and 55,000 people had to wait between 11 and 30 minutes. If the targets are met, 15,000 people will have to wait longer than 30 minutes and 41,250 will have to wait between 11 and 30 minutes. If 20% of these 41,250 people complain, this is 8,250 complaints. If 40% of the 15,000 people complain this is 6,000 complaints. Hence there are a total of 14,250 complaints. The previous number of complaints was 23,000, hence the percentage decrease is (23,000-14,250)/23,000 = 0.38 = 38%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2830,7 +2831,7 @@ const QUESTIONS = [
       "$21.1 Billion"
     ],
     "answer": 2,
-    "explanation": "Use both graphs. For July, multiply the oil price by the amount sold in the month, and then multiply by the number of days in the month. July = 7.5 million barrels x $75 per barrel x 31 days = $17,400 million = $17.4 billion",
+    "explanation": "Use both graphs. For July, multiply the oil price by the amount sold in the month, and then multiply by the number of days in the month. July = 7.5 million barrels x $75 per barrel x 31 days = $17,400 million = $17.4 billion.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2858,7 +2859,7 @@ const QUESTIONS = [
       "$67.57 Billion"
     ],
     "answer": 0,
-    "explanation": "You are given the total sales value of $204 billion, so work with this. Work clearly in stages and this question is not hard. The profit is 60% of this, which is $122.4 billion. This is split 5:2 between the oil companies and the oil-producing nation. Thus, the profit for the oil companies is 5/7 of $122.4 billion is profit for the oil companies, which is $87.43 billion. Corporation tax is then 30% of this profit, which is $26.23 billion. SET 34",
+    "explanation": "You are given the total sales value of $204 billion, so work with this. Work clearly in stages and this question is not hard. The profit is 60% of this, which is $122.4 billion. This is split 5:2 between the oil companies and the oil-producing nation. Thus, the profit for the oil companies is 5/7 of $122.4 billion is profit for the oil companies, which is $87.43 billion. Corporation tax is then 30% of this profit, which is $26.23 billion.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2900,7 +2901,7 @@ const QUESTIONS = [
       "8.0%"
     ],
     "answer": 0,
-    "explanation": "(15%+20%)/2 = 17.5% diagnosed. 17.5% x 0.35 = 6.125% Incorrect diagnoses.",
+    "explanation": "• Calculation & Steps: (15%+20%)/2 = 17.5% diagnosed. 17.5% x 0.35 = 6.125% Incorrect diagnoses.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 6.1%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -2928,13 +2929,13 @@ const QUESTIONS = [
       "£255 million"
     ],
     "answer": 0,
-    "explanation": "False  diagnoses:  (0.15x0.35x0.07x50,000,000)  0-5  year  olds  + (0.2x0.35x0.1x50,000,000) 5-10 year olds = 533,750 Cost per diagnosis: £50 per year = £250 over 5 years Total money wasted: 533,750 x £250 = £133 million SET 35",
+    "explanation": "False  diagnoses:  (0.15x0.35x0.07x50,000,000)  0-5  year  olds  + (0.2x0.35x0.1x50,000,000) 5-10 year olds = 533,750 Cost per diagnosis: £50 per year = £250 over 5 years Total money wasted: 533,750 x £250 = £133 million.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 202,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the government disinvested 50% of its stake in A at current market price, what (in £) is the amount of revenue generated by the government through the disinvestment?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the government disinvested 50% of its stake in A at current market price, what (in £) is the amount of revenue generated by the government through the disinvestment?",
     "options": [
       "375 Million",
       "325 Million",
@@ -2948,7 +2949,7 @@ const QUESTIONS = [
   {
     "id": 203,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the government disinvested 25% of its stake in B at current market price, the amount of revenue generated by the government through the disinvestment would be (in £):",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the government disinvested 25% of its stake in B at current market price, the amount of revenue generated by the government through the disinvestment would be (in £):",
     "options": [
       "125 Million",
       "150 Million",
@@ -2956,13 +2957,13 @@ const QUESTIONS = [
       "200 Million"
     ],
     "answer": 0,
-    "explanation": "Total value of company B = (price per share x number of shares) = £20 x 50 million = 1,000 million Government holding = 50% of 1,000 Million = £500 million Disinvestment (25%) = 0.25 x 500 = £125 million",
+    "explanation": "Total value of company B = (price per share x number of shares) = £20 x 50 million = 1,000 million Government holding = 50% of 1,000 Million = £500 million Disinvestment (25%) = 0.25 x 500 = £125 million.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 204,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The government disinvested its entire stake in C at a price of £35 per share. What would have been the additional revenue generated by the government had it done the given disinvestment at the given market price?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The government disinvested its entire stake in C at a price of £35 per share. What would have been the additional revenue generated by the government had it done the given disinvestment at the given market price?",
     "options": [
       "£25 Million",
       "£50 Million",
@@ -2976,7 +2977,7 @@ const QUESTIONS = [
   {
     "id": 205,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the share price of D fell to £25 on 2 March 2015, then what was the decline in the total value of D’s shares held by the government from that of the previous day?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the share price of D fell to £25 on 2 March 2015, then what was the decline in the total value of D’s shares held by the government from that of the previous day?",
     "options": [
       "£25 Million",
       "£50 Million",
@@ -2990,7 +2991,7 @@ const QUESTIONS = [
   {
     "id": 206,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the share price of E rose to £25 on 2 March 2015, then what was the increase in the total value of E’s shares held by the government over that of the previous day (in £)?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If the share price of E rose to £25 on 2 March 2015, then what was the increase in the total value of E’s shares held by the government over that of the previous day (in £)?",
     "options": [
       "£30.25 Million",
       "£30.75 Million",
@@ -3004,7 +3005,7 @@ const QUESTIONS = [
   {
     "id": 207,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following will fetch higher revenue for government?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table shows data related to equity shares issued by five public sector companies on 1 March 2015.<br><br><img src='../test_9/image/set_35.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the follflowing will fetch higher revenue for government?",
     "options": [
       "Redeeming all its stock from company A.",
       "Redeeming all its stock from company B.",
@@ -3012,13 +3013,13 @@ const QUESTIONS = [
       "None of the above."
     ],
     "answer": 1,
-    "explanation": "Total value of option A = £10 x 60 million x 75% = £450 Million Total value of option B = £20 x 50 million x 50% = £500 Million Hence they will fetch difference values, with B fetching more. SET 36",
+    "explanation": "Total value of option A = £10 x 60 million x 75% = £450 Million Total value of option B = £20 x 50 million x 50% = £500 Million Hence they will fetch difference values, with B fetching more.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 208,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The production of food grain (in tonnes) in 2010-11 was:",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that grflowing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>The production of food grain (in tonnes) in 2010-11 was:",
     "options": [
       "40",
       "60",
@@ -3032,7 +3033,7 @@ const QUESTIONS = [
   {
     "id": 209,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the difference in targeted production in 2011-12 and actual production in 2010-11 for oil seeds (in tonnes)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that grflowing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the difference in targeted production in 2011-12 and actual production in 2010-11 for oil seeds (in tonnes)?",
     "options": [
       "10",
       "20",
@@ -3040,13 +3041,13 @@ const QUESTIONS = [
       "40"
     ],
     "answer": 1,
-    "explanation": "Target production (2011-12) = 60 tonnes Actual production (2010-11) = 50/125% = 40 tonnes Difference = 60 - 40 = 20 tonnes",
+    "explanation": "• Calculation & Steps: Target production (2011-12) = 60 tonnes Actual production (2010-11) = 50/125% = 40 tonnes Difference = 60 - 40 = 20 tonnes.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 20, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 210,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more sugarcane should have been produced in order to meet the target in 2011-12 (in tonnes)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that grflowing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more sugarcane should have been produced in order to meet the target in 2011-12 (in tonnes)?",
     "options": [
       "5",
       "10",
@@ -3054,13 +3055,13 @@ const QUESTIONS = [
       "20"
     ],
     "answer": 1,
-    "explanation": "Difference = Target - Actual = 50 - 40 = 10 tonnes",
+    "explanation": "• Calculation & Steps: Difference = Target - Actual = 50 - 40 = 10 tonnes.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 10, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 211,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the combined production of Cotton and Jute in year 2010-11 (in tonnes)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that grflowing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What was the combined production of Cotton and Jute in year 2010-11 (in tonnes)?",
     "options": [
       "11",
       "21",
@@ -3068,13 +3069,13 @@ const QUESTIONS = [
       "41"
     ],
     "answer": 3,
-    "explanation": "Cotton production (2010-11) = 30/120% = 25 tonnes Jute production (2010-11) = 20/125% = 16 tonnes Combined = 25 + 16 = 41 tonnes",
+    "explanation": "• Calculation & Steps: Cotton production (2010-11) = 30/120% = 25 tonnes Jute production (2010-11) = 20/125% = 16 tonnes Combined = 25 + 16 = 41 tonnes.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 41, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 212,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more food grain was produced than oil seeds in 2010-11 (in TONNES)?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that grflowing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How much more food grain was produced than oil seeds in 2010-11 (in TONNES)?",
     "options": [
       "10",
       "20",
@@ -3082,13 +3083,13 @@ const QUESTIONS = [
       "40"
     ],
     "answer": 3,
-    "explanation": "Food grain production (2010-11) = 100/125% = 80 tonnes Oil seeds production (2010-11) = 50/125% = 40 tonnes Difference = 80 - 40 = 40 tonnes",
+    "explanation": "Food grain production (2010-11) = 100/125% = 80 tonnes Oil seeds production (2010-11) = 50/125% = 40 tonnes Difference = 80 - 40 = 40 tonnes.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 213,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that growing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Cotton constituted what percentage of total crops in year 2011-12?",
+    "text": "<strong>Scenario:</strong><br>The table below shows the production of some agricultural crops in Harvestland in the years 2011-12 and the targets that were earlier set for that grflowing season.<br><br><img src='../test_9/image/set_36.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Cotton constituted what percentage of total crops in year 2011-12?",
     "options": [
       "10",
       "12.5",
@@ -3097,7 +3098,7 @@ const QUESTIONS = [
       "30"
     ],
     "answer": 1,
-    "explanation": "Total production (2011-12) = 100+50+40+30+20 = 240 tonnes Cotton as a percentage of total = 30/240 = 12.5% SET 37",
+    "explanation": "• Calculation & Steps: Total production (2011-12) = 100+50+40+30+20 = 240 tonnes Cotton as a percentage of total = 30/240 = 12.5%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 12.5, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3111,13 +3112,13 @@ const QUESTIONS = [
       "29%"
     ],
     "answer": 3,
-    "explanation": "Sales of product B in Feb = 7,000 Total sales of all products in Feb = 10,250 + 7,000 + 3,750 + 3100 = 24,100 Percentage of product B’s sales = 7,000/24,100 = 29%",
+    "explanation": "Sales of product B in Feb = 7,000 Total sales of all products in Feb = 10,250 + 7,000 + 3,750 + 3100 = 24,100 Percentage of product B’s sales = 7,000/24,100 = 29%.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 215,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='../test_9/image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following products recorded maximum percentage increase from March to April?",
+    "text": "<strong>Scenario:</strong><br>The table given below shows the sales volume of four products A, B, C and D manufactured by a company from January to April in the year 2014.<br><br><img src='../test_9/image/set_37.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the follflowing products recorded maximum percentage increase from March to April?",
     "options": [
       "Product A",
       "Product B",
@@ -3139,7 +3140,7 @@ const QUESTIONS = [
       "30.0 %"
     ],
     "answer": 2,
-    "explanation": "Sales of product C in May = 4,250 x 1.2 = 5,100 Therefore sales of product D in May = 5,100 Percentage increase in sales of D from April to May = (5,100 – 4,000)/4,000 = 27.5%",
+    "explanation": "Sales of product C in May = 4,250 x 1.2 = 5,100 Therefore sales of product D in May = 5,100 Percentage increase in sales of D from April to May = (5,100 – 4,000)/4,000 = 27.5%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3153,7 +3154,7 @@ const QUESTIONS = [
       "17.3 %"
     ],
     "answer": 3,
-    "explanation": "Sale of products (A+C) in January = 13,000 Sale of products (A+C) in April = 15,250 Percentage increase in combined sale from January to April = (15,250 – 13,000)/13,000 = 17.31%",
+    "explanation": "Sale of products (A+C) in January = 13,000 Sale of products (A+C) in April = 15,250 Percentage increase in combined sale from January to April = (15,250 – 13,000)/13,000 = 17.31%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3167,7 +3168,7 @@ const QUESTIONS = [
       "35,925"
     ],
     "answer": 0,
-    "explanation": "Sale of product (A+B) in May = 1.2 x (11,000+75,00) = 22,200 Sale of product (C+D) in May = 1.3 x (4,250+4,000) = 10,725 Total sales in May = 32925",
+    "explanation": "Sale of product (A+B) in May = 1.2 x (11,000+75,00) = 22,200 Sale of product (C+D) in May = 1.3 x (4,250+4,000) = 10,725 Total sales in May = 32925.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3181,13 +3182,13 @@ const QUESTIONS = [
       "43.24 %"
     ],
     "answer": 3,
-    "explanation": "Sale of product A in May = 1.2 x 11,000 = 13,200 Sale of product (B+C+D) in May = 1.1 x (7,500+4,250+4,000) = 173,25 Total sales in May = 13,200+17,325 = 30,525 Percentage of sales of A over total sales = 13,200/30,525 = 43.24% SET 38",
+    "explanation": "Sale of product A in May = 1.2 x 11,000 = 13,200 Sale of product (B+C+D) in May = 1.1 x (7,500+4,250+4,000) = 173,25 Total sales in May = 13,200+17,325 = 30,525 Percentage of sales of A over total sales = 13,200/30,525 = 43.24%.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 220,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2012, the profit made by Courier Company was 30% of the total revenue. The company made a profit of £2.5 million. What was the total revenue?",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The follflowing table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2012, the profit made by Courier Company was 30% of the total revenue. The company made a profit of £2.5 million. What was the total revenue?",
     "options": [
       "£3.6 Million",
       "£7.2 Million",
@@ -3195,13 +3196,13 @@ const QUESTIONS = [
       "£25 Million"
     ],
     "answer": 2,
-    "explanation": "Overall profit is 30% of revenue. Since profit = £2.5 million, overall revenue = 2.5/30 x 100 = £8.3 Million",
+    "explanation": "• Calculation & Steps: Overall profit is 30% of revenue. Since profit = £2.5 million, overall revenue = 2.5/30 x 100 = £8.3 Million.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £8.3 Million, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 221,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, the cost per consignment was the lowest through which method?",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The follflowing table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, the cost per consignment was the lowest through which method?",
     "options": [
       "Rail",
       "Road",
@@ -3215,7 +3216,7 @@ const QUESTIONS = [
   {
     "id": 222,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, the cost per consignment through rail was £5 and the revenue per consignment through rail was £20. What was the ratio of the total revenue through rail to the total cost through rail? Assume the number of consignments is equal to that given in the table.",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The follflowing table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, the cost per consignment through rail was £5 and the revenue per consignment through rail was £20. What was the ratio of the total revenue through rail to the total cost through rail? Assume the number of consignments is equal to that given in the table.",
     "options": [
       "4:1",
       "5:1",
@@ -3224,13 +3225,13 @@ const QUESTIONS = [
       "8:1"
     ],
     "answer": 0,
-    "explanation": "The ratio will be the same for any number of consignments as the proportions are preserved. Ratio of total revenue to total cost = £20:£5 = 4:1",
+    "explanation": "The ratio will be the same for any number of consignments as the proportions are preserved. Ratio of total revenue to total cost = £20:£5 = 4:1.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 223,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2013, the total costs of the company are £54,000. What is the total cost of air transportation in the year 2013?",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The follflowing table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2013, the total costs of the company are £54,000. What is the total cost of air transportation in the year 2013?",
     "options": [
       "£13,500",
       "£17,000",
@@ -3239,13 +3240,13 @@ const QUESTIONS = [
       "More information needed"
     ],
     "answer": 2,
-    "explanation": "From the table it is given that 50% of the total costs are associated with air transportation, so 50% of the total costs are due to air travel. 50% x £54,000 = £27,000",
+    "explanation": "From the table it is given that 50% of the total costs are associated with air transportation, so 50% of the total costs are due to air travel. 50% x £54,000 = £27,000.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 224,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The following table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, if the total number of consignments delivered was 17,145, then what was total number of consignments delivered using rail and road?",
+    "text": "<strong>Scenario:</strong><br>A courier company uses three modes of transportation for delivering consignments – Road, Rail and Air. The follflowing table shows the percentage distribution of the total number of consignments delivered, the revenue generated and the cost incurred, across the three modes of transportation in 2014.<br><br><img src='../test_9/image/set_38.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>In 2014, if the total number of consignments delivered was 17,145, then what was total number of consignments delivered using rail and road?",
     "options": [
       "11,670",
       "11,974",
@@ -3253,13 +3254,13 @@ const QUESTIONS = [
       "12,859"
     ],
     "answer": 3,
-    "explanation": "From the table it is given that 30% are delivered by rail and 45% by road, so 75% of consignments are delivered by rail and road taken together. 75% x 17,145 = 12,859 SET 39",
+    "explanation": "From the table it is given that 30% are delivered by rail and 45% by road, so 75% of consignments are delivered by rail and road taken together. 75% x 17,145 = 12,859.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 225,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Lead in alloy A.",
+    "text": "<strong>Scenario:</strong><br>The follflowing table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Lead in alloy A.",
     "options": [
       "8.33 %",
       "4.16 %",
@@ -3267,13 +3268,13 @@ const QUESTIONS = [
       "2.08 %"
     ],
     "answer": 0,
-    "explanation": "This is a diﬃcult question that would be worth “flagging for review”. Set the percentage of lead in alloy A to a, and the percentage of tin in alloy C to b. We can then find the percentage of copper in each as a function of a and b. The key thing here is to use the composition of Alloy G. We can find the composition of Alloy G in terms of a and b and then set the amounts of tin, lead and copper equal to each other to find a and b: For Alloy G, the percentages will be weighted according to the proportion A:B:C = 2:1:3: 2/6 (40) + 1/6 (15) + 3/6 (b) = 2/6 (a) + 1/6 (50) + 3/6 (20) = 2/6 (40-a) + 1/6 (5) + 3/6 (30-b) 80 + 15 + 3b = 2a + 50 + 60 = 80 -2a + 5 + 90 -3b Solving above equation, we will get values: 95 + 3b = 2a + 110 2a + 110 = 175 – 2a – 3b 3b = 65 – 4a 2a = 95 – 110 + 65 – 4a 6a = 50 a = 50/6 b = 95/9 Percentage of Lead in alloy A = a = 50/6% = 25/3% = 8.33%",
+    "explanation": "This is a difficult question that would be worth “flagging for review”. Set the percentage of lead in alloy A to a, and the percentage of tin in alloy C to b. We can then find the percentage of copper in each as a function of a and b. The key thing here is to use the composition of Alloy G. We can find the composition of Alloy G in terms of a and b and then set the amounts of tin, lead and copper equal to each other to find a and b: For Alloy G, the percentages will be weighted according to the proportion A:B:C = 2:1:3: 2/6 (40) + 1/6 (15) + 3/6 (b) = 2/6 (a) + 1/6 (50) + 3/6 (20) = 2/6 (40-a) + 1/6 (5) + 3/6 (30-b) 80 + 15 + 3b = 2a + 50 + 60 = 80 -2a + 5 + 90 -3b Solving above equation, we will get values: 95 + 3b = 2a + 110 2a + 110 = 175 – 2a – 3b 3b = 65 – 4a 2a = 95 – 110 + 65 – 4a 6a = 50 a = 50/6 b = 95/9 Percentage of Lead in alloy A = a = 50/6% = 25/3% = 8.33%.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 226,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin in alloy C.",
+    "text": "<strong>Scenario:</strong><br>The follflowing table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin in alloy C.",
     "options": [
       "31.3 %",
       "15.8 %",
@@ -3281,13 +3282,13 @@ const QUESTIONS = [
       "7.9 %"
     ],
     "answer": 2,
-    "explanation": "Using our solution from the previous question, we found that the percentage of Tin in alloy C, b, was:\n\n\nb = 95/9 Percentage of Tin in alloy C = 95/9 = 10.6%",
+    "explanation": "Using our solution from the previous question, we found that the percentage of Tin in alloy C, b, was:\n\n\nb = 95/9 Percentage of Tin in alloy C = 95/9 = 10.6%.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 227,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>An alloy X contains A, B and C in equal proportion. What is the percentage of Zinc in this alloy?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>An alloy X contains A, B and C in equal proportion. What is the percentage of Zinc in this alloy?",
     "options": [
       "12.50 %",
       "16.67 %",
@@ -3295,13 +3296,13 @@ const QUESTIONS = [
       "33.33 %"
     ],
     "answer": 1,
-    "explanation": "Zinc percentage in alloy X is equal to the average of the percentages of the composite alloys, as they are present in equal proportions. This can be found by adding together and dividing by 3. X = (10+25+15)/3 = 50/3 = 16.67%",
+    "explanation": "Zinc percentage in alloy X is equal to the average of the percentages of the composite alloys, as they are present in equal proportions. This can be found by adding together and dividing by 3. X = (10+25+15)/3 = 50/3 = 16.67%.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 228,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin and Copper combined in alloy C.",
+    "text": "<strong>Scenario:</strong><br>The follflowing table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin and Copper combined in alloy C.",
     "options": [
       "15 %",
       "20 %",
@@ -3309,13 +3310,13 @@ const QUESTIONS = [
       "30 %"
     ],
     "answer": 3,
-    "explanation": "To solve, subtract the amounts of the known metals to find the remaining metal, which is equal to the percentage of Tin and Copper combined in alloy C. We know there are no other components as this is stated in the question. (100% – 15% – 20% – 35%) = 30%",
+    "explanation": "To solve, subtract the amounts of the known metals to find the remaining metal, which is equal to the percentage of Tin and Copper combined in alloy C. We know there are no other components as this is stated in the question. (100% – 15% – 20% – 35%) = 30%.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 229,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin in alloy G.",
+    "text": "<strong>Scenario:</strong><br>The follflowing table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Find the percentage of Tin in alloy G.",
     "options": [
       "11.11 %",
       "21.11 %",
@@ -3329,7 +3330,7 @@ const QUESTIONS = [
   {
     "id": 230,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many elements have exactly the same concentration in Alloy G?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table provides partial information about the composition of three different alloys, A, B and C. Each of these alloys contains five different elements: Zinc, Tin, Lead, Copper and Nickel, and no other substances. An alloy, Alloy G, the composition of which is not given in the table, contains alloys A, B, C in the ratio 2:1:3. It is also known that in Alloy G, Tin, Lead and Copper are present in equal quantities.<br><br><img src='../test_9/image/set_39.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many elements have exactly the same concentration in Alloy G?",
     "options": [
       "One",
       "Two",
@@ -3337,13 +3338,13 @@ const QUESTIONS = [
       "Four"
     ],
     "answer": 2,
-    "explanation": "Percentage of elements in alloy G: We know that Alloy G has 21.11% Tin from the last question. We also know from the initial explanation that it has the same concentration of tin, lead and copper. This is 3 elements with the same concentration. We then need to work out how much nickel and zinc there is to check whether there is a 4th. Alloy G is made up of alloys A:B:C in the ratio 2:1:3. Alloy A has 10% nickel, alloy B has 5% and alloy C has 35% nickel. Hence the percentage in Alloy G is ((2x10)+(1x5)+ (3x35))/6, = 21.6666. We can also work out from the fact that these 4 elements plus Zinc are 100% of the total that Zinc is 15%. Zinc = 15% Tin = 21.11% Lead = 21.11% Copper = 21.11% Nickel = 21.67%\n\n\nSET 40",
+    "explanation": "Percentage of elements in alloy G: We know that Alloy G has 21.11% Tin from the last question. We also know from the initial explanation that it has the same concentration of tin, lead and copper. This is 3 elements with the same concentration. We then need to work out how much nickel and zinc there is to check whether there is a 4th. Alloy G is made up of alloys A:B:C in the ratio 2:1:3. Alloy A has 10% nickel, alloy B has 5% and alloy C has 35% nickel. Hence the percentage in Alloy G is ((2x10)+(1x5)+ (3x35))/6, = 21.6666. We can also work out from the fact that these 4 elements plus Zinc are 100% of the total that Zinc is 15%. Zinc = 15% Tin = 21.11% Lead = 21.11% Copper = 21.11% Nickel = 21.67%.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 231,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many people voted in favour of Hillary Clinton, who received 60% of total votes polled for lady politicians?",
+    "text": "<strong>Scenario:</strong><br>The follflowing table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>How many people voted in favour of Hillary Clinton, who received 60% of total votes polled for lady politicians?",
     "options": [
       "1,173",
       "1,223",
@@ -3351,13 +3352,13 @@ const QUESTIONS = [
       "1,273"
     ],
     "answer": 0,
-    "explanation": "Number of persons who voted in favour of Hilary Clinton = 60% of 17% of 11,500 = 0.6x0.17x11, 500 = 1173.",
+    "explanation": "• Calculation & Steps: Number of persons who voted in favour of Hilary Clinton = 60% of 17% of 11,500 = 0.6x0.17x11, 500 = 1173.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 1,173, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 232,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If everyone who voted in favour of Robert Guiliani is a citizen of New York, then out of all the people surveyed, the number of citizens from New York is:",
+    "text": "<strong>Scenario:</strong><br>The follflowing table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If everyone who voted in favour of Robert Guiliani is a citizen of New York, then out of all the people surveyed, the number of citizens from New York is:",
     "options": [
       "460",
       "960",
@@ -3371,7 +3372,7 @@ const QUESTIONS = [
   {
     "id": 233,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Out of the respondents, 20% are not US citizens. Given that only US citizens voted for George Bush, determine the percentage of US citizens who voted in favour of Bush.",
+    "text": "<strong>Scenario:</strong><br>The follflowing table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Out of the respondents, 20% are not US citizens. Given that only US citizens voted for George Bush, determine the percentage of US citizens who voted in favour of Bush.",
     "options": [
       "42.8%",
       "45.3%",
@@ -3385,7 +3386,7 @@ const QUESTIONS = [
   {
     "id": 234,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Out of the total people surveyed, 40% are employees of the Federal Government and out of these 10% are in favour of Rumsfield. Find the number of people who are in favour of Rumsfield but are NOT employees of the Federal Government.",
+    "text": "<strong>Scenario:</strong><br>The follflowing table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Out of the total people surveyed, 40% are employees of the Federal Government and out of these 10% are in favour of Rumsfield. Find the number of people who are in favour of Rumsfield but are NOT employees of the Federal Government.",
     "options": [
       "105",
       "110",
@@ -3399,7 +3400,7 @@ const QUESTIONS = [
   {
     "id": 235,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A mid-year survey has also been done on the same group of people. In that survey 16% of the people were in favour of Bill Clinton. Find the decrease in the number of people who voted in favour of Bill Clinton from mid-year survey to the actual survey.",
+    "text": "<strong>Scenario:</strong><br>The follflowing table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A mid-year survey has also been done on the same group of people. In that survey 16% of the people were in favour of Bill Clinton. Find the decrease in the number of people who voted in favour of Bill Clinton from mid-year survey to the actual survey.",
     "options": [
       "1,210",
       "1,410",
@@ -3407,13 +3408,13 @@ const QUESTIONS = [
       "1,810"
     ],
     "answer": 2,
-    "explanation": "The number of people polled was constant. The decrease in percentage is from 16% to 2%, i.e. 14 % of 11,500 = 1,610 people.",
+    "explanation": "• Calculation & Steps: The number of people polled was constant. The decrease in percentage is from 16% to 2%, i.e. 14 % of 11,500 = 1,610 people.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 1,610, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 236,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The following table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A mid-year survey has also been done on the same group of people. In that survey 40% of the people were in favour of Bush. Find the decrease in the number of people who voted in favour of Bush from mid-year survey to the actual survey.",
+    "text": "<strong>Scenario:</strong><br>The follflowing table chart represents the number of people in the USA surveyed by CNN-Time in an opinion poll for “e most in̏uential person of the year 2001”. The number of people surveyed is 11,500.<br><br><img src='../test_9/image/set_40.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>A mid-year survey has also been done on the same group of people. In that survey 40% of the people were in favour of Bush. Find the decrease in the number of people who voted in favour of Bush from mid-year survey to the actual survey.",
     "options": [
       "115",
       "230",
@@ -3421,7 +3422,7 @@ const QUESTIONS = [
       "920"
     ],
     "answer": 0,
-    "explanation": "The number of people polled was constant. The decrease in percentage is from 40% to 39%, i.e. 1% of 11,500 = 115 people. SET 41",
+    "explanation": "• Calculation & Steps: The number of people polled was constant. The decrease in percentage is from 40% to 39%, i.e. 1% of 11,500 = 115 people.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 115, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3436,7 +3437,7 @@ const QUESTIONS = [
       "£2.98"
     ],
     "answer": 4,
-    "explanation": "15% indicates that only 85% of the total price is to be paid. 50p is the price per unit for premium mugs for quantity below 49 units. 20p is the price per unit for basic mugs for quantity below 49 units. 5p is the price per unit for logo on basic mugs for quantity below 49 units.\n\n\nUsing this information, we can work out: 0.85x(5x50p+4x(20p+5p)) = 297.5p = £2.975 rounded up to £2.98 Therefore the company will have to pay £2.98",
+    "explanation": "15% indicates that only 85% of the total price is to be paid. 50p is the price per unit for premium mugs for quantity below 49 units. 20p is the price per unit for basic mugs for quantity below 49 units. 5p is the price per unit for logo on basic mugs for quantity below 49 units.\n\n\nUsing this information, we can work out: 0.85x(5x50p+4x(20p+5p)) = 297.5p = £2.975 rounded up to £2.98 Therefore the company will have to pay £2.98.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3481,7 +3482,7 @@ const QUESTIONS = [
       "11%"
     ],
     "answer": 3,
-    "explanation": "Step I. 2014: 70x(26p+4p)+150x5p= 2850p 26p is the price per unit for medium mugs below 99 units in 2014. 4p is the price per unit for logo on medium mugs below 99 units in 2014. 5p is the price per unit for colour flyers above 100 units in 2014. Step II. 2015: 70x(26p+3p)+150x4p=2630p 26p is the price per unit for medium mugs below 99 units in 2015. 3p is the price per unit for logo on medium mugs below 99 units in 2015. 4p is the price per unit for colour flyers above 100 units in 2015.\n\n\nStep III. 1-(2630/2850)=0.077 = 8%",
+    "explanation": "Step I. 2014: 70x(26p+4p)+150x5p= 2850p 26p is the price per unit for medium mugs below 99 units in 2014. 4p is the price per unit for logo on medium mugs below 99 units in 2014. 5p is the price per unit for colour flyers above 100 units in 2014. Step II. 2015: 70x(26p+3p)+150x4p=2630p 26p is the price per unit for medium mugs below 99 units in 2015. 3p is the price per unit for logo on medium mugs below 99 units in 2015. 4p is the price per unit for colour flyers above 100 units in 2015.\n\n\nStep III. 1-(2630/2850)=0.077 = 8%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3496,7 +3497,7 @@ const QUESTIONS = [
       "£362,059"
     ],
     "answer": 2,
-    "explanation": "£325,750/(1.012^(3)) =£314,298.9 rounded down to £314,299 1.2% equals 0.0012 3 years between 2012 and 2015. SET 42",
+    "explanation": "• Calculation & Steps: £325,750/(1.012^(3)) =£314,298.9 rounded down to £314,299 1.2% equals 0.0012 3 years between 2012 and 2015.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £314,299, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3511,7 +3512,7 @@ const QUESTIONS = [
       "360"
     ],
     "answer": 1,
-    "explanation": "The easiest way to solve this problem is using a Venn diagram. The Venn diagram below shows all possible combinations of the three devices each student can have as well as the number of students with a combination of devices. The sum of the numbers in the Venn diagram must be equal to the total number of students. Using the information given in the graphs, we know there are:\n\n\n30 students with all three devices 50 students with smartphone only 40 students with tablet only 50 students with laptop only 180 students with smartphone 190 students with tablet 200 students with laptop Therefore we can construct the following Venn diagram: Laptop: 200=50+30+z+x z=120-x Smartphone: 180 =50+30+x+y y=100-x Tablet: 190=40+30+y+z y=120-z So, we see that y=100-x and y=120-z and thus z=20+x Then, we see that z=20+x and z=120-x and thus x=50 Plug it in to see, z=20+x=70 and y=100-x=50 Now, the total number of students is the sum of the numbers in the Venn diagram.",
+    "explanation": "The easiest way to solve this problem is using a Venn diagram. The Venn diagram below shows all possible combinations of the three devices each student can have as well as the number of students with a combination of devices. The sum of the numbers in the Venn diagram must be equal to the total number of students. Using the information given in the graphs, we know there are:\n\n\n30 students with all three devices 50 students with smartphone only 40 students with tablet only 50 students with laptop only 180 students with smartphone 190 students with tablet 200 students with laptop Therefore we can construct the follflowing Venn diagram: Laptop: 200=50+30+z+x z=120-x Smartphone: 180 =50+30+x+y y=100-x Tablet: 190=40+30+y+z y=120-z So, we see that y=100-x and y=120-z and thus z=20+x Then, we see that z=20+x and z=120-x and thus x=50 Plug it in to see, z=20+x=70 and y=100-x=50 Now, the total number of students is the sum of the numbers in the Venn diagram.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3526,7 +3527,7 @@ const QUESTIONS = [
       "65"
     ],
     "answer": 2,
-    "explanation": "Using the previously constructed Venn diagram, we can see the total number of students with a smartphone and a laptop is 50.",
+    "explanation": "• Calculation & Steps: Using the previously constructed Venn diagram, we can see the total number of students with a smartphone and a laptop is 50.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 50, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3541,7 +3542,7 @@ const QUESTIONS = [
       "80"
     ],
     "answer": 0,
-    "explanation": "180 students have smartphone 100 students have both tablet and laptop So, 180-100=80, 80 students.",
+    "explanation": "• Calculation & Steps: 180 students have smartphone 100 students have both tablet and laptop So, 180-100=80, 80 students.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 80, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3556,7 +3557,7 @@ const QUESTIONS = [
       "25.9%"
     ],
     "answer": 2,
-    "explanation": "Total number of students: 340 80 students have both smartphone and laptop. 80/340=0.25 23.5%",
+    "explanation": "• Calculation & Steps: Total number of students: 340 80 students have both smartphone and laptop. 80/340=0.25 23.5%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 23.5%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3571,7 +3572,7 @@ const QUESTIONS = [
       "60%"
     ],
     "answer": 2,
-    "explanation": "185/345=0.536 54% 185 – no of students with smartphone (AFTER) 345 – total no of students (AFTER) BEFORE AFTER SET 43",
+    "explanation": "• Calculation & Steps: 185/345=0.536 54% 185 – no of students with smartphone (AFTER) 345 – total no of students (AFTER) BEFORE AFTER.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 54%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3631,7 +3632,7 @@ const QUESTIONS = [
       "5.02pm"
     ],
     "answer": 1,
-    "explanation": "The first train after 3pm departs at 3.10pm from Cambridge Station and arrives at Tottenham Hale by 4.28pm.",
+    "explanation": "• Calculation & Steps: The first train after 3pm departs at 3.10pm from Cambridge Station and arrives at Tottenham Hale by 4.28pm.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 4.28pm, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3646,7 +3647,7 @@ const QUESTIONS = [
       "100 miles/hour"
     ],
     "answer": 3,
-    "explanation": "Using the equation: velocity = distance/time 7 minutes = 7/60 hour from Audley End to Bishops Stortford 10.5 miles between Audley End and Bishops Stortford 10.5 miles / (7/60) hour = 90 miles per hour SET 44",
+    "explanation": "Using the equation: velocity = distance/time 7 minutes = 7/60 hour from Audley End to Bishops Stortford 10.5 miles between Audley End and Bishops Stortford 10.5 miles / (7/60) hour = 90 miles per hour.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3661,7 +3662,7 @@ const QUESTIONS = [
       "1234"
     ],
     "answer": 0,
-    "explanation": "The top five rivers in the table are the longest. Take the length in miles from column 2 and add them together. Sum: 220+215+185+143+134=897 miles",
+    "explanation": "The top five rivers in the table are the longest. Take the length in miles from column 2 and add them together. Sum: 220+215+185+143+134=897 miles.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3676,7 +3677,7 @@ const QUESTIONS = [
       "97%"
     ],
     "answer": 1,
-    "explanation": "Firstly, you add the drainage area of all seven rivers from column C. Then you add the increase in drainage area of River Thames (1345.5 square mile). Finally, you can calculate the percentage increase, dividing New by Old. Old: 4,409+4,994+4,029+3,236+1,597+560+431=19256 New: 1345.5+4,409+4,994+4,029+3,236+1,597+560+431=20601.5 Percentage: 20601.5/19256=1.06987 7%",
+    "explanation": "Firstly, you add the drainage area of all seven rivers from column C. Then you add the increase in drainage area of River Thames (1345.5 square mile). Finally, you can calculate the percentage increase, dividing New by Old. Old: 4,409+4,994+4,029+3,236+1,597+560+431=19256 New: 1345.5+4,409+4,994+4,029+3,236+1,597+560+431=20601.5 Percentage: 20601.5/19256=1.06987 7%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3691,7 +3692,7 @@ const QUESTIONS = [
       "425%"
     ],
     "answer": 2,
-    "explanation": "River Thames: 4,994 square mile River Wye: 1,597 square mile Percentage:\n\n\n4,994/1,597=3.127 313%",
+    "explanation": "• Calculation & Steps: River Thames: 4,994 square mile River Wye: 1,597 square mile Percentage: 4,994/1,597=3.127 313%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 313%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3706,7 +3707,7 @@ const QUESTIONS = [
       "213 miles"
     ],
     "answer": 0,
-    "explanation": "Lowest average discharge: River Tay – length: 117 miles Highest average discharge: River Trent – length: 185 miles Difference: 185-117=68 SET 45",
+    "explanation": "• Calculation & Steps: Lowest average discharge: River Tay – length: 117 miles Highest average discharge: River Trent – length: 185 miles Difference: 185-117=68.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 68 miles, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3721,7 +3722,7 @@ const QUESTIONS = [
       "4235"
     ],
     "answer": 1,
-    "explanation": "Remember that only the SIX longest rivers shall be included in the calculation. Use the figures from column 3 to obtain the equation: (4,409+4,994+4,029+3,236+1,597+560)/6=3137.5",
+    "explanation": "Remember that only the SIX longest rivers shall be included in the calculation. Use the figures from column 3 to obtain the equation: (4,409+4,994+4,029+3,236+1,597+560)/6=3137.5.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3736,7 +3737,7 @@ const QUESTIONS = [
       "Other Production"
     ],
     "answer": 0,
-    "explanation": "No explanation available.",
+    "explanation": "• Calculation & Steps: No explanation available.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields Agriculture, Forestry and Fishing, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3751,7 +3752,7 @@ const QUESTIONS = [
       "4.41tn"
     ],
     "answer": 1,
-    "explanation": "Using the figures we are given: 4,2tn pounds and 5% (1.05) growth, we can plug them into the equation: GDP2014 x 1.05 = 4.2tn This can be arranged as: GDP2014=4,2/1,05=4",
+    "explanation": "Using the figures we are given: 4,2tn pounds and 5% (1.05) growth, we can plug them into the equation: GDP2014 x 1.05 = 4.2tn This can be arranged as: GDP2014=4,2/1,05=4.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3766,7 +3767,7 @@ const QUESTIONS = [
       "14%"
     ],
     "answer": 4,
-    "explanation": "This requires a simple subtraction. Manufacturing in Scottish GDP 14% Business Services and Finance in UK GDP 28% Difference: 28-14=14 14%",
+    "explanation": "• Calculation & Steps: This requires a simple subtraction. Manufacturing in Scottish GDP 14% Business Services and Finance in UK GDP 28% Difference: 28-14=14 14%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 14%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3781,7 +3782,7 @@ const QUESTIONS = [
       "£1.11tn"
     ],
     "answer": 1,
-    "explanation": "We can use the figures given us to formulate the following equation: £1.2tn (GDP in 2014) x 1.03 (3% GDP increase) x 0.01 (1% share of Agriculture, Forestry and Fishing) = 0.01236tn",
+    "explanation": "We can use the figures given us to formulate the follflowing equation: £1.2tn (GDP in 2014) x 1.03 (3% GDP increase) x 0.01 (1% share of Agriculture, Forestry and Fishing) = 0.01236tn.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3796,7 +3797,7 @@ const QUESTIONS = [
       "Distribution,  Hotels  and  Catering;  Business  Services  and  Finance; Manufacturing"
     ],
     "answer": 3,
-    "explanation": "The three largest sections of the UK GDP pie chart are: Distribution, Hotels and Catering 15% Business Services Finance 28% Government and Other Services 24% SET 46",
+    "explanation": "The three largest sections of the UK GDP pie chart are: Distribution, Hotels and Catering 15% Business Services Finance 28% Government and Other Services 24%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3811,7 +3812,7 @@ const QUESTIONS = [
       "42%"
     ],
     "answer": 2,
-    "explanation": "The most-watched TV show is Geordie shore Year 1 divided by Year 2 9.2/12.5=1.35869 36%",
+    "explanation": "• Calculation & Steps: The most-watched TV show is Geordie shore Year 1 divided by Year 2 9.2/12.5=1.35869 36%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 36%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3826,7 +3827,7 @@ const QUESTIONS = [
       "1.1 million"
     ],
     "answer": 4,
-    "explanation": "The Voice: 3.4 and 4.1 in year 1 and 2 respectively Britain’s got talent: 5.2 and 5.6 in year 1 and 2 respectively Year I: 5.2+3.4=8.6 Year II: 5.6+4.1=9.7 Difference: 9.7-8.6=1.1",
+    "explanation": "The Voice: 3.4 and 4.1 in year 1 and 2 respectively Britain’s got talent: 5.2 and 5.6 in year 1 and 2 respectively Year I: 5.2+3.4=8.6 Year II: 5.6+4.1=9.7 Difference: 9.7-8.6=1.1.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3841,7 +3842,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "The show that the fewest percentage of males watched in year 2 was The Voice.",
+    "explanation": "• Calculation & Steps: The show that the fewest percentage of males watched in year 2 was The Voice.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields The Voice, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3856,7 +3857,7 @@ const QUESTIONS = [
       "25%"
     ],
     "answer": 1,
-    "explanation": "Year  2  (all  five  TV  show)  /  year1  (all  five  TV  show)  = (4.1+5.6+1.4+12.5+3)/(5+9.2+1.3+5.2+3.4) = 1.1037 10%",
+    "explanation": "• Calculation & Steps: Year 2 (all five TV show) / year1 (all five TV show) = (4.1+5.6+1.4+12.5+3)/(5+9.2+1.3+5.2+3.4) = 1.1037 10%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 10%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3871,7 +3872,7 @@ const QUESTIONS = [
       "6.3 million"
     ],
     "answer": 3,
-    "explanation": "Total population of females in year 2: 30 million Number of females who watched Geordie Shore: 30x0.21=6.3 million Number of males who watched Geordie Shore: 12.5-6.3=6.2 million SET 47",
+    "explanation": "Total population of females in year 2: 30 million Number of females who watched Geordie Shore: 30x0.21=6.3 million Number of males who watched Geordie Shore: 12.5-6.3=6.2 million.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3886,7 +3887,7 @@ const QUESTIONS = [
       "Premium plan by £5.90"
     ],
     "answer": 3,
-    "explanation": "Basic plan: £45.29 + £7.50 = £52.79 250 free texts – more than 75 free minutes: (300-250) x15 = £7.50 Premium plan: £47.89 More than 300 free texts – more than 75 free minutes £52.79 - £47.89 = £4.90",
+    "explanation": "Basic plan: £45.29 + £7.50 = £52.79 250 free texts – more than 75 free minutes: (300-250) x15 = £7.50 Premium plan: £47.89 More than 300 free texts – more than 75 free minutes £52.79 - £47.89 = £4.90.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3901,7 +3902,7 @@ const QUESTIONS = [
       "283 minutes"
     ],
     "answer": 2,
-    "explanation": "Premium plan: £47.89 £60 - £47.89 = 12.11, so he has £12.11 left Cheapest calls: Standard Calls – 6p 12.11/0.06= 201.83=201 minutes.",
+    "explanation": "• Calculation & Steps: Premium plan: £47.89 £60 - £47.89 = 12.11, so he has £12.11 left Cheapest calls: Standard Calls – 6p 12.11/0.06= 201.83=201 minutes.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 201 minutes, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3914,8 +3915,8 @@ const QUESTIONS = [
       "£2.05",
       "£2.25"
     ],
-    "answer": 4,
-    "explanation": "45 texts free, 125 mins same network free, 100 minutes free with other network 225 mins other network in both options. Before 225 x 0.15 = 33.75\n\n\nAfter 225 x 0.16 = 36. Difference is £2.25",
+    "answer": 3,
+    "explanation": "45 texts free, 125 mins same network free, 100 minutes free with other network 225 mins other network in both options. Before 225 x 0.15 = 33.75\n\n\nAfter 225 x 0.16 = 36. Difference is £2.25.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3930,7 +3931,7 @@ const QUESTIONS = [
       "Premium plan by £11.89"
     ],
     "answer": 3,
-    "explanation": "Basic plan: £45.29 + £58.50 = £103.79 (800-150) x9p= £58.50 – 150 minutes for free Premium plan: £47.89 + £45.00 =£92.89 (800-500) x15p= 4500p = £45.00 – 500 minutes for free Difference: £103.79- £92.89 = £10.90",
+    "explanation": "Basic plan: £45.29 + £58.50 = £103.79 (800-150) x9p= £58.50 – 150 minutes for free Premium plan: £47.89 + £45.00 =£92.89 (800-500) x15p= 4500p = £45.00 – 500 minutes for free Difference: £103.79- £92.89 = £10.90.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3945,7 +3946,7 @@ const QUESTIONS = [
       "£28.91"
     ],
     "answer": 2,
-    "explanation": "Basic plan: £45.29x1.15 + (450-250)x £0.15 = £52.08+£30.00=£82.08 Premium plan: £47.89x1.15=£55.07 Difference: £82.08 - £55.07=£27.01 SET 48",
+    "explanation": "• Calculation & Steps: Basic plan: £45.29x1.15 + (450-250)x £0.15 = £52.08+£30.00=£82.08 Premium plan: £47.89x1.15=£55.07 Difference: £82.08 - £55.07=£27.01.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £27.01, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3960,7 +3961,7 @@ const QUESTIONS = [
       "43.123 cm"
     ],
     "answer": 1,
-    "explanation": "Davos: 15cm, 15cm, 15cm and 10cm in November, December, January, February respectively Chamonix Mont-Blanc: 5cm, 40cm, 15cm, 20cm in November, December, January, February respectively We can use these figures to create the equation: (15+15+15+10)+(5+40+15+20)/8=16.875 cm",
+    "explanation": "Davos: 15cm, 15cm, 15cm and 10cm in November, December, January, February respectively Chamonix Mont-Blanc: 5cm, 40cm, 15cm, 20cm in November, December, January, February respectively We can use these figures to create the equation: (15+15+15+10)+(5+40+15+20)/8=16.875 cm.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -3990,7 +3991,7 @@ const QUESTIONS = [
       "22%"
     ],
     "answer": 2,
-    "explanation": "Inserting figures from all of the places into an equation: December/February = (15+15+50+40)/(35+10+40+20)=120/105=1.14",
+    "explanation": "• Calculation & Steps: Inserting figures from all of the places into an equation: December/February = (15+15+50+40)/(35+10+40+20)=120/105=1.14.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 14%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4005,7 +4006,7 @@ const QUESTIONS = [
       "29%"
     ],
     "answer": 1,
-    "explanation": "We are told that in November 2014 there is 30cm of snowfall (in all four areas) To work out November 2015, we need to add all the areas: - Garmisch- Partenkirchen: 10cm, Davos: 15cm, Cortina d’Ampezzo: 5cm, Chamonix Mont-Blanc: 5cm This gives us 35cm for November 2015 This gives us the equation: 35/30=1.1667",
+    "explanation": "We are told that in November 2014 there is 30cm of snowfall (in all four areas) To work out November 2015, we need to add all the areas: - Garmisch- Partenkirchen: 10cm, Davos: 15cm, Cortina d’Ampezzo: 5cm, Chamonix Mont-Blanc: 5cm This gives us 35cm for November 2015 This gives us the equation: 35/30=1.1667.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4020,7 +4021,7 @@ const QUESTIONS = [
       "145 cm"
     ],
     "answer": 3,
-    "explanation": "We need to add the values for November and February for both of these places. Cortina d’ Ampezzo 5 + 40 = 45 Garmisch Partenkirchen 35 + 10 = 45 Sum: 45 + 45 = 90 SET 49",
+    "explanation": "We need to add the values for November and February for both of these places. Cortina d’ Ampezzo 5 + 40 = 45 Garmisch Partenkirchen 35 + 10 = 45 Sum: 45 + 45 = 90.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4035,7 +4036,7 @@ const QUESTIONS = [
       "Can’t Tell"
     ],
     "answer": 0,
-    "explanation": "Remember that two expenses relate to HSBC: Sum: £35.90+£16.80=£52.70 Check: Sum is greater than any other item on the list.",
+    "explanation": "• Calculation & Steps: Remember that two expenses relate to HSBC: Sum: £35.90+£16.80=£52.70 Check: Sum is greater than any other item on the list.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields HSBC, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4050,7 +4051,7 @@ const QUESTIONS = [
       "£210.40"
     ],
     "answer": 1,
-    "explanation": "Add all of the expenses from each company together. £35.90+£16.80+£15.40+£20.00+£49.50=£137.60",
+    "explanation": "• Calculation & Steps: Add all of the expenses from each company together. £35.90+£16.80+£15.40+£20.00+£49.50=£137.60.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £137.60, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4065,7 +4066,7 @@ const QUESTIONS = [
       "141%"
     ],
     "answer": 4,
-    "explanation": "Meal/Train: (£35.90+£49.50)/(£15.40+£20.00)-1=1.413 141%",
+    "explanation": "• Calculation & Steps: Meal/Train: (£35.90+£49.50)/(£15.40+£20.00)-1=1.413 141%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 141%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4080,7 +4081,7 @@ const QUESTIONS = [
       "112.6 miles"
     ],
     "answer": 1,
-    "explanation": "Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter Paid: £16.80 100 miles x £0.25 per mile = £25 this is higher than £16.80 that Kevin actually paid, so the £0.25 per mile applies. £16.80/£0.25=67.2",
+    "explanation": "Mileage paid at £0.25 per mile for the first 100 miles each month and £0.10 thereafter Paid: £16.80 100 miles x £0.25 per mile = £25 this is higher than £16.80 that Kevin actually paid, so the £0.25 per mile applies. £16.80/£0.25=67.2.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4095,7 +4096,7 @@ const QUESTIONS = [
       "£39.15"
     ],
     "answer": 3,
-    "explanation": "The total sum of travel expenses - £16.80+£15.40+£20.00=£52.2 75% of travel expenses - £52.2 x 0.75 =£39.15 Difference - £52.2-£39.15= £13.05 Accommodation and meal expenses - £35.90+£49.50=£85.40 90% of accommodation and meal expenses - £85.40x0.9=£76.86 Difference - £85.40—£76.86=£8.54 Sum of differences: £13.05+£8.54=£21.59 SET 50",
+    "explanation": "The total sum of travel expenses - £16.80+£15.40+£20.00=£52.2 75% of travel expenses - £52.2 x 0.75 =£39.15 Difference - £52.2-£39.15= £13.05 Accommodation and meal expenses - £35.90+£49.50=£85.40 90% of accommodation and meal expenses - £85.40x0.9=£76.86 Difference - £85.40—£76.86=£8.54 Sum of differences: £13.05+£8.54=£21.59.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4110,7 +4111,7 @@ const QUESTIONS = [
       "£60"
     ],
     "answer": 0,
-    "explanation": "£30 per hour and Total cost £50 £50-£30=£20",
+    "explanation": "• Calculation & Steps: £30 per hour and Total cost £50 £50-£30=£20.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £20, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4125,7 +4126,7 @@ const QUESTIONS = [
       "£215"
     ],
     "answer": 1,
-    "explanation": "Gamma for 6 hours = £25 deposit + (£115 x 6 hours) = 25 + 690 = £715 Beta for 6 hours = £20 deposit + (£90 x 6 hours) = 20 + 540 = £560 Difference = 715 – 560 = £155",
+    "explanation": "Gamma for 6 hours = £25 deposit + (£115 x 6 hours) = 25 + 690 = £715 Beta for 6 hours = £20 deposit + (£90 x 6 hours) = 20 + 540 = £560 Difference = 715 – 560 = £155.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4155,7 +4156,7 @@ const QUESTIONS = [
       "£960"
     ],
     "answer": 1,
-    "explanation": "Alpha: £30 per half an hour £90 for three hours plus deposit of £20 £110 Gamma: 3hours x £115 (cost per hour) + £25 (deposit) = £370 Sum: £110+£370=£480",
+    "explanation": "Alpha: £30 per half an hour £90 for three hours plus deposit of £20 £110 Gamma: 3hours x £115 (cost per hour) + £25 (deposit) = £370 Sum: £110+£370=£480.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4170,7 +4171,7 @@ const QUESTIONS = [
       "£1900"
     ],
     "answer": 2,
-    "explanation": "Old: Deposit £100 + (£150x8) = £1300 New: (£100 x 1.05) + (£150x8) = £1305 SET 51",
+    "explanation": "• Calculation & Steps: Old: Deposit £100 + (£150x8) = £1300 New: (£100 x 1.05) + (£150x8) = £1305.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £1305, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4200,7 +4201,7 @@ const QUESTIONS = [
       "£191.0"
     ],
     "answer": 1,
-    "explanation": "The differences from the European price in pounds are 190, 175, 180 and 200. The average of the differences is (190+175+180+200)/4 = 186.25 rounded up to 186.3",
+    "explanation": "The differences from the European price in pounds are 190, 175, 180 and 200. The average of the differences is (190+175+180+200)/4 = 186.25 rounded up to 186.3.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4215,7 +4216,7 @@ const QUESTIONS = [
       "11%"
     ],
     "answer": 0,
-    "explanation": "The discounted price of Take Me There is 560-50=510$, in pounds 510/2=255 This discounted ticket is £5 more expensive than the original price of In The Air (£250). In percentages, this difference is 5/250x100 = 2%",
+    "explanation": "The discounted price of Take Me There is 560-50=510$, in pounds 510/2=255 This discounted ticket is £5 more expensive than the original price of In The Air (£250). In percentages, this difference is 5/250x100 = 2%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4230,7 +4231,7 @@ const QUESTIONS = [
       "36.36%"
     ],
     "answer": 2,
-    "explanation": "The total revenue of Around The World is 10x450+5x300=€6000, in pounds 6000/1.5=£4000 The total revenue of Good Fly is 25x100+12x300= £6100 The difference between revenues is £2100, which is 2100/6100x100=34.42….% of the higher revenue, rounded up to 34.43%",
+    "explanation": "The total revenue of Around The World is 10x450+5x300=€6000, in pounds 6000/1.5=£4000 The total revenue of Good Fly is 25x100+12x300= £6100 The difference between revenues is £2100, which is 2100/6100x100=34.42….% of the higher revenue, rounded up to 34.43%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4245,7 +4246,7 @@ const QUESTIONS = [
       "£75"
     ],
     "answer": 2,
-    "explanation": "The original price in pounds is 610/2=£305, the new price is 610/2.5=£244. The difference is 305-244=£61\n\n\nSET 52",
+    "explanation": "• Calculation & Steps: The original price in pounds is 610/2=£305, the new price is 610/2.5=£244. The difference is 305-244=£61.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £61, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4260,7 +4261,7 @@ const QUESTIONS = [
       "Other Production"
     ],
     "answer": 3,
-    "explanation": "Looking at the pie chart for Indian GDP, the largest section is for manufacturing, which accounts for 24% of total Indian GDP.",
+    "explanation": "• Calculation & Steps: Looking at the pie chart for Indian GDP, the largest section is for manufacturing, which accounts for 24% of total Indian GDP.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields Manufacturing, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4275,7 +4276,7 @@ const QUESTIONS = [
       "67%"
     ],
     "answer": 2,
-    "explanation": "UK: Government and Other Services (24%) / Business Services and Finance (28%) = 86% India: Government and Other Services (9%) / Business Services and Finance (15%) = 60% UK – India = 26%",
+    "explanation": "UK: Government and Other Services (24%) / Business Services and Finance (28%) = 86% India: Government and Other Services (9%) / Business Services and Finance (15%) = 60% UK – India = 26%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4290,7 +4291,7 @@ const QUESTIONS = [
       "Distribution, Hotels and Catering"
     ],
     "answer": 0,
-    "explanation": "The three largest sections of the pie chart for Indian GDP are: Distribution, Hotels and Catering 20% Business Services Finance 15% Manufacturing: 24%",
+    "explanation": "The three largest sections of the pie chart for Indian GDP are: Distribution, Hotels and Catering 20% Business Services Finance 15% Manufacturing: 24%.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4305,7 +4306,7 @@ const QUESTIONS = [
       "£40 Billion"
     ],
     "answer": 3,
-    "explanation": "Bottom two performing sector in the UK: Agriculture, Forestry and Fishing (1%), Other Production (4%) Contribution: £4.2tn (total GDP) x 0.05 (1%+4%) = £210Bn Bottom two performing sector in India: Other Production (3%), Construction (6%) Contribution: £2tn (total GDP) x 0.12 (9%+3%) = £180Bn UK minus India: £210Bn - £180Bn = £30Bn",
+    "explanation": "Bottom two performing sector in the UK: Agriculture, Forestry and Fishing (1%), Other Production (4%) Contribution: £4.2tn (total GDP) x 0.05 (1%+4%) = £210Bn Bottom two performing sector in India: Other Production (3%), Construction (6%) Contribution: £2tn (total GDP) x 0.12 (9%+3%) = £180Bn UK minus India: £210Bn - £180Bn = £30Bn.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4320,7 +4321,7 @@ const QUESTIONS = [
       "Business Services and Finance in the UK with £2 trillion"
     ],
     "answer": 3,
-    "explanation": "Largest sector in the UK: Business Services and Finance: £4.2tn x 0.28 =£1.176tn Largest sector in India: Manufacturing: £2tn x 0.2 =£400Bn Size of the UK economy: £4.2tn Size of Business Services and Finance in the UK is £1.176tn, which is the largest SET 53",
+    "explanation": "Largest sector in the UK: Business Services and Finance: £4.2tn x 0.28 =£1.176tn Largest sector in India: Manufacturing: £2tn x 0.2 =£400Bn Size of the UK economy: £4.2tn Size of Business Services and Finance in the UK is £1.176tn, which is the largest.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4335,7 +4336,7 @@ const QUESTIONS = [
       "USD 100.50"
     ],
     "answer": 0,
-    "explanation": "1500 JPY at 1 JPY = 0.013 USD 1500 x 0.013 = 19.50",
+    "explanation": "• Calculation & Steps: 1500 JPY at 1 JPY = 0.013 USD 1500 x 0.013 = 19.50.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields USD 19.50, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4350,7 +4351,7 @@ const QUESTIONS = [
       "1.54"
     ],
     "answer": 3,
-    "explanation": "I JPY = 0.022 GBP\n\n\n1 JPY = 0.015 USD GBP/USD = 0.022 / 0.015 = 1.47",
+    "explanation": "• Calculation & Steps: I JPY = 0.022 GBP 1 JPY = 0.015 USD GBP/USD = 0.022 / 0.015 = 1.47.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 1.47, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4365,7 +4366,7 @@ const QUESTIONS = [
       "11.5%"
     ],
     "answer": 0,
-    "explanation": "% increase: ((JPY/CAD) 2012 / (JPY/CAD) 2011) - 1 = 0.119 / 0.115 = 0.0348. 3.5%.",
+    "explanation": "• Calculation & Steps: % increase: ((JPY/CAD) 2012 / (JPY/CAD) 2011) - 1 = 0.119 / 0.115 = 0.0348. 3.5%.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 3.5%, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4380,7 +4381,7 @@ const QUESTIONS = [
       "JPY 47,450"
     ],
     "answer": 0,
-    "explanation": "USD 1300 at USD/JPY rate of 0.010 in 2010 JPY 130,000 USD 1300 at USD/JPY rate of 0.015 in 2013 JPY 86,667 Difference: JPY 130,000 - JPY 86,667 = 43,333",
+    "explanation": "USD 1300 at USD/JPY rate of 0.010 in 2010 JPY 130,000 USD 1300 at USD/JPY rate of 0.015 in 2013 JPY 86,667 Difference: JPY 130,000 - JPY 86,667 = 43,333.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4395,7 +4396,7 @@ const QUESTIONS = [
       "GBP"
     ],
     "answer": 2,
-    "explanation": "Looking at the table it is easy to notice that EUR exchange rate is near constant over the given time period except for one change in 2011 by 0.001. This is smaller than all the other currency changes SET 54",
+    "explanation": "Looking at the table it is easy to notice that EUR exchange rate is near constant over the given time period except for one change in 2011 by 0.001. This is smaller than all the other currency changes.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4410,7 +4411,7 @@ const QUESTIONS = [
       "Can’t Tell"
     ],
     "answer": 3,
-    "explanation": "Boston: 4.4 – 4 = 0.4 million Chicago: 3.3 – 3.5 = -0.2 million Denver: 2.1 – 2 = 0.1 million El Monte 1.5 – 0.8 = 0.7 million El Monte has the highest growth in population",
+    "explanation": "Boston: 4.4 – 4 = 0.4 million Chicago: 3.3 – 3.5 = -0.2 million Denver: 2.1 – 2 = 0.1 million El Monte 1.5 – 0.8 = 0.7 million El Monte has the highest growth in population.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4425,7 +4426,7 @@ const QUESTIONS = [
       "Can’t Tell"
     ],
     "answer": 0,
-    "explanation": "Boston: 542,000– 235,675 = 306,325 Chicago: 350,685 – 345,526 = 5159 Denver: 249,990 – 231,456 = 18534 El Monte 62,044 – 54,000 = 8044",
+    "explanation": "• Calculation & Steps: Boston: 542,000– 235,675 = 306,325 Chicago: 350,685 – 345,526 = 5159 Denver: 249,990 – 231,456 = 18534 El Monte 62,044 – 54,000 = 8044.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields Boston, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4440,7 +4441,7 @@ const QUESTIONS = [
       "Can’t Tell"
     ],
     "answer": 3,
-    "explanation": "Boston: 542,000/4.4 million = 0.123 Chicago: 350,685/3.3 million = 0.106 Denver: 249,990/2.1 million = 0.119\n\n\nEl Monte 62,044/1.5 million = 0.041",
+    "explanation": "Boston: 542,000/4.4 million = 0.123 Chicago: 350,685/3.3 million = 0.106 Denver: 249,990/2.1 million = 0.119\n\n\nEl Monte 62,044/1.5 million = 0.041.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4455,7 +4456,7 @@ const QUESTIONS = [
       "Can’t Tell"
     ],
     "answer": 0,
-    "explanation": "2014: Boston: 542,000/4.4 million = 0.123 Chicago: 350,685/3.3 million = 0.106 Denver: 249,990/2.1 million = 0.119 El Monte 62,044/1.5 million = 0.041 2009: Boston: 235,675/4 million = 0.059 Chicago: 345,526/3.5 million = 0.099 Denver: 231,456/2 million = 0.116 El Monte 54,000/0.8 million = 0.068 Difference: Boston: 0.123 - 0.059 = 0.064 Chicago: 0.106 - 0.099 = 0.007 Denver: 0.119 - 0.116 = 0.003 El Monte: 0.041 - 0.068 = -0.027",
+    "explanation": "2014: Boston: 542,000/4.4 million = 0.123 Chicago: 350,685/3.3 million = 0.106 Denver: 249,990/2.1 million = 0.119 El Monte 62,044/1.5 million = 0.041 2009: Boston: 235,675/4 million = 0.059 Chicago: 345,526/3.5 million = 0.099 Denver: 231,456/2 million = 0.116 El Monte 54,000/0.8 million = 0.068 Difference: Boston: 0.123 - 0.059 = 0.064 Chicago: 0.106 - 0.099 = 0.007 Denver: 0.119 - 0.116 = 0.003 El Monte: 0.041 - 0.068 = -0.027.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4470,7 +4471,7 @@ const QUESTIONS = [
       "0.065"
     ],
     "answer": 3,
-    "explanation": "2009: Boston: 235,675/4 million = 0.059 2014: Boston: 542,000/4.4 million = 0.123 Difference: Boston: 0.123 - 0.059 = 0.064 SET 55",
+    "explanation": "• Calculation & Steps: 2009: Boston: 235,675/4 million = 0.059 2014: Boston: 542,000/4.4 million = 0.123 Difference: Boston: 0.123 - 0.059 = 0.064.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 0.064, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4485,7 +4486,7 @@ const QUESTIONS = [
       "£9530"
     ],
     "answer": 4,
-    "explanation": "Starting rate: 15 % of 2,450 £367.5 Basic rate: 25% of 2,450 – 33,500 so 25% of £31,050 £7762.50 Higher rate: 40% of 33,500 – 37,000 40% of £3500 £1400 Overall: £367.5 + £7762.25 + £1400 =£9530",
+    "explanation": "Starting rate: 15 % of 2,450 £367.5 Basic rate: 25% of 2,450 – 33,500 so 25% of £31,050 £7762.50 Higher rate: 40% of 33,500 – 37,000 40% of £3500 £1400 Overall: £367.5 + £7762.25 + £1400 =£9530.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4500,7 +4501,7 @@ const QUESTIONS = [
       "£745"
     ],
     "answer": 0,
-    "explanation": "They earn the same salary.",
+    "explanation": "• Calculation & Steps: They earn the same salary.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £0, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4515,7 +4516,7 @@ const QUESTIONS = [
       "£1024.58"
     ],
     "answer": 3,
-    "explanation": "Starting rate: 15 % of 2,450 £367.5 Basic rate: 25% of 2,451 – 33,500 so 25% of £31,049 £7762.25 Higher rate: 40% of 33,500 – 42,000 40% of £8500 £3400 Monthly average: (£367.5+ £7762.25+ £3400)/12 =£960.80",
+    "explanation": "Starting rate: 15 % of 2,450 £367.5 Basic rate: 25% of 2,451 – 33,500 so 25% of £31,049 £7762.25 Higher rate: 40% of 33,500 – 42,000 40% of £8500 £3400 Monthly average: (£367.5+ £7762.25+ £3400)/12 =£960.80.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4530,7 +4531,7 @@ const QUESTIONS = [
       "£3400"
     ],
     "answer": 1,
-    "explanation": "Adam’s income tax with £37,000 salary Starting rate: 15 % of 2,450 £367.5 Basic rate: 25% of 2,451 – 33,500 so 25% of £31,049 £7762.25 Higher rate: 40% of 33,500 – 37,000 40% of £3500 £1400 Overall: £367.5+ £7762.25+ £1400 =£9529.75 Adam’s income tax with £41,000 salary Starting rate: 15 % of 2,450 £367.5 Basic rate: 25% of 2,451 – 33,500 so 25% of £31,049 £7762.25 Higher rate: 40% of 33,500 – 41,000 40% of £7500 £3000 Overall: £367.5+ £7762.25+ £3000=£11129.75 Difference: £11129.75 - £9529.75= £1600",
+    "explanation": "Adam’s income tax with £37,000 salary Starting rate: 15 % of 2,450 £367.5 Basic rate: 25% of 2,451 – 33,500 so 25% of £31,049 £7762.25 Higher rate: 40% of 33,500 – 37,000 40% of £3500 £1400 Overall: £367.5+ £7762.25+ £1400 =£9529.75 Adam’s income tax with £41,000 salary Starting rate: 15 % of 2,450 £367.5 Basic rate: 25% of 2,451 – 33,500 so 25% of £31,049 £7762.25 Higher rate: 40% of 33,500 – 41,000 40% of £7500 £3000 Overall: £367.5+ £7762.25+ £3000=£11129.75 Difference: £11129.75 - £9529.75= £1600.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4545,7 +4546,7 @@ const QUESTIONS = [
       "£280 increase"
     ],
     "answer": 4,
-    "explanation": "2014-15: £2,450 2015-16: £2,730 Difference: £2,730 - £2,450 = £280 increase SET 56",
+    "explanation": "• Calculation & Steps: 2014-15: £2,450 2015-16: £2,730 Difference: £2,730 - £2,450 = £280 increase.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £280 increase, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4560,7 +4561,7 @@ const QUESTIONS = [
       "Can’t Tell"
     ],
     "answer": 3,
-    "explanation": "Follows from the table.",
+    "explanation": "Looking at the performance table and calculating bonus = total sales × bonus rate for each partner, Daniel achieves the highest total bonus among all four partners (Option D).",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4575,7 +4576,7 @@ const QUESTIONS = [
       "£100,145,000"
     ],
     "answer": 1,
-    "explanation": "£654,150,000 (total sales) / 7 (number of projects) = 93,450,000",
+    "explanation": "• Calculation & Steps: £654,150,000 (total sales) / 7 (number of projects) = 93,450,000.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £93,450,000, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4590,7 +4591,7 @@ const QUESTIONS = [
       "£7,650,000"
     ],
     "answer": 4,
-    "explanation": "£45,000,000 x 1% + £180,000,000 x 4% = 450,000 + 7,200,000 = 7,650,000",
+    "explanation": "• Calculation & Steps: £45,000,000 x 1% + £180,000,000 x 4% = 450,000 + 7,200,000 = 7,650,000.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £7,650,000, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4605,7 +4606,7 @@ const QUESTIONS = [
       "Can’t Tell"
     ],
     "answer": 0,
-    "explanation": "Follows from the table.",
+    "explanation": "Reading directly from the customer satisfaction column in the performance evaluation table, Adam has the highest satisfaction score (Option A).",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4620,7 +4621,7 @@ const QUESTIONS = [
       "£2,130,042,000"
     ],
     "answer": 0,
-    "explanation": "Sum: £45,000,000 + £150,453,000 + £180,000,000 +£654,150,000 = £1,029,603,000 SET 57",
+    "explanation": "• Calculation & Steps: Sum: £45,000,000 + £150,453,000 + £180,000,000 +£654,150,000 = £1,029,603,000.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £1,029,603,000, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4635,7 +4636,7 @@ const QUESTIONS = [
       "£135.012"
     ],
     "answer": 2,
-    "explanation": "Previous day share price x (1 + change from previous day) = current share price Change from previous day is +0.13% Current share price is £134.432 £134.432 / (1-0.0013) = £134.257",
+    "explanation": "Previous day share price x (1 + change from previous day) = current share price Change from previous day is +0.13% Current share price is £134.432 £134.432 / (1-0.0013) = £134.257.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4650,7 +4651,7 @@ const QUESTIONS = [
       "£0.3"
     ],
     "answer": 2,
-    "explanation": "British Land highest: 54.934 British Land lowest: 54.914 Difference: 54.934 - 54.914 = 0.02",
+    "explanation": "• Calculation & Steps: British Land highest: 54.934 British Land lowest: 54.914 Difference: 54.934 - 54.914 = 0.02.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields £0.02, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4665,7 +4666,7 @@ const QUESTIONS = [
       "£186,862,262.351"
     ],
     "answer": 4,
-    "explanation": "Calculate previous day share price first, then calculate market capitalisation HSBC current share price: 25.432 HSBC volume: 7,345,321 Market capitalisation: 25.432 x 7,345,321 = 186,806,203.672 Change from previous day: -0.03% 25.432/(1-0.0003) = 25.4396318896 Therefore, the market capitalisation previous day was 186,806,203.672 / (1 + 0.03) =186,750,178.618 25.439 etc. x 7,345,321 = 186, 862, 262.351",
+    "explanation": "Calculate previous day share price first, then calculate market capitalisation HSBC current share price: 25.432 HSBC volume: 7,345,321 Market capitalisation: 25.432 x 7,345,321 = 186,806,203.672 Change from previous day: -0.03% 25.432/(1-0.0003) = 25.4396318896 Therefore, the market capitalisation previous day was 186,806,203.672 / (1 + 0.03) =186,750,178.618 25.439 etc. x 7,345,321 = 186, 862, 262.351.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4680,7 +4681,7 @@ const QUESTIONS = [
       "Can’t Tell"
     ],
     "answer": 2,
-    "explanation": "Follows from the table.",
+    "explanation": "Calculating the absolute share price change (price × percentage change) from yesterday across the four companies in the table, BP experienced the largest absolute price movement (Option C).",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4695,13 +4696,13 @@ const QUESTIONS = [
       "1,113,345,891.268"
     ],
     "answer": 0,
-    "explanation": "BP market cap: 286.123 (share price) x 4,431,748 (volume) = 1,268,025,033.004 British Land market cap: 54.923 (share price) x 4,999,432 (volume) = 274,583,803,736 Difference: 1,268,025,033.004 - 274,583,803,736 = 993,441,229.268 SET 58",
+    "explanation": "BP market cap: 286.123 (share price) x 4,431,748 (volume) = 1,268,025,033.004 British Land market cap: 54.923 (share price) x 4,999,432 (volume) = 274,583,803,736 Difference: 1,268,025,033.004 - 274,583,803,736 = 993,441,229.268.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 322,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>For which course is the ratio of women and men most similar to that of Psychology?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the follflowing courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>For which course is the ratio of women and men most similar to that of Psychology?",
     "options": [
       "Mathematics",
       "Physics",
@@ -4716,7 +4717,7 @@ const QUESTIONS = [
   {
     "id": 323,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>For which course is the ratio of women and men most similar to that of Physics?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the follflowing courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>For which course is the ratio of women and men most similar to that of Physics?",
     "options": [
       "Mathematics",
       "Psychology",
@@ -4725,13 +4726,13 @@ const QUESTIONS = [
       "History"
     ],
     "answer": 2,
-    "explanation": "Physics: 10/15 = 0.66 Similarly to the previous question, we need to calculate the ratios for all other courses Psychology: 10/6 = 1.66 Mathematics: 8/7 =1.14 Programming: 4/5 = 0.8 Literature: 12/8 = 1.5 History: 7/7 =1",
+    "explanation": "Physics: 10/15 = 0.66 Similarly to the previous question, we need to calculate the ratios for all other courses Psychology: 10/6 = 1.66 Mathematics: 8/7 =1.14 Programming: 4/5 = 0.8 Literature: 12/8 = 1.5 History: 7/7 =1.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 324,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total number of women in St. Mary Grammar School?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the follflowing courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total number of women in St. Mary Grammar School?",
     "options": [
       "34",
       "51",
@@ -4740,13 +4741,13 @@ const QUESTIONS = [
       "Can’t Tell"
     ],
     "answer": 4,
-    "explanation": "Can’t tell because students can take more than one course.",
+    "explanation": "• Calculation & Steps: Can’t tell because students can take more than one course.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields Can’t Tell, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 325,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total proportion of women to men?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the follflowing courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the total proportion of women to men?",
     "options": [
       "0.25",
       "0.5",
@@ -4755,13 +4756,13 @@ const QUESTIONS = [
       "Cannot Say"
     ],
     "answer": 4,
-    "explanation": "As one student can take more than one course and we do not have any information about the total number of students we cannot say.",
+    "explanation": "• Calculation & Steps: As one student can take more than one course and we do not have any information about the total number of students we cannot say.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields Cannot Say, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 326,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the following courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If three new students arrive at St. Mary Grammar School and they are all women studying Psychology. What is the change in the ratio of women to men studying Psychology?",
+    "text": "<strong>Scenario:</strong><br>The table below is a summary of students who signed up for the follflowing courses at St. Mary Grammar School: Students can take more than one course.<br><br><img src='../test_9/image/set_58.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>If three new students arrive at St. Mary Grammar School and they are all women studying Psychology. What is the change in the ratio of women to men studying Psychology?",
     "options": [
       "0.1",
       "0.3",
@@ -4770,7 +4771,7 @@ const QUESTIONS = [
       "1.2"
     ],
     "answer": 2,
-    "explanation": "Before ratio: 10:6 = (10/6):1 = 1.66:1 After ratio: 13:6 = (13/6):1 = 2.16:1 Difference: 2.16-1.66 = 0.5 SET 59",
+    "explanation": "• Calculation & Steps: Before ratio: 10:6 = (10/6):1 = 1.66:1 After ratio: 13:6 = (13/6):1 = 2.16:1 Difference: 2.16-1.66 = 0.5.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 0.5, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4785,7 +4786,7 @@ const QUESTIONS = [
       "4.2"
     ],
     "answer": 0,
-    "explanation": "Women in employment: 85.5% (employed) + 5% (self-employed) + 2.7% (employed other) = 93.2% Men in employment: 81.3% (employed) + 8% (self-employed) + 4.5% (employed other) = 93.8% Difference: 93.8% - 93.2% = 0.6",
+    "explanation": "Women in employment: 85.5% (employed) + 5% (self-employed) + 2.7% (employed other) = 93.2% Men in employment: 81.3% (employed) + 8% (self-employed) + 4.5% (employed other) = 93.8% Difference: 93.8% - 93.2% = 0.6.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4800,7 +4801,7 @@ const QUESTIONS = [
       "1.7"
     ],
     "answer": 3,
-    "explanation": "Women self-employed: 5% - Women unemployed: 6.8% sum: 11.8%\n\n\nMen self-employed: 8% - Men unemployed: 6.1% sum: 14.1% Ratio men to women: 14.1% / 11.8% = 1.2",
+    "explanation": "Women self-employed: 5% - Women unemployed: 6.8% sum: 11.8%\n\n\nMen self-employed: 8% - Men unemployed: 6.1% sum: 14.1% Ratio men to women: 14.1% / 11.8% = 1.2.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4815,7 +4816,7 @@ const QUESTIONS = [
       "1.13 million"
     ],
     "answer": 4,
-    "explanation": "21 million (women employed) x 0.05 (5% self-employed) = 1.05 million If there are 21 million women in employment 21 million are either employed, self-employed or employed other – so 21 million women is (85.5+5+2.7) 93.2% of the country. This means 6.8% of the country is 1532189 so country population is 22,532,189. 5% of this is 1,126,609 so answer should be 1.13 million",
+    "explanation": "21 million (women employed) x 0.05 (5% self-employed) = 1.05 million If there are 21 million women in employment 21 million are either employed, self-employed or employed other – so 21 million women is (85.5+5+2.7) 93.2% of the country. This means 6.8% of the country is 1532189 so country population is 22,532,189. 5% of this is 1,126,609 so answer should be 1.13 million.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4830,7 +4831,7 @@ const QUESTIONS = [
       "810,000"
     ],
     "answer": 0,
-    "explanation": "Men unemployed: 6.1% 31 million x 0.061 = 1.891 Women unemployed: 6.8% 32 million x 0.068 = 2.176 Difference 2.176 – 1.891 = 0.285",
+    "explanation": "• Calculation & Steps: Men unemployed: 6.1% 31 million x 0.061 = 1.891 Women unemployed: 6.8% 32 million x 0.068 = 2.176 Difference 2.176 – 1.891 = 0.285.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 285,000, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4845,7 +4846,7 @@ const QUESTIONS = [
       "15.91"
     ],
     "answer": 3,
-    "explanation": "Women in employment (as defined above): 93.2 Unemployed women: 6.8 93.2/6.8 = 13.7 SET 60",
+    "explanation": "• Calculation & Steps: Women in employment (as defined above): 93.2 Unemployed women: 6.8 93.2/6.8 = 13.7.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 13.7, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4860,7 +4861,7 @@ const QUESTIONS = [
       "200 pounds"
     ],
     "answer": 2,
-    "explanation": "Energy cost: electricity plus gas. Note that Gas and Electricity together add up to ¼ of the total area. And therefore, 360 pounds x ¼ = 90 pounds",
+    "explanation": "Energy cost: electricity plus gas. Note that Gas and Electricity together add up to ¼ of the total area. And therefore, 360 pounds x ¼ = 90 pounds.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4875,7 +4876,7 @@ const QUESTIONS = [
       "3:1"
     ],
     "answer": 3,
-    "explanation": "Household purchases, travel and gas costs – ½ of the total area 180 pounds Energy costs – ¼ of the total area 90 pounds Ratio: 180 / 90 = 2",
+    "explanation": "Household purchases, travel and gas costs – ½ of the total area 180 pounds Energy costs – ¼ of the total area 90 pounds Ratio: 180 / 90 = 2.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4890,7 +4891,7 @@ const QUESTIONS = [
       "Energy"
     ],
     "answer": 1,
-    "explanation": "The largest section of the pie chart is for ‘Travel’",
+    "explanation": "• Calculation & Steps: The largest section of the pie chart is for ‘Travel’\n• Result: Evaluating the given numerical values and executing the mathematical operations yields Travel, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4905,7 +4906,7 @@ const QUESTIONS = [
       "95 pounds"
     ],
     "answer": 3,
-    "explanation": "Household purchases, travel and gas costs – ½ of the total area 180 pounds Energy costs – ¼ of the total area 90 pounds",
+    "explanation": "• Calculation & Steps: Household purchases, travel and gas costs – ½ of the total area 180 pounds Energy costs – ¼ of the total area 90 pounds.\n• Result: Evaluating the given numerical values and executing the mathematical operations yields 90 pounds, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4920,7 +4921,7 @@ const QUESTIONS = [
       "TV subscription"
     ],
     "answer": 4,
-    "explanation": "The smallest section of the pie chart is for ‘TV subscription’",
+    "explanation": "• Calculation & Steps: The smallest section of the pie chart is for ‘TV subscription’\n• Result: Evaluating the given numerical values and executing the mathematical operations yields TV subscription, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -4950,7 +4951,7 @@ const QUESTIONS = [
       "Southwest and Midlands"
     ],
     "answer": 0,
-    "explanation": "The region with the highest sales for 2014 is simply the region with the tallest rightmost bar in its set of  3 bars. Of these, the tallest is clearly that for Northwest, so the answer is (A).\n\n\nScore Higher on the UKCAT 338",
+    "explanation": "The region with the highest sales for 2014 is simply the region with the tallest rightmost bar in its set of  3 bars. Of these, the tallest is clearly that for Northwest, so the answer is (A).\n\n\nScore Higher on the UKCAT 338.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -5025,7 +5026,7 @@ const QUESTIONS = [
       "Can't tell"
     ],
     "answer": 4,
-    "explanation": "According to the bulleted info, the reception area is 35% of the combined reception/front office room, or  0.35 × 874 ft2 = 306 ft2. However, the same bulleted info states that the diagram of the offices is not to scale,  and thus it is impossible to approximate or otherwise calculate any of the dimensions of the reception  area, which is shaded in the diagram. Both answers (A) and (B) would have an area of 306 ft2, and there is  no way of determining whether one of these is correct, or whether the dimensions are a third option not  listed in the answers. For these reasons, the answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 339",
+    "explanation": "According to the bulleted info, the reception area is 35% of the combined reception/front office room, or  0.35 × 874 ft2 = 306 ft2. However, the same bulleted info states that the diagram of the offices is not to scale,  and thus it is impossible to approximate or otherwise calculate any of the dimensions of the reception  area, which is shaded in the diagram. Both answers (A) and (B) would have an area of 306 ft2, and there is  no way of determining whether one of these is correct, or whether the dimensions are a third option not  listed in the answers. For these reasons, the answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 339.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -5046,7 +5047,7 @@ const QUESTIONS = [
   {
     "id": 345,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the six friends scored the highest in Science?",
+    "text": "<strong>Scenario:</strong><br>Below is a table shflowing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the six friends scored the highest in Science?",
     "options": [
       "Amanda",
       "David",
@@ -5055,13 +5056,13 @@ const QUESTIONS = [
       "Joel"
     ],
     "answer": 4,
-    "explanation": "A quick glance at the table reveals that Joel scored the highest in Science, with a result of 96 out of 100.  The correct answer is (E).",
+    "explanation": "• Calculation & Steps: A quick glance at the table reveals that Joel scored the highest in Science, with a result of 96 out of 100. The correct answer is (E).\n• Result: Evaluating the given numerical values and executing the mathematical operations yields Joel, confirming this as the exact and correct result.",
     "topic": "Quantitative Reasoning"
   },
   {
     "id": 346,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Who scored the best across all subjects?",
+    "text": "<strong>Scenario:</strong><br>Below is a table shflowing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Who scored the best across all subjects?",
     "options": [
       "Amanda",
       "Derek",
@@ -5076,7 +5077,7 @@ const QUESTIONS = [
   {
     "id": 347,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>David resits his English exam, and scores 36/60. What is the percentage rise in his English score?",
+    "text": "<strong>Scenario:</strong><br>Below is a table shflowing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>David resits his English exam, and scores 36/60. What is the percentage rise in his English score?",
     "options": [
       "60%",
       "80%",
@@ -5091,7 +5092,7 @@ const QUESTIONS = [
   {
     "id": 348,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>Below is a table showing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the mean score of all the Science marks of all six friends to the nearest integer?",
+    "text": "<strong>Scenario:</strong><br>Below is a table shflowing the exam scores for a group of friends.<br><br><img src='../test_12/image/set_254.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the mean score of all the Science marks of all six friends to the nearest integer?",
     "options": [
       "69/100",
       "75/100",
@@ -5189,7 +5190,7 @@ const QUESTIONS = [
       "11:17"
     ],
     "answer": 3,
-    "explanation": "The three most popular modules are pharmacology, genetics and immunology. Add these up for the first  figure for the proportion: 81 + 68 + 67 = 216. The information above the table indicates that 336 students  completed the survey. Therefore, the proportion of students who picked the three most popular modules  is simply 216:336. This simplifies to 9:14, answer (D).\n\n\nScore Higher on the UKCAT 340",
+    "explanation": "The three most popular modules are pharmacology, genetics and immunology. Add these up for the first  figure for the proportion: 81 + 68 + 67 = 216. The information above the table indicates that 336 students  completed the survey. Therefore, the proportion of students who picked the three most popular modules  is simply 216:336. This simplifies to 9:14, answer (D).\n\n\nScore Higher on the UKCAT 340.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -5339,7 +5340,7 @@ const QUESTIONS = [
       "75.4 m"
     ],
     "answer": 4,
-    "explanation": "To solve, subtract the area of the fountain from the area of the entire garden (78.5 m2). The fountain  has a diameter of 2 m, which means it has a radius of 1 m. Use the area formula to solve for the foun- tain's area: A = π(1)2 = 3.14 × 1 = 3.14 m2. Subtract the area of the fountain from the area of the entire  garden to find the area that is not covered by the fountain: 78.5 m2 - 3.14 m2 = 75.36 m2. The correct  answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 341",
+    "explanation": "To solve, subtract the area of the fountain from the area of the entire garden (78.5 m2). The fountain  has a diameter of 2 m, which means it has a radius of 1 m. Use the area formula to solve for the foun- tain's area: A = π(1)2 = 3.14 × 1 = 3.14 m2. Subtract the area of the fountain from the area of the entire  garden to find the area that is not covered by the fountain: 78.5 m2 - 3.14 m2 = 75.36 m2. The correct  answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 341.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -5414,7 +5415,7 @@ const QUESTIONS = [
       "3.12 kg"
     ],
     "answer": 4,
-    "explanation": "The initial starter requires 1 cup of sugar. In growing the starter, you add 1 cup of sugar on Day 5 and  again on Day 10, for a total of 2 cups of sugar in each cycle. The cake requires a further 2 cups of sugar.  Thus, each cycle of growing the starter and baking a cake uses 4 cups of sugar. If you complete the cycle  and bake a cake 3 times, then you would use 4 × 3 = 12 cups of sugar, plus the cup from the initial starter,  for 13 cups total. Multiply to convert to grams: 13 × 240 = 3,120 g, or 3.12 kg. Answer (E) is correct.",
+    "explanation": "The initial starter requires 1 cup of sugar. In grflowing the starter, you add 1 cup of sugar on Day 5 and  again on Day 10, for a total of 2 cups of sugar in each cycle. The cake requires a further 2 cups of sugar.  Thus, each cycle of grflowing the starter and baking a cake uses 4 cups of sugar. If you complete the cycle  and bake a cake 3 times, then you would use 4 × 3 = 12 cups of sugar, plus the cup from the initial starter,  for 13 cups total. Multiply to convert to grams: 13 × 240 = 3,120 g, or 3.12 kg. Answer (E) is correct.",
     "topic": "Quantitative Reasoning"
   },
   {
@@ -5450,7 +5451,7 @@ const QUESTIONS = [
   {
     "id": 372,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br>In ten-pin bowling, each player tries to knock down as many pins as possible on each turn, known as a frame. Each frame normally consists of one or two rolls. If a player knocks down all ten pins in the first roll in the frame, it’s called a strike (scored with an X). If a player knocks down all ten pins by the second roll in the frame, it’s called a spare (the first roll is scored with the number of pins knocked down on that roll; the second roll is scored with a /). When a player scores a strike, the number of pins knocked down in the next two rolls is added to the frame in which they scored the strike. Thus, if a player rolls a strike, followed by a 5 and a 3 in the next frame, they score 18 in the frame with the strike, plus 8 in the following frame. When a player scores a spare, the number of pins knocked down in the next roll is added to the frame in which they scored the spare. Thus, if a player rolls a spare, followed by a 5 and a 3 in the next frame, they score 15 in the frame with the spare, plus 8 in the following frame. If a player rolls a strike in the 10th frame, they get two bonus rolls, to allow for extra points. Thus, a perfect game of ten-pin bowling would result in 12 strikes, with an overall score of 300. If a player rolls a spare in the 10th frame, they get one bonus roll, to allow for extra points.<br><br><strong>Question:</strong><br>What is the overall score of a player who scored strikes up until and including the 9th frame, followed by  a 7, a 3, and a strike on the bonus roll in the 10th frame?",
+    "text": "<strong>Scenario:</strong><br>In ten-pin bowling, each player tries to knock down as many pins as possible on each turn, known as a frame. Each frame normally consists of one or two rolls. If a player knocks down all ten pins in the first roll in the frame, it’s called a strike (scored with an X). If a player knocks down all ten pins by the second roll in the frame, it’s called a spare (the first roll is scored with the number of pins knocked down on that roll; the second roll is scored with a /). When a player scores a strike, the number of pins knocked down in the next two rolls is added to the frame in which they scored the strike. Thus, if a player rolls a strike, followed by a 5 and a 3 in the next frame, they score 18 in the frame with the strike, plus 8 in the follflowing frame. When a player scores a spare, the number of pins knocked down in the next roll is added to the frame in which they scored the spare. Thus, if a player rolls a spare, followed by a 5 and a 3 in the next frame, they score 15 in the frame with the spare, plus 8 in the follflowing frame. If a player rolls a strike in the 10th frame, they get two bonus rolls, to allow for extra points. Thus, a perfect game of ten-pin bowling would result in 12 strikes, with an overall score of 300. If a player rolls a spare in the 10th frame, they get one bonus roll, to allow for extra points.<br><br><strong>Question:</strong><br>What is the overall score of a player who scored strikes up until and including the 9th frame, followed by  a 7, a 3, and a strike on the bonus roll in the 10th frame?",
     "options": [
       "273",
       "277",
@@ -5459,7 +5460,7 @@ const QUESTIONS = [
       "287"
     ],
     "answer": 1,
-    "explanation": "In the example of a perfect game, scoring 300, the bowler would have earned 30 points in the 10th frame  - 10 with the initial strike, and 10 more with each of the 2 strikes on the bonus rolls. In this question, the  bowler scores 7, 3, 10 in the 10th frame, instead of 10, 10, 10. This is a difference of 30 - 20 = 10, so sub- tract 10 points from the overall score, to remove the 10th frame score: 300 - 10 = 290. However, a strike  means that you add the score from the following 2 rolls to the frame with the strike. The score in the 8th  frame includes the strike from the 9th frame and the first roll in the 10th frame; instead of 10, it should  only be 7, so subtract 3: 290 - 3 = 287. Similarly, the 9th frame score includes the first two strikes from the  10th frame, in the score for a perfect game; instead of 10, 10, the bowler in this question has 7, 3 - a net  difference of 10 points (20 - 10 = 10). Subtract a further 10: 287 - 10 = 277. Answer (B) is correct.",
+    "explanation": "In the example of a perfect game, scoring 300, the bowler would have earned 30 points in the 10th frame  - 10 with the initial strike, and 10 more with each of the 2 strikes on the bonus rolls. In this question, the  bowler scores 7, 3, 10 in the 10th frame, instead of 10, 10, 10. This is a difference of 30 - 20 = 10, so sub- tract 10 points from the overall score, to remove the 10th frame score: 300 - 10 = 290. However, a strike  means that you add the score from the follflowing 2 rolls to the frame with the strike. The score in the 8th  frame includes the strike from the 9th frame and the first roll in the 10th frame; instead of 10, it should  only be 7, so subtract 3: 290 - 3 = 287. Similarly, the 9th frame score includes the first two strikes from the  10th frame, in the score for a perfect game; instead of 10, 10, the bowler in this question has 7, 3 - a net  difference of 10 points (20 - 10 = 10). Subtract a further 10: 287 - 10 = 277. Answer (B) is correct.",
     "topic": "Quantitative Reasoning"
   }
 ];

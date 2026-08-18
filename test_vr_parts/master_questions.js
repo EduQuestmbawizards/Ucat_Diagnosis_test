@@ -1,43 +1,39 @@
-// Auto-generated master questions file for Verbal Reasoning
-// Total: 338 questions from question_2.js, question_7.js, question_11.js
-// Generated: 2026-08-13T05:17:46.841Z
-
 const PASSAGES = {
   "test_2_P1": {
     "id": "test_2_P1",
     "subject": "Verbal Reasoning",
     "title": "Passage  1",
-    "text": "When it comes to living to the ripe old age of 100, good genes help but don't tell the full story. \nWhere you live has a significant impact on the likelihood that you will reach centenarian age, \nsuggests a new study conducted by scientists at Washington State University's Elson S. Floyd \nCollege of Medicine.  \nPublished in the International Journal of Environmental Research and Public Health  and based \non Washington State mortality data, the research team's findings  suggest that \nWashingtonians who live in highly walkable, mixed -age communities may be more likely to \nlive to their 100th birthday. They also found socioeconomic status to be correlated, and an \nadditional analysis showed that geographic clusters where the probability of reaching \ncentenarian age is high are located in urban areas and smaller towns with higher \nsocioeconomic status, including the Seattle area and the region around Pullman, Wash.  \n\"Our study adds to the growing body of evidence that social and e nvironmental factors \ncontribute significantly to longevity”, said study author Rajan Bhardwaj, a second -year WSU \nmedical student who took an interest in the topic after serving as a home care aide to his \naging grandfather. Earlier research, he said, has es timated that heritable factors only explain \nabout 20 to 35% of an individual's chances of reaching centenarian age.  \nIn collaboration with co -authors Solmaz Amiri and Dedra Buchwald, Bhardwaj and Amram \nlooked at state -provided data about the deaths of nearl y 145,000 Washingtonians who died \nat age 75 or older between 2011 and 2015. The data included information on each person's \nage and place of residence at the time of death, as well as their sex, race, education level and \nmarital status.  \nBhardwaj said their findings also highlight the importance of continuing efforts to address \nhealth disparities experienced by racial minorities, such as African Americans and Native \nAmericans. Consistent with previous research findings, for example, the data shows being \nwhite  is correlated with living to 100. Looking at gender, the researchers also found that \nwomen were more likely to reach centenarian age."
+    "text": "When it comes to living to the ripe old age of 100, good genes help but don't tell the full story. \nWhere you live has a significant impact on the likelihood that you will reach centenarian age, \nsuggests a new study conducted by scientists at Washington State University's Elson S. Floyd \nCollege of Medicine.  \nPublished in the International Journal of Environmental Research and Public Health  and based \non Washington State mortality data, the research team's findings  suggest that \nWashingtonians who live in highly walkable, mixed -age communities may be more likely to \nlive to their 100th birthday. They also found socioeconomic status to be correlated, and an \nadditional analysis showed that geographic clusters where the probability of reaching \ncentenarian age is high are located in urban areas and smaller towns with higher \nsocioeconomic status, including the Seattle area and the region around Pullman, Wash.  \n\"Our study adds to the grflowing body of evidence that social and e nvironmental factors \ncontribute significantly to longevity”, said study author Rajan Bhardwaj, a second -year WSU \nmedical student who took an interest in the topic after serving as a home care aide to his \naging grandfather. Earlier research, he said, has es timated that heritable factors only explain \nabout 20 to 35% of an individual's chances of reaching centenarian age.  \nIn collaboration with co -authors Solmaz Amiri and Dedra Buchwald, Bhardwaj and Amram \nlooked at state -provided data about the deaths of nearl y 145,000 Washingtonians who died \nat age 75 or older between 2011 and 2015. The data included information on each person's \nage and place of residence at the time of death, as well as their sex, race, education level and \nmarital status.  \nBhardwaj said their findings also highlight the importance of continuing efforts to address \nhealth disparities experienced by racial minorities, such as African Americans and Native \nAmericans. Consistent with previous research findings, for example, the data shows being \nwhite  is correlated with living to 100. Looking at gender, the researchers also found that \nwomen were more likely to reach centenarian age."
   },
   "test_2_P2": {
     "id": "test_2_P2",
     "subject": "Verbal Reasoning",
     "title": "Passage  2",
-    "text": "Earthquakes, also called temblors, can be so tremendously destructive, it’s hard to imagine \nthey occur by the thousands every day around the world, usually in the form of small tremors.  \nSome 80 percent of all the planet's earthquakes occur alon g the rim of the Pacific Ocean, \ncalled the \"Ring of Fire\" because of the preponderance of volcanic activity there as well. Most \nearthquakes occur at fault zones, where tectonic plates —giant rock slabs that make up the \nEarth's upper layer —collide or slide a gainst each other.  \nThese impacts are usually gradual and unnoticeable on the surface; however, immense stress \ncan build up between plates. When this stress is released quickly, it sends massive vibrations, \ncalled seismic waves, often hundreds of miles thro ugh the rock and up to the surface. Other \nquakes can occur far from faults zones when plates are stretched or squeezed.  \n Scientists assign a magnitude rating to earthquakes based on the strength and duration of \ntheir seismic waves. A quake measuring 3 to 5  is considered minor or light; 5 to 7 is moderate \nto strong; 7 to 8 is major; and 8 or more is great.  \nOn average, a magnitude 8 quake strikes somewhere every year and some 10,000 people die \nin earthquakes annually. Collapsing buildings claim by far the maj ority of lives, but the \ndestruction is often compounded by mud slides, fires, floods, or tsunamis. Smaller temblors \n\n  \n 54 that usually occur in the days following a large earthquake can complicate rescue efforts and \ncause further death and destruction."
+    "text": "Earthquakes, also called temblors, can be so tremendously destructive, it’s hard to imagine \nthey occur by the thousands every day around the world, usually in the form of small tremors.  \nSome 80 percent of all the planet's earthquakes occur alon g the rim of the Pacific Ocean, \ncalled the \"Ring of Fire\" because of the preponderance of volcanic activity there as well. Most \nearthquakes occur at fault zones, where tectonic plates —giant rock slabs that make up the \nEarth's upper layer —collide or slide a gainst each other.  \nThese impacts are usually gradual and unnoticeable on the surface; however, immense stress \ncan build up between plates. When this stress is released quickly, it sends massive vibrations, \ncalled seismic waves, often hundreds of miles thro ugh the rock and up to the surface. Other \nquakes can occur far from faults zones when plates are stretched or squeezed.  \n Scientists assign a magnitude rating to earthquakes based on the strength and duration of \ntheir seismic waves. A quake measuring 3 to 5  is considered minor or light; 5 to 7 is moderate \nto strong; 7 to 8 is major; and 8 or more is great.  \nOn average, a magnitude 8 quake strikes somewhere every year and some 10,000 people die \nin earthquakes annually. Collapsing buildings claim by far the maj ority of lives, but the \ndestruction is often compounded by mud slides, fires, floods, or tsunamis. Smaller temblors \n\n  \n 54 that usually occur in the days follflowing a large earthquake can complicate rescue efforts and \ncause further death and destruction."
   },
   "test_2_P3": {
     "id": "test_2_P3",
     "subject": "Verbal Reasoning",
     "title": "Passage  3",
-    "text": "High school students who take music courses score significantly better on math, science and \nEnglish exams than their non -musica l peers, according to a new study published in the Journal \nof Educational Psychology . \nSchool administrators needing to trim budgets often look first to music courses, because the \ngeneral belief is that students who devote time to music rather than math, science and \nEnglish, will underperform in those disciplines.  \n\"Our research proved this belief wrong and found the more the students engage with music, \nthe better they do in those subjects,\" said UBC education professor and the study's principal \ninves tigator, Peter Gouzouasis. \"The students who learned to play a musical instrument in \n\n  \n 55 elementary and continued playing in high school not only score significantly higher, but were \nabout one academic year ahead of their non -music peers with regard to their E nglish, \nmathematics and science skills, as measured by their exam grades, regardless of their \nsocioeconomic background, ethnicity, prior learning in mathematics and English, and \ngender.\"  \nThe researchers found the predictive relationships between music education and academic \nachievement were more pronounced for those who took instrumental music rather than \nvocal music. The findings suggest skills learned in instrumental music transfer very broadly to \nthe students' learning in school.  \nThe researchers hope  that their findings are brought to the attention of students, parents, \nteachers and administrative decision -makers in education, as many school districts over the \nyears have emphasized numeracy and literacy at the cost of other areas of learning, \nparticul arly music.  \n\"Often, resources for music education -- including the hiring of trained, specialized music \neducators, and band and stringed instruments -- are cut or not available in elementary and \nsecondary schools so that they could focus on math, science a nd English,\" said Gouzouasis. \n\"The irony is that music education -- multiple years of high -quality instrumental learning and \nplaying in a band or orchestra or singing in a choir at an advanced level -- can be the very thing \nthat improves all -around academi c achievement and an ideal way to have students learn \nmore holistically in schools.\""
+    "text": "High school students who take music courses score significantly better on math, science and \nEnglish exams than their non -musica l peers, according to a new study published in the Journal \nof Educational Psychology . \nSchool administrators needing to trim budgets often look first to music courses, because the \ngeneral belief is that students who devote time to music rather than math, science and \nEnglish, will underperform in those disciplines.  \n\"Our research proved this belief wrong and found the more the students engage with music, \nthe better they do in those subjects,\" said UBC education professor and the study's principal \ninves tigator, Peter Gouzouasis. \"The students who learned to play a musical instrument in \n\n  \n 55 elementary and continued playing in high school not only score significantly higher, but were \nabout one academic year ahead of their non -music peers with regard to their E nglish, \nmathematics and science skills, as measured by their exam grades, regardless of their \nsocioeconomic background, ethnicity, prior learning in mathematics and English, and \ngender.\"  \nThe researchers found the predictive relationships between music education and academic \nachievement were more pronounced for those who took instrumental music rather than \nvocal music. The findings suggest skills learned in instrumental music transfer very broadly to \nthe students' learning in school.  \nThe researchers hope  that their findings are brought to the attention of students, parents, \nteachers and administrative decision -makers in education, as many school districts over the \nyears have emphasized numeracy and literacy at the cost of other areas of learning, \nparticul arly music.  \n\"Often, resources for music education -- including the hiring of trained, specialized music \neducators, and band and stringed instruments -- are cut or not available in elementary and \nsecondary schools so that they could focus on math, science a find English,\" said Gouzouasis. \n\"The irony is that music education -- multiple years of high -quality instrumental learning and \nplaying in a band or orchestra or singing in a choir at an advanced level -- can be the very thing \nthat improves all -around academi c achievement and an ideal way to have students learn \nmore holistically in schools.\""
   },
   "test_2_P4": {
     "id": "test_2_P4",
     "subject": "Verbal Reasoning",
     "title": "Passage  4",
-    "text": "In the second century, Origen wrote, “For those who are adorned with religion use physicians \nas servants of God, knowing that He himself gave medical knowledge to m en, just as He \nhimself assigned both herbs and other things to grow on the earth.”  \nThe practice of medicine in the Middle Ages was rooted in the Greek tradition. Hippocrates, \nconsidered the “father of Medicine,” described the body as made up of four humors —yellow \nbile, phlegm, black bile, and blood —and controlled by the four elements —fire, water, earth, \nand air. The body could be purged of excess by bleeding, cupping, and leeching —medical \npractices that continued throughout the Middle Ages.  \nIn 65 A.D., Dios corides, a Greek, wrote his Materia Medica  . This was a practical text dealing \nwith the medicinal use of more than 600 plants. In the second century, Galen synthesized \nmuch of what has been attributed to Hippocrates. To further his understanding of bodily \nfunctions, he performed animal and even human dissections and was able to demonstrate \nthat the arteries carried blood rather than air. Galenic theories had great longevity, prevailing \nin western Europe until the sixteenth century.  \nThe Arabs were the great translators and synthesizers of medical texts. Many Greek texts \nwere translated first into Arabic and then into Hebrew. Consequently, Arabs and Jews were \nrenowned for the practice of medicine, and Arabic and Jewish doctors were often employed \nby kings (for  example, James II of Aragon [died 1327])."
+    "text": "In the second century, Origen wrote, “For those who are adorned with religion use physicians \nas servants of God, knflowing that He himself gave medical knowledge to m en, just as He \nhimself assigned both herbs and other things to grow on the earth.”  \nThe practice of medicine in the Middle Ages was rooted in the Greek tradition. Hippocrates, \nconsidered the “father of Medicine,” described the body as made up of four humors —yellow \nbile, phlegm, black bile, and blood —and controlled by the four elements —fire, water, earth, \nand air. The body could be purged of excess by bleeding, cupping, and leeching —medical \npractices that continued throughout the Middle Ages.  \nIn 65 A.D., Dios corides, a Greek, wrote his Materia Medica  . This was a practical text dealing \nwith the medicinal use of more than 600 plants. In the second century, Galen synthesized \nmuch of what has been attributed to Hippocrates. To further his understanding of bodily \nfunctions, he performed animal and even human dissections and was able to demonstrate \nthat the arteries carried blood rather than air. Galenic theories had great longevity, prevailing \nin western Europe until the sixteenth century.  \nThe Arabs were the great translators and synthesizers of medical texts. Many Greek texts \nwere translated first into Arabic and then into Hebrew. Consequently, Arabs and Jews were \nrenowned for the practice of medicine, and Arabic and Jewish doctors were often employed \nby kings (for  example, James II of Aragon [died 1327])."
   },
   "test_2_P5": {
     "id": "test_2_P5",
     "subject": "Verbal Reasoning",
     "title": "Passage  5",
-    "text": "Ever heard of a seed bank? The basic idea is this: When the apocalypse is over and the forests \nare nothing but smoking ruins and the fields barren of grain, fear not! We can reboot the \nworld thanks to our banked seeds stored in bunkers strategically located fro m here to \neternity. The Svalbard International Seed Vault in Norway, for instance, currently holds more \nthan 880,000 seeds and has the capacity to hold 2.5 billion seeds.  \nSeeds are amazing that way; all you need to do is dry them out and freeze them solid and \nthey can last for years. It's a comforting thought — an ace up civilization's sleeve in the less -\nand-less-unlikely scenario that we self -destruct. The U.N.'s Global Strategy for Plant \nConservation plans to bank 75 percent of all plant species by 2020.  \nBut hold the comforting thought. According to a study from researchers at the Royal Botanic \nGardens, Kew, there's a significant catch. Researchers discovered that a whole whack of plant \nseeds just can't be banked — including avocado, cacao and mango. Their  findings, which were \npublished in the Nov. 2, 2018, issue of the journal Nature Plants, detail how a full 33 percent \nof tree species alone are on this list, including oak and chestnut trees. Worse still, 36 percent \nof our \"critically endangered\" species a re also unbankable. That's not even counting 27 \npercent of the plain old \"endangered\" plants, or 35 percent of the \"vulnerable\" ones.  \nWhy can't these seeds be banked? Apparently, not all seeds like the drying out process. And \nfor this, they're labelled \"re calcitrant seeds,\" which seems a little unfair.  \n\"Ex-situ conservation of plants is more critical than ever, with many threats to plant \npopulations including climate change, habitat conversion and plant pathogens, we need to \nmake sure we're doing all we can  to conserve the most important and threatened species,\" \nJohn Dickie, head of Seed & Lab -based Collections at Kew's Millennium Seed Bank and an \nauthor of the paper, said in a statement. \"As successful as seed banking is for some species, \n\n  \n 58 it is not suitable  for all seed plants and we need to invest in other ways to safeguard \nrecalcitrant seeds . \n \nbanked.htm"
+    "text": "Ever heard of a seed bank? The basic idea is this: When the apocalypse is over and the forests \nare nothing but smoking ruins and the fields barren of grain, fear not! We can reboot the \nworld thanks to our banked seeds stored in bunkers strategically located fro m here to \neternity. The Svalbard International Seed Vault in Norway, for instance, currently holds more \nthan 880,000 seeds and has the capacity to hold 2.5 billion seeds.  \nSeeds are amazing that way; all you need to do is dry them out and freeze them solid and \nthey can last for years. It's a comforting thought — an ace up civilization's sleeve in the less -\nand-less-unlikely scenario that we self -destruct. The U.N.'s Global Strategy for Plant \nConservation plans to bank 75 percent of all plant species by 2020.  \nBut hold the comforting thought. According to a study from researchers at the Royal Botanic \nGardens, Kew, there's a significant catch. Researchers discovered that a whole whack of plant \nseeds just can't be banked — including avocado, cacao and mango. Their  findings, which were \npublished in the Nov. 2, 2018, issue of the journal Nature Plants, detail how a full 33 percent \nof tree species alone are on this list, including oak and chestnut trees. Worse still, 36 percent \nof our \"critically endangered\" species a fire also unbankable. That's not even counting 27 \npercent of the plain old \"endangered\" plants, or 35 percent of the \"vulnerable\" ones.  \nWhy can't these seeds be banked? Apparently, not all seeds like the drying out process. And \nfor this, they'fire labelled \"fire calcitrant seeds,\" which seems a little unfair.  \n\"Ex-situ conservation of plants is more critical than ever, with many threats to plant \npopulations including climate change, habitat conversion and plant pathogens, we need to \nmake sure we'fire doing all we can  to conserve the most important and threatened species,\" \nJohn Dickie, head of Seed & Lab -based Collections at Kew's Millennium Seed Bank and an \nauthor of the paper, said in a statement. \"As successful as seed banking is for some species, \n\n  \n 58 it is not suitable  for all seed plants and we need to invest in other ways to safeguard \nrecalcitrant seeds . \n \nbanked.htm"
   },
   "test_2_P6": {
     "id": "test_2_P6",
     "subject": "Verbal Reasoning",
     "title": "Passage 6",
-    "text": "Elephants are the largest mammals living on land these days. Today's African elephants \ncomprise two species (originally considered a single species, but confirmed as distinct in 2010)  \nand the Asian elephant. But their closest current relative is probably the hyrax, a small, furry \nrodent -like mammal. However, not all their relatives have been so teensy — some extinct \nelephant relatives were larger even than the modern behemoths.  \nA new s tudy analyzing genetic data and published in the journal eLife finds that this XXL \nancestral elephant is more closely related to one of today's African elephants than it is the \nmodern Asian elephant. This is surprising, because the ancient straight -tusked giant \n\n  \n 59 Palaeoloxodon antiquus  actually lived in Eurasia between 1.5 million and 100,000 years ago. \nThe elephant that grew to around 13 feet (four meters) tall and weighed in at about 13 tons \n(11.8 metric tons) — basically twice as big as modern elephants.  \nThe research team examined the mitochondrial DNA (passed only from mother to offspring) \nand nuclear DNA (which includes information about the father) of African and Asian elephant \nspecies, and compared them to DNA extracted from the fossilized bones of 16 wooly \nmammoths collected from permafrost in cold climates, and four from P. antiquus  bones \ncollected in Germany. This is the first time such a good genetic sample has been taken and \nsuccessfully sequenced from fossils from such a warm climate.  \nUsing this n ew data, the researchers pieced together a new phylogenetic tree for elephants. \nThey found the ancestor shared by P. antiquus  and today's African forest elephant ( Loxodonta \ncyclotis ) lived between 1.5 million and 3.5 million years ago, while its shared anc estor with \nthe African bush elephant ( Loxodonta africana ) lived between 3.9 and 7 million years ago. P. \nantiquus  also moves further from the Asian elephant ( Elephas maximus ). So, while African \nelephants are sometimes managed and protected under the assumpt ion they are all the same \nspecies, this study proves they are not."
+    "text": "Elephants are the largest mammals living on land these days. Today's African elephants \ncomprise two species (originally considered a single species, but confirmed as distinct in 2010)  \nand the Asian elephant. But their closest current relative is probably the hyrax, a small, furry \nrodent -like mammal. However, not all their relatives have been so teensy — some extinct \nelephant relatives were larger even than the modern behemoths.  \nA new s tudy analyzing genetic data and published in the journal eLife finds that this XXL \nancestral elephant is more closely related to one of today's African elephants than it is the \nmodern Asian elephant. This is surprising, because the ancient straight -tusked giant \n\n  \n 59 Palaeoloxodon antiquus  actually lived in Eurasia between 1.5 million and 100,000 years ago. \nThe elephant that grew to around 13 feet (four meters) tall and weighed in at about 13 tons \n(11.8 metric tons) — basically twice as big as modern elephants.  \nThe research team examined the mitochondrial DNA (passed only from mother to offspring) \nand nuclear DNA (which includes information about the father) of African and Asian elephant \nspecies, and compared them to DNA extracted from the fossilized bones of 16 wooly \nmammoths collected from permafrost in cold climates, and four from P. antiquus  bones \ncollected in Germany. This is the first time such a good genetic sample has been taken and \nsuccessfully seqfluenced from fossils from such a warm climate.  \nUsing this n ew data, the researchers pieced together a new phylogenetic tree for elephants. \nThey found the ancestor shared by P. antiquus  and today's African forest elephant ( Loxodonta \ncyclotis ) lived between 1.5 million and 3.5 million years ago, while its shared anc estor with \nthe African bush elephant ( Loxodonta africana ) lived between 3.9 and 7 million years ago. P. \nantiquus  also moves further from the Asian elephant ( Elephas maximus ). So, while African \nelephants are sometimes managed and protected under the assumpt ion they are all the same \nspecies, this study proves they are not."
   },
   "test_2_P7": {
     "id": "test_2_P7",
@@ -49,13 +45,13 @@ const PASSAGES = {
     "id": "test_2_P8",
     "subject": "Verbal Reasoning",
     "title": "Passage 8",
-    "text": "A Newcastle University study involving thousands of families is helping prospective parents \nwork out whether they are likely to have sons or daughters.  \nThe work by Corry Gellatly, a research scientist at the university, has shown that men inherit \na tendency to have more sons or more daughters from their parents. This means that a man \nwith many brothers is more likely to have sons, while a man with many sister s is more likely \nto have daughters.  \nThe research involved a study of 927 family trees containing information on 556,387 people \nfrom North America and Europe going back to 1600.  \n\"The family tree study showed that whether you’re likely to have a boy or a gir l is inherited. \nWe now know that men are more likely to have sons if they have more brothers but are more \nlikely to have daughters if they have more sisters. However, in women, you just can’t predict \nit,\" Mr Gellatly explains.  \nThe Newcastle University stud y suggests that an as -yet undiscovered gene controls whether \na man’s sperm contains more X or more Y chromosomes, which affects the sex of his children. \nOn a larger scale, the number of men with more X sperm compared to the number of men \nwith more Y sperm affects the sex ratio of children born each year.  \n\n  \n 62 “The gene that is passed on from both parents, which causes some men to have more sons \nand some to have more daughters, may explain why we see the number of men and women \nroughly balanced in a population. I f there are too many males in the population, for example, \nfemales will more easily find a mate, so men who have more daughters will pass on more of \ntheir genes, causing more females to be born in later generations,” says Newcastle University \nresearcher Mr  Gellatly."
+    "text": "A Newcastle University study involving thousands of families is helping prospective parents \nwork out whether they are likely to have sons or daughters.  \nThe work by Corry Gellatly, a research scientist at the university, has shown that men inherit \na tendency to have more sons or more daughters from their parents. This means that a man \nwith many brothers is more likely to have sons, while a man with many sister s is more likely \nto have daughters.  \nThe research involved a study of 927 family trees containing information on 556,387 people \nfrom North America and Europe going back to 1600.  \n\"The family tree study showed that whether you’fire likely to have a boy or a gir l is inherited. \nWe now know that men are more likely to have sons if they have more brothers but are more \nlikely to have daughters if they have more sisters. However, in women, you just can’t predict \nit,\" Mr Gellatly explains.  \nThe Newcastle University stud y suggests that an as -yet undiscovered gene controls whether \na man’s sperm contains more X or more Y chromosomes, which affects the sex of his children. \nOn a larger scale, the number of men with more X sperm compared to the number of men \nwith more Y sperm affects the sex ratio of children born each year.  \n\n  \n 62 “The gene that is passed on from both parents, which causes some men to have more sons \nand some to have more daughters, may explain why we see the number of men and women \nroughly balanced in a population. I f there are too many males in the population, for example, \nfemales will more easily find a mate, so men who have more daughters will pass on more of \ntheir genes, causing more females to be born in later generations,” says Newcastle University \nresearcher Mr  Gellatly."
   },
   "test_2_P9": {
     "id": "test_2_P9",
     "subject": "Verbal Reasoning",
     "title": "Passage 9",
-    "text": "Following the fast spread of COVID -19 across Europe and North America in March 2020, many \npeople began stockpiling commodities including toilet paper. Some companies reported an \nincrease of up to 700 percent in toilet paper sa les, despite calls from the government to \nrefrain from \"panic buying.\"  \nIn the new study, researchers surveyed 1,029 adults from 35 countries who were recruited \nthrough social media. Between 23 and 29 March 2020, participants completed the Brief \nHEXACO Inventory -- which ranks six broad personality domains -- and shared information on \ntheir demographics, perceived threat level of COVID -19, quarantine behaviors, and toilet \npaper consumption in recent weeks.  \nThe most robust predictor of toilet paper  stockpiling was the perceived threat posed by the \npandemic; people who felt more threatened tended to stockpile more toilet paper. Around \n20 percent of this effect was also based on the personality factor of emotionality -- people \nwho generally tend to wo rry a lot and feel anxious are most likely to feel threatened and \nstockpile toilet paper. The personality domain of conscientiousness -- which includes traits of \norganization, diligence, perfectionism and prudence -- was also a predictor of stockpiling.  \nOther observations were that older people stockpiled more toilet paper than younger people \nand that Americans stockpiled more than Europeans. The researchers pointed out that the \nvariables studied explained only twelve percent of the variability in toilet pa per stockpiling, \nwhich suggests that some psychological explanations and situational factors likely remain \nunaccounted for. \"Subjective threat of COVID -19 seems to be an important trigger for toilet \npaper stockpiling. However, we are still far away from un derstanding this phenomenon \ncomprehensively,\" concludes Theo Toppe, co -author of the study."
+    "text": "Follflowing the fast spread of COVID -19 across Europe and North America in March 2020, many \npeople began stockpiling commodities including toilet paper. Some companies reported an \nincrease of up to 700 percent in toilet paper sa les, despite calls from the government to \nrefrain from \"panic buying.\"  \nIn the new study, researchers surveyed 1,029 adults from 35 countries who were recruited \nthrough social media. Between 23 and 29 March 2020, participants completed the Brief \nHEXACO Inventory -- which ranks six broad personality domains -- and shared information on \ntheir demographics, perceived threat level of COVID -19, quarantine behaviors, and toilet \npaper consumption in recent weeks.  \nThe most robust predictor of toilet paper  stockpiling was the perceived threat posed by the \npandemic; people who felt more threatened tended to stockpile more toilet paper. Around \n20 percent of this effect was also based on the personality factor of emotionality -- people \nwho generally tend to wo rry a lot and feel anxious are most likely to feel threatened and \nstockpile toilet paper. The personality domain of conscientiousness -- which includes traits of \norganization, diligence, perfectionism and prudence -- was also a predictor of stockpiling.  \nOther observations were that older people stockpiled more toilet paper than younger people \nand that Americans stockpiled more than Europeans. The researchers pointed out that the \nvariables studied explained only twelve percent of the variability in toilet pa per stockpiling, \nwhich suggests that some psychological explanations and situational factors likely remain \nunaccounted for. \"Subjective threat of COVID -19 seems to be an important trigger for toilet \npaper stockpiling. However, we are still far away from un derstanding this phenomenon \ncomprehensively,\" concludes Theo Toppe, co -author of the study."
   },
   "test_2_P10": {
     "id": "test_2_P10",
@@ -73,13 +69,13 @@ const PASSAGES = {
     "id": "test_7_P1",
     "subject": "Verbal Reasoning",
     "title": "Passage 1",
-    "text": "The Kyoto Protocol is an international agreement written by the United Nations\nin order to reduce the eﬀects of climate change. This agreement sets targets for\ncountries in order for them to reduce their greenhouse gas emissions. These gases are\nbelieved to be responsible for causing global warming as a result of recent\nindustrialisation.\nThe Protocol was written in 1997 and each country that signed the protocol\nagreed to reduce their emissions to their own specic target. This agreement could\nonly become legally binding when two conditions had been fullled: When 55\ncountries agreed to be legally bound by the agreement and when 55% of emissions\nfrom industrialised countries had been accounted for.\nThe first condition was met in 2002 however countries such as Australia and the\nUnited States refused to be bound by the agreement so the minimum of 55% of\nemissions from industrialised countries was not met. It was only after Russia joined\nin 2004 that allowed the protocol to come into force in 2005.\nSome climate scientists have argued that the target combined reduction of 5.2%\nemissions from industrialised nations would not be enough to avoid the worst\nconsequences of global warming. In order to have a signicant impact, we would\nneed to aim at reducing emissions by 60% and to get larger countries such as the US\nto support the agreement."
+    "text": "The Kyoto Protocol is an international agreement written by the United Nations\nin order to reduce the effects of climate change. This agreement sets targets for\ncountries in order for them to reduce their greenhouse gas emissions. These gases are\nbelieved to be responsible for causing global warming as a result of recent\nindustrialisation.\nThe Protocol was written in 1997 and each country that signed the protocol\nagreed to reduce their emissions to their own specic target. This agreement could\nonly become legally binding when two conditions had been fulfilled: When 55\ncountries agreed to be legally bound by the agreement and when 55% of emissions\nfrom industrialised countries had been accounted for.\nThe first condition was met in 2002 however countries such as Australia and the\nUnited States refused to be bound by the agreement so the minimum of 55% of\nemissions from industrialised countries was not met. It was only after Russia joined\nin 2004 that allowed the protocol to come into force in 2005.\nSome climate scientists have argued that the target combined reduction of 5.2%\nemissions from industrialised nations would not be enough to avoid the worst\nconseqflfluences of global warming. In order to have a significant impact, we would\nneed to aim at reducing emissions by 60% and to get larger countries such as the US\nto support the agreement."
   },
   "test_7_P2": {
     "id": "test_7_P2",
     "subject": "Verbal Reasoning",
     "title": "Passage 2",
-    "text": "The space race was a competition between the Soviet Union and the United\nStates to show off their technological superiority and economic power. It took place\nduring the Cold War when there was a tense relationship between these nations. As\nthe technology used in space exploration could also have military applications, both\nnations had many scientists and technicians involved.\nIn 1957, the USSR launched the first articial satellite into the Earth’s orbit,\nnamed Sputnik. The launch of this satellite was one of the first steps towards space\nexploration. The Americans were worried that the Soviets could use similar\ntechnology to launch nuclear warheads. This prompted urgency within the\nAmericans, leading President Eisenhower to found NASA, and so began the space\nrace.\nThe Soviets took another step forward in April 1961 when they sent the rst\nperson into space, a cosmonaut named Yuri Gagarin. This prompted President John\nF. Kennedy to make the unexpected claim that the US would beat the Soviets to land\na man on the moon and that they would do so before the end of the decade. This led\nto the foundation of Project Apollo, a programme designed to do this.\nIn 1969, Neil Armstrong and Buzz Aldrin set off for the moon on the Apollo 11\nspace mission and became the first astronauts to walk on the moon. Neil Armstrong\nfamously said “one small step for man, one giant leap for mankind.” This lunar\nlanding led the US to win the space race that started with Sputnik’s launch in 1957."
+    "text": "The space race was a competition between the Soviet Union and the United\nStates to show off their technological superiority and economic power. It took place\nduring the Cold War when there was a tense relationship between these nations. As\nthe technology used in space exploration could also have military applications, both\nnations had many scientists and technicians involved.\nIn 1957, the USSR launched the first artificial satellite into the Earth’s orbit,\nnamed Sputnik. The launch of this satellite was one of the first steps towards space\nexploration. The Americans were worried that the Soviets could use similar\ntechnology to launch nuclear warheads. This prompted urgency within the\nAmericans, leading President Eisenhower to found NASA, and so began the space\nrace.\nThe Soviets took another step forward in April 1961 when they sent the first\nperson into space, a cosmonaut named Yuri Gagarin. This prompted President John\nF. Kennedy to make the unexpected claim that the US would beat the Soviets to land\na man on the moon and that they would do so before the end of the decade. This led\nto the foundation of Project Apollo, a programme designed to do this.\nIn 1969, Neil Armstrong and Buzz Aldrin set off for the moon on the Apollo 11\nspace mission and became the first astronauts to walk on the moon. Neil Armstrong\nfamously said “one small step for man, one giant leap for mankind.” This lunar\nlanding led the US to win the space race that started with Sputnik’s launch in 1957."
   },
   "test_7_P3": {
     "id": "test_7_P3",
@@ -91,43 +87,43 @@ const PASSAGES = {
     "id": "test_7_P4",
     "subject": "Verbal Reasoning",
     "title": "Passage 4",
-    "text": "Many species of bird migrate northwards in the spring to take advantage of the\nabundance of nesting locations and insects to eat. As the availability of food\nresources decreases during the winter to the point where the birds cannot survive,\nthe birds migrate south again. Some species are capable of ying all the way around\nthe earth.\nThe act of migration itself can be risky for birds due to the amount of energy\nrequired to sustain ight over these long distances. Many juvenile birds can die from\nexhaustion during their first migration. Due to this inherent risk of migration, many\nspecies of birds have acquired different adaptations to increase the efficiency of\night. Flying with other birds in certain formations can allow their ight patterns to\nbe more energy eﬃcient.\nThe Northern bald ibis migrates from Austria to Italy. The behaviour of these\nbirds is such that they migrate together within a ock and each individual bird\ncontinuously changes its position within the ock. Each individual bird benets by\nspending some time ying in the updraft produced by the leading birds and a\nproportional amount of time leading the formation. Although it would theoretically\nbe possible for an individual bird to take advantage of this energy-eﬃcient ight\nwithout leading the formation itself, no Northern bald ibis has been shown to do this."
+    "text": "Many species of bird migrate northwards in the spring to take advantage of the\nabundance of nesting locations and insects to eat. As the availability of food\nresources decreases during the winter to the point where the birds cannot survive,\nthe birds migrate south again. Some species are capable of flying all the way around\nthe earth.\nThe act of migration itself can be risky for birds due to the amount of energy\nrequired to sustain flight over these long distances. Many juvenile birds can die from\nexhaustion during their first migration. Due to this inherent risk of migration, many\nspecies of birds have acquired different adaptations to increase the efficiency of\nflight. Flying with other birds in certain formations can allow their flight patterns to\nbe more energy efficient.\nThe Northern bald ibis migrates from Austria to Italy. The behaviour of these\nbirds is such that they migrate together within a flock and each individual bird\ncontinuously changes its position within the flock. Each individual bird benefits by\nspending some time flying in the updraft produced by the leading birds and a\nproportional amount of time leading the formation. Although it would theoretically\nbe possible for an individual bird to take advantage of this energy-efficient flight\nwithout leading the formation itself, no Northern bald ibis has been shown to do this."
   },
   "test_7_P5": {
     "id": "test_7_P5",
     "subject": "Verbal Reasoning",
     "title": "Passage 5",
-    "text": "The dramatic decline of the bee population in the UK has been attributed to a\nnumber of causes such as the loss of wild owers in the countryside. Bees require\nthese wildowers for food and it has been estimated that 97% of the ower-rich\ngrassland has been lost since the 1930s. Other causes include climate change and\npesticides that are toxic to bees. This is particularly problematic in the UK, which has\nhad a 50% reduction in the honey bee population between 1985 and 2005 whilst the\nrest of Europe has only averaged a 20% reduction during the same time period.\nThis loss of owers from the British countryside has been caused by agricultural\npressures. In order to increase food production, traditional farming methods have\nbeen abandoned in favour of techniques that increase productivity. These\ntechniques, however, involve the reduction of wild owers.\nBumblebees are required to pollinate wildowers and commercial crops. A\nreduction of wildower pollination will result in their decline, which will ultimately\naﬀect other wildlife as they can be involved in a complex food chain. The commercial\ncrops will need to be pollinated articially using expensive methods that will\nultimately drive up the price of fruits and vegetables. The global economic value of\npollination from bees has been estimated at €265 billion annually."
+    "text": "The dramatic decline of the bee population in the UK has been attributed to a\nnumber of causes such as the loss of wildflowers in the countryside. Bees require\nthese wildflowers for food and it has been estimated that 97% of the flflower-rich\ngrassland has been lost since the 1930s. Other causes include climate change and\npesticides that are toxic to bees. This is particularly problematic in the UK, which has\nhad a 50% reduction in the honey bee population between 1985 and 2005 whilst the\nrest of Europe has only averaged a 20% reduction during the same time period.\nThis loss of flowers from the British countryside has been caused by agricultural\npressures. In order to increase food production, traditional farming methods have\nbeen abandoned in favour of techniques that increase productivity. These\ntechniques, however, involve the reduction of wildflowers.\nBumblebees are required to pollinate wildflowers and commercial crops. A\nreduction of wildower pollination will result in their decline, which will ultimately\naffect other wildlife as they can be involved in a complex food chain. The commercial\ncrops will need to be pollinated artificially using expensive methods that will\nultimately drive up the price of fruits and vegetables. The global economic value of\npollination from bees has been estimated at €265 billion annually."
   },
   "test_7_P6": {
     "id": "test_7_P6",
     "subject": "Verbal Reasoning",
     "title": "Passage 6",
-    "text": "Driving in snowy and icy conditions can be dangerous as it increases stopping\ndistances. The stopping distance represents how far a car will travel before slowing\ndown to a halt. It is made up of the thinking distance, which is how long it takes for a\ndriver to react, and the braking distance, which represents the time taken for the\nbrakes to fully stop the car.\nIt is advised to t winter tyres during the winter season as these have much\nbetter grip on snow and ice. These tyres are made out of a softer material than\nregular tyres, allowing them to have more traction at colder temperatures. This\nultimately reduces the braking distance.\nAs the brakes are not very eﬀective at stopping a vehicle on icy roads, it is\nrecommended to steer out of trouble if possible rather than applying the brakes. It is\ntherefore important to be travelling at slower speeds to avoid the need to suddenly\nbrake.\nIf the car is stuck and cannot move, the driver can stay warm by running the\nengine to generate heat. However, if the exhaust pipe becomes blocked by snow and\nthe fumes cannot escape then the engine must be turned oﬀ. This is because the\nengine produces carbon monoxide, which is extremely toxic and odourless."
+    "text": "Driving in snowy and icy conditions can be dangerous as it increases stopping\ndistances. The stopping distance represents how far a car will travel before slflflowing\ndown to a halt. It is made up of the thinking distance, which is how long it takes for a\ndriver to react, and the braking distance, which represents the time taken for the\nbrakes to fully stop the car.\nIt is advised to t winter tyres during the winter season as these have much\nbetter grip on snow and ice. These tyres are made out of a softer material than\nregular tyres, allflflowing them to have more traction at colder temperatures. This\nultimately reduces the braking distance.\nAs the brakes are not very effective at stopping a vehicle on icy roads, it is\nrecommended to steer out of trouble if possible rather than applying the brakes. It is\ntherefore important to be travelling at slower speeds to avoid the need to suddenly\nbrake.\nIf the car is stuck and cannot move, the driver can stay warm by running the\nengine to generate heat. However, if the exhaust pipe becomes blocked by snow and\nthe fumes cannot escape then the engine must be turned oﬀ. This is because the\nengine produces carbon monoxide, which is extremely toxic and odourless."
   },
   "test_7_P7": {
     "id": "test_7_P7",
     "subject": "Verbal Reasoning",
     "title": "Passage 7",
-    "text": "The Socratic method is a form of philosophical questioning named after the\nGreek philosopher Socrates. It takes place as a dialogue between Socrates and\nanother individual and attempts to investigate difficult concepts such as justice and\nethics. In this dialogue, Socrates’ partner puts forward an opinion or a thesis.\nSocrates then proposes extra premises that will attempt to disprove the original\nthesis. If there is an opposition, this shows that the original thesis is false and that\nthe opposite is true.\nIn this dialogue, Socrates often showed other philosophers and thinkers how\ntheir reasoning was wrong. Some respected him for doing so as he was aware of the\nfact that his knowledge was limited and that he was merely questioning everything\ncritically. However, many people were angered by him asking questions without\nproviding any answers to these difficult questions himself. This led to him making a\nnumber of enemies in Greece.\nIn 399 BC, Socrates was accused of heresy and corruption of the youth by three of\nhis enemies. He was then trialled and found guilty by the jury and so sentenced to\ndeath by drinking the poison hemlock. One of his friends, Crito, bribed the guards to\nallow Socrates to escape; however he chose not to ee away. Many have referred to\nhim as a martyr as he chose to die standing for knowledge and wisdom."
+    "text": "The Socratic method is a form of philosophical questioning named after the\nGreek philosopher Socrates. It takes place as a dialogue between Socrates and\nanother individual and attempts to investigate difficult concepts such as justice and\nethics. In this dialogue, Socrates’ partner puts forward an opinion or a thesis.\nSocrates then proposes extra premises that will attempt to disprove the original\nthesis. If there is an opposition, this shows that the original thesis is false and that\nthe opposite is true.\nIn this dialogue, Socrates often showed other philosophers and thinkers how\ntheir reasoning was wrong. Some respected him for doing so as he was aware of the\nfact that his knowledge was limited and that he was merely questioning everything\ncritically. However, many people were angered by him asking questions without\nproviding any answers to these difficult questions himself. This led to him making a\nnumber of enemies in Greece.\nIn 399 BC, Socrates was accused of heresy and corruption of the youth by three of\nhis enemies. He was then trialled and found guilty by the jury and so sentenced to\ndeath by drinking the poison hemlock. One of his friends, Crito, bribed the guards to\nallow Socrates to escape; however he chose not to flee away. Many have referred to\nhim as a martyr as he chose to die standing for knowledge and wisdom."
   },
   "test_7_P8": {
     "id": "test_7_P8",
     "subject": "Verbal Reasoning",
     "title": "Passage 8",
-    "text": "The Anglo-Saxons were the group of people who lived in England between the 5th\nCentury and the Norman conquest in 1066 AD. When the Germanic tribes of the\nSaxons, Angles and Jutes came to Britain in 449 AD, they pushed the Celtic Britons\nwho were there before them up into Wales. The combination of the Germanic\ndialects of these different tribes became Anglo-Saxon or Old English.\nOld English is very different from Modern English and uses more Germanic words\nand its grammar is closer to Old German. If English speakers were to read a passage\nof Old English, they would struggle to understand any more than a few words. It is\nthought that this Old English is most similar to the Dutch dialect spoken in\nFriesland, a province in the north of the Netherlands. One of the famous literary\nworks written in Old English was the poem Beowulf. It is not known who wrote this\npoem and only one original manuscript of the poem still exists today. The story\ninvolves the hero Beowulf who ghts and kills the giant Grendel. All the people\ncelebrate the death of Grendel however Grendel’s mother comes to the town and\nattempts to kill as many people for revenge. Beowulf then ghts Grendel’s mother\nand kills her as well."
+    "text": "The Anglo-Saxons were the group of people who lived in England between the 5th\nCentury and the Norman conquest in 1066 AD. When the Germanic tribes of the\nSaxons, Angles and Jutes came to Britain in 449 AD, they pushed the Celtic Britons\nwho were there before them up into Wales. The combination of the Germanic\ndialects of these different tribes became Anglo-Saxon or Old English.\nOld English is very different from Modern English and uses more Germanic words\nand its grammar is closer to Old German. If English speakers were to read a passage\nof Old English, they would struggle to understand any more than a few words. It is\nthought that this Old English is most similar to the Dutch dialect spoken in\nFriesland, a province in the north of the Netherlands. One of the famous literary\nworks written in Old English was the poem Beowulf. It is not known who wrote this\npoem and only one original manuscript of the poem still exists today. The story\ninvolves the hero Beowulf who fights and kills the giant Grendel. All the people\ncelebrate the death of Grendel however Grendel’s mother comes to the town and\nattempts to kill as many people for revenge. Beowulf then fights Grendel’s mother\nand kills her as well."
   },
   "test_7_P9": {
     "id": "test_7_P9",
     "subject": "Verbal Reasoning",
     "title": "Passage 9",
-    "text": "A constellation is a group of stars that are often visible forming a pattern in the\nsky. The constellation’s visibility depends on a number of factors. The biggest factor is\nyour position on the Earth, for example the constellation Cassiopeia is only visible in\nthe northern hemisphere. As the Earth orbits the Sun, another signicant factor\naﬀecting constellation visibility is the season on Earth.\nAs the Earth rotates on its own axis, certain stars and constellations can appear\nto rise and fall in the night sky. Constellations that do not move in this manner are\ncalled circumpolar. This factor can allow people to navigate on the Earth using the\npositioning of the stars. This is especially useful during marine navigation as there are\nno visible landmarks. The most commonly used star for navigation is the North Star\nPolaris, as its position is constant within the night sky.\nThere are 12 constellations that take the form of animals or humans known as\nthe zodiac signs. This is the basis for the origin of star signs in astrology, which\nsuggests that human behaviour is inuenced by the celestial phenomena. The star\nsign of a person represents the position of the sun at the moment of their birth. The\nzodiac sign which shares the same position as the sun in the sky becomes their star\nsign."
+    "text": "A constellation is a group of stars that are often visible forming a pattern in the\nsky. The constellation’s visibility depends on a number of factors. The biggest factor is\nyour position on the Earth, for example the constellation Cassiopeia is only visible in\nthe northern hemisphere. As the Earth orbits the Sun, another significant factor\naffecting constellation visibility is the season on Earth.\nAs the Earth rotates on its own axis, certain stars and constellations can appear\nto rise and fall in the night sky. Constellations that do not move in this manner are\ncalled circumpolar. This factor can allow people to navigate on the Earth using the\npositioning of the stars. This is especially useful during marine navigation as there are\nno visible landmarks. The most commonly used star for navigation is the North Star\nPolaris, as its position is constant within the night sky.\nThere are 12 constellations that take the form of animals or humans known as\nthe zodiac signs. This is the basis for the origin of star signs in astrology, which\nsuggests that human behaviour is inflfluenced by the celestial phenomena. The star\nsign of a person represents the position of the sun at the moment of their birth. The\nzodiac sign which shares the same position as the sun in the sky becomes their star\nsign."
   },
   "test_7_P10": {
     "id": "test_7_P10",
     "subject": "Verbal Reasoning",
     "title": "Passage 10",
-    "text": "Maple syrup is a sweet syrup made from maple trees. The sap from the trees is\nharvested during March. It is then boiled to evaporate water, making it denser and\nsweeter. It takes roughly 40 litres of maple sap to produce 1 litre of maple syrup. This\ncurrent process is very similar to that used by the Native Americans except it uses\nmore advanced equipment.\nAccording to American Indian legend, the maple trees originally made life free\nfrom hardship. They produced a thick syrup all year round which the people would\ndrink. A mythological creature named Glooskap saw that the people of a village were\nstrangely silent. The men were not getting ready to hunt and the women were not\nminding the res. He found the villagers sitting near the maple trees letting its syrup\ndrip into their mouth.\nGlooskap was angered by their laziness and used his powers to ll the trees with\nwater so that they would only produce a dilute, watery sap. This meant that the\npeople had to boil the sap to produce the sweet syrup. Although it wasn’t very\ndiﬃcult to do this, it meant that they had to look after their res and gather\nrewood. Furthermore, it meant that the trees were not able to produce enough sap\nto sustain the people all year so they would be forced to hunt and forage during the\nspring and summer."
+    "text": "Maple syrup is a sweet syrup made from maple trees. The sap from the trees is\nharvested during March. It is then boiled to evaporate water, making it denser and\nsweeter. It takes roughly 40 litres of maple sap to produce 1 litre of maple syrup. This\ncurrent process is very similar to that used by the Native Americans except it uses\nmore advanced equipment.\nAccording to American Indian legend, the maple trees originally made life free\nfrom hardship. They produced a thick syrup all year round which the people would\ndrink. A mythological creature named Glooskap saw that the people of a village were\nstrangely silent. The men were not getting ready to hunt and the women were not\nminding the fires. He found the villagers sitting near the maple trees letting its syrup\ndrip into their mouth.\nGlooskap was angered by their laziness and used his powers to fill the trees with\nwater so that they would only produce a dilute, watery sap. This meant that the\npeople had to boil the sap to produce the sweet syrup. Although it wasn’t very\ndifficult to do this, it meant that they had to look after their fires and gather\nfirewood. Furthermore, it meant that the trees were not able to produce enough sap\nto sustain the people all year so they would be forced to hunt and forage during the\nspring and summer."
   },
   "test_7_P11": {
     "id": "test_7_P11",
@@ -139,7 +135,7 @@ const PASSAGES = {
     "id": "test_7_P12",
     "subject": "Verbal Reasoning",
     "title": "Passage 12",
-    "text": "Clownsh are a type of sh that live in salt water. They are orange sh that have\nwhite stripes. They are capable of growing up to 10-18 cm. They have also been called\nanemone sh as they have a symbiotic relationship with certain sea anemones.\nThe tentacles of sea anemone are capable of stinging sh that come near them,\nwhich the anemone then eat. The clownsh have a special mucous covering that\nprotects them from this sting. As a result of this, clownsh that live inside sea\nanemone are safe from other predators but do not get stung themselves. The sea\nanemone benet from the clownsh as the clownsh eat the algae that grows on the\nanemone. The bright colour of the clownsh lures in small sh to the anemone which\nultimately get stung. They also receive better water circulation from the action of the\nclownsh ns.\nMany people like keeping clownsh in aquariums because of their bright orange\ncolour and how easy they are to look after. This can be dangerous as the clownsh\nlifespan is greatly increased by living within an anemone. Even if an anemone is\nadded to the aquarium, only certain species of clownsh are capable of living within\ncertain species of anemone."
+    "text": "Clownsh are a type of fish that live in salt water. They are orange fish that have\nwhite stripes. They are capable of grflflowing up to 10-18 cm. They have also been called\nanemone fish as they have a symbiotic relationship with certain sea anemones.\nThe tentacles of sea anemone are capable of stinging fish that come near them,\nwhich the anemone then eat. The clownfish have a special mucous covering that\nprotects them from this sting. As a result of this, clownfish that live inside sea\nanemone are safe from other predators but do not get stung themselves. The sea\nanemone benefit from the clownfish as the clownfish eat the algae that grows on the\nanemone. The bright colour of the clownfish lures in small fish to the anemone which\nultimately get stung. They also receive better water circulation from the action of the\nclownfish fins.\nMany people like keeping clownfish in aquariums because of their bright orange\ncolour and how easy they are to look after. This can be dangerous as the clownfish\nlifespan is greatly increased by living within an anemone. Even if an anemone is\nadded to the aquarium, only certain species of clownfish are capable of living within\ncertain species of anemone."
   },
   "test_7_P13": {
     "id": "test_7_P13",
@@ -151,19 +147,19 @@ const PASSAGES = {
     "id": "test_7_P14",
     "subject": "Verbal Reasoning",
     "title": "Passage 14",
-    "text": "“The Gherkin” is a building in the City of London named after and famous for its\ndistinctive shape. Its modern architecture was designed by Norman Foster and was\nbuilt between 2001 and 2003. Norman Foster is famous for utilising the laws of\nphysics in designing many of his buildings. The walls of the Gherkin would allow air\nto enter the building for passive cooling. As this air warms up, it rises and is then let\nout of the building.\nThe site where the Gherkin is built used to belong to the Baltic Exchange, the\nheadquarters of the global marketplace for ship sales. In 1992, the site was damaged\nby bombs placed by the Provisional IRA. As there were many historic buildings in the\narea and only a few were damaged, the City of London governing body was insistent\nthat any redevelopment must restore the old historic look. They later discovered that\nthe amount of damage caused was too severe and so removed this restriction.\nThe building was sold in 2007 for a sum of £630 million, making it the most\nexpensive oﬃce building in the UK. The building was then put up for sale in 2014,\ninitially at a lower price as its owners could not aﬀord to pay loan repayments due to\nhigh interest rates and the devaluing of the British pound. It was bought by a\nBrazilian billionaire for £700 million."
+    "text": "“The Gherkin” is a building in the City of London named after and famous for its\ndistinctive shape. Its modern architecture was designed by Norman Foster and was\nbuilt between 2001 and 2003. Norman Foster is famous for utilising the laws of\nphysics in designing many of his buildings. The walls of the Gherkin would allow air\nto enter the building for passive cooling. As this air warms up, it rises and is then let\nout of the building.\nThe site where the Gherkin is built used to belong to the Baltic Exchange, the\nheadquarters of the global marketplace for ship sales. In 1992, the site was damaged\nby bombs placed by the Provisional IRA. As there were many historic buildings in the\narea and only a few were damaged, the City of London governing body was insistent\nthat any redevelopment must restore the old historic look. They later discovered that\nthe amount of damage caused was too severe and so removed this restriction.\nThe building was sold in 2007 for a sum of £630 million, making it the most\nexpensive office building in the UK. The building was then put up for sale in 2014,\ninitially at a lower price as its owners could not aﬀord to pay loan repayments due to\nhigh interest rates and the devaluing of the British pound. It was bought by a\nBrazilian billionaire for £700 million."
   },
   "test_7_P15": {
     "id": "test_7_P15",
     "subject": "Verbal Reasoning",
     "title": "Passage 15",
-    "text": "The living wage represents the minimum hourly rate for employment which\nallows an individual to cover their basic costs of living. This wage is set at £9.15 per\nhour in London and £7.85 per hour in the rest of the UK. This difference in living wage\nbetween London and the rest of the UK is explained by the signicant costs\nassociated with living in London.\nThe minimum wage is currently £6.50 for employees aged over 21 and £5.13 for\nemployees aged between 18 and 20. This is lower than the living wage values quoted\nabove and represents the legal minimum wage. It would be illegal for an employer to\npay less than these values. Although many employers have agreed to pay a living\nwage, they are not legally obliged to do so.\nThe introduction of the living wage in companies has been argued to be\nbenecial for these companies. Many employers found that employees who were\npaid the living wage were able to work harder with better quality. It has also\nimproved the quality of life for the families of employees as it has allowed those who\nare parents to spend more time with their children. However, some employers have\nargued that the introduction of the living wage would force them to re some\nworkers, forcing others to work harder."
+    "text": "The living wage represents the minimum hourly rate for employment which\nallows an individual to cover their basic costs of living. This wage is set at £9.15 per\nhour in London and £7.85 per hour in the rest of the UK. This difference in living wage\nbetween London and the rest of the UK is explained by the significant costs\nassociated with living in London.\nThe minimum wage is currently £6.50 for employees aged over 21 and £5.13 for\nemployees aged between 18 and 20. This is lower than the living wage values quoted\nabove and represents the legal minimum wage. It would be illegal for an employer to\npay less than these values. Although many employers have agreed to pay a living\nwage, they are not legally obliged to do so.\nThe introduction of the living wage in companies has been argued to be\nbenecial for these companies. Many employers found that employees who were\npaid the living wage were able to work harder with better quality. It has also\nimproved the quality of life for the families of employees as it has allowed those who\nare parents to spend more time with their children. However, some employers have\nargued that the introduction of the living wage would force them to fire some\nworkers, forcing others to work harder."
   },
   "test_7_P16": {
     "id": "test_7_P16",
     "subject": "Verbal Reasoning",
     "title": "Passage 16",
-    "text": "The ecological footprint is a simple way to look at how sustainable people are\nbeing. It is based on the idea that all the resources taken from the Earth are nite. It\nis dened by how much land and water would be required to produce the resources\nthat the population consumes within a year. It has been calculated that there are\ncurrently 11.2 billion bio-productive hectares available on the Earth.\nA study in 2004 has suggested that our ecological footprint is 13.5 billion\nhectares, meaning that we are using the Earth’s resources 20% faster than they are\nbeing renewed. This will ultimately result in the loss of all the Earth’s resources.\nIndividual countries can look at their own ecological footprint and compare it to\nthe size of their bio-productive capacity. Some countries are in an ecological decit -\nthey require more land than their bio-productive capacity to sustain them. Other\ncountries have an ecological reserve, meaning that their bio-productive capacity is\ngreater than their footprint.\nIt can be difficult for individual countries to reduce their ecological footprint.\nThis can either be performed by reducing that countries reliance on unsustainable\nresources or by increasing the amount of bio-productive land available. It is\nimportant, however, that a global eﬀort is made to increase our sustainability."
+    "text": "The ecological footprint is a simple way to look at how sustainable people are\nbeing. It is based on the idea that all the resources taken from the Earth are nite. It\nis defined by how much land and water would be required to produce the resources\nthat the population consumes within a year. It has been calculated that there are\ncurrently 11.2 billion bio-productive hectares available on the Earth.\nA study in 2004 has suggested that our ecological footprint is 13.5 billion\nhectares, meaning that we are using the Earth’s resources 20% faster than they are\nbeing renewed. This will ultimately result in the loss of all the Earth’s resources.\nIndividual countries can look at their own ecological footprint and compare it to\nthe size of their bio-productive capacity. Some countries are in an ecological deficit -\nthey require more land than their bio-productive capacity to sustain them. Other\ncountries have an ecological reserve, meaning that their bio-productive capacity is\ngreater than their footprint.\nIt can be difficult for individual countries to reduce their ecological footprint.\nThis can either be performed by reducing that countries reliance on unsustainable\nresources or by increasing the amount of bio-productive land available. It is\nimportant, however, that a global eﬀort is made to increase our sustainability."
   },
   "test_7_P17": {
     "id": "test_7_P17",
@@ -175,25 +171,25 @@ const PASSAGES = {
     "id": "test_7_P18",
     "subject": "Verbal Reasoning",
     "title": "Passage 18",
-    "text": "Cancer is a disease of the tissues of the body which occurs when cells begin to\ngrow and replicate rapidly. These cells are capable of becoming masses called\ntumours which can obstruct the parts of the body in which they are found. Some of\nthese tumours are also able to spread to other parts of the body in a process known\nas metastasis.\nThe incidence of cancer has signicantly increased recently in the Western\ndeveloped world. The most common form of cancer in the UK is breast cancer, even\nthough it very rarely aﬀects men. Most cancers seem to have no obvious cause whilst\na few are known to have a specic cause. Mesothelioma, for example, is a type of lung\ncancer that is caused by exposure to asbestos. People who have worked with\nasbestos without adequate protection in the past are eligible for compensation from\nthe government.\nBefore the 19th century, the only way to treat a cancer was to physically remove\nthe tumour from the body. This usually involved amputation or removing a lot of\ntissue. It was only in the 19th century when improvements in surgical hygiene\nenhanced the success rates of tumour removal. At this time, Marie and Pierre Curie\ndiscovered the first non-surgical treatment, which involved irradiating the tumour."
+    "text": "Cancer is a disease of the tissues of the body which occurs when cells begin to\ngrow and replicate rapidly. These cells are capable of becoming masses called\ntumours which can obstruct the parts of the body in which they are found. Some of\nthese tumours are also able to spread to other parts of the body in a process known\nas metastasis.\nThe incidence of cancer has significantly increased recently in the Western\ndeveloped world. The most common form of cancer in the UK is breast cancer, even\nthough it very rarely affects men. Most cancers seem to have no obvious cause whilst\na few are known to have a specic cause. Mesothelioma, for example, is a type of lung\ncancer that is caused by exposure to asbestos. People who have worked with\nasbestos without adequate protection in the past are eligible for compensation from\nthe government.\nBefore the 19th century, the only way to treat a cancer was to physically remove\nthe tumour from the body. This usually involved amputation or removing a lot of\ntissue. It was only in the 19th century when improvements in surgical hygiene\nenhanced the success rates of tumour removal. At this time, Marie and Pierre Curie\ndiscovered the first non-surgical treatment, which involved irradiating the tumour."
   },
   "test_7_P19": {
     "id": "test_7_P19",
     "subject": "Verbal Reasoning",
     "title": "Passage 19",
-    "text": "The indigenous Australians are the native people of Australia, also known as the\nAborigines. It is believed that they arrived in Australia 50,000 years ago from South-\neast Asia. They lived a traditional life, which involved living in wooded areas and\nhunting animals with spears and boomerangs. This lifestyle would not harm the\nenvironment of Australia as they believe that the land, with all of its animals and\nplants, is sacred.\nWhen the British people came to Australia in 1788, there were not many people\nliving in Australia. According to British law, any land could be claimed for the\nmonarchy if they believed that nobody owned it and so they claimed all of the land.\nIt was later agreed by the Australian government in 1976 that the aboriginal people\nwould have the rights to the land where they were originally located if they could\nprove that they have been living there.\nNowadays, many of the 517,000 aboriginal people in Australia have chosen to\nintegrate with the modern ways of life. They live in cities and towns and some of\nthem have acquired professional jobs. Others have decided to maintain their\ntraditional aboriginal way of living. Few have been unfortunate in that they haven’t\nbeen educated enough to benet from Australian society but have also lost their\ntraditional aboriginal ways."
+    "text": "The indigenous Australians are the native people of Australia, also known as the\nAborigines. It is believed that they arrived in Australia 50,000 years ago from South-\neast Asia. They lived a traditional life, which involved living in wooded areas and\nhunting animals with spears and boomerangs. This lifestyle would not harm the\nenvironment of Australia as they believe that the land, with all of its animals and\nplants, is sacred.\nWhen the British people came to Australia in 1788, there were not many people\nliving in Australia. According to British law, any land could be claimed for the\nmonarchy if they believed that nobody owned it and so they claimed all of the land.\nIt was later agreed by the Australian government in 1976 that the aboriginal people\nwould have the rights to the land where they were originally located if they could\nprove that they have been living there.\nNowadays, many of the 517,000 aboriginal people in Australia have chosen to\nintegrate with the modern ways of life. They live in cities and towns and some of\nthem have acquired professional jobs. Others have decided to maintain their\ntraditional aboriginal way of living. Few have been unfortunate in that they haven’t\nbeen educated enough to benefit from Australian society but have also lost their\ntraditional aboriginal ways."
   },
   "test_7_P20": {
     "id": "test_7_P20",
     "subject": "Verbal Reasoning",
     "title": "Passage 20",
-    "text": "Chilli peppers are a type of fruit grown all over the world. Most of these peppers\nare spicy and used in cooking. These peppers are believed to initially originate from\nBolivia. As they spread throughout Europe, it was found that their spiciness had a\nsimilar taste to black peppercorns, which were incredibly valuable in the 15th\ncentury. As such, many people began to grow chilli peppers, which spread rapidly to\nIndia and China.\nThese chilli peppers began to be incorporated into the cooking of diﬀerent\ncultures, being used more commonly in hotter countries. There are a number of\nreasons suggested for why these countries would prefer spicy food. One suggestion is\nthat spicy food would help people to sweat in hot conditions, allowing them to cool\ndown. This however, is unlikely to explain the prevalence of chilli peppers as it is\npossible to sweat without eating them. Adding spice to food was also found to be a\nconvenient method of preserving food as it discouraged the growth of bacteria.\nThe peppers are spicy because they produce the chemical capsaicin. This\nchemical binds to receptors in the mouth and throat and cause the sensation of\nheat. This receptor is also capable of responding to heat directly. This is an example\nof labelled line coding which suggests that the perception of a stimulus is determined\nby which receptor it activates, not the nature of the stimulus itself."
+    "text": "Chilli peppers are a type of fruit grown all over the world. Most of these peppers\nare spicy and used in cooking. These peppers are believed to initially originate from\nBolivia. As they spread throughout Europe, it was found that their spiciness had a\nsimilar taste to black peppercorns, which were incredibly valuable in the 15th\ncentury. As such, many people began to grow chilli peppers, which spread rapidly to\nIndia and China.\nThese chilli peppers began to be incorporated into the cooking of diﬀerent\ncultures, being used more commonly in hotter countries. There are a number of\nreasons suggested for why these countries would prefer spicy food. One suggestion is\nthat spicy food would help people to sweat in hot conditions, allflflowing them to cool\ndown. This however, is unlikely to explain the prevalence of chilli peppers as it is\npossible to sweat without eating them. Adding spice to food was also found to be a\nconvenient method of preserving food as it discouraged the growth of bacteria.\nThe peppers are spicy because they produce the chemical capsaicin. This\nchemical binds to receptors in the mouth and throat and cause the sensation of\nheat. This receptor is also capable of responding to heat directly. This is an example\nof labelled line coding which suggests that the perception of a stimulus is determined\nby which receptor it activates, not the nature of the stimulus itself."
   },
   "test_7_P21": {
     "id": "test_7_P21",
     "subject": "Verbal Reasoning",
     "title": "Passage 21",
-    "text": "The social determinants of health are factors in which people are born, grow, live,\nwork and age. These factors depend on the social distribution of resources and can\naﬀect the life expectancy and quality of life that people have. These factors refer to\nthe social context that people live in and include characteristics such as level of\neducation, culture, stress and socioeconomic conditions as well as many others. It\ncan be difficult to see how some of these factors may affect somebody’s health but it\nis likely to involve a combination of multiple factors.\nA number of mechanisms acting together have been described to explain why\nsomeone with a poor diet would have a lower life expectancy. One such mechanism\nis as follows: This individual would be more likely to be malnourished which would\nweaken their immune system. This would ultimately increase their likelihood of\nsuﬀering from infections. Recurrent infections would place strain on the body, which\ncould eventually result in organ failure. On average, the life expectancy in the most\ndeprived areas can be up to 10 years lower than in the least deprived areas.\nMany of these health inequalities are avoidable. Understanding how these social\ndeterminants affect the health of a population will allow us to improve its care.\nKnowledge of how social policies impact health can better allow us to monitor\nchanges in health care, and is allowing us to reduce the gaps between those with a\nmore disadvantaged social background from those with a privileged background."
+    "text": "The social determinants of health are factors in which people are born, grow, live,\nwork and age. These factors depend on the social distribution of resources and can\naffect the life expectancy and quality of life that people have. These factors refer to\nthe social context that people live in and include characteristics such as level of\neducation, culture, stress and socioeconomic conditions as well as many others. It\ncan be difficult to see how some of these factors may affect somebody’s health but it\nis likely to involve a combination of multiple factors.\nA number of mechanisms acting together have been described to explain why\nsomeone with a poor diet would have a lower life expectancy. One such mechanism\nis as follows: This individual would be more likely to be malnourished which would\nweaken their immune system. This would ultimately increase their likelihood of\nsuﬀering from infections. Recurrent infections would place strain on the body, which\ncould eventually result in organ failure. On average, the life expectancy in the most\ndeprived areas can be up to 10 years lower than in the least deprived areas.\nMany of these health inequalities are avoidable. Understanding how these social\ndeterminants affect the health of a population will allow us to improve its care.\nKnowledge of how social policies impact health can better allow us to monitor\nchanges in health care, and is allflflowing us to reduce the gaps between those with a\nmore disadvantaged social background from those with a privileged background."
   },
   "test_7_P22": {
     "id": "test_7_P22",
@@ -211,55 +207,55 @@ const PASSAGES = {
     "id": "test_7_P24",
     "subject": "Verbal Reasoning",
     "title": "Passage 24",
-    "text": "The genus of plants called Narcissus, many of the species of which are highly\nesteemed by the oriculturist and lover of cultivated plants, belongs to the Amaryllis\nfamily (Amaryllidaceæ.) This family includes about seventy genera and over eight\nhundred species that are mostly native in tropical or semi-tropical countries, though\na few are found in temperate climates.\nMany of the species are sought for ornamental purposes and, on account of their\nbeauty and remarkable odour, they are more prized by many than are the species of\nthe Lily family. In this group is classed the American Aloe (Agave Americana) valued\nnot only for cultivation, but also by the Mexicans on account of the sweet uid which\nis yielded by its central bud. This liquid, after fermentation, forms an intoxicating\nliquor known as pulque. By distillation, this yields a liquid, very similar to rum, called\nby the Mexicans mescal. The leaves furnish a strong bre, known as vegetable silk,\nfrom which, since remote times, paper has been manufactured.\nThe popular opinion is that this plant owers but once in a century; hence the\nname ‘Century Plant’ is often applied to it, though under proper culture it will\nblossom more frequently."
+    "text": "The genus of plants called Narcissus, many of the species of which are highly\nesteemed by the oriculturist and lover of cultivated plants, belongs to the Amaryllis\nfamily (Amaryllidaceæ.) This family includes about seventy genera and over eight\nhundred species that are mostly native in tropical or semi-tropical countries, though\na few are found in temperate climates.\nMany of the species are sought for ornamental purposes and, on account of their\nbeauty and remarkable odour, they are more prized by many than are the species of\nthe Lily family. In this group is classed the American Aloe (Agave Americana) valued\nnot only for cultivation, but also by the Mexicans on account of the sweet uid which\nis yielded by its central bud. This liquid, after fermentation, forms an intoxicating\nliquor known as pulque. By distillation, this yields a liquid, very similar to rum, called\nby the Mexicans mescal. The leaves furnish a strong bre, known as vegetable silk,\nfrom which, since remote times, paper has been manufactured.\nThe popular opinion is that this plant flowers but once in a century; hence the\nname ‘Century Plant’ is often applied to it, though under proper culture it will\nblossom more frequently."
   },
   "test_7_P25": {
     "id": "test_7_P25",
     "subject": "Verbal Reasoning",
     "title": "Passage 25",
-    "text": "The following passage is found in a book on nature published in 1899:\nFive women out of every ten who walk the streets of Chicago and other Illinois\ncities, says a prominent journal, by wearing dead birds upon their hats proclaim\nthemselves as lawbreakers. For the first time in the history of Illinois laws it has been\nmade an oﬀence punishable by ne and imprisonment, or both, to have in\npossession any dead, harmless bird except game birds, which may be possessed in\ntheir proper season. The wearing of a tern, or a gull, a woodpecker, or a jay is an\noﬀence against the law’s majesty, and any policeman with a mind rigidly bent upon\nenforcing the law could round up, without a written warrant, a wagon load of the\noﬀenders any hour in the day, and carry them off to the lockup. What moral suasion\ncannot do, a crusade of this sort undoubtedly would.\nThanks to the personal inuence of the Princess of Wales, the osprey plume, so\nlong a feature of the uniforms of a number of the cavalry regiments of the British\narmy, has been abolished. After Dec. 31, 1899, the osprey plume, by order of Field\nMarshal Lord Wolseley, is to be replaced by one of ostrich feathers. It was the wearing\nof these plumes by the oﬃcers of all the hussar and rie regiments, as well as of the\nRoyal Horse Artillery, which so sadly interfered with the crusade inaugurated by the\nPrincess against the use of osprey plumes. The fact that these plumes, to be of any\nmarketable value, have to be torn from the living bird during the nesting season\ninduced the Queen, the Princess of Wales, and other ladies of the royal family to set\ntheir faces against the use of both the osprey plume and the aigrette as articles of\nfashionable wear."
+    "text": "The following passage is found in a book on nature published in 1899:\nFive women out of every ten who walk the streets of Chicago and other Illinois\ncities, says a prominent journal, by wearing dead birds upon their hats proclaim\nthemselves as lawbreakers. For the first time in the history of Illinois laws it has been\nmade an oﬀence punishable by ne and imprisonment, or both, to have in\npossession any dead, harmless bird except game birds, which may be possessed in\ntheir proper season. The wearing of a tern, or a gull, a woodpecker, or a jay is an\noﬀence against the law’s majesty, and any policeman with a mind rigidly bent upon\nenforcing the law could round up, without a written warrant, a wagon load of the\noﬀenders any hour in the day, and carry them off to the lockup. What moral suasion\ncannot do, a crusade of this sort undoubtedly would.\nThanks to the personal inflfluence of the Princess of Wales, the osprey plume, so\nlong a feature of the uniforms of a number of the cavalry regiments of the British\narmy, has been abolished. After Dec. 31, 1899, the osprey plume, by order of Field\nMarshal Lord Wolseley, is to be replaced by one of ostrich feathers. It was the wearing\nof these plumes by the officers of all the hussar and rie regiments, as well as of the\nRoyal Horse Artillery, which so sadly interfered with the crusade inaugurated by the\nPrincess against the use of osprey plumes. The fact that these plumes, to be of any\nmarketable value, have to be torn from the living bird during the nesting season\ninduced the Queen, the Princess of Wales, and other ladies of the royal family to set\ntheir faces against the use of both the osprey plume and the aigrette as articles of\nfashionable wear."
   },
   "test_7_P26": {
     "id": "test_7_P26",
     "subject": "Verbal Reasoning",
     "title": "Passage 26",
-    "text": "Indie game developer Lucas Pope created ‘Papers Please’, a video game where the\nplayer is an immigration oﬃcer processing people attempting to enter Arstotzka, a\nctional dystopia. Released in 2013, the game was originally made for Microsoft\nWindows and OS X platforms. It was subsequently released for Linux and the iPad in\n2014.\nThe game is set in 1982, and gameplay involves the player processing large\nnumbers of applicants attempting to enter the country, through checking various\npieces of paperwork. This is intended to keep criminals out, whether they are\nterrorists or drug smugglers. When looking through the applicant’s ‘papers’,\ndiscrepancies may be discovered: the player must then enquire about these and may\ngo on to use other tools, such as a body scanner and nger printing to discover the\ntruth of the candidate’s motives. Applicants may attempt to bribe the oﬃcer in order\nto get through. Ultimately, the game player must stamp candidates passports, either\naccepting into or rejecting them from the country. Their work is being monitored,\nhowever: after two false acceptances/rejections, the player will be pecuniarily\npunished, with their day’s wages being decreased in response to their administrative\nsloppiness. They have a limited amount of time, representing each ‘day’, to work,\nduring which they will be paid in accordance to the number of people processed."
+    "text": "Indie game developer Lucas Pope created ‘Papers Please’, a video game where the\nplayer is an immigration officer processing people attempting to enter Arstotzka, a\nctional dystopia. Released in 2013, the game was originally made for Microsoft\nWindows and OS X platforms. It was subsequently released for Linux and the iPad in\n2014.\nThe game is set in 1982, and gameplay involves the player processing large\nnumbers of applicants attempting to enter the country, through checking various\npieces of paperwork. This is intended to keep criminals out, whether they are\nterrorists or drug smugglers. When looking through the applicant’s ‘papers’,\ndiscrepancies may be discovered: the player must then enquire about these and may\ngo on to use other tools, such as a body scanner and nger printing to discover the\ntruth of the candidate’s motives. Applicants may attempt to bribe the officer in order\nto get through. Ultimately, the game player must stamp candidates passports, either\naccepting into or rejecting them from the country. Their work is being monitored,\nhowever: after two false acceptances/rejections, the player will be pecuniarily\npunished, with their day’s wages being decreased in response to their administrative\nsloppiness. They have a limited amount of time, representing each ‘day’, to work,\nduring which they will be paid in accordance to the number of people processed."
   },
   "test_7_P27": {
     "id": "test_7_P27",
     "subject": "Verbal Reasoning",
     "title": "Passage 27",
-    "text": "Emerging in 1970s USA, Blaxploitation, or ‘blacksploitation’, gives homage to\nmany other genres: within it, there are western, martial arts lms, musicals, coming-\nof-age dramas and comedies, and the genre has even parodied itself with lms like\n‘Black Dynamite’. Blaxploitation movies may take place in the South, and focus on\nissues like slavery, or be set in the poor neighbourhoods of the Northeast or West\ncoast, but in any case they will feature a predominately black cast. It is also known to\nfeature soundtracks comprised of soul and funk music, and the common feature of\ncharacter’s using the words ‘honky’, ‘cracker’ and other slurs against white people.\nOriginally, the genre’s exports were aimed at city-dwelling black Americans, but\ntheir appeal has since grown and is not exclusive to any race. Despite the negative\nsound of the title ‘blaxploitation’, the term was coined by ex-lm publicist Junius\nGriﬃn, the then head of LA’s NAACP, National Association for the Advancement of\nColoured People. He came up with the name through a play on the word\n‘sexploitation’ describing lms which featured pornographic scenes.\nThe lm ‘Shaft’ and ‘Sweet Sweetback’s Baadasssss Song’ are two of the\nforerunners of this genre, both released in 1971. The latter has been said, by Variety,\nto have created the genre"
+    "text": "Emerging in 1970s USA, Blaxploitation, or ‘blacksploitation’, gives homage to\nmany other genres: within it, there are western, martial arts films, musicals, coming-\nof-age dramas and comedies, and the genre has even parodied itself with films like\n‘Black Dynamite’. Blaxploitation movies may take place in the South, and focus on\nissues like slavery, or be set in the poor neighbourhoods of the Northeast or West\ncoast, but in any case they will feature a predominately black cast. It is also known to\nfeature soundtracks comprised of soul and funk music, and the common feature of\ncharacter’s using the words ‘honky’, ‘cracker’ and other slurs against white people.\nOriginally, the genre’s exports were aimed at city-dwelling black Americans, but\ntheir appeal has since grown and is not exclusive to any race. Despite the negative\nsound of the title ‘blaxploitation’, the term was coined by ex-film publicist Junius\nGriﬃn, the then head of LA’s NAACP, National Association for the Advancement of\nColoured People. He came up with the name through a play on the word\n‘sexploitation’ describing films which featured pornographic scenes.\nThe film ‘Shaft’ and ‘Sweet Sweetback’s Baadasssss Song’ are two of the\nforerunners of this genre, both released in 1971. The latter has been said, by Variety,\nto have created the genre"
   },
   "test_7_P28": {
     "id": "test_7_P28",
     "subject": "Verbal Reasoning",
     "title": "Passage 28",
-    "text": "When discussing his famous character Rorschach, the antihero of ‘Watchmen’,\nMoore explains, ‘I originally intended Rorschach to be a warning about the possible\noutcome of vigilante thinking. But an awful lot of comic readers felt his remorseless,\nfrightening, psychotic toughness was his most appealing characteristic – not quite\nwhat I was going for.’ Moore misunderstands his own hero’s appeal within this\nquotation: it is not that Rorschach is willing to break little ngers to extract\ninformation, or that he is happy to use violence, that makes him laudable. The\nComedian, another ‘superhero’ within the alternative world of Watchmen, is a thug\nwho has won no great fan base; his remorselessness (killing a pregnant Vietnamese\nwoman), frightening (attempt at rape), psychotic toughness (one only has to look at\nthe panels of him shooting out into a crowd to witness this) is repulsive, not winning.\nThis is because The Comedian has no purpose: he is a nihilist, and as a nihilist, denies\nany potential meaning to his fellow man, and so to the comic’s reader. Everything to\nhim is a ‘joke’, including his self, and consequently his own death could be seen as\njust another gag.\nRorschach, on the other hand, does believe in something: he questions if his ght\nfor justice ‘is futile?’ then instantly corrects himself, stating ‘there is good and evil,\nand evil must be punished. Even in the face of Armageddon I shall not compromise\nin this.’ Jacob Held, in his essay comparing Rorschach’s motivation with Kantian\nethics, put forward the postulation ‘perhaps our dignity is found in acting as if the\nworld were just, even when it is clearly not.’ Rorschach then causes pain in others not\nbecause he is a sadist, but because he feels the need to punish wrong and to uphold\nthe good, and though he cannot make the world just, he can act according to his\nsense of justice - through the use of violence."
+    "text": "When discussing his famous character Rorschach, the antihero of ‘Watchmen’,\nMoore explains, ‘I originally intended Rorschach to be a warning about the possible\noutcome of vigilante thinking. But an awful lot of comic readers felt his remorseless,\nfrightening, psychotic toughness was his most appealing characteristic – not quite\nwhat I was going for.’ Moore misunderstands his own hero’s appeal within this\nquotation: it is not that Rorschach is willing to break little ngers to extract\ninformation, or that he is happy to use violence, that makes him laudable. The\nComedian, another ‘superhero’ within the alternative world of Watchmen, is a thug\nwho has won no great fan base; his remorselessness (killing a pregnant Vietnamese\nwoman), frightening (attempt at rape), psychotic toughness (one only has to look at\nthe panels of him shooting out into a crowd to witness this) is repulsive, not winning.\nThis is because The Comedian has no purpose: he is a nihilist, and as a nihilist, denies\nany potential meaning to his fellow man, and so to the comic’s reader. Everything to\nhim is a ‘joke’, including his self, and consequently his own death could be seen as\njust another gag.\nRorschach, on the other hand, does believe in something: he questions if his fight\nfor justice ‘is futile?’ then instantly corrects himself, stating ‘there is good and evil,\nand evil must be punished. Even in the face of Armageddon I shall not compromise\nin this.’ Jacob Held, in his essay comparing Rorschach’s motivation with Kantian\nethics, put forward the postulation ‘perhaps our dignity is found in acting as if the\nworld were just, even when it is clearly not.’ Rorschach then causes pain in others not\nbecause he is a sadist, but because he feels the need to punish wrong and to uphold\nthe good, and though he cannot make the world just, he can act according to his\nsense of justice - through the use of violence."
   },
   "test_7_P29": {
     "id": "test_7_P29",
     "subject": "Verbal Reasoning",
     "title": "Passage 29",
-    "text": "‘The Bechdel Test’, also known as the ‘Mo Movie Measure’ and ‘The Bechdel Rule’\nis named after cartoonist Alison Bechdel, who in 1985 wrote a cartoon containing the\noriginal proposal of the ‘test’. It depicts one woman telling another that she has ‘a\nrule’ that she will only see a lm if it satises three basic requirements: that it\ncontains at least two women, that they talk to each other and that their conversation\nis on something other than a man. The second woman states that this is ‘pretty strict,\nbut a good idea’, to which the first responds the last lm she saw that complied with\nthis was ‘Alien’. The original notion described in the strip has been attributed to Liz\nWallace, and the test is sometimes referred to as the Bechdel/Wallace Test.\nFollowing this, a website entitled ‘The Bechdel Test Movie List’ has formed an\nextensive list of cinematic output, showing movies that pass and do not pass the test.\nOne may be surprised at the number of movies that would not be watched by rst\nwoman in the Bechdel comic: many blockbusters do not make the mark, and such\ntitles as ‘Godzilla’, ‘The Imitation Game’ and ‘Robocop’ all feature on the list of\n‘failed’ lms."
+    "text": "‘The Bechdel Test’, also known as the ‘Mo Movie Measure’ and ‘The Bechdel Rule’\nis named after cartoonist Alison Bechdel, who in 1985 wrote a cartoon containing the\noriginal proposal of the ‘test’. It depicts one woman telling another that she has ‘a\nrule’ that she will only see a film if it satises three basic requirements: that it\ncontains at least two women, that they talk to each other and that their conversation\nis on something other than a man. The second woman states that this is ‘pretty strict,\nbut a good idea’, to which the first responds the last film she saw that complied with\nthis was ‘Alien’. The original notion described in the strip has been attributed to Liz\nWallace, and the test is sometimes referred to as the Bechdel/Wallace Test.\nFollflflowing this, a website entitled ‘The Bechdel Test Movie List’ has formed an\nextensive list of cinematic output, shflflowing movies that pass and do not pass the test.\nOne may be surprised at the number of movies that would not be watched by first\nwoman in the Bechdel comic: many blockbusters do not make the mark, and such\ntitles as ‘Godzilla’, ‘The Imitation Game’ and ‘Robocop’ all feature on the list of\n‘failed’ films."
   },
   "test_7_P30": {
     "id": "test_7_P30",
     "subject": "Verbal Reasoning",
     "title": "Passage 30",
-    "text": "There are many comic tropes a comedian or group of comedians may want to\nemploy in their set or act, but for the purpose of this extract we shall focus on the\ndevice of the ‘call-back’. A call-back is a reference made to a previous joke, in a\ndiﬀerent context: for example, a comedian may make the joke ‘why did the chicken\ncross the road? To get to the other side’ early on in his or her set, and then later on\nmay reference this again by telling an anecdote and saying ‘so then I crossed the road\n- oh, look, there’s a chicken! Strange, I could have sworn he was over there a moment\nago’. Though the call-back may appear to simply rely on the idea that repetition is\ninherently funny, it actually has several desirable eﬀects. Firstly, it means that one\njoke can provide more than one laugh, as the memory of the previous joke\nencourages renewed chuckling, and so the original quip’s comic potential is\nincreased. It also builds up a relationship between comedian and audience, as it\nbuilds up a sense of familiarity with the speaker and his or her subject matter, and\nthis bond also may encourage more laughter - the second joke creates the same\nfeeling as an ‘in-joke’. If used at the end of a set - as a call-back often is - it gives a\nsense of completion, and also may lead to the ending of the act culminating in the\nlargest laugh.\nIn TV, a call-back often refers to a joke made in a previous episode."
+    "text": "There are many comic tropes a comedian or group of comedians may want to\nemploy in their set or act, but for the purpose of this extract we shall focus on the\ndevice of the ‘call-back’. A call-back is a reference made to a previous joke, in a\ndiﬀerent context: for example, a comedian may make the joke ‘why did the chicken\ncross the road? To get to the other side’ early on in his or her set, and then later on\nmay reference this again by telling an anecdote and saying ‘so then I crossed the road\n- oh, look, there’s a chicken! Strange, I could have sworn he was over there a moment\nago’. Though the call-back may appear to simply rely on the idea that repetition is\ninherently funny, it actually has several desirable effects. Firstly, it means that one\njoke can provide more than one laugh, as the memory of the previous joke\nencourages renewed chuckling, and so the original quip’s comic potential is\nincreased. It also builds up a relationship between comedian and audience, as it\nbuilds up a sense of familiarity with the speaker and his or her subject matter, and\nthis bond also may encourage more laughter - the second joke creates the same\nfeeling as an ‘in-joke’. If used at the end of a set - as a call-back often is - it gives a\nsense of completion, and also may lead to the ending of the act culminating in the\nlargest laugh.\nIn TV, a call-back often refers to a joke made in a previous episode."
   },
   "test_7_P31": {
     "id": "test_7_P31",
     "subject": "Verbal Reasoning",
     "title": "Passage 31",
-    "text": "Harriet Beecher (Stowe) was born June 14, 1811, in the characteristic New\nEngland town of Litcheld, Connecticut. Her father was the Rev. Dr. Lyman Beecher,\na distinguished Calvinistic divine, her mother Roxanna Foote, his first wife. Harriet\nBeecher was ushered into a household of happy, healthy children, and found ve\nbrothers and sisters awaiting her. The eldest was Catherine, born September 6, 1800.\nFollowing her were two sturdy boys, William and Edward; then came Mary, then\nGeorge, and at last Harriet. Another little Harriet was actually born three years\nbefore, but died when aged only one month old; the fourth daughter, the subject of\nthis passage, was named in memory of this sister Harriet Elizabeth. Just two years\nafter Harriet was born, in the same month, another brother, Henry Ward, was\nwelcomed to the family circle, and after him came Charles, the last of Roxanna\nBeecher’s children.\nThe first memorable incident of Harriet’s life was the death of her mother, which\noccurred when she was four years old, and which ever afterwards remained with her\nas the most tender, sad and sacred memory of her childhood. Mrs Stowe’s\nrecollections of her mother are found in a letter to her brother Charles, afterwards\npublished in the ‘Autobiography and Correspondence of Lyman Beecher.’ She says: —\n“I was between three and four years of age when our mother died, and my\npersonal recollections of her are therefore but few. But the deep interest and\nveneration that she inspired in all who knew her were such that during all my\nchildhood I was constantly hearing her spoken of, and from one friend or another\nsome incident or anecdote of her life was constantly being impressed upon me."
+    "text": "Harriet Beecher (Stowe) was born June 14, 1811, in the characteristic New\nEngland town of Litcheld, Connecticut. Her father was the Rev. Dr. Lyman Beecher,\na distinguished Calvinistic divine, her mother Roxanna Foote, his first wife. Harriet\nBeecher was ushered into a household of happy, healthy children, and found five\nbrothers and sisters awaiting her. The eldest was Catherine, born September 6, 1800.\nFollflflowing her were two sturdy boys, William and Edward; then came Mary, then\nGeorge, and at last Harriet. Another little Harriet was actually born three years\nbefore, but died when aged only one month old; the fourth daughter, the subject of\nthis passage, was named in memory of this sister Harriet Elizabeth. Just two years\nafter Harriet was born, in the same month, another brother, Henry Ward, was\nwelcomed to the family circle, and after him came Charles, the last of Roxanna\nBeecher’s children.\nThe first memorable incident of Harriet’s life was the death of her mother, which\noccurred when she was four years old, and which ever afterwards remained with her\nas the most tender, sad and sacred memory of her childhood. Mrs Stowe’s\nrecollections of her mother are found in a letter to her brother Charles, afterwards\npublished in the ‘Autobiography and Correspondence of Lyman Beecher.’ She says: —\n“I was between three and four years of age when our mother died, and my\npersonal recollections of her are therefore but few. But the deep interest and\nveneration that she inspired in all who knew her were such that during all my\nchildhood I was constantly hearing her spoken of, and from one friend or another\nsome incident or anecdote of her life was constantly being impressed upon me."
   },
   "test_7_P32": {
     "id": "test_7_P32",
     "subject": "Verbal Reasoning",
     "title": "Passage 32",
-    "text": "Gutenberg’s father was a man of good family. Very likely the boy was taught to\nread. But the books from which he learned were not like ours; they were written by\nhand. A better name for them than books is ‘manuscripts,’ which means\nhandwritings.\nWhile Gutenberg was growing up a new way of making books came into use,\nwhich was a great deal better than copying by hand. It was what is called block\nprinting. The printer first cut a block of hard wood the size of the page that he was\ngoing to print. Then he cut out every word of the written page upon the smooth face\nof his block. This had to be very carefully done. When it was nished the printer had\nto cut away the wood from the sides of every letter. This left the letters raised, as the\nletters are in books now printed for the blind.\nThe block was now ready to be used. The letters were inked, paper was laid upon\nthem and pressed down. With blocks the printer could make copies of a book a great\ndeal faster than a man could write them by hand. But the making of the blocks took\na long time, and each block would print only one page.\nGutenberg enjoyed reading the manuscripts and block books that his parents\nand their wealthy friends had; and he often said it was a pity that only rich people\ncould own books. Finally he determined to contrive some easy and quick way of\nprinting."
+    "text": "Gutenberg’s father was a man of good family. Very likely the boy was taught to\nread. But the books from which he learned were not like ours; they were written by\nhand. A better name for them than books is ‘manuscripts,’ which means\nhandwritings.\nWhile Gutenberg was grflflowing up a new way of making books came into use,\nwhich was a great deal better than copying by hand. It was what is called block\nprinting. The printer first cut a block of hard wood the size of the page that he was\ngoing to print. Then he cut out every word of the written page upon the smooth face\nof his block. This had to be very carefully done. When it was finished the printer had\nto cut away the wood from the sides of every letter. This left the letters raised, as the\nletters are in books now printed for the blind.\nThe block was now ready to be used. The letters were inked, paper was laid upon\nthem and pressed down. With blocks the printer could make copies of a book a great\ndeal faster than a man could write them by hand. But the making of the blocks took\na long time, and each block would print only one page.\nGutenberg enjoyed reading the manuscripts and block books that his parents\nand their wealthy friends had; and he often said it was a pity that only rich people\ncould own books. Finally he determined to contrive some easy and quick way of\nprinting."
   },
   "test_7_P33": {
     "id": "test_7_P33",
@@ -271,67 +267,67 @@ const PASSAGES = {
     "id": "test_7_P34",
     "subject": "Verbal Reasoning",
     "title": "Passage 34",
-    "text": "Despite the fact that some associate musicals with cheesy joy, the genre is not\nlimited to gleeful stories, as can be demonstrated by the macabre musical, ‘Sweeney\nTodd’. The original story of the murderous barber appears in a Victorian penny\ndreadful, ‘The String of Pearls: A Romance’. The penny dreadful material was adapted\nfor the 19th century stage, and in the 20th century was adapted into two separate\nmelodramas, before the story was taken up by Stephen Sondheim and Hugh\nWheeler. The pair turned it into a new musical, which has since been performed\nacross the globe and been adapted into a lm starring Johnny Depp.\nSondheim and Wheeler’s drama tells a disturbing narrative: the protagonist,\nfalsely accused of a crime by a crooked judge, escapes from Australia to be told that\nhis wife was raped by that same man of the court. In response, she has committed\nsuicide, and her daughter - Todd’s daughter - has been made the ward of the judge.\nThe eponymous gure ultimately goes on a killing spree, vowing vengeance for the\npeople who have wronged him but also declaring ‘we all deserve to die’, and acting on\nthis belief by killing many of his clients, men who come to his barbershop. His new\npartner in crime, Mrs Lovett, comes up with the idea of turning the bodies of his\nvictims into the lling of pies, as a way of sourcing aﬀordable meat - after all, she\nclaims, ‘times is hard’.\nCannibalism, vengeance, murder and corruption - these are all themes that\ndemonstrate that this show does not conform to a happy-clappy preconception of its\ngenre."
+    "text": "Despite the fact that some associate musicals with cheesy joy, the genre is not\nlimited to gleeful stories, as can be demonstrated by the macabre musical, ‘Sweeney\nTodd’. The original story of the murderous barber appears in a Victorian penny\ndreadful, ‘The String of Pearls: A Romance’. The penny dreadful material was adapted\nfor the 19th century stage, and in the 20th century was adapted into two separate\nmelodramas, before the story was taken up by Stephen Sondheim and Hugh\nWheeler. The pair turned it into a new musical, which has since been performed\nacross the globe and been adapted into a film starring Johnny Depp.\nSondheim and Wheeler’s drama tells a disturbing narrative: the protagonist,\nfalsely accused of a crime by a crooked judge, escapes from Australia to be told that\nhis wife was raped by that same man of the court. In response, she has committed\nsuicide, and her daughter - Todd’s daughter - has been made the ward of the judge.\nThe eponymous gure ultimately goes on a killing spree, vflflowing vengeance for the\npeople who have wronged him but also declaring ‘we all deserve to die’, and acting on\nthis belief by killing many of his clients, men who come to his barbershop. His new\npartner in crime, Mrs Lovett, comes up with the idea of turning the bodies of his\nvictims into the lling of pies, as a way of sourcing aﬀordable meat - after all, she\nclaims, ‘times is hard’.\nCannibalism, vengeance, murder and corruption - these are all themes that\ndemonstrate that this show does not conform to a happy-clappy preconception of its\ngenre."
   },
   "test_7_P35": {
     "id": "test_7_P35",
     "subject": "Verbal Reasoning",
     "title": "Passage 35",
-    "text": "The United States released the following as part of a pamphlet titled ‘If Your Baby\nMust Travel in Wartime’, released during the Second World War:\n‘Have you been on a train lately? The railroads have a hard job to do these days,\nbut one that they are doing well. But before you decide on a trip with a baby, you\nshould realise what a wartime train is like. So let’s look into one.\nThis train is crowded. At every stop more people get on—more and still more.\nSoldiers and sailors on furloughs, men on business trips, women — young and not so\nyoung — and babies, lots of them, mostly small.\nThe seats are full. People stand and jostle one another in the aisle. Mothers sit\ncrowded into single seats with toddlers or with babies in their laps. Three sailors\noccupy space meant for two. A soldier sits on his tipped-up suitcase. A marine leans\nagainst the back of the seat. Some people stand in line for 2 hours waiting to get into\nthe diner, some munch sandwiches obtained from the porter or taken out of a paper\nbag, and some go hungry. And those who get to the diner have had to push their way\nthrough ve or six moving cars.\nYou will want to think twice before taking your baby into such a crowded,\nuncomfortable place as a train. And having thought twice, you’d better decide to stay\nhome unless your trip is absolutely necessary.\nBut suppose you and your baby must travel. Well then, you will have to plan for\nthe dozens of small but essential things incidental to travelling with a baby and\nequip yourself to handle them.’"
+    "text": "The United States released the following as part of a pamphlet titled ‘If Your Baby\nMust Travel in Wartime’, released during the Second World War:\n‘Have you been on a train lately? The railroads have a hard job to do these days,\nbut one that they are doing well. But before you decide on a trip with a baby, you\nshould realise what a wartime train is like. So let’s look into one.\nThis train is crowded. At every stop more people get on—more and still more.\nSoldiers and sailors on furloughs, men on business trips, women — young and not so\nyoung — and babies, lots of them, mostly small.\nThe seats are full. People stand and jostle one another in the aisle. Mothers sit\ncrowded into single seats with toddlers or with babies in their laps. Three sailors\noccupy space meant for two. A soldier sits on his tipped-up suitcase. A marine leans\nagainst the back of the seat. Some people stand in line for 2 hours waiting to get into\nthe diner, some munch sandwiches obtained from the porter or taken out of a paper\nbag, and some go hungry. And those who get to the diner have had to push their way\nthrough five or six moving cars.\nYou will want to think twice before taking your baby into such a crowded,\nuncomfortable place as a train. And having thought twice, you’d better decide to stay\nhome unless your trip is absolutely necessary.\nBut suppose you and your baby must travel. Well then, you will have to plan for\nthe dozens of small but essential things incidental to travelling with a baby and\nequip yourself to handle them.’"
   },
   "test_7_P36": {
     "id": "test_7_P36",
     "subject": "Verbal Reasoning",
     "title": "Passage 36",
-    "text": "The following extract is from ‘Foods That Will Win the War’, published in the USA\nduring the First World War:\n‘A slice of bread seems an unimportant thing. Yet one good-sized slice of bread\nweighs an ounce. It contains almost three-fourths of an ounce of our. If every one of\nthe country’s 20,000,000 homes wastes on the average only one such slice of bread a\nday, the country is throwing away daily over 14,000,000 ounces of our—over\n875,000 pounds, or enough our for over a million one-pound loaves a day. For a full\nyear at this rate there would be a waste of over 319,000,000 pounds of our—\n1,500,000 barrels—enough our to make 365,000,000 loaves.\nAs it takes four and one-half bushels of wheat to make a barrel of ordinary our,\nthis waste would represent the our from over 7,000,000 bushels of wheat. Fourteen\nand nine-tenths bushels of wheat on the average are raised per acre. It would take\nthe product of some 470,000 acres just to provide a single slice of bread to be wasted\ndaily in every home.\nBut someone says, ‘a full slice of bread is not wasted in every home.’ Very well,\nmake it a daily slice for every four or every ten or every thirty homes—make it a\nweekly or monthly slice in every home—or make the wasted slice thinner. The waste\nof our involved is still appalling. These are gures compiled by government experts,\nand they should give pause to every housekeeper who permits a slice of bread to be\nwasted in her home.’"
+    "text": "The following extract is from ‘Foods That Will Win the War’, published in the USA\nduring the First World War:\n‘A slice of bread seems an unimportant thing. Yet one good-sized slice of bread\nweighs an ounce. It contains almost three-fourths of an ounce of our. If every one of\nthe country’s 20,000,000 homes wastes on the average only one such slice of bread a\nday, the country is thrflflowing away daily over 14,000,000 ounces of our—over\n875,000 pounds, or enough our for over a million one-pound loaves a day. For a full\nyear at this rate there would be a waste of over 319,000,000 pounds of our—\n1,500,000 barrels—enough our to make 365,000,000 loaves.\nAs it takes four and one-half bushels of wheat to make a barrel of ordinary our,\nthis waste would represent the our from over 7,000,000 bushels of wheat. Fourteen\nand nine-tenths bushels of wheat on the average are raised per acre. It would take\nthe product of some 470,000 acres just to provide a single slice of bread to be wasted\ndaily in every home.\nBut someone says, ‘a full slice of bread is not wasted in every home.’ Very well,\nmake it a daily slice for every four or every ten or every thirty homes—make it a\nweekly or monthly slice in every home—or make the wasted slice thinner. The waste\nof our involved is still appalling. These are gures compiled by government experts,\nand they should give pause to every housekeeper who permits a slice of bread to be\nwasted in her home.’"
   },
   "test_7_P37": {
     "id": "test_7_P37",
     "subject": "Verbal Reasoning",
     "title": "Passage 37",
-    "text": "At the election of President and Vice President of the United States, and\nmembers of Congress, in November, 1872, Susan B. Anthony, and several other\nwomen, oﬀered their votes to the inspectors of election, claiming the right to vote, as\namong the privileges and immunities secured to them as citizens by the fourteenth\namendment to the Constitution of the United States. The inspectors, Jones, Hall, and\nMarsh, by a majority, decided in favour of receiving the oﬀered votes, against the\ndissent of Hall, and they were received and deposited in the ballot box. For this act,\nthe women, fourteen in number, were arrested and held to bail, and indictments\nwere found against them, under the 19th Section of the Act of Congress of May 30th,\n1870, (16 St. at L. 144.) independently charging them with the oﬀence of knowingly\nvoting without having a lawful right to vote. The three inspectors were also arrested,\nbut only two of them were held to bail, Hall having been discharged by the\nCommissioner on whose warrant they were arrested. All three, however were jointly\nindicted under the same statute—for having knowingly and wilfully received the\nvotes of persons not entitled to vote.\nOf the women voters, the case of Miss Anthony alone was brought to trial, a nolle\nprosequi having been entered upon the other indictments. Upon the trial of Miss\nAnthony before the U.S. Circuit Court for the Northern District of New York, at\nCanandaigua, in June, 1873, it was proved that before oﬀering her vote she was\nadvised by her counsel that she had a right to vote; and that she entertained no\ndoubt, at the time of voting, that she was entitled to vote."
+    "text": "At the election of President and Vice President of the United States, and\nmembers of Congress, in November, 1872, Susan B. Anthony, and several other\nwomen, oﬀered their votes to the inspectors of election, claiming the right to vote, as\namong the privileges and immunities secured to them as citizens by the fourteenth\namendment to the Constitution of the United States. The inspectors, Jones, Hall, and\nMarsh, by a majority, decided in favour of receiving the oﬀered votes, against the\ndissent of Hall, and they were received and deposited in the ballot box. For this act,\nthe women, fourteen in number, were arrested and held to bail, and indictments\nwere found against them, under the 19th Section of the Act of Congress of May 30th,\n1870, (16 St. at L. 144.) independently charging them with the oﬀence of knflflowingly\nvoting without having a lawful right to vote. The three inspectors were also arrested,\nbut only two of them were held to bail, Hall having been discharged by the\nCommissioner on whose warrant they were arrested. All three, however were jointly\nindicted under the same statute—for having knflflowingly and wilfully received the\nvotes of persons not entitled to vote.\nOf the women voters, the case of Miss Anthony alone was brought to trial, a nolle\nprosequi having been entered upon the other indictments. Upon the trial of Miss\nAnthony before the U.S. Circuit Court for the Northern District of New York, at\nCanandaigua, in June, 1873, it was proved that before oﬀering her vote she was\nadvised by her counsel that she had a right to vote; and that she entertained no\ndoubt, at the time of voting, that she was entitled to vote."
   },
   "test_7_P38": {
     "id": "test_7_P38",
     "subject": "Verbal Reasoning",
     "title": "Passage 38",
-    "text": "The following is taken from a book about Norway published in 1909:\n‘In a country like Norway, with its vast forests and waste moorlands, it is only\nnatural to nd a considerable variety of animals and birds. Some of these are\npeculiar to Scandinavia. Some, though only occasionally found in the British Isles, are\nnot rare in Norway; whilst others (more especially among the birds) are equally\ncommon in both countries.\nThere was a time when the people of England lived in a state of fear and dread of\nthe ravages of wolves and bears, and the Norwegians of the country districts even\nnow have to guard their ocks and herds from these destroyers. Except in the forest\ntracts of the Far North, however, bears are not numerous, but in some parts, even in\nthe South, they are suﬃciently so to be a nuisance, and are ruthlessly hunted down\nby the farmers. As far as wolves are concerned civilisation is, fortunately, driving\nthem farther aeld each year, and only in the most out-of-the-way parts are they ever\nencountered nowadays. Stories of packs of hungry wolves following in the wake of a\nsleigh are still told to the children in Norway, but they relate to bygone times—half a\ncentury or more ago, and such wild excitements no longer enter into the Norsemen’s\nlives.’"
+    "text": "The following is taken from a book about Norway published in 1909:\n‘In a country like Norway, with its vast forests and waste moorlands, it is only\nnatural to find a considerable variety of animals and birds. Some of these are\npeculiar to Scandinavia. Some, though only occasionally found in the British Isles, are\nnot rare in Norway; whilst others (more especially among the birds) are equally\ncommon in both countries.\nThere was a time when the people of England lived in a state of fear and dread of\nthe ravages of wolves and bears, and the Norwegians of the country districts even\nnow have to guard their flocks and herds from these destroyers. Except in the forest\ntracts of the Far North, however, bears are not numerous, but in some parts, even in\nthe South, they are suﬃciently so to be a nuisance, and are ruthlessly hunted down\nby the farmers. As far as wolves are concerned civilisation is, fortunately, driving\nthem farther aeld each year, and only in the most out-of-the-way parts are they ever\nencountered nowadays. Stories of packs of hungry wolves following in the wake of a\nsleigh are still told to the children in Norway, but they relate to bygone times—half a\ncentury or more ago, and such wild excitements no longer enter into the Norsemen’s\nlives.’"
   },
   "test_7_P39": {
     "id": "test_7_P39",
     "subject": "Verbal Reasoning",
     "title": "Passage 39",
-    "text": "The following extract is taken from Freud’s book ‘Dream Psychology:\nPsychoanalysis for Beginners’\nIn what we may term pre-scientic days, people were in no uncertainty about the\ninterpretation of dreams. When they were recalled after awakening they were\nregarded as either the friendly or hostile manifestation of some higher powers,\ndemoniacal and divine. With the rise of scientic thought the whole of this expressive\nmythology was transferred to psychology; today there is but a small minority among\neducated persons who doubt that the dream is the dreamer’s own psychical act.\nBut since the downfall of the mythological hypothesis an interpretation of the\ndream has been wanting. The conditions of its origin; its relationship to our psychical\nlife when we are awake; its independence of disturbances which, during the state of\nsleep, seem to compel notice; its many peculiarities repugnant to our waking\nthought; the incongruence between its images and the feelings they engender; then\nthe dream’s evanescence, the way in which, on awakening, our thoughts thrust it\naside as something bizarre, and our reminiscences mutilating or rejecting it—all\nthese and many other problems have for many hundred years demanded answers\nwhich up till now could never have been satisfactory. Before all there is the question\nas to the meaning of the dream, a question that is in itself double-sided. There is,\nrstly, the psychical signicance of the dream, its position with regard to the\npsychical processes, as to a possible biological function; secondly, has the dream a\nmeaning—can sense be made of each single dream as of other mental syntheses?"
+    "text": "The following extract is taken from Freud’s book ‘Dream Psychology:\nPsychoanalysis for Beginners’\nIn what we may term pre-scientic days, people were in no uncertainty about the\ninterpretation of dreams. When they were recalled after awakening they were\nregarded as either the friendly or hostile manifestation of some higher powers,\ndemoniacal and divine. With the rise of scientic thought the whole of this expressive\nmythology was transferred to psychology; today there is but a small minority among\neducated persons who doubt that the dream is the dreamer’s own psychical act.\nBut since the downfall of the mythological hypothesis an interpretation of the\ndream has been wanting. The conditions of its origin; its relationship to our psychical\nlife when we are awake; its independence of disturbances which, during the state of\nsleep, seem to compel notice; its many peculiarities repugnant to our waking\nthought; the incongrflfluence between its images and the feelings they engender; then\nthe dream’s evanescence, the way in which, on awakening, our thoughts thrust it\naside as something bizarre, and our reminiscences mutilating or rejecting it—all\nthese and many other problems have for many hundred years demanded answers\nwhich up till now could never have been satisfactory. Before all there is the question\nas to the meaning of the dream, a question that is in itself double-sided. There is,\nrstly, the psychical signicance of the dream, its position with regard to the\npsychical processes, as to a possible biological function; secondly, has the dream a\nmeaning—can sense be made of each single dream as of other mental syntheses?"
   },
   "test_7_P40": {
     "id": "test_7_P40",
     "subject": "Verbal Reasoning",
     "title": "Passage 40",
-    "text": "Most of the colonists who lived along the American seaboard in 1750 were the\ndescendants of immigrants who had come in fully a century before; after the rst\nsettlements there had been much less fresh immigration than many latter-day\nwriters have assumed. According to Prescott F. Hall, “the population of New England\n… at the date of the Revolutionary War … was produced out of an immigration of\nabout 20,000 persons who arrived before 1640,” and we have Franklin’s authority for\nthe statement that the total population of the colonies in 1751, then about 1,000,000,\nhad been produced from an original immigration of less than 80,000. Even at that\nearly day, indeed, the colonists had begun to feel that they were distinctly separated,\nin culture and customs, from the mother-country and there were signs of the rise of a\nnew native aristocracy, entirely distinct from the older aristocracy of the royal\ngovernors’ courts. The enormous diﬃculties of communication with England helped\nto foster this sense of separation. The round trip across the ocean occupied the better\npart of a year, and was hazardous and expensive; a colonist who had made it was a\nmarked man—as Hawthorne said, “the petit maître of the colonies.” Nor was there\nany very extensive exchange of ideas, for though most of the books read in the\ncolonies came from England, the great majority of the colonists, down to the middle\nof the century, seem to have read little save the Bible and biblical commentaries, and\nin the native literature of the time one seldom comes upon any reference to the\nEnglish authors who were glorifying the period of the Restoration and the reign of\nAnne."
+    "text": "Most of the colonists who lived along the American seaboard in 1750 were the\ndescendants of immigrants who had come in fully a century before; after the first\nsettlements there had been much less fresh immigration than many latter-day\nwriters have assumed. According to Prescott F. Hall, “the population of New England\n… at the date of the Revolutionary War … was produced out of an immigration of\nabout 20,000 persons who arrived before 1640,” and we have Franklin’s authority for\nthe statement that the total population of the colonies in 1751, then about 1,000,000,\nhad been produced from an original immigration of less than 80,000. Even at that\nearly day, indeed, the colonists had begun to feel that they were distinctly separated,\nin culture and customs, from the mother-country and there were signs of the rise of a\nnew native aristocracy, entirely distinct from the older aristocracy of the royal\ngovernors’ courts. The enormous difficulties of communication with England helped\nto foster this sense of separation. The round trip across the ocean occupied the better\npart of a year, and was hazardous and expensive; a colonist who had made it was a\nmarked man—as Hawthorne said, “the petit maître of the colonies.” Nor was there\nany very extensive exchange of ideas, for though most of the books read in the\ncolonies came from England, the great majority of the colonists, down to the middle\nof the century, seem to have read little save the Bible and biblical commentaries, and\nin the native literature of the time one seldom comes upon any reference to the\nEnglish authors who were glorifying the period of the Restoration and the reign of\nAnne."
   },
   "test_7_P41": {
     "id": "test_7_P41",
     "subject": "Verbal Reasoning",
     "title": "Passage 41",
-    "text": "In discussing Russia’s role in the past World War, it is customary to cite the losses\nsustained by the Russian Army, losses running into many millions. There is no doubt\nthat Russia’s sacrices were great, and it is just as true that her losses were greater\nthan those sustained by any of the other Allies. Nevertheless, these sacrices are by\nfar not the only standard of measurement of Russia’s participation in this gigantic\nstruggle. Russia’s role must be gauged, first of all, by the eﬀorts made by the Russian\nArmy to blast the German war plans during the first years of the War, when neither\nAmerica, nor Italy, nor Romania were among the belligerents, and the British Army\nwas still in the process of formation.\n[Secondly], and this is the main thing, the role played by the Russian Army must\nbe considered also in this respect that the strenuous campaign waged by Russia,\nwith her 180 millions of inhabitants, for three years against Germany, Austro-\nHungary and Turkey, sapped the resources of the enemy and thereby made possible\nthe delivery of the nal blow. This weakening of the powers of the enemy by Russia\nwas already bound at various stages of the War to facilitate correspondingly the\nvarious operations of the Allies. Therefore, at the end of the War, three years of eﬀort\non the part of Russia had devoured the enemy’s forces, enabling the Allies to nally\ncrush the enemy. The nal catastrophe of the Central Powers was the direct\nconsequence of the oﬀensive of the Allies in 1918, but Russia made possible this\ncollapse to a considerable degree, having eﬀected, in common with the others, the\nweakening of Germany, and having consumed during the three years of strenuous\nghting countless reserves, forces, and resources of the Central Powers.\nCould Germany have won the War? A careful analysis of this question brings\nhome the conviction that Germany was very close to victory, and that it required\nunusual straining of eﬀorts on the part of France and Russia to prevent Germany\nfrom “winning out.”"
+    "text": "In discussing Russia’s role in the past World War, it is customary to cite the losses\nsustained by the Russian Army, losses running into many millions. There is no doubt\nthat Russia’s sacrices were great, and it is just as true that her losses were greater\nthan those sustained by any of the other Allies. Nevertheless, these sacrices are by\nfar not the only standard of measurement of Russia’s participation in this gigantic\nstruggle. Russia’s role must be gauged, first of all, by the eﬀorts made by the Russian\nArmy to blast the German war plans during the first years of the War, when neither\nAmerica, nor Italy, nor Romania were among the belligerents, and the British Army\nwas still in the process of formation.\n[Secondly], and this is the main thing, the role played by the Russian Army must\nbe considered also in this respect that the strenuous campaign waged by Russia,\nwith her 180 millions of inhabitants, for three years against Germany, Austro-\nHungary and Turkey, sapped the resources of the enemy and thereby made possible\nthe delivery of the nal blow. This weakening of the powers of the enemy by Russia\nwas already bound at various stages of the War to facilitate correspondingly the\nvarious operations of the Allies. Therefore, at the end of the War, three years of eﬀort\non the part of Russia had devoured the enemy’s forces, enabling the Allies to nally\ncrush the enemy. The nal catastrophe of the Central Powers was the direct\nconseqflfluence of the oﬀensive of the Allies in 1918, but Russia made possible this\ncollapse to a considerable degree, having effected, in common with the others, the\nweakening of Germany, and having consumed during the three years of strenuous\nfighting countless reserves, forces, and resources of the Central Powers.\nCould Germany have won the War? A careful analysis of this question brings\nhome the conviction that Germany was very close to victory, and that it required\nunusual straining of eﬀorts on the part of France and Russia to prevent Germany\nfrom “winning out.”"
   },
   "test_7_P42": {
     "id": "test_7_P42",
     "subject": "Verbal Reasoning",
     "title": "Passage 42",
-    "text": "We freeze some moments in time. Every culture has its’ frozen moments, events\nso important and personal that they transcend the normal ow of news.\nAmericans of a certain age, for example, know precisely where they were and\nwhat they were doing when they learned that President Franklin D. Roosevelt had\ndied. Another generation has absolute clarity of John F. Kennedy’s assassination. And\nno one who was older than a baby on 11th September, 2001, will ever forget hearing\nabout, or seeing, aeroplanes ying into skyscrapers.\nIn 1945, people gathered around radios for the immediate news and stayed with\nthe radio to hear more about their fallen leader and about the man who took his\nplace. Newspapers printed extra editions and lled their columns with detail for days\nand weeks afterward. Magazines stepped back from the breaking news and oﬀered\nperspective.\n11th September, 2001, followed a similarly grim pattern. We watched again and\nagain the awful events. Consumers of news learned about the attacks, thanks to the\ntelevision networks that showed the horror so graphically. Then we learned some of\nthe how’s and why’s, as print publications and thoughtful broadcasters worked to\nbring depth to events that deed mere words. Journalists did some of their nest\nwork and made me proud to be one of them.\nBut something else, something profound, was happening this time around: news\nwas being produced by regular people who had something to say and show, and not\nsolely by the “oﬃcial” news organisations that had traditionally decided how the rst\ndraft of history would look. This time, the first draft of history was being written in\npart, by the former audience. It was possible, it was inevitable, because of new\npublishing tools available on the Internet."
+    "text": "We freeze some moments in time. Every culture has its’ frozen moments, events\nso important and personal that they transcend the normal ow of news.\nAmericans of a certain age, for example, know precisely where they were and\nwhat they were doing when they learned that President Franklin D. Roosevelt had\ndied. Another generation has absolute clarity of John F. Kennedy’s assassination. And\nno one who was older than a baby on 11th September, 2001, will ever forget hearing\nabout, or seeing, aeroplanes flying into skyscrapers.\nIn 1945, people gathered around radios for the immediate news and stayed with\nthe radio to hear more about their fallen leader and about the man who took his\nplace. Newspapers printed extra editions and filled their columns with detail for days\nand weeks afterward. Magazines stepped back from the breaking news and oﬀered\nperspective.\n11th September, 2001, followed a similarly grim pattern. We watched again and\nagain the awful events. Consumers of news learned about the attacks, thanks to the\ntelevision networks that showed the horror so graphically. Then we learned some of\nthe how’s and why’s, as print publications and thoughtful broadcasters worked to\nbring depth to events that deed mere words. Journalists did some of their nest\nwork and made me proud to be one of them.\nBut something else, something profound, was happening this time around: news\nwas being produced by regular people who had something to say and show, and not\nsolely by the “oﬃcial” news organisations that had traditionally decided how the first\ndraft of history would look. This time, the first draft of history was being written in\npart, by the former audience. It was possible, it was inevitable, because of new\npublishing tools available on the Internet."
   },
   "test_7_P43": {
     "id": "test_7_P43",
     "subject": "Verbal Reasoning",
     "title": "Passage 43",
-    "text": "There is nothing in England today with which we can compare the life of a fully\nenfranchised borough of the fteenth century. The town of those earlier days, in fact,\ngoverned itself after the fashion of a little principality. Within the bounds which the\nmayor and citizens dened with perpetual insistence in their formal perambulation\nyear after year, it carried on its isolated self-dependent life.\nThe inhabitants defended their own territory, built and maintained their walls\nand towers, armed their own soldiers, trained them for service and held reviews of\ntheir forces at appointed times. They elected their own rulers and oﬃcials in\nwhatever way they chose to adopt, and distributed among oﬃcers and councillors\njust such powers of legislation and administration as seemed good in their eyes. They\ndrew up formal constitutions for the government of the community, and as time\nbrought new problems and responsibilities, more were made, re-made and revised\nagain; their ordinances with restless and fertile ingenuity, till they had made of their\nconstitution a various medley of fundamental doctrines and general precepts and\nparticular rules, somewhat after the fashion of an American state of modern times.\nIn all concerns of trade, they exercised the widest powers, and bargained and\nnegotiated and made laws as nations do on a grander scale today. They could\ncovenant and confederate, buy and sell, deal and traﬃc after their own will; they\ncould draw up formal treaties with other boroughs, and could admit them to or shut\nthem out from all the privileges of their commerce; they might pass laws of\nprotection or try experiments in free trade. Often, their authority stretched out over a\nwide district, and surrounding villages gathered to their markets and obeyed their\nlaws; it might even happen in the case of a staple town that their oﬃcers controlled\nthe main foreign trade of whole provinces."
+    "text": "There is nothing in England today with which we can compare the life of a fully\nenfranchised borough of the fteenth century. The town of those earlier days, in fact,\ngoverned itself after the fashion of a little principality. Within the bounds which the\nmayor and citizens defined with perpetual insistence in their formal perambulation\nyear after year, it carried on its isolated self-dependent life.\nThe inhabitants defended their own territory, built and maintained their walls\nand towers, armed their own soldiers, trained them for service and held reviews of\ntheir forces at appointed times. They elected their own rulers and oﬃcials in\nwhatever way they chose to adopt, and distributed among officers and councillors\njust such powers of legislation and administration as seemed good in their eyes. They\ndrew up formal constitutions for the government of the community, and as time\nbrought new problems and responsibilities, more were made, fire-made and revised\nagain; their ordinances with restless and fertile ingenuity, till they had made of their\nconstitution a various medley of fundamental doctrines and general precepts and\nparticular rules, somewhat after the fashion of an American state of modern times.\nIn all concerns of trade, they exercised the widest powers, and bargained and\nnegotiated and made laws as nations do on a grander scale today. They could\ncovenant and confederate, buy and sell, deal and traﬃc after their own will; they\ncould draw up formal treaties with other boroughs, and could admit them to or shut\nthem out from all the privileges of their commerce; they might pass laws of\nprotection or try experiments in free trade. Often, their authority stretched out over a\nwide district, and surrounding villages gathered to their markets and obeyed their\nlaws; it might even happen in the case of a staple town that their officers controlled\nthe main foreign trade of whole provinces."
   },
   "test_7_P44": {
     "id": "test_7_P44",
     "subject": "Verbal Reasoning",
     "title": "Passage 44",
-    "text": "Nowhere is the inuence of sex more plainly manifested than in the formulation\nof religious conceptions and creeds. With the rise of male power and dominion, and\nthe corresponding repression of the natural female instincts, the principles that\noriginally constituted the God-idea gradually gave place to a Deity better suited to\nthe peculiar bias that had been given to the male organism. An anthropomorphic\nGod, like that of the Jews, whose chief attributes are power and virile, could have had\nits origin only under a system of masculine rule.\nReligion is especially liable to reect the vagaries and weaknesses of human\nnature; and, as the forms and habits of thought connected with worship take a\nrmer hold on the mental constitution than do those belonging to any other\ndepartment of human experience. Religious conceptions should be subjected to\nfrequent and careful examination in order to perceive, if possible, the extent to which\nwe are holding on to ideas which are unsuited to existing conditions.\nIn an age when every branch of inquiry is being subjected to reasonable criticism,\nit would seem that the origin and growth of religion should be investigated from\nbeneath the surface and that all the facts bearing upon it should be brought forward\nas a contribution to our fund of general information. As well might we hope to gain a\ncomplete knowledge of human history by studying only the present aspect of society,\nas to expect to reach reasonable conclusions respecting the prevailing God-idea by\ninvestigating the various creeds and dogmas of existing faiths."
+    "text": "Nowhere is the inflfluence of sex more plainly manifested than in the formulation\nof religious conceptions and creeds. With the rise of male power and dominion, and\nthe corresponding repression of the natural female instincts, the principles that\noriginally constituted the God-idea gradually gave place to a Deity better suited to\nthe peculiar bias that had been given to the male organism. An anthropomorphic\nGod, like that of the Jews, whose chief attributes are power and virile, could have had\nits origin only under a system of masculine rule.\nReligion is especially liable to reect the vagaries and weaknesses of human\nnature; and, as the forms and habits of thought connected with worship take a\nrmer hold on the mental constitution than do those belonging to any other\ndepartment of human experience. Religious conceptions should be subjected to\nfrequent and careful examination in order to perceive, if possible, the extent to which\nwe are holding on to ideas which are unsuited to existing conditions.\nIn an age when every branch of inquiry is being subjected to reasonable criticism,\nit would seem that the origin and growth of religion should be investigated from\nbeneath the surface and that all the facts bearing upon it should be brought forward\nas a contribution to our fund of general information. As well might we hope to gain a\ncomplete knowledge of human history by studying only the present aspect of society,\nas to expect to reach reasonable conclusions respecting the prevailing God-idea by\ninvestigating the various creeds and dogmas of existing faiths."
   },
   "test_7_P45": {
     "id": "test_7_P45",
@@ -349,7 +345,7 @@ const PASSAGES = {
     "id": "test_7_P47",
     "subject": "Verbal Reasoning",
     "title": "Passage 47",
-    "text": "The law of benets is a difficult channel, which requires careful sailing or rude\nboats. It is not the oﬃce of a man to receive gifts. How dare you give them? We wish\nto be self-sustained. We do not quite forgive a forgiver. The hand that feeds us is in\nsome danger of being bitten. We can receive anything from love, for that is a way of\nreceiving it from ourselves (hence the tness of beautiful, not useful things for a gift);\nbut not from anyone who assumes to bestow. We sometimes hate the meat that we\neat, because there seems something of degrading dependence in living by it.\nHe is a good man, who can receive a gift well. We are either glad or sorry at a gift,\nand both emotions are unbecoming. Some violence, I think, is done, some\ndegradation borne, when I rejoice or grieve at a gift. I am sorry when my\nindependence is invaded, or when a gift comes from such as do not know my spirit,\nand so the act is not supported; and if the gift pleases me overmuch, then I should be\nashamed that the donor should read my heart and see that I love his commodity,\nand not him.\nThis giving is at usurpation, and therefore, when the beneciary is ungrateful, as\nall beneciaries hate all Timons, not at all considering the value of the gift, but\nlooking back to the greater store it was taken from, I rather sympathise with the\nbeneciary than with the anger of my lord, Timon. For, the expectation of gratitude is\nmean and is continually punished by the total insensibility of the obliged person."
+    "text": "The law of benefits is a difficult channel, which requires careful sailing or rude\nboats. It is not the office of a man to receive gifts. How dare you give them? We wish\nto be self-sustained. We do not quite forgive a forgiver. The hand that feeds us is in\nsome danger of being bitten. We can receive anything from love, for that is a way of\nreceiving it from ourselves (hence the tness of beautiful, not useful things for a gift);\nbut not from anyone who assumes to bestow. We sometimes hate the meat that we\neat, because there seems something of degrading dependence in living by it.\nHe is a good man, who can receive a gift well. We are either glad or sorry at a gift,\nand both emotions are unbecoming. Some violence, I think, is done, some\ndegradation borne, when I rejoice or grieve at a gift. I am sorry when my\nindependence is invaded, or when a gift comes from such as do not know my spirit,\nand so the act is not supported; and if the gift pleases me overmuch, then I should be\nashamed that the donor should read my heart and see that I love his commodity,\nand not him.\nThis giving is at usurpation, and therefore, when the beneciary is ungrateful, as\nall beneciaries hate all Timons, not at all considering the value of the gift, but\nlooking back to the greater store it was taken from, I rather sympathise with the\nbeneciary than with the anger of my lord, Timon. For, the expectation of gratitude is\nmean and is continually punished by the total insensibility of the obliged person."
   },
   "test_7_P48": {
     "id": "test_7_P48",
@@ -361,7 +357,7 @@ const PASSAGES = {
     "id": "test_7_P49",
     "subject": "Verbal Reasoning",
     "title": "Passage 49",
-    "text": "That marriage is a failure none but the very stupid will deny. One has but to\nglance over the statistics of divorce to realise how bitter a failed marriage really is.\nNor will the stereotyped Philistine argument that the laxity of divorce laws and the\ngrowing looseness of women account for the fact that: rst, every twelfth marriage\nends in divorce; second, that since 1870 divorces have increased from 28 to 73 for\nevery hundred thousand population; third, that adultery, since 1867, as ground for\ndivorce, has increased 270.8 percent; fourth, that desertion increased 369.8 percent.\nHenrik Ibsen, the hater of all social shams, was probably the first to realize this\ngreat truth. Nora leaves her husband, not as the stupid critic would have it, because\nshe is tired of her responsibilities or feels the need of woman’s rights, but because she\nhas come to know that for eight years she had lived with a stranger and borne him\nchildren. The moral lesson instilled in the girl is not whether the man has aroused her\nlove, but rather is it, “How much?” The important and only God of practical\nAmerican life: Can the man make a living? Can he support a wife? That is the only\nthing that justies marriage. Gradually, this saturates every thought of the girl; her\ndreams are not of moonlight and kisses, of laughter and tears; she dreams of\nshopping tours and bargain counters. Can there be anything more humiliating, more\ndegrading than a life-long proximity between two strangers? No need for the woman\nto know anything of the man, save his income. As to the knowledge of the woman—\nwhat is there to know except that she has a pleasing appearance?"
+    "text": "That marriage is a failure none but the very stupid will deny. One has but to\nglance over the statistics of divorce to realise how bitter a failed marriage really is.\nNor will the stereotyped Philistine argument that the laxity of divorce laws and the\ngrflflowing looseness of women account for the fact that: first, every twelfth marriage\nends in divorce; second, that since 1870 divorces have increased from 28 to 73 for\nevery hundred thousand population; third, that adultery, since 1867, as ground for\ndivorce, has increased 270.8 percent; fourth, that desertion increased 369.8 percent.\nHenrik Ibsen, the hater of all social shams, was probably the first to realize this\ngreat truth. Nora leaves her husband, not as the stupid critic would have it, because\nshe is tired of her responsibilities or feels the need of woman’s rights, but because she\nhas come to know that for eight years she had lived with a stranger and borne him\nchildren. The moral lesson instilled in the girl is not whether the man has aroused her\nlove, but rather is it, “How much?” The important and only God of practical\nAmerican life: Can the man make a living? Can he support a wife? That is the only\nthing that justies marriage. Gradually, this saturates every thought of the girl; her\ndreams are not of moonlight and kisses, of laughter and tears; she dreams of\nshopping tours and bargain counters. Can there be anything more humiliating, more\ndegrading than a life-long proximity between two strangers? No need for the woman\nto know anything of the man, save his income. As to the knowledge of the woman—\nwhat is there to know except that she has a pleasing appearance?"
   },
   "test_7_P50": {
     "id": "test_7_P50",
@@ -373,13 +369,13 @@ const PASSAGES = {
     "id": "test_11_P1",
     "subject": "Verbal Reasoning",
     "title": "Passage  1",
-    "text": "The daughter of a leader of the movement that led to Burmese independence in 1948, Aung San Suu Kyi spent much of her early adulthood studying at UK universities and working for nongov- ernmental organisations, including the United Nations, where fellow Burma native U Thant was Secretary-General. After her mother suffered a severe stroke in 1988, Suu Kyi returned to Rangoon to care for her, and became a leader of the popular resistance to the ruling military junta's brutal suppression of the 8th August protests, which resulted in the killing of thousands of civilians. In the aftermath of this violence, the National League for Democracy (NLD) was founded, with Suu Kyi as its leader. Despite a ban on her involvement, the NLD won 82% of seats in Burma's parliament in the 1990 elections, meaning that Suu Kyi (as head of the party) should have become prime minister. However, the military junta-whose repressive rule lasted from 1962 until the formal dissolution of the junta in 2011, following the election of a civilian government amidst allegations of military- backed fraud in 2010-ensured that Suu Kyi never became prime minister. Suu Kyi was placed under house arrest for nearly 20 years, starting in 1989 and continuing until the week after the 2010 elections, with only a few short breaks in which her movements were severely restricted and continuously monitored. Aung San Suu Kyi was awarded the Nobel Peace Prize in 1991, but could not travel to Oslo to collect the prize, as she would not have been allowed to return to Burma. For this same reason, Suu Kyi was unable to travel to London when invited to give a series of lectures on democracy and freedom for the BBC in 2011. Instead, producers secretly recorded the lectures in Burma, and Suu Kyi and the BBC did not announce her involvement until the producers and the recordings had safely left the country. Suu Kyi was elected to the parliament of Myanmar (as the junta had re-named Burma) in 2012 and took her seat that year, when she was also finally able to give her Nobel acceptance speech in Oslo. Suu Kyi plans to run for the presidency of Myanmar in 2015."
+    "text": "The daughter of a leader of the movement that led to Burmese independence in 1948, Aung San Suu Kyi spent much of her early adulthood studying at UK universities and working for nongov- ernmental organisations, including the United Nations, where fellow Burma native U Thant was Secretary-General. After her mother suffered a severe stroke in 1988, Suu Kyi returned to Rangoon to care for her, and became a leader of the popular resistance to the ruling military junta's brutal suppression of the 8th August protests, which resulted in the killing of thousands of civilians. In the aftermath of this violence, the National League for Democracy (NLD) was founded, with Suu Kyi as its leader. Despite a ban on her involvement, the NLD won 82% of seats in Burma's parliament in the 1990 elections, meaning that Suu Kyi (as head of the party) should have become prime minister. However, the military junta-whose repressive rule lasted from 1962 until the formal dissolution of the junta in 2011, follflowing the election of a civilian government amidst allegations of military- backed fraud in 2010-ensured that Suu Kyi never became prime minister. Suu Kyi was placed under house arrest for nearly 20 years, starting in 1989 and continuing until the week after the 2010 elections, with only a few short breaks in which her movements were severely restricted and continuously monitored. Aung San Suu Kyi was awarded the Nobel Peace Prize in 1991, but could not travel to Oslo to collect the prize, as she would not have been allowed to return to Burma. For this same reason, Suu Kyi was unable to travel to London when invited to give a series of lectures on democracy and freedom for the BBC in 2011. Instead, producers secretly recorded the lectures in Burma, and Suu Kyi and the BBC did not announce her involvement until the producers and the recordings had safely left the country. Suu Kyi was elected to the parliament of Myanmar (as the junta had fire-named Burma) in 2012 and took her seat that year, when she was also finally able to give her Nobel acceptance speech in Oslo. Suu Kyi plans to run for the presidency of Myanmar in 2015."
   },
   "test_11_P2": {
     "id": "test_11_P2",
     "subject": "Verbal Reasoning",
     "title": "Passage  2",
-    "text": "Last night's meeting of the county council saw spirited, and, at times, heated debate over the coun- cil's decision last month to approve the construction of a supermarket on the site of the village car park in Hiddlesfield. Shopkeepers are particularly concerned about the loss in trade that may result from the opening of a national supermarket in a village of Hiddlesfield's size. The fishmonger suggested that the council learn the lesson of Aldersham, the neighbouring village, where the council allowed a national supermarket to be built three years ago. Within three months of the supermarket opening, half of the shops in Aldersham's high street had shut, due to the loss in foot traffic. In response, a councillor pointed out that the supermarket had brought dozens of jobs to Aldersham, along with many conveniences and products not previously available in the village. Hiddlesfield's butcher also spoke very forcefully against the supermarket. She argued that its beef and lamb are sourced from Wales and Ireland, rather than the local farms that her shop favours. The butcher said that the cost to the local economy is far greater than the potential loss of shops on the high street, when the consequences to businesses in the county at large are considered."
+    "text": "Last night's meeting of the county council saw spirited, and, at times, heated debate over the coun- cil's decision last month to approve the construction of a supermarket on the site of the village car park in Hiddlesfield. Shopkeepers are particularly concerned about the loss in trade that may result from the opening of a national supermarket in a village of Hiddlesfield's size. The fishmonger suggested that the council learn the lesson of Aldersham, the neighbouring village, where the council allowed a national supermarket to be built three years ago. Within three months of the supermarket opening, half of the shops in Aldersham's high street had shut, due to the loss in foot traffic. In response, a councillor pointed out that the supermarket had brought dozens of jobs to Aldersham, along with many conveniences and products not previously available in the village. Hiddlesfield's butcher also spoke very forcefully against the supermarket. She argued that its beef and lamb are sourced from Wales and Ireland, rather than the local farms that her shop favours. The butcher said that the cost to the local economy is far greater than the potential loss of shops on the high street, when the conseqfluences to businesses in the county at large are considered."
   },
   "test_11_P3": {
     "id": "test_11_P3",
@@ -397,7 +393,7 @@ const PASSAGES = {
     "id": "test_11_P5",
     "subject": "Verbal Reasoning",
     "title": "Passage  5",
-    "text": "In the last few years, the UK has launched a campaign to conserve water, asking citizens to find small ways to reduce the amount of water they use on a daily basis. The average person in England and Wales currently uses 150 litres of water per day, the equivalent of 264 pints of milk. Most of this water is expended in washing and toilet flushing; in fact, water use has increased by 50% in the last 50 years due to new technological developments. Those numbers are on the rise; the need for fresh water is expected to increase by 30% when the population exceeds 8 billion, which is projected to happen in the next 20 years. The government's goal is to decrease per capita water usage by 20 litres per day. This is easier than most people imagine. For example, turning off the tap while brushing your teeth and cutting down shower time by one minute saves 15 litres of water a day. Still, the problem is much bigger than these smaller conservation efforts. New studies estimate that UK consumers only see about 3% of the water usage they are responsible for. This is because of what environmental scientists term embedded water, the total amount of water necessary to pro- duce the things we use on a daily basis. For example, a pint of beer contains 74 litres of embedded water, expended in growing the ingredients and running the processes that make the beer. A cup of coffee is worse; its embedded water content is about 140 litres. A cotton T-shirt embeds about 2,000 litres. Many developing countries currently use a large portion of their limited water resources for crops that they export to developed nations. Thus, the problem of embedded water raises many additional questions about how to really impact water conservation, both at home and abroad."
+    "text": "In the last few years, the UK has launched a campaign to conserve water, asking citizens to find small ways to reduce the amount of water they use on a daily basis. The average person in England and Wales currently uses 150 litres of water per day, the equivalent of 264 pints of milk. Most of this water is expended in washing and toilet flushing; in fact, water use has increased by 50% in the last 50 years due to new technological developments. Those numbers are on the rise; the need for fresh water is expected to increase by 30% when the population exceeds 8 billion, which is projected to happen in the next 20 years. The government's goal is to decrease per capita water usage by 20 litres per day. This is easier than most people imagine. For example, turning off the tap while brushing your teeth and cutting down shower time by one minute saves 15 litres of water a day. Still, the problem is much bigger than these smaller conservation efforts. New studies estimate that UK consumers only see about 3% of the water usage they are responsible for. This is because of what environmental scientists term embedded water, the total amount of water necessary to pro- duce the things we use on a daily basis. For example, a pint of beer contains 74 litres of embedded water, expended in grflowing the ingredients and running the processes that make the beer. A cup of coffee is worse; its embedded water content is about 140 litres. A cotton T-shirt embeds about 2,000 litres. Many developing countries currently use a large portion of their limited water resources for crops that they export to developed nations. Thus, the problem of embedded water raises many additional questions about how to really impact water conservation, both at home and abroad."
   },
   "test_11_P6": {
     "id": "test_11_P6",
@@ -409,7 +405,7 @@ const PASSAGES = {
     "id": "test_11_P7",
     "subject": "Verbal Reasoning",
     "title": "Passage  7",
-    "text": "In the mid-nineteenth century, the French novelist Emile Zola announced to his publisher that he was embarking on a cycle of novels in the style of Balzac that would explore various aspects of life in France during the Second Empire. Unlike La Comédie Humaine, though, Zola's cycle would focus its attentions on one family, allowing Zola to explore his strong interests in heredity, evolu- tion and genealogy at the same time as he offered a literary account of the Second Empire. What resulted was Zola's twenty-novel cycle, collectively known as Les Rougon-Macquart and subtitled Histoire naturelle et sociale d'une famille sous le Second Empire ('Natural and social history of a family during the second empire'). Zola's work in these novels established his reputation as a pre-eminent proponent of naturalism, a literary movement that emphasised the harsh realities of life through a frank, if pessimistic, depiction of subject matter such as sexuality, corruption and disease that had previously been considered too sordid to be included in literature. Almost all of the protagonists of the Rougon-Macquart family are introduced in Zola's first novel, La Fortune des Rougon. The family centres on Adelaide Fouque, a middle-class French woman from Provence with a slight mental deficiency, and her three children: Pierre Rougon, the legitimate child from her marriage to Rougon, and Antoine and Ursule Macquart, illegitimate children by her lover, the smuggler Macquart. With Adelaide at the centre-point, the novel explores the three strands of her family: the Rougons, who are upper class and well educated; the Macquarts, who are mostly blue-collar workers or soldiers; and the Mourets (the family of Adelaide's illegitimate daughter Ursule Macquart), who live a more middle-class and balanced life. Zola traced each of his more than 300 characters carefully. Before even beginning to write La Fortune des Rougon, he set about creating an elaborate family tree that included each character's name, date of birth, properties of heredity (including their mental proclivities and physical likeness), details of their biography and death date. In each character, Zola traces the competing influ- ences of blood and environment, set against the political, economic, cultural and artistic backdrop of France (and Paris, particularly) from 1852 to 1870. Even in closing this cycle of novels, Zola accounts for the fate of all of his characters. In his final novel, Le Docteur Pascal, Zola includes a long chapter that reconnects with all of his living characters, tying up loose ends in their narratives and finishing each of their stories. In this respect, Zola succeeded where Balzac failed; Balzac never finished La Comédie Humaine, consisting at the time of his death of more than 90 novels, short stories and essays that represented his only cycle of novels-and, indeed, the entire literary output of his adult life."
+    "text": "In the mid-nineteenth century, the French novelist Emile Zola announced to his publisher that he was embarking on a cycle of novels in the style of Balzac that would explore various aspects of life in France during the Second Empire. Unlike La Comédie Humaine, though, Zola's cycle would focus its attentions on one family, allflowing Zola to explore his strong interests in heredity, evolu- tion and genealogy at the same time as he offered a literary account of the Second Empire. What resulted was Zola's twenty-novel cycle, collectively known as Les Rougon-Macquart and subtitled Histoire naturelle et sociale d'une famille sous le Second Empire ('Natural and social history of a family during the second empire'). Zola's work in these novels established his reputation as a pre-eminent proponent of naturalism, a literary movement that emphasised the harsh realities of life through a frank, if pessimistic, depiction of subject matter such as sexuality, corruption and disease that had previously been considered too sordid to be included in literature. Almost all of the protagonists of the Rougon-Macquart family are introduced in Zola's first novel, La Fortune des Rougon. The family centres on Adelaide Fouque, a middle-class French woman from Provence with a slight mental deficiency, and her three children: Pierre Rougon, the legitimate child from her marriage to Rougon, and Antoine and Ursule Macquart, illegitimate children by her lover, the smuggler Macquart. With Adelaide at the centre-point, the novel explores the three strands of her family: the Rougons, who are upper class and well educated; the Macquarts, who are mostly blue-collar workers or soldiers; and the Mourets (the family of Adelaide's illegitimate daughter Ursule Macquart), who live a more middle-class and balanced life. Zola traced each of his more than 300 characters carefully. Before even beginning to write La Fortune des Rougon, he set about creating an elaborate family tree that included each character's name, date of birth, properties of heredity (including their mental proclivities and physical likeness), details of their biography and death date. In each character, Zola traces the competing influ- ences of blood and environment, set against the political, economic, cultural and artistic backdrop of France (and Paris, particularly) from 1852 to 1870. Even in closing this cycle of novels, Zola accounts for the fate of all of his characters. In his final novel, Le Docteur Pascal, Zola includes a long chapter that reconnects with all of his living characters, tying up loose ends in their narratives and finishing each of their stories. In this respect, Zola succeeded where Balzac failed; Balzac never finished La Comédie Humaine, consisting at the time of his death of more than 90 novels, short stories and essays that represented his only cycle of novels-and, indeed, the entire literary output of his adult life."
   },
   "test_11_P8": {
     "id": "test_11_P8",
@@ -445,8 +441,8 @@ const QUESTIONS = [
     "options": [
       "Having good genes means th at you will live to at least 100 years old.",
       "People from Washington may be more likely to live to their 100th birthday.",
-      "Higher socioeconomic status may influence longevity of life.",
-      "Heritable factors have more of an influence than social/environmental factor s on \nthe longevity of life."
+      "Higher socioeconomic status may inflfluence longevity of life.",
+      "Heritable factors have more of an inflfluence than social/environmental factor s on \nthe longevity of life."
     ],
     "answer": 2,
     "explanation": "“…where the probability of reaching centenarian age is high \nare located in urban areas and smaller towns with higher socioeconomic status, \nincluding the Seattle area and the region around Pullman, Wash”. Be careful of the \nuse of the future qualifier of necessity “will ” in statement A. C is the only statement \nsupported by the text.",
@@ -455,7 +451,7 @@ const QUESTIONS = [
   {
     "id": 2,
     "passageId": "test_2_P1",
-    "text": "Which of the following is not listed as a factor in the longevity of a person’s life?",
+    "text": "Which of the follflowing is not listed as a factor in the longevity of a person’s life?",
     "options": [
       "Their economic status.",
       "Their genetics.",
@@ -463,13 +459,13 @@ const QUESTIONS = [
       "Their country of origin."
     ],
     "answer": 3,
-    "explanation": "A simple search and retrieve question; the other three factors \ncan all be found in the second paragraph.",
+    "explanation": "A simple search and retrieve question; the other three factors can all be found in the second paragraph. Evaluating all options against the passage details confirms that Their country of origin. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 3,
     "passageId": "test_2_P1",
-    "text": "Which of the following statements is best  supported by the passage?",
+    "text": "Which of the follflowing statements is best  supported by the passage?",
     "options": [
       "Living in different areas of a state make a minimal difference on longevity of life.",
       "65-80% of an individual’s chances of reaching 100 years old is not explained by \nheritable factors.",
@@ -511,7 +507,7 @@ const QUESTIONS = [
   {
     "id": 6,
     "passageId": "test_2_P2",
-    "text": "Which is not listed as a potential consequence of an ea rthquake?",
+    "text": "Which is not listed as a potential conseqfluence of an ea rthquake?",
     "options": [
       "Disease spreading",
       "Collapsing buildings",
@@ -530,10 +526,10 @@ const QUESTIONS = [
       "10,000 people die in a magnitude 8 earthquake on average every year.",
       "An earthquake of magnitude 8 would be classified as ‘Major’.",
       "Earthquakes can only occur at fault zones.",
-      "Collapsing buildings are the deadliest consequence of an earthquake."
+      "Collapsing buildings are the deadliest conseqfluence of an earthquake."
     ],
     "answer": 3,
-    "explanation": "This is supported by the statement “Collapsing buildings claim \nby far the majority of lives. ” If this is the consequence that claims the most fatalities, \nthen it is the deadliest.",
+    "explanation": "This is supported by the statement “Collapsing buildings claim \nby far the majority of lives. ” If this is the conseqfluence that claims the most fatalities, \nthen it is the deadliest.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -575,7 +571,7 @@ const QUESTIONS = [
       "Gender"
     ],
     "answer": 2,
-    "explanation": "The text states that the results are regardless of ethnicity, \nsocioeconomic background and gender, meaning that by process of elimination the \nanswer must be C",
+    "explanation": "The text states that the results are regardless of ethnicity, \nsocioeconomic background and gender, meaning that by process of elimination the \nanswer must be C.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -595,7 +591,7 @@ const QUESTIONS = [
   {
     "id": 12,
     "passageId": "test_2_P3",
-    "text": "Which of the following would be a viable future step?",
+    "text": "Which of the follflowing would be a viable future step?",
     "options": [
       "Reducing funding for math, English and science courses.",
       "Increasing access to music classes in elementary school.",
@@ -665,7 +661,7 @@ const QUESTIONS = [
     "options": [
       "To hold expensive seeds so that they don’t get stolen.",
       "To boost tourism.",
-      "To re -plant seeds that go extinct.",
+      "To fire -plant seeds that go extinct.",
       "So that the U.N. can control all plant growth."
     ],
     "answer": 2,
@@ -689,7 +685,7 @@ const QUESTIONS = [
   {
     "id": 19,
     "passageId": "test_2_P5",
-    "text": "Which of the following seed types can b e stored in seed banks?",
+    "text": "Which of the follflowing seed types can b e stored in seed banks?",
     "options": [
       "Chestnut",
       "Cacao",
@@ -697,7 +693,7 @@ const QUESTIONS = [
       "Mango"
     ],
     "answer": 2,
-    "explanation": "By process of elimi nation, we can work out that A, B and D \ncannot be stored in a seed bank (mentioned in the 3rd paragraph) and so the answer \n\n  \n 70 must be C. The relevant section of text is the same as the last question - “including \navocado, cacao and mango.”  \n20. The correct answer i s C. This is mentioned in the first paragraph. The word \n“international” may lean you towards A or D, but reading the text will show you that \nthese options are not mentioned.",
+    "explanation": "By process of elimination, we can work out that A, B and D cannot be stored in a seed bank (mentioned in the 3rd paragraph) and so the answer must be C. The relevant section of text is: \"including avocado, cacao and mango.\"",
     "topic": "Verbal Reasoning"
   },
   {
@@ -710,8 +706,8 @@ const QUESTIONS = [
       "It has the capacity to hold 2.5 billion seeds.",
       "Every country in the world has contributed to its seed collection."
     ],
-    "answer": 0,
-    "explanation": "",
+    "answer": 2,
+    "explanation": "The passage states directly: \"has the capacity to hold 2.5 billion seeds\" — this is Option C, word for word. B is wrong by the numbers (880,000 ÷ 2.5 billion ≈ 0.035%, not 20%). D is never mentioned. A contradicts the passage, which places the vault in Norway.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -725,7 +721,7 @@ const QUESTIONS = [
       "African and Asi an elephants are different species."
     ],
     "answer": 2,
-    "explanation": "Conclusions are usually prefixed with words like “so”, \n“therefore”, etc. The relevant sentence is,  “So, while African elephants are sometimes \nmanaged and protected under the assumption they are all the same species, this study \nproves they're not.”, meaning that the correct answer would be C.",
+    "explanation": "Conclusions are usually prefixed with words like “so”, “therefore”, etc. The relevant sentence is: \"So, while African elephants are sometimes managed and protected under the assumption they are all the same species, this study proves they'fire not.\", meaning that the correct answer is C.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -739,7 +735,7 @@ const QUESTIONS = [
       "Grew up to 4m tall."
     ],
     "answer": 3,
-    "explanation": "You can see immediately that A and C  are incorrect. B appears \ncorrect because of the dates, but looking closely would show you that the statement \nsays “Africa” and the text states “Eurasia”. Therefore, the correct answer is C.",
+    "explanation": "A is wrong — the passage says P. antiquus was \"basically twice as big\" as modern elephants, not three times. B is wrong — it lived in Eurasia, not Africa. C is wrong — nothing in the passage claims it was the largest land animal ever. D is directly supported: \"grew to around 13 feet (four metres) tall.\"",
     "topic": "Verbal Reasoning"
   },
   {
@@ -759,7 +755,7 @@ const QUESTIONS = [
   {
     "id": 24,
     "passageId": "test_2_P6",
-    "text": "Which of the following is not given as an  example of a relative to modern African \nBush elephants:",
+    "text": "Which of the follflowing is not given as an  example of a relative to modern African \nBush elephants:",
     "options": [
       "Hyrax",
       "P. Antiquus",
@@ -767,7 +763,7 @@ const QUESTIONS = [
       "Elephas Maximus"
     ],
     "answer": 2,
-    "explanation": "Loxodonta Cyclotis is actually the  name of the African Bush \nelephant mentioned in the question, and so it cannot be a relative to itself.",
+    "explanation": "Loxodonta Cyclotis is actually the name of the African Bush elephant mentioned in the question, and so it cannot be a relative to itself. Evaluating all options against the passage details confirms that Loxodonta cyclotis is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -805,11 +801,11 @@ const QUESTIONS = [
     "options": [
       "500 people with hyperphantasia opted for a career in creative industries.",
       "400 out of 2000 people in a study with aphantasia pursued a career in \nmathematics, computing or  science.",
-      "Hereditary factors have a bigger influence than environmental factors on \naphantasia.",
+      "Hereditary factors have a bigger inflfluence than environmental factors on \naphantasia.",
       "25% of people in a creative field of work have hyperphantasia."
     ],
     "answer": 1,
-    "explanation": "20% of 2000 is 400.  This is referred to in the following \nsentence: \" Zeman's University of Exeter study polled 2,000 people with aphantasia \nand discovered that 20 percent of those with little or no vi sual imagery selected \ncareers in mathematics, computing or science.”",
+    "explanation": "20% of 2000 is 400.  This is referred to in the follflowing \nsentence: \" Zeman's University of Exeter study polled 2,000 people with aphantasia \nand discovered that 20 percent of those with little or no vi sual imagery selected \ncareers in mathematics, computing or science.”",
     "topic": "Verbal Reasoning"
   },
   {
@@ -871,7 +867,7 @@ const QUESTIONS = [
   {
     "id": 32,
     "passageId": "test_2_P8",
-    "text": "Which of the following could be a viable next step in the research?",
+    "text": "Which of the follflowing could be a viable next step in the research?",
     "options": [
       "Isolating the suggested gene.",
       "Restricting the study to look at fewer families, making it easier and cheaper.",
@@ -891,8 +887,8 @@ const QUESTIONS = [
       "False",
       "Can’t Tell"
     ],
-    "answer": 0,
-    "explanation": "",
+    "answer": 1,
+    "explanation": "\"Up to 700 percent\" means 700% was the maximum reported increase — nothing in the passage supports any company exceeding it. Since the statement claims sales rose by more than the passage's stated maximum, it is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -905,7 +901,7 @@ const QUESTIONS = [
       "Can’ t Tell"
     ],
     "answer": 0,
-    "explanation": "– True. This is backed up twice in the text – “The most robust \npredictor of toilet paper stocking was the perceived threat of the pandemic ” and \n“Subjective threat of COVID -19 seems to be an important trigger..”",
+    "explanation": "– True. This is backed up twice in the text – “The most robust \npredictor of toilet paper stflocking was the perceived threat of the pandemic ” and \n“Subjective threat of COVID -19 seems to be an important trigger..”",
     "topic": "Verbal Reasoning"
   },
   {
@@ -937,7 +933,7 @@ const QUESTIONS = [
   {
     "id": 37,
     "passageId": "test_2_P10",
-    "text": "Which of the following statements best describes the conclusion of the passage?",
+    "text": "Which of the follflowing statements best describes the conclusion of the passage?",
     "options": [
       "More screen time directly leads to depression and anxiety in teenagers.",
       "Time spent on social media doesn’t directly impact anxiety or depre ssion.",
@@ -951,7 +947,7 @@ const QUESTIONS = [
   {
     "id": 38,
     "passageId": "test_2_P10",
-    "text": "Which of the following statements was not listed as a way to use social media more \nhealthily?",
+    "text": "Which of the follflowing statements was not listed as a way to use social media more \nhealthily?",
     "options": [
       "Actively engaging with content on social media, rather than just observing.",
       "Use filters to block harmful content.",
@@ -965,7 +961,7 @@ const QUESTIONS = [
   {
     "id": 39,
     "passageId": "test_2_P10",
-    "text": "According to the passage, which of the following statements is true?",
+    "text": "According to the passage, which of the follflowing statements is true?",
     "options": [
       "Teenagers spend at least 2.6 hours a day on social media.",
       "Teenagers tend to stop using social media as they get older.",
@@ -1007,7 +1003,7 @@ const QUESTIONS = [
   {
     "id": 42,
     "passageId": "test_2_P11",
-    "text": "Which of the following groups is not vulnerable to HIV infection?",
+    "text": "Which of the follflowing groups is not vulnerable to HIV infection?",
     "options": [
       "Young women outside of the education system.",
       "People who inject drugs.",
@@ -1021,7 +1017,7 @@ const QUESTIONS = [
   {
     "id": 43,
     "passageId": "test_2_P11",
-    "text": "Which of the following statements is true?",
+    "text": "Which of the follflowing statements is true?",
     "options": [
       "Young men are more likely to contract HIV than young women.",
       "There were over 260,000 new infections in people aged 16 -25 in 2016.",
@@ -1056,7 +1052,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "In paragraph 2, the passage says that only the countries that signed the",
+    "explanation": "In paragraph 2, the passage says that only the countries that signed the relevant passage facts — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1069,7 +1065,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "In 2004, the condition that over 55% of emissions were accounted for was",
+    "explanation": "In 2004, the condition that over 55% of emissions were accounted for was evident — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1082,7 +1078,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "in paragraph 2: ’each country that signed the protocol agreed to reduce",
+    "explanation": "in paragraph 2: ’each country that signed the protocol agreed to reduce — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1095,20 +1091,20 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "We know this is when the Kyoto Protocol was enforced but there is",
+    "explanation": "We know this is when the Kyoto Protocol was enforced but there is clear — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 49,
     "passageId": "test_7_P1",
-    "text": "The harmful eﬀects of climate change would be avoided if all countries reduced their emissions by 60%.",
+    "text": "The harmful effects of climate change would be avoided if all countries reduced their emissions by 60%.",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Paragraph 4 says that a 60% emission reduction would have a",
+    "explanation": "Paragraph 4 says that a 60% emission reduction would have a — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1121,7 +1117,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "From paragraph 1, we can see that the Soviets were mainly concerned",
+    "explanation": "From paragraph 1, we can see that the Soviets were mainly concerned — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1134,7 +1130,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 3 says that Project Apollo was tasked with landing the rst",
+    "explanation": "Paragraph 3 says that Project Apollo was tasked with landing the first — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1147,7 +1143,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The passage does not tell us why the Soviets did not land a man on",
+    "explanation": "The passage does not tell us why the Soviets did not land a man on — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1160,7 +1156,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "We do not know the state of the American space eﬀorts prior to the",
+    "explanation": "We do not know the state of the American space eﬀorts prior to the relevant passage facts — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1173,7 +1169,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "The Soviets had just sent Yuri Gagarin into space and it wasn’t expected",
+    "explanation": "The Soviets had just sent Yuri Gagarin into space and it wasn’t expected — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1186,7 +1182,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 1 says Pheidippides was the fastest runner",
+    "explanation": "Paragraph 1 says Pheidippides was the fastest runner — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1199,7 +1195,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 2 says that they were standardised from 1921 but using the",
+    "explanation": "Paragraph 2 says that they were standardised from 1921 but using the relevant passage facts — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1212,7 +1208,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Paragraph 1 says the Greeks were not expecting to beat the Persians,",
+    "explanation": "Paragraph 1 says the Greeks were not expecting to beat the Persians — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1225,7 +1221,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 2: to be an IAAF marathon the distance must be 26.2 miles.",
+    "explanation": "Paragraph 2: to be an IAAF marathon the distance must be 26.2 miles. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1238,7 +1234,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "We know that the Persian soldiers outnumbered the Greeks and had",
+    "explanation": "We know that the Persian soldiers outnumbered the Greeks and had — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1251,46 +1247,46 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "From paragraph 1, we can see that birds would not survive if they did not",
+    "explanation": "From paragraph 1, we can see that birds would not survive if they did not the case — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 61,
     "passageId": "test_7_P4",
-    "text": "All migrating birds do so in ocks to increase their eﬃciency",
+    "text": "All migrating birds do so in flocks to increase their efficiency",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Whilst there is only mention here of migrating in ocks, nowhere",
+    "explanation": "Whilst there is only mention here of migrating in flocks, nowhere — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 62,
     "passageId": "test_7_P4",
-    "text": "All the birds within a ock of Northern bald ibis benet from ocking behaviour",
+    "text": "All the birds within a flock of Northern bald ibis benefit from flflocking behaviour",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Although the leading bird does not benet at the time, they continually",
+    "explanation": "Although the leading bird does not benefit at the time, they continually — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 63,
     "passageId": "test_7_P4",
-    "text": "A bird within a Northern bald ibis ock that does not lead will be forbidden from ying with the rest of the ock",
+    "text": "A bird within a Northern bald ibis flock that does not lead will be forbidden from flying with the rest of the flock",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Paragraph 3 shows that the Northern bald ibis does not behave in",
+    "explanation": "Paragraph 3 shows that the Northern bald ibis does not behave in the text — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1303,7 +1299,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 1 states they migrate north in the spring, and south in the",
+    "explanation": "Paragraph 1 states they migrate north in the spring, and south in the relevant passage facts — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1316,7 +1312,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "We know the amount of wild owers has decreased by this amount",
+    "explanation": "We know the amount of wildflowers has decreased by this amount — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1329,7 +1325,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Whilst the UK have experienced a signicantly greater decline than",
+    "explanation": "Whilst the UK have experienced a significantly greater decline than — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1342,7 +1338,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 2 tells us modern techniques produce more food.",
+    "explanation": "Paragraph 2 tells us modern techniques produce more food. The statement is a direct and factual reflection of the evidence stated in the passage without extrapolating beyond the text. Therefore, the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1355,7 +1351,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "As well as pollination, bees are also involved in complex food chains and",
+    "explanation": "As well as pollination, bees are also involved in complex food chains — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1368,7 +1364,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "From paragraph 1 we see that pesticides are one of the causes of bee",
+    "explanation": "From paragraph 1 we see that pesticides are one of the causes of bee — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1381,7 +1377,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "This would affect the thinking distance, not the braking distance.",
+    "explanation": "This would affect the thinking distance, not the braking distance. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1394,7 +1390,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "From paragraph 2 we see that the increased traction of winter tyres is",
+    "explanation": "From paragraph 2 we see that the increased traction of winter tyres is clear — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1407,7 +1403,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "From paragraph 4, we are told it is not safe to run the engine when the",
+    "explanation": "From paragraph 4, we are told it is not safe to run the engine when the relevant passage facts — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1420,7 +1416,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "There is not sufficient information in the passage to suggest whether",
+    "explanation": "There is not sufficient information in the passage to suggest whether — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1433,7 +1429,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 3 says it is safer to steer out of the way than to brake.",
+    "explanation": "Paragraph 3 says it is safer to steer out of the way than to brake. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1446,7 +1442,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "In Paragraph 1, we are told the method is named after Socrates, but",
+    "explanation": "In Paragraph 1, we are told the method is named after Socrates, but — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1459,7 +1455,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The Socratic method challenges the statements and opinions that a",
+    "explanation": "The Socratic method challenges the statements and opinions that a — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1472,20 +1468,20 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Although Socrates was trialled with these charges, the Socratic method",
+    "explanation": "Although Socrates was trialled with these charges, the Socratic method — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 78,
     "passageId": "test_7_P7",
-    "text": "Socrates chose not to escape from prison because he was afraid his enemies would nd him again.",
+    "text": "Socrates chose not to escape from prison because he was afraid his enemies would find him again.",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "We can see from the nal paragraph that he chose to die defending",
+    "explanation": "We can see from the nal paragraph that he chose to die defending — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1498,7 +1494,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "From paragraph 2 we see that Socrates did not provide answers to these",
+    "explanation": "From paragraph 2 we see that Socrates did not provide answers to these — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1511,7 +1507,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 1 says the dialects of the Saxon, Angle and Jute tribes formed",
+    "explanation": "Paragraph 1 says the dialects of the Saxon, Angle and Jute tribes formed — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1524,7 +1520,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Paragraph 2 says English speakers would struggle to understand Old",
+    "explanation": "Paragraph 2 says English speakers would struggle to understand Old — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1537,7 +1533,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The story of Beowulf only mentions that he kills Grendel and his",
+    "explanation": "The story of Beowulf only mentions that he kills Grendel and his — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1550,7 +1546,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The Friesian dialect is similar to Old English but they are not the same.",
+    "explanation": "The Friesian dialect is similar to Old English but they are not the same. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1563,7 +1559,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "The Celtic Britons were originally living in England before being forced",
+    "explanation": "The Celtic Britons were originally living in England before being forced — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1576,7 +1572,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 1 says that stars in the constellation Cassiopeia are visible only",
+    "explanation": "Paragraph 1 says that stars in the constellation Cassiopeia are visible only — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1589,7 +1585,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The passage does not tell us if Cassiopeia rises and falls in the sky or",
+    "explanation": "The passage does not tell us if Cassiopeia rises and falls in the sky or — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1602,7 +1598,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 3 says the star sign represents the position of the sun, not the",
+    "explanation": "Paragraph 3 says the star sign represents the position of the sun, not the relevant passage facts — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1615,7 +1611,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 2 says Polaris is used for navigation as its position is constant",
+    "explanation": "Paragraph 2 says Polaris is used for navigation as its position is constant — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1628,7 +1624,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 1 mentions different constellations being visible from diﬀerent",
+    "explanation": "Paragraph 1 mentions different constellations being visible from diﬀerent — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1641,7 +1637,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The passage tells us about maple tree sap but we don’t know about",
+    "explanation": "The passage tells us about maple tree sap but we don’t know about — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1654,7 +1650,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "He was angered because of the laziness of the village people.",
+    "explanation": "He was angered because of the laziness of the village people. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1667,7 +1663,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 1 says that the process is similar although diﬀerent",
+    "explanation": "Paragraph 1 says that the process is similar although diﬀerent — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1680,7 +1676,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 1 says the sap is only harvested during March.",
+    "explanation": "Paragraph 1 says the sap is only harvested during March. The statement is a direct and factual reflection of the evidence stated in the passage without extrapolating beyond the text. Therefore, the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1693,7 +1689,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Although the laziness associated with drinking maple syrup suggests",
+    "explanation": "Although the laziness associated with drinking maple syrup suggests — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1706,7 +1702,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 1 says Stockholm syndrome happens sometimes, not always.",
+    "explanation": "Paragraph 1 says Stockholm syndrome happens sometimes, not always. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1719,7 +1715,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The passage suggests that the hugging and kissing occurred due to the",
+    "explanation": "The passage suggests that the hugging and kissing occurred due to the relevant passage facts — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1732,7 +1728,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 4 says the FBI is willing to devote resources to understanding",
+    "explanation": "Paragraph 4 says the FBI is willing to devote resources to understanding — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1745,7 +1741,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "The explanation given in paragraph 3 suggests that the hostages fearing",
+    "explanation": "The explanation given in paragraph 3 suggests that the hostages fearing — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1758,33 +1754,33 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Although this incident is the origin of the name ‘Stockholm",
+    "explanation": "Although this incident is the origin of the name ‘Stockholm — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 100,
     "passageId": "test_7_P12",
-    "text": "A clownsh that loses its mucous layer can live inside sea anemone.",
+    "text": "A clownfish that loses its mucous layer can live inside sea anemone.",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "It is this mucous layer that oﬀers protection from the anemone tentacles",
+    "explanation": "It is this mucous layer that oﬀers protection from the anemone tentacles — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 101,
     "passageId": "test_7_P12",
-    "text": "Clownsh help sea anemone to eat sh.",
+    "text": "Clownsh help sea anemone to eat fish.",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 2 mentions that the bright colour of the clownsh lures in sh",
+    "explanation": "Paragraph 2 mentions that the bright colour of the clownfish lures in fish — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1797,7 +1793,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 3 mentions that anemones increase the lifespan of clownsh",
+    "explanation": "Paragraph 3 mentions that anemones increase the lifespan of clownfish — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1810,20 +1806,20 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraphs 1 and 3 mention that only certain anemone form this",
+    "explanation": "Paragraphs 1 and 3 mention that only certain anemone form this — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 104,
     "passageId": "test_7_P12",
-    "text": "Anemone protect clownsh from predators.",
+    "text": "Anemone protect clownfish from predators.",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 2 says the anemone sting protects the clownsh from",
+    "explanation": "Paragraph 2 says the anemone sting protects the clownfish from — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1836,7 +1832,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 2 indicates he was opposed to the death penalty.",
+    "explanation": "Paragraph 2 indicates he was opposed to the death penalty. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1849,7 +1845,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The passage only tells us that the guillotine was commonly used",
+    "explanation": "The passage only tells us that the guillotine was commonly used — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1862,7 +1858,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Although it can cause death by asphyxiation, the common cause of",
+    "explanation": "Although it can cause death by asphyxiation, the common cause of the text — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1875,7 +1871,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "This was Joseph Guillotin’s explanation.",
+    "explanation": "This was Joseph Guillotin’s explanation. The statement is a direct and factual reflection of the evidence stated in the passage without extrapolating beyond the text. Therefore, the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1888,7 +1884,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 1 tells us the guillotine was the common form of execution as",
+    "explanation": "Paragraph 1 tells us the guillotine was the common form of execution as — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1901,7 +1897,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The Gherkin is famous for its distinctive shape, and although this forms",
+    "explanation": "The Gherkin is famous for its distinctive shape, and although this forms — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1914,7 +1910,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The City of London governing body wanted redevelopment to restore the",
+    "explanation": "The City of London governing body wanted redevelopment to restore the relevant passage facts — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1927,7 +1923,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The Gherkin was bought for £630m and sold for £700m, so a prot was",
+    "explanation": "The Gherkin was bought for £630m and sold for £700m, so a prot was evident — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1940,7 +1936,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "We are told the building is damaged by bombs, but we are not told",
+    "explanation": "We are told the building is damaged by bombs, but we are not told — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1953,7 +1949,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "It is stated in paragraph 1 that Norman Foster is famous for this.",
+    "explanation": "It is stated in paragraph 1 that Norman Foster is famous for this. The statement is a direct and factual reflection of the evidence stated in the passage without extrapolating beyond the text. Therefore, the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1966,7 +1962,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The passage tells us London is signicantly more expensive.",
+    "explanation": "The passage tells us London is significantly more expensive. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1979,7 +1975,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "There are no legal implications for paying below the living wage as it is",
+    "explanation": "There are no legal implications for paying below the living wage as it is clear — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -1992,7 +1988,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "This individual would be earning less than the living wage and so would",
+    "explanation": "This individual would be earning less than the living wage and so would — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2005,20 +2001,20 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Some employees will be red and others would have to work harder;",
+    "explanation": "Some employees will be red and others would have to work harder; — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 119,
     "passageId": "test_7_P15",
-    "text": "Paying someone a living wage will only benet that individual",
+    "text": "Paying someone a living wage will only benefit that individual",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The family of that individual will also benet from the living wage, as well",
+    "explanation": "The family of that individual will also benefit from the living wage, as well — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2031,7 +2027,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Although a country with more people will likely have a greater ecological",
+    "explanation": "Although a country with more people will likely have a greater ecological — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2044,7 +2040,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "This is the bio-productive capacity of the Earth, not the total space",
+    "explanation": "This is the bio-productive capacity of the Earth, not the total space — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2057,20 +2053,20 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "The nal paragraph mentions that reducing use of unsustainable",
+    "explanation": "The nal paragraph mentions that reducing use of unsustainable — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 123,
     "passageId": "test_7_P16",
-    "text": "Only the countries with an ecological decit are able to tackle the global problem of sustainability.",
+    "text": "Only the countries with an ecological deficit are able to tackle the global problem of sustainability.",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The nal paragraph says that a global eﬀort is needed.",
+    "explanation": "The nal paragraph says that a global eﬀort is needed. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2083,7 +2079,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The nal paragraph says that we can increase the bio-productive space",
+    "explanation": "The nal paragraph says that we can increase the bio-productive space — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2096,7 +2092,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Paragraph one states that some believe them to be ‘one of the most",
+    "explanation": "Paragraph one states that some believe them to be ‘one of the most — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2109,7 +2105,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The passage states it started the UK punk movement, but this does",
+    "explanation": "The passage states it started the UK punk movement, but this does — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2122,7 +2118,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The passage states that there were lyrics written about abortion, but",
+    "explanation": "The passage states that there were lyrics written about abortion, but — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2135,7 +2131,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The passage tells us that some songs attacked the music industry",
+    "explanation": "The passage tells us that some songs attacked the music industry — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2148,7 +2144,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "They attacked ‘blindly accepting royalty as an authority’, and so",
+    "explanation": "They attacked ‘blindly accepting royalty as an authority’, and so — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2161,7 +2157,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Not at the same time, but The Sex Pistols had two individual bassists over",
+    "explanation": "Not at the same time, but The Sex Pistols had two individual bassists over — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2174,7 +2170,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The passage doesn’t mention what proportion of people exposed to",
+    "explanation": "The passage doesn’t mention what proportion of people exposed to support this — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2187,7 +2183,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "As breast cancer is the most common cancer in the UK and very rare in",
+    "explanation": "As breast cancer is the most common cancer in the UK and very rare in the text — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2200,20 +2196,20 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The success rates of tumour removal procedures were improved by",
+    "explanation": "The success rates of tumour removal procedures were improved by — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 134,
     "passageId": "test_7_P18",
-    "text": "Irradiation is more eﬀective than surgery in removing tumours.",
+    "text": "Irradiation is more effective than surgery in removing tumours.",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The passage doesn’t mention the relative success rates between the",
+    "explanation": "The passage doesn’t mention the relative success rates between the relevant passage facts — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2226,7 +2222,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Some tumours are able to metastasise, meaning that there are also",
+    "explanation": "Some tumours are able to metastasise, meaning that there are also — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2239,7 +2235,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The land was claimed because the British people did not believe that",
+    "explanation": "The land was claimed because the British people did not believe that fact — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2252,7 +2248,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Not all of the 517,000 Aborigines are living in cities and towns.",
+    "explanation": "Not all of the 517,000 Aborigines are living in cities and towns. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2265,7 +2261,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "They were only able to reclaim the land that they could prove they",
+    "explanation": "They were only able to reclaim the land that they could prove they — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2278,7 +2274,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Only a few Aborigines lack the education to integrate with modern",
+    "explanation": "Only a few Aborigines lack the education to integrate with modern — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2291,7 +2287,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "We do not know what the south-east Asian lifestyle involved.",
+    "explanation": "We do not know what the south-east Asian lifestyle involved. While the passage discusses related themes, it does not provide sufficient, unambiguous evidence to either confirm or refute this specific claim. Therefore, the correct conclusion is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2304,7 +2300,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "It was discovered that chilli peppers had similar taste to black",
+    "explanation": "It was discovered that chilli peppers had similar taste to black — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2317,7 +2313,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 2 says that spicy food allows people to sweat.",
+    "explanation": "Paragraph 2 says that spicy food allows people to sweat. The statement is a direct and factual reflection of the evidence stated in the passage without extrapolating beyond the text. Therefore, the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2330,7 +2326,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Paragraph 1 says ‘most’ peppers are spicy, but not all.",
+    "explanation": "Paragraph 1 says ‘most’ peppers are spicy, but not all. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2343,7 +2339,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "The capsaicin receptor is responsible for the pain associated with spicy",
+    "explanation": "The capsaicin receptor is responsible for the pain associated with spicy — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2356,7 +2352,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The description of labelled line coding says these different methods of",
+    "explanation": "The description of labelled line coding says these different methods of the text — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2369,20 +2365,20 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Dropping out of school will affect the level of education, which is a social",
+    "explanation": "Dropping out of school will affect the level of education, which is a social — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 147,
     "passageId": "test_7_P21",
-    "text": "The eﬀects of the social determinants of health are principally measured by life expectancy.",
+    "text": "The effects of the social determinants of health are principally measured by life expectancy.",
     "options": [
       "True",
       "False",
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "They can also be measured by the quality of life.",
+    "explanation": "They can also be measured by the quality of life. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2395,7 +2391,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "Although this would prevent the described mechanism from happening,",
+    "explanation": "Although this would prevent the described mechanism from happening — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2408,7 +2404,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "The nal paragraph says we are reducing the gap between those more",
+    "explanation": "The nal paragraph says we are reducing the gap between those more — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2421,7 +2417,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The life expectancy described in paragraph 2 is an average and so",
+    "explanation": "The life expectancy described in paragraph 2 is an average and so — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2435,7 +2431,7 @@ const QUESTIONS = [
       "By suggesting their critics are more susceptible to animalistic pleasures than they."
     ],
     "answer": 1,
-    "explanation": "The passage suggests that the critics suppose ‘human beings to be capable",
+    "explanation": "The passage suggests that the critics suppose ‘human beings to be capable — therefore, Option B (That the critics do not understand the multiplicity of things contained in the word ‘pleasure’.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2449,7 +2445,7 @@ const QUESTIONS = [
       "Eating a chocolate bar because it is delicious."
     ],
     "answer": 2,
-    "explanation": "This action does not see happiness as its justication, but conforming to",
+    "explanation": "This action does not see happiness as its justication, but conforming to support this — therefore, Option C (Not eating a chocolate bar because social pressures deem it wrong.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2463,7 +2459,7 @@ const QUESTIONS = [
       "They are reactionary."
     ],
     "answer": 1,
-    "explanation": "Mill does not describe the religious views of his critics, or explicitly call them",
+    "explanation": "Mill does not describe the religious views of his critics, or explicitly call them — therefore, Option B (They are European.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2476,7 +2472,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "The passage also states ‘desirable things’ could be ‘means’ to pleasure.",
+    "explanation": "The passage also states ‘desirable things’ could be ‘means’ to pleasure. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2490,7 +2486,7 @@ const QUESTIONS = [
       "What is meant by utility"
     ],
     "answer": 3,
-    "explanation": "Utility is dened as the foundation of the system, and a belief that the",
+    "explanation": "Utility is defined as the foundation of the system, and a belief that the relevant passage facts — therefore, Option D (What is meant by utility) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2504,7 +2500,7 @@ const QUESTIONS = [
       "Geology does not always demand explicit evidence."
     ],
     "answer": 2,
-    "explanation": "Though sandstone is made from sand, the passage does not state that ALL",
+    "explanation": "Though sandstone is made from sand, the passage does not state that ALL — therefore, Option C (Rocks are made of sand.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2518,7 +2514,7 @@ const QUESTIONS = [
       "Plains"
     ],
     "answer": 1,
-    "explanation": "The passage discusses the valley when implementing the wall-building",
+    "explanation": "The passage discusses the valley when implementing the wall-building — therefore, Option B (Valleys) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2532,7 +2528,7 @@ const QUESTIONS = [
       "It is undisclosed"
     ],
     "answer": 3,
-    "explanation": "‘Some ancient source’ is all we are told, and so the source is undisclosed",
+    "explanation": "‘Some ancient source’ is all we are told, and so the source is undisclosed — therefore, Option D (It is undisclosed) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2546,7 +2542,7 @@ const QUESTIONS = [
       "Water"
     ],
     "answer": 2,
-    "explanation": "This rock is said in paragraph 2 to be found ‘everywhere’, so not ‘nowhere’.",
+    "explanation": "This rock is said in paragraph 2 to be found ‘everywhere’, so not ‘nowhere’. Evaluating all options against the passage details confirms that Nowhere is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2560,7 +2556,7 @@ const QUESTIONS = [
       "Measurements"
     ],
     "answer": 3,
-    "explanation": "Paragraph 3: The grains are said to be sorted in groups ‘of a size’, i.e.",
+    "explanation": "Paragraph 3: The grains are said to be sorted in groups ‘of a size’, i.e. Evaluating all options against the passage details confirms that Measurements is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2574,7 +2570,7 @@ const QUESTIONS = [
       "Stationary production"
     ],
     "answer": 0,
-    "explanation": "Though the owers smell pleasant, no mention is made of this scent being",
+    "explanation": "Though the flowers smell pleasant, no mention is made of this scent being — therefore, Option A (Perfume production) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2588,7 +2584,7 @@ const QUESTIONS = [
       "It can only able to ower once within a hundred years."
     ],
     "answer": 2,
-    "explanation": "The passage states that the ower could bloom more than once a century,",
+    "explanation": "The passage states that the ower could bloom more than once a century — therefore, Option C (It is perceived as blooming centennially.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2602,7 +2598,7 @@ const QUESTIONS = [
       "Members of the Narcissus genus are a welcome addition to any household."
     ],
     "answer": 2,
-    "explanation": "The statement claims that Narcissus plants are ‘prized by many’ over Lilies,",
+    "explanation": "The statement claims that Narcissus plants are ‘prized by many’ over Lilies — therefore, Option C (A number are people prefer members of the Narcissus genus over Lilies.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2616,7 +2612,7 @@ const QUESTIONS = [
       "The members of the Narcissus genus have a distinctive smell."
     ],
     "answer": 0,
-    "explanation": "It is actually a substance ‘very similar to rum’, not rum itself.",
+    "explanation": "It is actually a substance ‘very similar to rum’, not rum itself. Evaluating all options against the passage details confirms that American Aloe can be used to make rum. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2630,7 +2626,7 @@ const QUESTIONS = [
       "Members of the Narcissus genus are used for their soothing properties."
     ],
     "answer": 2,
-    "explanation": "The genus ‘belongs’ to the family, as stated in paragraph 1.",
+    "explanation": "The genus ‘belongs’ to the family, as stated in paragraph 1. Evaluating all options against the passage details confirms that A genus belongs to a family. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2639,12 +2635,12 @@ const QUESTIONS = [
     "text": "In 1899:",
     "options": [
       "Women across the USA could be prosecuted for owning ornamental dead birds.",
-      "There was a signicant rise of female arrests in America.",
+      "There was a significant rise of female arrests in America.",
       "Possession of a dead gull could lead to trouble.",
       "Americans responded to law by citing the use of jays as ornamentation unfashionable."
     ],
     "answer": 2,
-    "explanation": "Women in Illinois, not across USA, were subject to the law, and the passage",
+    "explanation": "Women in Illinois, not across USA, were subject to the law, and the passage — therefore, Option C (Possession of a dead gull could lead to trouble.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2658,7 +2654,7 @@ const QUESTIONS = [
       "Harvesting osprey feathers was seen as an inhumane process."
     ],
     "answer": 3,
-    "explanation": "The pulling out of feathers from live birds was seen as the negative to using",
+    "explanation": "The pulling out of feathers from live birds was seen as the negative to using — therefore, Option D (Harvesting osprey feathers was seen as an inhumane process.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2671,7 +2667,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "They could be possessed only ‘in their proper season’.",
+    "explanation": "They could be possessed only ‘in their proper season’. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2685,7 +2681,7 @@ const QUESTIONS = [
       "It would be hard to diﬀerentiate between other regiments within the army, who were already wearing ostrich feathers."
     ],
     "answer": 0,
-    "explanation": "The problem cited is that the article was already in use in the clothing of",
+    "explanation": "The problem cited is that the article was already in use in the clothing of the text — therefore, Option A (Many uniforms required them.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2699,7 +2695,7 @@ const QUESTIONS = [
       "None of the above."
     ],
     "answer": 3,
-    "explanation": "None of those are precluded, as only ‘harmless’ and ‘dead’ birds (in their",
+    "explanation": "None of those are precluded, as only ‘harmless’ and ‘dead’ birds (in their — therefore, Option D (None of the above.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2710,10 +2706,10 @@ const QUESTIONS = [
       "Lucas Pope created the Papers Please for a small games company.",
       "Papers Please is a multi-platform game.",
       "Arstotzka is a fictionalised version of an ex-Soviet block state.",
-      "The game gained signicant media attention in 2014."
+      "The game gained significant media attention in 2014."
     ],
     "answer": 1,
-    "explanation": "Nothing in the above passage provides evidence for ‘C’, ‘D’ or ‘A’ - in fact, the",
+    "explanation": "Nothing in the above passage provides evidence for ‘C’, ‘D’ or ‘A’ - in fact, the relevant passage facts — therefore, Option B (Papers Please is a multi-platform game.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2727,7 +2723,7 @@ const QUESTIONS = [
       "To stamp passports."
     ],
     "answer": 2,
-    "explanation": "The immigration oﬃcer’s job is to process people correctly - not to grow or",
+    "explanation": "The immigration officer’s job is to process people correctly - not to grow or — therefore, Option C (To avoid making mistakes in processing people.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2741,7 +2737,7 @@ const QUESTIONS = [
       "Performing one or multiple physical assessments of the individual."
     ],
     "answer": 2,
-    "explanation": "Though the game player may perform either a body scan or nger print",
+    "explanation": "Though the game player may perform either a body scan or nger print — therefore, Option C (Asking the suspicious individual for further information.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2755,7 +2751,7 @@ const QUESTIONS = [
       "The game-player may be subject to fiscal penalisation."
     ],
     "answer": 3,
-    "explanation": "The game-player may accept ‘bribes’, so ‘A’ is not true. The game player ‘may’",
+    "explanation": "The game-player may accept ‘bribes’, so ‘A’ is not true. The game player ‘may’ Evaluating all options against the passage details confirms that The game-player may be subject to fiscal penalisation. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2769,13 +2765,13 @@ const QUESTIONS = [
       "‘Blaxploitation’ was a term criticised by white sympathisers."
     ],
     "answer": 2,
-    "explanation": "The head of LA NAACP is a civil rights’ activist.",
+    "explanation": "The head of LA NAACP is a civil rights’ activist. Evaluating all options against the passage details confirms that ‘Blaxploitation’ was a term coined by a civil rights activist. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 176,
     "passageId": "test_7_P27",
-    "text": "Which of the following statements best describes the most common element of a Blaxploitation lm:",
+    "text": "Which of the following statements best describes the most common element of a Blaxploitation film:",
     "options": [
       "Characters performing funk songs.",
       "Characters coming to terms with the legacy of slavery.",
@@ -2783,13 +2779,13 @@ const QUESTIONS = [
       "Characters using racial slurs."
     ],
     "answer": 3,
-    "explanation": "The other aspects may appear in lms, but only racial slurs were cited as a",
+    "explanation": "The other aspects may appear in films, but only racial slurs were cited as a — therefore, Option D (Characters using racial slurs.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 177,
     "passageId": "test_7_P27",
-    "text": "Which of these statements best describes casting in Blaxploitation lms:",
+    "text": "Which of these statements best describes casting in Blaxploitation films:",
     "options": [
       "Primarily white",
       "Primarily black",
@@ -2797,13 +2793,13 @@ const QUESTIONS = [
       "Exclusively black"
     ],
     "answer": 1,
-    "explanation": "‘Primarily’ means the same as ‘predominately’ in this case, and the cast has",
+    "explanation": "‘Primarily’ means the same as ‘predominately’ in this case, and the cast has — therefore, Option B (Primarily black) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 178,
     "passageId": "test_7_P27",
-    "text": "Which of the following best describes the audiences of Blaxploitation lms:",
+    "text": "Which of the following best describes the audiences of Blaxploitation films:",
     "options": [
       "Originally for all middle-class African-Americans.",
       "Originally for all urban-dwellers.",
@@ -2811,20 +2807,20 @@ const QUESTIONS = [
       "Shrinking since the mid-1970s."
     ],
     "answer": 2,
-    "explanation": "Original intended audiences were black city-dwellers: ‘B’ is too broad and ‘A’",
+    "explanation": "Original intended audiences were black city-dwellers ('B' is too broad and 'A' assumes middle-class which is not stated in the text), but the passage states that their appeal has since grown and is not exclusive to any race, making them multi-ethnic (Option C).",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 179,
     "passageId": "test_7_P27",
-    "text": "The legacy of lms including soft-core porn is knowingly acknowledged in the name of two Blaxploitation titles, ‘Shaft’ and ‘Sweet Sweetback’s Baadasssss song’, both of which suggest body parts associated with sex lms.",
+    "text": "The legacy of films including soft-core porn is knflflowingly acknowledged in the name of two Blaxploitation titles, ‘Shaft’ and ‘Sweet Sweetback’s Baadasssss song’, both of which suggest body parts associated with sex films.",
     "options": [
       "True",
       "False",
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "It is possible, but nothing in the statement suggests the potentially racy titles",
+    "explanation": "It is possible, but nothing in the statement suggests the potentially racy titles — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2838,7 +2834,7 @@ const QUESTIONS = [
       "A book that accidentally glamorises violence."
     ],
     "answer": 2,
-    "explanation": "It would be a massive assumption to state that just because two characters",
+    "explanation": "It would be a massive assumption to state that just because two characters — therefore, Option C (An example of how an author’s intentions are not always realised.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2851,7 +2847,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "False. The fact he nds things a ‘joke’ is what makes him the Comedian. He",
+    "explanation": "False. The fact he finds things a ‘joke’ is what makes him the Comedian. He — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2859,13 +2855,13 @@ const QUESTIONS = [
     "passageId": "test_7_P28",
     "text": "Which of the following best articulates the view put forward by Jacob Held?",
     "options": [
-      "We nd dignity through just actions.",
+      "We find dignity through just actions.",
       "If one decides to behave as though the world is fair, this may lead to a discovery of self-worth.",
       "It is shameful to view the world as corrupt.",
       "Self-value can only be found in madness."
     ],
     "answer": 1,
-    "explanation": "He does not mention madness (‘D’), or invoke shame (‘C’), or simply state it",
+    "explanation": "He does not mention madness (‘D’), or invoke shame (‘C’), or simply state it — therefore, Option B (If one decides to behave as though the world is fair, this may lead to a discovery of self-worth.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2879,7 +2875,7 @@ const QUESTIONS = [
       "Rorschach is popular because his aggressive behaviour has a moral intent, and is not just violence."
     ],
     "answer": 3,
-    "explanation": "No value judgment is made comparing violent actions or on the Comedian’s",
+    "explanation": "No value judgment is made comparing violent actions or on the Comedian’s — therefore, Option D (Rorschach is popular because his aggressive behaviour has a moral intent, and is not just violence.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2893,47 +2889,47 @@ const QUESTIONS = [
       "Someone who hates other people."
     ],
     "answer": 0,
-    "explanation": "The lack of meaning in anything is what leads him to treat everything as a",
+    "explanation": "The lack of meaning in anything is what leads him to treat everything as a — therefore, Option A (Someone who believes there is no meaning to life.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 185,
     "passageId": "test_7_P29",
-    "text": "According to The Bechdel Test, ‘The Imitation Game’ is a sexist lm.",
+    "text": "According to The Bechdel Test, ‘The Imitation Game’ is a sexist film.",
     "options": [
       "True",
       "False",
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "The passage’s explanation of The Bechdel Test does not state that the test is",
+    "explanation": "The passage’s explanation of The Bechdel Test does not state that the test is clear — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 186,
     "passageId": "test_7_P29",
-    "text": "Which of the following lms would pass the Bechdel test:",
+    "text": "Which of the following films would pass the Bechdel test:",
     "options": [
       "One where the only conversation between two women is on woman A’s brother.",
       "One where there are two conversations, one on woman A’s son and another on woman B’s boss, Mr Smith.",
-      "One where there are ve women, in which at one point they all have a chat about how to lose weight and the best hair removal techniques.",
+      "One where there are five women, in which at one point they all have a chat about how to lose weight and the best hair removal techniques.",
       "One where there is one woman who chats about all manner of things with her male colleagues, including her USA presidential campaign."
     ],
     "answer": 2,
-    "explanation": "This is the only lm that shows a female-female conversation not on a man.",
+    "explanation": "This is the only film that shows a female-female conversation not on a man. Evaluating all options against the passage details confirms that One where there are five women, in which at one point they all have a chat about how to lose weight and the best hair removal techniques. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 187,
     "passageId": "test_7_P29",
-    "text": "50% of horror lms, according to the above extract, pass the Bechdel test.",
+    "text": "50% of horror films, according to the above extract, pass the Bechdel test.",
     "options": [
       "True",
       "False",
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "Though of the two horror lms mentioned in the extract one passes it and",
+    "explanation": "Though of the two horror films mentioned in the extract one passes it — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2947,7 +2943,7 @@ const QUESTIONS = [
       "Apathetic"
     ],
     "answer": 2,
-    "explanation": "Her comment that it is ‘strict’ shows she has a reservation, but her general",
+    "explanation": "Her comment that it is ‘strict’ shows she has a reservation, but her general — therefore, Option C (Cautiously approving) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2960,7 +2956,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "The two women are not named within the comic strip - though two women",
+    "explanation": "The two women are not named within the comic strip - though two women — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2973,7 +2969,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "The possible ‘idea’ that repetition is funny is inherently funny is mentioned,",
+    "explanation": "The possible ‘idea’ that repetition is funny is inherently funny is mentioned — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -2984,23 +2980,23 @@ const QUESTIONS = [
       "Previous understanding of a subject makes it potentially more comic.",
       "Doubling a joke makes it potentially twice as funny.",
       "Making the audience feel comfortable is more likely to make them laugh.",
-      "We nd people we have a relationship with funny."
+      "We find people we have a relationship with funny."
     ],
     "answer": 0,
-    "explanation": "This is the only statement actually mentioned above. Laughing twice at the",
+    "explanation": "This is the only statement actually mentioned above. Laughing twice at the relevant passage facts — therefore, Option A (Previous understanding of a subject makes it potentially more comic.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 192,
     "passageId": "test_7_P30",
-    "text": "For a call-back to work, the original joke has to be signicantly funny.",
+    "text": "For a call-back to work, the original joke has to be significantly funny.",
     "options": [
       "True",
       "False",
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "There is no mention of a humour requirement for the first joke.",
+    "explanation": "There is no mention of a humour requirement for the first joke. Evaluating all options against the passage details confirms that Can’t tell is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3013,7 +3009,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "Though the call-back here is described as a comic trope, this does not",
+    "explanation": "Though the call-back here is described as a comic trope, this does not the case — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3027,7 +3023,7 @@ const QUESTIONS = [
       "A call-back is an especially important trope to consider."
     ],
     "answer": 1,
-    "explanation": "Though ‘A’ is a potential, it is not a requirement of the call back, and ‘C’ is not",
+    "explanation": "Though ‘A’ is a potential, it is not a requirement of the call back, and ‘C’ is not the case — therefore, Option B (A call-back can be a useful addition to an individual comedian’s set.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3040,7 +3036,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "She was the fourth, after Catherine, Mary and her namesake Harriet",
+    "explanation": "She was the fourth, after Catherine, Mary and her namesake Harriet — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3054,7 +3050,7 @@ const QUESTIONS = [
       "Harriet Beecher was born in an average American town."
     ],
     "answer": 0,
-    "explanation": "He was a ‘Rev’, a reverend, and a ‘divine’. She was born in the USA, not UK,",
+    "explanation": "He was a ‘Rev’, a reverend, and a ‘divine’. She was born in the USA, not UK — therefore, Option A (Harriet Beecher had a religious father.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3067,7 +3063,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 0,
-    "explanation": "She is said to have ‘veneration’ in all who knew her.",
+    "explanation": "She is said to have ‘veneration’ in all who knew her. The statement is a direct and factual reflection of the evidence stated in the passage without extrapolating beyond the text. Therefore, the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3076,12 +3072,12 @@ const QUESTIONS = [
     "text": "Harriet Beecher Stowe’s mother’s death is described as:",
     "options": [
       "Her saddest memory of her life.",
-      "The earliest signicant event in her life.",
+      "The earliest significant event in her life.",
       "Her most tender memory of her life.",
       "All of the above."
     ],
     "answer": 2,
-    "explanation": "It is only described as the ‘most sad’ and ‘most tender’ memory of her",
+    "explanation": "It is only described as the ‘most sad’ and ‘most tender’ memory of her — therefore, Option C (Her most tender memory of her life.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3090,12 +3086,12 @@ const QUESTIONS = [
     "text": "Which of the following statements is supported by the above passage:",
     "options": [
       "Harriet Beecher was between three and four when her mother died.",
-      "Harriet Beecher had ve brothers waiting for her when she was born.",
+      "Harriet Beecher had five brothers waiting for her when she was born.",
       "Harriet Beecher was a letter-writer.",
       "Harriet Beecher was an autobiographer."
     ],
     "answer": 2,
-    "explanation": "She wrote her Charles, so at least wrote one letter. The autobiography",
+    "explanation": "She wrote her Charles, so at least wrote one letter. The autobiography — therefore, Option C (Harriet Beecher was a letter-writer.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3109,7 +3105,7 @@ const QUESTIONS = [
       "He found the current books too costly for him to continue his reading habit."
     ],
     "answer": 1,
-    "explanation": "He thought it was ‘a pity that only rich people could own books’, and from",
+    "explanation": "He thought it was ‘a pity that only rich people could own books’, and from — therefore, Option B (He wanted to make text more accessible.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3123,7 +3119,7 @@ const QUESTIONS = [
       "An individual block has limited utility."
     ],
     "answer": 0,
-    "explanation": "The need to be careful is mentioned, as is the fact that the process takes a",
+    "explanation": "The need to be careful is mentioned, as is the fact that the process takes a — therefore, Option A (It exhausts the carver.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3133,11 +3129,11 @@ const QUESTIONS = [
     "options": [
       "Gutenberg was taught to read as a boy.",
       "Gutenberg’s father belonged to the aristocracy.",
-      "Block printing was the predominant book manufacturing process whilst Gutenberg was growing up.",
+      "Block printing was the predominant book manufacturing process whilst Gutenberg was grflflowing up.",
       "Gutenberg’s family was somewhat sociable."
     ],
     "answer": 3,
-    "explanation": "The statement says it is ‘very likely’ he was taught to read, but is not denite.",
+    "explanation": "The statement says it is ‘very likely’ he was taught to read, but is not denite. Evaluating all options against the passage details confirms that Gutenberg’s family was somewhat sociable. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3150,7 +3146,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "The paper was laid on top of the block, not underneath.",
+    "explanation": "The paper was laid on top of the block, not underneath. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3164,7 +3160,7 @@ const QUESTIONS = [
       "Having well off friends was a good way to expand your reading."
     ],
     "answer": 0,
-    "explanation": "There is nothing written in the passage praising the craftsmanship of",
+    "explanation": "There is nothing written in the passage praising the craftsmanship of the text — therefore, Option A (Manuscripts were beautifully crafted.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3177,7 +3173,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "In both examples given above, Apollo is the giver - but these are only two of",
+    "explanation": "In both examples given above, Apollo is the giver - but these are only two of the text — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3191,7 +3187,7 @@ const QUESTIONS = [
       "Cassandra is often seen as a home wrecker."
     ],
     "answer": 2,
-    "explanation": "The gift of prophecy is supernatural, therefore this is the best answer. There",
+    "explanation": "The gift of prophecy is supernatural, therefore this is the best answer. There — therefore, Option C (Cassandra had supernatural powers.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3205,7 +3201,7 @@ const QUESTIONS = [
       "Homer has been inspired by Cassandra."
     ],
     "answer": 1,
-    "explanation": "Nothing is said about the state of Cassandra’s childhood, but it is mentioned",
+    "explanation": "Nothing is said about the state of Cassandra’s childhood, but it is mentioned — therefore, Option B (Cassandra had a happy childhood before her horrible fate.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3218,7 +3214,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "The passage states the ‘presentation of her character alters’.",
+    "explanation": "The passage states the ‘presentation of her character alters’. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3232,7 +3228,7 @@ const QUESTIONS = [
       "Cassandra not acknowledging his gifts."
     ],
     "answer": 0,
-    "explanation": "It is not said that she ignores or refuses to accept the gift, or demands more",
+    "explanation": "It is not said that she ignores or refuses to accept the gift, or demands more — therefore, Option A (Cassandra breaking her promise.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3246,7 +3242,7 @@ const QUESTIONS = [
       "Generalisations can be misleading."
     ],
     "answer": 3,
-    "explanation": "The passage attacks a generalisation, and shows an example that refutes",
+    "explanation": "The passage attacks a generalisation, and shows an example that refutes — therefore, Option D (Generalisations can be misleading.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3260,7 +3256,7 @@ const QUESTIONS = [
       "Sexual"
     ],
     "answer": 0,
-    "explanation": "The pies make the crimes ‘culinary’ in nature, the mention of revenge shows",
+    "explanation": "The pies make the crimes ‘culinary’ in nature, the mention of revenge shows — therefore, Option A (Comic) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3273,7 +3269,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "Though the original title ‘A String of Pearls: A Romance’ may appear to",
+    "explanation": "Though the original title ‘A String of Pearls: A Romance’ may appear to support this — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3287,7 +3283,7 @@ const QUESTIONS = [
       "All humans merit death."
     ],
     "answer": 3,
-    "explanation": "Is essentially synonymous is the quoted belief, ‘we all deserve to die’, which",
+    "explanation": "Is essentially synonymous is the quoted belief, ‘we all deserve to die’, which — therefore, Option D (All humans merit death.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3301,7 +3297,7 @@ const QUESTIONS = [
       "There is nothing positive in ‘Sweeney Todd’."
     ],
     "answer": 2,
-    "explanation": "There are four mentioned themes, but that does not mean there are only four",
+    "explanation": "There are four mentioned themes, but that does not mean there are only four — therefore, Option C (Several ‘Sweeney Todd’ themes are morbid.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3314,7 +3310,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "The above passage is about WWII trains, not WWI ones.",
+    "explanation": "The above passage is about WWII trains, not WWI ones. Evaluating all options against the passage details confirms that Can’t tell is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3328,7 +3324,7 @@ const QUESTIONS = [
       "Many go without eating for the duration of a train journey."
     ],
     "answer": 0,
-    "explanation": "The soldier makes a chair by using a tipped-up suitcase. It is a marine, not a",
+    "explanation": "The soldier makes a chair by using a tipped-up suitcase. It is a marine, not a — therefore, Option A (A soldier responds to the situation by creating his own seat.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3341,7 +3337,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "The passage discourages mothers from going on trains with a baby, stating",
+    "explanation": "The passage discourages mothers from going on trains with a baby, stating — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3354,7 +3350,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 0,
-    "explanation": "‘At every stop’ more people come on the train.",
+    "explanation": "‘At every stop’ more people come on the train. The statement is a direct and factual reflection of the evidence stated in the passage without extrapolating beyond the text. Therefore, the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3368,7 +3364,7 @@ const QUESTIONS = [
       "Compliment soldiers."
     ],
     "answer": 0,
-    "explanation": "The passage does not insult anyone, but it does say the railroads are doing",
+    "explanation": "The passage does not insult anyone, but it does say the railroads are doing — therefore, Option A (Compliment the railroads.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3382,7 +3378,7 @@ const QUESTIONS = [
       "Is one fourth salt, butter and yeast"
     ],
     "answer": 2,
-    "explanation": "The passage states the slice of bread is an ounce, and contains 3/4 ounce of",
+    "explanation": "The passage states the slice of bread is an ounce, and contains 3/4 ounce of the text — therefore, Option C (Is 75% our) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3395,7 +3391,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "It says it is possible that they do, but also possible that they don’t. There is no",
+    "explanation": "It says it is possible that they do, but also possible that they don’t. There is no — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3409,7 +3405,7 @@ const QUESTIONS = [
       "Over 365,000 loaves a year."
     ],
     "answer": 2,
-    "explanation": "It is over a million loaves a day, 319 million pounds - not bushels - a year and",
+    "explanation": "It is over a million loaves a day, 319 million pounds - not bushels - a year — therefore, Option C (1.5 million barrels per annum.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3422,7 +3418,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "False. It may seem unimportant, but the passage goes on to explain how a",
+    "explanation": "False. It may seem unimportant, but the passage goes on to explain how a — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3436,7 +3432,7 @@ const QUESTIONS = [
       "Responsibility lies with the person who keeps the house."
     ],
     "answer": 3,
-    "explanation": "The government have researched waste, but not taken responsibility for it,",
+    "explanation": "The government have researched waste, but not taken responsibility for it — therefore, Option D (Responsibility lies with the person who keeps the house.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3450,7 +3446,7 @@ const QUESTIONS = [
       "Sixteen"
     ],
     "answer": 2,
-    "explanation": "Fourteen women and three men are described to be arrested.",
+    "explanation": "Fourteen women and three men are described to be arrested. Evaluating all options against the passage details confirms that Seventeen is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3463,13 +3459,13 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "She was the only woman, but it does not state whether either man was",
+    "explanation": "She was the only woman, but it does not state whether either man was evident — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 227,
     "passageId": "test_7_P37",
-    "text": "Which of the following best describes initial opinions of the election oﬃcers:",
+    "text": "Which of the following best describes initial opinions of the election officers:",
     "options": [
       "United by each member’s personal support of the women’s votes.",
       "Divided in response to the women’s actions.",
@@ -3477,7 +3473,7 @@ const QUESTIONS = [
       "United by general disapproval of the women’s actions."
     ],
     "answer": 1,
-    "explanation": "The majority ultimately rule, but Hall ‘dissented’, or disagreed, with the other",
+    "explanation": "The majority ultimately rule, but Hall ‘dissented’, or disagreed, with the other — therefore, Option B (Divided in response to the women’s actions.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3488,10 +3484,10 @@ const QUESTIONS = [
       "She did not realise she was not allowed to vote.",
       "That all people born in the USA should be able to vote for their president.",
       "That gender should not prevent her vote.",
-      "The election oﬃcers accepted her vote, showing the responsibility is not with her."
+      "The election officers accepted her vote, shflflowing the responsibility is not with her."
     ],
     "answer": 0,
-    "explanation": "It is said that it was proved upon trial that she was informed of a right to",
+    "explanation": "It is said that it was proved upon trial that she was informed of a right to support this — therefore, Option A (She did not realise she was not allowed to vote.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3504,7 +3500,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 1,
-    "explanation": "They were charged independently.",
+    "explanation": "They were charged independently. This statement directly contradicts or misrepresents the facts clearly established in the passage. Therefore, the statement is False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3518,7 +3514,7 @@ const QUESTIONS = [
       "England and Norway have similar geographical features."
     ],
     "answer": 2,
-    "explanation": "Nowhere does it state that all European countries have similar creatures",
+    "explanation": "Nowhere does it state that all European countries have similar creatures — therefore, Option C (By having forests, a country is more likely to have a variety of birds and animals.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3532,7 +3528,7 @@ const QUESTIONS = [
       "Developmentally behind the Norwegians."
     ],
     "answer": 0,
-    "explanation": "There was a time when the English dreaded wolves and bears, but that",
+    "explanation": "There was a time when the English dreaded wolves and bears, but that fact — therefore, Option A (Having been anxious of certain animals.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3546,7 +3542,7 @@ const QUESTIONS = [
       "Man-eating"
     ],
     "answer": 2,
-    "explanation": "Bears are called destroyers, which is sufficient to conclude they cause",
+    "explanation": "Bears are called destroyers, which is sufficient to conclude they cause — therefore, Option C (Damaging) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3560,7 +3556,7 @@ const QUESTIONS = [
       "At risk in parts of Norway."
     ],
     "answer": 3,
-    "explanation": "They are ruthlessly hunted by farmers in country districts, but numerous",
+    "explanation": "They are ruthlessly hunted by farmers in country districts, but numerous — therefore, Option D (At risk in parts of Norway.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3574,7 +3570,7 @@ const QUESTIONS = [
       "Norsemen particularly respect their natural surroundings."
     ],
     "answer": 0,
-    "explanation": "The word fortunately implies that it is good the wolves are no longer central.",
+    "explanation": "The word fortunately implies that it is good the wolves are no longer central. Evaluating all options against the passage details confirms that The movement of wolves to the out-of-reach parts of Norway is benecial. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3587,7 +3583,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 0,
-    "explanation": "They were seen as the ‘friendly or hostile manifestation of some higher",
+    "explanation": "They were seen as the ‘friendly or hostile manifestation of some higher — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3601,7 +3597,7 @@ const QUESTIONS = [
       "A vocal minority believes dreams are the direct products of angels and devils."
     ],
     "answer": 2,
-    "explanation": "A small minority believe that dreams are not the dreamer’s own psychical",
+    "explanation": "A small minority believe that dreams are not the dreamer’s own psychical — therefore, Option C (The majority accepts that a dreamer’s dream is his or her own psychical act.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3615,7 +3611,7 @@ const QUESTIONS = [
       "There are relationships between images and feelings that would appear illogical to the awake mind."
     ],
     "answer": 3,
-    "explanation": "There is incongruity between feelings and images, suggesting a lack of a",
+    "explanation": "There is incongruity between feelings and images, suggesting a lack of a — therefore, Option D (There are relationships between images and feelings that would appear illogical to the awake mind.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3628,7 +3624,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 0,
-    "explanation": "It asks can sense be made of each single dream.",
+    "explanation": "It asks can sense be made of each single dream. The statement is a direct and factual reflection of the evidence stated in the passage without extrapolating beyond the text. Therefore, the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3642,7 +3638,7 @@ const QUESTIONS = [
       "The origin of the dream has been scientically sourced."
     ],
     "answer": 2,
-    "explanation": "A link between the psychical sleeping and waking self is suggested, but not",
+    "explanation": "A link between the psychical sleeping and waking self is suggested, but not the case — therefore, Option C (A memory of a dream may be untrustworthy.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3655,7 +3651,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 0,
-    "explanation": "“Most” requires over half by denition, and “most” of the people living in this",
+    "explanation": "“Most” requires over half by denition, and “most” of the people living in this — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3669,7 +3665,7 @@ const QUESTIONS = [
       "According to Hall, 80,000 people led to a population of 1,000,000."
     ],
     "answer": 1,
-    "explanation": "Hall only makes a claim for New England, not the entirety of America, being",
+    "explanation": "Hall only makes a claim for New England, not the entirety of America, being — therefore, Option B (The population in the 1751 colonies was over ten times the original immigration that moved there.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3683,7 +3679,7 @@ const QUESTIONS = [
       "Not based on genetic lines."
     ],
     "answer": 2,
-    "explanation": "It is said to be “distinct” to older aristocracy “of the royal governor’s courts”. It",
+    "explanation": "It is said to be “distinct” to older aristocracy “of the royal governor’s courts”. It — therefore, Option C (Not based in royal governors’ courts.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3696,7 +3692,7 @@ const QUESTIONS = [
       "Can’t tell"
     ],
     "answer": 2,
-    "explanation": "It says that these were the texts read by the most people, but that does not",
+    "explanation": "It says that these were the texts read by the most people, but that does not the case — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3710,7 +3706,7 @@ const QUESTIONS = [
       "Travel between America and England was dangerous."
     ],
     "answer": 1,
-    "explanation": "“A”, “c” and “d” are cited in the passage (the journey took ‘the better part of",
+    "explanation": "“A”, “c” and “d” are cited in the passage (the journey took ‘the better part of the text — therefore, Option B (The English saw the early colonists as backwards.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3724,7 +3720,7 @@ const QUESTIONS = [
       "Sapping the resources of Germany, Austro-Hungary and Turkey for 3 years."
     ],
     "answer": 3,
-    "explanation": "Paragraph 2 states that the “main thing” which must be considered when",
+    "explanation": "Paragraph 2 states that the “main thing” which must be considered when — therefore, Option D (Sapping the resources of Germany, Austro-Hungary and Turkey for 3 years.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3738,20 +3734,20 @@ const QUESTIONS = [
       "5."
     ],
     "answer": 3,
-    "explanation": "America, Italy, Romania and Britain are mentioned at the end of paragraph",
+    "explanation": "America, Italy, Romania and Britain are mentioned at the end of paragraph — therefore, Option D (5.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 247,
     "passageId": "test_7_P41",
-    "text": "Russia was the main country ghting against Germany in the early years of the War?",
+    "text": "Russia was the main country fighting against Germany in the early years of the War?",
     "options": [
       "True.",
       "False.",
       "Can’t tell."
     ],
     "answer": 2,
-    "explanation": "Russia certainly had a greater role when compared to America, Italy,",
+    "explanation": "Russia certainly had a greater role when compared to America, Italy — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3765,7 +3761,7 @@ const QUESTIONS = [
       "Turkey and Austro-Hungary changing sides."
     ],
     "answer": 1,
-    "explanation": "A & C contributed, but the nal catastrophe of the Central Powers was the",
+    "explanation": "A & C contributed, but the nal catastrophe of the Central Powers was the relevant passage facts — therefore, Option B (The oﬀensive drive of the Allies.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3778,7 +3774,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 0,
-    "explanation": "The nal paragraph states that both Russia’s and France’s eﬀorts were",
+    "explanation": "The nal paragraph states that both Russia’s and France’s eﬀorts were — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3791,7 +3787,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 0,
-    "explanation": "At the end of paragraph 4, the passage says ‘Journalists did some of their",
+    "explanation": "At the end of paragraph 4, the passage says ‘Journalists did some of their — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3805,7 +3801,7 @@ const QUESTIONS = [
       "Televisions."
     ],
     "answer": 2,
-    "explanation": "Paragraph 3 states magazines oﬀered perspective, rather than necessarily",
+    "explanation": "Paragraph 3 states magazines oﬀered perspective, rather than necessarily — therefore, Option C (Magazines.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3819,7 +3815,7 @@ const QUESTIONS = [
       "Televisions."
     ],
     "answer": 0,
-    "explanation": "Paragraph 4 states that the internet was responsible for allowing the former",
+    "explanation": "Paragraph 4 states that the internet was responsible for allflflowing the former — therefore, Option A (The Internet.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3833,7 +3829,7 @@ const QUESTIONS = [
       "Magazines."
     ],
     "answer": 2,
-    "explanation": "In paragraph 3 it states ‘people gathered around the radio for the",
+    "explanation": "In paragraph 3 it states ‘people gathered around the radio for the relevant passage facts — therefore, Option C (Radios.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3847,7 +3843,7 @@ const QUESTIONS = [
       "John. F Kennedy was elected."
     ],
     "answer": 0,
-    "explanation": "A or B are the 2 most likely answers, as paragraph 2 states about a fallen",
+    "explanation": "A or B are the 2 most likely answers, as paragraph 2 states about a fallen — therefore, Option A (President Franklin D. Roosevelt died.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3860,7 +3856,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 0,
-    "explanation": "Paragraph 2 states inhabitants defended their own territory. While",
+    "explanation": "Paragraph 2 states inhabitants defended their own territory. While — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3874,7 +3870,7 @@ const QUESTIONS = [
       "There was a leader of the whole country, with majors in each borough."
     ],
     "answer": 2,
-    "explanation": "Paragraph 2 states that inhabitants elected their own rulers and oﬃcials in",
+    "explanation": "Paragraph 2 states that inhabitants elected their own rulers and oﬃcials in the text — therefore, Option C (Inhabitants elected their own rulers.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3887,7 +3883,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 0,
-    "explanation": "The first sentence concludes that the 15th century town life is nothing like",
+    "explanation": "The first sentence concludes that the 15th century town life is nothing like — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3901,7 +3897,7 @@ const QUESTIONS = [
       "The whole country."
     ],
     "answer": 2,
-    "explanation": "The nal paragraph states that ‘often their authority stretched out over a",
+    "explanation": "The nal paragraph states that ‘often their authority stretched out over a — therefore, Option C (Their respective towns and surrounding villages.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3915,7 +3911,7 @@ const QUESTIONS = [
       "All of the above."
     ],
     "answer": 3,
-    "explanation": "There is mention of war (arming soldiers), of banning trading between",
+    "explanation": "There is mention of war (arming soldiers), of banning trading between — therefore, Option D (All of the above.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3928,7 +3924,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 1,
-    "explanation": "The second sentence states that male power has risen and thus has not",
+    "explanation": "The second sentence states that male power has risen and thus has not the case — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3942,7 +3938,7 @@ const QUESTIONS = [
       "No gods."
     ],
     "answer": 1,
-    "explanation": "At the end of paragraph 1, it is stated that the Jewish God has attributes of",
+    "explanation": "At the end of paragraph 1, it is stated that the Jewish God has attributes of the text — therefore, Option B (The Jewish god.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3952,17 +3948,17 @@ const QUESTIONS = [
     "options": [
       "It provides an insight to societies of the past.",
       "Because it is important to understand and respect other people’s religion.",
-      "To nd out which God is the most powerful.",
-      "To nd out about the weaknesses of human nature."
+      "To find out which God is the most powerful.",
+      "To find out about the weaknesses of human nature."
     ],
     "answer": 0,
-    "explanation": "The nal sentence talks about how faiths may give an insight into past",
+    "explanation": "The nal sentence talks about how faiths may give an insight into past — therefore, Option A (It provides an insight to societies of the past.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
     "id": 263,
     "passageId": "test_7_P44",
-    "text": "Where is the inuence of sex most clearly displayed?",
+    "text": "Where is the inflfluence of sex most clearly displayed?",
     "options": [
       "In the formation of religion.",
       "In the rules of religion.",
@@ -3970,7 +3966,7 @@ const QUESTIONS = [
       "By the gods attributes."
     ],
     "answer": 0,
-    "explanation": "The first sentence states that ‘nowhere is the inuence of sex more plainly",
+    "explanation": "The first sentence states that ‘nowhere is the inflfluence of sex more plainly — therefore, Option A (In the formation of religion.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3983,7 +3979,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 2,
-    "explanation": "There is never any mention of the author’s own beliefs, there are only",
+    "explanation": "There is never any mention of the author’s own beliefs, there are only — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -3996,7 +3992,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 0,
-    "explanation": "The writer says that a “novel with a purpose” constitutes a violation of",
+    "explanation": "The writer says that a “novel with a purpose” constitutes a violation of the text — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4010,7 +4006,7 @@ const QUESTIONS = [
       "To pleasure a man during periods of idleness."
     ],
     "answer": 3,
-    "explanation": "At the end of the first paragraph, the passage states a novel may conduce to",
+    "explanation": "At the end of the first paragraph, the passage states a novel may conduce to support this — therefore, Option D (To pleasure a man during periods of idleness.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4023,7 +4019,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 2,
-    "explanation": "The author does not agree with novels which portray the author’s views on",
+    "explanation": "The author does not agree with novels which portray the author’s views on — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4037,7 +4033,7 @@ const QUESTIONS = [
       "A novel should be a work of ction."
     ],
     "answer": 2,
-    "explanation": "The only plausible answers are C and D (the author argues against A & B). It",
+    "explanation": "The only plausible answers are C and D (the author argues against A & B). It — therefore, Option C (A novel should aﬀord amusement.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4051,7 +4047,7 @@ const QUESTIONS = [
       "A novel should aﬀord amusement."
     ],
     "answer": 1,
-    "explanation": "C and D are beliefs of the author. A novel should instruct the reader is the",
+    "explanation": "C and D are beliefs of the author. A novel should instruct the reader is the relevant passage facts — therefore, Option B (A novel should instruct the reader.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4064,7 +4060,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 2,
-    "explanation": "While the first paragraph talks of these happy memories, all are asked as",
+    "explanation": "While the first paragraph talks of these happy memories, all are asked as — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4075,10 +4071,10 @@ const QUESTIONS = [
       "Yes, because where they grew up has been destroyed.",
       "Yes, because the current generation didn’t have anywhere where they could listen to the music of the birds when they were children as the sounds of machinery has replaced this.",
       "Yes, because not many people do justify the training of wholesale murderers.",
-      "No, because the denition of patriotism has not been dened and so one cannot say whether few American’s of today are patriotic."
+      "No, because the denition of patriotism has not been defined and so one cannot say whether few American’s of today are patriotic."
     ],
     "answer": 3,
-    "explanation": "The passage is based on different opinions on what patriotism is, thus, it",
+    "explanation": "The passage is based on different opinions on what patriotism is, thus, it — therefore, Option D (No, because the denition of patriotism has not been defined and so one cannot say whether few American’s of today are patriotic.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4092,7 +4088,7 @@ const QUESTIONS = [
       "Encouraging migration to distant lands."
     ],
     "answer": 0,
-    "explanation": "Paragraph 3 states that one proposed denition of patriotism is the",
+    "explanation": "Paragraph 3 states that one proposed denition of patriotism is the relevant passage facts — therefore, Option A (Justifying mass killing.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4103,10 +4099,10 @@ const QUESTIONS = [
       "Wonderful tales of great deeds and conquests.",
       "Stories to encourage dreams and aspirations.",
       "Stories of sorrow, tears, and grief.",
-      "Tales of ying away to distant lands."
+      "Tales of flying away to distant lands."
     ],
     "answer": 2,
-    "explanation": "While paragraph 1 talks of wonderful tales of great deeds and conquests,",
+    "explanation": "While paragraph 1 talks of wonderful tales of great deeds and conquests — therefore, Option C (Stories of sorrow, tears, and grief.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4120,7 +4116,7 @@ const QUESTIONS = [
       "Why they cannot keep up with clouds."
     ],
     "answer": 3,
-    "explanation": "This is the only answer where the author specically says children wonder.",
+    "explanation": "This is the only answer where the author specically says children wonder. Evaluating all options against the passage details confirms that Why they cannot keep up with clouds. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4134,7 +4130,7 @@ const QUESTIONS = [
       "A man who can enjoy the meat he eats."
     ],
     "answer": 2,
-    "explanation": "The start of paragraph 2 states that a good man can receive a gift well.",
+    "explanation": "The start of paragraph 2 states that a good man can receive a gift well. Evaluating all options against the passage details confirms that A man who can take a gift well. is the only conclusion fully substantiated by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4148,7 +4144,7 @@ const QUESTIONS = [
       "They prefer to pick their own gifts."
     ],
     "answer": 0,
-    "explanation": "In paragraph 1, it states “we wish to be self-sustained” when referring to",
+    "explanation": "In paragraph 1, it states “we wish to be self-sustained” when referring to support this — therefore, Option A (Because men wish to maintain themselves by independent eﬀort.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4161,7 +4157,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 1,
-    "explanation": "In paragraph 2, the author states that he can rejoice (i.e. like) to receive gifts",
+    "explanation": "In paragraph 2, the author states that he can rejoice (i.e. like) to receive gifts — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4175,7 +4171,7 @@ const QUESTIONS = [
       "When the receiver loves you."
     ],
     "answer": 3,
-    "explanation": "In paragraph 1, it states “we can receive anything from love, for that is a",
+    "explanation": "In paragraph 1, it states “we can receive anything from love, for that is a — therefore, Option D (When the receiver loves you.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4189,7 +4185,7 @@ const QUESTIONS = [
       "All of the above."
     ],
     "answer": 2,
-    "explanation": "Paragraph 2 states “if the gift pleases me overmuch, then I should be",
+    "explanation": "Paragraph 2 states “if the gift pleases me overmuch, then I should be — therefore, Option C (Appreciating the item rather than the eﬀort of the giver.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4202,7 +4198,7 @@ const QUESTIONS = [
       "Can’t tell."
     ],
     "answer": 1,
-    "explanation": "False. The nal sentence states that mathematics was a science which",
+    "explanation": "False. The nal sentence states that mathematics was a science which — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4216,7 +4212,7 @@ const QUESTIONS = [
       "His ideas of mathematics."
     ],
     "answer": 2,
-    "explanation": "Having writers speak about a paper indicates this is the most popular (the",
+    "explanation": "Having writers speak about a paper indicates this is the most popular (the — therefore, Option C (His ideas of refraction.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4230,7 +4226,7 @@ const QUESTIONS = [
       "The translator did not believe Goethe’s theory and didn’t want to write a paper which may convince others it is true."
     ],
     "answer": 0,
-    "explanation": "The translator was aware of the opposition which the theoretical views",
+    "explanation": "The translator was aware of the opposition which the theoretical views — therefore, Option A (He wanted to present the scientic evidence before the theory to the audience, while Goethe did not.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4244,7 +4240,7 @@ const QUESTIONS = [
       "4"
     ],
     "answer": 2,
-    "explanation": "“Doctrine of Colours” and two short essays entitled “Contributions to",
+    "explanation": "“Doctrine of Colours” and two short essays entitled “Contributions to support this — therefore, Option C (3) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4258,7 +4254,7 @@ const QUESTIONS = [
       "Changing the ways in which theories are presented."
     ],
     "answer": 0,
-    "explanation": "This is stated in the first sentence. While his views are different from the",
+    "explanation": "This is stated in the first sentence. While his views are different from the relevant passage facts — therefore, Option A (About colours of the prismatic spectrum and of refraction.) is the only conclusion directly supported by the text.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4271,7 +4267,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "In paragraph 2 the passage says “gradually” (but surely) the thoughts of",
+    "explanation": "In paragraph 2 the passage says “gradually” (but surely) the thoughts of the text — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4284,7 +4280,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "In paragraph one, the passage states that this is the view of",
+    "explanation": "In paragraph one, the passage states that this is the view of the text — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4297,7 +4293,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Nowhere does the passage mention Nora’s opinion of wanting a",
+    "explanation": "Nowhere does the passage mention Nora’s opinion of wanting a — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4310,7 +4306,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "The first paragraph states every twelfth marriage ends in divorce,",
+    "explanation": "The first paragraph states every twelfth marriage ends in divorce — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4323,7 +4319,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "In the second paragraph, it states that over time, a married woman’s",
+    "explanation": "In the second paragraph, it states that over time, a married woman’s — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4336,7 +4332,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 1,
-    "explanation": "In paragraph 1, it states a series of temporary measures were initiated",
+    "explanation": "In paragraph 1, it states a series of temporary measures were initiated — this directly contradicts the information provided in the passage, making the statement False.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4349,7 +4345,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Nothing stated anywhere in the text of legislation actively replacing",
+    "explanation": "Nothing stated anywhere in the text of legislation actively replacing — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4362,7 +4358,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 2,
-    "explanation": "Paragraph 2 would suggest so, but there is no denitive description",
+    "explanation": "Paragraph 2 would suggest so, but there is no denitive description — the passage does not provide sufficient information to confirm or refute this claim, so the correct answer is Can't Tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4375,7 +4371,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "Paragraph 3 states that the ATCSA marked a more rm move towards",
+    "explanation": "Paragraph 3 states that the ATCSA marked a more rm move towards — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4388,7 +4384,7 @@ const QUESTIONS = [
       "Can't Tell"
     ],
     "answer": 0,
-    "explanation": "The second paragraph states that the 2000 Terrorism Act was passed",
+    "explanation": "The second paragraph states that the 2000 Terrorism Act was passed — this statement is directly supported by the passage, confirming that the statement is True.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4416,7 +4412,7 @@ const QUESTIONS = [
       "Myanmar is ruled by a military junta."
     ],
     "answer": 3,
-    "explanation": "This is a negative question, asking for something that cannot be true, so the correct answer will contradict  the passage. The second paragraph mentions in brackets that the junta re-named Burma as Myanmar,  so (A) is true and therefore incorrect. The final sentence states that Suu Kyi was elected to parliament in  Myanmar in 2012, so (B) is also true, and also incorrect. The first sentence of the final paragraph says that  Suu Kyi never became prime minister, so (C) is likewise true and incorrect. That same sentence clarifies  that the Myanmar junta was dissolved in 2011, so Myanmar is not ruled by a junta. (D) is false, and thus  the correct answer.",
+    "explanation": "This is a negative question, asking for something that cannot be true, so the correct answer will contradict  the passage. The second paragraph mentions in brackets that the junta fire-named Burma as Myanmar,  so (A) is true and therefore incorrect. The final sentence states that Suu Kyi was elected to parliament in  Myanmar in 2012, so (B) is also true, and also incorrect. The first sentence of the final paragraph says that  Suu Kyi never became prime minister, so (C) is likewise true and incorrect. That same sentence clarifies  that the Myanmar junta was dissolved in 2011, so Myanmar is not ruled by a junta. (D) is false, and thus  the correct answer.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4436,7 +4432,7 @@ const QUESTIONS = [
   {
     "id": 298,
     "passageId": "test_11_P1",
-    "text": "As a consequence of military intervention in Burma in 1990:",
+    "text": "As a conseqfluence of military intervention in Burma in 1990:",
     "options": [
       "the results of elections were not fulfilled.",
       "someone who was not elected became prime minister.",
@@ -4565,7 +4561,7 @@ const QUESTIONS = [
       "Can't tell"
     ],
     "answer": 0,
-    "explanation": "The keyword 'Durham' appears in the second paragraph, which states that students at Durham no longer  had to pass a religious test for admissions after the 1871 Universities Test Act. From this information, you  can infer that students at Durham did have to pass a religious admissions test before 1871; this statement  is therefore supported by the passage. The answer is (A).\n\n\nScore Higher on the UKCAT 334",
+    "explanation": "The keyword 'Durham' appears in the second paragraph, which states that students at Durham no longer  had to pass a religious test for admissions after the 1871 Universities Test Act. From this information, you  can infer that students at Durham did have to pass a religious admissions test before 1871; this statement  is therefore supported by the passage. The answer is (A).\n\n\nScore Higher on the UKCAT 334.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4638,7 +4634,7 @@ const QUESTIONS = [
   {
     "id": 313,
     "passageId": "test_11_P5",
-    "text": "The passage includes examples of embedded water that involve all of the following except:",
+    "text": "The passage includes examples of embedded water that involve all of the follflowing except:",
     "options": [
       "alcoholic and non-alcoholic drinks",
       "agricultural exports",
@@ -4702,7 +4698,7 @@ const QUESTIONS = [
       "prefer the larger ball size."
     ],
     "answer": 3,
-    "explanation": "This question asks for something that must be false, so the correct answer must contradict the passage  regarding the Chinese National Team. The Chinese players are mentioned in the fourth sentence of the  passage; they unsuccessfully challenged an increase in the diameter of table tennis balls, as the larger balls  had less speed and spin, which were essential to the Chinese playing style. Thus, the first three answers are  supported by the passage, and thus are incorrect; (D) contradicts the passage, and is correct.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 335",
+    "explanation": "This question asks for something that must be false, so the correct answer must contradict the passage  regarding the Chinese National Team. The Chinese players are mentioned in the fourth sentence of the  passage; they unsuccessfully challenged an increase in the diameter of table tennis balls, as the larger balls  had less speed and spin, which were essential to the Chinese playing style. Thus, the first three answers are  supported by the passage, and thus are incorrect; (D) contradicts the passage, and is correct.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 335.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4810,7 +4806,7 @@ const QUESTIONS = [
       "university students."
     ],
     "answer": 3,
-    "explanation": "This question asks for something that must be false, so the correct answer must contradict the passage.  Scan for details about men outnumbering women in the UK, and you will find the information in the  second paragraph that women outnumber men in higher education in the UK. Thus, there cannot be  more men than women among UK university students. (D) is the correct answer.\n\n\nScore Higher on the UKCAT 336",
+    "explanation": "This question asks for something that must be false, so the correct answer must contradict the passage.  Scan for details about men outnumbering women in the UK, and you will find the information in the  second paragraph that women outnumber men in higher education in the UK. Thus, there cannot be  more men than women among UK university students. (D) is the correct answer.\n\n\nScore Higher on the UKCAT 336.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4830,7 +4826,7 @@ const QUESTIONS = [
   {
     "id": 327,
     "passageId": "test_11_P9",
-    "text": "Which of the following statements about the world's food supply is best supported by the passage?",
+    "text": "Which of the follflowing statements about the world's food supply is best supported by the passage?",
     "options": [
       "Most of the world's crops depend on bees for pollination.",
       "Nosema infections are the greatest threat to the world's food supply.",
@@ -4844,7 +4840,7 @@ const QUESTIONS = [
   {
     "id": 328,
     "passageId": "test_11_P9",
-    "text": "The writer of the passage would most likely find which of the following actions sufficient in its attempt to  prevent the collapse of further colonies of bees?",
+    "text": "The writer of the passage would most likely find which of the follflowing actions sufficient in its attempt to  prevent the collapse of further colonies of bees?",
     "options": [
       "Any pesticides that are shown in tests to harm bees should be banned.",
       "Any pesticides that make bees more vulnerable to IIV infection should be banned.",
@@ -4893,7 +4889,7 @@ const QUESTIONS = [
       "Can't tell"
     ],
     "answer": 2,
-    "explanation": "The Imperial War Museum appears in the final paragraph, which states that the first Imperial War Muse- um was at Crystal Palace. The passage does not specify where the current Imperial War Museum is  located, so there is no way of knowing based on the passage whether or not it is still at Crystal Palace. The  answer is Can't tell.",
+    "explanation": "The Imperial War Museum appears in the final paragraph, which states that the first Imperial War Muse- um was at Crystal Palace. The passage does not specify where the current Imperial War Museum is  located, so there is no way of knflowing based on the passage whether or not it is still at Crystal Palace. The  answer is Can't tell.",
     "topic": "Verbal Reasoning"
   },
   {
@@ -4919,7 +4915,7 @@ const QUESTIONS = [
       "Can't tell"
     ],
     "answer": 0,
-    "explanation": "This statement may sound a bit unusual, but scanning for the keywords 'Hyde Park' leads to the first  sentence of the second paragraph. The building destroyed in 1936, referred to in the previous paragraph  sentence as Crystal Palace, was erected in Hyde Park for the Great Exhibition of 1851. This statement is  supported by the passage, and is therefore true.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 337",
+    "explanation": "This statement may sound a bit unusual, but scanning for the keywords 'Hyde Park' leads to the first  sentence of the second paragraph. The building destroyed in 1936, referred to in the previous paragraph  sentence as Crystal Palace, was erected in Hyde Park for the Great Exhibition of 1851. This statement is  supported by the passage, and is therefore true.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 337.",
     "topic": "Verbal Reasoning"
   },
   {

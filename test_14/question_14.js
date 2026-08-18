@@ -54,7 +54,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "Being dishonest is an inappropriate course of action in any context. This option also demonstrates Adam  would not be admitting his need for help, which may have further consequences for his training and for  becoming a good doctor. This is therefore highly inappropriate.",
+    "explanation": "Being dishonest is an inappropriate course of action in any context. This option also demonstrates Adam  would not be admitting his need for help, which may have further conseqfluences for his training and for  becoming a good doctor. This is therefore highly inappropriate.",
     "topic": "Situational Judgement"
   },
   {
@@ -138,7 +138,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "This is an inappropriate option, as it could come across as rude and might be awkward if the patient were  to be re-admitted to her ward. However, it is not awful, since doctors should not socialise with patients.  The better response would be to ignore the request, rather than denying it.",
+    "explanation": "This is an inappropriate option, as it could come across as rude and might be awkward if the patient were  to be fire-admitted to her ward. However, it is not awful, since doctors should not socialise with patients.  The better response would be to ignore the request, rather than denying it.",
     "topic": "Situational Judgement"
   },
   {
@@ -152,7 +152,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This is a very inappropriate response, as it is unprofessional for Saba to socialise with a patient. Accepting  the request in order to explain why she cannot socialise would send the patient a mixed message, and  would also begin a conversation on the social networking site, which could lead to serious professional  consequences for Saba, despite her best intentions.",
+    "explanation": "This is a very inappropriate response, as it is unprofessional for Saba to socialise with a patient. Accepting  the request in order to explain why she cannot socialise would send the patient a mixed message, and  would also begin a conversation on the social networking site, which could lead to serious professional  conseqfluences for Saba, despite her best intentions.",
     "topic": "Situational Judgement"
   },
   {
@@ -166,7 +166,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This would be a highly appropriate response, since it will not escalate the situation further, and it will  ensure that Saba does not engage in any inappropriate social contact with a patient.\n\n\nScore Higher on the UKCAT 352",
+    "explanation": "This would be a highly appropriate response, since it will not escalate the situation further, and it will  ensure that Saba does not engage in any inappropriate social contact with a patient.\n\n\nScore Higher on the UKCAT 352.",
     "topic": "Situational Judgement"
   },
   {
@@ -208,7 +208,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 2,
-    "explanation": "Clearing her throat will not ensure that the nurses notice her presence or stop their gossiping, so it is not  an effective or appropriate response. However, there are no negative consequences from doing so, other  than potentially having to wait a bit longer for help from the nurses-so it is not an awful response.",
+    "explanation": "Clearing her throat will not ensure that the nurses notice her presence or stop their gossiping, so it is not  an effective or appropriate response. However, there are no negative conseqfluences from doing so, other  than potentially having to wait a bit longer for help from the nurses-so it is not an awful response.",
     "topic": "Situational Judgement"
   },
   {
@@ -236,7 +236,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "Whilst this would be a difficult action for Ian to pursue, it is a very appropriate response that deals with  the situation immediately, discreetly and locally. No student under any circumstances should be allowed  to cheat, and this response ensures that Ben must face the consequences of his actions.",
+    "explanation": "Whilst this would be a difficult action for Ian to pursue, it is a very appropriate response that deals with  the situation immediately, discreetly and locally. No student under any circumstances should be allowed  to cheat, and this response ensures that Ben must face the conseqfluences of his actions.",
     "topic": "Situational Judgement"
   },
   {
@@ -278,7 +278,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "This may save Ian from a difficult conversation with his best friend; however, this response is neither  immediate nor local. By the time the medical school investigates further, it will be hard to prove that Ben  cheated. This means it is likely that Ben will not have to face consequences for having cheated, and that  he will be able to maintain an unfair advantage over their fellow medical students. Thus, this is a highly  inappropriate response.",
+    "explanation": "This may save Ian from a difficult conversation with his best friend; however, this response is neither  immediate nor local. By the time the medical school investigates further, it will be hard to prove that Ben  cheated. This means it is likely that Ben will not have to face conseqfluences for having cheated, and that  he will be able to maintain an unfair advantage over their fellow medical students. Thus, this is a highly  inappropriate response.",
     "topic": "Situational Judgement"
   },
   {
@@ -306,7 +306,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "The patient has not given consent for the treatment, so it would be highly unprofessional for Arissa to  proceed with the treatment. This would be a highly inappropriate thing to do, and could result in serious  professional consequences for Arissa.",
+    "explanation": "The patient has not given consent for the treatment, so it would be highly unprofessional for Arissa to  proceed with the treatment. This would be a highly inappropriate thing to do, and could result in serious  professional conseqfluences for Arissa.",
     "topic": "Situational Judgement"
   },
   {
@@ -348,7 +348,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This would be a very appropriate thing to do, since it would give them both equal opportunities to teach  and to help complete the paperwork.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 353",
+    "explanation": "This would be a very appropriate thing to do, since it would give them both equal opportunities to teach  and to help complete the paperwork.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 353.",
     "topic": "Situational Judgement"
   },
   {
@@ -474,7 +474,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 0,
-    "explanation": "This is a highly appropriate response, as it is an open and neutral question, with no possible negative  consequences for Alfie.",
+    "explanation": "This is a highly appropriate response, as it is an open and neutral question, with no possible negative  conseqfluences for Alfie.",
     "topic": "Situational Judgement"
   },
   {
@@ -516,7 +516,7 @@ const QUESTIONS = [
       "Very inappropriate"
     ],
     "answer": 3,
-    "explanation": "It is not clear that Alfie has been abused, though his injuries are worrying and would justify further inves- tigation by Hannah before making a report to children's services. The next step would be to examine the  injuries, ideally after obtaining consent from Alfie's carer. Phoning in a report before checking the injuries  would be highly inappropriate.\n\n\nScore Higher on the UKCAT 354",
+    "explanation": "It is not clear that Alfie has been abused, though his injuries are worrying and would justify further inves- tigation by Hannah before making a report to children's services. The next step would be to examine the  injuries, ideally after obtaining consent from Alfie's carer. Phoning in a report before checking the injuries  would be highly inappropriate.\n\n\nScore Higher on the UKCAT 354.",
     "topic": "Situational Judgement"
   },
   {
@@ -614,7 +614,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "Whilst it may be tempting for Zakariyah to 'let this one go' in support of his friend, stealing hospital sup- plies is completely against all regulations and also calls into question a doctor's probity; therefore, it is  important that Zakariyah raises this through the appropriate channels without placing any importance  at all on the consequences for Jackson's medical career.",
+    "explanation": "Whilst it may be tempting for Zakariyah to 'let this one go' in support of his friend, stealing hospital sup- plies is completely against all regulations and also calls into question a doctor's probity; therefore, it is  important that Zakariyah raises this through the appropriate channels without placing any importance  at all on the conseqfluences for Jackson's medical career.",
     "topic": "Situational Judgement"
   },
   {
@@ -684,7 +684,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "This factor is of minor importance. It makes it more likely that Conor would want to be sensitive yet  effective in responding to Liam's remarks, but it does not mitigate the need to address Liam's behaviour  in any way.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 355",
+    "explanation": "This factor is of minor importance. It makes it more likely that Conor would want to be sensitive yet  effective in responding to Liam's remarks, but it does not mitigate the need to address Liam's behaviour  in any way.\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 355.",
     "topic": "Situational Judgement"
   },
   {

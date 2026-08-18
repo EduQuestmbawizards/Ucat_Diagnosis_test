@@ -34,7 +34,7 @@ const QUESTIONS = [
   {
     "id": 3,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: The aliens don't eat plants.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the follflowing message? Message: The aliens don't eat plants.",
     "options": [
       "G16, B14, 4(F5)",
       "16, 14, 4(F3)",
@@ -66,11 +66,11 @@ const QUESTIONS = [
     "passageId": null,
     "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What is the best interpretation of the coded message: J3, 12(13), FJ(JC)",
     "options": [
-      "Growing humans use up more air from the tank.",
+      "Grflowing humans use up more air from the tank.",
       "More humans will use up the air tanks.",
       "More humans empty the air tank more quickly.",
-      "A growing human's air tank slowly shrinks.",
-      "Humanity's air tank is not growing."
+      "A grflowing human's air tank slowly shrinks.",
+      "Humanity's air tank is not grflowing."
     ],
     "answer": 2,
     "explanation": "The literal translation is grow(human), air(tank), opposite(grow)(grow(fast)). All the answers give possible  interpretations of the first two parts of the message, so eliminate based on the final part of the message.  The final part does not include negative, B; eliminate (E), which does include a negative. Grow(fast) could  mean something like more quickly; eliminate (D), which incorrectly gives the opposite of fast, rather than  grow(fast), and also (A) and (B), which omit this element entirely. The answer is therefore (C).",
@@ -79,7 +79,7 @@ const QUESTIONS = [
   {
     "id": 6,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: A new planet with plants is our new home.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the follflowing message? Message: A new planet with plants is our new home.",
     "options": [
       "K(F2, 16), K(5, F4)",
       "K(F2), J16, K5, J(F4)",
@@ -124,7 +124,7 @@ const QUESTIONS = [
   {
     "id": 9,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: In the distant future, the sun will shrink and become cold.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the follflowing message? Message: In the distant future, the sun will shrink and become cold.",
     "options": [
       "A(AE11), A1, FJ, 9(8)",
       "E11, A1, FJ, JC",
@@ -139,7 +139,7 @@ const QUESTIONS = [
   {
     "id": 10,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message? Message: One night, many stars fell around us.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_1.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the follflowing message? Message: One night, many stars fell around us.",
     "options": [
       "2D, J1, 7(FD), FE, F4",
       "G(2D), F(G1), 7(FD), FE, F4",
@@ -214,7 +214,7 @@ const QUESTIONS = [
   {
     "id": 15,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message?   Message: A rich man will pay for a private space launch.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the follflowing message?   Message: A rich man will pay for a private space launch.",
     "options": [
       "3(A106), L106, A101, E2",
       "3(106), L106, 7D, E2",
@@ -223,7 +223,7 @@ const QUESTIONS = [
       "3(A106), L106, M101, E2"
     ],
     "answer": 4,
-    "explanation": "The first part of the message is encoded as 3(A106), human(big(money)), or 3(106), human(money). A  rich man has a lot of money, so the first option is a better fit; eliminate (B) and (D). The second part of the  message is the same in the remaining answers, but they give three different options for the third part of  the message: A101, big(launch); 7D, journey(up); M101, special(launch). Since launch is now included  in the table, the correct answer must include 101; eliminate (C). Special is a better fit for the concept of  private, so the correct answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 349",
+    "explanation": "The first part of the message is encoded as 3(A106), human(big(money)), or 3(106), human(money). A  rich man has a lot of money, so the first option is a better fit; eliminate (B) and (D). The second part of the  message is the same in the remaining answers, but they give three different options for the third part of  the message: A101, big(launch); 7D, journey(up); M101, special(launch). Since launch is now included  in the table, the correct answer must include 101; eliminate (C). Special is a better fit for the concept of  private, so the correct answer is (E).\n\n\nAppendix C  Chapter 8 Kaplan UKCAT Mock Test Explanations 349.",
     "topic": "Decision Making"
   },
   {
@@ -313,13 +313,13 @@ const QUESTIONS = [
       "A person would hope the orange gas expanded, but it didn't."
     ],
     "answer": 0,
-    "explanation": "The literal translation is big(orange)(air), grow(different), human(head, hopeful). The first element could  mean 'orange gas' or 'orange gas cloud', so it does not allow you to eliminate any answers. The second ele- ment could mean 'grow differently' or 'expand differently'; eliminate (B) and (E), which omit a represen- tation of different with this element. (D) includes tank, which is 13 in the table but is not included in the  message, so (D) must be wrong. The final element of the message is given in the two remaining answers as  'a person would expect' or 'you would hope'; (A) is the better fit for the message, and is therefore correct.\n\n\nScore Higher on the UKCAT 350",
+    "explanation": "The literal translation is big(orange)(air), grow(different), human(head, hopeful). The first element could  mean 'orange gas' or 'orange gas cloud', so it does not allow you to eliminate any answers. The second ele- ment could mean 'grow differently' or 'expand differently'; eliminate (B) and (E), which omit a represen- tation of different with this element. (D) includes tank, which is 13 in the table but is not included in the  message, so (D) must be wrong. The final element of the message is given in the two remaining answers as  'a person would expect' or 'you would hope'; (A) is the better fit for the message, and is therefore correct.\n\n\nScore Higher on the UKCAT 350.",
     "topic": "Decision Making"
   },
   {
     "id": 22,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message?   Message: I seek a planet where all beings are equal.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the follflowing message?   Message: I seek a planet where all beings are equal.",
     "options": [
       "G(F4), 109, F2, AJ(3, 4(F5)), B206",
       "F4, 111, F2, AJ3, F206",
@@ -364,7 +364,7 @@ const QUESTIONS = [
   {
     "id": 25,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the following message?   Message: An astronaut expands knowledge, not conflict.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>What would be the best way to encode the follflowing message?   Message: An astronaut expands knowledge, not conflict.",
     "options": [
       "3(107, 1), J(FE10), BJ105",
       "3(107, 1), J(A112), BJ104",
@@ -373,13 +373,13 @@ const QUESTIONS = [
       "3(107, 6), J10, BJ104"
     ],
     "answer": 1,
-    "explanation": "The correct answer to a previous question encoded 'astronaut' as a human who sails the stars, or 3(107,  1); eliminate (D) and (E), which include ship rather than star. The remaining answers give three different  ways to encode the concept of 'expand knowledge': J(FE10), grow(opposite(beyond(head))); J(A112),  grow(big(learn)); or J10, grow(head). Big(learn) is the best fit for knowledge, and growing the 'big learn'  could mean expanding knowledge. The correct answer is (B).",
+    "explanation": "The correct answer to a previous question encoded 'astronaut' as a human who sails the stars, or 3(107,  1); eliminate (D) and (E), which include ship rather than star. The remaining answers give three different  ways to encode the concept of 'expand knowledge': J(FE10), grow(opposite(beyond(head))); J(A112),  grow(big(learn)); or J10, grow(head). Big(learn) is the best fit for knowledge, and grflowing the 'big learn'  could mean expanding knowledge. The correct answer is (B).",
     "topic": "Decision Making"
   },
   {
     "id": 26,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: Poison ivy makes skin red and itchy.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the follflowing would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: Poison ivy makes skin red and itchy.",
     "options": [
       "poison",
       "ivy",
@@ -394,7 +394,7 @@ const QUESTIONS = [
   {
     "id": 27,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: We changed the tank to finish the soldier's blood transfusion.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the follflowing would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: We changed the tank to finish the soldier's blood transfusion.",
     "options": [
       "change",
       "finish",
@@ -409,7 +409,7 @@ const QUESTIONS = [
   {
     "id": 28,
     "passageId": null,
-    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the following would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: Drop rubbish in a bin, not into space.",
+    "text": "<strong>Scenario:</strong><br><img src='image/da_table_2.png' style='max-width:100%;'><br><br><strong>Question:</strong><br>Which of the follflowing would be the most useful and second most useful additions to the codes in order  to convey the message accurately?   Message: Drop rubbish in a bin, not into space.",
     "options": [
       "command",
       "drop",

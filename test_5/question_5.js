@@ -12,7 +12,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 0,
-    "explanation": "The correct answer is A. It is essential for Dr Ramanthan to address the obvious fact  \nthat they are upset. Without addressing this, it will be difficult to solve the problem.  \nThis is a positive response and demonstrates empathy. Although he is having a busy  \nshift, he is taking the time to speak to the patient\u2019s parents about their concerns.",
+    "explanation": "The correct answer is A. It is essential for Dr Ramanthan to address the obvious fact  \nthat they are upset. Without addressing this, it will be difficult to solve the problem.  \nThis is a positive response and demonstrates empathy. Although he is having a busy  \nshift, he is taking the time to speak to the patient’s parents about their concerns.",
     "topic": "Situational Judgement"
   },
   {
@@ -26,7 +26,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. It is not appropriate to dismiss another staff member in the  \nmiddle of a conflict, as this may indicate that they have done something wrong. It may  \nalso be offensive to the staff member, who is not sure why they are being sent away.  \nAlthough it may seem that he is doing nothing wrong, and is simply trying to help, the  \nreceptionist was involved in the conflict and thus it is important for her to be present  \nwhile he attempts to deal with it. However, this does demonstrate an attempt to  \nresolve the main issue of the parents\u2019 frustration, so it is not entirely bad.",
+    "explanation": "The correct answer is C. It is not appropriate to dismiss another staff member in the  \nmiddle of a conflict, as this may indicate that they have done something wrong. It may  \nalso be offensive to the staff member, who is not sure why they are being sent away.  \nAlthough it may seem that he is doing nothing wrong, and is simply trying to help, the  \nreceptionist was involved in the conflict and thus it is important for her to be present  \nwhile he attempts to deal with it. However, this does demonstrate an attempt to  \nresolve the main issue of the parents’ frustration, so it is not entirely bad.",
     "topic": "Situational Judgement"
   },
   {
@@ -54,13 +54,13 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. Without any confirmation of who the person on the phone is,  \nand whether Mr Simpson has given explicit consent for that person to be given  \ninformation about him, Jasmine cannot make any comments. It is highly inappropriate  \nto even confirm that Mr Simpson is on this ward. Patient confidentiality is crucial. If  \nhe does not want her to know he is there, it is not Jasmine\u2019s right to inform her.  \nFurther, from a patient safety point of view, it may even be someone pretending to  \nbe his daughter. Therefore, Jasmine must exercise caution and avoid giving away any  \ninformation.",
+    "explanation": "The correct answer is D. Without any confirmation of who the person on the phone is,  \nand whether Mr Simpson has given explicit consent for that person to be given  \ninformation about him, Jasmine cannot make any comments. It is highly inappropriate  \nto even confirm that Mr Simpson is on this ward. Patient confidentiality is crucial. If  \nhe does not want her to know he is there, it is not Jasmine’s right to inform her.  \nFurther, from a patient safety point of view, it may even be someone pretending to  \nbe his daughter. Therefore, Jasmine must exercise caution and avoid giving away any  \ninformation.",
     "topic": "Situational Judgement"
   },
   {
     "id": 5,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nJasmine is a junior registrar on a night shift in general surgery. She received a phone call from  \nEileen who states that she is the daughter of Mr Simpson, one of the patients on the ward.  \nEileen wants to know how her father is doing, as he does not have a mobile phone that she  \ncan contact him with.\n\n<strong>Question:</strong>\nCheck Mr Simpson\u2019s records to see whether Eileen is mentioned.",
+    "text": "<strong>Scenario:</strong>\nJasmine is a junior registrar on a night shift in general surgery. She received a phone call from  \nEileen who states that she is the daughter of Mr Simpson, one of the patients on the ward.  \nEileen wants to know how her father is doing, as he does not have a mobile phone that she  \ncan contact him with.\n\n<strong>Question:</strong>\nCheck Mr Simpson’s records to see whether Eileen is mentioned.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -68,7 +68,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 0,
-    "explanation": "The correct answer is A. If there are identifiable details about Eileen on Mr Simpson\u2019s  \nrecord, and it has been stated that she has permission to obtain information about  \nhim, then Jasmine can pass on information. Therefore, it would be very appropriate  \nto check his record for such information.",
+    "explanation": "The correct answer is A. If there are identifiable details about Eileen on Mr Simpson’s  \nrecord, and it has been stated that she has permission to obtain information about  \nhim, then Jasmine can pass on information. Therefore, it would be very appropriate  \nto check his record for such information.",
     "topic": "Situational Judgement"
   },
   {
@@ -82,7 +82,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 0,
-    "explanation": "The correct answer is A. If Jasmine has any doubt, and the patient is available and able  \nto make an informed decision, it is best to ask him directly. If he gives his explicit  \nconsent, Jasmine can answer Eileen\u2019s questions over the telephone.",
+    "explanation": "The correct answer is A. If Jasmine has any doubt, and the patient is available and able  \nto make an informed decision, it is best to ask him directly. If he gives his explicit  \nconsent, Jasmine can answer Eileen’s questions over the telephone.",
     "topic": "Situational Judgement"
   },
   {
@@ -116,7 +116,7 @@ const QUESTIONS = [
   {
     "id": 9,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nGurleen, a medical student, spent the weekend at home with her family. Her younger siblings  \nmiss her a lot when she is at university, and are insistent that she stay with them for a while  \nlonger. She has seminars all day tomorrow, and knows that these are important to attend.  \nHowever, she wishes to spend more time with her siblings, as she hardly gets the chance to  \ncome home.\n\n<strong>Question:</strong>\nReport a \u201csick\u201d absence to the medical school.",
+    "text": "<strong>Scenario:</strong>\nGurleen, a medical student, spent the weekend at home with her family. Her younger siblings  \nmiss her a lot when she is at university, and are insistent that she stay with them for a while  \nlonger. She has seminars all day tomorrow, and knows that these are important to attend.  \nHowever, she wishes to spend more time with her siblings, as she hardly gets the chance to  \ncome home.\n\n<strong>Question:</strong>\nReport a “sick” absence to the medical school.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -124,7 +124,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. Lying is always unacceptable and should always be \u201cvery  \ninappropriate\u201d.",
+    "explanation": "The correct answer is D. Lying is always unacceptable and should always be “very  \ninappropriate”.",
     "topic": "Situational Judgement"
   },
   {
@@ -138,7 +138,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. This is also lying, which is unethical and unacceptable. It is  \ngood to ask friends for support and any notes from something that she has missed,  \nbut this must be \u201cvery inappropriate\u201d due to the unethical act of requesting to be  \nsigned in.",
+    "explanation": "The correct answer is D. This is also lying, which is unethical and unacceptable. It is  \ngood to ask friends for support and any notes from something that she has missed,  \nbut this must be “very inappropriate” due to the unethical act of requesting to be  \nsigned in.",
     "topic": "Situational Judgement"
   },
   {
@@ -172,7 +172,7 @@ const QUESTIONS = [
   {
     "id": 13,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHamza is a junior doctor who has been seeking the opportunity to practice performing a  \nlumbar puncture. The opportunity finally comes up, as a patient is in need of a lumbar  \npuncture and there is a consultant to supervise and educate him on this. As Hamza is heading  \nto gather his equipment, his alarm goes off reminding him of his meeting with a research  \nsupervisor.\n\n<strong>Question:</strong>\nHamza\u2019s supervisor had offered to buy him lunch during the meeting.",
+    "text": "<strong>Scenario:</strong>\nHamza is a junior doctor who has been seeking the opportunity to practice performing a  \nlumbar puncture. The opportunity finally comes up, as a patient is in need of a lumbar  \npuncture and there is a consultant to supervise and educate him on this. As Hamza is heading  \nto gather his equipment, his alarm goes off reminding him of his meeting with a research  \nsupervisor.\n\n<strong>Question:</strong>\nHamza’s supervisor had offered to buy him lunch during the meeting.",
     "options": [
       "Very important",
       "Important",
@@ -186,7 +186,7 @@ const QUESTIONS = [
   {
     "id": 14,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHamza is a junior doctor who has been seeking the opportunity to practice performing a  \nlumbar puncture. The opportunity finally comes up, as a patient is in need of a lumbar  \npuncture and there is a consultant to supervise and educate him on this. As Hamza is heading  \nto gather his equipment, his alarm goes off reminding him of his meeting with a research  \nsupervisor.\n\n<strong>Question:</strong>\nHamza\u2019s supervisor has taken time out of his schedule to meet with him.",
+    "text": "<strong>Scenario:</strong>\nHamza is a junior doctor who has been seeking the opportunity to practice performing a  \nlumbar puncture. The opportunity finally comes up, as a patient is in need of a lumbar  \npuncture and there is a consultant to supervise and educate him on this. As Hamza is heading  \nto gather his equipment, his alarm goes off reminding him of his meeting with a research  \nsupervisor.\n\n<strong>Question:</strong>\nHamza’s supervisor has taken time out of his schedule to meet with him.",
     "options": [
       "Very important",
       "Important",
@@ -208,7 +208,7 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. This does not address the main problem. Nowhere does it  \nsay that it is necessary for Hamza to perform this procedure. It is clear that Hamza  \nwants this for his own education and learning, which is important, but it is more  \nessential to uphold the commitments that others have made for him. However, it does  \nhelp to solve a minor problem, which is Hamza\u2019s desire to perform a lumbar puncture.  \nBy considering this, he may be able to find a solution to this minor problem, such as  \nasking the consultant to wait until he is back. If the procedure is not urgent, this may  \nbe possible.",
+    "explanation": "The correct answer is C. This does not address the main problem. Nowhere does it  \nsay that it is necessary for Hamza to perform this procedure. It is clear that Hamza  \nwants this for his own education and learning, which is important, but it is more  \nessential to uphold the commitments that others have made for him. However, it does  \nhelp to solve a minor problem, which is Hamza’s desire to perform a lumbar puncture.  \nBy considering this, he may be able to find a solution to this minor problem, such as  \nasking the consultant to wait until he is back. If the procedure is not urgent, this may  \nbe possible.",
     "topic": "Situational Judgement"
   },
   {
@@ -222,7 +222,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. This response is quite negative, as outlined by the term  \n\u201cconfront\u201d. It is important to maintain politeness, as this kind of mannerism can lead  \nto a defensive response and problems between colleagues. However, Amit is clearly  \nattempting to solve the problem by reminding her that she should not be breaking  \nconfidentiality. Therefore, although he has not used the correct tone for resolving the  \nproblem, it is not entirely inappropriate.",
+    "explanation": "The correct answer is C. This response is quite negative, as outlined by the term  \n“confront”. It is important to maintain politeness, as this kind of mannerism can lead  \nto a defensive response and problems between colleagues. However, Amit is clearly  \nattempting to solve the problem by reminding her that she should not be breaking  \nconfidentiality. Therefore, although he has not used the correct tone for resolving the  \nproblem, it is not entirely inappropriate.",
     "topic": "Situational Judgement"
   },
   {
@@ -256,7 +256,7 @@ const QUESTIONS = [
   {
     "id": 19,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nAmit, a medical student, is out doing some shopping, when he sees some students he  \nrecognises from his course. As he approaches them, he overhears one of them discussing  \nDaniel, a patient that she examined earlier.\n\n<strong>Question:</strong>\nPolitely remind her that patients\u2019 names should not be mentioned, especially in a  \npublic place.",
+    "text": "<strong>Scenario:</strong>\nAmit, a medical student, is out doing some shopping, when he sees some students he  \nrecognises from his course. As he approaches them, he overhears one of them discussing  \nDaniel, a patient that she examined earlier.\n\n<strong>Question:</strong>\nPolitely remind her that patients’ names should not be mentioned, especially in a  \npublic place.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -270,7 +270,7 @@ const QUESTIONS = [
   {
     "id": 20,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors\u2019 office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\nReport him immediately as he should not be drinking during work.",
+    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors’ office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\nReport him immediately as he should not be drinking during work.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -284,7 +284,7 @@ const QUESTIONS = [
   {
     "id": 21,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors\u2019 office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\nAsk him if everything is okay.",
+    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors’ office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\nAsk him if everything is okay.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -298,7 +298,7 @@ const QUESTIONS = [
   {
     "id": 22,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors\u2019 office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\nConfront him about the alcohol and demand that he takes the day off work for the  \nsafety of the patients.",
+    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors’ office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\nConfront him about the alcohol and demand that he takes the day off work for the  \nsafety of the patients.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -306,13 +306,13 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. There is no evidence that the consultant has been drinking,  \nthus harsh and negative terms such as \u201cconfront\u201d and \u201cdemand\u201d are very  \ninappropriate.",
+    "explanation": "The correct answer is D. There is no evidence that the consultant has been drinking,  \nthus harsh and negative terms such as “confront” and “demand” are very  \ninappropriate.",
     "topic": "Situational Judgement"
   },
   {
     "id": 23,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors\u2019 office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\nTalk to him to detect whether he appears to have been drinking.",
+    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors’ office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\nTalk to him to detect whether he appears to have been drinking.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -326,7 +326,7 @@ const QUESTIONS = [
   {
     "id": 24,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors\u2019 office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\n\u201cAre you okay? It\u2019s not like you to be drinking at work.\u201d",
+    "text": "<strong>Scenario:</strong>\nCarl is a junior doctor on a surgical rotation. When he enters the doctors’ office in the  \nmorning, he witnesses one of the surgeons quickly shove a bottle of whiskey in his drawer.\n\n<strong>Question:</strong>\n“Are you okay? It’s not like you to be drinking at work.”",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -340,7 +340,7 @@ const QUESTIONS = [
   {
     "id": 25,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient\u2019s safety.\n\n<strong>Question:</strong>\nThe healthcare assistant is new to the ward and probably did make the mistake.",
+    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient’s safety.\n\n<strong>Question:</strong>\nThe healthcare assistant is new to the ward and probably did make the mistake.",
     "options": [
       "Very important",
       "Important",
@@ -348,13 +348,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. It is not right for any member of the team to shout at anyone.  \nPoor leadership and teamwork skills are being demonstrated by the nurse, and this  \nmatter should be resolved. If Emmanuel considers that the healthcare assistant  \nprobably made the mistake, it may stop him from doing anything to resolve the issue  \nat hand, as he may feel that the nurse\u2019s actions are necessary.",
+    "explanation": "The correct answer is D. It is not right for any member of the team to shout at anyone.  \nPoor leadership and teamwork skills are being demonstrated by the nurse, and this  \nmatter should be resolved. If Emmanuel considers that the healthcare assistant  \nprobably made the mistake, it may stop him from doing anything to resolve the issue  \nat hand, as he may feel that the nurse’s actions are necessary.",
     "topic": "Situational Judgement"
   },
   {
     "id": 26,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient\u2019s safety.\n\n<strong>Question:</strong>\nThe healthcare assistant jeopardised patient safety.",
+    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient’s safety.\n\n<strong>Question:</strong>\nThe healthcare assistant jeopardised patient safety.",
     "options": [
       "Very important",
       "Important",
@@ -368,7 +368,7 @@ const QUESTIONS = [
   {
     "id": 27,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient\u2019s safety.\n\n<strong>Question:</strong>\nEmmanuel is only a medical student and it may not be his place to step in.",
+    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient’s safety.\n\n<strong>Question:</strong>\nEmmanuel is only a medical student and it may not be his place to step in.",
     "options": [
       "Very important",
       "Important",
@@ -376,13 +376,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. When something wrong is happening, anyone who is there to  \nwitness it should do something about it. There should not be a culture in a healthcare  \nenvironment whereby, due to a hierarchy of roles, people stay quiet and let abusive  \nsituations progress. Therefore, considering that he is \u201conly\u201d a medical student may  \nstop him from resolving this issue. As such, it is not important at all to consider.",
+    "explanation": "The correct answer is D. When something wrong is happening, anyone who is there to  \nwitness it should do something about it. There should not be a culture in a healthcare  \nenvironment whereby, due to a hierarchy of roles, people stay quiet and let abusive  \nsituations progress. Therefore, considering that he is “only” a medical student may  \nstop him from resolving this issue. As such, it is not important at all to consider.",
     "topic": "Situational Judgement"
   },
   {
     "id": 28,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient\u2019s safety.\n\n<strong>Question:</strong>\nPatients are listening to the quarrel.",
+    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient’s safety.\n\n<strong>Question:</strong>\nPatients are listening to the quarrel.",
     "options": [
       "Very important",
       "Important",
@@ -390,13 +390,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 0,
-    "explanation": "The correct answer is A. The main issues at hand are the poor leadership and  \nteamwork skills displayed. However, another major issue has presented in this  \nquestion \u2013 responsibility towards patients and the wider community. Such incidences  \nshould never occur in front of patients, as they can lead to patients losing confidence  \nand trust in the healthcare profession. If someone makes a mistake, they should be  \nadvised privately, rather than in front of patients. Thus, if Emmanuel considers that  \npatients are listening, it will urge him to act promptly to resolve the situation.",
+    "explanation": "The correct answer is A. The main issues at hand are the poor leadership and  \nteamwork skills displayed. However, another major issue has presented in this  \nquestion – responsibility towards patients and the wider community. Such incidences  \nshould never occur in front of patients, as they can lead to patients losing confidence  \nand trust in the healthcare profession. If someone makes a mistake, they should be  \nadvised privately, rather than in front of patients. Thus, if Emmanuel considers that  \npatients are listening, it will urge him to act promptly to resolve the situation.",
     "topic": "Situational Judgement"
   },
   {
     "id": 29,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient\u2019s safety.\n\n<strong>Question:</strong>\nThe doctor had told the nurse to reprimand the healthcare assistant.",
+    "text": "<strong>Scenario:</strong>\nEmmanuel is a medical student on placement in a hospital. While seeing some patients, he  \nhears a quarrel and immediately runs to find out what is happening. He finds a nurse shouting  \nat one of the healthcare assistants. It appears that the healthcare assistant forgot to complete  \none of her tasks, potentially jeopardising a patient’s safety.\n\n<strong>Question:</strong>\nThe doctor had told the nurse to reprimand the healthcare assistant.",
     "options": [
       "Very important",
       "Important",
@@ -466,7 +466,7 @@ const QUESTIONS = [
   {
     "id": 34,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nColeen is a dental student who has just moved in with her friend, Charlotte, who is also a  \ndental student. They will soon be starting clinics with patients, and Coleen is concerned about  \nCharlotte. She has been expressing inappropriate ideas about the position of a dentist in  \nrelation to the patients that they treat. Coleen thinks that Charlotte has been negatively  \ninfluenced by a television series that she has been watching.\n\n<strong>Question:</strong>\nThe impact that Charlotte\u2019s behaviour might have on patients that she sees in her  \nclinics.",
+    "text": "<strong>Scenario:</strong>\nColeen is a dental student who has just moved in with her friend, Charlotte, who is also a  \ndental student. They will soon be starting clinics with patients, and Coleen is concerned about  \nCharlotte. She has been expressing inappropriate ideas about the position of a dentist in  \nrelation to the patients that they treat. Coleen thinks that Charlotte has been negatively  \ninflfluenced by a television series that she has been watching.\n\n<strong>Question:</strong>\nThe impact that Charlotte’s behaviour might have on patients that she sees in her  \nclinics.",
     "options": [
       "Very important",
       "Important",
@@ -544,13 +544,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. Workplace safety is everybody\u2019s responsibility. He cannot  \nmake the assumption that someone is already dealing with it, nor can he base his  \nactions on this assumption. There does not appear to be anyone there dealing with it,  \nthus, he should not consider this when deciding how to act. If he happens to consider  \nthis, it may prevent him from taking urgent action, thus increasing the risk to patients  \nand other staff members.",
+    "explanation": "The correct answer is D. Workplace safety is everybody’s responsibility. He cannot  \nmake the assumption that someone is already dealing with it, nor can he base his  \nactions on this assumption. There does not appear to be anyone there dealing with it,  \nthus, he should not consider this when deciding how to act. If he happens to consider  \nthis, it may prevent him from taking urgent action, thus increasing the risk to patients  \nand other staff members.",
     "topic": "Situational Judgement"
   },
   {
     "id": 40,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHenry, a medical student, is on placement in a cardiology ward. He is going through patient  \nnotes and prescription charts to learn of different medications that are prescribed on the  \nward. He notices that Mr Xiu\u2019s notes declare that he is allergic to a specific medication. Upon  \nchecking his prescription chart, Henry notices that Mr Xiu had been prescribed the medication  \nhe is allergic to earlier this morning. The doctor who wrote the prescription is nowhere in  \nsight.\n\n<strong>Question:</strong>\nSpend time trying to locate the doctor responsible for writing the prescription.",
+    "text": "<strong>Scenario:</strong>\nHenry, a medical student, is on placement in a cardiology ward. He is going through patient  \nnotes and prescription charts to learn of different medications that are prescribed on the  \nward. He notices that Mr Xiu’s notes declare that he is allergic to a specific medication. Upon  \nchecking his prescription chart, Henry notices that Mr Xiu had been prescribed the medication  \nhe is allergic to earlier this morning. The doctor who wrote the prescription is nowhere in  \nsight.\n\n<strong>Question:</strong>\nSpend time trying to locate the doctor responsible for writing the prescription.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -558,13 +558,13 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. The threat to patient safety should be urgent and immediate.   \nTherefore, after knowing that the doctor is nowhere in sight, it would be very  \ninappropriate to spend time looking for the doctor. In this time, someone may give Mr  \nXiu the medication, resulting in him having an allergic reaction. This action would  \nincrease the risk to the patient, thus is very inappropriate.",
+    "explanation": "The correct answer is D. The threat to patient safety should be urgent and immediate.   \nTherefore, after knflowing that the doctor is nowhere in sight, it would be very  \ninappropriate to spend time looking for the doctor. In this time, someone may give Mr  \nXiu the medication, resulting in him having an allergic reaction. This action would  \nincrease the risk to the patient, thus is very inappropriate.",
     "topic": "Situational Judgement"
   },
   {
     "id": 41,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHenry, a medical student, is on placement in a cardiology ward. He is going through patient  \nnotes and prescription charts to learn of different medications that are prescribed on the  \nward. He notices that Mr Xiu\u2019s notes declare that he is allergic to a specific medication. Upon  \nchecking his prescription chart, Henry notices that Mr Xiu had been prescribed the medication  \nhe is allergic to earlier this morning. The doctor who wrote the prescription is nowhere in  \nsight.\n\n<strong>Question:</strong>\nCross out the prescription so no one uses it.",
+    "text": "<strong>Scenario:</strong>\nHenry, a medical student, is on placement in a cardiology ward. He is going through patient  \nnotes and prescription charts to learn of different medications that are prescribed on the  \nward. He notices that Mr Xiu’s notes declare that he is allergic to a specific medication. Upon  \nchecking his prescription chart, Henry notices that Mr Xiu had been prescribed the medication  \nhe is allergic to earlier this morning. The doctor who wrote the prescription is nowhere in  \nsight.\n\n<strong>Question:</strong>\nCross out the prescription so no one uses it.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -578,7 +578,7 @@ const QUESTIONS = [
   {
     "id": 42,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nHenry, a medical student, is on placement in a cardiology ward. He is going through patient  \nnotes and prescription charts to learn of different medications that are prescribed on the  \nward. He notices that Mr Xiu\u2019s notes declare that he is allergic to a specific medication. Upon  \nchecking his prescription chart, Henry notices that Mr Xiu had been prescribed the medication  \nhe is allergic to earlier this morning. The doctor who wrote the prescription is nowhere in  \nsight.\n\n<strong>Question:</strong>\nUrgently inform the first doctor or nurse in sight.",
+    "text": "<strong>Scenario:</strong>\nHenry, a medical student, is on placement in a cardiology ward. He is going through patient  \nnotes and prescription charts to learn of different medications that are prescribed on the  \nward. He notices that Mr Xiu’s notes declare that he is allergic to a specific medication. Upon  \nchecking his prescription chart, Henry notices that Mr Xiu had been prescribed the medication  \nhe is allergic to earlier this morning. The doctor who wrote the prescription is nowhere in  \nsight.\n\n<strong>Question:</strong>\nUrgently inform the first doctor or nurse in sight.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -592,7 +592,7 @@ const QUESTIONS = [
   {
     "id": 43,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLola is a first-year medical student and is about to go into the operating theatre for the first  \ntime. She is extremely excited, and tells her partner, Daniel, that she can\u2019t wait. Daniel  \nappears a bit nervous. During the surgery, there is a lot of blood, and Lola notices Daniel  \nbecoming very pale.   \n  \nChoose  both  the  one most appropriate action  and the  one least appropriate action  that  Lola   \nshould take in response to this situation.  \n  \nYou will not receive any marks for this question unless you select  both  the most and least  \nappropriate actions.\n\n<strong>Question:</strong>\n\n\nChoose the <strong>MOST appropriate</strong> action in this situation.",
+    "text": "<strong>Scenario:</strong>\nLola is a first-year medical student and is about to go into the operating theatre for the first  \ntime. She is extremely excited, and tells her partner, Daniel, that she can’t wait. Daniel  \nappears a bit nervous. During the surgery, there is a lot of blood, and Lola notices Daniel  \nbecoming very pale.   \n  \nChoose  both  the  one most appropriate action  and the  one least appropriate action  that  Lola   \nshould take in response to this situation.  \n  \nYou will not receive any marks for this question unless you select  both  the most and least  \nappropriate actions.\n\n<strong>Question:</strong>\n\n\nChoose the <strong>MOST appropriate</strong> action in this situation.",
     "options": [
       "Immediately inform the surgeon conducting the operation so he can help Lola to  \ndeal with this.",
       "Immediately take Daniel out of the operating room without telling anyone, as it  \nmay disrupt the operation.",
@@ -605,7 +605,7 @@ const QUESTIONS = [
   {
     "id": 44,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nLola is a first-year medical student and is about to go into the operating theatre for the first  \ntime. She is extremely excited, and tells her partner, Daniel, that she can\u2019t wait. Daniel  \nappears a bit nervous. During the surgery, there is a lot of blood, and Lola notices Daniel  \nbecoming very pale.   \n  \nChoose  both  the  one most appropriate action  and the  one least appropriate action  that  Lola   \nshould take in response to this situation.  \n  \nYou will not receive any marks for this question unless you select  both  the most and least  \nappropriate actions.\n\n<strong>Question:</strong>\n\n\nChoose the <strong>LEAST appropriate</strong> action in this situation.",
+    "text": "<strong>Scenario:</strong>\nLola is a first-year medical student and is about to go into the operating theatre for the first  \ntime. She is extremely excited, and tells her partner, Daniel, that she can’t wait. Daniel  \nappears a bit nervous. During the surgery, there is a lot of blood, and Lola notices Daniel  \nbecoming very pale.   \n  \nChoose  both  the  one most appropriate action  and the  one least appropriate action  that  Lola   \nshould take in response to this situation.  \n  \nYou will not receive any marks for this question unless you select  both  the most and least  \nappropriate actions.\n\n<strong>Question:</strong>\n\n\nChoose the <strong>LEAST appropriate</strong> action in this situation.",
     "options": [
       "Immediately inform the surgeon conducting the operation so he can help Lola to  \ndeal with this.",
       "Immediately take Daniel out of the operating room without telling anyone, as it  \nmay disrupt the operation.",
@@ -618,7 +618,7 @@ const QUESTIONS = [
   {
     "id": 45,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNatalia, a dental student, is enjoying some lunch with her colleagues in a busy canteen. Some  \nof them start to make jokes about \u201cthe role of a woman\u201d and \u201cfeminists\u201d. She starts to feel  \nextremely uncomfortable as she finds their comments very offensive.\n\n<strong>Question:</strong>\nOthers may also be feeling uncomfortable.",
+    "text": "<strong>Scenario:</strong>\nNatalia, a dental student, is enjoying some lunch with her colleagues in a busy canteen. Some  \nof them start to make jokes about “the role of a woman” and “feminists”. She starts to feel  \nextremely uncomfortable as she finds their comments very offensive.\n\n<strong>Question:</strong>\nOthers may also be feeling uncomfortable.",
     "options": [
       "Very important",
       "Important",
@@ -632,7 +632,7 @@ const QUESTIONS = [
   {
     "id": 46,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNatalia, a dental student, is enjoying some lunch with her colleagues in a busy canteen. Some  \nof them start to make jokes about \u201cthe role of a woman\u201d and \u201cfeminists\u201d. She starts to feel  \nextremely uncomfortable as she finds their comments very offensive.\n\n<strong>Question:</strong>\nThe people making the remarks are her colleagues.",
+    "text": "<strong>Scenario:</strong>\nNatalia, a dental student, is enjoying some lunch with her colleagues in a busy canteen. Some  \nof them start to make jokes about “the role of a woman” and “feminists”. She starts to feel  \nextremely uncomfortable as she finds their comments very offensive.\n\n<strong>Question:</strong>\nThe people making the remarks are her colleagues.",
     "options": [
       "Very important",
       "Important",
@@ -646,7 +646,7 @@ const QUESTIONS = [
   {
     "id": 47,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNatalia, a dental student, is enjoying some lunch with her colleagues in a busy canteen. Some  \nof them start to make jokes about \u201cthe role of a woman\u201d and \u201cfeminists\u201d. She starts to feel  \nextremely uncomfortable as she finds their comments very offensive.\n\n<strong>Question:</strong>\nPeople in the canteen may overhear the jokes.",
+    "text": "<strong>Scenario:</strong>\nNatalia, a dental student, is enjoying some lunch with her colleagues in a busy canteen. Some  \nof them start to make jokes about “the role of a woman” and “feminists”. She starts to feel  \nextremely uncomfortable as she finds their comments very offensive.\n\n<strong>Question:</strong>\nPeople in the canteen may overhear the jokes.",
     "options": [
       "Very important",
       "Important",
@@ -660,7 +660,7 @@ const QUESTIONS = [
   {
     "id": 48,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nNatalia, a dental student, is enjoying some lunch with her colleagues in a busy canteen. Some  \nof them start to make jokes about \u201cthe role of a woman\u201d and \u201cfeminists\u201d. She starts to feel  \nextremely uncomfortable as she finds their comments very offensive.\n\n<strong>Question:</strong>\nShe is a dental student.",
+    "text": "<strong>Scenario:</strong>\nNatalia, a dental student, is enjoying some lunch with her colleagues in a busy canteen. Some  \nof them start to make jokes about “the role of a woman” and “feminists”. She starts to feel  \nextremely uncomfortable as she finds their comments very offensive.\n\n<strong>Question:</strong>\nShe is a dental student.",
     "options": [
       "Very important",
       "Important",
@@ -674,7 +674,7 @@ const QUESTIONS = [
   {
     "id": 49,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Jerome, a dentist, is at the cinema with her children. A patient of hers, Mrs Phillips, finds  \nher in the queue for tickets. Mrs Phillips asks how Hannah, her friend\u2019s daughter, is doing  \nafter her wisdom teeth removal. Mrs Phillips is close with Hannah\u2019s family who are also  \npatients at Dr Jerome\u2019s practice.\n\n<strong>Question:</strong>\nThat Hannah is doing well.",
+    "text": "<strong>Scenario:</strong>\nDr Jerome, a dentist, is at the cinema with her children. A patient of hers, Mrs Phillips, finds  \nher in the queue for tickets. Mrs Phillips asks how Hannah, her friend’s daughter, is doing  \nafter her wisdom teeth removal. Mrs Phillips is close with Hannah’s family who are also  \npatients at Dr Jerome’s practice.\n\n<strong>Question:</strong>\nThat Hannah is doing well.",
     "options": [
       "Very important",
       "Important",
@@ -682,13 +682,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. The outcomes of the surgery have no impact on whether her  \nprivate information should be released to a third party or not. Considering this may  \nactually cause harm, as it could lead Dr Jerome to making a passive remark such as  \n\u201cShe\u2019s doing well!\u201d which may seem harmless but is still a breach of confidentiality.",
+    "explanation": "The correct answer is D. The outcomes of the surgery have no impact on whether her  \nprivate information should be released to a third party or not. Considering this may  \nactually cause harm, as it could lead Dr Jerome to making a passive remark such as  \n“She’s doing well!” which may seem harmless but is still a breach of confidentiality.",
     "topic": "Situational Judgement"
   },
   {
     "id": 50,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Jerome, a dentist, is at the cinema with her children. A patient of hers, Mrs Phillips, finds  \nher in the queue for tickets. Mrs Phillips asks how Hannah, her friend\u2019s daughter, is doing  \nafter her wisdom teeth removal. Mrs Phillips is close with Hannah\u2019s family who are also  \npatients at Dr Jerome\u2019s practice.\n\n<strong>Question:</strong>\nShe knows that Mrs Phillips is very close with Hannah\u2019s family.",
+    "text": "<strong>Scenario:</strong>\nDr Jerome, a dentist, is at the cinema with her children. A patient of hers, Mrs Phillips, finds  \nher in the queue for tickets. Mrs Phillips asks how Hannah, her friend’s daughter, is doing  \nafter her wisdom teeth removal. Mrs Phillips is close with Hannah’s family who are also  \npatients at Dr Jerome’s practice.\n\n<strong>Question:</strong>\nShe knows that Mrs Phillips is very close with Hannah’s family.",
     "options": [
       "Very important",
       "Important",
@@ -696,13 +696,13 @@ const QUESTIONS = [
       "Not important at all"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. Hannah\u2019s confidentiality is not any less important in the  \npresence of a family friend. It is vital to maintain patient confidentiality at all times.  \nConsidering this may lead to a more relaxed approach, and Dr Jerome may happen to  \ncasually mention details that she should not. Therefore, this should not even be  \nconsidered.",
+    "explanation": "The correct answer is D. Hannah’s confidentiality is not any less important in the  \npresence of a family friend. It is vital to maintain patient confidentiality at all times.  \nConsidering this may lead to a more relaxed approach, and Dr Jerome may happen to  \ncasually mention details that she should not. Therefore, this should not even be  \nconsidered.",
     "topic": "Situational Judgement"
   },
   {
     "id": 51,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nDr Jerome, a dentist, is at the cinema with her children. A patient of hers, Mrs Phillips, finds  \nher in the queue for tickets. Mrs Phillips asks how Hannah, her friend\u2019s daughter, is doing  \nafter her wisdom teeth removal. Mrs Phillips is close with Hannah\u2019s family who are also  \npatients at Dr Jerome\u2019s practice.\n\n<strong>Question:</strong>\nHannah is not present during this encounter.",
+    "text": "<strong>Scenario:</strong>\nDr Jerome, a dentist, is at the cinema with her children. A patient of hers, Mrs Phillips, finds  \nher in the queue for tickets. Mrs Phillips asks how Hannah, her friend’s daughter, is doing  \nafter her wisdom teeth removal. Mrs Phillips is close with Hannah’s family who are also  \npatients at Dr Jerome’s practice.\n\n<strong>Question:</strong>\nHannah is not present during this encounter.",
     "options": [
       "Very important",
       "Important",
@@ -716,7 +716,7 @@ const QUESTIONS = [
   {
     "id": 52,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSally, a dental student, is working on a group project. Aiman is visibly frustrated at one of the  \nother group members, Linda. Aiman begins to use harsh language and insults the quality of  \nLinda\u2019s work. Sally notices that this seems to have upset Linda, who remains quiet.\n\n<strong>Question:</strong>\nImmediately demand that Aiman apologises for insulting Linda.",
+    "text": "<strong>Scenario:</strong>\nSally, a dental student, is working on a group project. Aiman is visibly frustrated at one of the  \nother group members, Linda. Aiman begins to use harsh language and insults the quality of  \nLinda’s work. Sally notices that this seems to have upset Linda, who remains quiet.\n\n<strong>Question:</strong>\nImmediately demand that Aiman apologises for insulting Linda.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -724,13 +724,13 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. The language used is harsh. By \u201cdemanding\u201d that she  \napologise, Sally would appear unreasonable and would be making the situation worse.",
+    "explanation": "The correct answer is D. The language used is harsh. By “demanding” that she  \napologise, Sally would appear unreasonable and would be making the situation worse.",
     "topic": "Situational Judgement"
   },
   {
     "id": 53,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSally, a dental student, is working on a group project. Aiman is visibly frustrated at one of the  \nother group members, Linda. Aiman begins to use harsh language and insults the quality of  \nLinda\u2019s work. Sally notices that this seems to have upset Linda, who remains quiet.\n\n<strong>Question:</strong>\nTalk to Aiman privately afterwards to discuss what had happened.",
+    "text": "<strong>Scenario:</strong>\nSally, a dental student, is working on a group project. Aiman is visibly frustrated at one of the  \nother group members, Linda. Aiman begins to use harsh language and insults the quality of  \nLinda’s work. Sally notices that this seems to have upset Linda, who remains quiet.\n\n<strong>Question:</strong>\nTalk to Aiman privately afterwards to discuss what had happened.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -744,7 +744,7 @@ const QUESTIONS = [
   {
     "id": 54,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nSally, a dental student, is working on a group project. Aiman is visibly frustrated at one of the  \nother group members, Linda. Aiman begins to use harsh language and insults the quality of  \nLinda\u2019s work. Sally notices that this seems to have upset Linda, who remains quiet.\n\n<strong>Question:</strong>\nReport Aiman\u2019s behaviour to the group supervisor as he is likely to help resolve the  \nissue.",
+    "text": "<strong>Scenario:</strong>\nSally, a dental student, is working on a group project. Aiman is visibly frustrated at one of the  \nother group members, Linda. Aiman begins to use harsh language and insults the quality of  \nLinda’s work. Sally notices that this seems to have upset Linda, who remains quiet.\n\n<strong>Question:</strong>\nReport Aiman’s behaviour to the group supervisor as he is likely to help resolve the  \nissue.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -758,7 +758,7 @@ const QUESTIONS = [
   {
     "id": 55,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nInterrupt the consultation to remind Dr Sheffield that other patients are waiting.",
+    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allflowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nInterrupt the consultation to remind Dr Sheffield that other patients are waiting.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -766,13 +766,13 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. It is not appropriate to interrupt the consultation, or to give  \nthe doctor such advice in front of the patient. Both parties may find this disrespectful,  \nand it may undermine the patient\u2019s trust in the doctor. However, nothing directly  \noffensive is said about the patient, and this action is attempting to deal with the issue,  \nso it is not entirely inappropriate.",
+    "explanation": "The correct answer is C. It is not appropriate to interrupt the consultation, or to give  \nthe doctor such advice in front of the patient. Both parties may find this disrespectful,  \nand it may undermine the patient’s trust in the doctor. However, nothing directly  \noffensive is said about the patient, and this action is attempting to deal with the issue,  \nso it is not entirely inappropriate.",
     "topic": "Situational Judgement"
   },
   {
     "id": 56,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nDo nothing as there are other doctors in the surgery that can see the other patients.",
+    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allflowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nDo nothing as there are other doctors in the surgery that can see the other patients.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -786,7 +786,7 @@ const QUESTIONS = [
   {
     "id": 57,
     "passageId": null,
-    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nInterrupt the consultation and ask the patient to leave, as there are other patients  \nwho need to be seen.",
+    "text": "<strong>Scenario:</strong>\nCandice is a medical student on placement in a busy GP surgery. A patient comes in with a  \nlong list of problems and wants to discuss each of them in-depth with Dr Sheffield. There are  \nmany other patients waiting, so Candice is concerned that he is allflowing too much time for  \nthis patient.\n\n<strong>Question:</strong>\nInterrupt the consultation and ask the patient to leave, as there are other patients  \nwho need to be seen.",
     "options": [
       "A very appropriate thing to do",
       "Appropriate, but not ideal",
@@ -794,7 +794,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. Candice is a medical student and should not interrupt the  \nconsultation, nor should she be the one to determine that the consultation is over and  \nthe patient should leave. It is inappropriate to step outside of her limits. Each patient  \nshould be prioritised, and oftentimes, doctors need to give slightly more time to  \nspecific patients. Sometimes, patients need to wait a bit longer for their appointments  \nin busy clinics. They should still get their full appointment time in an unrushed manner.  \nThere is no indication to suggest that Dr Sheffield is giving this patient time at the  \nexpense of other patients\u2019 time.",
+    "explanation": "The correct answer is D. Candice is a medical student and should not interrupt the  \nconsultation, nor should she be the one to determine that the consultation is over and  \nthe patient should leave. It is inappropriate to step outside of her limits. Each patient  \nshould be prioritised, and oftentimes, doctors need to give slightly more time to  \nspecific patients. Sometimes, patients need to wait a bit longer for their appointments  \nin busy clinics. They should still get their full appointment time in an unrushed manner.  \nThere is no indication to suggest that Dr Sheffield is giving this patient time at the  \nexpense of other patients’ time.",
     "topic": "Situational Judgement"
   },
   {
@@ -858,12 +858,12 @@ const QUESTIONS = [
     "passageId": null,
     "text": "<strong>Scenario:</strong>\nPeter and Beth are both junior doctors working in the emergency department. Peter  \nmistakenly uses the incorrect pronoun for a patient after the patient had advised him of their  \npreferences.   \n\nChoose  both  the  one most appropriate action  and the  one least appropriate action  that  Beth   \nshould take in response to this situation.  \n  \nYou will not receive any marks for this question unless you select  both  the most and least  \nappropriate actions.\n\n<strong>Question:</strong>\n\n\nChoose the <strong>MOST appropriate</strong> action in this situation.",
     "options": [
-      "Quickly apologise on Peter\u2019s behalf to deescalate the situation.",
+      "Quickly apologise on Peter’s behalf to deescalate the situation.",
       "Do nothing as Peter should deal with his own mistakes.",
       "Explain to the patient that Peter is not required to call patients by their preferred  \npronouns."
     ],
     "answer": 0,
-    "explanation": "Although it is not ideal to apologise on behalf of someone else, this is the best option  \nout of the three as it can help to deescalate the situation. Doing nothing can cause the  \npatient to proceed with further complaints. The last option is completely  \ninappropriate, as patients\u2019 wishes should be respected.",
+    "explanation": "Although it is not ideal to apologise on behalf of someone else, this is the best option  \nout of the three as it can help to deescalate the situation. Doing nothing can cause the  \npatient to proceed with further complaints. The last option is completely  \ninappropriate, as patients’ wishes should be respected.",
     "topic": "Situational Judgement"
   },
   {
@@ -871,12 +871,12 @@ const QUESTIONS = [
     "passageId": null,
     "text": "<strong>Scenario:</strong>\nPeter and Beth are both junior doctors working in the emergency department. Peter  \nmistakenly uses the incorrect pronoun for a patient after the patient had advised him of their  \npreferences.   \n\nChoose  both  the  one most appropriate action  and the  one least appropriate action  that  Beth   \nshould take in response to this situation.  \n  \nYou will not receive any marks for this question unless you select  both  the most and least  \nappropriate actions.\n\n<strong>Question:</strong>\n\n\nChoose the <strong>LEAST appropriate</strong> action in this situation.",
     "options": [
-      "Quickly apologise on Peter\u2019s behalf to deescalate the situation.",
+      "Quickly apologise on Peter’s behalf to deescalate the situation.",
       "Do nothing as Peter should deal with his own mistakes.",
       "Explain to the patient that Peter is not required to call patients by their preferred  \npronouns."
     ],
     "answer": 2,
-    "explanation": "Although it is not ideal to apologise on behalf of someone else, this is the best option  \nout of the three as it can help to deescalate the situation. Doing nothing can cause the  \npatient to proceed with further complaints. The last option is completely  \ninappropriate, as patients\u2019 wishes should be respected.",
+    "explanation": "Although it is not ideal to apologise on behalf of someone else, this is the best option  \nout of the three as it can help to deescalate the situation. Doing nothing can cause the  \npatient to proceed with further complaints. The last option is completely  \ninappropriate, as patients’ wishes should be respected.",
     "topic": "Situational Judgement"
   },
   {
@@ -890,7 +890,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. The main priority is Rhiannon\u2019s mental wellbeing. Sidney  \nshould act with empathy. Exams are of minor concern in this situation, however, they  \nare not entirely inappropriate to mention as this shows some level of concern that  \nSidney has for her friend.",
+    "explanation": "The correct answer is C. The main priority is Rhiannon’s mental wellbeing. Sidney  \nshould act with empathy. Exams are of minor concern in this situation, however, they  \nare not entirely inappropriate to mention as this shows some level of concern that  \nSidney has for her friend.",
     "topic": "Situational Judgement"
   },
   {
@@ -918,7 +918,7 @@ const QUESTIONS = [
       "A very inappropriate thing to do"
     ],
     "answer": 0,
-    "explanation": "The correct answer is A. Although this does not show immediate empathy and help  \nfrom Sidney, it provides a practical and longer-term solution, so is highly appropriate.  \nIf someone is depressed, they should seek help, and oftentimes just talking to a friend  \nis not enough. Remember, this does not have to be the only response in order to be  \n\u201cvery appropriate\u201d. Sidney can advise her to visit the GP  and  also do everything she  \ncan to help out.",
+    "explanation": "The correct answer is A. Although this does not show immediate empathy and help  \nfrom Sidney, it provides a practical and longer-term solution, so is highly appropriate.  \nIf someone is depressed, they should seek help, and oftentimes just talking to a friend  \nis not enough. Remember, this does not have to be the only response in order to be  \n“very appropriate”. Sidney can advise her to visit the GP  and  also do everything she  \ncan to help out.",
     "topic": "Situational Judgement"
   },
   {

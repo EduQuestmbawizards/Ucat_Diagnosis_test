@@ -4,70 +4,70 @@ const QUESTIONS = [
   {
     "id": 1,
     "passageId": null,
-    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if it does not follow.\n\nDoes the following conclusion follow?\nThere were more SUVs than sedans put up for sale.",
+    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if it does not follow.\n\nDoes the follflowing conclusion follow?\nThere were more SUVs than sedans put up for sale.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV\u2019s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
+    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV’s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
     "topic": "Decision Making"
   },
   {
     "id": 2,
     "passageId": null,
-    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if it does not follow.\n\nDoes the following conclusion follow?\nThe difference in the number of sedans and pickups put up for sale was half  YES/NO  \nof the number of hatchbacks up for sale.",
+    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if it does not follow.\n\nDoes the follflowing conclusion follow?\nThe difference in the number of sedans and pickups put up for sale was half  YES/NO  \nof the number of hatchbacks up for sale.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 0,
-    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV\u2019s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
+    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV’s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
     "topic": "Decision Making"
   },
   {
     "id": 3,
     "passageId": null,
-    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if it does not follow.\n\nDoes the following conclusion follow?\nThe number of hatchbacks put for sale was less than the number of pickups  put up for sale.",
+    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if it does not follow.\n\nDoes the follflowing conclusion follow?\nThe number of hatchbacks put for sale was less than the number of pickups  put up for sale.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV\u2019s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
+    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV’s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
     "topic": "Decision Making"
   },
   {
     "id": 4,
     "passageId": null,
-    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if it does not follow.\n\nDoes the following conclusion follow?\nThere are more sedans than SUVs in the showroom.",
+    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if it does not follow.\n\nDoes the follflowing conclusion follow?\nThere are more sedans than SUVs in the showroom.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV\u2019s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
+    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV’s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
     "topic": "Decision Making"
   },
   {
     "id": 5,
     "passageId": null,
-    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if it does not follow.\n\nDoes the following conclusion follow?\nIt is possible for the car manufacturer to put up more types of vehicles for sale,  YES/NO  \n  \ngiven that the number of vehicles put up do not change.",
+    "text": "A car manufacturer has only 4 types of vehicles in her showroom: SUVs, sedans, hatchbacks,  \nand pickups. On a particular day, she decides to put 15 of the vehicles in her showroom for  \nsale.  \n  \n6 of the vehicles put up on sale have a 2L engine.  \nNone of the hatchbacks have a 2L engine.  \nThere were equal number of SUVs and pickups put on sale.   \nThe number of sedans put on sale was 1 more than the number of hatchbacks put on sale.  \nOnly SUVs and pickups have a 2L engine.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if it does not follow.\n\nDoes the follflowing conclusion follow?\nIt is possible for the car manufacturer to put up more types of vehicles for sale,  YES/NO  \n  \ngiven that the number of vehicles put up do not change.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV\u2019s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
+    "explanation": "After taking note of all the conditions placed, the numbers of each type of vehicle can                  \nbe summarized using a table.  \n  \nCar  \nEngine  \nNumber  \nSUVs  \n2L  \n\nSedans  \n\nHatchbacks  \n\nPickups  \n2L  \n\nA.   No, the number of SUV’s is less than the number of sedans, as shown above.  \nB.   Yes, the difference in the number of sedans and pickups is 2, which is half the number  \nof hatchbacks (4).  \nC.   No, there were 4 hatchbacks put up for sale, but only 3 pickups.  \nD.   No, it cannot be concluded as the data is insufficient. This question stem only talks  \nabout the number of vehicles put up on sale, not the number of vehicles in the  \nshowroom.  \nE.   No, as only 4 types of vehicles are available in the showroom, and 4 are put up for  \nsale, so there are no further types of vehicles that can be put up for sale.",
     "topic": "Decision Making"
   },
   {
     "id": 6,
     "passageId": null,
-    "text": "At a fun fair, you approach a stall that allows you to win money, provided that you play a  \ngame and win. The game consists of a dice and a deck of cards. The conditions of the game  \nare as follows:  \nIf you are able to draw a club, and then roll a 5, the organiser will give you \u00a350.  \nIf the organiser draws a spade, and then rolls a 4, you have to give the organiser \u00a340.  \n  \nThe game takes place in turns: you start first, then the organiser plays her turn. You carry on  \ntaking turns until someone wins.  \n  \nShould you take part in the game?",
+    "text": "At a fun fair, you approach a stall that allows you to win money, provided that you play a  \ngame and win. The game consists of a dice and a deck of cards. The conditions of the game  \nare as follows:  \nIf you are able to draw a club, and then roll a 5, the organiser will give you £50.  \nIf the organiser draws a spade, and then rolls a 4, you have to give the organiser £40.  \n  \nThe game takes place in turns: you start first, then the organiser plays her turn. You carry on  \ntaking turns until someone wins.  \n  \nShould you take part in the game?",
     "options": [
       "No, because the probability of either person winning is numerically equal.",
-      "No, because there could be other biased reasons allowing the organiser to win  \neasily, hence you are at greater risk of losing money.",
+      "No, because there could be other biased reasons allflowing the organiser to win  \neasily, hence you are at greater risk of losing money.",
       "Yes, because you will win more money than you will lose.",
       "Yes, because given the fact that you are starting first, you have a greater chance  \nof winning."
     ],
@@ -86,13 +86,13 @@ const QUESTIONS = [
       "No, because all European countries are economically developed and switching  \nover to renewable sources of energy may not help reduce global warming."
     ],
     "answer": 2,
-    "explanation": "The correct answer is C.   \nA.   Only discusses sustainability, does not mention the environment.  \nB.   Only discusses the environment.  \n\nC.   While the question talks about  all  countries, this option ensures to include all  \ncountries by mentioning the many countries that are not able to shift into this system.  \nIt provides a justification for why all countries cannot be  forced  to adapt this method,  \ngiving an evidence-based argument by discussing \u201cstudies\u201d.   \nD.   Limits the argument to European countries.",
+    "explanation": "The correct answer is C.   \nA.   Only discusses sustainability, does not mention the environment.  \nB.   Only discusses the environment.  \n\nC.   While the question talks about  all  countries, this option ensures to include all  \ncountries by mentioning the many countries that are not able to shift into this system.  \nIt provides a justification for why all countries cannot be  forced  to adapt this method,  \ngiving an evidence-based argument by discussing “studies”.   \nD.   Limits the argument to European countries.",
     "topic": "Decision Making"
   },
   {
     "id": 8,
     "passageId": null,
-    "text": "Choose the correct relation which represents the following fact: All frogs are amphibians, all toads are amphibians, and no frog is a toad. Some cells are reptiles, frogs or toads.<br><br><img src=\"images/img_p132_q4.png\" style=\"max-width:100%;\">",
+    "text": "Choose the correct relation which represents the follflowing fact: All frogs are amphibians, all toads are amphibians, and no frog is a toad. Some cells are reptiles, frogs or toads.<br><br><img src=\"images/img_p132_q4.png\" style=\"max-width:100%;\">",
     "options": [
       "A",
       "B",
@@ -106,7 +106,7 @@ const QUESTIONS = [
   {
     "id": 9,
     "passageId": null,
-    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nOnly mathematics graduates can work in data analysis.",
+    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nOnly mathematics graduates can work in data analysis.",
     "options": [
       "Yes",
       "No"
@@ -118,7 +118,7 @@ const QUESTIONS = [
   {
     "id": 10,
     "passageId": null,
-    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nAnalytical mathematics graduates are not eligible for a career in data analysis.",
+    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nAnalytical mathematics graduates are not eligible for a career in data analysis.",
     "options": [
       "Yes",
       "No"
@@ -130,7 +130,7 @@ const QUESTIONS = [
   {
     "id": 11,
     "passageId": null,
-    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nSome of the graduates of this university are employed.",
+    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nSome of the graduates of this university are employed.",
     "options": [
       "Yes",
       "No"
@@ -142,7 +142,7 @@ const QUESTIONS = [
   {
     "id": 12,
     "passageId": null,
-    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nDavid studied analytical mathematics, therefore he cannot be working in data  YES/NO  YES/NO  \nanalysis.",
+    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nDavid studied analytical mathematics, therefore he cannot be working in data  YES/NO  YES/NO  \nanalysis.",
     "options": [
       "Yes",
       "No"
@@ -154,7 +154,7 @@ const QUESTIONS = [
   {
     "id": 13,
     "passageId": null,
-    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nSome mathematics students did not graduate from university",
+    "text": "Out of all the Mathematics graduates from university, some of them go on to do further jobs  \nin data analysis. However, those who studied only analytical mathematics do not work in data  \nanalysis.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nSome mathematics students did not graduate from university",
     "options": [
       "Yes",
       "No"
@@ -166,7 +166,7 @@ const QUESTIONS = [
   {
     "id": 14,
     "passageId": null,
-    "text": "The following diagram depicts the number of students studying different subjects at  \nuniversity.  \n  \n\n<br><img src=\"images/img_p134_1.png\" style=\"max-width:100%;\"><br>\n\n\u2022   The pentagon represents students studying Mathematics.  \n\u2022   The square represents students studying English.  \n\u2022   The triangle represents the students studying Sociology.  \n\u2022   The circle represents the students studying Biology.  \n\u2022   The arrow represents students studying Nursing.  \n  \nBased on the above information, which of the following statements is true?",
+    "text": "The follflowing diagram depicts the number of students studying different subjects at  \nuniversity.  \n  \n\n<br><img src=\"images/img_p134_1.png\" style=\"max-width:100%;\"><br>\n\n•   The pentagon represents students studying Mathematics.  \n•   The square represents students studying English.  \n•   The triangle represents the students studying Sociology.  \n•   The circle represents the students studying Biology.  \n•   The arrow represents students studying Nursing.  \n  \nBased on the above information, which of the follflowing statements is true?",
     "options": [
       "The number of students studying only Nursing, only Mathematics, and both  \nMathematics and English is 47.",
       "There are more students studying a combination of English, Mathematics &  \nBiology than those studying Biology, Nursing & Sociology.",
@@ -180,67 +180,67 @@ const QUESTIONS = [
   {
     "id": 15,
     "passageId": null,
-    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nNo chloroplasts belong to humans.",
+    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nNo chloroplasts belong to humans.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem doesn\u2019t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn\u2019t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
+    "explanation": "A.   The correct answer is No. The stem doesn’t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn’t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
     "topic": "Decision Making"
   },
   {
     "id": 16,
     "passageId": null,
-    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nSome mitochondria don\u2019t belong to humans.",
+    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nSome mitochondria don’t belong to humans.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem doesn\u2019t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn\u2019t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
+    "explanation": "A.   The correct answer is No. The stem doesn’t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn’t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
     "topic": "Decision Making"
   },
   {
     "id": 17,
     "passageId": null,
-    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nIf a mitochondrion does not belong to a human, then it can  YES/NO  YES/NO  metabolise the Krebs cycle.",
+    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nIf a mitochondrion does not belong to a human, then it can  YES/NO  YES/NO  metabolise the Krebs cycle.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem doesn\u2019t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn\u2019t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
+    "explanation": "A.   The correct answer is No. The stem doesn’t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn’t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
     "topic": "Decision Making"
   },
   {
     "id": 18,
     "passageId": null,
-    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nSome chloroplasts can metabolise the Calvin cycle.",
+    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nSome chloroplasts can metabolise the Calvin cycle.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem doesn\u2019t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn\u2019t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
+    "explanation": "A.   The correct answer is No. The stem doesn’t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn’t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
     "topic": "Decision Making"
   },
   {
     "id": 19,
     "passageId": null,
-    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nMost human mitochondria can metabolise the Krebs cycle.",
+    "text": "Most mitochondria can metabolise the Calvin cycle, but not all chloroplasts can metabolise  \nthe   Krebs cycle. If a mitochondrion can metabolise both Calvin and Krebs cycles, then the   \nmitochondrion does not belong to a human  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nMost human mitochondria can metabolise the Krebs cycle.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem doesn\u2019t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn\u2019t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
+    "explanation": "A.   The correct answer is No. The stem doesn’t specify any relationship between  \nchloroplasts and humans, so there is not enough information to draw this  \nconclusion.  \nB.   The correct answer is Yes. If a mitochondrion can metabolise the Calvin and the  \nKrebs cycle, it does not belong to a human.  \nC.   The correct answer is No. The stem states that mitochondria that metabolise both  \ncycles do not belong to humans. There is no direct relation between mitochondria  \nnot belonging to humans and being able to metabolise the Krebs cycle, alone.  \nD.   The correct answer is No. The stem doesn’t specify whether chloroplasts can  \nmetabolise the Calvin cycle. It only states that not all of them can metabolise the  \nKrebs cycle.  \nE.   The correct answer is No. There is no information from the stem regarding what  \npercentage of mitochondria can metabolise the Krebs cycle, although we know  \nthat most can metabolise the Calvin cycle.",
     "topic": "Decision Making"
   },
   {
     "id": 20,
     "passageId": null,
-    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.  \n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nThe average temperature of City B, D and F is more than the average of City A,  C and E.",
+    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.  \n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nThe average temperature of City B, D and F is more than the average of City A,  C and E.",
     "options": [
       "Yes",
       "No"
@@ -252,7 +252,7 @@ const QUESTIONS = [
   {
     "id": 21,
     "passageId": null,
-    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.\n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>\n\nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nThe average of the two cities with the highest temperatures differs from the  average of the two cities with the lowest temperatures by 2 degrees.",
+    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.\n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>\n\nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nThe average of the two cities with the highest temperatures differs from the  average of the two cities with the lowest temperatures by 2 degrees.",
     "options": [
       "Yes",
       "No"
@@ -264,7 +264,7 @@ const QUESTIONS = [
   {
     "id": 22,
     "passageId": null,
-    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.\n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>\n\nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nIn this country, City B is the hottest city to live in.",
+    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.\n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>\n\nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nIn this country, City B is the hottest city to live in.",
     "options": [
       "Yes",
       "No"
@@ -276,7 +276,7 @@ const QUESTIONS = [
   {
     "id": 23,
     "passageId": null,
-    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.\n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>\n\nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nOn this particular day, City C is the coldest city in this country.",
+    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.\n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>\n\nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nOn this particular day, City C is the coldest city in this country.",
     "options": [
       "Yes",
       "No"
@@ -288,7 +288,7 @@ const QUESTIONS = [
   {
     "id": 24,
     "passageId": null,
-    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.\n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>\n\nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nThe temperatures of City B and City F usually differ by 2 degrees.   YES/NO",
+    "text": "The graph below shows the temperature across different cities in a country, taken on a  \nparticular day.\n<br><img src=\"images/img_p136_chart.png\" style=\"max-width:100%;\"><br>\n\nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nThe temperatures of City B and City F usually differ by 2 degrees.   YES/NO",
     "options": [
       "Yes",
       "No"
@@ -300,21 +300,21 @@ const QUESTIONS = [
   {
     "id": 25,
     "passageId": null,
-    "text": "Lulus, Gigis and Kikis are species which have the following interactions, only: Lulus hunt Gigis,  \nand Gigis hunt Kikis; Kikis love Lulus and Gigis, but Gigis don\u2019t love Kikis; Lulus attack Kikis.",
+    "text": "Lulus, Gigis and Kikis are species which have the follflowing interactions, only: Lulus hunt Gigis,  \nand Gigis hunt Kikis; Kikis love Lulus and Gigis, but Gigis don’t love Kikis; Lulus attack Kikis.",
     "options": [
-      "If two species love each other, but don\u2019t hunt each other, they\u2019re Kikis and  YES/NO  Gigis.",
+      "If two species love each other, but don’t hunt each other, they’fire Kikis and  YES/NO  Gigis.",
       "If a species loves and attacks another species, they have to be Gigis.",
-      "If a species doesn\u2019t hunt another species but attacks it, they have to be Lulus.",
-      "If a species hunts Lulus, they\u2019re Gigis.    \nE.   If two species don\u2019t have mutual love, they\u2019re Gigis and Kikis.   YES/NO"
+      "If a species doesn’t hunt another species but attacks it, they have to be Lulus.",
+      "If a species hunts Lulus, they’fire Gigis.    \nE.   If two species don’t have mutual love, they’fire Gigis and Kikis.   YES/NO"
     ],
     "answer": 0,
-    "explanation": "A.   The correct answer is No. Gigis don\u2019t love Kikis back, and hence the species don\u2019t  \n\u201clove each other\u201d.   \n\nB.   The correct answer is No. The stem does not specify that Gigis attack any species.   \nC.   The correct answer is Yes. Lulus attack Kikis, but they don\u2019t hunt Kikis.   \nD.   The correct answer is No. From the stem, we don\u2019t know of any species that hunts  \nLulus.  \nE.   The correct answer is Yes. Kikis love Gigis and Lulus, but Gigis don\u2019t love Kikis,  \nhence there is no mutual love.",
+    "explanation": "A.   The correct answer is No. Gigis don’t love Kikis back, and hence the species don’t  \n“love each other”.   \n\nB.   The correct answer is No. The stem does not specify that Gigis attack any species.   \nC.   The correct answer is Yes. Lulus attack Kikis, but they don’t hunt Kikis.   \nD.   The correct answer is No. From the stem, we don’t know of any species that hunts  \nLulus.  \nE.   The correct answer is Yes. Kikis love Gigis and Lulus, but Gigis don’t love Kikis,  \nhence there is no mutual love.",
     "topic": "Decision Making"
   },
   {
     "id": 26,
     "passageId": null,
-    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nThis animal is a tiger.",
+    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nThis animal is a tiger.",
     "options": [
       "Yes",
       "No"
@@ -326,7 +326,7 @@ const QUESTIONS = [
   {
     "id": 27,
     "passageId": null,
-    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nThis animal is fast.",
+    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nThis animal is fast.",
     "options": [
       "Yes",
       "No"
@@ -338,7 +338,7 @@ const QUESTIONS = [
   {
     "id": 28,
     "passageId": null,
-    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nProvided that this animal is not fast, it cannot belong to this zoo.",
+    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nProvided that this animal is not fast, it cannot belong to this zoo.",
     "options": [
       "Yes",
       "No"
@@ -350,7 +350,7 @@ const QUESTIONS = [
   {
     "id": 29,
     "passageId": null,
-    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nIf the animal is in this zoo and is a tiger, it must be fast.",
+    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nIf the animal is in this zoo and is a tiger, it must be fast.",
     "options": [
       "Yes",
       "No"
@@ -362,7 +362,7 @@ const QUESTIONS = [
   {
     "id": 30,
     "passageId": null,
-    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nAll sloths are slow.  YES/NO  YES/NO",
+    "text": "All tigers in the zoo are fast, and all sloths in this zoo are slow. This animal is not slow.   \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nAll sloths are slow.  YES/NO  YES/NO",
     "options": [
       "Yes",
       "No"
@@ -430,61 +430,61 @@ const QUESTIONS = [
   {
     "id": 35,
     "passageId": null,
-    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nStephanie is wearing a black hat, hence she must be an adult.",
+    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nStephanie is wearing a black hat, hence she must be an adult.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   No, as the logic flows in one direction. If All A  \u2192  B, this does not mean that All B  \u2192  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
+    "explanation": "A.   No, as the logic flows in one direction. If All A  →  B, this does not mean that All B  →  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
     "topic": "Decision Making"
   },
   {
     "id": 36,
     "passageId": null,
-    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nRosie must be an adult.",
+    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nRosie must be an adult.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   No, as the logic flows in one direction. If All A  \u2192  B, this does not mean that All B  \u2192  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
+    "explanation": "A.   No, as the logic flows in one direction. If All A  →  B, this does not mean that All B  →  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
     "topic": "Decision Making"
   },
   {
     "id": 37,
     "passageId": null,
-    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nChildren cannot be above the age of 18.",
+    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nChildren cannot be above the age of 18.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   No, as the logic flows in one direction. If All A  \u2192  B, this does not mean that All B  \u2192  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
+    "explanation": "A.   No, as the logic flows in one direction. If All A  →  B, this does not mean that All B  →  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
     "topic": "Decision Making"
   },
   {
     "id": 38,
     "passageId": null,
-    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nThere are dogs at the party.",
+    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nThere are dogs at the party.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   No, as the logic flows in one direction. If All A  \u2192  B, this does not mean that All B  \u2192  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
+    "explanation": "A.   No, as the logic flows in one direction. If All A  →  B, this does not mean that All B  →  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
     "topic": "Decision Making"
   },
   {
     "id": 39,
     "passageId": null,
-    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nRajesh usually drinks alcoholic beverages, hence he must be  YES/NO  YES/NO  above the age of 18.",
+    "text": "All adults in this party are wearing a black hat. Rosie is wearing a black hat. Besides people,  \nthere are also pets in this congregation. The party serves beverages. Only those over the age  \nof 18 are served an alcoholic beverage, and there are non-alcoholic beverages available for  \nchildren.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nRajesh usually drinks alcoholic beverages, hence he must be  YES/NO  YES/NO  above the age of 18.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   No, as the logic flows in one direction. If All A  \u2192  B, this does not mean that All B  \u2192  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
+    "explanation": "A.   No, as the logic flows in one direction. If All A  →  B, this does not mean that All B  →  A.  \nB.   No, same as above. Rosie could be a child who is also wearing a black hat or Rosie  \ncould even be the name of a pet with a black hat.  \nC.   No, although it alters common logic, you must only base your answers according to  \nthe logic given in the question. It says that non-alcoholic beverages are given to  \nchildren, and alcoholic beverages to those above 18. But it does not say that children  \nare below 18, so there could be a 19-year-old child in the party!   \nD.   No, we do not know for sure whether or not the pets include dogs.  \nE.   No, Rajesh could be under 18 and still drink alcoholic beverage provided elsewhere.  \nJust because this party does not serve alcoholic beverages to those under 18, this rule  \ndoes not need to be applied everywhere.",
     "topic": "Decision Making"
   },
   {
@@ -518,7 +518,7 @@ const QUESTIONS = [
   {
     "id": 42,
     "passageId": null,
-    "text": "Six students in a particular school are made to stand according to their height order, with the  \nfirst in line being the shortest and the last in line being the tallest. These students are Becky,  \nRachel, Amy, Karen, Thomas and Holly. They study in years 4, 5, 6, 7, 8 and 9 in no particular  \norder.  \n  \nKaren stands between Amy and Thomas, and is not the eldest of them all.  \nRachel stands between Becky and Amy, and is the youngest of all those standing.  \nThe one standing between Karen and Holly is the oldest in the group.  \nThe remaining students are standing in ascending order of their years of study.  \n  \nWhich of the following combinations is not possible?",
+    "text": "Six students in a particular school are made to stand according to their height order, with the  \nfirst in line being the shortest and the last in line being the tallest. These students are Becky,  \nRachel, Amy, Karen, Thomas and Holly. They study in years 4, 5, 6, 7, 8 and 9 in no particular  \norder.  \n  \nKaren stands between Amy and Thomas, and is not the eldest of them all.  \nRachel stands between Becky and Amy, and is the youngest of all those standing.  \nThe one standing between Karen and Holly is the oldest in the group.  \nThe remaining students are standing in ascending order of their years of study.  \n  \nWhich of the follflowing combinations is not possible?",
     "options": [
       "Becky studies in year 5 and is placed first in the line.",
       "Karen studies in year 7 and is placed fourth in the line.",
@@ -526,7 +526,7 @@ const QUESTIONS = [
       "Holly studies in year 8 and is placed last in the line."
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. The line order of the students can be finalised as below:  \n  \nBecky: Year 5  \nRachel: Year 4   \nAmy: Year 6  \nKaren: Year 7  \nThomas: Year 9  \nHolly: Year 8",
+    "explanation": "The correct answer is C. The line order of the students can be finalised as below:  \n  \nBecky: Year 5  \nRachel: Year 4   \nAmy: Year 6  \nKaren: Year 7  \nThomas: Year 9  \nHolly: Year 8.",
     "topic": "Decision Making"
   },
   {
@@ -546,7 +546,7 @@ const QUESTIONS = [
   {
     "id": 44,
     "passageId": null,
-    "text": "The diagram depicted above shows the number of people working in different sections of a  \nhospital:  \n\n<br><img src=\"images/img_p141_1.png\" style=\"max-width:100%;\"><br>\n\n\u2022   The star represents those working in Cardiology.  \n\u2022   The diamond represents those working in Gynaecology.  \n\u2022   The rectangle represents those working in A&E.  \n\u2022   The arrow represents those working in Urology.  \n  \nBased on the given information, which of the following observations is true?",
+    "text": "The diagram depicted above shows the number of people working in different sections of a  \nhospital:  \n\n<br><img src=\"images/img_p141_1.png\" style=\"max-width:100%;\"><br>\n\n•   The star represents those working in Cardiology.  \n•   The diamond represents those working in Gynaecology.  \n•   The rectangle represents those working in A&E.  \n•   The arrow represents those working in Urology.  \n  \nBased on the given information, which of the follflowing observations is true?",
     "options": [
       "The number of people working in all four sections of the hospital is 14 less than  \nthe number of people working in Urology and A&E, and A&E and Cardiology put  \ntogether.",
       "The number of people working in a minimum of 3 sections is less than the number  \nof the number of people working in all four sections.",
@@ -568,13 +568,13 @@ const QUESTIONS = [
       "Yes, because it will reduce the number of plastic bags being used."
     ],
     "answer": 1,
-    "explanation": "The correct answer is B. Note the key word in the question \u2013 \u201cworldwide\u201d. Making a change  \nin Britain might not make such a great change unless efforts are seen in all nations across the  \nglobe.",
+    "explanation": "The correct answer is B. Note the key word in the question – “worldwide”. Making a change  \nin Britain might not make such a great change unless efforts are seen in all nations across the  \nglobe.",
     "topic": "Decision Making"
   },
   {
     "id": 46,
     "passageId": null,
-    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nDave is 56 years old, and hence is exempt from safety training.",
+    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nDave is 56 years old, and hence is exempt from safety training.",
     "options": [
       "Yes",
       "No"
@@ -586,7 +586,7 @@ const QUESTIONS = [
   {
     "id": 47,
     "passageId": null,
-    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nRicky is 35 years old and has only joined the company this year; he is  YES/NO  \nnot exempt from any training sessions.",
+    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nRicky is 35 years old and has only joined the company this year; he is  YES/NO  \nnot exempt from any training sessions.",
     "options": [
       "Yes",
       "No"
@@ -598,7 +598,7 @@ const QUESTIONS = [
   {
     "id": 48,
     "passageId": null,
-    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nThe CEO of the company, who is a part of the executive board, has the  authority to allow staff to be exempt from training sessions.",
+    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nThe CEO of the company, who is a part of the executive board, has the  authority to allow staff to be exempt from training sessions.",
     "options": [
       "Yes",
       "No"
@@ -610,7 +610,7 @@ const QUESTIONS = [
   {
     "id": 49,
     "passageId": null,
-    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nAll staff must be trained in order to work.",
+    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nAll staff must be trained in order to work.",
     "options": [
       "Yes",
       "No"
@@ -622,7 +622,7 @@ const QUESTIONS = [
   {
     "id": 50,
     "passageId": null,
-    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nThere are 5 types of training sessions that staff have to participate in.  YES/NO",
+    "text": "In a company, the staff are required to undertake compulsory training as part of their  \nemployment contract. The training covers key areas such as effective communication,  \nprofessionalism, work ethic, time management and safety training. According to the  \nemployment contract, all staff will be subjected to training during their tenure at the  \ncompany. Only staff above the age of 55, and those who have worked for a minimum of 10  \nyears at the company are exempt from some forms of training. However, if one of the training  \nsessions fall on a Saturday, the employees who are married may be exempt with prior  \napproval from the executive board.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nThere are 5 types of training sessions that staff have to participate in.  YES/NO",
     "options": [
       "Yes",
       "No"
@@ -656,73 +656,73 @@ const QUESTIONS = [
       "Yes, because there are 8 possible outcomes, each with a 0.125 chance of occurring."
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. The probability depends on how many ways we can possibly have 2  \ncoins land on heads. Since there are 3 coins flipped, the possible outcomes of the three events  \nare: HHH, HHT, HTH, THH, TTH, HTT, THT, TTT. You can draw a tree diagram to represent this.  \n\nSince there are 8 possible outcomes, each one has a 0.125 chance of occurring (because 0.125  \nx 8 = 1.0). If we look at the 8 possible outcomes, 3 of them have 2 coins landed on heads; HHT,  \nHTH, THH. Since each of these outcomes has a 0.125 chance of occurring, the total probability  \nthat 2 coins will land on heads is 0.125 x 3 = 0.375",
+    "explanation": "The correct answer is D. The probability depends on how many ways we can possibly have 2  \ncoins land on heads. Since there are 3 coins flipped, the possible outcomes of the three events  \nare: HHH, HHT, HTH, THH, TTH, HTT, THT, TTT. You can draw a tree diagram to represent this.  \n\nSince there are 8 possible outcomes, each one has a 0.125 chance of occurring (because 0.125  \nx 8 = 1.0). If we look at the 8 possible outcomes, 3 of them have 2 coins landed on heads; HHT,  \nHTH, THH. Since each of these outcomes has a 0.125 chance of occurring, the total probability  \nthat 2 coins will land on heads is 0.125 x 3 = 0.375.",
     "topic": "Decision Making"
   },
   {
     "id": 53,
     "passageId": null,
-    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nSome plants are sweet.",
+    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nSome plants are sweet.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don\u2019t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits \u2013  \n\u201cEvery seed-bearing part of a plant is a fruit\u201d. However, we don\u2019t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
+    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don’t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits –  \n“Every seed-bearing part of a plant is a fruit”. However, we don’t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
     "topic": "Decision Making"
   },
   {
     "id": 54,
     "passageId": null,
-    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nMost bitter plants make yellow fruits.",
+    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nMost bitter plants make yellow fruits.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don\u2019t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits \u2013  \n\u201cEvery seed-bearing part of a plant is a fruit\u201d. However, we don\u2019t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
+    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don’t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits –  \n“Every seed-bearing part of a plant is a fruit”. However, we don’t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
     "topic": "Decision Making"
   },
   {
     "id": 55,
     "passageId": null,
-    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nSome fruits do not come from plants.",
+    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nSome fruits do not come from plants.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don\u2019t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits \u2013  \n\u201cEvery seed-bearing part of a plant is a fruit\u201d. However, we don\u2019t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
+    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don’t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits –  \n“Every seed-bearing part of a plant is a fruit”. However, we don’t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
     "topic": "Decision Making"
   },
   {
     "id": 56,
     "passageId": null,
-    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nPlants without seeds do not have fruits.",
+    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nPlants without seeds do not have fruits.",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don\u2019t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits \u2013  \n\u201cEvery seed-bearing part of a plant is a fruit\u201d. However, we don\u2019t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
+    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don’t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits –  \n“Every seed-bearing part of a plant is a fruit”. However, we don’t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
     "topic": "Decision Making"
   },
   {
     "id": 57,
     "passageId": null,
-    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace \u201cYes\u201d if the conclusion follows. Place \u201cNo\u201d if the conclusion does not follow.\n\nDoes the following conclusion follow?\nAll yellow fruits come from bitter plants.  YES/NO  YES/NO",
+    "text": "Every seed-bearing part of a plant is a fruit. Most fruits are sweet, but some plants are bitter.  \nIf a fruit comes from a bitter plant, it must be yellow.  \n  \nPlace “Yes” if the conclusion follows. Place “No” if the conclusion does not follow.\n\nDoes the follflowing conclusion follow?\nAll yellow fruits come from bitter plants.  YES/NO  YES/NO",
     "options": [
       "Yes",
       "No"
     ],
     "answer": 1,
-    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don\u2019t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits \u2013  \n\u201cEvery seed-bearing part of a plant is a fruit\u201d. However, we don\u2019t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
+    "explanation": "A.   The correct answer is No. The stem only states that some plants are bitter, and  \ndoes not provide further information on the taste of other plants.   \nB.   The correct answer is No. We know that if a bitter plant makes a fruit, it must be  \nyellow. However, we don’t know that  most  of these plants make such fruits.  \nC.   The correct answer is No. There is not enough information to draw this conclusion.  \nD.   The correct answer is No. We know that if there are seeds, there must be fruits –  \n“Every seed-bearing part of a plant is a fruit”. However, we don’t know if there can  \nbe fruits without seeds.  \nE.   The correct answer is No. Bitter plants make yellow fruits, but other plants may  \nalso be able to produce yellow fruits. The stem does not provide enough  \ninformation for this conclusion to be drawn.",
     "topic": "Decision Making"
   },
   {
     "id": 58,
     "passageId": null,
-    "text": "A social club has introduced 3 \u201cevent nights\u201d to take place this week: movie night, book night  \nand games night. The club has taken a poll of how many members will be attending each  \nevent. Of the 80 members, 29 will attend book night, 36 will attend games night, 52 will attend  \nmovie night, 8 will attend only movie night and book night, 10 will attend only book night and  \ngames night, 11 will attend only movie night and games night, 2 will attend only book night.  \n  \nHow many members will not attend any of the event nights?",
+    "text": "A social club has introduced 3 “event nights” to take place this week: movie night, book night  \nand games night. The club has taken a poll of how many members will be attending each  \nevent. Of the 80 members, 29 will attend book night, 36 will attend games night, 52 will attend  \nmovie night, 8 will attend only movie night and book night, 10 will attend only book night and  \ngames night, 11 will attend only movie night and games night, 2 will attend only book night.  \n  \nHow many members will not attend any of the event nights?",
     "options": [
       "10",
       "8",
@@ -744,13 +744,13 @@ const QUESTIONS = [
       "5"
     ],
     "answer": 3,
-    "explanation": "The correct answer is D. We know there are 53 games in total. Since there are 11 more new  \ngames than there are old games, we can say that \u201cx\u201d = old games and \u201cx + 11\u201d = new games.  \nThere are 53 games in total, so \u201cx\u201d + \u201cx + 11\u201d = 53. We can rearrange and solve this to find  \nthat x = 21. So there are 21 old games and 32 new games. We know that there are 39 fun  \ngames, of which 12 are old. So the other 27 fun games must be new. From the total of 32 new  \ngames, we know 27 were fun. So only 5 games remain which are both new and not fun (not  \nfun = boring).",
+    "explanation": "The correct answer is D. We know there are 53 games in total. Since there are 11 more new  \ngames than there are old games, we can say that “x” = old games and “x + 11” = new games.  \nThere are 53 games in total, so “x” + “x + 11” = 53. We can rearrange and solve this to find  \nthat x = 21. So there are 21 old games and 32 new games. We know that there are 39 fun  \ngames, of which 12 are old. So the other 27 fun games must be new. From the total of 32 new  \ngames, we know 27 were fun. So only 5 games remain which are both new and not fun (not  \nfun = boring).",
     "topic": "Decision Making"
   },
   {
     "id": 60,
     "passageId": null,
-    "text": "Adam, Bella, Clyde, Dan and Emil are all eating steaks. They eat their steaks either rare,  \nmedium or well-done. They also eat their steaks either with or without salt.  \n  \nOnly two steaks are with salt.  \nAll steaks without salt are either rare or medium.  \nBella and Dan don\u2019t eat their steaks without salt.  \nOf Adam, Clyde and Emil, Adam is the only one with his steak rare.  \nAll steaks with salt are well-done.  \n  \nWhich of the following statements is correct?",
+    "text": "Adam, Bella, Clyde, Dan and Emil are all eating steaks. They eat their steaks either rare,  \nmedium or well-done. They also eat their steaks either with or without salt.  \n  \nOnly two steaks are with salt.  \nAll steaks without salt are either rare or medium.  \nBella and Dan don’t eat their steaks without salt.  \nOf Adam, Clyde and Emil, Adam is the only one with his steak rare.  \nAll steaks with salt are well-done.  \n  \nWhich of the follflowing statements is correct?",
     "options": [
       "Clyde is eating a medium steak with salt.",
       "Three people have well-done steaks with salt.",
@@ -758,7 +758,7 @@ const QUESTIONS = [
       "Two people have rare steaks without salt."
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. Questions like this are best approached by making short logical  \ndeductions to make the large amount of information easier to comprehend. Since \u201cOnly two  \nsteaks are with salt\u201d and \u201cBella and Dan don\u2019t eat their steaks without salt\u201d, we know that  \nBella and Dan are the two who eat their steaks with salt and everyone else has no salt. Also,  \n\u201cAll steaks with salt are well-done\u201d, so Bella and Dan also eat their steaks well-done. Since  \n\u201cAll steaks without salt are either rare or medium\u201d, Adam, Clyde and Emil must have either  \nrare or medium steaks. \u201cOf Adam, Clyde and Emil, Adam is the only one with his steak rare\u201d  \nmeans Clyde and Emil must eat their steaks medium.",
+    "explanation": "The correct answer is C. Questions like this are best approached by making short logical  \ndeductions to make the large amount of information easier to comprehend. Since “Only two  \nsteaks are with salt” and “Bella and Dan don’t eat their steaks without salt”, we know that  \nBella and Dan are the two who eat their steaks with salt and everyone else has no salt. Also,  \n“All steaks with salt are well-done”, so Bella and Dan also eat their steaks well-done. Since  \n“All steaks without salt are either rare or medium”, Adam, Clyde and Emil must have either  \nrare or medium steaks. “Of Adam, Clyde and Emil, Adam is the only one with his steak rare”  \nmeans Clyde and Emil must eat their steaks medium.",
     "topic": "Decision Making"
   },
   {
